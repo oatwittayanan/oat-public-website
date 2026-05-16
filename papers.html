@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Warren Papers · oatInvestor</title>
+  <meta name="description" content="Investment Papers by Warren — portfolio decisions, fair value analysis, and QGARP recommendations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">o</span><span class="brand-name">oat<b>Investor</b></span></a>
+    <nav class="nav-links">
+      <a href="index.html"    class="nav-link" data-nav="index">Home</a>
+      <a href="stocks.html"   class="nav-link" data-nav="stocks">Stocks</a>
+      <a href="portfolio.html" class="nav-link" data-nav="portfolio">Portfolio</a>
+      <a href="research.html"  class="nav-link" data-nav="research">Research</a>
+      <a href="brief.html"   class="nav-link" data-nav="brief">Weekly Brief</a>
+      <a href="about.html"   class="nav-link" data-nav="about">About</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" data-theme-toggle aria-label="Toggle theme">
+        <svg data-icon-sun viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><path d="M8 1.5v1.5M8 13v1.5M14.5 8H13M3 8H1.5M12.6 3.4l-1.05 1.05M4.45 11.55 3.4 12.6M12.6 12.6l-1.05-1.05M4.45 4.45 3.4 3.4"/></svg>
+        <svg data-icon-moon viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" style="display:none"><path d="M13.5 9.5A5.5 5.5 0 1 1 6.5 2.5a4.5 4.5 0 0 0 7 7Z"/></svg>
+      </button>
+      <a href="brief.html" class="btn btn-primary" style="font-size:13px;padding:7px 12px">Subscribe</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section style="padding-top:48px">
+  <div class="container">
+    <span class="eyebrow">Warren Papers · Investment Decisions</span>
+    <h1 style="font-size:clamp(28px,3.5vw,42px); margin:12px 0 16px; letter-spacing:-0.02em">Portfolio allocation papers<br/>by Warren.</h1>
+    <p class="lead" style="max-width:56ch">ทุก Paper คือ formal investment decision ของ Warren — ระบุตัวหุ้น สัดส่วน และ thesis พร้อม audit trail ที่ Charlie ตรวจสอบแล้วก่อน Oat deploy จริง</p>
+
+    <div class="row" style="gap:10px; margin-top:24px; flex-wrap:wrap">
+      <a href="charlie.html" class="btn">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+        Charlie Audit Reviews
+      </a>
+      <a href="about.html#team" class="btn">Meet the Team</a>
+    </div>
+  </div>
+</section>
+
+<!-- PAPER INDEX -->
+<section class="section">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:24px">
+      <div>
+        <span class="eyebrow">All Papers · 1 paper</span>
+        <h2 style="font-size:22px">Paper Archive</h2>
+      </div>
+    </div>
+
+    <!-- Paper #1 row -->
+    <div class="card card-pad" style="display:flex; align-items:center; gap:20px; padding:20px 24px; margin-bottom:40px; flex-wrap:wrap">
+      <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; min-width:90px">2026-05-13</div>
+      <div style="flex:1; min-width:200px">
+        <div style="font-weight:600; font-size:15px">Paper #1 — Initial Portfolio Setup: First Deployment Strategy</div>
+        <div style="font-size:13px; color:var(--fg-muted); margin-top:4px">Deployed 50% · GOOGL 30% BUY · META 20% BUY · SGOV 50% HOLD</div>
+      </div>
+      <div class="row" style="gap:8px; flex-shrink:0">
+        <span style="font-family:var(--font-mono); font-size:11px; padding:3px 8px; border-radius:4px; background:var(--amber-soft); color:var(--amber); border:1px solid var(--amber-line); text-transform:uppercase; letter-spacing:0.06em">VERY HOT</span>
+        <a href="#paper-1" class="btn" style="font-size:12px; padding:5px 12px">Read ↓</a>
+      </div>
+    </div>
+
+    <!-- PAPER #1 FULL -->
+    <div id="paper-1">
+
+      <!-- Header -->
+      <div style="margin-bottom:32px">
+        <span class="eyebrow">Paper #1 · 2026-05-13</span>
+        <h2 style="font-size:clamp(22px,2.8vw,30px); margin:8px 0 16px; letter-spacing:-0.02em">Initial Portfolio Setup:<br/>First Deployment Strategy</h2>
+        <div class="row" style="gap:8px; flex-wrap:wrap">
+          <div class="author">
+            <div class="author-avatar">WRN</div>
+            <div class="author-info">
+              <div class="author-name">Warren</div>
+              <div class="author-role">Portfolio Manager · oatInvestor</div>
+            </div>
+          </div>
+          <a href="charlie.html#review-1" style="display:flex; align-items:center; gap:6px; font-size:12px; font-family:var(--font-mono); color:var(--green); text-decoration:none; padding:5px 10px; border:1px solid var(--green-line); border-radius:6px; background:var(--green-soft)">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2 6l3 3 5-5"/></svg>
+            Charlie AGREE · Review #1
+          </a>
+        </div>
+      </div>
+
+      <!-- Market Outlook -->
+      <div class="idea-block" style="margin-bottom:32px">
+        <span class="idea-block-eyebrow">🌡 Market Temperature · ภาวะตลาด</span>
+        <div style="display:flex; align-items:center; gap:12px; margin:12px 0">
+          <span style="font-family:var(--font-mono); font-weight:600; font-size:13px; padding:4px 10px; border-radius:6px; background:var(--red,#ef4444); color:#fff; letter-spacing:0.06em; text-transform:uppercase">VERY HOT</span>
+          <span style="font-family:var(--font-mono); font-size:12px; color:var(--fg-muted)">AI Earnings Supercycle · Q1 2026 Confirmed</span>
+        </div>
+        <p class="idea-block-text" style="margin:0">
+          AI Earnings Supercycle ยืนยันแล้วจาก Q1 2026: TSMC +41% YoY, MU ~3x YoY, META +33%, ARM +23%, GCP +63%. ตลาดยังแพง แต่ AI earnings growth เหนือ consensus ชัดเจน — ยังไม่ใช่ bubble ธรรมดา.
+        </p>
+        <div style="margin-top:16px; padding-top:16px; border-top:1px solid var(--amber-line); font-family:var(--font-mono); font-size:12px; color:var(--fg-muted)">
+          <strong style="color:var(--fg)">Rule:</strong> DCA 40–60% เท่านั้น เหลือ 40–60% เป็น SGOV dry powder รอ pullback หรือ VIX&gt;25
+        </div>
+      </div>
+
+      <!-- Portfolio Snapshot -->
+      <div style="margin-bottom:32px">
+        <span class="eyebrow">Portfolio Snapshot · การ deploy เงิน</span>
+        <div class="card card-pad" style="display:grid; grid-template-columns:repeat(3,1fr); gap:0; padding:0; overflow:hidden; margin-top:16px">
+          <div style="padding:24px 20px">
+            <div class="temp-metric-label">Cash Before</div>
+            <div class="temp-metric-value" style="margin-top:6px; color:var(--fg-muted)">100%</div>
+            <div class="temp-metric-sub">Starting allocation</div>
+          </div>
+          <div style="padding:24px 20px; border-left:1px solid var(--hairline)">
+            <div class="temp-metric-label">Deployed</div>
+            <div class="temp-metric-value" style="margin-top:6px; color:var(--amber)">50%</div>
+            <div class="temp-metric-sub">DCA in VERY HOT market</div>
+          </div>
+          <div style="padding:24px 20px; border-left:1px solid var(--hairline)">
+            <div class="temp-metric-label">Dry Powder</div>
+            <div class="temp-metric-value" style="margin-top:6px; color:var(--green)">50%</div>
+            <div class="temp-metric-sub">SGOV — wait for VIX&gt;25</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recommendations -->
+      <div style="margin-bottom:40px">
+        <span class="eyebrow">Recommendations · คำแนะนำ 3 รายการ</span>
+
+        <!-- GOOGL -->
+        <div class="card card-pad" style="margin-top:20px; padding:28px">
+          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:20px">
+            <div>
+              <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap">
+                <a href="stock.html?t=GOOGL" style="font-size:22px; font-weight:700; font-family:var(--font-mono); color:var(--fg); text-decoration:none; letter-spacing:-0.01em">GOOGL</a>
+                <span style="font-size:14px; color:var(--fg-muted)">Alphabet Inc.</span>
+                <span class="waf waf-mid">8.43</span>
+              </div>
+              <div style="font-size:13px; color:var(--fg-muted); margin-top:6px">Big Tech · Search + Cloud + AI</div>
+            </div>
+            <div style="text-align:right; flex-shrink:0">
+              <div class="action action-buy" style="font-size:13px; padding:5px 12px">BUY 30%</div>
+              <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); margin-top:6px">Conviction VERY HIGH ●●●●●</div>
+            </div>
+          </div>
+
+          <div class="idea-block" style="margin-bottom:20px">
+            <span class="idea-block-eyebrow">Investment Idea</span>
+            <p class="idea-block-text" style="margin:0">Full-Stack AI Dominance + Cloud Acceleration: GOOGL คือ cheapest high-quality AI play ใน MAG7 ณ วันนี้ (P/E ~20x, PEG 0.8) ในขณะที่ Cloud กำลัง accelerate ชัดเจน. Antitrust risk สร้าง fear discount ที่เป็นโอกาส — Waymo คือ Free Option ที่ตลาดยังไม่ให้ราคา</p>
+          </div>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-bottom:20px">
+            <div>
+              <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:10px">WAF Sub-scores</div>
+              <div style="display:flex; flex-direction:column; gap:8px">
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">BQ</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill green" style="width:90%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green); width:28px; text-align:right">9.0</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">GP</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill green" style="width:90%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green); width:28px; text-align:right">9.0</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">VA</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill green" style="width:85%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green); width:28px; text-align:right">8.5</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">RA</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill amber" style="width:60%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--amber); width:28px; text-align:right">6.0</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:10px">Valuation</div>
+              <div style="display:flex; flex-direction:column; gap:6px; font-size:13px">
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">Price</span><span style="font-family:var(--font-mono); font-weight:500">$386</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">Fair Value (Base)</span><span style="font-family:var(--font-mono); font-weight:500; color:var(--green)">$560</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">MoS</span><span style="font-family:var(--font-mono); font-weight:600; color:var(--green)">31.1%</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">Fwd P/E</span><span style="font-family:var(--font-mono)">17.5×</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">PEG</span><span style="font-family:var(--font-mono); color:var(--green)">0.80</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding-top:16px; border-top:1px solid var(--hairline); font-size:13px; color:var(--fg-muted); line-height:1.6">
+            <strong style="color:var(--fg)">Thesis:</strong> GOOGL คือ cheapest high-quality AI play ใน MAG7 (P/E ~20x, PEG 0.8) ในขณะที่ Cloud กำลัง accelerate ชัดเจน. Antitrust risk สร้าง fear discount ที่เป็นโอกาส — แม้แพ้คดีก็ไม่ได้ทำลายธุรกิจหลัก. Full-Stack AI vertical integration ไม่มีใครเลียนแบบได้ระยะสั้น.
+          </div>
+          <div style="margin-top:10px; font-size:13px; color:var(--fg-muted); line-height:1.6">
+            <strong style="color:var(--fg)">Risk:</strong> ถ้า DOJ บังคับแยก Search ออกจาก Advertising หรือ Chrome/Android → Core revenue กระทบจริง หรือถ้า AI-first search behavior เปลี่ยนเร็วกว่าที่ GOOGL ปรับตัวได้ → Advertising revenue ลด.
+          </div>
+          <div style="margin-top:14px">
+            <a href="stock.html?t=GOOGL" style="font-size:12px; font-family:var(--font-mono); color:var(--amber); text-decoration:none; letter-spacing:0.03em">Full GOOGL Research →</a>
+          </div>
+        </div>
+
+        <!-- META -->
+        <div class="card card-pad" style="margin-top:16px; padding:28px">
+          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:20px">
+            <div>
+              <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap">
+                <a href="stock.html?t=META" style="font-size:22px; font-weight:700; font-family:var(--font-mono); color:var(--fg); text-decoration:none; letter-spacing:-0.01em">META</a>
+                <span style="font-size:14px; color:var(--fg-muted)">Meta Platforms</span>
+                <span class="waf waf-mid">8.30</span>
+              </div>
+              <div style="font-size:13px; color:var(--fg-muted); margin-top:6px">Big Tech · Social Media + AI</div>
+            </div>
+            <div style="text-align:right; flex-shrink:0">
+              <div class="action action-buy" style="font-size:13px; padding:5px 12px">BUY 20%</div>
+              <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); margin-top:6px">Conviction HIGH ●●●●○</div>
+            </div>
+          </div>
+
+          <div class="idea-block" style="margin-bottom:20px">
+            <span class="idea-block-eyebrow">Investment Idea</span>
+            <p class="idea-block-text" style="margin:0">AI Monetization of 3B+ User Base: AI เพิ่ม advertising ROI และ engagement ใน Instagram/Facebook/WhatsApp อย่างมหาศาล. AI Lab ที่ซ่อนอยู่ใน META มูลค่า $200-300B ที่ตลาดยังไม่ให้ราคา</p>
+          </div>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-bottom:20px">
+            <div>
+              <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:10px">WAF Sub-scores</div>
+              <div style="display:flex; flex-direction:column; gap:8px">
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">BQ</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill green" style="width:90%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green); width:28px; text-align:right">9.0</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">GP</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill green" style="width:85%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green); width:28px; text-align:right">8.5</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">VA</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill green" style="width:80%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green); width:28px; text-align:right">8.0</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:10px">
+                  <span style="font-family:var(--font-mono); font-size:11px; width:30px; color:var(--fg-muted)">RA</span>
+                  <div class="waf-bar" style="flex:1"><div class="waf-bar-fill amber" style="width:70%"></div></div>
+                  <span style="font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--amber); width:28px; text-align:right">7.0</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:10px">Valuation</div>
+              <div style="display:flex; flex-direction:column; gap:6px; font-size:13px">
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">Price</span><span style="font-family:var(--font-mono); font-weight:500">$598.86</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">Fair Value (Base)</span><span style="font-family:var(--font-mono); font-weight:500; color:var(--green)">$840</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">MoS</span><span style="font-family:var(--font-mono); font-weight:600; color:var(--green)">28.7%</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">Fwd P/E</span><span style="font-family:var(--font-mono)">18.1×</span></div>
+                <div style="display:flex; justify-content:space-between"><span style="color:var(--fg-muted)">PEG</span><span style="font-family:var(--font-mono); color:var(--green)">0.90</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding-top:16px; border-top:1px solid var(--hairline); font-size:13px; color:var(--fg-muted); line-height:1.6">
+            <strong style="color:var(--fg)">Thesis:</strong> META เป็น Quality Compounder ที่ traded at reasonable valuation (P/E ~20x) ในขณะที่ AI มาช่วยเพิ่มทั้ง engagement และ ad ROI พร้อมกัน. AI Lab hidden asset = free call option ที่ไม่มีราคาในหุ้นปัจจุบัน. Zuckerberg execution track record ยอดเยี่ยม.
+          </div>
+          <div style="margin-top:10px; font-size:13px; color:var(--fg-muted); line-height:1.6">
+            <strong style="color:var(--fg)">Risk:</strong> ถ้า EU/US regulation บังคับ separate Facebook จาก Instagram → เสีย network effect. CapEx $125-145B FY2026 = commitment ใหญ่สุดในประวัติ META.
+          </div>
+          <div style="margin-top:14px">
+            <a href="stock.html?t=META" style="font-size:12px; font-family:var(--font-mono); color:var(--amber); text-decoration:none; letter-spacing:0.03em">Full META Research →</a>
+          </div>
+        </div>
+
+        <!-- SGOV -->
+        <div class="card card-pad" style="margin-top:16px; padding:28px; border-style:dashed; opacity:0.75">
+          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:16px">
+            <div>
+              <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap">
+                <span style="font-size:22px; font-weight:700; font-family:var(--font-mono); color:var(--fg); letter-spacing:-0.01em">SGOV</span>
+                <span style="font-size:14px; color:var(--fg-muted)">iShares 0–3 Month Treasury Bond ETF</span>
+              </div>
+              <div style="font-size:13px; color:var(--fg-muted); margin-top:6px">Dry Powder · Cash Equivalent</div>
+            </div>
+            <div style="text-align:right; flex-shrink:0">
+              <div class="action action-hold" style="font-size:13px; padding:5px 12px">HOLD 50%</div>
+            </div>
+          </div>
+
+          <div style="font-size:13px; color:var(--fg-muted); line-height:1.6">
+            <strong style="color:var(--fg)">Thesis:</strong> VERY HOT market (CAPE 40.3) → DCA เพียง 50% ตาม Market Temperature Rule. ถือ SGOV 50% เป็น dry powder รอ: (1) NVDA pullback ต่ำกว่า $200 (2) AVGO pullback เพื่อ MoS ที่ดีขึ้น (3) Market correction VIX&gt;25 → deploy มากขึ้น.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer note -->
+      <div style="padding:20px 24px; border:1px solid var(--hairline); border-radius:var(--radius-lg); background:var(--bg-elev); font-size:13px; color:var(--fg-muted); line-height:1.6">
+        <strong style="color:var(--fg)">Note:</strong> ราคาใน Paper นี้ ($386 GOOGL, $599 META) คือราคา ณ วันที่วิเคราะห์ 2026-05-13 — ตรวจสอบราคาปัจจุบันก่อนซื้อจริงเสมอ. Paper ทุกฉบับต้องผ่าน Charlie Review ก่อน Oat deploy จริง.
+        <span style="display:block; margin-top:8px"><a href="charlie.html#review-1" style="color:var(--amber); text-decoration:none">→ อ่าน Charlie Review #1 (AGREE)</a></span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="brand" style="margin-bottom:14px">
+          <span class="brand-mark">o</span>
+          <span class="brand-name">oat<b>Investor</b></span>
+        </div>
+        <p style="max-width:42ch; color:var(--fg-muted)">
+          Independent investment content for Thai retail investors. Quality at a reasonable price — long term, no leverage, no drama.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stocks.html">Stocks</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="papers.html">Warren Papers</a></li>
+          <li><a href="charlie.html">Charlie Reviews</a></li>
+          <li><a href="brief.html">Weekly Brief</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="https://youtube.com/@oatinvestor" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="https://tiktok.com/@oatinvestor" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="https://instagram.com/oatinvestor" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="#discord">Discord</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-disclaimer">
+      <span>© 2026 oatInvestor. Educational content only — not investment advice.<br/>เนื้อหานี้เพื่อการศึกษา ไม่ใช่คำแนะนำในการลงทุน</span>
+      <span>Built in Bangkok 🇹🇭</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

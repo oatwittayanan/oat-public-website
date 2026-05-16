@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weekly Brief · oatInvestor</title>
+  <meta name="description" content="Weekly investment brief — markets, earnings, position changes. ส่งทุกวันจันทร์." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">o</span><span class="brand-name">oat<b>Investor</b></span></a>
+    <nav class="nav-links">
+      <a href="index.html"    class="nav-link" data-nav="index">Home</a>
+      <a href="stocks.html"   class="nav-link" data-nav="stocks">Stocks</a>
+      <a href="portfolio.html" class="nav-link" data-nav="portfolio">Portfolio</a>
+      <a href="research.html"  class="nav-link" data-nav="research">Research</a>
+      <a href="brief.html"   class="nav-link" data-nav="brief">Weekly Brief</a>
+      <a href="about.html"   class="nav-link" data-nav="about">About</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" data-theme-toggle aria-label="Toggle theme">
+        <svg data-icon-sun viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><path d="M8 1.5v1.5M8 13v1.5M14.5 8H13M3 8H1.5M12.6 3.4l-1.05 1.05M4.45 11.55 3.4 12.6M12.6 12.6l-1.05-1.05M4.45 4.45 3.4 3.4"/></svg>
+        <svg data-icon-moon viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" style="display:none"><path d="M13.5 9.5A5.5 5.5 0 1 1 6.5 2.5a4.5 4.5 0 0 0 7 7Z"/></svg>
+      </button>
+      <a href="#subscribe" class="btn btn-primary" style="font-size:13px;padding:7px 12px">Subscribe</a>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding-top:48px">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:32px">
+      <div>
+        <span class="eyebrow">Weekly Brief · จดหมายสัปดาห์</span>
+        <h2 style="font-size:clamp(28px, 3.4vw, 36px)">Every Monday. 8-minute read.</h2>
+        <p class="lead">Markets, earnings, position changes — one brief, no noise. ส่งทุกวันจันทร์ก่อนเปิดตลาดสหรัฐ</p>
+      </div>
+      <a href="#subscribe" class="btn btn-primary">
+        Subscribe (free)
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 7h8M7.5 3.5 11 7l-3.5 3.5"/></svg>
+      </a>
+    </div>
+
+    <!-- BRIEF DETAIL — current issue -->
+    <article class="brief-detail-grid" style="margin-bottom:64px">
+      <div class="brief-body">
+
+        <div>
+          <div class="row" style="gap:10px; flex-wrap:wrap; margin-bottom:14px">
+            <span class="chip">Issue 47</span>
+            <span class="chip">Wed 14 May 2026</span>
+            <span class="temp temp-hot"><span class="chip-dot"></span>Market · Hot</span>
+          </div>
+          <h1 style="font-size:clamp(28px, 4vw, 40px); letter-spacing:-0.03em; line-height:1.1">
+            Nvidia delivers, but the rest of the AI trade is starting to look stretched.
+          </h1>
+          <p class="lead-p" style="margin-top:14px">
+            Q1 earnings season ปิดฉากแล้ว Mag 7 beat consensus ด้วยค่า narrow margin 1.4% — ดีกว่าที่กลัว แต่ไม่ดีกว่าที่ราคาสะท้อนไว้ Capex guidance ชี้อีกปีของ AI infrastructure ~$300B ซึ่งดีสำหรับ NVDA และ TSMC แต่แทบไม่มีใครอีกได้ประโยชน์
+          </p>
+          <div class="author" style="margin-top:18px">
+            <div class="author-avatar">OA</div>
+            <div class="author-info">
+              <div class="author-name">Oat Suntichotinun</div>
+              <div class="author-role">Fund Manager · 8 min read</div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="divider" />
+
+        <section>
+          <h2>1 · Market Overview</h2>
+          <p>
+            S&amp;P 500 ปิดสัปดาห์ +0.9% — green week ที่ 5 ต่อกัน CAPE ที่ 37.2× ตอนนี้อยู่ใน percentile ที่ 95 ของทุก reading ตั้งแต่ปี 1881 Market Temperature gauge ยังอยู่ที่ <strong>Hot</strong> ซึ่งเป็น cue ของเราว่าให้ harvest gains ใน over-extended names และ rebuild cash buffer
+          </p>
+          <p>
+            VIX ที่ 14.8 คือส่วนที่น่ากังวลมากกว่า multiple เมื่อทุกคน agree ว่าไม่มีอะไรผิดพลาดได้ มักจะมีอะไรผิดพลาดเสมอ เราไม่ใช่ bear — เราแค่เป็น seller of certainty
+          </p>
+        </section>
+
+        <section>
+          <h2>2 · Earnings Recap</h2>
+          <p>
+            NVIDIA beat ทั้ง revenue และ EPS พร้อม guide ahead Blackwell ramp ahead of schedule — คือข่าวดีที่สุดของ quarter Microsoft และ Google post in-line cloud growth Meta ad business ยังคือ cash flow story ที่ under-appreciated ที่สุดใน mega-cap Apple services growth ชะลอ 2 points — คือ warning เราเฝ้ารอ AMZN คือ cleanest beat — AWS margin expanded 380bps YoY
+          </p>
+        </section>
+
+        <section>
+          <h2>3 · Position Changes</h2>
+          <p>
+            ตัด AVGO ออก 1 ใน 3 (จาก 4% เหลือ 2.7% of book) — multiple ตอนนี้ require execution ที่ underwrite ไม่ได้ Add TSM เมื่อ dip ต่ำกว่า $380 เมื่อวันอังคาร NVDA position ยังเดิม
+          </p>
+        </section>
+
+        <section>
+          <h2>4 · What We're Watching Next Week</h2>
+          <p>
+            วันพุธ: FOMC minutes วันพฤหัส: NVIDIA GTC Taipei keynote — ฟัง Rubin ramp commentary และ hint ถึง architecture ถัดไป วันศุกร์: U.S. PCE
+          </p>
+        </section>
+
+      </div>
+
+      <aside class="brief-side">
+        <div class="brief-side-card">
+          <h4>Tickers to watch</h4>
+          <div class="brief-watchrow">
+            <a href="stock-nvda.html" class="row"><span class="mono" style="font-weight:600">NVDA</span></a>
+            <span class="action action-watch">Watch</span>
+          </div>
+          <div class="brief-watchrow">
+            <span class="mono" style="font-weight:600">GOOGL</span>
+            <span class="action action-buy">Buy</span>
+          </div>
+          <div class="brief-watchrow">
+            <span class="mono" style="font-weight:600">TSM</span>
+            <span class="action action-buy">Buy</span>
+          </div>
+          <div class="brief-watchrow">
+            <span class="mono" style="font-weight:600">AVGO</span>
+            <span class="action action-watch">Trim</span>
+          </div>
+          <div class="brief-watchrow">
+            <span class="mono" style="font-weight:600">META</span>
+            <span class="action action-buy">Buy</span>
+          </div>
+        </div>
+
+        <div class="brief-side-card">
+          <h4>Market gauge</h4>
+          <div class="row-between" style="margin-bottom:10px">
+            <span class="muted" style="font-size:13px">Temperature</span>
+            <span class="temp temp-hot"><span class="chip-dot"></span>Hot</span>
+          </div>
+          <div class="row-between" style="margin-bottom:10px">
+            <span class="muted" style="font-size:13px">CAPE</span>
+            <span class="mono" style="font-size:13px">37.2×</span>
+          </div>
+          <div class="row-between" style="margin-bottom:10px">
+            <span class="muted" style="font-size:13px">VIX</span>
+            <span class="mono" style="font-size:13px">14.8</span>
+          </div>
+          <div class="row-between">
+            <span class="muted" style="font-size:13px">Cash %</span>
+            <span class="mono" style="font-size:13px">12%</span>
+          </div>
+        </div>
+
+        <div class="brief-side-card" id="subscribe" style="background:linear-gradient(180deg, var(--amber-soft), transparent), var(--bg-elev); border-color:var(--amber-line)">
+          <h4 style="color:var(--amber)">Get this in your inbox</h4>
+          <p style="font-size:13px; color:var(--fg-muted); line-height:1.5; margin-bottom:14px">
+            Free weekly brief — ทุกวันจันทร์ก่อน US market open No spam, unsubscribe anytime.
+          </p>
+          <div class="row" style="background:var(--bg-soft); border:1px solid var(--hairline); border-radius:var(--radius-sm); padding:4px 4px 4px 12px; gap:8px">
+            <span class="muted" style="font-size:13px; flex:1">you@email.com</span>
+            <button class="btn btn-primary" style="font-size:12px; padding:6px 10px">Join</button>
+          </div>
+        </div>
+      </aside>
+    </article>
+
+    <!-- ARCHIVE -->
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Archive · ฉบับย้อนหลัง</span>
+        <h2 style="font-size:24px">Past briefs</h2>
+      </div>
+      <span class="link-inline mono" style="font-size:11px">47 issues · since June 2025</span>
+    </div>
+
+    <div class="brief-list">
+
+      <a class="brief-card" href="#">
+        <div class="brief-card-date">
+          <div class="brief-card-issue">Issue 46</div>
+          <div class="brief-card-when">5 May</div>
+        </div>
+        <div class="brief-card-mid">
+          <div class="brief-card-headline">FOMC holds, dot plot softens — what we're buying with the rate cut window open.</div>
+          <p class="brief-card-summary">Earnings season pivots to consumer names. Netflix impresses; AMD disappoints again on data center share.</p>
+        </div>
+        <div class="brief-card-right">
+          <span class="temp temp-hot"><span class="chip-dot"></span>Hot</span>
+          <div class="tag-row" style="justify-content:flex-end">
+            <span class="chip">NFLX</span><span class="chip">AMD</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="brief-card" href="#">
+        <div class="brief-card-date">
+          <div class="brief-card-issue">Issue 45</div>
+          <div class="brief-card-when">28 Apr</div>
+        </div>
+        <div class="brief-card-mid">
+          <div class="brief-card-headline">Mag 7 earnings preview — the bar is high enough to trip over.</div>
+          <p class="brief-card-summary">Setting expectations going into the biggest week of the quarter. Where consensus is too optimistic, and where it's beatable.</p>
+        </div>
+        <div class="brief-card-right">
+          <span class="temp temp-hot"><span class="chip-dot"></span>Hot</span>
+          <div class="tag-row" style="justify-content:flex-end">
+            <span class="chip">META</span><span class="chip">MSFT</span><span class="chip">GOOGL</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="brief-card" href="#">
+        <div class="brief-card-date">
+          <div class="brief-card-issue">Issue 44</div>
+          <div class="brief-card-when">21 Apr</div>
+        </div>
+        <div class="brief-card-mid">
+          <div class="brief-card-headline">Why we sold half our TSLA, and what's replacing it.</div>
+          <p class="brief-card-summary">Auto margin compression accelerated through Q1. Moved capital to TSM — higher conviction, better price.</p>
+        </div>
+        <div class="brief-card-right">
+          <span class="temp temp-normal"><span class="chip-dot"></span>Normal</span>
+          <div class="tag-row" style="justify-content:flex-end">
+            <span class="chip">TSLA</span><span class="chip">TSM</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="brief-card" href="#">
+        <div class="brief-card-date">
+          <div class="brief-card-issue">Issue 43</div>
+          <div class="brief-card-when">14 Apr</div>
+        </div>
+        <div class="brief-card-mid">
+          <div class="brief-card-headline">Tariffs, again — sizing the second-order effects for our portfolio.</div>
+          <p class="brief-card-summary">A practical framework for thinking about supply-chain exposure when macro headline is louder than fundamentals.</p>
+        </div>
+        <div class="brief-card-right">
+          <span class="temp temp-normal"><span class="chip-dot"></span>Normal</span>
+          <div class="tag-row" style="justify-content:flex-end">
+            <span class="chip">AAPL</span><span class="chip">ASML</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="brief-card" href="#">
+        <div class="brief-card-date">
+          <div class="brief-card-issue">Issue 42</div>
+          <div class="brief-card-when">7 Apr</div>
+        </div>
+        <div class="brief-card-mid">
+          <div class="brief-card-headline">Cold snap — the buying opportunities we built a shopping list for.</div>
+          <p class="brief-card-summary">6% drawdown took our gauge from Hot to Cold in 4 sessions. Three names we added, two we sized up.</p>
+        </div>
+        <div class="brief-card-right">
+          <span class="temp temp-cold"><span class="chip-dot"></span>Cold</span>
+          <div class="tag-row" style="justify-content:flex-end">
+            <span class="chip">GOOGL</span><span class="chip">AMZN</span><span class="chip">ASML</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="brief-card" href="#">
+        <div class="brief-card-date">
+          <div class="brief-card-issue">Issue 41</div>
+          <div class="brief-card-when">31 Mar</div>
+        </div>
+        <div class="brief-card-mid">
+          <div class="brief-card-headline">Q1 in review — the trades that worked, the ones that didn't, the lessons.</div>
+          <p class="brief-card-summary">Honest scorecard. Every position, every change, every mistake. ขอเล่ายาวๆ ครั้งเดียวต่อไตรมาส</p>
+        </div>
+        <div class="brief-card-right">
+          <span class="temp temp-veryhot"><span class="chip-dot"></span>Very Hot</span>
+          <div class="tag-row" style="justify-content:flex-end">
+            <span class="chip">+11 tickers</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <p class="muted" style="margin-top:24px; font-size:13px; text-align:center; font-family:var(--font-mono); letter-spacing:0.05em">
+      Showing 6 of 47 · <a class="link-inline" href="#" style="color:var(--amber)">Load older issues</a>
+    </p>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="brand" style="margin-bottom:14px">
+          <span class="brand-mark">o</span>
+          <span class="brand-name">oat<b>Investor</b></span>
+        </div>
+        <p style="max-width:42ch; color:var(--fg-muted)">
+          Independent investment content for Thai retail investors. Quality at a reasonable price — long term, no leverage, no drama.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stocks.html">Stocks</a></li>
+          <li><a href="brief.html">Weekly Brief</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#youtube">YouTube</a></li>
+          <li><a href="#tiktok">TikTok</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#discord">Discord</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-disclaimer">
+      <span>© 2026 oatInvestor. Educational content only — not investment advice.<br/>เนื้อหานี้เพื่อการศึกษา ไม่ใช่คำแนะนำในการลงทุน</span>
+      <span>Built in Bangkok 🇹🇭</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

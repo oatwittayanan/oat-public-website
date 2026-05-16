@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stocks · oatInvestor</title>
+  <meta name="description" content="Stock ideas filtered by sector — semiconductor, big tech, consumer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">o</span><span class="brand-name">oat<b>Investor</b></span></a>
+    <nav class="nav-links">
+      <a href="index.html"    class="nav-link" data-nav="index">Home</a>
+      <a href="stocks.html"   class="nav-link" data-nav="stocks">Stocks</a>
+      <a href="portfolio.html" class="nav-link" data-nav="portfolio">Portfolio</a>
+      <a href="research.html"  class="nav-link" data-nav="research">Research</a>
+      <a href="brief.html"   class="nav-link" data-nav="brief">Weekly Brief</a>
+      <a href="about.html"   class="nav-link" data-nav="about">About</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" data-theme-toggle aria-label="Toggle theme">
+        <svg data-icon-sun viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><path d="M8 1.5v1.5M8 13v1.5M14.5 8H13M3 8H1.5M12.6 3.4l-1.05 1.05M4.45 11.55 3.4 12.6M12.6 12.6l-1.05-1.05M4.45 4.45 3.4 3.4"/></svg>
+        <svg data-icon-moon viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" style="display:none"><path d="M13.5 9.5A5.5 5.5 0 1 1 6.5 2.5a4.5 4.5 0 0 0 7 7Z"/></svg>
+      </button>
+      <a href="brief.html" class="btn btn-primary" style="font-size:13px;padding:7px 12px">Subscribe</a>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding-top:48px">
+  <div class="container">
+
+    <div class="section-head" style="margin-bottom:32px">
+      <div>
+        <span class="eyebrow">All stocks · หุ้นทั้งหมด</span>
+        <h2 style="font-size:clamp(28px, 3.4vw, 36px)">15 names on the radar.</h2>
+        <p class="lead">Filtered by the WAF framework. เราถือ / Watch / Hold ตาม Valuation ปัจจุบัน — ไม่ใช่ความคิดเห็นต่อธุรกิจ</p>
+      </div>
+      <div class="row" style="gap:14px; font-family:var(--font-mono); font-size:11px; color:var(--fg-muted); letter-spacing:0.05em; text-transform:uppercase">
+        <span class="row" style="gap:6px"><span style="background:var(--green); width:7px; height:7px; border-radius:50%; display:inline-block"></span>Buy 4</span>
+        <span class="row" style="gap:6px"><span style="background:var(--blue); width:7px; height:7px; border-radius:50%; display:inline-block"></span>Watch 9</span>
+        <span class="row" style="gap:6px"><span style="background:var(--fg-dim); width:7px; height:7px; border-radius:50%; display:inline-block"></span>Hold 2</span>
+      </div>
+    </div>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar" data-filter-group>
+      <div class="filter-tabs">
+        <button class="filter-tab is-active" data-filter="all">All <span class="mono dim" style="margin-left:6px">15</span></button>
+        <button class="filter-tab" data-filter="semi">Semiconductor <span class="mono dim" style="margin-left:6px">8</span></button>
+        <button class="filter-tab" data-filter="bigtech">Big Tech <span class="mono dim" style="margin-left:6px">5</span></button>
+        <button class="filter-tab" data-filter="consumer">Consumer <span class="mono dim" style="margin-left:6px">2</span></button>
+      </div>
+      <div class="filter-search">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3" stroke-linecap="round"/></svg>
+        <span>Search ticker or company</span>
+      </div>
+    </div>
+
+    <!-- STOCK GRID -->
+    <div class="stocks-grid">
+
+      <!-- GOOGL -->
+      <a class="stock-card" href="stock.html?t=GOOGL" data-sector="bigtech">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">GOOGL</div>
+            <div class="stock-card-name">Alphabet Inc. · Big Tech</div>
+          </div>
+          <span class="waf waf-mid">8.43</span>
+        </div>
+        <p class="stock-card-idea">Cheapest high-quality AI play ใน MAG7. P/E 20x, Cloud +63%, Antitrust discount = โอกาสที่ตลาดมองข้าม</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span></span>
+          </span>
+          <span class="action action-buy">Buy</span>
+        </div>
+      </a>
+
+      <!-- NVDA -->
+      <a class="stock-card" href="stock.html?t=NVDA" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">NVDA</div>
+            <div class="stock-card-name">NVIDIA Corp · Semiconductor</div>
+          </div>
+          <span class="waf waf-mid">8.43</span>
+        </div>
+        <p class="stock-card-idea">CUDA moat 7.5M developers + Blackwell ramp. AI Platform leader — รอ pullback ต่ำกว่า $200</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- META -->
+      <a class="stock-card" href="stock.html?t=META" data-sector="bigtech">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">META</div>
+            <div class="stock-card-name">Meta Platforms · Big Tech</div>
+          </div>
+          <span class="waf waf-mid">8.30</span>
+        </div>
+        <p class="stock-card-idea">P/E 22x, AI Lab ยังไม่สะท้อนในราคา — มูลค่า hidden $200-300B ที่ตลาดยังไม่เห็น</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-buy">Buy</span>
+        </div>
+      </a>
+
+      <!-- MSFT -->
+      <a class="stock-card" href="stock.html?t=MSFT" data-sector="bigtech">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">MSFT</div>
+            <div class="stock-card-name">Microsoft · Big Tech</div>
+          </div>
+          <span class="waf waf-mid">8.25</span>
+        </div>
+        <p class="stock-card-idea">Azure AI Flywheel + $627B RPO backlog. P/E 24x สมเหตุสมผล เหมาะ DCA รายเดือน</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-buy">Buy</span>
+        </div>
+      </a>
+
+      <!-- ASML -->
+      <a class="stock-card" href="stock.html?t=ASML" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">ASML</div>
+            <div class="stock-card-name">ASML Holding · Semiconductor</div>
+          </div>
+          <span class="waf waf-mid">8.00</span>
+        </div>
+        <p class="stock-card-idea">EUV monopoly ไม่มีคู่แข่ง. ทุก 2nm chip ในโลกผ่าน ASML ทั้งนั้น. HBM supercycle = demand ยาว</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- TSM -->
+      <a class="stock-card" href="stock.html?t=TSM" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">TSM</div>
+            <div class="stock-card-name">Taiwan Semi · Semiconductor</div>
+          </div>
+          <span class="waf waf-mid">8.00</span>
+        </div>
+        <p class="stock-card-idea">Undisputed foundry leader. CoWoS = AI chip chokepoint ของโลก. Q1 2026 +41% YoY, GM 66%</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-buy">Buy</span>
+        </div>
+      </a>
+
+      <!-- AMZN -->
+      <a class="stock-card" href="stock.html?t=AMZN" data-sector="bigtech">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">AMZN</div>
+            <div class="stock-card-name">Amazon · Big Tech</div>
+          </div>
+          <span class="waf waf-mid">7.93</span>
+        </div>
+        <p class="stock-card-idea">AWS fastest growth in 15Q + Anthropic ARR พุ่ง. Three-headed compounder — MoS 9.5% ยังน้อยอยู่</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- ARM -->
+      <a class="stock-card" href="stock.html?t=ARM" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">ARM</div>
+            <div class="stock-card-name">Arm Holdings · Semiconductor</div>
+          </div>
+          <span class="waf waf-mid">7.83</span>
+        </div>
+        <p class="stock-card-idea">22M developers + 350B chips shipped. Armv9 migration = structural royalty increase ทุกปี</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- AAPL -->
+      <a class="stock-card" href="stock.html?t=AAPL" data-sector="bigtech">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">AAPL</div>
+            <div class="stock-card-name">Apple Inc. · Big Tech</div>
+          </div>
+          <span class="waf waf-mid">7.75</span>
+        </div>
+        <p class="stock-card-idea">2.5B installed base + Services GM 75%. CEO transition Ternus ก.ย. 2026 = near-term risk</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- AVGO -->
+      <a class="stock-card" href="stock.html?t=AVGO" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">AVGO</div>
+            <div class="stock-card-name">Broadcom · Semiconductor</div>
+          </div>
+          <span class="waf waf-mid">7.50</span>
+        </div>
+        <p class="stock-card-idea">Custom XPU moat กับ Google/Meta/OpenAI + AI revenue +106% YoY แต่ราคาเกิน Fair Value $350</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- MU -->
+      <a class="stock-card" href="stock.html?t=MU" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">MU</div>
+            <div class="stock-card-name">Micron Technology · Semiconductor</div>
+          </div>
+          <span class="waf waf-mid">7.50</span>
+        </div>
+        <p class="stock-card-idea">HBM3E AI supercycle + only US-based advanced memory. Fwd P/E 8x ถูกมากในกลุ่ม AI</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- NFLX -->
+      <a class="stock-card" href="stock.html?t=NFLX" data-sector="consumer">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">NFLX</div>
+            <div class="stock-card-name">Netflix Inc. · Consumer</div>
+          </div>
+          <span class="waf waf-low">7.45</span>
+        </div>
+        <p class="stock-card-idea">Streaming moat ชนะแล้ว. Ads + Live Sports = monetization engine ใหม่. MoS 4.5% ยังน้อย</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- AMD -->
+      <a class="stock-card" href="stock.html?t=AMD" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">AMD</div>
+            <div class="stock-card-name">AMD · Semiconductor</div>
+          </div>
+          <span class="waf waf-low">7.30</span>
+        </div>
+        <p class="stock-card-idea">Second Platform thesis ดี MI455X bandwidth เหนือ NVIDIA แต่ ROCm ยังตาม CUDA. ราคาแพงเกิน</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-watch">Watch</span>
+        </div>
+      </a>
+
+      <!-- TSLA -->
+      <a class="stock-card" href="stock.html?t=TSLA" data-sector="consumer">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">TSLA</div>
+            <div class="stock-card-name">Tesla Inc. · Consumer</div>
+          </div>
+          <span class="waf waf-low">6.73</span>
+        </div>
+        <p class="stock-card-idea">Optimus robotics thesis น่าสนใจ แต่ P/E 150x+ สะท้อนทุกอย่างสำเร็จแล้ว Key person risk สูง</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-hold">Hold</span>
+        </div>
+      </a>
+
+      <!-- INTC -->
+      <a class="stock-card" href="stock.html?t=INTC" data-sector="semi">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">INTC</div>
+            <div class="stock-card-name">Intel Corp · Semiconductor</div>
+          </div>
+          <span class="waf waf-low">6.20</span>
+        </div>
+        <p class="stock-card-idea">18A RibbonFET = make-or-break. ยังขาดทุน GAAP แต่ foundry external revenue เริ่ม turn</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots"><span class="conv-dot on"></span><span class="conv-dot on"></span><span class="conv-dot"></span><span class="conv-dot"></span><span class="conv-dot"></span></span>
+          </span>
+          <span class="action action-hold">Hold</span>
+        </div>
+      </a>
+
+    </div>
+
+    <p class="muted" style="margin-top:32px; font-size:13px; text-align:center; font-family:var(--font-mono); letter-spacing:0.05em">
+      แสดงทั้งหมด 15 หุ้น · อัพเดท 14 May 2026
+    </p>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="brand" style="margin-bottom:14px">
+          <span class="brand-mark">o</span>
+          <span class="brand-name">oat<b>Investor</b></span>
+        </div>
+        <p style="max-width:42ch; color:var(--fg-muted)">
+          Independent investment content for Thai retail investors. Quality at a reasonable price — long term, no leverage, no drama.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stocks.html">Stocks</a></li>
+          <li><a href="brief.html">Weekly Brief</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#youtube">YouTube</a></li>
+          <li><a href="#tiktok">TikTok</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#discord">Discord</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-disclaimer">
+      <span>© 2026 oatInvestor. Educational content only — not investment advice.<br/>เนื้อหานี้เพื่อการศึกษา ไม่ใช่คำแนะนำในการลงทุน</span>
+      <span>Built in Bangkok 🇹🇭</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
