@@ -186,7 +186,6 @@
         <div style="margin-bottom:12px; flex-shrink:0; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap">
           <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase">
             Performance vs Benchmark
-            <span id="perf-src" style="color:var(--amber); margin-left:8px"></span>
           </div>
           <div id="bench-returns" style="display:flex; gap:8px; font-family:var(--font-mono); font-size:11px; flex-wrap:wrap"></div>
         </div>
@@ -1538,7 +1537,6 @@ function calcWhatIfLineDollar(history, deposits) {
 
 // Draw chart directly from Warren /api/benchmark response
 function renderFromWarrenData(data) {
-  const src = document.getElementById('perf-src');
   const labels = data.dates.map(d => {
     const dt = new Date(d);
     return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -1560,11 +1558,9 @@ function renderFromWarrenData(data) {
     showBenchReturnsPct(pct(lastPort), pct(lastVoo), pct(lastQqqm));
   }
 
-  if (src) src.textContent = 'Warren (local)';
 }
 
 async function renderBenchmarkChart() {
-  const src = document.getElementById('perf-src');
   const findLast = arr => { for(let i=(arr||[]).length-1;i>=0;i--) if(arr[i]!=null) return arr[i]; return null; };
 
   // ── Step 1: Draw immediately from local deposit data (no fetch) ───────────
@@ -1575,7 +1571,6 @@ async function renderBenchmarkChart() {
     const depV0   = calcDepositedLine(timeline0, portfolioDeposits);
     drawPerfChart(labels0, portV0, null, null, depV0);
     updateBenchReturns(findLast(portV0), null, null);
-    if (src) src.textContent = 'Portfolio only';
   }
 
   // ── Step 2a: Static JSON (generated daily by GitHub Actions — always works) ──
@@ -1608,10 +1603,7 @@ async function renderBenchmarkChart() {
     const vooData  = await fetchHistory('VOO',  period1).catch(() => null);
     const qqqmData = await fetchHistory('QQQM', period1).catch(() => null);
 
-    if (!vooData?.length && !qqqmData?.length) {
-      if (src) src.textContent = '⚠ เปิด OAT OS หรือตั้งค่า Benchmark tab';
-      return;
-    }
+    if (!vooData?.length && !qqqmData?.length) return;
 
     const refData = vooData || qqqmData;
     const labels  = refData.map(p => p.date);
@@ -1628,7 +1620,6 @@ async function renderBenchmarkChart() {
 
     drawPerfChart(labels, portVals, vooVals, qqqmVals, depVals);
     updateBenchReturns(findLast(portVals), findLast(vooVals), findLast(qqqmVals));
-    if (src) src.textContent = 'Google Sheets';
   } catch(e) {
     console.error('[bench]', e.message);
   }
