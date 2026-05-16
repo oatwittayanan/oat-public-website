@@ -3,12 +3,347 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Research · oatInvestor</title>
-  <meta name="description" content="Research articles by Mark — in-depth analysis of US tech and semiconductor stocks. Coming soon." />
+  <title>Trend Research · oatInvestor</title>
+  <meta name="description" content="12 Trends ที่ Warren ติดตาม — AI Infrastructure, Memory Supercycle, Optical Interconnect และอีก 9 trends" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── Trend page specific styles ── */
+    .trend-hero {
+      padding: 48px 0 40px;
+    }
+    .filter-bar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .filter-btn {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--hairline-strong);
+      background: transparent;
+      color: var(--fg-muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .filter-btn:hover {
+      border-color: var(--fg-dim);
+      color: var(--fg);
+    }
+    .filter-btn.active {
+      background: var(--fg);
+      color: var(--bg);
+      border-color: var(--fg);
+    }
+    .filter-btn.active-high {
+      background: var(--green-soft);
+      color: var(--green);
+      border-color: var(--green-line);
+    }
+    .filter-btn.active-med {
+      background: var(--amber-soft);
+      color: var(--amber);
+      border-color: var(--amber-line);
+    }
+
+    /* ── Cards Grid ── */
+    .trends-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+    }
+    @media (max-width: 900px) {
+      .trends-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 560px) {
+      .trends-grid { grid-template-columns: 1fr; }
+    }
+
+    .trend-card {
+      background: var(--bg-elev);
+      border: 1px solid var(--hairline);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: border-color 0.15s ease, opacity 0.25s ease, transform 0.25s ease;
+      cursor: default;
+    }
+    .trend-card:hover {
+      border-color: var(--hairline-strong);
+    }
+    .trend-card.hidden {
+      opacity: 0;
+      pointer-events: none;
+      transform: scale(0.97);
+      position: absolute;
+      visibility: hidden;
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .conviction-badge {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+    .conviction-HIGH {
+      background: var(--green-soft);
+      color: var(--green);
+      border: 1px solid var(--green-line);
+    }
+    .conviction-MED, .conviction-MEDIUM {
+      background: var(--amber-soft);
+      color: var(--amber);
+      border: 1px solid var(--amber-line);
+    }
+    .conviction-WATCH {
+      background: var(--blue-soft);
+      color: var(--blue);
+      border: 1px solid var(--blue-line);
+    }
+    .card-tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--fg-dim);
+      letter-spacing: 0.04em;
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--fg);
+    }
+    .card-subtitle {
+      font-size: 12px;
+      color: var(--fg-muted);
+      font-style: italic;
+      line-height: 1.5;
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--fg-muted);
+      line-height: 1.65;
+      flex: 1;
+      /* clamp to ~3 lines */
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .ticker-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .ticker-chip {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 500;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: var(--chip-bg);
+      border: 1px solid var(--hairline);
+      color: var(--fg-muted);
+      letter-spacing: 0.04em;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 8px;
+      border-top: 1px solid var(--hairline);
+    }
+    .card-date {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--fg-dim);
+    }
+    .read-more-btn {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--amber);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      letter-spacing: 0.02em;
+      transition: color 0.12s ease;
+    }
+    .read-more-btn:hover {
+      color: var(--fg);
+    }
+
+    /* ── Detail Panel (slide-in from right) ── */
+    .panel-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+    .panel-overlay.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .detail-panel {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(680px, 100vw);
+      background: var(--bg-elev);
+      border-left: 1px solid var(--hairline-strong);
+      z-index: 201;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
+      overflow: hidden;
+    }
+    .detail-panel.open {
+      transform: translateX(0);
+    }
+    .panel-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 20px 24px 16px;
+      border-bottom: 1px solid var(--hairline);
+      flex-shrink: 0;
+    }
+    .panel-header-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .panel-header-badges {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .panel-header-date {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--fg-dim);
+    }
+    .panel-close {
+      background: none;
+      border: 1px solid var(--hairline);
+      border-radius: var(--radius-sm);
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--fg-muted);
+      flex-shrink: 0;
+      transition: color 0.12s, border-color 0.12s;
+    }
+    .panel-close:hover {
+      color: var(--fg);
+      border-color: var(--hairline-strong);
+    }
+    .panel-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 28px 24px 40px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* ── Markdown rendered content ── */
+    .md-content h1 {
+      font-size: clamp(18px, 2.2vw, 24px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+      color: var(--fg);
+    }
+    .md-content .md-subtitle {
+      font-style: italic;
+      color: var(--fg-muted);
+      font-size: 13px;
+      margin-bottom: 20px;
+      display: block;
+    }
+    .md-content h2 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--fg);
+      margin: 28px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--hairline);
+    }
+    .md-content h3 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--fg);
+      margin: 16px 0 6px;
+    }
+    .md-content p {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--fg-muted);
+      margin: 0 0 14px;
+    }
+    .md-content hr {
+      border: none;
+      border-top: 1px solid var(--hairline);
+      margin: 20px 0;
+    }
+    .md-content strong {
+      color: var(--fg);
+      font-weight: 600;
+    }
+    .md-content em {
+      color: var(--fg-muted);
+    }
+    .md-content .meta-line {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--fg-dim);
+      margin-bottom: 4px;
+      display: none; /* hide raw conviction/updated lines — shown in panel header */
+    }
+
+    /* ── Empty state ── */
+    .trends-empty {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--fg-dim);
+      font-size: 14px;
+      grid-column: 1 / -1;
+    }
+  </style>
+  <script src="trends.js"></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -37,48 +372,58 @@
   </div>
 </header>
 
-<section style="padding-top:80px; padding-bottom:80px">
-  <div class="container" style="max-width:640px">
-    <div class="author" style="margin-bottom:32px">
-      <div class="author-avatar">MRK</div>
-      <div class="author-info">
-        <div class="author-name">Mark</div>
-        <div class="author-role">Research Analyst · oatInvestor</div>
-      </div>
-    </div>
-
-    <span class="eyebrow">Research Library · กำลังจัดเตรียม</span>
-    <h1 style="font-size:clamp(28px,3.5vw,40px); margin:12px 0 20px; letter-spacing:-0.02em">
-      บทวิเคราะห์รายหุ้น<br/>โดย Mark กำลังจะมาเร็วๆ นี้
-    </h1>
-    <p style="font-size:16px; color:var(--fg-muted); line-height:1.7; margin-bottom:32px">
-      Mark กำลังเตรียมเขียน Research Articles เชิงลึกสำหรับแต่ละหุ้นใน watchlist — ครอบคลุม Business Quality, Growth Profile, Valuation, และ Risk Assessment จาก primary sources (10-K, Earnings Calls, Annual Reports)
+<!-- HERO -->
+<section class="trend-hero">
+  <div class="container">
+    <span class="eyebrow">Trend Research · Warren</span>
+    <h1 style="font-size:clamp(28px,3.5vw,42px); margin:12px 0 16px; letter-spacing:-0.02em">12 Trends ที่ Warren ติดตาม</h1>
+    <p class="lead" style="max-width:58ch">
+      Warren วิเคราะห์ mega-trends ในโลก AI และ Semiconductor อย่างต่อเนื่อง แต่ละ trend ระบุ conviction level, หุ้นที่ได้ประโยชน์, และมุมมองระยะยาว — เพื่อเป็น framework ให้ Oat ตัดสินใจลงทุน
     </p>
 
-    <div class="card card-pad" style="padding:24px; margin-bottom:32px">
-      <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:16px">สิ่งที่จะมีในอนาคต</div>
-      <div style="display:flex; flex-direction:column; gap:12px">
-        <div style="display:flex; gap:12px; align-items:flex-start">
-          <span style="font-family:var(--font-mono); font-size:11px; padding:2px 7px; border-radius:4px; background:var(--amber-soft); color:var(--amber); border:1px solid var(--amber-line); flex-shrink:0; margin-top:1px">SOON</span>
-          <span style="font-size:14px; color:var(--fg-muted)">Deep-dive analysis รายหุ้น — thesis, moat, financials, valuation</span>
-        </div>
-        <div style="display:flex; gap:12px; align-items:flex-start">
-          <span style="font-family:var(--font-mono); font-size:11px; padding:2px 7px; border-radius:4px; background:var(--amber-soft); color:var(--amber); border:1px solid var(--amber-line); flex-shrink:0; margin-top:1px">SOON</span>
-          <span style="font-size:14px; color:var(--fg-muted)">Earnings notes หลังทุก quarterly report</span>
-        </div>
-        <div style="display:flex; gap:12px; align-items:flex-start">
-          <span style="font-family:var(--font-mono); font-size:11px; padding:2px 7px; border-radius:4px; background:var(--amber-soft); color:var(--amber); border:1px solid var(--amber-line); flex-shrink:0; margin-top:1px">SOON</span>
-          <span style="font-size:14px; color:var(--fg-muted)">Sector overview และ industry trend analysis</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="row" style="gap:10px; flex-wrap:wrap">
-      <a href="stocks.html" class="btn btn-primary">ดู Stock List</a>
-      <a href="portfolio.html" class="btn">Portfolio Overview</a>
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" data-filter="ALL">All (12)</button>
+      <button class="filter-btn" data-filter="HIGH">
+        <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:5px;vertical-align:middle"></span>HIGH (8)
+      </button>
+      <button class="filter-btn" data-filter="MED">
+        <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--amber);margin-right:5px;vertical-align:middle"></span>MEDIUM (4)
+      </button>
     </div>
   </div>
 </section>
+
+<!-- TREND CARDS -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="trends-grid" id="trendsGrid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- DETAIL PANEL OVERLAY -->
+<div class="panel-overlay" id="panelOverlay"></div>
+
+<!-- DETAIL PANEL -->
+<div class="detail-panel" id="detailPanel" role="dialog" aria-modal="true" aria-label="Trend Detail">
+  <div class="panel-header">
+    <div class="panel-header-meta">
+      <div class="panel-header-badges" id="panelBadges">
+        <!-- badges injected by JS -->
+      </div>
+      <div class="panel-header-date" id="panelDate"></div>
+    </div>
+    <button class="panel-close" id="panelClose" aria-label="ปิด">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M1 1l12 12M13 1L1 13"/>
+      </svg>
+    </button>
+  </div>
+  <div class="panel-body">
+    <div class="md-content" id="panelContent"></div>
+  </div>
+</div>
 
 <footer class="footer">
   <div class="container">
@@ -116,6 +461,226 @@
     </div>
   </div>
 </footer>
+
+<script>
+(function () {
+  // ─── Markdown → HTML renderer ───────────────────────────────────────────────
+  function renderMarkdown(md) {
+    const lines = md.split('\n');
+    const out = [];
+    let inParagraph = false;
+    let i = 0;
+
+    function closeParagraph() {
+      if (inParagraph) { out.push('</p>'); inParagraph = false; }
+    }
+
+    function inlineFormat(text) {
+      // Skip the meta lines (conviction / last updated) — we show them in header
+      if (/^\*\*Warren's Conviction:\*\*/.test(text)) return null;
+      if (/^\*\*Last Updated:\*\*/.test(text)) return null;
+
+      // Bold: **text**
+      text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      // Italic: *text* (not already closed by bold)
+      text = text.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
+      return text;
+    }
+
+    while (i < lines.length) {
+      const raw = lines[i];
+      const line = raw.trimEnd();
+
+      // H1
+      if (line.startsWith('# ')) {
+        closeParagraph();
+        out.push(`<h1>${esc(line.slice(2))}</h1>`);
+        i++; continue;
+      }
+      // H2
+      if (line.startsWith('## ')) {
+        closeParagraph();
+        out.push(`<h2>${esc(line.slice(3))}</h2>`);
+        i++; continue;
+      }
+      // H3
+      if (line.startsWith('### ')) {
+        closeParagraph();
+        out.push(`<h3>${esc(line.slice(4))}</h3>`);
+        i++; continue;
+      }
+      // HR
+      if (/^---+$/.test(line.trim())) {
+        closeParagraph();
+        out.push('<hr>');
+        i++; continue;
+      }
+      // Subtitle line (*text*) immediately after h1 — render as span
+      if (/^\*[^*]+\*$/.test(line.trim())) {
+        closeParagraph();
+        const inner = line.trim().slice(1, -1);
+        out.push(`<span class="md-subtitle">${esc(inner)}</span>`);
+        i++; continue;
+      }
+      // Empty line
+      if (line.trim() === '') {
+        closeParagraph();
+        i++; continue;
+      }
+
+      // Normal text line
+      const formatted = inlineFormat(line);
+      if (formatted === null) {
+        // meta line we skip
+        i++; continue;
+      }
+      if (!inParagraph) {
+        out.push('<p>');
+        inParagraph = true;
+      } else {
+        out.push(' ');
+      }
+      out.push(formatted);
+      i++;
+    }
+    closeParagraph();
+    return out.join('');
+  }
+
+  function esc(str) {
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  // ─── Render cards ────────────────────────────────────────────────────────────
+  function convictionBadgeClass(conviction) {
+    if (conviction === 'HIGH') return 'conviction-HIGH';
+    if (conviction === 'MED' || conviction === 'MEDIUM') return 'conviction-MED';
+    return 'conviction-WATCH';
+  }
+
+  function convictionLabel(conviction) {
+    if (conviction === 'MED') return 'MEDIUM';
+    return conviction;
+  }
+
+  function buildCard(trend) {
+    const card = document.createElement('div');
+    card.className = 'trend-card';
+    card.dataset.conviction = trend.conviction;
+
+    const badgeClass = convictionBadgeClass(trend.conviction);
+    const badgeLabel = convictionLabel(trend.conviction);
+
+    const tickerChips = trend.tickers.map(t =>
+      `<span class="ticker-chip">${t}</span>`
+    ).join('');
+
+    card.innerHTML = `
+      <div class="card-top">
+        <span class="conviction-badge ${badgeClass}">${badgeLabel}</span>
+        <span class="card-tag">${trend.tag}</span>
+      </div>
+      <div class="card-title">${esc(trend.title)}</div>
+      <div class="card-subtitle">${esc(trend.subtitle)}</div>
+      <div class="card-summary">${esc(trend.summary)}</div>
+      <div class="ticker-chips">${tickerChips}</div>
+      <div class="card-footer">
+        <span class="card-date">Updated ${trend.last_updated}</span>
+        <button class="read-more-btn" data-tag="${trend.tag}">อ่านเพิ่มเติม →</button>
+      </div>
+    `;
+
+    card.querySelector('.read-more-btn').addEventListener('click', () => openPanel(trend));
+    return card;
+  }
+
+  const grid = document.getElementById('trendsGrid');
+
+  function renderGrid(filter) {
+    grid.innerHTML = '';
+    let shown = 0;
+    TRENDS_DATA.forEach(trend => {
+      const conviction = trend.conviction;
+      const show = filter === 'ALL'
+        || (filter === 'HIGH' && conviction === 'HIGH')
+        || (filter === 'MED' && (conviction === 'MED' || conviction === 'MEDIUM'));
+      if (show) {
+        grid.appendChild(buildCard(trend));
+        shown++;
+      }
+    });
+    if (shown === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'trends-empty';
+      empty.style.display = 'block';
+      empty.textContent = 'ไม่พบ Trend ในกลุ่มนี้';
+      grid.appendChild(empty);
+    }
+  }
+
+  // ─── Filter buttons ──────────────────────────────────────────────────────────
+  let activeFilter = 'ALL';
+  document.getElementById('filterBar').addEventListener('click', function(e) {
+    const btn = e.target.closest('[data-filter]');
+    if (!btn) return;
+    activeFilter = btn.dataset.filter;
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.remove('active', 'active-high', 'active-med');
+    });
+    if (activeFilter === 'HIGH') btn.classList.add('active-high');
+    else if (activeFilter === 'MED') btn.classList.add('active-med');
+    else btn.classList.add('active');
+    renderGrid(activeFilter);
+  });
+
+  // ─── Detail Panel ────────────────────────────────────────────────────────────
+  const overlay   = document.getElementById('panelOverlay');
+  const panel     = document.getElementById('detailPanel');
+  const panelBadges  = document.getElementById('panelBadges');
+  const panelDate    = document.getElementById('panelDate');
+  const panelContent = document.getElementById('panelContent');
+  const panelClose   = document.getElementById('panelClose');
+
+  function openPanel(trend) {
+    const badgeClass = convictionBadgeClass(trend.conviction);
+    const badgeLabel = convictionLabel(trend.conviction);
+
+    panelBadges.innerHTML = `
+      <span class="conviction-badge ${badgeClass}">${badgeLabel}</span>
+      <span style="font-family:var(--font-mono);font-size:11px;color:var(--fg-dim);letter-spacing:0.06em;text-transform:uppercase">${trend.tag}</span>
+    `;
+    panelDate.textContent = `Last Updated: ${trend.last_updated}`;
+    panelContent.innerHTML = renderMarkdown(trend.content);
+    panelContent.scrollTop = 0;
+    panel.querySelector('.panel-body').scrollTop = 0;
+
+    overlay.classList.add('open');
+    panel.classList.add('open');
+    document.body.style.overflow = 'hidden';
+
+    // Set focus for accessibility
+    panelClose.focus();
+  }
+
+  function closePanel() {
+    overlay.classList.remove('open');
+    panel.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  panelClose.addEventListener('click', closePanel);
+  overlay.addEventListener('click', closePanel);
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && panel.classList.contains('open')) closePanel();
+  });
+
+  // ─── Initial render ──────────────────────────────────────────────────────────
+  renderGrid('ALL');
+})();
+</script>
 
 </body>
 </html>
