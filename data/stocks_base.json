@@ -20,37 +20,7 @@
       "AI-first search behavior — ChatGPT/Perplexity กิน complex queries จริง",
       "Wiz acquisition compress Cloud margin 2026",
       "China revenue = zero = missed market ขนาดใหญ่"
-    ],
-    "action": "buy",
-    "actionLabel": "Buy",
-    "conviction": 5,
-    "waf": 8.43,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        9,
-        "green",
-        90
-      ],
-      "gp": [
-        9,
-        "green",
-        90
-      ],
-      "va": [
-        8.5,
-        "green",
-        85
-      ],
-      "ra": [
-        6,
-        "amber",
-        60
-      ]
-    },
-    "idea": "Full-Stack AI Dominance + Cloud Acceleration: cheapest high-quality AI play ใน MAG7. P/E 20x, GCP +63% YoY, Antitrust discount สร้าง entry opportunity. Waymo คือ Free Option ที่ตลาดยังไม่ตีราคา",
-    "updated": "2026-05-13"
+    ]
   },
   "NVDA": {
     "name": "NVIDIA Corporation",
@@ -73,37 +43,7 @@
       "Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด",
       "AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน",
       "Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 5,
-    "waf": 8.43,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        9.5,
-        "green",
-        95
-      ],
-      "gp": [
-        9.5,
-        "green",
-        95
-      ],
-      "va": [
-        7,
-        "amber",
-        70
-      ],
-      "ra": [
-        6.5,
-        "amber",
-        65
-      ]
-    },
-    "idea": "CUDA moat 7.5M developers + Blackwell supercycle. AI Infrastructure Platform leader แต่ valuation ยังสูง — รอ pullback ต่ำกว่า $200 เพื่อ MoS ที่ดีขึ้น",
-    "updated": "2026-05-13"
+    ]
   },
   "META": {
     "name": "Meta Platforms",
@@ -126,37 +66,7 @@
       "FTC antitrust case (Instagram/WhatsApp) — ถ้าถูกบังคับขาย = thesis change ทันที",
       "Revenue 99%+ จาก advertising = cyclical risk สูงถ้า macro อ่อนแอ",
       "EU Digital Markets Act ลด targeting effectiveness"
-    ],
-    "action": "buy",
-    "actionLabel": "Buy",
-    "conviction": 4,
-    "waf": 8.3,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        9,
-        "green",
-        90
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        8,
-        "green",
-        80
-      ],
-      "ra": [
-        7,
-        "amber",
-        70
-      ]
-    },
-    "idea": "AI Monetization of 3B+ User Base: AI เพิ่ม advertising ROI และ engagement ใน Instagram/Facebook/WhatsApp. AI Lab มูลค่า $200-300B ที่ตลาดยังไม่ตีราคา",
-    "updated": "2026-05-13"
+    ]
   },
   "MSFT": {
     "name": "Microsoft",
@@ -179,37 +89,7 @@
       "Gaming segment อ่อนแอ Activision integration cost สูง",
       "EU antitrust investigation Teams bundling ยังดำเนินอยู่",
       "CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027"
-    ],
-    "action": "buy",
-    "actionLabel": "Buy",
-    "conviction": 4,
-    "waf": 8.25,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        9,
-        "green",
-        90
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        7.5,
-        "amber",
-        75
-      ],
-      "ra": [
-        8,
-        "green",
-        80
-      ]
-    },
-    "idea": "Azure AI Flywheel + $627B RPO backlog ให้ visibility ระยะยาวสูงมาก. Copilot M365 = monetization inflection ที่กำลัง scale. P/E 32x สมเหตุสมผล เหมาะ DCA รายเดือน",
-    "updated": "2026-05-13"
+    ]
   },
   "ASML": {
     "name": "ASML Holding",
@@ -232,37 +112,7 @@
       "High-NA EUV ราคา $350M/unit ทำให้ customer deployment ช้า",
       "อ่อนไหวต่อ geopolitics EU-China",
       "MoS เพียง 8.9% จาก FV $900 — ต้องการ pullback เพื่อ entry ที่ดีขึ้น"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 8,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        9,
-        "green",
-        90
-      ],
-      "gp": [
-        8,
-        "green",
-        80
-      ],
-      "va": [
-        7,
-        "amber",
-        70
-      ],
-      "ra": [
-        8,
-        "green",
-        80
-      ]
-    },
-    "idea": "EUV monopoly สมบูรณ์ — ทุก 2nm+ chip ต้องผ่าน ASML เท่านั้น. High-NA EUV รองรับถึง Angstrom era. MoS 8.9% ยังน้อย รอ pullback เพื่อ entry ที่ดีกว่า",
-    "updated": "2026-05-13"
+    ]
   },
   "TSM": {
     "name": "Taiwan Semiconductor",
@@ -285,37 +135,7 @@
       "Customer concentration: Apple + NVIDIA + AMD = top 3",
       "Intel Foundry 18A ถ้าสำเร็จ capture market share บางส่วน",
       "Arizona/Japan fab ramp cost กด margin ระยะกลาง 2026-2028"
-    ],
-    "action": "buy",
-    "actionLabel": "Buy",
-    "conviction": 4,
-    "waf": 8,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        8.5,
-        "green",
-        85
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        8,
-        "green",
-        80
-      ],
-      "ra": [
-        7,
-        "amber",
-        70
-      ]
-    },
-    "idea": "Undisputed foundry leader ไม่มีใครทัดเทียม. CoWoS advanced packaging = AI chip chokepoint ของโลก. Q1 2026 +41% YoY, Gross Margin 66% = top-tier profitability",
-    "updated": "2026-05-13"
+    ]
   },
   "AMZN": {
     "name": "Amazon",
@@ -338,37 +158,7 @@
       "CapEx AI infrastructure push ขนาดใหญ่กด FCF ระยะสั้น",
       "Retail segment margin ต่ำ sensitive ต่อ macro slowdown",
       "Trainium vs NVIDIA CUDA — ROI ของ custom chip ยังพิสูจน์ไม่ได้ทั้งหมด"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 7.93,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        8.5,
-        "green",
-        85
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        7,
-        "amber",
-        70
-      ],
-      "ra": [
-        7.5,
-        "amber",
-        75
-      ]
-    },
-    "idea": "AWS fastest-growing cloud 15Q ล่าสุด + Anthropic partnership ดัน AI revenue. Three-headed compounder (Cloud + Commerce + Ads) แต่ MoS เพียง 9.5% ยังน้อยเกินไปสำหรับ entry",
-    "updated": "2026-05-13"
+    ]
   },
   "ARM": {
     "name": "Arm Holdings",
@@ -391,37 +181,7 @@
       "Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips",
       "SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure",
       "UK regulatory environment ไม่แน่นอน"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 7.83,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        8,
-        "green",
-        80
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        6.5,
-        "amber",
-        65
-      ],
-      "ra": [
-        8,
-        "green",
-        80
-      ]
-    },
-    "idea": "22M developers + 350B+ chips shipped. Armv9 migration = structural royalty rate increase ทุกรุ่น. AI Data Center + PC expansion = TAM ใหม่ที่ใหญ่ขึ้นมาก",
-    "updated": "2026-05-13"
+    ]
   },
   "AAPL": {
     "name": "Apple Inc.",
@@ -444,37 +204,7 @@
       "iPhone cycle maturity — upgrades ช้าลงทุกปี",
       "EU DMA บังคับ open App Store = Services revenue กระทบ",
       "MoS เพียง 9.3% จาก FV $215 — ยังสูงเกินไปสำหรับ entry ที่ conservative"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 7.75,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        9,
-        "green",
-        90
-      ],
-      "gp": [
-        7.5,
-        "amber",
-        75
-      ],
-      "va": [
-        7,
-        "amber",
-        70
-      ],
-      "ra": [
-        7.5,
-        "amber",
-        75
-      ]
-    },
-    "idea": "2.5B+ installed base + Services $108B ARR, GM 75% = compounding platform. Apple Intelligence on-device privacy advantage. CEO transition Cook → Ternus ก.ย. 2026 = near-term uncertainty",
-    "updated": "2026-05-13"
+    ]
   },
   "AVGO": {
     "name": "Broadcom Inc.",
@@ -497,37 +227,7 @@
       "VMware debt overhang จาก acquisition $69B",
       "Semiconductor cyclicality ใน Enterprise networking",
       "Hock Tan succession planning ระยะยาว"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 7.5,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        8.5,
-        "green",
-        85
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        6,
-        "amber",
-        60
-      ],
-      "ra": [
-        7,
-        "amber",
-        70
-      ]
-    },
-    "idea": "Custom XPU partnerships กับ Google/Meta/OpenAI + AI revenue +106% YoY FY2025. Ethernet networking near-monopoly สำหรับ AI clusters. แต่ราคาปัจจุบันเกิน Fair Value $350",
-    "updated": "2026-05-13"
+    ]
   },
   "MU": {
     "name": "Micron Technology",
@@ -550,37 +250,7 @@
       "CapEx heavy business ต้องลงทุนต่อเนื่อง กด FCF",
       "China revenue risk ถ้า US-China trade war escalate",
       "FY2025 non-HBM division ขาดทุน drag on valuation"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 7.5,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "scores": {
-      "bq": [
-        7.5,
-        "amber",
-        75
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        7.5,
-        "amber",
-        75
-      ],
-      "ra": [
-        6.5,
-        "amber",
-        65
-      ]
-    },
-    "idea": "HBM3E AI supercycle + only US-based advanced memory manufacturer. Fwd P/E 8x cheapest ใน AI semi group. CHIPS Act $6.1B grant สำหรับ fab expansion",
-    "updated": "2026-05-13"
+    ]
   },
   "NFLX": {
     "name": "Netflix Inc.",
@@ -603,37 +273,7 @@
       "Disney+/Prime/Max competition ยังไม่ยอมแพ้",
       "Ad revenue cyclical ถ้า macro slowdown",
       "Subscriber growth ceiling ในตลาด developed markets"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 7.45,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "scores": {
-      "bq": [
-        8,
-        "green",
-        80
-      ],
-      "gp": [
-        7.5,
-        "amber",
-        75
-      ],
-      "va": [
-        7,
-        "amber",
-        70
-      ],
-      "ra": [
-        7.3,
-        "amber",
-        73
-      ]
-    },
-    "idea": "Streaming war ชนะแล้ว — Netflix เป็น default streaming ระดับโลก. Ads + Live Sports = monetization engine ใหม่ แต่ MoS เพียง 4.5% ยังน้อยเกินไปสำหรับ entry",
-    "updated": "2026-05-13"
+    ]
   },
   "AMD": {
     "name": "AMD",
@@ -656,37 +296,7 @@
       "AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก",
       "Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ",
       "CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 3,
-    "waf": 7.3,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "scores": {
-      "bq": [
-        7.5,
-        "amber",
-        75
-      ],
-      "gp": [
-        8,
-        "green",
-        80
-      ],
-      "va": [
-        6.5,
-        "amber",
-        65
-      ],
-      "ra": [
-        7,
-        "amber",
-        70
-      ]
-    },
-    "idea": "Second AI Platform thesis — MI455X memory bandwidth เหนือ H200 ใน bandwidth-bound workloads. EPYC server dominance ต่อเนื่อง แต่ ROCm ยังตาม CUDA อีกนานมาก",
-    "updated": "2026-05-13"
+    ]
   },
   "TSLA": {
     "name": "Tesla Inc.",
@@ -709,37 +319,7 @@
       "BYD competition ใน China และ global EV market เข้มข้นมาก",
       "EV margin กดดัน — average price ลดลง ส่วนแบ่งตลาดลดใน China",
       "Optimus timeline uncertainty — production scale ยังไม่พิสูจน์"
-    ],
-    "action": "hold",
-    "actionLabel": "Hold",
-    "conviction": 3,
-    "waf": 6.73,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "scores": {
-      "bq": [
-        7,
-        "amber",
-        70
-      ],
-      "gp": [
-        7.5,
-        "amber",
-        75
-      ],
-      "va": [
-        5,
-        "amber",
-        50
-      ],
-      "ra": [
-        7.5,
-        "amber",
-        75
-      ]
-    },
-    "idea": "Optimus robot thesis น่าสนใจมาก แต่ P/E 150x+ สะท้อนทุกอย่างสำเร็จแล้ว. Hold ที่มีอยู่ ยังไม่ซื้อเพิ่มใน valuation นี้ — รอ entry ที่ดีกว่า",
-    "updated": "2026-05-13"
+    ]
   },
   "INTC": {
     "name": "Intel Corporation",
@@ -762,36 +342,6 @@
       "AMD EPYC กำลัง erode x86 server market share ต่อเนื่อง",
       "TSMC, Samsung เป็น alternative foundry ที่ดีกว่าสำหรับบางกลุ่ม",
       "Conviction 2/5 สะท้อนว่า upside thesis ยังไม่ proven — high risk"
-    ],
-    "action": "hold",
-    "actionLabel": "Hold",
-    "conviction": 2,
-    "waf": 6.2,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "scores": {
-      "bq": [
-        6,
-        "amber",
-        60
-      ],
-      "gp": [
-        6.5,
-        "amber",
-        65
-      ],
-      "va": [
-        6.5,
-        "amber",
-        65
-      ],
-      "ra": [
-        5.8,
-        "amber",
-        58
-      ]
-    },
-    "idea": "18A RibbonFET node = make-or-break moment. ถ้าสำเร็จ foundry external revenue จะ inflect. ยังขาดทุน GAAP แต่ CHIPS Act $8.5B + DOE $11B กำลัง fund fab ใหม่",
-    "updated": "2026-05-13"
+    ]
   }
 }
