@@ -5,7 +5,7 @@ window.STOCK_KNOWLEDGE = {
 
 **Last Updated:** 2026-05-16
 **Source:** Primary Documents — 10K FY2025, 10Q Q1 FY2026, 10Q Q2 FY2026, Earnings Call Q1 FY2026, Earnings Call Q2 FY2026, Exhibit 99-1 Q1 FY2026, Exhibit 99-1 Q2 FY2026
-**Trend Tags:** \`AI-Infrastructure\` \`Agentic-AI\` \`AR-VR\`
+**Trend Tags:** [[AI-Infrastructure]] [[Agentic-AI]] [[AR-VR]]
 
 ---
 
@@ -323,6 +323,33 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 | Q1 FY2026 | $143.8B | +16% | $2.84 | 35.4% | All-time records; iPhone +23%; China +38% |
 | Q2 FY2026 | $111.2B | +17% | $2.01 | 32.3% | March quarter records; R&D +34%; CEO transition announced |
 | Q3 FY2026 (Guide) | ~+14-17% YoY | — | — | 47.5-48.5% GM | Memory cost headwind; Mac supply constraint |
+
+---
+
+## Valuation Range
+
+-
+
+---
+
+## Recent News
+
+-
+
+---
+
+## Source Log
+
+| ไฟล์ | ประเภท | Period | อ่านเมื่อ |
+|------|--------|--------|----------|
+| 2025Q3 - AAPL - 10K.pdf | 10K | FY2025 (Year Ended Sep 27, 2025) | 2026-05-16 |
+| 2025Q4 - AAPL - 10Q.pdf | 10Q | Q1 FY2026 (Oct–Dec 2025) | 2026-05-16 |
+| 2025Q4 - AAPL - Exhibit-99-1.pdf | Exhibit 99-1 | Q1 FY2026 (Oct–Dec 2025) | 2026-05-16 |
+| 2026Q1 - AAPL - 10Q.pdf | 10Q | Q2 FY2026 (Jan–Mar 2026) | 2026-05-16 |
+| 2026Q1 - AAPL - Earnings-Call-Transcript.pdf | Earnings Call Transcript | Q1 FY2026 (Dec quarter, reported Feb 2026) | 2026-05-16 |
+| 2026Q1 - AAPL - Exhibit-99-1.pdf | Exhibit 99-1 | Q2 FY2026 (Jan–Mar 2026) | 2026-05-16 |
+| 2026Q2 - AAPL - Earnings-Call-Transcript.pdf | Earnings Call Transcript | Q2 FY2026 (Mar quarter, reported Apr 30, 2026) | 2026-05-16 |
+| 2026Q2 - AAPL - Exhibit-99-1.pdf | Exhibit 99-1 | Q2 FY2026 (Apr 30, 2026 press release) | 2026-05-16 |
 `,
 
 "AMZN": `# Amazon.com (AMZN) · Big Tech / E-Commerce + AWS Cloud + AI
@@ -3859,132 +3886,353 @@ AMD เป็น fabless semiconductor company สัญชาติอเมร
 | FY2024 | $25.8B | — | — | ~7% GAAP | DC $12.6B; Operating Income $1.9B |
 `,
 
-"ARM": `# ARM Holdings (ARM) · Semiconductor / IP Licensing
+"ARM": `# ARM Holdings (ARM) · Semiconductor / IP Licensing + Production Silicon
 
-**Last Updated:** 2026-05-13
-**Source:** NotebookLM — ARM (FY2026 Earnings, Annual Reports)
+**Last Updated:** 2026-05-17
+**Source:** Primary Documents — 20F FY2025, Earnings Call Q3 FY2026, Earnings Call Q4 FY2026, Exhibit 99-1 Q3 FY2026, Exhibit 99-1 Q4 FY2026, Earnings Presentation Q3 FY2026, Earnings Presentation Q4 FY2026
+**Trend Tags:** [[CPU-Renaissance]] [[Agentic-AI]] [[AI-Infrastructure]]
+
+---
 
 ## Business Overview
-Arm Holdings ออกแบบและให้สิทธิการใช้งาน (License) IP สำหรับ CPU, GPU และ System IP บนชิป — ไม่ผลิตชิปเอง แต่เก็บค่า **License fee** เมื่อลูกค้านำ IP ไปออกแบบ และ **Royalty** เมื่อชิปถูกผลิตและส่งออก ล่าสุดขยายสู่ชิปสำเร็จรูป **Arm AGI CPU** สำหรับ Data Center
+
+ARM Holdings ออกแบบและให้สิทธิการใช้งาน (License) IP สำหรับ CPU, GPU และ System IP บนชิป — ไม่ผลิตชิปเอง แต่เก็บค่า **Royalty** เมื่อชิปถูกผลิตและส่งออก และ **License fee** เมื่อลูกค้านำ IP ไปออกแบบ ล่าสุดขยายสู่ชิปสำเร็จรูป **Arm AGI CPU** สำหรับ Data Center ซึ่งเป็น production silicon ตัวแรกของ ARM
+
+**ปีงบการเงิน (Fiscal Year):** สิ้นสุดวันที่ 31 มีนาคมของทุกปี (FY2026 = April 2025 – March 2026)
 
 **Revenue by Type (FY2026)**
-| Type | Revenue | % | YoY% |
-|------|---------|---|------|
-| Royalty Revenue | $2.613B | 53% | +21% |
-| License & Other | $2.307B | 47% | +25% |
-| **Total** | **$4.920B** | 100% | **+23%** |
+| Type | Revenue | % of Total | YoY% |
+|------|---------|-----------|------|
+| Royalty Revenue | $2,613M | 53% | +21% |
+| License & Other | $2,307M | 47% | +25% |
+| **Total** | **$4,920M** | 100% | **+23%** |
 
 **Revenue by Market Segment (FY2026)**
 | Segment | Notes |
 |---------|-------|
-| Cloud AI (Data Center) | Royalty >100% YoY — fastest growing |
-| Edge AI (Smartphones, IoT) | >99% market share; Armv9 raises royalty/chip |
+| Cloud AI (Data Center) | Royalty >100% YoY — fastest growing; ~50% share among top hyperscalers |
+| Edge AI (Smartphones, IoT) | >99% market share; Armv9 + CSS raises royalty/chip every cycle |
 | Physical AI (Automotive, Robotics) | Double-digit growth; ADAS/autonomous driving |
 
-**Revenue by Geography (FY2025):** US 43%, China 19%, Taiwan 16%, S.Korea 8%, Others 14%
+**Revenue by Geography (FY2025 — จาก 20F)**
+| Geography | % |
+|-----------|---|
+| United States (incl. SoftBank related) | ~43% |
+| People's Republic of China (via Arm China) | ~17% |
+| Taiwan | ~16% |
+| South Korea | ~8% |
+| Others | ~16% |
 
-## Latest Financials
-**Q4 FY2026 (ended Mar 31, 2026) — Full Year FY2026**
-| Metric | Q4 FY2026 | FY2026 |
-|--------|-----------|--------|
-| Revenue | $1.49B (+20% YoY, record) | $4.92B (+23% YoY) |
-| EPS GAAP | $0.29 | — |
-| EPS Non-GAAP | $0.60 (record) | — |
-| Op Margin GAAP | 29.4% | — |
-| Op Margin Non-GAAP | 49.1% | — |
-| Free Cash Flow | $152M (Q4) | $882M (FY2026) |
-
-**Q1 FY2027 Guidance:**
-- Revenue: $1.21-1.31B (~20% YoY at midpoint)
-- Non-GAAP EPS: $0.36-0.44
-
-**FY2027 Guidance:** Revenue ~20% growth; Royalty growth ~20%
-
-**FY2031 Long-Term Target:**
-- Revenue $25B ($15B from Arm AGI CPU chips + $10B from IP)
-- Non-GAAP EPS >$9
-
-## Management
-- **CEO:** Rene Haas (ดำรงตำแหน่ง Feb 2022; อดีต NVIDIA 7 ปี, เคยนำ Arm IPG group)
-- **CFO:** Jason Child (Nov 2022; อดีต CFO Splunk + Amazon International, ประสบการณ์ด้านการเงิน >30 ปี)
-- **กลยุทธ์หลัก:** 2 Growth Vectors — (1) Royalty/IP growth ผ่าน Armv9 + CSS ที่มีอัตราค่า royalty 2-3x สูงกว่าเดิม; (2) Production Silicon — Arm AGI CPU เป็น new revenue stream โดยตรง
-- **Vision:** "CPU เป็น Orchestrator ของ AI Agents" — CPU สำคัญขึ้นไม่ใช่ลดลงในยุค Agentic AI
-
-## MOAT & Competitive Advantage
-**Ecosystem Lock-in (สำคัญที่สุด)**
-- นักพัฒนา **22M+ คน** + ชิป Arm **350B+** ชิปถูกส่งออกสะสม
-- Software ทั่วโลก optimize สำหรับ Arm → switching cost สูงมาก
-
-**Performance per Watt Leadership**
-- ประสิทธิภาพต่อพลังงานสูงที่สุด — critical สำหรับ Data Center (ค่าไฟ) และ Mobile (แบต)
-
-**Business Model**
-- Fabless IP licensing = ไม่แบก CapEx สูง; ลูกค้าเป็นคนแข่งขันกันเอง ไม่ใช่แข่งกับ Arm
-- Win-win: ลูกค้าใช้ IP Arm ได้ต้นทุนต่ำกว่าพัฒนาเอง → ทุกคนใช้ Arm
-
-**Armv9 + CSS Transition**
-- Armv9 + Compute Subsystems ให้ royalty rate 2-3x สูงกว่า Armv8 → revenue per chip เพิ่มขึ้น โดยไม่ต้องเพิ่ม unit shipments
-
-**ปัจจัยที่อาจกัดกร่อน MOAT:**
-- **RISC-V:** Open-source alternative ไม่มีค่า licensing — ได้รับ momentum เพิ่มขึ้น
-- **Bespoke AI Accelerators:** ถ้า GPU/NPU ครองการประมวลผล AI → บทบาท CPU ลดลง
-- **China complexity:** Arm China ดำเนินงานอิสระ ควบคุมได้จำกัด
-
-## Competitive Landscape
-- **Intel/AMD (x86):** คู่แข่งหลักใน PC/Server CPU — แต่ Arm ได้ market share เพิ่มใน Data Center (AWS Graviton, NVIDIA Grace, Apple Silicon)
-- **RISC-V:** Open-source ไม่มีค่า royalty — เหมาะกับ IoT/Embedded → ท้าทายในตลาดราคาต่ำ
-- **Qualcomm/Apple/NVIDIA:** เป็นลูกค้า AND potential competitors ถ้าพัฒนา ISA ของตัวเอง
-- **Arm Advantage:** 99%+ market share ใน mobile + growing Cloud AI share → ecosystems ที่ไม่มีใครเท่า
-
-## Growth Catalysts & Future Plans
-**Cloud AI (Data Center) — Biggest Catalyst**
-- Royalty >100% YoY ต่อเนื่อง — AWS Graviton, NVIDIA Grace Hopper/Blackwell, custom CSP chips ล้วนใช้ Arm
-- Arm AGI CPU: direct chip sales สู่ Data Center — $15B target revenue ปี FY2031
-
-**Armv9 Transition**
-- Smartphone Armv9 adoption เพิ่มขึ้นเรื่อยๆ → royalty per chip สูงขึ้นแม้ unit ไม่โต
-- CSS (Compute Subsystems) ช่วยให้ลูกค้าออกแบบชิปได้เร็วขึ้น → เพิ่ม adoption
-
-**Physical AI**
-- Automotive ADAS + Robotics — Arm Automotive Enhanced (AE) platform
-- NVIDIA Thor สำหรับรถยนต์ใช้ Arm CPU cores
-
-## Risks & Watch List
-**China (สำคัญที่สุด)**
-- รายได้จากจีน 17-25%; **Arm China** ดำเนินงานอิสระ — ควบคุมได้น้อย
-- Trade war escalation → อาจกระทบ license/royalty จากจีน
-
-**Export Controls**
-- กฎ export control สหรัฐฯ → จำกัดการขาย advanced IP (Neoverse) ให้จีน
-
-**Qualcomm Lawsuit**
-- ข้อพิพาทสิทธิ license และเครื่องหมายการค้า — ยังอยู่ระหว่างดำเนินคดี
-
-**SoftBank Concentration**
-- SoftBank ถือหุ้น 87.1% → ผลประโยชน์ของ minority shareholders อาจถูก dilute
-
-**RISC-V + Bespoke Accelerators**
-- Open-source competition ระยะยาว; AI accelerators ลดความสำคัญ CPU
-
-## Analyst Views [ANALYST VIEW]
-**Sentiment: Bullish | Conviction: High**
-
-**Bull Thesis:**
-- Armv9 + CSS = structural tailwind ที่ทำให้ royalty per chip เพิ่มขึ้นทุกปี โดยไม่ต้องพึ่ง volume
-- Cloud AI expansion เพิ่งเริ่ม — NVIDIA Blackwell, AWS Graviton 5, custom CSP chips = royalty engine ใหม่
-- FY2031 target $25B revenue (5x จาก FY2026) = exceptional long-term growth runway
-
-**Key Concerns:**
-- Valuation สูงมาก (P/E 70-100x) — price ใน perfection แล้ว
-- China 19% revenue + Arm China independence = tail risk
-- RISC-V momentum ในตลาด IoT/Embedded
+**Arm China:** Arm China (Arm Technology (China) Co. Limited) ดำเนินงานอิสระจาก ARM Holdings — ARM ไม่มีอำนาจควบคุมโดยตรง Arm China คือช่องทางเดียวในการเข้าถึงตลาด PRC และสร้าง ~17% ของรายได้รวม (FY2025)
 
 ---
+
+## Latest Financials
+
+### Annual — FY2026 (Ended March 31, 2026) vs FY2025
+
+| Metric | FY2026 | FY2025 | YoY% |
+|--------|--------|--------|------|
+| Total Revenue | $4,920M | $4,007M | **+23%** |
+| Royalty Revenue | $2,613M | ~$2,160M | +21% |
+| License & Other | $2,307M | ~$1,847M | +25% |
+| GAAP Gross Profit | $4,799M | $3,886M | +23% |
+| GAAP Gross Margin | 97.5% | 97.0% | — |
+| Non-GAAP Gross Margin | 98.2% | 97.8% | — |
+| GAAP R&D | $2,776M | $2,071M | +34% |
+| GAAP SG&A | $1,115M | $984M | +13% |
+| GAAP Operating Income | $900M | $831M | +8% |
+| GAAP Operating Margin | 18.3% | 20.7% | -240bps |
+| Non-GAAP Operating Income | $2,115M | $1,871M | +13% |
+| Non-GAAP Operating Margin | 43.0% | 46.7% | -370bps |
+| GAAP Net Income | $904M | $792M | +14% |
+| GAAP Diluted EPS | $0.85 | $0.75 | +13% |
+| Non-GAAP Net Income | $2,222M | $1,737M | +28% |
+| Non-GAAP Diluted EPS | **$1.77** | $1.63 | +9% |
+| OCF | $1,524M | $397M | +284% |
+| CapEx (PPE) | $545M | $219M | +149% |
+| Non-GAAP FCF | **$882M** | $99M | +791% |
+| SBC | $1,052M | $820M | +28% |
+
+*OCF สูงขึ้นมากเพราะ working capital improvements และ timing of tax payments*
+
+### Quarterly — Q4 FY2026 (Three Months Ended March 31, 2026) vs Q4 FY2025
+
+| Metric | Q4 FY2026 | Q4 FY2025 | YoY% |
+|--------|-----------|-----------|------|
+| Total Revenue | **$1,490M** | $1,241M | **+20%** (record) |
+| License & Other | $819M | $634M | +29% |
+| — incl. SoftBank | $200M | — | — |
+| Royalty Revenue | $671M | $607M | +11% |
+| GAAP Gross Margin | 97.9% | 97.7% | — |
+| Non-GAAP Gross Margin | 98.3% | 98.4% | — |
+| GAAP Operating Income | $438M | $410M | +7% |
+| GAAP Operating Margin | 29.4% | 33.0% | -360bps |
+| Non-GAAP Operating Income | $731M | $655M | +12% |
+| Non-GAAP Operating Margin | **49.1%** | 52.8% | -370bps |
+| GAAP Net Income | $313M | $210M | +49% |
+| GAAP Diluted EPS | $0.29 | $0.20 | +45% |
+| Non-GAAP Net Income | $641M | $584M | +10% |
+| Non-GAAP Diluted EPS | **$0.60** (record) | $0.55 | +9% |
+| OCF | $260M | $258M | +1% |
+| Non-GAAP FCF | $152M | $163M | -7% |
+| Cash + ST Investments | $3,601M | $2,825M | — |
+
+### Quarterly — Q3 FY2026 (Three Months Ended December 31, 2025) vs Q3 FY2025
+
+| Metric | Q3 FY2026 | Q3 FY2025 | YoY% |
+|--------|-----------|-----------|------|
+| Total Revenue | $1,242M | $983M | **+26%** (record at time) |
+| License & Other | $505M | $403M | +25% |
+| — incl. SoftBank | $200M | — | — |
+| Royalty Revenue | $737M | $580M | +27% (record) |
+| GAAP Operating Margin | 14.9% | 17.8% | — |
+| Non-GAAP Operating Margin | 40.7% | 45.0% | — |
+| GAAP EPS | $0.21 | $0.24 | -13% |
+| Non-GAAP EPS | $0.43 | $0.39 | +10% |
+| OCF | $365M | $423M | — |
+| Non-GAAP FCF | $169M | $349M | — |
+| ACV | $1,620M | $1,270M | +28% |
+
+### Q1 FY2027 Guidance (April – June 2026)
+
+| Item | Guidance |
+|------|----------|
+| Revenue | $1.26B ± $50M (~+20% YoY) |
+| Royalty | ~+20% YoY |
+| License & Other | ~+20% YoY |
+| Non-GAAP OpEx | ~$760M |
+| Non-GAAP EPS | $0.40 ± $0.04 |
+
+---
+
+## Management
+
+- **CEO:** Rene Haas (ดำรงตำแหน่ง Feb 2022; อดีต NVIDIA 7 ปี, เคยนำ Arm IPG group)
+- **CFO:** Jason Child (Nov 2022; อดีต CFO Splunk + Amazon International)
+- **VP IR:** Jeffrey Kvaal (Head of Investor Relations)
+- **Employees (FY2026):** 9,584 total; 8,058 engineers (+15%/+16% YoY)
+- **กลยุทธ์หลัก:** 3 Growth Vectors — (1) Royalty/IP growth ผ่าน Armv9 + CSS; (2) AGI CPU silicon (new); (3) Platform ecosystem expansion across Cloud/Edge/Physical AI
+- **Vision:** "CPU เป็น Orchestrator ของ AI Agents" — agentic AI ต้องการ CPU เพิ่มขึ้น ไม่ใช่ลด; ARM AGI CPU รองรับโดยตรง
+- **ความมั่นใจ:** Rene Haas กล่าวว่าเชื่อว่า ARM จะเป็น largest CPU market share by type ภายในปลายทศวรรษนี้
+
+---
+
+## MOAT & Competitive Advantage
+
+**1. Ecosystem Lock-in (แข็งแกร่งที่สุด)**
+- นักพัฒนา **22M+ คน** (>80% ของทั้งโลก) + ชิป Arm **350B+** ชิปส่งออกสะสม
+- Software ทั่วโลก optimize สำหรับ Arm → switching cost สูงมาก; hyperscalers ที่ migrate แล้วไม่กลับ
+
+**2. Performance per Watt Leadership**
+- ประสิทธิภาพต่อพลังงานสูงสุด — critical สำหรับ Data Center (ค่าไฟ) และ Mobile (แบต)
+- Google Axion vs x86: 80% better performance-per-watt; AWS Graviton5: 40% better price-performance
+
+**3. Asset-Light Business Model (IP Licensing)**
+- Fabless IP licensing = ไม่แบก CapEx สูงสำหรับ IP business; ลูกค้าแข่งกันเองบน Arm platform
+- GM: 98%+ Non-GAAP (IP segment); เพิ่ม silicon segment ที่ GM ~30%+
+
+**4. Armv9 + CSS Structural Royalty Growth**
+- CSS (Compute Subsystems): royalty rate 2-3x สูงกว่า Armv8 → revenue per chip เพิ่มทุกปีแม้ unit ไม่โต
+- CSS ปัจจุบัน "into the teens" % ของ royalty → projected >50% ในอีกไม่กี่ปี
+- All top 4 Android OEMs ใช้ CSS; ทุก CSS customer ที่ครบ cycle ต่างทำ renew/upgrade
+
+**5. Neoverse Data Center Dominance**
+- ~50% share ใน CPU compute ของ top hyperscalers (AWS Graviton, Google Axion, Microsoft Cobalt, NVIDIA Vera/Grace)
+- Neoverse cores deployed: 1B+ cores แล้ว; Data center royalty doubled YoY ใน Q3+Q4 FY2026
+
+**ปัจจัยที่อาจกัดกร่อน MOAT:**
+- **RISC-V:** Open-source ไม่มีค่า licensing; กลุ่ม consortium (incl. Qualcomm, Samsung) กำลัง push
+- **Qualcomm:** ออกแบบ CPU cores เอง (Oryon) หลังซื้อ Nuvia — ถ้า wins court case = กินส่วน license/royalty ของ Arm
+- **Bespoke AI Accelerators:** ถ้า GPU/NPU dominates inference computation → CPU role ลดลง (แต่ Arm argue ว่าตรงข้าม)
+
+---
+
+## Competitive Landscape
+
+| Competitor | Threat | Current Status |
+|-----------|--------|----------------|
+| Intel/AMD (x86) | PC/Server CPU | ถูก Arm แย่ง share ใน cloud; Google แทน x86 host ด้วย Axion ทั้งหมด |
+| RISC-V | Open-source ISA | ไม่มีค่า royalty; เหมาะ IoT/Embedded; กลุ่ม joint venture ใน automotive |
+| Qualcomm (Oryon) | Custom ARM CPU | เป็นลูกค้า AND ผู้ออกแบบชิปเอง; กำลังฟ้อง ARM เรื่อง Nuvia license |
+| Custom CSP chips | Captive ARM designs | ทุก design ใช้ Arm IP → ยิ่ง design เยอะ ARM ยิ่งได้ royalty |
+
+**Arm Advantage:** ลูกค้าทุกรายที่ผลิตชิปเอง (Graviton, Axion, Cobalt, Vera) ล้วนใช้ Arm IP → ARM ได้ทั้งจาก hyperscaler chips และ merchant silicon
+
+---
+
+## Growth Catalysts
+
+**1. Arm AGI CPU — New Revenue Vector (Largest Catalyst)**
+- ชิปสำเร็จรูปตัวแรกของ ARM สำหรับ data center — purpose-built for agentic AI
+- **136 CPU cores** per chip, >2x performance per rack vs x86, ลด CapEx $10B/gigawatt*
+- Meta เป็น lead partner & co-developer — roadmap รองรับ personal superintelligence สำหรับ 3B+ users
+- **$2B+ demand** across FY2027-FY2028 (double จาก $1B ที่ launch); ยัง supply-constrained
+- Revenue schedule: ~$90M ใน Q4 FY2027, remainder ใน FY2028
+- Support จาก 50+ companies: AWS, Broadcom, Google Cloud, Marvell, Microsoft, Micron, NVIDIA, Oracle, Samsung, SK Hynix, TSMC
+- GM: ~30%+ สำหรับ gen แรก (vs 98%+ ของ IP business)
+- ราคาเข้าถึง: สั่ง finished racks ผ่าน Supermicro/Lenovo/Quanta/ASRock
+
+**2. Data Center Royalty Supercycle**
+- Royalty doubled YoY ใน FY2026; คาดว่า double อีกครั้งใน FY2027
+- AWS Graviton5 (192 cores, +25% perf), Google TPU8t/8i (Axion host), Microsoft Cobalt 200 (132 cores), NVIDIA Vera (88 cores per chip; 256-chip dedicated rack)
+- DPUs/SmartNICs: ARM มี ~100% market share ในชิป networking สำหรับ data center
+
+**3. Armv9 + CSS Transition ใน Mobile**
+- Royalty rate เพิ่มทุก cycle แม้ unit volumes แผ่ว
+- Memory shortage กระทบส่วน low-end (Armv8) ซึ่ง royalty ต่ำ; premium/flagship (CSS) ไม่กระทบ
+- Jason Child: แม้ unit -20% จะกระทบ royalty จาก smartphone แค่ 2-4%, กระทบ total royalty แค่ 1-2%
+
+**4. Physical AI (Automotive + Robotics)**
+- Rivian Autonomy Processor: first Armv9 in production car
+- Tesla Optimus (humanoid robot): custom Arm-based AI processor
+- NVIDIA Jetson Thor + Qualcomm Dragonwing: ใช้ Arm สำหรับ robotics/autonomous
+- Double-digit growth YoY ต่อเนื่อง
+
+**5. Long-term FY2031 Targets**
+- Total Revenue: **$25B** ($15B AGI CPU silicon + $10B IP)
+- Non-GAAP EPS: **>$9**
+- IP business operating margin: ~65%; Chip business: ~35%
+
+**6. SoftBank Strategic Relationship**
+- SoftBank จ่าย $200M/quarter ใน license revenue (run rate ถาวร) — connected to SoftBank AI strategy incl. Ampere + Graphcore acquisitions
+- Masa Son ระบุชัด "ไม่ขายหุ้น ARM แม้แต่หุ้นเดียว"
+
+---
+
+## Capital Structure
+
+**Balance Sheet (March 31, 2026)**
+
+| Item | Amount |
+|------|--------|
+| Cash & Cash Equivalents | $2,751M |
+| Short-term Investments | $850M |
+| **Total Liquid Assets** | **$3,601M** |
+| Contract Assets (current) | $977M |
+| Total Current Assets | $6,236M |
+| Property & Equipment, net | $772M |
+| Goodwill | $1,623M |
+| Intangible Assets, net | $230M |
+| Total Assets | **$10,703M** |
+| Total Current Liabilities | $1,040M |
+| Non-current Contract Liabilities | $752M |
+| Total Liabilities | $2,417M |
+| **Total Shareholders' Equity** | **$8,286M** |
+| Shares Outstanding | ~1,064M (March 2026) |
+
+**SBC:** $1,052M ใน FY2026 — สูงมากเมื่อเทียบกับ GAAP Net Income $904M (= SBC > Net Income)
+**No debt:** ARM ไม่มี interest-bearing debt — balance sheet สะอาด
+
+**Non-cancelable Purchase Obligations (จาก 20F, March 31, 2025):**
+- ~$912M outstanding (term ≥12 months) — cloud computing, data centers, software
+
+---
+
+## CapEx & Infrastructure
+
+| Year | CapEx (PPE) | OCF | Non-GAAP FCF | Notes |
+|------|-------------|-----|--------------|-------|
+| FY2023 | — | $550M (ending cash change) | — | Pre-IPO |
+| FY2024 | — | $739M | — | IPO year |
+| FY2025 | $219M | $397M | $99M | 20F baseline |
+| FY2026 | **$545M** | $1,524M | **$882M** | AGI CPU buildout begins |
+
+**CapEx สูงขึ้นมาก:** FY2026 CapEx กระโดดจาก $219M → $545M (+149%) เพราะ ARM เริ่มสร้าง infrastructure รองรับ production silicon (AGI CPU) — property & equipment สุทธิเพิ่มจาก $354M → $772M ใน 1 ปี
+
+**Intangible Asset Purchases:** $30M ใน FY2026 (ส่วนใหญ่เป็น EDA tools และ IP)
+**Payment of Intangible Obligations:** $67M ใน FY2026
+
+---
+
+## Risks & Watch List
+
+**[CRITICAL]** **Qualcomm / Nuvia Lawsuit — Existential IP Risk**
+Arm ฟ้อง Qualcomm + Nuvia ใน Aug 2022 ฐานที่ Qualcomm ซื้อ Nuvia แล้วไม่ทำลาย technology ที่พัฒนาภายใต้ Nuvia ALA; Jury trial ใน Dec 2024 — jury ไม่ได้ verdict สมบูรณ์ (split verdict); ยังอยู่ในขั้น post-trial motions; **Qualcomm คิดเป็น 10% ของ revenue FY2025** — ถ้า Qualcomm ชนะคดีหรือ renegotiate license terms อาจลด licensing income อย่างมีนัยสำคัญ นอกจากนี้ Qualcomm ยังยื่นฟ้องกลับ Arm (Apr 2024, amended Dec 2024) เรื่อง delivery obligations ภายใต้ Qualcomm ALA
+
+**[CRITICAL]** **Arm AGI CPU — Channel Conflict กับ Licensees**
+ARM เปลี่ยนจาก IP licensor → ขายชิปเอง ซึ่งแข่งกับ custom chip designs ของลูกค้าบางราย (AWS Graviton, Google Axion ฯลฯ) แม้ทุก partner จะ "support" แต่ถ้า relationship เสื่อมลง → ลด license/royalty income; CapEx สำหรับ silicon business ก็กัด FCF
+
+**[CRITICAL]** **China Revenue Concentration + Arm China Independence**
+Arm China = ~17% ของ revenue FY2025; ดำเนินงานอิสระ — ARM ไม่มี management control; SoftBank (ผ่าน Acetone Limited) ถือ ~48% ของ Arm China; ARM โอนหุ้น Arm China ให้ SoftBank แล้วในปี 2022; ถ้าความสัมพันธ์ทางการค้ากับ Arm China เสื่อมลงหรือ US export controls เข้มขึ้น → revenue กระทบหนัก
+
+**[HIGH]** **Export Controls on Advanced ARM IP to China**
+US/UK export controls จำกัดการขาย advanced IP (เช่น Neoverse HPC-grade) ให้ PRC customers; ถ้า controls เข้มงวดขึ้น → จำกัด ARM China access to latest technology; อาจ accelerate RISC-V adoption ในจีน
+
+**[HIGH]** **SoftBank Ownership Concentration (87%+)**
+SoftBank ถือ >87% → decisions ที่ขัดผลประโยชน์ minority shareholders; Masa Son อาจขายหุ้นในอนาคตถ้าแผน AI เปลี่ยน (แม้ปัจจุบันยืนยันไม่ขาย)
+
+**[HIGH]** **RISC-V Competition**
+Open-source ISA ไม่มีค่า royalty — ได้ momentum ใน IoT, Automotive, Edge; Joint venture จาก Qualcomm, Google, Samsung และอื่นๆ; ถ้า RISC-V ecosystem พัฒนาพอ → ลด addressable market ของ ARM
+
+**[HIGH]** **AGI CPU Supply Chain Constraints**
+Demand สูงกว่า $2B แต่ supply ยัง limited; ARM ต้องหา wafer capacity, memory, packaging, test equipment เพิ่ม → ล่าช้าส่งมอบ = เสีย first-mover advantage
+
+**[MEDIUM]** **Operating Margin Compression**
+Non-GAAP Op Margin ลดจาก 46.7% (FY2025) → 43.0% (FY2026) เพราะ R&D เพิ่ม +34% YoY (faster than revenue); ถ้า AGI CPU margin (~30%) grow ขึ้นเป็น portion ใหญ่ → blended margin ลดลงต่อเนื่อง
+
+**[MEDIUM]** **Memory Shortage Impact on Mobile**
+Memory cost supercycle → smartphone OEMs ลด unit volumes low-end; แม้กระทบ Arm น้อย (~1-2% total royalty) แต่ถ้ายาวกว่าคาดอาจกระทบ edge AI royalty growth
+
+**[WATCH]** **FY2031 Target Credibility ($25B Revenue)**
+FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉลี่ย ~40% CAGR; Silicon business ต้องไม่แค่ $15B แต่ต้องเป็น profitable business ด้วย; Valuation depends heavily on market believing this target
+
+---
+
+## Analyst Views [ANALYST VIEW]
+
+*หมายเหตุ: ข้อมูลนี้จาก analyst questions ใน earnings call — เป็นมุมมองจากภายนอก ไม่ใช่ primary documents*
+
+**Bull Case:**
+- Armv9 + CSS = structural royalty per chip growth แม้ unit flat/down
+- Data center royalty doubled YoY ใน FY2026; คาดจะ double อีกครั้งใน FY2027
+- AGI CPU demand doubled ($1B → $2B) ใน 6 สัปดาห์หลัง launch = customer pull แข็งมาก
+- FY2031 target $25B = 5x จาก FY2026; IP business ยังโต >10% floor
+
+**Bear Case:**
+- Valuation สูงมาก (P/E 50-80x Non-GAAP) — prices in perfection
+- GAAP Operating Margin ลงจาก 20.7% → 18.3% YoY; SBC สูงเกิน net income
+- Qualcomm lawsuit มีความเสี่ยง structural: ถ้า Qualcomm ชนะอาจ renegotiate terms → license ลด
+- AGI CPU channel conflict กับ hyperscaler custom chip programs
+- China 17% revenue ผ่าน entity ที่ ARM ควบคุมไม่ได้
+
+---
+
 ## Quarter Log
-| Quarter | Revenue | YoY% | EPS (Non-GAAP) | Notes |
-|---------|---------|------|----------------|-------|
-| Q4 FY2026 | $1.49B | +20% | $0.60 | Op Margin 49.1%, FCF FY2026 $882M |
-| FY2026 | $4.92B | +23% | — | Record revenue; Cloud AI royalty >100% YoY |
+
+| Quarter | Revenue | YoY% | GAAP EPS | Non-GAAP EPS | Non-GAAP Op Margin | Notes |
+|---------|---------|------|----------|--------------|---------------------|-------|
+| FY2025 | $4,007M | +26% | $0.75 | $1.63 | 46.7% | 20F annual; OCF $397M |
+| Q3 FY2026 (2025Q4) | $1,242M | +26% | $0.21 | $0.43 | 40.7% | Data center royalty >100% YoY; CSS "into the teens" |
+| Q4 FY2026 (2026Q1) | $1,490M | +20% | $0.29 | $0.60 | 49.1% | Record quarter; AGI CPU launched; $2B+ demand |
+| FY2026 | $4,920M | +23% | $0.85 | $1.77 | 43.0% | 3rd consecutive year >20% growth; FCF $882M |
+| Q1 FY2027 (2026Q2) | Guide $1.26B | ~+20% | — | Guide $0.40 | — | AGI CPU rev starts Q4 FY2027 (~$90M) |
+
+---
+
+## Valuation Range
+
+-
+
+---
+
+## Recent News
+
+-
+
+---
+
+## Source Log
+
+| ไฟล์ | ประเภท | Period | อ่านเมื่อ |
+|------|--------|--------|----------|
+| 2025Q1 - ARM - 20F.pdf | 20F (Annual Report) | FY2025 (Ended March 31, 2025) | 2026-05-17 |
+| 2025Q4 - ARM - Exhibit-99-1.pdf | Exhibit 99-1 | Q3 FY2026 (Oct–Dec 2025) | 2026-05-17 |
+| 2026Q1 - ARM - Exhibit-99-1.pdf | Exhibit 99-1 | Q4 FY2026 + Full Year FY2026 | 2026-05-17 |
+| 2025Q4 - ARM - Earnings-Call-Transcript.pdf | Earnings Call Transcript | Q3 FY2026 (Feb 4, 2026) | 2026-05-17 |
+| 2026Q1 - ARM - Earnings-Call-Transcript.pdf | Earnings Call Transcript | Q4 FY2026 (May 6, 2026) | 2026-05-17 |
+| 2025Q4 - ARM - Earnings-Presentation.pdf | Earnings Presentation | Q3 FY2026 | 2026-05-17 |
+| 2026Q1 - ARM - Earnings-Presentation.pdf | Earnings Presentation | Q4 FY2026 | 2026-05-17 |
 `,
 
 "ASML": `# ASML Holding (ASML) · Semiconductor / Semiconductor Equipment
