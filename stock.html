@@ -425,21 +425,23 @@ function renderStock(ticker) {
 
   const chipsHtml = s.chips.map(c => `<span class="chip">${c}</span>`).join('');
 
-  const scoreRows = ['bq','gp','va','ra'].map(k => {
-    const [val, col, pct] = s.scores[k];
-    const labels = { bq: ['BQ','Business Quality'], gp: ['GP','Growth Profile'], va: ['VA','Valuation'], ra: ['RA','Risk Assessment'] };
-    const [abbr, full] = labels[k];
-    return `
-      <div class="waf-row" data-key="${k}">
-        <div class="waf-row-head">
-          <div>
-            <div class="waf-row-title">${abbr} · ${full}</div>
-          </div>
-          <div class="waf-row-score" style="color:${barColor(col)}">${val.toFixed(1)}<span class="denom">/10</span></div>
-        </div>
-        <div class="waf-bar"><div class="waf-bar-fill ${col}" style="width:${pct}%"></div></div>
-      </div>`;
-  }).join('');
+  const scoreRows = s.scores
+    ? ['bq','gp','va','ra'].map(k => {
+        const [val, col, pct] = s.scores[k];
+        const labels = { bq: ['BQ','Business Quality'], gp: ['GP','Growth Profile'], va: ['VA','Valuation'], ra: ['RA','Risk Assessment'] };
+        const [abbr, full] = labels[k];
+        return `
+          <div class="waf-row" data-key="${k}">
+            <div class="waf-row-head">
+              <div>
+                <div class="waf-row-title">${abbr} · ${full}</div>
+              </div>
+              <div class="waf-row-score" style="color:${barColor(col)}">${val.toFixed(1)}<span class="denom">/10</span></div>
+            </div>
+            <div class="waf-bar"><div class="waf-bar-fill ${col}" style="width:${pct}%"></div></div>
+          </div>`;
+      }).join('')
+    : '<p style="color:var(--fg-dim); font-size:13px; padding:16px 0">Warren ยังไม่ได้ทำการวิเคราะห์ WAF — รัน /warren เพื่ออัพเดท</p>';
 
   const bullHtml = s.bull.map(b => `<li style="padding:8px 0; border-bottom:1px solid rgba(16,185,129,0.12); font-size:14px; color:var(--fg-muted); line-height:1.6; display:flex; gap:10px"><span style="color:var(--green); flex-shrink:0; margin-top:2px; font-weight:600">↑</span>${b}</li>`).join('');
   const riskHtml = s.risk.map(r => `<li style="padding:8px 0; border-bottom:1px solid rgba(239,68,68,0.12); font-size:14px; color:var(--fg-muted); line-height:1.6; display:flex; gap:10px"><span style="color:#ef4444; flex-shrink:0; margin-top:2px; font-weight:600">↓</span>${r}</li>`).join('');
@@ -539,8 +541,8 @@ function renderStock(ticker) {
           <div>
             <span class="eyebrow">WAF Scorecard · คะแนน 4 มิติ</span>
             <h2 style="font-size:24px; display:flex; align-items:baseline; gap:10px; flex-wrap:wrap">
-              <span class="waf-composite ${s.wafComposite}">
-                <span class="waf-composite-num">${s.waf.toFixed(2)}</span><span class="waf-composite-denom">/10</span>
+              <span class="waf-composite ${s.wafComposite || 'waf-composite-amber'}">
+                <span class="waf-composite-num">${s.waf != null ? s.waf.toFixed(2) : 'N/A'}</span><span class="waf-composite-denom">/10</span>
               </span>
               <span style="font-size:18px; color:var(--fg-muted)">${t} — ${s.name}</span>
             </h2>
