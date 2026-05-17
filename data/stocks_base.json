@@ -27,11 +27,6 @@
     "waf": 8.43,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 386,
-    "fv": 560,
-    "mos": 31.1,
-    "fpe": 17.5,
-    "peg": 0.8,
     "scores": {
       "bq": [
         9,
@@ -85,11 +80,6 @@
     "waf": 8.43,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 219.48,
-    "fv": 250,
-    "mos": 12.4,
-    "fpe": 30.8,
-    "peg": 0.47,
     "scores": {
       "bq": [
         9.5,
@@ -143,11 +133,6 @@
     "waf": 8.3,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 598.86,
-    "fv": 840,
-    "mos": 28.7,
-    "fpe": 18.1,
-    "peg": 0.9,
     "scores": {
       "bq": [
         9,
@@ -201,11 +186,6 @@
     "waf": 8.25,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 432,
-    "fv": 500,
-    "mos": 13.6,
-    "fpe": 32,
-    "peg": 1.3,
     "scores": {
       "bq": [
         9,
@@ -259,11 +239,6 @@
     "waf": 8,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 820,
-    "fv": 900,
-    "mos": 8.9,
-    "fpe": 28,
-    "peg": 1.2,
     "scores": {
       "bq": [
         9,
@@ -317,11 +292,6 @@
     "waf": 8,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 200,
-    "fv": 230,
-    "mos": 13,
-    "fpe": 21,
-    "peg": 0.75,
     "scores": {
       "bq": [
         8.5,
@@ -375,11 +345,6 @@
     "waf": 7.93,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 220,
-    "fv": 243,
-    "mos": 9.5,
-    "fpe": 35,
-    "peg": 1.1,
     "scores": {
       "bq": [
         8.5,
@@ -433,11 +398,6 @@
     "waf": 7.83,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 140,
-    "fv": 160,
-    "mos": 12.5,
-    "fpe": 55,
-    "peg": 1.8,
     "scores": {
       "bq": [
         8,
@@ -491,11 +451,6 @@
     "waf": 7.75,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 195,
-    "fv": 215,
-    "mos": 9.3,
-    "fpe": 28,
-    "peg": 2.3,
     "scores": {
       "bq": [
         9,
@@ -549,11 +504,6 @@
     "waf": 7.5,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 250,
-    "fv": 350,
-    "mos": null,
-    "fpe": 42,
-    "peg": 1.5,
     "scores": {
       "bq": [
         8.5,
@@ -607,11 +557,6 @@
     "waf": 7.5,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 108,
-    "fv": 135,
-    "mos": 20,
-    "fpe": 8,
-    "peg": 0.4,
     "scores": {
       "bq": [
         7.5,
@@ -665,11 +610,6 @@
     "waf": 7.45,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 1080,
-    "fv": 1130,
-    "mos": 4.5,
-    "fpe": 38,
-    "peg": 2,
     "scores": {
       "bq": [
         8,
@@ -723,11 +663,6 @@
     "waf": 7.3,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 155,
-    "fv": 160,
-    "mos": 3.1,
-    "fpe": 35,
-    "peg": 1.1,
     "scores": {
       "bq": [
         7.5,
@@ -781,11 +716,6 @@
     "waf": 6.73,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 280,
-    "fv": 190,
-    "mos": null,
-    "fpe": 150,
-    "peg": 5,
     "scores": {
       "bq": [
         7,
@@ -839,11 +769,6 @@
     "waf": 6.2,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 22,
-    "fv": 25,
-    "mos": 12,
-    "fpe": null,
-    "peg": null,
     "scores": {
       "bq": [
         6,

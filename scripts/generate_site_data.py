@@ -76,6 +76,68 @@ def load_json(path, label):
         print(f"[warn] อ่าน {label} ไม่ได้: {ex}")
         return None
 
+def parse_wiki_valuation(content):
+    """Extract FV/MoS/Price/PEG/FwdPE from ## Valuation Range section of a Wiki Card."""
+    m = re.search(r'## Valuation Range\n(.*?)(?=\n## |\Z)', content, re.DOTALL)
+    if not m:
+        return {}
+    section = m.group(1)
+    if not section.strip() or re.match(r'^\s*-\s*$', section.strip()):
+        return {}
+
+    out = {}
+
+    mm = re.search(r'\*\*Last Updated:\*\*\s*([\d-]+)', section)
+    if mm:
+        out['updated'] = mm.group(1)
+
+    for pat in [r'\*\*ราคาปัจจุบัน:\*\*\s*\$?([\d,]+\.?\d*)',
+                r'\*\*Price ณ วันนั้น:\*\*\s*\$?([\d,]+\.?\d*)']:
+        mm = re.search(pat, section)
+        if mm:
+            out['price'] = float(mm.group(1).replace(',', ''))
+            break
+
+    mm = re.search(r'\*\*Weighted Fair Value:.*?=\s*\*\*\$?([\d,]+)\*\*', section)
+    if mm:
+        out['fv'] = float(mm.group(1).replace(',', ''))
+
+    mm = re.search(r'\*\*Margin of Safety:\*\*\s*([\d.]+)%', section)
+    if mm:
+        out['mos_pct'] = float(mm.group(1))
+
+    mm = re.search(r'\*\*PEG:\*\*\s*([\d.]+)', section)
+    if mm:
+        out['peg'] = float(mm.group(1))
+
+    mm = re.search(r'Fwd P/E\s+([\d.]+)', section)
+    if mm:
+        out['forward_pe'] = float(mm.group(1))
+
+    return out
+
+def load_wiki_valuations():
+    """Return {TICKER: valuation_dict} parsed from Wiki Card markdown files."""
+    result = {}
+    if not KNOWLEDGE_DIR.exists():
+        return result
+
+    STOCK_DIRS = {"big-tech", "semiconductor", "diversified", "consumer"}
+
+    for md_file in sorted(KNOWLEDGE_DIR.rglob("*.md")):
+        if md_file.stem.startswith("_"):
+            continue
+        if md_file.parent.name not in STOCK_DIRS:
+            continue
+        ticker = md_file.stem.upper()
+        content = md_file.read_text(encoding="utf-8")
+        val = parse_wiki_valuation(content)
+        if val:
+            result[ticker] = val
+            print(f"[wiki-val] {ticker}: FV={val.get('fv')} MoS={val.get('mos_pct')}% Price={val.get('price')}")
+
+    return result
+
 # ── Load sources ──────────────────────────────────────────────────────────────
 def load_papers(papers_data):
     """Return {TICKER: recommendation_dict} from latest paper."""
@@ -104,7 +166,7 @@ def load_watchlist(watchlist_data):
     return result
 
 # ── Build individual stock entry ──────────────────────────────────────────────
-def build_entry(ticker, base, paper_rec, watchlist_info, paper_date):
+def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=None):
     entry = dict(base) if base else {}
 
     # Override dynamic fields from Warren's paper
@@ -152,6 +214,15 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date):
         if thesis_risk and not entry.get("risk"):
             entry["risk"] = [thesis_risk]
 
+    # Wiki Card valuation overrides all other sources (highest priority)
+    if wiki_val:
+        if 'price'      in wiki_val: entry['price']   = wiki_val['price']
+        if 'fv'         in wiki_val: entry['fv']       = wiki_val['fv']
+        if 'mos_pct'    in wiki_val: entry['mos']      = wiki_val['mos_pct']
+        if 'peg'        in wiki_val: entry['peg']      = wiki_val['peg']
+        if 'forward_pe' in wiki_val: entry['fpe']      = wiki_val['forward_pe']
+        if 'updated'    in wiki_val: entry['updated']  = wiki_val['updated']
+
     # Fill metadata from watchlist for new stocks not in stocks_base.json
     if watchlist_info and not entry.get("name"):
         cat        = watchlist_info.get("category", "")
@@ -168,16 +239,19 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date):
     return entry
 
 # ── Generate stocks.json ──────────────────────────────────────────────────────
-def generate_stocks_json(base_data, papers, paper_date, watchlist):
+def generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals=None):
     stocks = {}
+    wiki_vals = wiki_vals or {}
 
     # 1. All stocks from stocks_base.json
     for ticker, base in base_data.items():
-        paper_rec     = papers.get(ticker)
+        paper_rec      = papers.get(ticker)
         watchlist_info = watchlist.get(ticker)
-        entry = build_entry(ticker, base, paper_rec, watchlist_info, paper_date)
+        wiki_val       = wiki_vals.get(ticker)
+        entry = build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val)
         stocks[ticker] = entry
-        src = "base+paper" if paper_rec else "base"
+        src = "+".join(filter(None, ["base", "paper" if paper_rec else None, "wiki" if wiki_val else None]))
+        src = src or "base"
         print(f"[stock] {ticker:6}  ({src})")
 
     # 2. New stocks in papers.json not yet in stocks_base.json
@@ -267,8 +341,13 @@ if __name__ == "__main__":
     papers, paper_date = load_papers(papers_raw)
     watchlist          = load_watchlist(watchlist_raw)
 
+    print(f"\n── Wiki Card Valuations ───────────────────────────────────")
+    wiki_vals = load_wiki_valuations()
+    if not wiki_vals:
+        print("[wiki-val] ไม่พบข้อมูลใน Wiki Card ใดเลย")
+
     print(f"\n── Stocks ─────────────────────────────────────────────────")
-    generate_stocks_json(base_data, papers, paper_date, watchlist)
+    generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals)
 
     print(f"\n── Knowledge ──────────────────────────────────────────────")
     generate_knowledge_js()
