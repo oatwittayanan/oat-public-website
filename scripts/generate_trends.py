@@ -8,7 +8,7 @@ import re
 import os
 from datetime import date
 
-TRENDS_DIR = "/Users/wittayanan/Desktop/OAT OS/investment-system/knowledge/trends"
+TRENDS_DIR = "/Users/wittayanan/Desktop/OAT OS/oat-investment-knowledge/knowledge/trends"
 OUTPUT_FILE = "/Users/wittayanan/Desktop/OAT OS/oat-public-website/trends.js"
 
 # Display order as specified

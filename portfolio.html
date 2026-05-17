@@ -67,55 +67,60 @@
       <span class="link-inline">Updated · Wed 14 May 2026 · 06:00 ICT</span>
     </div>
 
-    <div class="temp-widget" style="grid-template-columns:1.3fr 2fr" role="group" aria-label="Market temperature">
+    <div class="temp-widget" style="grid-template-columns:1.3fr 2fr; grid-template-rows:1fr auto" role="group" aria-label="Market temperature">
 
-      <!-- LEFT: Current Reading (top) + Cash Rule (bottom) -->
-      <div style="padding:0; display:grid; grid-template-rows:1fr auto">
-        <div class="temp-main" style="padding:22px 24px">
-          <div>
-            <div class="temp-main-label">Current reading</div>
-            <div style="display:flex; align-items:baseline; gap:14px; margin-top:8px">
-              <div class="temp-main-value">VERY HOT</div>
-              <span class="temp temp-veryhot"><span class="chip-dot"></span>Level 4 of 4</span>
-            </div>
-          </div>
-          <div>
-            <div class="temp-main-scale" aria-hidden="true">
-              <div class="tick cold"></div>
-              <div class="tick normal"></div>
-              <div class="tick hot"></div>
-              <div class="tick veryhot"></div>
-            </div>
-            <div class="temp-main-scale-labels">
-              <span>Cold</span><span>Normal</span><span>Hot</span><span>Very hot</span>
-            </div>
+      <!-- Row 1, Col 1: Current Reading -->
+      <div class="temp-main" style="padding:22px 24px; justify-content:center">
+        <div>
+          <div class="temp-main-label">Current reading</div>
+          <div style="display:flex; align-items:baseline; gap:14px; margin-top:8px">
+            <div class="temp-main-value">VERY HOT</div>
+            <span class="temp temp-veryhot"><span class="chip-dot"></span>Level 4 of 4</span>
           </div>
         </div>
-        <div class="temp-metric" style="padding:22px 24px; border-top:1px solid var(--hairline)">
-          <div class="temp-metric-label">Cash Rule · DCA</div>
-          <div class="temp-metric-value">40–60%</div>
-          <div class="temp-metric-sub">SGOV dry powder — รอ VIX &gt; 25</div>
+        <div>
+          <div class="temp-main-scale" aria-hidden="true">
+            <div class="tick cold"></div>
+            <div class="tick normal"></div>
+            <div class="tick hot"></div>
+            <div class="tick veryhot"></div>
+          </div>
+          <div class="temp-main-scale-labels">
+            <span>Cold</span><span>Normal</span><span>Hot</span><span>Very hot</span>
+          </div>
         </div>
       </div>
 
-      <!-- RIGHT: Temperature Score (top, centered) + CAPE | VIX (bottom, 2-col) -->
-      <div style="padding:0; display:grid; grid-template-rows:auto 1fr">
-        <div class="temp-metric" style="padding:28px 24px; text-align:center; align-items:center; border-bottom:1px solid var(--hairline)">
-          <div class="temp-metric-label">Temperature Score</div>
-          <div class="temp-metric-value" style="color:var(--red); font-size:42px; margin:6px 0">3.9<span style="color:var(--fg-dim); font-size:18px; margin-left:4px">/4</span></div>
-          <div class="temp-metric-sub">CAPE 4/4 · VIX 4/4 · Cash 3/4</div>
+      <!-- Row 1, Col 2: Temperature Score -->
+      <div class="temp-metric" style="padding:28px 24px; text-align:center; align-items:center; border-bottom:1px solid var(--hairline)">
+        <div class="temp-metric-label">Temperature Score</div>
+        <div style="margin:14px 0 10px">
+          <span class="temp temp-veryhot" style="font-size:22px; padding:12px 22px; gap:10px; border-radius:12px; letter-spacing:-0.02em">
+            <span class="chip-dot" style="width:8px;height:8px;flex-shrink:0"></span>
+            1.0<span style="font-size:15px; opacity:0.65; margin-left:4px; font-weight:400">/5</span>
+          </span>
         </div>
-        <div style="display:grid; grid-template-columns:1fr 1fr">
-          <div class="temp-metric" style="padding:22px 24px; border-right:1px solid var(--hairline)">
-            <div class="temp-metric-label">Shiller CAPE</div>
-            <div class="temp-metric-value">37.2<span style="color:var(--fg-dim); font-size:14px; margin-left:4px">×</span></div>
-            <div class="temp-metric-sub"><span class="delta-up">▲ 1.4</span> · 30-yr avg 26.1×</div>
-          </div>
-          <div class="temp-metric" style="padding:22px 24px">
-            <div class="temp-metric-label">VIX · Fear Index</div>
-            <div class="temp-metric-value">14.8</div>
-            <div class="temp-metric-sub"><span class="delta-down">▼ 0.6</span> · ความกลัวต่ำ — be careful</div>
-          </div>
+        <div class="temp-metric-sub">CAPE Score 1 · VIX Score 1</div>
+      </div>
+
+      <!-- Row 2, Col 1: Cash Rule -->
+      <div class="temp-metric" style="padding:22px 24px; border-left:0; border-top:1px solid var(--hairline); text-align:center; align-items:center">
+        <div class="temp-metric-label">Cash Rule · DCA</div>
+        <div class="temp-metric-value">40–60%</div>
+        <div class="temp-metric-sub">SGOV dry powder — รอ VIX &gt; 25</div>
+      </div>
+
+      <!-- Row 2, Col 2: CAPE + VIX -->
+      <div style="display:grid; grid-template-columns:1fr 1fr; border-top:1px solid var(--hairline)">
+        <div class="temp-metric" style="padding:22px 24px; border-right:1px solid var(--hairline); text-align:center; align-items:center">
+          <div class="temp-metric-label">Shiller CAPE</div>
+          <div class="temp-metric-value">37.2<span style="color:var(--fg-dim); font-size:14px; margin-left:4px">×</span></div>
+          <div class="temp-metric-sub"><span class="delta-up">▲ 1.4</span> · 30-yr avg 26.1×</div>
+        </div>
+        <div class="temp-metric" style="padding:22px 24px; text-align:center; align-items:center">
+          <div class="temp-metric-label">VIX · Fear Index</div>
+          <div class="temp-metric-value">14.8</div>
+          <div class="temp-metric-sub"><span class="delta-down">▼ 0.6</span> · ความกลัวต่ำ — be careful</div>
         </div>
       </div>
 

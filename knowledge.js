@@ -3776,12 +3776,12 @@ Jensen Huang ตอบ Goldman Sachs (Jim Schneider) เรื่อง $3-4 Tri
 ---
 
 ## Valuation Range
-_รอ Warren วิเคราะห์_
+-
 
 ---
 
 ## Recent News
-_mark_daily อัพเดทอัตโนมัติ_
+-
 
 ---
 

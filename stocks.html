@@ -43,23 +43,19 @@
     <div class="section-head" style="margin-bottom:32px">
       <div>
         <span class="eyebrow">All stocks · หุ้นทั้งหมด</span>
-        <h2 style="font-size:clamp(28px, 3.4vw, 36px)">15 names on the radar.</h2>
+        <h2 id="stocks-headline" style="font-size:clamp(28px, 3.4vw, 36px)">Loading...</h2>
         <p class="lead">Filtered by the WAF framework. เราถือ / Watch / Hold ตาม Valuation ปัจจุบัน — ไม่ใช่ความคิดเห็นต่อธุรกิจ</p>
       </div>
-      <div class="row" style="gap:14px; font-family:var(--font-mono); font-size:11px; color:var(--fg-muted); letter-spacing:0.05em; text-transform:uppercase">
-        <span class="row" style="gap:6px"><span style="background:var(--green); width:7px; height:7px; border-radius:50%; display:inline-block"></span>Buy 4</span>
-        <span class="row" style="gap:6px"><span style="background:var(--blue); width:7px; height:7px; border-radius:50%; display:inline-block"></span>Watch 9</span>
-        <span class="row" style="gap:6px"><span style="background:var(--fg-dim); width:7px; height:7px; border-radius:50%; display:inline-block"></span>Hold 2</span>
-      </div>
+      <div class="row" id="stocks-action-counts" style="gap:14px; font-family:var(--font-mono); font-size:11px; color:var(--fg-muted); letter-spacing:0.05em; text-transform:uppercase"></div>
     </div>
 
     <!-- FILTER BAR -->
     <div class="filter-bar" data-filter-group>
-      <div class="filter-tabs">
-        <button class="filter-tab is-active" data-filter="all">All <span class="mono dim" style="margin-left:6px">15</span></button>
-        <button class="filter-tab" data-filter="semi">Semiconductor <span class="mono dim" style="margin-left:6px">8</span></button>
-        <button class="filter-tab" data-filter="bigtech">Big Tech <span class="mono dim" style="margin-left:6px">5</span></button>
-        <button class="filter-tab" data-filter="consumer">Consumer <span class="mono dim" style="margin-left:6px">2</span></button>
+      <div class="filter-tabs" id="stocks-filter-tabs">
+        <button class="filter-tab is-active" data-filter="all">All <span class="mono dim" id="count-all" style="margin-left:6px"></span></button>
+        <button class="filter-tab" data-filter="semi">Semiconductor <span class="mono dim" id="count-semi" style="margin-left:6px"></span></button>
+        <button class="filter-tab" data-filter="bigtech">Big Tech <span class="mono dim" id="count-bigtech" style="margin-left:6px"></span></button>
+        <button class="filter-tab" data-filter="consumer">Consumer <span class="mono dim" id="count-consumer" style="margin-left:6px"></span></button>
       </div>
       <div class="filter-search">
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3" stroke-linecap="round"/></svg>
@@ -67,10 +63,10 @@
       </div>
     </div>
 
-    <!-- STOCK GRID -->
-    <div class="stocks-grid">
+    <!-- STOCK GRID (dynamic) -->
+    <div class="stocks-grid" id="stocks-grid">
 
-      <!-- GOOGL -->
+      <!-- placeholder ก่อน JS โหลด -->
       <a class="stock-card" href="stock.html?t=GOOGL" data-sector="bigtech">
         <div class="stock-card-head">
           <div>
@@ -342,12 +338,87 @@
 
     </div>
 
-    <p class="muted" style="margin-top:32px; font-size:13px; text-align:center; font-family:var(--font-mono); letter-spacing:0.05em">
-      แสดงทั้งหมด 15 หุ้น · อัพเดท 14 May 2026
-    </p>
+    <p id="stocks-footer" class="muted" style="margin-top:32px; font-size:13px; text-align:center; font-family:var(--font-mono); letter-spacing:0.05em"></p>
 
   </div>
 </section>
+
+<script>
+(async function () {
+  try {
+    const resp = await fetch('data/stocks.json');
+    const stocks = await resp.json();
+    const entries = Object.entries(stocks);
+
+    // ── Count by action & sector ──────────────────────────────────────────
+    const counts = { buy: 0, watch: 0, hold: 0, sell: 0 };
+    const sectorCounts = { semi: 0, bigtech: 0, consumer: 0 };
+    entries.forEach(([, s]) => {
+      if (s.action && counts[s.action] !== undefined) counts[s.action]++;
+      if (s.sectorSlug && sectorCounts[s.sectorSlug] !== undefined) sectorCounts[s.sectorSlug]++;
+    });
+
+    // ── Update headline & counts ──────────────────────────────────────────
+    document.getElementById('stocks-headline').textContent = entries.length + ' names on the radar.';
+
+    const actionBar = document.getElementById('stocks-action-counts');
+    const actionLabels = [
+      ['var(--green)', 'Buy', counts.buy],
+      ['var(--blue)',  'Watch', counts.watch],
+      ['var(--fg-dim)', 'Hold', counts.hold],
+    ];
+    actionBar.innerHTML = actionLabels
+      .filter(([, , n]) => n > 0)
+      .map(([color, label, n]) =>
+        `<span class="row" style="gap:6px">
+          <span style="background:${color}; width:7px; height:7px; border-radius:50%; display:inline-block"></span>
+          ${label} ${n}
+        </span>`)
+      .join('');
+
+    document.getElementById('count-all').textContent     = entries.length;
+    document.getElementById('count-semi').textContent    = sectorCounts.semi;
+    document.getElementById('count-bigtech').textContent = sectorCounts.bigtech;
+    document.getElementById('count-consumer').textContent = sectorCounts.consumer;
+
+    // ── Render cards ──────────────────────────────────────────────────────
+    function convDots(n) {
+      return Array.from({ length: 5 }, (_, i) =>
+        `<span class="conv-dot${i < (n || 0) ? ' on' : ''}"></span>`
+      ).join('');
+    }
+
+    const grid = document.getElementById('stocks-grid');
+    grid.innerHTML = entries.map(([ticker, s]) => `
+      <a class="stock-card" href="stock.html?t=${ticker}" data-sector="${s.sectorSlug || ''}">
+        <div class="stock-card-head">
+          <div>
+            <div class="stock-card-ticker">${ticker}</div>
+            <div class="stock-card-name">${s.name || ''} · ${s.sector || ''}</div>
+          </div>
+          <span class="waf ${s.wafBadge || 'waf-low'}">${s.waf != null ? s.waf.toFixed(2) : 'N/A'}</span>
+        </div>
+        <p class="stock-card-idea">${s.idea || ''}</p>
+        <div class="stock-card-footer">
+          <span class="conv">Conviction
+            <span class="conv-dots">${convDots(s.conviction)}</span>
+          </span>
+          <span class="action action-${s.action || 'hold'}">${s.actionLabel || 'Hold'}</span>
+        </div>
+      </a>`).join('');
+
+    // ── Footer ────────────────────────────────────────────────────────────
+    const latest = entries.reduce((a, [, s]) => s.updated > a ? s.updated : a, '');
+    document.getElementById('stocks-footer').textContent =
+      `แสดงทั้งหมด ${entries.length} หุ้น · อัพเดท ${latest}`;
+
+  } catch (err) {
+    document.getElementById('stocks-grid').innerHTML =
+      '<p style="color:var(--fg-muted); padding:40px 0; text-align:center">ไม่สามารถโหลดข้อมูลหุ้นได้</p>';
+    console.error('[stocks] load failed:', err);
+  }
+})();
+</script>
 
 <footer class="footer">
   <div class="container">

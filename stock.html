@@ -83,8 +83,11 @@
 </footer>
 
 <script>
-// ─── Stock Data ────────────────────────────────────────────────────────────
-const STOCKS = {
+// ─── Stock Data (loaded from data/stocks.json) ─────────────────────────────
+let STOCKS = {};
+
+// ─── Legacy inline data (fallback if stocks.json fails to load) ────────────
+const STOCKS_INLINE = {
   GOOGL: {
     name: 'Alphabet Inc.', sector: 'Big Tech', sectorSlug: 'bigtech',
     chips: ['Big Tech', 'Search + Cloud + AI'],
@@ -598,52 +601,52 @@ function withTimeout(promise, ms) {
 }
 
 async function fetchLiveQuote(ticker) {
-  // 1st: allorigins + Yahoo v8 (different CDN, most reliable)
-  try {
-    const url = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(
-      'https://query2.finance.yahoo.com/v8/finance/chart/' + ticker + '?interval=1d&range=2d'
-    );
-    const d = await withTimeout(
-      fetch(url).then(r => { if (!r.ok) throw new Error('err'); return r.json(); }), 8000
-    );
-    const meta = d?.chart?.result?.[0]?.meta;
-    if (meta?.regularMarketPrice) {
-      const price = meta.regularMarketPrice;
-      const prev  = meta.chartPreviousClose ?? meta.previousClose ?? price;
-      return { price, change: price - prev, changePct: prev ? (price - prev) / prev * 100 : 0 };
-    }
-  } catch(_) {}
+  const yf8q2 = 'https://query2.finance.yahoo.com/v8/finance/chart/' + ticker + '?interval=1d&range=2d';
+  const yf8q1 = 'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?interval=1d&range=2d';
+  const yf7   = 'https://query1.finance.yahoo.com/v7/finance/quote?symbols=' + ticker;
 
-  // 2nd: corsproxy + Yahoo v7 quote
-  try {
-    const url = 'https://corsproxy.io/?' + encodeURIComponent(
-      'https://query1.finance.yahoo.com/v7/finance/quote?symbols=' + ticker
-    );
-    const d = await withTimeout(
-      fetch(url).then(r => { if (!r.ok) throw new Error('err'); return r.json(); }), 7000
-    );
+  function chartResult(d) {
+    const meta = d?.chart?.result?.[0]?.meta;
+    if (!meta?.regularMarketPrice) throw new Error('no price');
+    const price = meta.regularMarketPrice;
+    const prev  = meta.chartPreviousClose ?? meta.previousClose ?? price;
+    return { price, change: price - prev, changePct: prev ? (price - prev) / prev * 100 : 0 };
+  }
+
+  function quoteResult(d) {
     const q = d?.quoteResponse?.result?.[0];
-    if (q?.regularMarketPrice) {
-      return { price: q.regularMarketPrice, change: q.regularMarketChange || 0, changePct: q.regularMarketChangePercent || 0 };
-    }
-  } catch(_) {}
+    if (!q?.regularMarketPrice) throw new Error('no price');
+    return { price: q.regularMarketPrice, change: q.regularMarketChange || 0, changePct: q.regularMarketChangePercent || 0 };
+  }
 
-  // 3rd: thingproxy + Yahoo v8
-  try {
-    const url = 'https://thingproxy.freeboard.io/fetch/' +
-      'https://query1.finance.yahoo.com/v8/finance/chart/' + ticker + '?interval=1d&range=2d';
+  async function tryFetch(url, parse, ms) {
     const d = await withTimeout(
-      fetch(url).then(r => { if (!r.ok) throw new Error('err'); return r.json(); }), 8000
+      fetch(url).then(r => { if (!r.ok) throw new Error('not ok'); return r.json(); }), ms
     );
-    const meta = d?.chart?.result?.[0]?.meta;
-    if (meta?.regularMarketPrice) {
-      const price = meta.regularMarketPrice;
-      const prev  = meta.chartPreviousClose ?? meta.previousClose ?? price;
-      return { price, change: price - prev, changePct: prev ? (price - prev) / prev * 100 : 0 };
-    }
-  } catch(_) {}
+    return parse(d);
+  }
 
-  return null;
+  async function tryAlloriginsGet() {
+    const w = await withTimeout(
+      fetch('https://api.allorigins.win/get?url=' + encodeURIComponent(yf8q2)).then(r => r.json()), 10000
+    );
+    if (!w?.contents) throw new Error('empty');
+    return chartResult(JSON.parse(w.contents));
+  }
+
+  // ยิงทุก proxy พร้อมกัน — ใช้ตัวแรกที่ตอบกลับสำเร็จ
+  try {
+    return await Promise.any([
+      tryFetch(yf8q2, chartResult, 5000),
+      tryFetch('https://api.allorigins.win/raw?url=' + encodeURIComponent(yf8q2), chartResult, 10000),
+      tryAlloriginsGet(),
+      tryFetch('https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(yf8q1), chartResult, 9000),
+      tryFetch('https://corsproxy.io/?' + encodeURIComponent(yf7), quoteResult, 8000),
+      tryFetch('https://thingproxy.freeboard.io/fetch/' + yf8q1, chartResult, 9000),
+    ]);
+  } catch {
+    return null;
+  }
 }
 
 async function loadLivePrice(ticker, staticPrice, fairValue, analysisDate) {
@@ -673,25 +676,49 @@ async function loadLivePrice(ticker, staticPrice, fairValue, analysisDate) {
       const changeStr = `<span style="color:${pos ? 'var(--green)' : '#ef4444'}">${pos ? '+' : ''}${change.toFixed(2)} (${pos ? '+' : ''}${changePct.toFixed(2)}%)</span>`;
       subEl.innerHTML = `${changeStr} today · <span style="color:var(--fg-dim)">Analysis price: $${staticPrice.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})} (${analysisDate})</span>`;
     }
+    return true;
   } else {
     const subEl = document.getElementById('live-sub-' + ticker);
     if (subEl) {
       subEl.innerHTML = `<span style="color:var(--fg-dim)">Analysis price: $${staticPrice.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})} (${analysisDate})</span>`;
     }
+    return false;
   }
 }
 
 // ─── Init ──────────────────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  // Load stocks data from generated JSON (fallback to inline if unavailable)
+  try {
+    const resp = await fetch('data/stocks.json');
+    if (resp.ok) STOCKS = await resp.json();
+  } catch (_) {}
+  if (!Object.keys(STOCKS).length) STOCKS = STOCKS_INLINE;
+
   const params = new URLSearchParams(window.location.search);
   const ticker = params.get('t') || '';
   renderStock(ticker);
 
-  // Load live price after render
   const t = ticker.toUpperCase();
   const s = STOCKS[t];
   if (s) {
-    loadLivePrice(t, s.price, s.fv, s.updated);
+    let retryCount = 0;
+    const MAX_RETRIES = 3;
+
+    async function tryLoadPrice() {
+      const ok = await loadLivePrice(t, s.price, s.fv, s.updated);
+      if (!ok && retryCount < MAX_RETRIES) {
+        retryCount++;
+        setTimeout(tryLoadPrice, 5000);
+      }
+    }
+
+    tryLoadPrice();
+    // Auto-refresh every 60 seconds
+    setInterval(() => {
+      retryCount = 0;
+      loadLivePrice(t, s.price, s.fv, s.updated);
+    }, 60000);
   }
 });
 </script>

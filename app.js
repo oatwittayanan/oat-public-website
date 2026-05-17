@@ -58,16 +58,15 @@
       }
     });
 
-    // Filter tabs (stocks page)
+    // Filter tabs (stocks page) — re-query cards on each click to support dynamic rendering
     document.querySelectorAll("[data-filter-group]").forEach((group) => {
       const tabs = group.querySelectorAll("[data-filter]");
-      const cards = document.querySelectorAll("[data-sector]");
       tabs.forEach((tab) =>
         tab.addEventListener("click", () => {
           tabs.forEach((t) => t.classList.remove("is-active"));
           tab.classList.add("is-active");
           const v = tab.getAttribute("data-filter");
-          cards.forEach((c) => {
+          document.querySelectorAll("[data-sector]").forEach((c) => {
             const s = c.getAttribute("data-sector");
             c.style.display = v === "all" || s === v ? "" : "none";
           });

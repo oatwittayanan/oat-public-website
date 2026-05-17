@@ -86,8 +86,10 @@
     <div style="display:flex; gap:8px; margin-bottom:20px; flex-wrap:wrap">
       <button onclick="filterTx('all')" id="filter-all" class="btn" style="font-size:12px; padding:6px 14px; background:rgba(94,106,210,0.18); color:var(--accent2); border:1px solid rgba(94,106,210,0.28)">All</button>
       <button onclick="filterTx('DEPOSIT')" id="filter-DEPOSIT" class="btn" style="font-size:12px; padding:6px 14px">Deposits</button>
+      <button onclick="filterTx('WITHDRAW')" id="filter-WITHDRAW" class="btn" style="font-size:12px; padding:6px 14px">Withdrawals</button>
       <button onclick="filterTx('BUY')" id="filter-BUY" class="btn" style="font-size:12px; padding:6px 14px">Buys</button>
       <button onclick="filterTx('SELL')" id="filter-SELL" class="btn" style="font-size:12px; padding:6px 14px">Sells</button>
+      <button onclick="filterTx('DIVIDEND')" id="filter-DIVIDEND" class="btn" style="font-size:12px; padding:6px 14px">Dividends</button>
     </div>
 
     <!-- TRANSACTION TABLE -->
@@ -101,19 +103,20 @@
               <th style="padding:12px 16px; text-align:left; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Ticker</th>
               <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Shares</th>
               <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Price</th>
-              <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Amount</th>
-              <th style="padding:12px 16px; text-align:left; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Note</th>
+              <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Fee</th>
+              <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Total</th>
+              <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Realized P/L</th>
             </tr>
           </thead>
           <tbody id="tx-tbody">
-            <tr><td colspan="7" style="padding:40px; text-align:center; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">กำลังโหลด...</td></tr>
+            <tr><td colspan="8" style="padding:40px; text-align:center; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">กำลังโหลด...</td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
     <p style="margin-top:12px; font-size:11px; font-family:var(--font-mono); color:var(--fg-dim); letter-spacing:0.04em; text-align:center">
-      ราคา ณ วันที่ทำรายการ · สกุลเงิน USD · ข้อมูลอัปเดตตาม Warren Paper ทุกครั้งที่ deploy เงินใหม่
+      ราคา ณ วันที่ทำรายการ · สกุลเงิน USD · ข้อมูลดึงตรงจาก Google Sheet แบบ Real-time
     </p>
   </div>
 </section>
@@ -187,90 +190,243 @@
 </footer>
 
 <script>
-// ─── Transaction Data (from Paper #1 + actual portfolio bootstrap) ─────────────
-const TRANSACTIONS = [
-  // Paper #1 transactions (2026-05-13)
-  { date: '2026-05-13', action: 'BUY',     ticker: 'GOOGL', shares: 0.0777, price: 386.00, amount: 30.00,  note: 'Paper #1 — 30% position' },
-  { date: '2026-05-13', action: 'BUY',     ticker: 'META',  shares: 0.0334, price: 598.86, amount: 20.00,  note: 'Paper #1 — 20% position' },
-  { date: '2026-05-13', action: 'DEPOSIT', ticker: '—',     shares: null,   price: null,   amount: 100.00, note: 'Initial capital deployment' },
-];
+// ─── Config ────────────────────────────────────────────────────────────────
+const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1jlSF2S6e6wSkf2KnnfmC9-zIx-RjRg8y_L69FUnL_90/export?format=csv&gid=1519518339';
+const PROXY     = 'https://corsproxy.io/?';
 
-const ACTION_COLORS = {
-  BUY:     '#3b82f6',
-  SELL:    '#ef4444',
-  DEPOSIT: '#7c3aed',
-  DIVIDEND:'#10b981',
-};
+// ─── Helpers ───────────────────────────────────────────────────────────────
+function withTimeout(promise, ms) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), ms))
+  ]);
+}
 
+async function fetchSheetText() {
+  try {
+    const r = await withTimeout(fetch(SHEET_URL), 10000);
+    if (r.ok) return r.text();
+  } catch(_) {}
+  try {
+    const r = await withTimeout(fetch(PROXY + encodeURIComponent(SHEET_URL)), 10000);
+    if (r.ok) return r.text();
+  } catch(_) {}
+  const r = await withTimeout(fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent(SHEET_URL)), 15000);
+  if (!r.ok) throw new Error('fetch failed');
+  return r.text();
+}
+
+function parseCSVRow(row) {
+  const cols = [];
+  let cur = '', inQ = false;
+  for (let i = 0; i < row.length; i++) {
+    if (row[i] === '"') { inQ = !inQ; }
+    else if (row[i] === ',' && !inQ) { cols.push(cur); cur = ''; }
+    else { cur += row[i]; }
+  }
+  cols.push(cur);
+  return cols;
+}
+function parseCSV(text) { return text.trim().split('\n').map(parseCSVRow); }
+function cleanNum(s) {
+  if (!s) return null;
+  const n = parseFloat(s.replace(/[$฿,%']/g, '').replace(/,/g, '').trim());
+  return isNaN(n) ? null : n;
+}
+function isNA(s) { return !s || s.trim() === '' || s.trim().toUpperCase() === '#N/A'; }
+
+// ─── State ────────────────────────────────────────────────────────────────
+let ALL_TX = [];
 let currentFilter = 'all';
 
+const TYPE_COLOR = {
+  BUY:      'var(--green)',
+  SELL:     '#ef4444',
+  DEPOSIT:  'var(--blue)',
+  WITHDRAW: '#f59e0b',
+  DIVIDEND: '#10b981',
+};
+
+// ─── Render ────────────────────────────────────────────────────────────────
 function renderTable(txs) {
   const tbody = document.getElementById('tx-tbody');
   if (!txs.length) {
-    tbody.innerHTML = '<tr><td colspan="7" style="padding:40px; text-align:center; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">ไม่มีรายการในหมวดนี้</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="8" style="padding:40px; text-align:center; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">ไม่มีรายการในหมวดนี้</td></tr>';
     return;
   }
-
-  // Sort newest first
-  const sorted = [...txs].sort((a,b) => b.date.localeCompare(a.date));
-
-  tbody.innerHTML = sorted.map(tx => {
-    const color = ACTION_COLORS[tx.action] || 'var(--fg-muted)';
-    const fmt = v => v != null ? '$' + v.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '—';
-    const fmtShares = v => v != null ? v.toFixed(4) : '—';
-    return `
-      <tr style="border-bottom:1px solid var(--hairline)">
-        <td style="padding:12px 20px; font-family:var(--font-mono); font-size:12px; color:var(--fg-muted); white-space:nowrap">${tx.date}</td>
-        <td style="padding:12px 16px">
-          <span style="font-family:var(--font-mono); font-size:11px; font-weight:600; padding:2px 8px; border-radius:4px; background:${color}18; color:${color}">${tx.action}</span>
-        </td>
-        <td style="padding:12px 16px">
-          ${tx.ticker !== '—'
-            ? `<a href="stock.html?t=${tx.ticker}" style="font-family:var(--font-mono); font-size:13px; font-weight:600; color:var(--fg); text-decoration:none">${tx.ticker}</a>`
-            : `<span style="font-family:var(--font-mono); font-size:13px; color:var(--fg-dim)">—</span>`}
-        </td>
-        <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--fg-muted)">${fmtShares(tx.shares)}</td>
-        <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--fg-muted)">${fmt(tx.price)}</td>
-        <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:13px; font-weight:600; color:var(--fg)">${fmt(tx.amount)}</td>
-        <td style="padding:12px 16px; font-size:12px; color:var(--fg-dim)">${tx.note || ''}</td>
-      </tr>`;
-  }).join('');
+  const typeColor = t => TYPE_COLOR[t] || 'var(--fg-muted)';
+  const fmtPL = pl => {
+    const pos = pl >= 0;
+    const color = pos ? 'var(--green)' : '#ef4444';
+    const sign  = pos ? '+' : '-';
+    return `<span style="color:${color}">${sign}$${Math.abs(pl).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+  };
+  tbody.innerHTML = txs.map(tx => `
+    <tr style="border-bottom:1px solid var(--hairline)">
+      <td style="padding:12px 20px;font-family:var(--font-mono);font-size:12px;color:var(--fg-muted);white-space:nowrap">${tx.date}</td>
+      <td style="padding:12px 16px"><span style="font-family:var(--font-mono);font-size:11px;font-weight:600;color:${typeColor(tx.type)};padding:2px 7px;background:${typeColor(tx.type)}18;border-radius:4px">${tx.type}</span></td>
+      <td style="padding:12px 16px;font-family:var(--font-mono);font-size:13px;font-weight:600;color:var(--fg)">${tx.ticker}</td>
+      <td style="padding:12px 16px;text-align:right;font-family:var(--font-mono);font-size:12px;color:var(--fg-muted)">${tx.shares}</td>
+      <td style="padding:12px 16px;text-align:right;font-family:var(--font-mono);font-size:12px;color:var(--fg-muted)">${tx.price}</td>
+      <td style="padding:12px 16px;text-align:right;font-family:var(--font-mono);font-size:12px;color:var(--fg-dim)">${tx.fee}</td>
+      <td style="padding:12px 16px;text-align:right;font-family:var(--font-mono);font-size:12px;font-weight:600;color:var(--fg)">${tx.total}</td>
+      <td style="padding:12px 16px;text-align:right;font-family:var(--font-mono);font-size:12px;font-weight:600">
+        ${tx.type === 'SELL' && tx.realizedPL !== undefined ? fmtPL(tx.realizedPL) : '<span style="color:var(--fg-dim)">—</span>'}
+      </td>
+    </tr>`).join('');
 }
 
+// ─── Filter ────────────────────────────────────────────────────────────────
 function filterTx(type) {
   currentFilter = type;
-
-  // Update button styles
-  ['all','DEPOSIT','BUY','SELL'].forEach(k => {
+  ['all','DEPOSIT','WITHDRAW','BUY','SELL','DIVIDEND'].forEach(k => {
     const btn = document.getElementById('filter-' + k);
     if (!btn) return;
     const active = k === type;
-    btn.style.background = active ? 'rgba(94,106,210,0.18)' : 'transparent';
-    btn.style.color      = active ? 'var(--accent2)' : 'var(--fg-muted)';
+    btn.style.background  = active ? 'rgba(94,106,210,0.18)' : 'transparent';
+    btn.style.color       = active ? 'var(--accent2)' : 'var(--fg-muted)';
     btn.style.borderColor = active ? 'rgba(94,106,210,0.28)' : 'var(--hairline)';
   });
-
-  const filtered = type === 'all' ? TRANSACTIONS : TRANSACTIONS.filter(t => t.action === type);
+  const filtered = type === 'all' ? ALL_TX : ALL_TX.filter(t => t.type === type);
   renderTable(filtered);
 }
 
-function computeStats() {
-  const deposits = TRANSACTIONS.filter(t => t.action === 'DEPOSIT').reduce((s, t) => s + t.amount, 0);
-  const buys     = TRANSACTIONS.filter(t => t.action === 'BUY').reduce((s, t) => s + t.amount, 0);
-  const trades   = TRANSACTIONS.filter(t => t.action === 'BUY' || t.action === 'SELL').length;
-  const fmt = v => '$' + v.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-
-  document.getElementById('stat-deposits').textContent  = fmt(deposits);
-  document.getElementById('stat-invested').textContent  = fmt(buys);
-  document.getElementById('stat-trades').textContent    = trades;
-  document.getElementById('stat-realized').textContent  = '$0.00';
-  document.getElementById('tx-count').textContent       = TRANSACTIONS.length + ' transactions';
+// ─── Avg Cost Engine ───────────────────────────────────────────────────────
+const THAI_MONTHS = {
+  'ม.ค.':1,'ก.พ.':2,'มี.ค.':3,'เม.ย.':4,'พ.ค.':5,'มิ.ย.':6,
+  'ก.ค.':7,'ส.ค.':8,'ก.ย.':9,'ต.ค.':10,'พ.ย.':11,'ธ.ค.':12
+};
+function parseTxDate(s) {
+  if (!s) return null;
+  const m = s.match(/(\d{1,2})\s+([^\s]+)\s+(\d{4})/);
+  if (m && THAI_MONTHS[m[2]]) return new Date(+m[3], THAI_MONTHS[m[2]] - 1, +m[1]);
+  const d = new Date(s);
+  return isNaN(d) ? null : d;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  computeStats();
-  filterTx('all');
-});
+function computeAvgCosts(txRows) {
+  const trades = txRows.filter(t => t.type === 'BUY' || t.type === 'SELL');
+  trades.sort((a, b) => {
+    const da = parseTxDate(a.date), db = parseTxDate(b.date);
+    return da && db ? da - db : 0;
+  });
+
+  const pos = {}; // ticker → { totalCost, totalShares, avgCost }
+  for (const tx of trades) {
+    const { ticker, sharesNum = 0, totalNum = 0 } = tx;
+    if (!pos[ticker]) pos[ticker] = { totalCost: 0, totalShares: 0, avgCost: 0 };
+    const p = pos[ticker];
+
+    if (tx.type === 'BUY') {
+      p.totalShares += sharesNum;
+      p.totalCost   += totalNum;
+      p.avgCost      = p.totalShares > 0 ? p.totalCost / p.totalShares : 0;
+    } else if (tx.type === 'SELL') {
+      tx.realizedPL     = totalNum - p.avgCost * sharesNum;
+      tx.avgCostAtSell  = p.avgCost;
+      p.totalShares     = Math.max(0, p.totalShares - sharesNum);
+      p.totalCost       = p.avgCost * p.totalShares;
+    }
+  }
+}
+
+// ─── Stats ─────────────────────────────────────────────────────────────────
+function computeStats() {
+  const fmtUsd = v => '$' + v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const deposits   = ALL_TX.filter(t => t.type === 'DEPOSIT').reduce((s, t) => s + (t.totalNum || 0), 0);
+  const buys       = ALL_TX.filter(t => t.type === 'BUY').reduce((s, t) => s + (t.totalNum || 0), 0);
+  const trades     = ALL_TX.filter(t => t.type === 'BUY' || t.type === 'SELL').length;
+  const realized   = ALL_TX.filter(t => t.type === 'SELL' && t.realizedPL !== undefined).reduce((s, t) => s + t.realizedPL, 0);
+  const realizedEl = document.getElementById('stat-realized');
+
+  document.getElementById('stat-deposits').textContent = fmtUsd(deposits);
+  document.getElementById('stat-invested').textContent = fmtUsd(buys);
+  document.getElementById('stat-trades').textContent   = trades;
+  document.getElementById('tx-count').textContent      = ALL_TX.length + ' transactions';
+  document.getElementById('tx-updated').textContent    = 'อัปเดต ' + new Date().toISOString().slice(0, 10);
+
+  if (ALL_TX.some(t => t.type === 'SELL')) {
+    const pos = realized >= 0;
+    realizedEl.innerHTML = `<span style="color:${pos ? 'var(--green)' : '#ef4444'}">${pos ? '+' : '-'}$${Math.abs(realized).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`;
+  } else {
+    realizedEl.textContent = '—';
+  }
+}
+
+// ─── Load from Google Sheet ─────────────────────────────────────────────────
+async function loadTransactions() {
+  const tbody = document.getElementById('tx-tbody');
+  try {
+    const text = await fetchSheetText();
+    const rows = parseCSV(text);
+    const txRows = [];
+    const VALID_TRADE_TYPES = new Set(['BUY', 'SELL', 'DIVIDEND', 'WITHDRAW']);
+
+    for (const row of rows) {
+      // Trade rows: col 13=Date, 14=Ticker, 15=Type, 16=Shares, 17=Price, 18=Fee, 19=Total
+      const tDate   = row[13]?.trim();
+      const tTicker = row[14]?.trim();
+      const tType   = row[15]?.trim();
+      const tShares = row[16]?.trim();
+      const tPrice  = row[17]?.trim();
+      const tFee    = row[18]?.trim();
+      const tTotal  = row[19]?.trim();
+
+      if (tDate && !isNA(tDate) && tTicker && !isNA(tTicker) && tType && VALID_TRADE_TYPES.has(tType.toUpperCase())) {
+        const totalNum  = cleanNum(tTotal);
+        const sharesNum = cleanNum(tShares);
+        const priceNum  = cleanNum(tPrice);
+        txRows.push({
+          date:      tDate,
+          type:      tType.toUpperCase(),
+          ticker:    tTicker,
+          totalNum,
+          sharesNum,
+          priceNum,
+          shares:    isNA(tShares) ? '—' : (sharesNum !== null ? Number(sharesNum).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 6 }) : tShares),
+          price:     isNA(tPrice)  ? '—' : (priceNum  !== null ? '$' + priceNum.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : tPrice),
+          fee:       isNA(tFee)    ? '—' : (cleanNum(tFee) !== null ? '$' + cleanNum(tFee).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : tFee),
+          total:     isNA(tTotal)  ? '—' : (totalNum !== null ? '$' + totalNum.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : tTotal),
+        });
+      }
+
+      // Deposit rows: col 34=Date, 35=USD Amount
+      const dDate = row[34]?.trim();
+      const dUsd  = row[35]?.trim();
+      if (dDate && !isNA(dDate) && dUsd && !isNA(dUsd)) {
+        const usdNum = cleanNum(dUsd);
+        if (usdNum !== null) {
+          txRows.push({
+            date:     dDate,
+            type:     usdNum >= 0 ? 'DEPOSIT' : 'WITHDRAW',
+            ticker:   'Cash',
+            totalNum: Math.abs(usdNum),
+            shares:   '—',
+            price:    '—',
+            fee:      '—',
+            total:    '$' + Math.abs(usdNum).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+          });
+        }
+      }
+    }
+
+    txRows.sort((a, b) => {
+      const da = new Date(a.date), db = new Date(b.date);
+      return isNaN(db) || isNaN(da) ? 0 : db - da;
+    });
+
+    computeAvgCosts(txRows);
+    ALL_TX = txRows;
+    computeStats();
+    filterTx('all');
+
+  } catch(e) {
+    tbody.innerHTML = '<tr><td colspan="7" style="padding:40px; text-align:center; color:var(--orange); font-family:var(--font-mono); font-size:12px">⚠ ดึงข้อมูลไม่ได้ — กรุณารีเฟรชหน้า</td></tr>';
+    console.error('[transactions]', e.message);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', loadTransactions);
 </script>
 
 </body>
