@@ -468,7 +468,7 @@ function renderStock(ticker) {
           </div>
           <div class="row" style="gap:8px; margin-top:6px; flex-wrap:wrap">
             ${chipsHtml}
-            <span class="action ${actionClass(s.action)}" style="font-size:12px">Current action · ${s.actionLabel}</span>
+            ${s.actionLabel ? `<span class="action ${actionClass(s.action)}" style="font-size:12px">Current action · ${s.actionLabel}</span>` : ''}
             <span class="conv" style="font-size:11px">Conviction <span class="conv-dots">${convDots(s.conviction)}</span></span>
           </div>
         </div>
@@ -563,7 +563,7 @@ function renderStock(ticker) {
       <div class="container">
         <div class="idea-block">
           <span class="idea-block-eyebrow">Investment Idea · แนวคิดการลงทุน</span>
-          <p class="idea-block-text">${s.idea}</p>
+          <p class="idea-block-text">${s.idea || '<span style="color:var(--fg-dim)">Warren ยังไม่ได้วิเคราะห์ — รัน /warren เพื่ออัพเดท</span>'}</p>
         </div>
       </div>
     </section>
@@ -616,7 +616,7 @@ function renderStock(ticker) {
           <div class="author-avatar">MRK</div>
           <div class="author-info">
             <div class="author-name">Mark</div>
-            <div class="author-role">Research Analyst · oatInvestor · Updated ${s.updated}</div>
+            <div class="author-role">Research Analyst · oatInvestor${s.updated ? ' · Updated ' + s.updated : ''}</div>
           </div>
         </div>
         <div style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap">
