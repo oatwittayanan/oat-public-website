@@ -5202,20 +5202,34 @@ Jensen Huang ตอบ Goldman Sachs (Jim Schneider) เรื่อง $3-4 Tri
 
 "TSM": `# Taiwan Semiconductor Manufacturing Company (TSMC) · Semiconductor / Pure-play Foundry
 
-**Last Updated:** 2026-05-13
-**Source:** NotebookLM — TSMC (Q1 2026 Earnings, Annual Reports)
+**Last Updated:** 2026-05-17
+**Source:** Primary Documents — Annual Report FY2025 (Form 20-F), Q4 2025 Earnings Presentation, Q1 2026 Exhibit-99-1, Q1 2026 Earnings Call Transcript, Q1 2026 Earnings Presentation
+**Trend Tags:** [[AI-Infrastructure]] [[Advanced-Packaging]] [[Custom-Silicon]] [[Memory-Supercycle]]
+
+---
 
 ## Business Overview
-TSMC ก่อตั้งปี 1987 เป็นผู้บุกเบิกโมเดล Pure-play Foundry — รับจ้างผลิตชิปตามการออกแบบของลูกค้า โดยไม่ออกแบบหรือขายชิปในนามตัวเอง บริการครอบคลุม Wafer Fabrication + Advanced Packaging (CoWoS, SoIC) ผ่าน TSMC 3DFabric®
+TSMC (Taiwan Semiconductor Manufacturing Company) ก่อตั้งปี 1987 โดย Dr. Morris Chang ผู้บุกเบิกโมเดล **Pure-play Foundry** — รับจ้างผลิตชิปตามการออกแบบของลูกค้า โดยไม่ออกแบบหรือขายชิปในนามตัวเอง ทำให้ไม่มีวันแข่งกับลูกค้า
+
+**FY2025 Scale:** 534 customers · 305 distinct process technologies · 12,682 products manufactured · Foundry 2.0 market share ~40%
 
 **Revenue by Platform (Q1 2026)**
-| Platform | % |
-|----------|---|
-| High Performance Computing (HPC) | 61% (+20% QoQ) |
-| Smartphone | 26% |
-| IoT | 6% |
-| Automotive | 4% |
-| DCE + Other | 3% |
+| Platform | % | QoQ |
+|----------|---|-----|
+| HPC (AI + Servers + PCs) | 61% | +20% |
+| Smartphone | 26% | -11% |
+| IoT | 6% | +12% |
+| Automotive | 4% | -7% |
+| DCE + Others | 3% | +28% |
+
+**Revenue by Platform (FY2025)**
+| Platform | % | YoY |
+|----------|---|-----|
+| HPC | 58% | +48% |
+| Smartphone | 29% | +11% |
+| IoT | 5% | +15% |
+| Automotive | 5% | +34% |
+| DCE | 1% | 0% |
 
 **Revenue by Technology (Q1 2026)**
 | Node | % |
@@ -5223,112 +5237,296 @@ TSMC ก่อตั้งปี 1987 เป็นผู้บุกเบิก
 | 3nm | 25% |
 | 5nm | 36% |
 | 7nm | 13% |
-| Advanced (≤7nm) Total | **74%** |
+| **Advanced (≤7nm) Total** | **74%** |
 
-**Revenue by Geography:** North America 76%, APAC 9%, China 7%, Japan 4%, EMEA 4%
+**Revenue by Technology (Q4 2025):** 3nm 28% · 5nm 35% · 7nm 14% → Advanced = 77%
+**Revenue by Technology (FY2025):** 3nm 24% · 5nm 36% · 7nm 14% → Advanced = 74%
+
+**Revenue by Geography (Q1 2026):** North America 76% · APAC 9% · China 7% · Japan 4% · EMEA 4%
+
+---
 
 ## Latest Financials
-**Q1 2026**
-| Metric | Q1 2026 |
-|--------|---------|
-| Revenue | NT$1,134.1B = $35.9B (+40.6% USD YoY) |
-| EPS (Diluted) | NT$22.08 (+58.3% YoY) |
-| Gross Margin | 66.2% (vs 58.8% a year ago) |
-| Operating Margin | 58.1% (vs 48.5% a year ago) |
-| Free Cash Flow | NT$348.2B (OCF NT$699B - CapEx NT$350.8B) |
 
-**FY2025:** Revenue NT$3,809B (+31.6% YoY), Net Income +46.4% YoY
+**Q1 2026 (Most Recent)**
+| Metric | Q1 2026 | YoY | QoQ |
+|--------|---------|-----|-----|
+| Revenue (USD) | $35,898M | +40.6% | +6.4% |
+| Revenue (NTD) | NT$1,134,103M | +35.1% | +8.4% |
+| Gross Margin | 66.2% | +740bps | +390bps |
+| Operating Margin | 58.1% | +960bps | +410bps |
+| Net Margin | 50.5% | — | — |
+| EPS (Diluted, NTD) | NT$22.08 | +58.3% | — |
+| EPS (ADR, USD) | $3.49 | — | — |
+| ROE (annualized) | 40.5% | — | — |
+| CapEx | $11,103M | — | — |
+| FCF | NT$348,213M | — | — |
+| FX Rate (wtd. avg.) | NTD 31.592/USD | — | — |
 
-**Q2 2026 Guidance:** Revenue $39.0-40.2B (+~10% QoQ), Gross Margin 65.5-67.5%, Operating Margin 56.5-58.5%
-**FY2026 Guidance:** Revenue growth >30% USD — Management "highly confident"
+**Q1 2026 Beat vs. Q4 2025 Guidance:**
+- Revenue: $35.9B vs guidance $34.6–35.8B ✓ beat
+- GM: 66.2% vs guidance 63–65% ✓ beat by 120–220bps
+- OM: 58.1% vs guidance 54–56% ✓ beat by 210–410bps
+
+**Q2 2026 Guidance:**
+- Revenue: $39.0–40.2B (+32% YoY midpoint, +10% QoQ)
+- Gross Margin: 65.5–67.5%
+- Operating Margin: 56.5–58.5%
+- FX assumption: NTD 31.7/USD
+- Q2 tax rate: ~20% (undistributed retained earnings accrual)
+
+**FY2026 Guidance:** Revenue >30% growth in USD; Tax rate 17–18% full year; CapEx towards high end of $52–56B
+
+**FY2025 Full Year**
+| Metric | FY2025 | FY2024 | YoY |
+|--------|--------|--------|-----|
+| Revenue (USD) | $122.42B | $90.08B | +35.9% |
+| Revenue (NTD) | NT$3,809.05B | NT$2,894.31B | +31.6% |
+| Gross Margin | 59.9% | 56.1% | +3.8ppts |
+| Operating Margin | 50.8% | 45.7% | +5.1ppts |
+| EPS Diluted (NTD) | NT$66.25 | NT$45.25 | +46.4% |
+| OCF | NT$2,274.98B | NT$1,826.18B | +24.6% |
+| CapEx | NT$1,272.41B ($40.9B) | NT$956.01B | +33.1% |
+| FCF | NT$1,002.57B | NT$870.17B | +15.2% |
+| ROE | 35.4% | 30.3% | +5.1ppts |
+
+---
 
 ## Management
-- **Chairman & CEO:** Dr. C.C. Wei (รวมสองตำแหน่ง)
-- **วิสัยทัศน์:** "Be the most advanced and largest technology and foundry services provider in the world"
-- **Core Values:** Integrity, Commitment, Innovation, Customer Trust (สืบทอดจาก Dr. Morris Chang ผู้ก่อตั้ง)
+- **Chairman & CEO:** Dr. C.C. Wei (รวมสองตำแหน่ง — สืบทอดวิสัยทัศน์จาก Dr. Morris Chang)
+- **CFO:** Wendell Huang
+- **IR Director:** Jeff Su
+- **Core Values:** Integrity · Commitment · Innovation · Customer Trust
+
+**Key Statements Q1 2026 (C.C. Wei):**
+- AI demand "extremely robust" — shift to Agentic AI = structural demand, not cyclical
+- Supply tight through 2027; CSPs confirmed demand with financial evidence
+- "No shortcuts" to build fabs — technology leadership gap vs. competitors confident
+- Arizona: second land purchased; building 4th fab + 1st advanced packaging fab = GIGAFAB cluster
+
+---
 
 ## MOAT & Competitive Advantage
+
 **Pure-play Foundry Model**
-- ไม่ออกแบบชิปแข่งกับลูกค้า = ลูกค้าไว้วางใจส่ง IP ให้ผลิต (ต่างจาก Intel/Samsung ที่มีชิปของตัวเอง)
+ไม่ออกแบบชิปแข่งกับลูกค้า = ลูกค้าไว้วางใจส่ง IP ให้ผลิต Apple, NVIDIA, AMD, Broadcom, Google ต่างส่ง IP ลับมาให้ TSMC ผลิต (ต่างจาก Samsung/Intel ที่มีชิปของตัวเอง)
 
 **Technology Leadership**
-- ผู้นำ Advanced nodes 3nm, 2nm (เริ่มผลิตจำนวนมาก Q4 2025) → A16 (2026), A14 (2028)
-- 74% รายได้มาจาก ≤7nm — competitive gap ที่ Samsung/Intel ยังปิดไม่ได้
+- N3 (3nm): Third full year of HVM 2025, revenue 24% of FY2025; capacity expanding 2026
+- N2 (2nm): เข้า HVM Q4 2025 with good yield → fast ramp 2026
+- A16 (Super Power Rail) + N2P: Volume production H2 2026
+- A14: Volume production 2028 → 10–15% speed หรือ 25–30% power improvement vs N2
+- 74% รายได้มาจาก ≤7nm — technology gap vs. Samsung/Intel ยังกว้างมาก
 
 **Open Innovation Platform® (OIP) — "Grand Alliance"**
-- EDA + IP + Equipment ecosystem ทำให้ลูกค้าออกแบบชิปบน TSMC ง่าย เร็ว และถูกกว่า
-- Switching cost มหาศาล: ย้ายกระบวนการออกแบบไปคู่แข่งใช้เวลาหลายปี
+EDA + IP + Equipment ecosystem ที่ TSMC สร้างมาหลายทศวรรษ → ลูกค้าออกแบบชิปบน TSMC ได้เร็วและถูกกว่า → Switching cost มหาศาล ย้ายไปคู่แข่งใช้เวลาหลายปี
 
-**Scale + Process Excellence**
-- Learning curve หลายทศวรรษ + CapEx 2026: $52-56B = barrier to entry สูงมาก
-- CoWoS / SoIC Advanced Packaging = chokepoint สำหรับ AI chip assembly
+**Advanced Packaging Monopoly**
+- CoWoS (Chip-on-Wafer-on-Substrate): chokepoint หลักของ AI GPU assembly
+- SoIC (System on Integrated Chips): 3D stacking สำหรับ HPC
+- CoWoS-L (Large Reticle) + CoPoS: in development สำหรับ next-gen AI
+- ~10% of FY2025 revenue → low-teens% FY2026
 
-**ปัจจัยที่อาจกัดกร่อน MOAT:**
-- Samsung เร่งปิด technology gap
-- Intel พยายามสร้าง Foundry (Intel Foundry Services) + CHIPS Act support
-- SMIC ขยาย Mature node กระทบรายได้กลุ่มนี้
+**Scale + Learning Curve**
+CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone $52–56B = barrier to entry ที่คู่แข่งไม่มีทางสร้างในระยะสั้น
+
+---
 
 ## Competitive Landscape
-- **Samsung:** อันดับ 1 competitor ใน Advanced nodes — ยังตามหลัง TSMC ใน yield และ process
-- **Intel Foundry:** ได้รับ CHIPS Act support, เริ่มมีลูกค้าอย่าง Apple/NVIDIA เป็น validation signal
-- **SMIC (China):** ท้าทาย Mature nodes เพิ่มกำลังผลิตอย่างรวดเร็ว
-- **Foundry 2.0 market share:** TSMC 40% ใน FY2025
+- **Samsung:** #1 competitor ใน Advanced nodes — ยังตามหลัง TSMC ใน yield และ process; ลูกค้ารายใหญ่ยังไม่ย้าย
+- **Intel Foundry:** CHIPS Act + ได้รับ $6.6B direct + $5B loans (TSMC Arizona received same), มี Tesla + Amazon as validation customers; ยังอยู่ในช่วงเริ่มต้น
+- **SMIC (China):** ท้าทาย Mature nodes เพิ่มกำลังผลิตอย่างรวดเร็ว กระทบ non-China foundries ใน mature segment
+
+**Government Subsidies ทั้งสองฝั่ง:** ทั้ง TSMC และ Intel ได้รับ CHIPS Act support แต่ TSMC มีความได้เปรียบด้าน execution และ yield
+
+---
 
 ## Growth Catalysts & Future Plans
-**AI Megatrend**
-- HPC segment (AI chips) = 61% รายได้ → เติบโตแบบ structural ไม่ใช่ cyclical
-- Agentic AI ต้องการ compute มากขึ้น = demand ต่อเนื่อง
+
+**AI Megatrend (Structural)**
+- HPC 61% of Q1 2026 revenue (AI accelerators, servers, CSP ASICs)
+- Agentic AI ต้องการ compute มากกว่า generative AI → demand structural ไม่ใช่ cyclical
+- AI accelerator revenue CAGR toward high 50s% (2024–2029, management estimate)
+- C.C. Wei: "We are entering an AI-empowered world where AI will run in datacenters, PCs, smartphones, automobiles, and IoT devices"
 
 **Technology Roadmap**
-- N2 (2nm) เริ่มผลิต Q4 2025, เร่งขยาย 2026
-- A16 (Super Power Rail) — 2026, A14 — 2028
-- CoWoS + SoIC expansion รองรับ AI chip demand
+- N2 fast ramp 2026 (entered HVM Q4 2025 with good yield)
+- A16 (Super Power Rail) + N2P: H2 2026
+- A14: 2028 → 10–15% speed or 25–30% power improvement vs N2
 
-**Global Fab Expansion**
-- Arizona: Fab 1 (4nm เดินแล้ว), Fab 2 (3nm ปี 2027), Fab 3 เริ่มสร้าง 2025
-- Japan: Kumamoto Fab 1 เดินแล้ว, Fab 2 (3nm ปี 2028)
-- Germany: Dresden — ยานยนต์และอุตสาหกรรม
+**Global Fab Expansion (GIGAFAB strategy)**
+| Location | Status | Node | Target |
+|----------|--------|------|--------|
+| Hsinchu, Taiwan | Operating | N3/N2 | Expanding |
+| Kaohsiung, Taiwan | Operating | N3 | Expanding |
+| Tainan, Taiwan | New | N3 | HVM H1 2027 |
+| Arizona Fab 1 | HVM since Q4 2024 | 4nm | Operating |
+| Arizona Fab 2 | Production pull-forward | 3nm | HVM H2 2027 |
+| Arizona Fab 3 | Under construction | Advanced | TBD |
+| Arizona Fab 4 + Pkg | Land purchased 2026 | Advanced | TBD |
+| Kumamoto, Japan (Fab 1) | Operating | Mature | Operating |
+| Kumamoto, Japan (Fab 2) | Under construction | 3nm | HVM 2028 |
+| Dresden, Germany (ESMC) | Under construction | Specialty/Auto | TBD |
 
-**FY2026 Confidence**
-- Revenue growth >30% USD — AI demand ยังแข็งแกร่ง
+**Advanced Packaging Revenue**
+- FY2025: ~10% of total revenue
+- FY2026 target: low-teens% of revenue
+- CoWoS-L (large reticle) + CoPoS in development for next-gen AI chips
+
+**Long-term Financial Targets (2024–2029)**
+- Revenue CAGR: ~25% in USD
+- Gross Margin: 56%+ through the cycle
+- ROE: high 20s% through the cycle
+
+---
+
+## Capital Structure
+*(Q1 2026 Balance Sheet, in USD at NTD 32.064/USD)*
+
+| Item | USD | NTD |
+|------|-----|-----|
+| Cash + Marketable Securities | ~$106B | NT$3,383.6B |
+| Total Assets | ~$270B | NT$8,660.95B |
+| Long-term Bonds / Debt | ~$26.8B | NT$860.03B |
+| Total Shareholders' Equity | ~$185B | NT$5,932.39B |
+
+*(Q4 2025 Balance Sheet for reference)*
+- Cash + Marketable Securities: NT$3,068.59B
+- Total Assets: NT$7,933.02B
+- Long-term Interest-bearing Debts: NT$896.06B
+- Total Shareholders' Equity: NT$5,460.79B
+
+**Dividend:** NT$6.00/quarter (Q3 2025 dividend; ex-date Mar 17, 2026)
+**FX Sensitivity:** 1% depreciation of USD vs. NTD = **-0.3pp operating margin** (based on FY2025 results)
+
+---
+
+## CapEx & Infrastructure
+
+| Year | CapEx (USD) | Notes |
+|------|------------|-------|
+| FY2024 | $30.8B (NT$956B) | — |
+| FY2025 | $40.9B (NT$1,272B) | +33.1% YoY; +0.5M 12-inch equiv. wafer capacity added |
+| FY2026 guidance | $52–56B (high end) | Arizona + Japan + Germany buildout |
+| Next 3 years total | "Significantly higher than" past 3 years ($101B) | C.C. Wei Q1 2026 |
+
+**Government Incentives Secured:**
+- TSMC Arizona (US CHIPS Act, Nov 2024): Up to **$6.6B direct funding** + up to **$5B proposed loans**
+  - Condition: restrictions on expanding capacity in "foreign countries of concern" and joint R&D with "foreign entities of concern"
+- ESMC Germany (European Chips Act, Dec 2024): Up to **EUR5B state aid**
+  - Condition: compliance with grant terms; risk of claw-back if non-compliant
+
+---
 
 ## Risks & Watch List
-**Geopolitical (สำคัญที่สุด)**
-- Geographic concentration ในไต้หวัน — ความเสี่ยงช่องแคบไต้หวัน + แผ่นดินไหว + ภัยแล้ง
-- US Export Controls (October Rules) — ส่งชิปขั้นสูงบางรายการไปจีนไม่ได้
 
-**Customer Concentration**
-- Top 10 ลูกค้า = 78% รายได้ — ถ้า Apple/NVIDIA ลดคำสั่งซื้อกระทบมาก
+**[CRITICAL]** **Taiwan Geographic Concentration + Natural Disasters**
+- Most production fabs in Taiwan → exposed to earthquakes, typhoons, droughts, geopolitical tension (Taiwan Strait), potential sabotage
+- April 2024 earthquake: NT$3B loss net of insurance (Q2 2024 results)
+- January 2025 earthquake: NT$5.3B loss net of insurance (Q1 2025 results)
+- Drought risk: water rationing can interrupt fab operations; TSMC has water recycling and conservation plans
+- Electricity tariff: +25% (Apr 2024) + 14% (Oct 2024); carbon fees on fab emissions starting 2026 (for 2025 emissions)
 
-**Margin Dilution (Q3-Q4 2026)**
-- N2 ramp-up + overseas fabs เริ่มดำเนินงาน → Gross Margin dilution ~2-3% H2 2026
-- Energy cost ไต้หวันปรับขึ้น 25% (เม.ย.) + 14% (ต.ค.) 2024
+**[CRITICAL]** **Customer Concentration**
+- Top 10 customers = **78% of FY2025 revenue** (up from 76% FY2024, 70% FY2023)
+- Largest customer (Apple) = **19% FY2025** revenue (down from 22%)
+- Second largest customer (NVIDIA) = **17% FY2025** revenue (up from 12%)
+- Loss or significant reduction from any top-2 customer = material revenue impact
 
-**Samsung Catch-up**
-- ถ้า Samsung ปิด yield gap ใน 3nm ได้ = pricing pressure
+**[HIGH]** **Export Controls + Regulatory Compliance**
+- Oct 2024: TSMC notified US/Taiwan authorities that a customer's chip may have been diverted to a restricted entity → under investigation (status as of Annual Report filing date)
+- TSMC cannot always verify downstream end-use of chips it manufactures → structural compliance risk
+- US advanced semiconductor export controls evolving; CHIPS Act grant conditions restrict China operations
+- Subject to antitrust inquiries in multiple jurisdictions; heightened scrutiny as foundry industry concentrates
 
-**De-globalization**
-- นโยบาย Trade protectionism เพิ่ม cost ในทุกโรงงานนอกไต้หวัน
+**[HIGH]** **Global Fab Expansion Risks**
+- Higher costs: construction, supply chain establishment, talent recruitment in new locations
+- Labor shortages, construction delays possible in Arizona/Japan/Germany
+- CHIPS Act grant conditions could restrict China expansion or joint R&D — noncompliance = delay/forfeiture/clawback
+- FX exposure: CapEx denominated in USD, EUR, JPY while revenue mostly USD but costs partly NTD → complex hedging needed
+
+**[HIGH]** **Competition + Technology Risk**
+- Samsung/Intel could close yield gap; governments subsidize competitors aggressively
+- If TSMC cannot maintain technology cadence (N2P, A16, A14 on schedule), risk of customer diversification
+- SMIC mature node expansion → pricing pressure in non-advanced segments
+
+**[MEDIUM]** **Margin Dilution from N2 Ramp + Overseas Fabs**
+- N2 is more expensive to manufacture → dilutes GM initially during ramp
+- Overseas fabs (Arizona, Japan, Germany) have higher structural costs vs. Taiwan → ongoing overhead pressure
+- Management acknowledged ~2–3% GM headwind from overseas fabs; offsetting with pricing
+
+**[MEDIUM]** **IP Litigation — ITC Investigation**
+- Feb 2025: **Longitude Licensing Ltd. + Marlin Semiconductor Limited** ("Marlin") filed complaints with:
+  - US ITC: alleging TSMC and its customers infringe 5 US patents
+  - US District Court, Eastern District of Texas (EDTX): same allegation
+- ITC investigation instituted: **March 21, 2025**
+- EDTX suit: stayed **April 23, 2025** pending ITC investigation
+- Outcome: **undetermined** — no reliable estimate of contingent liability
+
+**[WATCH]** **Cyclicality + Overcapacity Risk**
+- Semiconductor industry historically cyclical; TSMC has high fixed-cost structure
+- If AI demand decelerates, utilization rates drop but costs remain fixed → margin compression
+- Mature node segment: SMIC capacity buildout creating oversupply in non-advanced
+
+**[WATCH]** **Talent + Key Person Risk**
+- C.C. Wei holds Chairman + CEO roles; no succession plan announced
+- Global expansion requires talent in Arizona/Japan/Germany where competition is fierce
+- Taiwan talent pool is core advantage; immigration controls for overseas hires are a risk
+
+---
 
 ## Analyst Views [ANALYST VIEW]
 **Sentiment: Bullish | Conviction: Very High**
 
 **Bull Thesis:**
-- CoWoS monopoly กำลังการผลิตตาม AI demand ไม่ทัน → pricing power แข็งแกร่ง
-- FY2026 Revenue growth >30% USD confirmed — visibility สูงสุดในรอบหลายปี
-- Advanced packaging (CoWoS/SoIC) = new revenue stream + deepened customer lock-in
-- Global fab diversification ลด geopolitical risk ในระยะยาว
+- TSMC is the irreplaceable backbone of global AI chip production — every leading AI chip (NVIDIA H/B/GB, Apple Silicon, Google TPU, Amazon Trainium/Inferentia, AMD MI-series) is made on TSMC
+- CoWoS advanced packaging is a near-monopoly capacity bottleneck → pricing power + customer lock-in
+- FY2026 >30% growth confidence + 5-year CAGR ~25% = visibility rarely seen at this scale
+- GIGAFAB Arizona strategy diversifies geopolitical risk while deepening US customer relationships
+- N2 entering HVM with good yield = strong execution track record
 
 **Key Concerns:**
-- Taiwan geopolitical risk = discount ที่ตลาดให้ตลอดเวลา
-- Margin dilution H2 2026 จาก N2 ramp + overseas fab overhead
-- Customer concentration: Apple + NVIDIA + AMD รวมกัน >50% รายได้
+- Taiwan geopolitical risk = structural discount that markets apply consistently
+- Customer concentration: Apple + NVIDIA = ~36% of revenue; loss/shift from either = severe impact
+- N2 ramp + overseas fab overhead dilutes margins H2 2026 before pricing catches up
+- Export control compliance risk (chip diversion investigation ongoing)
 
 ---
+
 ## Quarter Log
-| Quarter | Revenue | YoY% | EPS (NT$) | Notes |
-|---------|---------|------|-----------|-------|
-| Q1 2026 | $35.9B (NT$1,134B) | +40.6% USD | NT$22.08 | GM 66.2%, HPC 61%, AI demand strong |
+| Quarter | Revenue | YoY% | EPS (NT$) | Op Margin | Notes |
+|---------|---------|------|-----------|-----------|-------|
+| Q1 2025 | ~$25.5B (NT$~840B) | — | ~NT$13.94 | ~48.5% | GM ~58.8%; N3 3rd year ramp; Jan 2025 earthquake NT$5.3B loss |
+| Q2 2025 | ~$30.1B (NT$~934B) | — | ~NT$15.37 | — | Derived from FY2025 total; Q2 individual margin not confirmed |
+| Q3 2025 | $33.10B (NT$989.92B) | — | NT$17.44 | 50.6% | GM 59.5%; HPC acceleration continuing |
+| Q4 2025 | $33.73B (NT$1,046.09B) | +25.5% | NT$19.50 | 54.0% | GM 62.3%; N2 entered HVM; Full year ROE 35.4% |
+| Q1 2026 | $35.9B (NT$1,134.1B) | +40.6% USD | NT$22.08 | 58.1% | GM 66.2%; HPC 61%; AI "extremely robust"; beat all guidance |
+| Q2 2026 | $39.0–40.2B guidance | ~+32% | — | 56.5–58.5% guidance | GM guidance 65.5–67.5%; tax rate ~20% |
+
+*Note: Q1–Q2 2025 individual figures are derived (Q1 2025: from Q1 2026 YoY comparisons; Q2 2025: from FY2025 minus other quarters). Q3–Q4 2025 and Q1 2026 are directly from Primary Documents.*
+
+**FY2025 Full Year Summary:** Revenue $122.42B (+35.9%) · GM 59.9% · OM 50.8% · EPS NT$66.25 (+46.4%) · ROE 35.4% · FCF NT$1,002.57B · CapEx $40.9B
+
+---
+
+## Valuation Range
+-
+
+---
+
+## Recent News
+-
+
+---
+
+## Source Log
+| ไฟล์ | ประเภท | อ่านเมื่อ |
+|------|--------|----------|
+| 2026Q1 - TSM - Exhibit-99-1.pdf | Exhibit-99-1 | 2026-05-17 |
+| 2026Q1 - TSM - Earnings-Call-Transcript.pdf | Earnings-Call-Transcript | 2026-05-17 |
+| 2026Q1 - TSM - Earnings-Presentation.pdf | Earnings-Presentation | 2026-05-17 |
+| 2025Q4 - TSM - Earnings-Presentation.pdf | Earnings-Presentation | 2026-05-17 |
+| 2025Q4 - TSM - Annual-Report.pdf | Annual-Report | 2026-05-17 |
 `,
 
 "CRWD": `# CrowdStrike (CRWD) · Software / Cybersecurity
