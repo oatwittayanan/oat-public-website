@@ -21,6 +21,8 @@ WATCHLIST_JSON = OAT_OS / "kim-line-bot/config/watchlist.json"
 PAPERS_JSON    = INVESTMENT_DIR / "portfolio/papers.json"
 KNOWLEDGE_DIR  = OAT_OS / "oat-investment-knowledge/knowledge"
 
+CHARLIE_WATCHLIST_JSON = INVESTMENT_DIR / "portfolio/charlie_watchlist_reviews.json"
+
 STOCKS_BASE    = ROOT / "data/stocks_base.json"
 OUT_STOCKS     = ROOT / "data/stocks.json"
 OUT_KNOWLEDGE  = ROOT / "knowledge.js"
@@ -165,8 +167,29 @@ def load_watchlist(watchlist_data):
             result[sym] = s
     return result
 
+def load_charlie_watchlist(reviews_data):
+    """Return {TICKER: charlie_review_dict} from latest charlie watchlist review."""
+    if not reviews_data:
+        return {}
+    sorted_r = sorted(reviews_data, key=lambda r: r.get("date", ""), reverse=True)
+    latest = sorted_r[0]
+    ticker_reviews = latest.get("ticker_reviews", {})
+    result = {}
+    for ticker, rev in ticker_reviews.items():
+        result[ticker.upper()] = {
+            "verdict":   rev.get("verdict", ""),
+            "summary":   rev.get("summary", ""),
+            "risks":     rev.get("risks", []),
+            "yf_price":  rev.get("yf_price"),
+            "warren_fv": rev.get("warren_fv"),
+            "date":      rev.get("data_date") or latest.get("date", ""),
+        }
+    if result:
+        print(f"[charlie-wl] latest: {latest.get('date')}, tickers: {sorted(result)}")
+    return result
+
 # ── Build individual stock entry ──────────────────────────────────────────────
-def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=None):
+def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=None, charlie_rev=None):
     entry = dict(base) if base else {}
 
     # Override dynamic fields from Warren's paper
@@ -223,6 +246,10 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
         if 'forward_pe' in wiki_val: entry['fpe']      = wiki_val['forward_pe']
         if 'updated'    in wiki_val: entry['updated']  = wiki_val['updated']
 
+    # Charlie Watchlist Review
+    if charlie_rev:
+        entry["charlie"] = charlie_rev
+
     # Fill metadata from watchlist for new stocks not in stocks_base.json
     if watchlist_info and not entry.get("name"):
         cat        = watchlist_info.get("category", "")
@@ -239,18 +266,25 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
     return entry
 
 # ── Generate stocks.json ──────────────────────────────────────────────────────
-def generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals=None):
+def generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals=None, charlie_wl=None):
     stocks = {}
-    wiki_vals = wiki_vals or {}
+    wiki_vals  = wiki_vals  or {}
+    charlie_wl = charlie_wl or {}
 
     # 1. All stocks from stocks_base.json
     for ticker, base in base_data.items():
         paper_rec      = papers.get(ticker)
         watchlist_info = watchlist.get(ticker)
         wiki_val       = wiki_vals.get(ticker)
-        entry = build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val)
+        charlie_rev    = charlie_wl.get(ticker)
+        entry = build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val, charlie_rev)
         stocks[ticker] = entry
-        src = "+".join(filter(None, ["base", "paper" if paper_rec else None, "wiki" if wiki_val else None]))
+        src = "+".join(filter(None, [
+            "base",
+            "paper"   if paper_rec   else None,
+            "wiki"    if wiki_val    else None,
+            "charlie" if charlie_rev else None,
+        ]))
         src = src or "base"
         print(f"[stock] {ticker:6}  ({src})")
 
@@ -267,7 +301,8 @@ def generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals=Non
         cat = watchlist_info.get("category", "")
         if CATEGORY_MAP.get(cat) is None:
             continue
-        entry = build_entry(ticker, None, paper_rec, watchlist_info, paper_date)
+        charlie_rev = charlie_wl.get(ticker)
+        entry = build_entry(ticker, None, paper_rec, watchlist_info, paper_date, charlie_rev=charlie_rev)
         if not entry.get("name"):
             continue
         stocks[ticker] = entry
@@ -338,6 +373,8 @@ if __name__ == "__main__":
     papers_raw    = load_json(PAPERS_JSON,    "papers.json")      or []
     watchlist_raw = load_json(WATCHLIST_JSON, "watchlist.json")   or {}
 
+    charlie_wl_raw = load_json(CHARLIE_WATCHLIST_JSON, "charlie_watchlist_reviews.json") or []
+
     papers, paper_date = load_papers(papers_raw)
     watchlist          = load_watchlist(watchlist_raw)
 
@@ -346,8 +383,13 @@ if __name__ == "__main__":
     if not wiki_vals:
         print("[wiki-val] ไม่พบข้อมูลใน Wiki Card ใดเลย")
 
+    print(f"\n── Charlie Watchlist Reviews ──────────────────────────────")
+    charlie_wl = load_charlie_watchlist(charlie_wl_raw)
+    if not charlie_wl:
+        print("[charlie-wl] ยังไม่มี charlie_watchlist_reviews.json หรือ array ว่าง")
+
     print(f"\n── Stocks ─────────────────────────────────────────────────")
-    generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals)
+    generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals, charlie_wl)
 
     print(f"\n── Knowledge ──────────────────────────────────────────────")
     generate_knowledge_js()
