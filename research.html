@@ -679,6 +679,13 @@
 
   // ─── Initial render ──────────────────────────────────────────────────────────
   renderGrid('ALL');
+
+  // ─── Deep-link: research.html?trend=AI-Infrastructure ────────────────────────
+  const deepTag = new URLSearchParams(location.search).get('trend');
+  if (deepTag) {
+    const target = TRENDS_DATA.find(t => t.tag === deepTag);
+    if (target) openPanel(target);
+  }
 })();
 </script>
 

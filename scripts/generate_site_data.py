@@ -8,7 +8,9 @@ Usage:  python3 scripts/generate_site_data.py
 """
 
 import json
+import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
@@ -239,6 +241,18 @@ def generate_knowledge_js():
 
     OUT_KNOWLEDGE.write_text("".join(lines), encoding="utf-8")
     print(f"\n✅ knowledge.js → {len(entries)} tickers")
+
+    # Update ?v=timestamp in all HTML files that load knowledge.js
+    version = datetime.now().strftime('%Y%m%d%H%M%S')
+    for fname in ['stock.html', 'stocks.html', 'index.html']:
+        p = ROOT / fname
+        if not p.exists():
+            continue
+        txt = p.read_text(encoding='utf-8')
+        new_txt = re.sub(r'knowledge\.js(?:\?v=\d+)?', f'knowledge.js?v={version}', txt)
+        if new_txt != txt:
+            p.write_text(new_txt, encoding='utf-8')
+            print(f'[cache-bust] {fname} → knowledge.js?v={version}')
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
