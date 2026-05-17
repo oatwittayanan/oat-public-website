@@ -329,7 +329,7 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 
 **Last Updated:** 2026-05-17
 **Source:** Primary Documents — 10K FY2025, 10Q Q1 2026, Earnings Call Q1 2026, Exhibit 99-1 Q1 2026, Earnings Presentation Q1 2026, Shareholder Letter FY2025
-**Trend Tags:** \`AI-Infrastructure\` \`Cloud-Acceleration\` \`Custom-Silicon\` \`Agentic-AI\`
+**Trend Tags:** [[AI-Infrastructure]] [[Cloud-Acceleration]] [[Custom-Silicon]] [[Agentic-AI]]
 
 ---
 
@@ -627,6 +627,30 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 | FY2025 | $716,924M | +12% | — | 11.2% | AWS +20% YoY, FCF $11B |
 | Q4 2025 | $213,386M | +10% | $1.86 | 11.7% | AWS $142B ARR (+24% YoY) |
 | Q1 2026 | $181,519M | +17% | $2.78 | 13.1% | AWS +28% fastest 15Q, record margin, Anthropic $16.8B gain |
+| Q2 2026 | $194–199B guidance | +16–19% | — | $20–24B guidance | Leo ~$1B cost; tariff uncertainty flagged |
+
+---
+
+## Valuation Range
+-
+
+---
+
+## Recent News
+-
+
+---
+
+## Source Log
+| ไฟล์ | ประเภท | อ่านเมื่อ |
+|------|--------|----------|
+| 2026Q1 - AMZN - Exhibit-99-1.pdf | Exhibit-99-1 | 2026-05-17 |
+| 2026Q1 - AMZN - Earnings-Call-Transcript.pdf | Earnings-Call-Transcript | 2026-05-17 |
+| 2026Q1 - AMZN - Earnings-Presentation.pdf | Earnings-Presentation | 2026-05-17 |
+| 2026Q1 - AMZN - 10Q.pdf | 10Q | 2026-05-17 |
+| 2025Q4 - AMZN - 10K.pdf | 10K | 2026-05-17 |
+| 2025Q4 - AMZN - Annual-Report.pdf | Annual-Report | 2026-05-17 |
+| 2025Q4 - AMZN - Shareholder-Letter.pdf | Shareholder-Letter | 2026-05-17 |
 `,
 
 "GOOGL": `# Alphabet Inc. (GOOGL) · Big Tech / Internet Platform
