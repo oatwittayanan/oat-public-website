@@ -46,7 +46,7 @@
     <p class="lead" style="max-width:58ch">พอร์ตที่ Warren วิเคราะห์และแนะนำ Charlie ตรวจสอบ และ Oat ตัดสินใจลงทุนขั้นสุดท้าย — ทุก move มี paper trail ชัดเจน</p>
 
     <div style="display:flex; gap:8px; margin-top:20px; flex-wrap:wrap; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">
-      <span>Updated 2026-05-13</span>
+      <span id="portfolio-updated-date">—</span>
       <span>·</span>
       <span>Warren Analysis</span>
       <span>·</span>
@@ -266,173 +266,26 @@
   </div>
 </section>
 
-<!-- WARREN PAPER #1 -->
+<!-- WARREN PAPER -->
 <section class="section" style="padding-top:0">
   <div class="container">
-
-    <div class="section-head" style="margin-bottom:28px">
+    <div class="section-head" style="margin-bottom:24px">
       <div>
         <span class="eyebrow">Warren Paper · Investment Thesis</span>
-        <h2 style="font-size:clamp(22px,2.8vw,28px)">Paper #1 — Initial Portfolio Setup</h2>
-        <p style="color:var(--fg-muted); font-size:14px; margin-top:6px">First Deployment Strategy · 2026-05-13</p>
+        <h2 style="font-size:clamp(22px,2.8vw,28px)">Portfolio Papers</h2>
       </div>
-      <div style="display:flex; align-items:center; gap:12px">
+      <div class="author" style="flex-shrink:0">
         <div class="author-avatar">WRN</div>
-        <div>
-          <div style="font-size:14px; font-weight:600">Warren</div>
-          <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-muted)">Portfolio Manager</div>
+        <div class="author-info">
+          <div class="author-name">Warren</div>
+          <div class="author-role">Portfolio Manager</div>
         </div>
       </div>
     </div>
-
-    <!-- Market Outlook -->
-    <div class="card" style="padding:20px 24px; margin-bottom:20px; border-left:3px solid var(--red)">
-      <div style="margin-bottom:8px">
-        <span style="font-family:var(--font-mono); font-size:11px; font-weight:700; color:var(--red); text-transform:uppercase; letter-spacing:0.08em">🌡 VERY HOT — Market Outlook</span>
-      </div>
-      <p style="font-size:13px; color:var(--fg-muted); line-height:1.7; margin:0">
-        AI Earnings Supercycle ยืนยันแล้วจาก Q1 2026: TSMC +41% YoY, MU ~3x YoY, META +33%, ARM +23%, GCP +63%. ตลาดยังแพง แต่ AI earnings growth เหนือ consensus ชัดเจน — ยังไม่ใช่ bubble ธรรมดา.
-        <strong style="color:var(--amber)"> Rule: DCA 40–60% เท่านั้น เหลือ 40–60% เป็น SGOV dry powder รอ pullback หรือ VIX&gt;25.</strong>
-        GOOGL + META คือ cheapest high-quality AI plays ใน MAG7 ที่ยัง Margin of Safety &gt; 28% ณ ราคาปัจจุบัน — NVDA/AVGO/ARM valuation ยังสูงเกินไปสำหรับ first deployment.
-      </p>
+    <div class="card" style="padding:32px 24px; text-align:center; border:1px dashed var(--hairline)">
+      <div style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.08em; color:var(--fg-dim); text-transform:uppercase; margin-bottom:10px">Pending</div>
+      <p style="font-size:14px; color:var(--fg-muted); margin:0; line-height:1.6">Warren จะเขียน Portfolio Paper ครั้งแรกเมื่อพอร์ตพร้อม deploy — ติดตามที่นี่</p>
     </div>
-
-    <!-- Deployment snapshot -->
-    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:24px">
-      <div class="card" style="padding:16px 20px; text-align:center">
-        <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); margin-bottom:6px">CASH BEFORE</div>
-        <div style="font-family:var(--font-mono); font-size:24px; font-weight:700; color:var(--fg)">100%</div>
-      </div>
-      <div class="card" style="padding:16px 20px; text-align:center; border:1px solid rgba(245,158,11,0.3)">
-        <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); margin-bottom:6px">DEPLOYED</div>
-        <div style="font-family:var(--font-mono); font-size:24px; font-weight:700; color:var(--amber)">50%</div>
-      </div>
-      <div class="card" style="padding:16px 20px; text-align:center">
-        <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); margin-bottom:6px">DRY POWDER</div>
-        <div style="font-family:var(--font-mono); font-size:24px; font-weight:700; color:var(--fg)">50%</div>
-      </div>
-    </div>
-
-    <!-- Picks: GOOGL + META -->
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:20px">
-
-      <!-- GOOGL card -->
-      <div class="card" style="padding:24px; display:flex; flex-direction:column; gap:16px">
-        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px">
-          <div style="display:flex; align-items:center; gap:10px">
-            <a href="stock.html?t=GOOGL" style="font-family:var(--font-mono); font-size:18px; font-weight:800; color:#10b981; text-decoration:none">GOOGL</a>
-            <span style="font-size:12px; color:var(--fg-muted)">Alphabet Inc.</span>
-          </div>
-          <div style="display:flex; gap:6px; flex-shrink:0">
-            <span style="font-family:var(--font-mono); font-size:11px; font-weight:700; padding:3px 8px; border-radius:4px; background:rgba(16,185,129,0.12); color:var(--green)">BUY 30%</span>
-            <span style="font-family:var(--font-mono); font-size:11px; font-weight:700; padding:3px 8px; border-radius:4px; background:rgba(245,158,11,0.1); color:var(--amber)">WAF 8.43</span>
-          </div>
-        </div>
-        <p style="font-size:13px; color:var(--fg-muted); line-height:1.65; margin:0">
-          <strong style="color:var(--fg)">Full-Stack AI Dominance + Cloud Acceleration</strong> — GOOGL เป็นเดียวที่มีครบ vertical stack: Custom TPU → Gemini → Vertex AI → Applications. Waymo คือ Free Option ที่ตลาดยังไม่ให้ราคา
-        </p>
-        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:8px">
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">BQ</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--green)">9.0</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">GP</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--green)">9.0</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">VA</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--green)">8.5</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">RA</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--amber)">6.0</div>
-          </div>
-        </div>
-        <!-- Valuation — 5 cols in one row -->
-        <div style="display:grid; grid-template-columns:repeat(5,1fr); gap:8px; border-top:1px solid var(--hairline); padding-top:14px">
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">PRICE</div><div style="font-family:var(--font-mono); font-size:13px; font-weight:600; color:var(--fg)">$386</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">FAIR VALUE</div><div style="font-family:var(--font-mono); font-size:13px; font-weight:600; color:var(--green)">$560</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">MoS</div><div style="font-family:var(--font-mono); font-size:13px; font-weight:700; color:var(--green)">31.1%</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">FWD P/E</div><div style="font-family:var(--font-mono); font-size:13px; color:var(--fg-muted)">17.5×</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">PEG</div><div style="font-family:var(--font-mono); font-size:13px; color:var(--green)">0.80</div></div>
-        </div>
-        <div style="border-top:1px solid var(--hairline); padding-top:14px">
-          <div style="font-family:var(--font-mono); font-size:10px; color:var(--amber); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.06em">Thesis</div>
-          <p style="font-size:12px; color:var(--fg-muted); line-height:1.65; margin:0">GOOGL คือ cheapest high-quality AI play ใน MAG7 ณ วันนี้ (P/E ~20x, PEG 0.8) ในขณะที่ธุรกิจ Cloud กำลัง accelerate อย่างชัดเจน. Antitrust risk สร้าง fear discount ที่เป็นโอกาส เพราะแม้แพ้คดีก็ไม่ได้ทำลายธุรกิจหลัก. Full-Stack AI vertical integration เป็นสิ่งเดียวที่ competitor เลียนแบบไม่ได้ในระยะสั้น.</p>
-        </div>
-        <div style="background:rgba(239,68,68,0.06); border-radius:8px; padding:12px">
-          <div style="font-family:var(--font-mono); font-size:10px; color:#ef4444; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.06em">Key Risk</div>
-          <p style="font-size:12px; color:var(--fg-muted); line-height:1.6; margin:0">DOJ บังคับแยก Search ออกจาก Advertising หรือ Chrome/Android → Core revenue กระทบจริง. AI-first search behavior เปลี่ยนเร็วกว่าที่ GOOGL ปรับตัวได้ → Advertising revenue ลด.</p>
-        </div>
-      </div>
-
-      <!-- META card -->
-      <div class="card" style="padding:24px; display:flex; flex-direction:column; gap:16px">
-        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px">
-          <div style="display:flex; align-items:center; gap:10px">
-            <a href="stock.html?t=META" style="font-family:var(--font-mono); font-size:18px; font-weight:800; color:#0668e1; text-decoration:none">META</a>
-            <span style="font-size:12px; color:var(--fg-muted)">Meta Platforms</span>
-          </div>
-          <div style="display:flex; gap:6px; flex-shrink:0">
-            <span style="font-family:var(--font-mono); font-size:11px; font-weight:700; padding:3px 8px; border-radius:4px; background:rgba(16,185,129,0.12); color:var(--green)">BUY 20%</span>
-            <span style="font-family:var(--font-mono); font-size:11px; font-weight:700; padding:3px 8px; border-radius:4px; background:rgba(245,158,11,0.1); color:var(--amber)">WAF 8.30</span>
-          </div>
-        </div>
-        <p style="font-size:13px; color:var(--fg-muted); line-height:1.65; margin:0">
-          <strong style="color:var(--fg)">AI Monetization of 3B+ User Base</strong> — AI จะเพิ่ม advertising ROI และ engagement ใน Instagram/Facebook/WhatsApp อย่างมหาศาล และ AI Lab ที่ซ่อนอยู่ใน META มีมูลค่า $200-300B ที่ตลาดยังไม่ให้ราคา
-        </p>
-        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:8px">
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">BQ</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--green)">9.0</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">GP</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--green)">8.5</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">VA</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--green)">8.0</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.03); border-radius:8px; padding:10px; text-align:center">
-            <div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:4px">RA</div>
-            <div style="font-family:var(--font-mono); font-size:16px; font-weight:700; color:var(--green)">7.0</div>
-          </div>
-        </div>
-        <!-- Valuation — 5 cols in one row -->
-        <div style="display:grid; grid-template-columns:repeat(5,1fr); gap:8px; border-top:1px solid var(--hairline); padding-top:14px">
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">PRICE</div><div style="font-family:var(--font-mono); font-size:13px; font-weight:600; color:var(--fg)">$599</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">FAIR VALUE</div><div style="font-family:var(--font-mono); font-size:13px; font-weight:600; color:var(--green)">$840</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">MoS</div><div style="font-family:var(--font-mono); font-size:13px; font-weight:700; color:var(--green)">28.7%</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">FWD P/E</div><div style="font-family:var(--font-mono); font-size:13px; color:var(--fg-muted)">18.1×</div></div>
-          <div><div style="font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); margin-bottom:3px">PEG</div><div style="font-family:var(--font-mono); font-size:13px; color:var(--green)">0.90</div></div>
-        </div>
-        <div style="border-top:1px solid var(--hairline); padding-top:14px">
-          <div style="font-family:var(--font-mono); font-size:10px; color:var(--amber); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.06em">Thesis</div>
-          <p style="font-size:12px; color:var(--fg-muted); line-height:1.65; margin:0">META เป็น Quality Compounder ที่ traded at reasonable valuation (P/E ~20x) ในขณะที่ AI มาช่วยเพิ่มทั้ง engagement และ ad ROI พร้อมกัน. AI Lab hidden asset = free call option ที่ไม่มีราคาในราคาหุ้นปัจจุบัน. Zuckerberg execution track record ยอดเยี่ยม.</p>
-        </div>
-        <div style="background:rgba(239,68,68,0.06); border-radius:8px; padding:12px">
-          <div style="font-family:var(--font-mono); font-size:10px; color:#ef4444; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.06em">Key Risk</div>
-          <p style="font-size:12px; color:var(--fg-muted); line-height:1.6; margin:0">EU/US regulation บังคับ separate Facebook จาก Instagram หรือ WhatsApp → เสีย network effect. CapEx $125-145B FY2026 กดดัน FCF ระยะสั้น ถ้า revenue ไม่ scale ตาม.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- SGOV Hold -->
-    <div class="card" style="padding:20px 24px; border-left:3px solid #475569">
-      <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px">
-        <span style="font-family:var(--font-mono); font-size:14px; font-weight:800; color:var(--fg-muted)">SGOV / CASH</span>
-        <span style="font-family:var(--font-mono); font-size:11px; font-weight:700; padding:3px 8px; border-radius:4px; background:rgba(71,85,105,0.2); color:#94a3b8">HOLD 50%</span>
-        <span style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">Dry Powder Strategy</span>
-      </div>
-      <p style="font-size:13px; color:var(--fg-muted); line-height:1.65; margin:0">
-        VERY HOT market (CAPE 40.3) → DCA เพียง 50% ตาม Market Temperature Rule. ถือ SGOV 50% เป็น dry powder รอโอกาส: <strong style="color:var(--fg)">(1)</strong> NVDA pullback ต่ำกว่า $200 เพื่อ MoS ดีขึ้น &nbsp;<strong style="color:var(--fg)">(2)</strong> AVGO pullback เมื่อ AI hype cool down &nbsp;<strong style="color:var(--fg)">(3)</strong> Market correction VIX&gt;25 เปลี่ยนเป็น HOT → deploy มากขึ้น
-      </p>
-    </div>
-    <p style="margin-top:16px; font-size:12px; text-align:center; font-family:var(--font-mono); color:var(--fg-dim); letter-spacing:0.04em">
-      ราคาและ Valuation ณ 2026-05-13 · Educational content only — ไม่ใช่คำแนะนำการลงทุน
-    </p>
   </div>
 </section>
 
@@ -441,7 +294,7 @@
   <div class="container">
     <div class="section-head" style="margin-bottom:24px">
       <div>
-        <span class="eyebrow">Warren's Watchlist · 15 หุ้น ranked by WAF</span>
+        <span class="eyebrow">Warren's Watchlist · <span id="watchlist-count">—</span> ranked by WAF</span>
         <h2 style="font-size:clamp(22px,2.8vw,28px)">คำแนะนำของ Warren</h2>
       </div>
       <div class="author" style="flex-shrink:0">
@@ -469,278 +322,10 @@
               <th style="padding:12px 16px; text-align:left; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Action</th>
             </tr>
           </thead>
-          <tbody>
-
-            <!-- GOOGL -->
-            <tr style="border-bottom:1px solid var(--hairline); background:var(--amber-soft)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">1</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=GOOGL" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">GOOGL</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Alphabet</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">8.43</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$386</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$560</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green)">31.1%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">17.5×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">0.80</td>
-              <td style="padding:12px 16px"><span class="action action-buy" style="font-size:11px; padding:3px 8px">Buy</span></td>
-            </tr>
-
-            <!-- NVDA -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">2</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=NVDA" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">NVDA</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">NVIDIA</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">8.43</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$219</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$250</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--amber)">12.4%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">30.8×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">0.47</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- META -->
-            <tr style="border-bottom:1px solid var(--hairline); background:var(--amber-soft)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">3</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=META" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">META</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Meta Platforms</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">8.30</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$599</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$840</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--green)">28.7%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">18.1×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">0.90</td>
-              <td style="padding:12px 16px"><span class="action action-buy" style="font-size:11px; padding:3px 8px">Buy</span></td>
-            </tr>
-
-            <!-- MSFT -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">4</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=MSFT" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">MSFT</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Microsoft</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">8.25</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$408</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$500</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">18.4%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">20.4×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">1.33</td>
-              <td style="padding:12px 16px"><span class="action action-buy" style="font-size:11px; padding:3px 8px">Buy</span></td>
-            </tr>
-
-            <!-- ASML -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">5</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=ASML" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">ASML</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">ASML Holding</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">8.00</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$1,380</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$1,600</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">13.8%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">28.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">1.10</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- TSM -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">6</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=TSM" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">TSM</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Taiwan Semi</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">8.00</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$397</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$480</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">17.2%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">22.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">0.88</td>
-              <td style="padding:12px 16px"><span class="action action-buy" style="font-size:11px; padding:3px 8px">Buy</span></td>
-            </tr>
-
-            <!-- AMZN -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">7</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=AMZN" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">AMZN</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Amazon</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">7.93</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$267</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$295</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--amber)">9.5%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">45.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">1.50</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- ARM -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">8</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=ARM" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">ARM</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Arm Holdings</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">7.83</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$128</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$165</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">22.4%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">46.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">1.80</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- AAPL -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">9</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=AAPL" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">AAPL</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Apple</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">7.75</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$205</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$230</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--amber)">10.9%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">25.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">1.40</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- AVGO -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">10</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=AVGO" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">AVGO</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Broadcom</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">7.50</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$430</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">$350</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">−22.9%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">43.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">1.20</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- MU -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">11</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=MU" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">MU</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Micron</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-mid" style="font-size:12px; padding:2px 8px">7.50</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$135</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$175</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">22.9%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">8.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">0.50</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- NFLX -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">12</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=NFLX" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">NFLX</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Netflix</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-low" style="font-size:12px; padding:2px 8px">7.45</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$1,050</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">$1,100</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--amber)">4.5%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">35.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">2.50</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- AMD -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">13</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=AMD" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">AMD</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">AMD</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-low" style="font-size:12px; padding:2px 8px">7.30</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$459</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">$380</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">−20.8%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">50.0×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">1.40</td>
-              <td style="padding:12px 16px"><span class="action action-watch" style="font-size:11px; padding:3px 8px">Watch</span></td>
-            </tr>
-
-            <!-- TSLA -->
-            <tr style="border-bottom:1px solid var(--hairline)">
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">14</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=TSLA" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">TSLA</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Tesla</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-low" style="font-size:12px; padding:2px 8px">6.73</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$441</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">$280</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">−57.5%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">150×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">5.00</td>
-              <td style="padding:12px 16px"><span class="action action-hold" style="font-size:11px; padding:3px 8px">Hold</span></td>
-            </tr>
-
-            <!-- INTC -->
+          <tbody id="watchlist-tbody">
             <tr>
-              <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">15</td>
-              <td style="padding:12px 16px">
-                <a href="stock.html?t=INTC" style="text-decoration:none">
-                  <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">INTC</div>
-                  <div style="font-size:11px; color:var(--fg-muted)">Intel</div>
-                </a>
-              </td>
-              <td style="padding:12px 16px; text-align:center"><span class="waf waf-low" style="font-size:12px; padding:2px 8px">6.20</span></td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">$124</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">$80</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--orange)">−55.3%</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">90×</td>
-              <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">3.00</td>
-              <td style="padding:12px 16px"><span class="action action-hold" style="font-size:11px; padding:3px 8px">Hold</span></td>
+              <td colspan="9" style="text-align:center; padding:32px; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">กำลังโหลดข้อมูล...</td>
             </tr>
-
           </tbody>
         </table>
       </div>
@@ -748,9 +333,8 @@
 
     <!-- Legend -->
     <div class="row" style="gap:20px; flex-wrap:wrap; font-family:var(--font-mono); font-size:11px; color:var(--fg-muted); letter-spacing:0.04em; margin-top:12px; padding-left:4px">
-      <span style="background:rgba(245,158,11,0.08); padding:4px 8px; border-radius:4px; font-size:11px">Row สี = Current Holdings (Paper #1)</span>
-      <span>MoS สีเขียว ≥ 15% · สีส้ม = Overvalued</span>
-      <span>ราคา ณ 2026-05-13</span>
+      <span>MoS สีเขียว ≥ 15% · สีส้ม 0–15% · สีแดง = Overvalued</span>
+      <span id="watchlist-updated-note" style="color:var(--fg-dim)">ราคา ณ วันที่อัพเดทล่าสุด</span>
     </div>
   </div>
 </section>
@@ -767,10 +351,9 @@
             <div style="font-size:14px; font-weight:600">Charlie</div>
             <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-muted)">Investment Auditor</div>
           </div>
-          <span style="margin-left:auto; font-family:var(--font-mono); font-size:11px; padding:4px 10px; border-radius:6px; background:var(--green-soft); color:var(--green); border:1px solid var(--green-line); font-weight:600; text-transform:uppercase">AGREE</span>
+          <span style="margin-left:auto; font-family:var(--font-mono); font-size:11px; padding:4px 10px; border-radius:6px; background:rgba(71,85,105,0.15); color:var(--fg-dim); border:1px solid var(--hairline); font-weight:600; text-transform:uppercase">Pending</span>
         </div>
-        <p style="font-size:13px; color:var(--fg-muted); line-height:1.6; margin:0 0 14px">Warren's thesis ถูกต้อง — GOOGL และ META ยืนยันจาก Q1 2026 earnings ว่า AI monetization กำลัง accelerate. Valuation ทั้งคู่มี MoS &gt;28% และ PEG &lt;1.0 หายากมากใน MAG7.</p>
-        <a href="charlie.html#review-1" style="font-size:12px; font-family:var(--font-mono); color:var(--amber); text-decoration:none">อ่าน Full Review →</a>
+        <p style="font-size:13px; color:var(--fg-muted); line-height:1.6; margin:0">Charlie จะ verify Valuation ของ Warren หลังจาก /warren watchlist รัน — Charlie ใช้ข้อมูลอิสระจาก yfinance และ web search เท่านั้น</p>
       </div>
 
       <div class="card card-pad" style="padding:24px">
@@ -781,14 +364,13 @@
             <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-muted)">Portfolio Manager</div>
           </div>
         </div>
-        <p style="font-size:13px; color:var(--fg-muted); line-height:1.6; margin:0 0 14px">Priority next: GOOGL + META ยัง BUY ที่ระดับราคาปัจจุบัน. ARM เพิ่งเข้า watchlist — runway ยาวแต่ valuation สูง. MU = high risk/reward ใน HBM supercycle. NVDA รอ pullback &lt;$200.</p>
-        <a href="papers.html#paper-1" style="font-size:12px; font-family:var(--font-mono); color:var(--amber); text-decoration:none">อ่าน Paper #1 →</a>
+        <p style="font-size:13px; color:var(--fg-muted); line-height:1.6; margin:0">Watchlist Valuation ครั้งแรกยังไม่ได้รัน — รัน /warren watchlist เพื่อ generate WAF, Fair Value และ Margin of Safety ของทุกหุ้นใน Watchlist</p>
       </div>
 
     </div>
 
     <p style="margin-top:20px; font-size:12px; text-align:center; font-family:var(--font-mono); color:var(--fg-dim); letter-spacing:0.04em">
-      ราคาและ MoS ณ วันที่ 2026-05-13 — ตรวจสอบราคาปัจจุบันก่อนตัดสินใจลงทุนเสมอ · Educational content only
+      ราคาและ MoS ณ วันที่ Warren อัพเดทล่าสุด — ตรวจสอบราคาปัจจุบันก่อนตัดสินใจลงทุนเสมอ · Educational content only
     </p>
   </div>
 </section>
@@ -1954,6 +1536,74 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   await renderBenchmarkChart();
 });
+</script>
+
+<script>
+(async function renderWatchlist() {
+  const tbody   = document.getElementById('watchlist-tbody');
+  const counter = document.getElementById('watchlist-count');
+  const note    = document.getElementById('watchlist-updated-note');
+  if (!tbody) return;
+
+  function wafClass(v) { return (v != null && v >= 7.5) ? 'waf-mid' : 'waf-low'; }
+  function mosColor(v) {
+    if (v == null) return 'var(--fg-dim)';
+    if (v >= 15)   return 'var(--green)';
+    if (v >= 0)    return 'var(--amber)';
+    return 'var(--red)';
+  }
+
+  try {
+    const res    = await fetch('data/stocks.json');
+    const stocks = await res.json();
+    const entries = Object.entries(stocks);
+    if (!entries.length) throw new Error('empty');
+
+    const dates = entries.map(([,s]) => s.updated).filter(Boolean).sort().reverse();
+    if (note && dates[0]) note.textContent = 'ราคา ณ ' + dates[0];
+    if (counter) counter.textContent = entries.length + ' หุ้น';
+    const heroDate = document.getElementById('portfolio-updated-date');
+    if (heroDate && dates[0]) heroDate.textContent = 'Updated ' + dates[0];
+
+    tbody.innerHTML = entries.map(([ticker, s], i) => {
+      const waf    = s.waf  != null ? s.waf.toFixed(2) : null;
+      const action = s.action || 'watch';
+      const label  = s.actionLabel || 'Watch';
+      const mos    = s.mos;
+      const fv     = s.fv   != null ? '$' + Math.round(s.fv) : '<span style="color:var(--fg-dim)">—</span>';
+      const price  = s.price != null ? '$' + Math.round(s.price) : '<span style="color:var(--fg-dim)">—</span>';
+      const fpe    = s.fpe  != null ? s.fpe.toFixed(1) + '×' : '<span style="color:var(--fg-dim)">—</span>';
+      const peg    = s.peg  != null ? s.peg.toFixed(2) : '<span style="color:var(--fg-dim)">—</span>';
+      const mosHtml = mos != null
+        ? `<span style="color:${mosColor(mos)}">${mos.toFixed(1)}%</span>`
+        : '<span style="color:var(--fg-dim)">—</span>';
+
+      return `
+        <tr style="border-bottom:1px solid var(--hairline)">
+          <td style="padding:12px 20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim)">${i + 1}</td>
+          <td style="padding:12px 16px">
+            <a href="stock.html?t=${ticker}" style="text-decoration:none">
+              <div style="font-family:var(--font-mono); font-weight:600; color:var(--fg)">${ticker}</div>
+              <div style="font-size:11px; color:var(--fg-muted)">${s.name || ''}</div>
+            </a>
+          </td>
+          <td style="padding:12px 16px; text-align:center">
+            ${waf ? `<span class="waf ${wafClass(s.waf)}" style="font-size:12px; padding:2px 8px">${waf}</span>` : '<span style="color:var(--fg-dim)">—</span>'}
+          </td>
+          <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">${price}</td>
+          <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; color:var(--green)">${fv}</td>
+          <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px; font-weight:600">${mosHtml}</td>
+          <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">${fpe}</td>
+          <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">${peg}</td>
+          <td style="padding:12px 16px"><span class="action action-${action}" style="font-size:11px; padding:3px 8px">${label}</span></td>
+        </tr>`;
+    }).join('');
+
+  } catch (_) {
+    if (tbody) tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding:32px; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">ยังไม่มีข้อมูล Valuation — รัน /warren watchlist เพื่อ generate</td></tr>`;
+    if (counter) counter.textContent = '—';
+  }
+})();
 </script>
 </body>
 </html>

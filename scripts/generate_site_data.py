@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 generate_site_data.py
-Merges data from Warren (papers.json), Mark (knowledge/*.md), and watchlist.json
+Merges data from Warren (watchlist_valuations.json), Mark (knowledge/*.md), and watchlist.json
 → generates data/stocks.json and knowledge.js for the public website.
 
 Usage:  python3 scripts/generate_site_data.py
@@ -18,12 +18,11 @@ ROOT           = Path(__file__).parent.parent
 OAT_OS         = ROOT.parent
 INVESTMENT_DIR = OAT_OS / "investment-system"
 WATCHLIST_JSON = OAT_OS / "kim-line-bot/config/watchlist.json"
-PAPERS_JSON    = INVESTMENT_DIR / "portfolio/papers.json"
+WATCHLIST_VALUATIONS_JSON = INVESTMENT_DIR / "portfolio/watchlist_valuations.json"
 KNOWLEDGE_DIR  = OAT_OS / "oat-investment-knowledge/knowledge"
 
 CHARLIE_WATCHLIST_JSON = INVESTMENT_DIR / "portfolio/charlie_watchlist_reviews.json"
 
-STOCKS_BASE    = ROOT / "data/stocks_base.json"
 OUT_STOCKS     = ROOT / "data/stocks.json"
 OUT_KNOWLEDGE  = ROOT / "knowledge.js"
 
@@ -47,6 +46,8 @@ CATEGORY_MAP = {
     "entertainment":    ("Consumer",      "consumer"),
     "consumer":         ("Consumer",      "consumer"),
     "diversified":      ("Diversified",   "diversified"),
+    "infrastructure":   ("Infrastructure","infra"),
+    "software":         ("Software",      "software"),
     "index":            None,   # skip ETF indices
 }
 
@@ -100,13 +101,14 @@ def parse_wiki_valuation(content):
             out['price'] = float(mm.group(1).replace(',', ''))
             break
 
-    mm = re.search(r'\*\*Weighted Fair Value:.*?=\s*\*\*\$?([\d,]+)\*\*', section)
+    mm = re.search(r'\*\*Weighted Fair Value:\*\*\s*\$?([\d,]+)', section)
     if mm:
         out['fv'] = float(mm.group(1).replace(',', ''))
 
-    mm = re.search(r'\*\*Margin of Safety:\*\*\s*([\d.]+)%', section)
+    mm = re.search(r'\*\*Margin of Safety:\*\*\s*([+\-−]?[\d.]+)%', section)
     if mm:
-        out['mos_pct'] = float(mm.group(1))
+        raw = mm.group(1).replace('−', '-')
+        out['mos_pct'] = float(raw)
 
     mm = re.search(r'\*\*PEG:\*\*\s*([\d.]+)', section)
     if mm:
@@ -124,12 +126,8 @@ def load_wiki_valuations():
     if not KNOWLEDGE_DIR.exists():
         return result
 
-    STOCK_DIRS = {"big-tech", "semiconductor", "diversified", "consumer"}
-
-    for md_file in sorted(KNOWLEDGE_DIR.rglob("*.md")):
+    for md_file in sorted((KNOWLEDGE_DIR / "stocks").glob("*.md")):
         if md_file.stem.startswith("_"):
-            continue
-        if md_file.parent.name not in STOCK_DIRS:
             continue
         ticker = md_file.stem.upper()
         content = md_file.read_text(encoding="utf-8")
@@ -250,7 +248,7 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
     if charlie_rev:
         entry["charlie"] = charlie_rev
 
-    # Fill metadata from watchlist for new stocks not in stocks_base.json
+    # Fill metadata from watchlist if not already set by paper
     if watchlist_info and not entry.get("name"):
         cat        = watchlist_info.get("category", "")
         sector_info = CATEGORY_MAP.get(cat)
@@ -266,47 +264,34 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
     return entry
 
 # ── Generate stocks.json ──────────────────────────────────────────────────────
-def generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals=None, charlie_wl=None):
+def generate_stocks_json(papers, paper_date, watchlist, wiki_vals=None, charlie_wl=None):
     stocks = {}
     wiki_vals  = wiki_vals  or {}
     charlie_wl = charlie_wl or {}
 
-    # 1. All stocks from stocks_base.json
-    for ticker, base in base_data.items():
-        paper_rec      = papers.get(ticker)
-        watchlist_info = watchlist.get(ticker)
-        wiki_val       = wiki_vals.get(ticker)
-        charlie_rev    = charlie_wl.get(ticker)
-        entry = build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val, charlie_rev)
+    # All stocks from watchlist.json (single source of truth)
+    for ticker, wl_entry in watchlist.items():
+        cat = wl_entry.get("category", "")
+        if CATEGORY_MAP.get(cat) is None:
+            continue  # skip index ETFs
+        paper_rec  = papers.get(ticker)
+        wiki_val   = wiki_vals.get(ticker)
+        charlie_rev = charlie_wl.get(ticker)
+        entry = build_entry(ticker, wl_entry, paper_rec, wl_entry, paper_date, wiki_val, charlie_rev)
         stocks[ticker] = entry
         src = "+".join(filter(None, [
-            "base",
+            "watchlist",
             "paper"   if paper_rec   else None,
             "wiki"    if wiki_val    else None,
             "charlie" if charlie_rev else None,
         ]))
-        src = src or "base"
         print(f"[stock] {ticker:6}  ({src})")
 
-    # 2. New stocks in papers.json not yet in stocks_base.json
+    # Stocks in papers.json not yet in watchlist (e.g. SGOV)
     for ticker, paper_rec in papers.items():
         if ticker in stocks:
             continue
-        watchlist_info = watchlist.get(ticker)
-        # Skip if not in watchlist (e.g. SGOV cash ETF)
-        if not watchlist_info:
-            print(f"[stock] {ticker:6}  (skip — not in watchlist)")
-            continue
-        # Skip index ETFs
-        cat = watchlist_info.get("category", "")
-        if CATEGORY_MAP.get(cat) is None:
-            continue
-        charlie_rev = charlie_wl.get(ticker)
-        entry = build_entry(ticker, None, paper_rec, watchlist_info, paper_date, charlie_rev=charlie_rev)
-        if not entry.get("name"):
-            continue
-        stocks[ticker] = entry
-        print(f"[stock] {ticker:6}  (new from papers+watchlist)")
+        print(f"[stock] {ticker:6}  (skip — not in watchlist)")
 
     # Sort by WAF descending
     sorted_stocks = dict(
@@ -318,21 +303,19 @@ def generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals=Non
     print(f"\n✅ stocks.json → {len(sorted_stocks)} stocks")
 
 # ── Generate knowledge.js ─────────────────────────────────────────────────────
-def generate_knowledge_js():
+def generate_knowledge_js(watchlist_tickers=None):
     entries = {}
 
     if not KNOWLEDGE_DIR.exists():
         print(f"[warn] knowledge dir not found: {KNOWLEDGE_DIR}")
         return
 
-    SKIP_DIRS = {"research"}  # skip non-stock files
-
-    for md_file in sorted(KNOWLEDGE_DIR.rglob("*.md")):
+    for md_file in sorted((KNOWLEDGE_DIR / "stocks").glob("*.md")):
         if md_file.stem.startswith("_"):
             continue
-        if md_file.parent.name in SKIP_DIRS:
-            continue
         ticker  = md_file.stem.upper()
+        if watchlist_tickers and ticker not in watchlist_tickers:
+            continue  # skip tickers not in watchlist
         content = md_file.read_text(encoding="utf-8")
 
         # Escape for JS template literal
@@ -369,8 +352,7 @@ if __name__ == "__main__":
     print("generate_site_data.py")
     print("=" * 60)
 
-    base_data     = load_json(STOCKS_BASE,    "stocks_base.json") or {}
-    papers_raw    = load_json(PAPERS_JSON,    "papers.json")      or []
+    papers_raw    = load_json(WATCHLIST_VALUATIONS_JSON, "watchlist_valuations.json") or []
     watchlist_raw = load_json(WATCHLIST_JSON, "watchlist.json")   or {}
 
     charlie_wl_raw = load_json(CHARLIE_WATCHLIST_JSON, "charlie_watchlist_reviews.json") or []
@@ -389,9 +371,9 @@ if __name__ == "__main__":
         print("[charlie-wl] ยังไม่มี charlie_watchlist_reviews.json หรือ array ว่าง")
 
     print(f"\n── Stocks ─────────────────────────────────────────────────")
-    generate_stocks_json(base_data, papers, paper_date, watchlist, wiki_vals, charlie_wl)
+    generate_stocks_json(papers, paper_date, watchlist, wiki_vals, charlie_wl)
 
     print(f"\n── Knowledge ──────────────────────────────────────────────")
-    generate_knowledge_js()
+    generate_knowledge_js(watchlist_tickers=set(watchlist.keys()))
 
     print("\n✅ Done")
