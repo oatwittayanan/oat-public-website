@@ -219,7 +219,7 @@
       </a>
     </div>
 
-    <div class="watchlist">
+    <div class="watchlist" id="home-watchlist">
       <!-- Header row -->
       <div class="watchlist-row">
         <span>Ticker</span>
@@ -229,86 +229,7 @@
         <span style="text-align:right">WAF</span>
         <span style="text-align:right">Action</span>
       </div>
-
-      <!-- GOOGL -->
-      <a class="watchlist-row" href="stocks.html">
-        <span class="watchlist-ticker">GOOGL</span>
-        <span class="watchlist-name">Alphabet · Class A</span>
-        <span class="watchlist-price col-hide-mobile">$386.00</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+31.1%</span>
-        <span style="text-align:right"><span class="waf waf-mid">8.43</span></span>
-        <span style="text-align:right"><span class="action action-buy">Buy</span></span>
-      </a>
-
-      <!-- NVDA -->
-      <a class="watchlist-row" href="stock-nvda.html">
-        <span class="watchlist-ticker">NVDA</span>
-        <span class="watchlist-name">NVIDIA Corp</span>
-        <span class="watchlist-price col-hide-mobile">$219.48</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+12.4%</span>
-        <span style="text-align:right"><span class="waf waf-mid">8.43</span></span>
-        <span style="text-align:right"><span class="action action-watch">Watch</span></span>
-      </a>
-
-      <!-- META -->
-      <a class="watchlist-row" href="stocks.html">
-        <span class="watchlist-ticker">META</span>
-        <span class="watchlist-name">Meta Platforms</span>
-        <span class="watchlist-price col-hide-mobile">$598.86</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+28.7%</span>
-        <span style="text-align:right"><span class="waf waf-mid">8.30</span></span>
-        <span style="text-align:right"><span class="action action-buy">Buy</span></span>
-      </a>
-
-      <!-- MSFT -->
-      <a class="watchlist-row" href="stocks.html">
-        <span class="watchlist-ticker">MSFT</span>
-        <span class="watchlist-name">Microsoft</span>
-        <span class="watchlist-price col-hide-mobile">$407.77</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+18.4%</span>
-        <span style="text-align:right"><span class="waf waf-mid">8.25</span></span>
-        <span style="text-align:right"><span class="action action-buy">Buy</span></span>
-      </a>
-
-      <!-- TSM -->
-      <a class="watchlist-row" href="stocks.html">
-        <span class="watchlist-ticker">TSM</span>
-        <span class="watchlist-name">Taiwan Semi · ADR</span>
-        <span class="watchlist-price col-hide-mobile">$397.28</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+23.6%</span>
-        <span style="text-align:right"><span class="waf waf-mid">8.00</span></span>
-        <span style="text-align:right"><span class="action action-buy">Buy</span></span>
-      </a>
-
-      <!-- ASML -->
-      <a class="watchlist-row" href="stocks.html">
-        <span class="watchlist-ticker">ASML</span>
-        <span class="watchlist-name">ASML Holding · ADR</span>
-        <span class="watchlist-price col-hide-mobile">$1,380.00</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+14.0%</span>
-        <span style="text-align:right"><span class="waf waf-mid">8.00</span></span>
-        <span style="text-align:right"><span class="action action-watch">Watch</span></span>
-      </a>
-
-      <!-- AMZN -->
-      <a class="watchlist-row" href="stocks.html">
-        <span class="watchlist-ticker">AMZN</span>
-        <span class="watchlist-name">Amazon</span>
-        <span class="watchlist-price col-hide-mobile">$267.33</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+29.5%</span>
-        <span style="text-align:right"><span class="waf waf-mid">7.93</span></span>
-        <span style="text-align:right"><span class="action action-watch">Watch</span></span>
-      </a>
-
-      <!-- ARM -->
-      <a class="watchlist-row" href="stocks.html">
-        <span class="watchlist-ticker">ARM</span>
-        <span class="watchlist-name">Arm Holdings · ADR</span>
-        <span class="watchlist-price col-hide-mobile">$128.00</span>
-        <span class="watchlist-delta delta-up col-hide-mobile">+21.9%</span>
-        <span style="text-align:right"><span class="waf waf-mid">7.83</span></span>
-        <span style="text-align:right"><span class="action action-watch">Watch</span></span>
-      </a>
+      <div id="home-watchlist-rows" style="display:contents"></div>
     </div>
   </div>
 </section>
@@ -433,6 +354,46 @@
 </footer>
 
 <script>
+// ── Home Watchlist — dynamic from stocks.json ─────────────────────────────────
+(async function () {
+  const TOP_TICKERS = ['META','NVDA','MSFT','AMZN','GOOGL','ASML','TSM','PLTR'];
+  const ACTION_CLASS = { buy:'action-buy', watch:'action-watch', hold:'action-hold', sell:'action-sell' };
+  const WAF_CLASS    = w => w >= 8.5 ? 'waf-high' : w >= 7.5 ? 'waf-mid' : 'waf-low';
+
+  let stocks = {};
+  try {
+    const resp = await fetch('data/stocks.json');
+    if (resp.ok) stocks = await resp.json();
+  } catch (_) {}
+
+  const container = document.getElementById('home-watchlist-rows');
+  if (!container || !Object.keys(stocks).length) return;
+
+  const rows = TOP_TICKERS
+    .map(t => stocks[t])
+    .filter(Boolean)
+    .slice(0, 8);
+
+  container.innerHTML = rows.map(s => {
+    const ticker = s.symbol || s.ticker || Object.keys(stocks).find(k => stocks[k] === s) || '';
+    const mosSign = s.mos >= 0 ? '+' : '';
+    const mosCls  = s.mos >= 0 ? 'delta-up' : 'delta-down';
+    const aClass  = ACTION_CLASS[s.action] || 'action-hold';
+    const aLabel  = s.actionLabel || s.action || 'Watch';
+    const price   = s.price != null ? '$' + (+s.price).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}) : '—';
+    const mos     = s.mos  != null ? `${mosSign}${(+s.mos).toFixed(1)}%` : '—';
+    const waf     = s.waf  != null ? (+s.waf).toFixed(2) : '—';
+    return `<a class="watchlist-row" href="stock.html?t=${ticker}">
+      <span class="watchlist-ticker">${ticker}</span>
+      <span class="watchlist-name">${s.name || ''}</span>
+      <span class="watchlist-price col-hide-mobile">${price}</span>
+      <span class="watchlist-delta ${mosCls} col-hide-mobile">${mos}</span>
+      <span style="text-align:right"><span class="waf ${WAF_CLASS(s.waf)}">${waf}</span></span>
+      <span style="text-align:right"><span class="action ${aClass}">${aLabel}</span></span>
+    </a>`;
+  }).join('');
+})();
+
 // Fit hero quote: binary-search the largest font where the longest line fits exactly
 (function () {
   const MIN_PX = 18;
