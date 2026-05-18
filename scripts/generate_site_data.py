@@ -346,6 +346,75 @@ def generate_knowledge_js(watchlist_tickers=None):
             p.write_text(new_txt, encoding='utf-8')
             print(f'[cache-bust] {fname} → knowledge.js?v={version}')
 
+# ── Sync STOCKS_INLINE in stock.html ─────────────────────────────────────────
+def generate_stocks_inline():
+    """Regenerate the STOCKS_INLINE fallback in stock.html from current stocks.json."""
+    stock_html = ROOT / "stock.html"
+    if not stock_html.exists() or not OUT_STOCKS.exists():
+        return
+
+    stocks = json.loads(OUT_STOCKS.read_text(encoding="utf-8"))
+
+    def js_str(v):
+        if v is None:
+            return "null"
+        if isinstance(v, bool):
+            return "true" if v else "false"
+        if isinstance(v, (int, float)):
+            return repr(v)
+        # Escape single quotes and backslashes for single-quoted JS string
+        return "'" + str(v).replace("\\", "\\\\").replace("'", "\\'") + "'"
+
+    def js_arr(lst):
+        return "[" + ", ".join(js_str(x) for x in (lst or [])) + "]"
+
+    lines = ["const STOCKS_INLINE = {\n"]
+    for ticker, s in stocks.items():
+        sc = s.get("scores") or {}
+        bq = sc.get("bq", [None, "amber", 50])
+        gp = sc.get("gp", [None, "amber", 50])
+        va = sc.get("va", [None, "amber", 50])
+        ra = sc.get("ra", [None, "amber", 50])
+        scores_js = (
+            f"{{ bq: [{bq[0]},{js_str(bq[1])},{bq[2]}], "
+            f"gp: [{gp[0]},{js_str(gp[1])},{gp[2]}], "
+            f"va: [{va[0]},{js_str(va[1])},{va[2]}], "
+            f"ra: [{ra[0]},{js_str(ra[1])},{ra[2]}] }}"
+        )
+        chips_js = js_arr(s.get("chips", []))
+        bull_js  = js_arr(s.get("bull", []))
+        risk_js  = js_arr(s.get("risk", []))
+        lines.append(
+            f"  {ticker}: {{\n"
+            f"    name: {js_str(s.get('name'))}, sector: {js_str(s.get('sector'))}, sectorSlug: {js_str(s.get('sectorSlug'))},\n"
+            f"    chips: {chips_js},\n"
+            f"    action: {js_str(s.get('action'))}, actionLabel: {js_str(s.get('actionLabel'))}, conviction: {s.get('conviction', 3)},\n"
+            f"    waf: {s.get('waf')}, wafBadge: {js_str(s.get('wafBadge'))}, wafComposite: {js_str(s.get('wafComposite'))},\n"
+            f"    price: {s.get('price')}, fv: {s.get('fv')}, mos: {s.get('mos')}, fpe: {s.get('fpe')}, peg: {s.get('peg')},\n"
+            f"    scores: {scores_js},\n"
+            f"    idea: {js_str(s.get('idea'))},\n"
+            f"    bull: {bull_js},\n"
+            f"    risk: {risk_js},\n"
+            f"    updated: {js_str(s.get('updated'))}\n"
+            f"  }},\n"
+        )
+    lines.append("};\n")
+    new_inline = "".join(lines)
+
+    html = stock_html.read_text(encoding="utf-8")
+    new_html = re.sub(
+        r'const STOCKS_INLINE = \{.*?\};\n',
+        new_inline,
+        html,
+        flags=re.DOTALL
+    )
+    if new_html != html:
+        stock_html.write_text(new_html, encoding="utf-8")
+        print(f"[inline-sync] stock.html STOCKS_INLINE updated ({len(stocks)} tickers)")
+    else:
+        print("[inline-sync] stock.html STOCKS_INLINE already up to date")
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     print("=" * 60)
@@ -375,5 +444,8 @@ if __name__ == "__main__":
 
     print(f"\n── Knowledge ──────────────────────────────────────────────")
     generate_knowledge_js(watchlist_tickers=set(watchlist.keys()))
+
+    print(f"\n── Inline Sync ────────────────────────────────────────────")
+    generate_stocks_inline()
 
     print("\n✅ Done")
