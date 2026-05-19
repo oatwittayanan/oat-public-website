@@ -309,6 +309,7 @@ img { max-width: 100%; display: block; }
 .action-sell  { background: var(--red-soft); color: var(--red); }
 .action-watch { background: var(--blue-soft); color: var(--blue); }
 .action-hold  { background: var(--chip-bg); color: var(--fg-muted); }
+.action-study { background: rgba(120,120,120,0.1); color: var(--fg-dim); }
 
 /* Conviction */
 .conv {

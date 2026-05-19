@@ -61,67 +61,41 @@
     <div class="section-head">
       <div>
         <span class="eyebrow">Market Temperature · อุณหภูมิตลาด</span>
-        <h2>The market is running very hot.</h2>
+        <h2>Forward P/E normal, VIX calm — MoS gate at 20%.</h2>
         <p class="lead">AI Earnings Supercycle ยืนยันแล้วจาก Q1 2026: TSMC +41% YoY, META +33%, GCP +63%. ตลาดแพง แต่ AI earnings growth เหนือ consensus — ยังไม่ใช่ bubble ธรรมดา.</p>
       </div>
       <span class="link-inline">Updated · Wed 14 May 2026 · 06:00 ICT</span>
     </div>
 
-    <div class="temp-widget" style="grid-template-columns:1.3fr 2fr; grid-template-rows:1fr auto" role="group" aria-label="Market temperature">
+    <div class="temp-widget" style="grid-template-columns:1fr 1fr; grid-template-rows:auto auto" role="group" aria-label="Market temperature">
 
-      <!-- Row 1, Col 1: Current Reading -->
-      <div class="temp-main" style="padding:22px 24px; justify-content:center">
-        <div>
-          <div class="temp-main-label">Current reading</div>
-          <div style="display:flex; align-items:baseline; gap:14px; margin-top:8px">
-            <div class="temp-main-value">VERY HOT</div>
-            <span class="temp temp-veryhot"><span class="chip-dot"></span>Level 4 of 4</span>
-          </div>
+      <!-- Top left: SIGNAL 1 — S&P 500 Forward P/E -->
+      <div class="temp-main" style="padding:26px; justify-content:center; align-items:center; text-align:center; gap:14px">
+        <div style="display:flex; align-items:center; justify-content:center; gap:10px; flex-wrap:wrap">
+          <span style="font-family:var(--font-mono); font-size:10px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:var(--green); background:var(--green-soft); border:1px solid var(--green-line); padding:4px 12px; border-radius:999px">Signal 1</span>
+          <span style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); text-transform:uppercase; letter-spacing:0.1em">S&amp;P 500 Fwd P/E</span>
         </div>
-        <div>
-          <div class="temp-main-scale" aria-hidden="true">
-            <div class="tick cold"></div>
-            <div class="tick normal"></div>
-            <div class="tick hot"></div>
-            <div class="tick veryhot"></div>
-          </div>
-          <div class="temp-main-scale-labels">
-            <span>Cold</span><span>Normal</span><span>Hot</span><span>Very hot</span>
-          </div>
-        </div>
+        <div style="font-size:44px; font-weight:700; letter-spacing:-0.04em; line-height:1; color:var(--blue); font-family:var(--font-sans)">~21<span style="font-size:24px; opacity:0.65; font-weight:400">×</span></div>
+        <span class="temp temp-cold" style="font-size:12px; padding:6px 14px"><span class="chip-dot"></span>Normal Gate · MoS ≥ 15%</span>
+        <div class="temp-metric-sub">18–22× range · PEG Ceiling 1.5</div>
       </div>
 
-      <!-- Row 1, Col 2: Temperature Score -->
-      <div class="temp-metric" style="padding:28px 24px; text-align:center; align-items:center; border-bottom:1px solid var(--hairline)">
-        <div class="temp-metric-label">Temperature Score</div>
-        <div style="margin:14px 0 10px">
-          <span class="temp temp-veryhot" style="font-size:22px; padding:12px 22px; gap:10px; border-radius:12px; letter-spacing:-0.02em">
-            <span class="chip-dot" style="width:8px;height:8px;flex-shrink:0"></span>
-            1.0<span style="font-size:15px; opacity:0.65; margin-left:4px; font-weight:400">/5</span>
-          </span>
+      <!-- Top right: SIGNAL 2 — VIX Mode -->
+      <div class="temp-metric" style="padding:26px; text-align:center; align-items:center; gap:14px">
+        <div style="display:flex; align-items:center; justify-content:center; gap:10px; flex-wrap:wrap">
+          <span style="font-family:var(--font-mono); font-size:10px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:var(--amber); background:var(--amber-soft); border:1px solid var(--amber-line); padding:4px 12px; border-radius:999px">Signal 2</span>
+          <span style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); text-transform:uppercase; letter-spacing:0.1em">VIX · Fear Index</span>
         </div>
-        <div class="temp-metric-sub">CAPE Score 1 · VIX Score 1</div>
+        <div style="font-size:44px; font-weight:700; letter-spacing:-0.04em; line-height:1; color:var(--red); font-family:var(--font-sans)">14.8</div>
+        <span class="temp temp-veryhot" style="font-size:12px; padding:6px 14px"><span class="chip-dot"></span>Calm Mode</span>
+        <div class="temp-metric-sub">VIX &lt; 15 · เพิ่ม MoS +5% · Position ขอบล่าง</div>
       </div>
 
-      <!-- Row 2, Col 1: Cash Rule -->
-      <div class="temp-metric" style="padding:22px 24px; border-left:0; border-top:1px solid var(--hairline); text-align:center; align-items:center">
-        <div class="temp-metric-label">Cash Rule · DCA</div>
-        <div class="temp-metric-value">40–60%</div>
-        <div class="temp-metric-sub">SGOV dry powder — รอ VIX &gt; 25</div>
-      </div>
-
-      <!-- Row 2, Col 2: CAPE + VIX -->
-      <div style="display:grid; grid-template-columns:1fr 1fr; border-top:1px solid var(--hairline)">
-        <div class="temp-metric" style="padding:22px 24px; border-right:1px solid var(--hairline); text-align:center; align-items:center">
-          <div class="temp-metric-label">Shiller CAPE</div>
-          <div class="temp-metric-value">37.2<span style="color:var(--fg-dim); font-size:14px; margin-left:4px">×</span></div>
-          <div class="temp-metric-sub"><span class="delta-up">▲ 1.4</span> · 30-yr avg 26.1×</div>
-        </div>
-        <div class="temp-metric" style="padding:22px 24px; text-align:center; align-items:center">
-          <div class="temp-metric-label">VIX · Fear Index</div>
-          <div class="temp-metric-value">14.8</div>
-          <div class="temp-metric-sub"><span class="delta-down">▼ 0.6</span> · ความกลัวต่ำ — be careful</div>
-        </div>
+      <!-- Bottom: Minimum MoS Gate (full width) -->
+      <div style="padding:22px 28px; border-top:1px solid var(--hairline); border-left:0; grid-column:1/-1; display:flex; flex-direction:column; align-items:center; gap:10px; background:linear-gradient(90deg, rgba(245,158,11,0.07) 0%, transparent 55%)">
+        <div style="font-family:var(--font-mono); font-size:10px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:var(--fg-dim)">Minimum MoS Gate · เกณฑ์ขั้นต่ำก่อนซื้อ</div>
+        <div style="font-size:48px; font-weight:700; letter-spacing:-0.04em; line-height:1; color:var(--amber); font-family:var(--font-sans)">20<span style="font-size:26px; opacity:0.75; font-weight:400">%</span></div>
+        <div class="temp-metric-sub">Normal Gate 15% + Calm Mode +5% · หุ้นที่ไม่ผ่าน → เก็บใน SGOV รอ</div>
       </div>
 
     </div>

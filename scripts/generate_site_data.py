@@ -36,6 +36,7 @@ ACTION_MAP = {
     "SELL":  ("sell",  "Sell"),
     "HOLD":  ("hold",  "Hold"),
     "WATCH": ("watch", "Watch"),
+    "STUDY": ("study", "Study"),
 }
 
 CATEGORY_MAP = {
@@ -120,11 +121,46 @@ def parse_wiki_valuation(content):
 
     return out
 
+def parse_wiki_story_gate(content):
+    """Extract Story Gate (WHAT/WHY NOW/IF WRONG/Status) from ## Story Gate section."""
+    m = re.search(r'## Story Gate\n(.*?)(?=\n## |\Z)', content, re.DOTALL)
+    if not m:
+        return None
+    section = m.group(1)
+    if not section.strip():
+        return None
+
+    out = {}
+
+    mm = re.search(r'\*\*Status:\*\*\s*(PASS|FAIL)', section)
+    if mm:
+        out['passed'] = mm.group(1) == 'PASS'
+        out['status'] = mm.group(1)
+
+    mm = re.search(r'\*\*Last Updated:\*\*\s*([\d-]+)', section)
+    if mm:
+        out['updated'] = mm.group(1)
+
+    mm = re.search(r'\*\*WHAT:\*\*\s*(.+?)(?=\n\n|\*\*WHY|\Z)', section, re.DOTALL)
+    if mm:
+        out['what'] = mm.group(1).strip()
+
+    mm = re.search(r'\*\*WHY NOW:\*\*\s*(.+?)(?=\n\n|\*\*IF|\Z)', section, re.DOTALL)
+    if mm:
+        out['why'] = mm.group(1).strip()
+
+    mm = re.search(r'\*\*IF WRONG:\*\*\s*(.+?)(?=\n\n|\Z)', section, re.DOTALL)
+    if mm:
+        out['risk'] = mm.group(1).strip()
+
+    return out if out else None
+
 def load_wiki_valuations():
-    """Return {TICKER: valuation_dict} parsed from Wiki Card markdown files."""
+    """Return {TICKER: {valuation_dict, story_gate_dict}} parsed from Wiki Card markdown files."""
     result = {}
+    story_gates = {}
     if not KNOWLEDGE_DIR.exists():
-        return result
+        return result, story_gates
 
     for md_file in sorted((KNOWLEDGE_DIR / "stocks").glob("*.md")):
         if md_file.stem.startswith("_"):
@@ -135,8 +171,12 @@ def load_wiki_valuations():
         if val:
             result[ticker] = val
             print(f"[wiki-val] {ticker}: FV={val.get('fv')} MoS={val.get('mos_pct')}% Price={val.get('price')}")
+        sg = parse_wiki_story_gate(content)
+        if sg:
+            story_gates[ticker] = sg
+            print(f"[story-gate] {ticker}: {sg.get('status','?')} — {(sg.get('what') or '')[:60]}")
 
-    return result
+    return result, story_gates
 
 # ── Load sources ──────────────────────────────────────────────────────────────
 def load_papers(papers_data):
@@ -187,7 +227,7 @@ def load_charlie_watchlist(reviews_data):
     return result
 
 # ── Build individual stock entry ──────────────────────────────────────────────
-def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=None, charlie_rev=None):
+def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=None, charlie_rev=None, story_gate=None):
     entry = dict(base) if base else {}
 
     # Override dynamic fields from Warren's paper
@@ -210,6 +250,13 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
         va_s = va.get("score")
         ra_s = ra.get("score")
 
+        # price/fv/mos stored at scores level (not scores.va) in corrected entries
+        price = va.get("price") or s.get("price")
+        fv    = va.get("fair_value_base") or s.get("fair_value_base")
+        mos   = va.get("mos_pct") if va.get("mos_pct") is not None else s.get("mos_pct")
+        fpe   = va.get("forward_pe") or s.get("forward_pe")
+        peg   = va.get("peg") or s.get("peg")
+
         entry.update({
             "action":       action,
             "actionLabel":  albl,
@@ -217,11 +264,11 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
             "waf":          waf,
             "wafBadge":     badge,
             "wafComposite": comp,
-            "price":        va.get("price"),
-            "fv":           va.get("fair_value_base"),
-            "mos":          va.get("mos_pct"),
-            "fpe":          va.get("forward_pe"),
-            "peg":          va.get("peg"),
+            "price":        price,
+            "fv":           fv,
+            "mos":          mos,
+            "fpe":          fpe,
+            "peg":          peg,
             "scores":       make_scores(bq_s, gp_s, va_s, ra_s),
             "idea":         paper_rec.get("investment_idea") or entry.get("idea", ""),
             "updated":      paper_date,
@@ -235,14 +282,18 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
         if thesis_risk and not entry.get("risk"):
             entry["risk"] = [thesis_risk]
 
-    # Wiki Card valuation overrides all other sources (highest priority)
+    # Wiki Card valuation as fallback — only fills fields missing from watchlist_valuations.json
     if wiki_val:
-        if 'price'      in wiki_val: entry['price']   = wiki_val['price']
-        if 'fv'         in wiki_val: entry['fv']       = wiki_val['fv']
-        if 'mos_pct'    in wiki_val: entry['mos']      = wiki_val['mos_pct']
-        if 'peg'        in wiki_val: entry['peg']      = wiki_val['peg']
-        if 'forward_pe' in wiki_val: entry['fpe']      = wiki_val['forward_pe']
-        if 'updated'    in wiki_val: entry['updated']  = wiki_val['updated']
+        if 'price'      in wiki_val and entry.get('price') is None:   entry['price']   = wiki_val['price']
+        if 'fv'         in wiki_val and entry.get('fv') is None:       entry['fv']       = wiki_val['fv']
+        if 'mos_pct'    in wiki_val and entry.get('mos') is None:      entry['mos']      = wiki_val['mos_pct']
+        if 'peg'        in wiki_val and entry.get('peg') is None:      entry['peg']      = wiki_val['peg']
+        if 'forward_pe' in wiki_val and entry.get('fpe') is None:      entry['fpe']      = wiki_val['forward_pe']
+        if 'updated'    in wiki_val and entry.get('updated') is None:  entry['updated']  = wiki_val['updated']
+
+    # Story Gate (from Wiki Card ## Story Gate section)
+    if story_gate:
+        entry["story_gate"] = story_gate
 
     # Charlie Watchlist Review
     if charlie_rev:
@@ -264,20 +315,22 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
     return entry
 
 # ── Generate stocks.json ──────────────────────────────────────────────────────
-def generate_stocks_json(papers, paper_date, watchlist, wiki_vals=None, charlie_wl=None):
+def generate_stocks_json(papers, paper_date, watchlist, wiki_vals=None, charlie_wl=None, story_gates=None):
     stocks = {}
-    wiki_vals  = wiki_vals  or {}
-    charlie_wl = charlie_wl or {}
+    wiki_vals    = wiki_vals    or {}
+    charlie_wl   = charlie_wl   or {}
+    story_gates  = story_gates  or {}
 
     # All stocks from watchlist.json (single source of truth)
     for ticker, wl_entry in watchlist.items():
         cat = wl_entry.get("category", "")
         if CATEGORY_MAP.get(cat) is None:
             continue  # skip index ETFs
-        paper_rec  = papers.get(ticker)
-        wiki_val   = wiki_vals.get(ticker)
+        paper_rec   = papers.get(ticker)
+        wiki_val    = wiki_vals.get(ticker)
         charlie_rev = charlie_wl.get(ticker)
-        entry = build_entry(ticker, wl_entry, paper_rec, wl_entry, paper_date, wiki_val, charlie_rev)
+        story_gate  = story_gates.get(ticker)
+        entry = build_entry(ticker, wl_entry, paper_rec, wl_entry, paper_date, wiki_val, charlie_rev, story_gate)
         stocks[ticker] = entry
         src = "+".join(filter(None, [
             "watchlist",
@@ -370,28 +423,41 @@ def generate_stocks_inline():
 
     lines = ["const STOCKS_INLINE = {\n"]
     for ticker, s in stocks.items():
+        jn = lambda v: "null" if v is None else repr(v)  # js number/null
         sc = s.get("scores") or {}
         bq = sc.get("bq", [None, "amber", 50])
         gp = sc.get("gp", [None, "amber", 50])
         va = sc.get("va", [None, "amber", 50])
         ra = sc.get("ra", [None, "amber", 50])
         scores_js = (
-            f"{{ bq: [{bq[0]},{js_str(bq[1])},{bq[2]}], "
-            f"gp: [{gp[0]},{js_str(gp[1])},{gp[2]}], "
-            f"va: [{va[0]},{js_str(va[1])},{va[2]}], "
-            f"ra: [{ra[0]},{js_str(ra[1])},{ra[2]}] }}"
+            f"{{ bq: [{jn(bq[0])},{js_str(bq[1])},{jn(bq[2])}], "
+            f"gp: [{jn(gp[0])},{js_str(gp[1])},{jn(gp[2])}], "
+            f"va: [{jn(va[0])},{js_str(va[1])},{jn(va[2])}], "
+            f"ra: [{jn(ra[0])},{js_str(ra[1])},{jn(ra[2])}] }}"
         )
         chips_js = js_arr(s.get("chips", []))
         bull_js  = js_arr(s.get("bull", []))
         risk_js  = js_arr(s.get("risk", []))
+        sg = s.get("story_gate") or {}
+        sg_js = "null"
+        if sg:
+            sg_js = (
+                f"{{ passed: {'true' if sg.get('passed') else 'false'}, "
+                f"status: {js_str(sg.get('status'))}, "
+                f"what: {js_str(sg.get('what'))}, "
+                f"why: {js_str(sg.get('why'))}, "
+                f"risk: {js_str(sg.get('risk'))}, "
+                f"updated: {js_str(sg.get('updated'))} }}"
+            )
         lines.append(
             f"  {ticker}: {{\n"
             f"    name: {js_str(s.get('name'))}, sector: {js_str(s.get('sector'))}, sectorSlug: {js_str(s.get('sectorSlug'))},\n"
             f"    chips: {chips_js},\n"
             f"    action: {js_str(s.get('action'))}, actionLabel: {js_str(s.get('actionLabel'))}, conviction: {s.get('conviction', 3)},\n"
-            f"    waf: {s.get('waf')}, wafBadge: {js_str(s.get('wafBadge'))}, wafComposite: {js_str(s.get('wafComposite'))},\n"
-            f"    price: {s.get('price')}, fv: {s.get('fv')}, mos: {s.get('mos')}, fpe: {s.get('fpe')}, peg: {s.get('peg')},\n"
+            f"    waf: {jn(s.get('waf'))}, wafBadge: {js_str(s.get('wafBadge'))}, wafComposite: {js_str(s.get('wafComposite'))},\n"
+            f"    price: {jn(s.get('price'))}, fv: {jn(s.get('fv'))}, mos: {jn(s.get('mos'))}, fpe: {jn(s.get('fpe'))}, peg: {jn(s.get('peg'))},\n"
             f"    scores: {scores_js},\n"
+            f"    story_gate: {sg_js},\n"
             f"    idea: {js_str(s.get('idea'))},\n"
             f"    bull: {bull_js},\n"
             f"    risk: {risk_js},\n"
@@ -429,10 +495,12 @@ if __name__ == "__main__":
     papers, paper_date = load_papers(papers_raw)
     watchlist          = load_watchlist(watchlist_raw)
 
-    print(f"\n── Wiki Card Valuations ───────────────────────────────────")
-    wiki_vals = load_wiki_valuations()
+    print(f"\n── Wiki Card Valuations + Story Gates ─────────────────────")
+    wiki_vals, story_gates = load_wiki_valuations()
     if not wiki_vals:
         print("[wiki-val] ไม่พบข้อมูลใน Wiki Card ใดเลย")
+    if not story_gates:
+        print("[story-gate] ยังไม่มี Story Gate ใน Wiki Card — รัน /warren watchlist เพื่อเพิ่ม")
 
     print(f"\n── Charlie Watchlist Reviews ──────────────────────────────")
     charlie_wl = load_charlie_watchlist(charlie_wl_raw)
@@ -440,7 +508,7 @@ if __name__ == "__main__":
         print("[charlie-wl] ยังไม่มี charlie_watchlist_reviews.json หรือ array ว่าง")
 
     print(f"\n── Stocks ─────────────────────────────────────────────────")
-    generate_stocks_json(papers, paper_date, watchlist, wiki_vals, charlie_wl)
+    generate_stocks_json(papers, paper_date, watchlist, wiki_vals, charlie_wl, story_gates)
 
     print(f"\n── Knowledge ──────────────────────────────────────────────")
     generate_knowledge_js(watchlist_tickers=set(watchlist.keys()))
