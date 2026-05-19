@@ -840,6 +840,23 @@ img { max-width: 100%; display: block; }
   .filter-search { display: none; }
 }
 
+/* Performance chart period buttons */
+.perf-period-btns { display: flex; gap: 2px; }
+.perf-period-btn {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--fg-dim);
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-xs);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: background 0.15s, color 0.15s;
+}
+.perf-period-btn:hover { color: var(--fg); background: var(--chip-bg); }
+.perf-period-btn.is-active { background: var(--chip-bg); color: var(--fg); font-weight: 600; }
+
 /* ============================================
    Stock card grid (stocks page)
    ============================================ */

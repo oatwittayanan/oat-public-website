@@ -162,15 +162,17 @@
 
       <!-- PERFORMANCE vs BENCHMARK CHART -->
       <div class="card card-pad" style="padding:24px; display:flex; flex-direction:column; min-height:0">
-        <div style="margin-bottom:12px; flex-shrink:0; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap">
+        <div style="margin-bottom:8px; flex-shrink:0; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap">
           <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase">
             Performance vs Benchmark
           </div>
           <div id="bench-returns" style="display:flex; gap:8px; font-family:var(--font-mono); font-size:11px; flex-wrap:wrap"></div>
         </div>
+        <!-- Period filter buttons — auto-shown based on portfolio age -->
+        <div id="perf-period-btns" class="perf-period-btns" style="flex-shrink:0; margin-bottom:10px"></div>
         <!-- Chart area: fills remaining card height -->
         <div style="position:relative; flex:1; min-height:220px">
-          <div id="perfChartContainer" style="width:100%; height:100%"></div>
+          <canvas id="perfChart" style="display:block; width:100%; height:100%"></canvas>
         </div>
         <!-- Legend — centered -->
         <div style="margin-top:10px; flex-shrink:0; display:flex; justify-content:center; gap:20px; font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); flex-wrap:wrap">
@@ -915,87 +917,215 @@ function initAllocationChart(quotes) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// PERFORMANCE vs BENCHMARK CHART  (dollar values, OAT OS style)
+// PERFORMANCE vs BENCHMARK CHART — Chart.js interactive
 // ═══════════════════════════════════════════════════════════════════════════
-function drawPerfChart(labels, portVals, vooVals, qqqmVals, depositedVals) {
-  const container = document.getElementById('perfChartContainer');
+let _perfChartInstance = null;
+let _fullBenchData     = null; // { dates[], labels[], portVals[], vooVals[], qqqmVals[], depositedVals[] }
+let _activePeriod      = 'ALL';
+
+function getAvailablePeriods(startDateStr) {
+  const ageDays = (Date.now() - new Date(startDateStr).getTime()) / 86400_000;
+  const all = [
+    { code: '3M',  minDays: 90   },
+    { code: '6M',  minDays: 180  },
+    { code: 'YTD', minDays: 0    },
+    { code: '1Y',  minDays: 365  },
+    { code: '3Y',  minDays: 1095 },
+    { code: '5Y',  minDays: 1825 },
+    { code: 'ALL', minDays: 0    },
+  ];
+  return all.filter(p => ageDays >= p.minDays).map(p => p.code);
+}
+
+function renderPeriodButtons(startDateStr) {
+  const container = document.getElementById('perf-period-btns');
   if (!container) return;
+  const periods = getAvailablePeriods(startDateStr);
+  // Ensure _activePeriod is still in the available list
+  if (!periods.includes(_activePeriod)) _activePeriod = 'ALL';
+  container.innerHTML = periods.map(p =>
+    `<button class="perf-period-btn${p === _activePeriod ? ' is-active' : ''}" data-period="${p}">${p}</button>`
+  ).join('');
+  container.querySelectorAll('.perf-period-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      _activePeriod = btn.dataset.period;
+      container.querySelectorAll('.perf-period-btn').forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      applyPeriodFilter();
+    });
+  });
+}
 
-  const W = 600, H = 190;
-  const PAD = { top: 14, right: 16, bottom: 28, left: 52 };
-  const CW = W - PAD.left - PAD.right;
-  const CH = H - PAD.top - PAD.bottom;
+function sliceByPeriod(data, period) {
+  if (!data || period === 'ALL') return data;
+  const now = new Date();
+  let cutTs;
+  if (period === 'YTD') {
+    cutTs = new Date(now.getFullYear(), 0, 1).getTime();
+  } else {
+    const days = { '3M': 90, '6M': 180, '1Y': 365, '3Y': 1095, '5Y': 1825 }[period];
+    if (!days) return data;
+    cutTs = now.getTime() - days * 86400_000;
+  }
+  const startIdx = data.dates.findIndex(d => new Date(d).getTime() >= cutTs);
+  if (startIdx <= 0) return data;
+  return {
+    dates:         data.dates.slice(startIdx),
+    labels:        data.labels.slice(startIdx),
+    portVals:      data.portVals?.slice(startIdx),
+    vooVals:       data.vooVals?.slice(startIdx),
+    qqqmVals:      data.qqqmVals?.slice(startIdx),
+    depositedVals: data.depositedVals?.slice(startIdx),
+  };
+}
 
-  const valid = v => v != null && !isNaN(v) && v >= 0;
-  const allV  = [...(portVals||[]), ...(vooVals||[]), ...(qqqmVals||[]), ...(depositedVals||[])].filter(valid);
+function applyPeriodFilter() {
+  if (!_fullBenchData) return;
+  const sliced = sliceByPeriod(_fullBenchData, _activePeriod);
+  drawPerfChart(sliced.labels, sliced.portVals, sliced.vooVals, sliced.qqqmVals, sliced.depositedVals);
+  const findFirst = arr => { for(const v of (arr||[])) if(v!=null && v>0) return v; return null; };
+  const findLast  = arr => { for(let i=(arr||[]).length-1;i>=0;i--) if(arr[i]!=null && arr[i]>0) return arr[i]; return null; };
+  const pct = (first, last) => (first && last && first > 0) ? (last - first) / first * 100 : null;
+  showBenchReturnsPct(
+    pct(findFirst(sliced.portVals),  findLast(sliced.portVals)),
+    pct(findFirst(sliced.vooVals),   findLast(sliced.vooVals)),
+    pct(findFirst(sliced.qqqmVals),  findLast(sliced.qqqmVals))
+  );
+}
 
-  if (allV.length === 0) {
-    container.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" height="220" style="display:block"><text x="${W/2}" y="${H/2}" text-anchor="middle" dominant-baseline="middle" fill="var(--fg-dim)" font-family="'IBM Plex Mono',monospace" font-size="11">กำลังโหลดข้อมูล...</text></svg>`;
+function drawPerfChart(labels, portVals, vooVals, qqqmVals, depositedVals) {
+  const canvas = document.getElementById('perfChart');
+  if (!canvas) return;
+
+  const isDark     = document.documentElement.getAttribute('data-theme') !== 'light';
+  const gridColor  = isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)';
+  const tickColor  = isDark ? '#475569' : '#94a3b8';
+  const tooltipBg  = isDark ? '#1e293b' : '#ffffff';
+  const tooltipBdr = isDark ? '#334155' : '#e2e8f0';
+  const tooltipFg  = isDark ? '#e2e8f0' : '#1e293b';
+  const tooltipDim = isDark ? '#94a3b8' : '#64748b';
+
+  const datasets = [
+    {
+      label: 'Portfolio',
+      data: portVals || [],
+      borderColor: '#f59e0b',
+      backgroundColor: 'rgba(245,158,11,0.07)',
+      borderWidth: 2.5,
+      fill: true,
+      pointRadius: 0,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#f59e0b',
+      tension: 0.3,
+    },
+    {
+      label: 'VOO',
+      data: vooVals || [],
+      borderColor: '#60a5fa',
+      borderWidth: 2,
+      borderDash: [5, 4],
+      fill: false,
+      pointRadius: 0,
+      pointHoverRadius: 4,
+      pointHoverBackgroundColor: '#60a5fa',
+      tension: 0.3,
+    },
+    {
+      label: 'QQQM',
+      data: qqqmVals || [],
+      borderColor: '#a78bfa',
+      borderWidth: 2,
+      borderDash: [5, 4],
+      fill: false,
+      pointRadius: 0,
+      pointHoverRadius: 4,
+      pointHoverBackgroundColor: '#a78bfa',
+      tension: 0.3,
+    },
+    {
+      label: 'Deposited',
+      data: depositedVals || [],
+      borderColor: '#64748b',
+      borderWidth: 1.5,
+      borderDash: [4, 3],
+      fill: false,
+      pointRadius: 0,
+      pointHoverRadius: 0,
+      tension: 0,
+    },
+  ];
+
+  if (_perfChartInstance) {
+    _perfChartInstance.data.labels = labels || [];
+    datasets.forEach((ds, i) => { _perfChartInstance.data.datasets[i].data = ds.data; });
+    _perfChartInstance.update('active');
     return;
   }
 
-  const rawMax = Math.max(...allV);
-  // Round yMax up to a nice number
-  const mag = Math.pow(10, Math.floor(Math.log10(rawMax || 1)));
-  const yMax = Math.ceil(rawMax * 1.08 / mag) * mag;
-  const yMin = 0;
-
-  // Y tick interval
-  const interval = (() => {
-    const n = yMax / mag;
-    if (n <= 2) return mag / 5;
-    if (n <= 5) return mag / 2;
-    return mag;
-  })();
-
-  const fmtY = v => v === 0 ? '$0' : v >= 1000 ? `$${(v/1000).toFixed(v%1000===0?0:0)}k` : `$${v}`;
-
-  const xP = i => +(PAD.left + (i / Math.max((labels||[]).length - 1, 1)) * CW).toFixed(2);
-  const yP = v => +(PAD.top + (1 - (v - yMin) / (yMax - yMin)) * CH).toFixed(2);
-
-  let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="display:block;width:100%;height:100%;overflow:visible">`;
-
-  // Y gridlines + labels
-  for (let t = 0; t <= yMax + interval * 0.01; t += interval) {
-    const y = yP(t);
-    s += `<line x1="${PAD.left}" y1="${y}" x2="${W-PAD.right}" y2="${y}" stroke="var(--hairline)" stroke-width="1"/>`;
-    s += `<text x="${PAD.left-4}" y="${y}" text-anchor="end" dominant-baseline="middle" fill="var(--fg-dim)" font-family="'IBM Plex Mono',monospace" font-size="10">${fmtY(t)}</text>`;
-  }
-
-  // X labels (~7 evenly spaced)
-  const step = Math.max(1, Math.round(((labels||[]).length-1) / 6));
-  for (let i = 0; i < (labels||[]).length; i += step) {
-    s += `<text x="${xP(i)}" y="${H-4}" text-anchor="middle" fill="var(--fg-dim)" font-family="'IBM Plex Mono',monospace" font-size="10">${labels[i]}</text>`;
-  }
-
-  // Fill under portfolio line
-  if ((portVals||[]).some(valid)) {
-    const firstI = (portVals||[]).findIndex(valid);
-    const lastI  = (portVals||[]).reduce((a,v,i) => valid(v)?i:a, firstI);
-    const pts    = (portVals||[]).map((v,i) => valid(v)?`${xP(i)},${yP(v)}`:null).filter(Boolean);
-    const poly   = [...pts, `${xP(lastI)},${yP(0)}`, `${xP(firstI)},${yP(0)}`].join(' ');
-    s += `<polygon points="${poly}" fill="rgba(245,158,11,0.07)" stroke="none"/>`;
-  }
-
-  const makePath = (vals, color, sw, dashArr) => {
-    if (!vals?.some(valid)) return '';
-    let d = '', mv = true;
-    for (let i = 0; i < vals.length; i++) {
-      if (!valid(vals[i])) { mv = true; continue; }
-      d += mv ? `M${xP(i)} ${yP(vals[i])} ` : `L${xP(i)} ${yP(vals[i])} `;
-      mv = false;
-    }
-    const da = dashArr ? ` stroke-dasharray="${dashArr}"` : '';
-    return `<path d="${d.trim()}" fill="none" stroke="${color}" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round"${da}/>`;
-  };
-
-  s += makePath(depositedVals, '#64748b', 1.5, '4,3');   // gray dashed — deposited
-  s += makePath(vooVals,       '#60a5fa', 2,   '5,4');   // blue dashed — VOO what-if
-  s += makePath(qqqmVals,      '#a78bfa', 2,   '5,4');   // purple dashed — QQQM what-if
-  s += makePath(portVals,      '#f59e0b', 2.5, null);    // gold solid — Portfolio
-
-  s += '</svg>';
-  container.innerHTML = s;
+  _perfChartInstance = new Chart(canvas, {
+    type: 'line',
+    data: { labels: labels || [], datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      animation: { duration: 300 },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: tooltipBg,
+          borderColor: tooltipBdr,
+          borderWidth: 1,
+          titleColor: tooltipDim,
+          bodyColor: tooltipFg,
+          titleFont: { family: "'IBM Plex Mono', monospace", size: 11 },
+          bodyFont: { family: "'IBM Plex Mono', monospace", size: 11 },
+          padding: 10,
+          callbacks: {
+            title: items => items[0]?.label ?? '',
+            label: item => {
+              if (item.dataset.label === 'Deposited') return null;
+              const v = item.raw;
+              if (v == null) return null;
+              const fmtV = v >= 1000 ? `$${(v/1000).toFixed(1)}k` : `$${v.toFixed(0)}`;
+              const allData = item.chart.data.datasets[item.datasetIndex].data;
+              const first = allData.find(x => x != null && x > 0);
+              const pctStr = (first && first > 0)
+                ? ` (${v >= first ? '+' : ''}${((v - first) / first * 100).toFixed(1)}%)`
+                : '';
+              return ` ${item.dataset.label}: ${fmtV}${pctStr}`;
+            },
+            labelColor: item => ({
+              borderColor: item.dataset.borderColor,
+              backgroundColor: item.dataset.borderColor,
+              borderRadius: 2,
+            }),
+          },
+        },
+      },
+      scales: {
+        x: {
+          grid: { color: gridColor, drawTicks: false },
+          border: { display: false },
+          ticks: {
+            font: { family: "'IBM Plex Mono', monospace", size: 10 },
+            color: tickColor,
+            maxTicksLimit: 7,
+            maxRotation: 0,
+          },
+        },
+        y: {
+          grid: { color: gridColor, drawTicks: false },
+          border: { display: false },
+          ticks: {
+            font: { family: "'IBM Plex Mono', monospace", size: 10 },
+            color: tickColor,
+            callback: v => v === 0 ? '$0' : v >= 1000 ? `$${(v/1000).toFixed(0)}k` : `$${v}`,
+          },
+        },
+      },
+    },
+  });
 }
 
 // Render % return labels from raw percentage values
@@ -1096,42 +1226,36 @@ function calcWhatIfLineDollar(history, deposits) {
   });
 }
 
+// Store full benchmark data for period filtering
+function storeBenchData(dates, labels, portVals, vooVals, qqqmVals, depositedVals) {
+  _fullBenchData = { dates, labels, portVals, vooVals, qqqmVals, depositedVals };
+}
+
 // Draw chart directly from Warren /api/benchmark response
 function renderFromWarrenData(data) {
   const labels = data.dates.map(d => {
     const dt = new Date(d);
     return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   });
-  drawPerfChart(labels, data.portfolio, data.voo, data.qqqm, data.deposited);
-
-  // Use precomputed % from Warren summary (most accurate)
-  const s = data.summary;
-  if (s && s.portfolio_pct != null) {
-    showBenchReturnsPct(s.portfolio_pct, s.voo_pct, s.qqqm_pct);
-  } else {
-    // Fallback: derive % from arrays using last deposited value as denominator
-    const findLast = arr => { for(let i=(arr||[]).length-1;i>=0;i--) if(arr[i]>0) return arr[i]; return null; };
-    const lastDep  = findLast(data.deposited) || 0;
-    const lastPort = findLast(data.portfolio);
-    const lastVoo  = findLast(data.voo);
-    const lastQqqm = findLast(data.qqqm);
-    const pct = v => (v != null && lastDep > 0) ? (v - lastDep) / lastDep * 100 : null;
-    showBenchReturnsPct(pct(lastPort), pct(lastVoo), pct(lastQqqm));
-  }
-
+  storeBenchData(data.dates, labels, data.portfolio, data.voo, data.qqqm, data.deposited);
+  applyPeriodFilter();
 }
 
 async function renderBenchmarkChart() {
   const findLast = arr => { for(let i=(arr||[]).length-1;i>=0;i--) if(arr[i]!=null) return arr[i]; return null; };
 
+  // Render period buttons (auto-shows based on portfolio age)
+  renderPeriodButtons(DEPOSIT_START_DATE);
+
   // ── Step 1: Draw immediately from local deposit data (no fetch) ───────────
   const timeline0 = genWeeklyTimeline();
   if (timeline0.length >= 2 && portfolioDeposits.length > 0) {
     const labels0 = timeline0.map(p => p.date);
+    const isoDates0 = timeline0.map(p => new Date(p.ts).toISOString().split('T')[0]);
     const portV0  = calcPortfolioLine(timeline0, portfolioDeposits, currentPortfolioValue || portfolioDeposits.reduce((s,d)=>s+d.amount,0));
     const depV0   = calcDepositedLine(timeline0, portfolioDeposits);
-    drawPerfChart(labels0, portV0, null, null, depV0);
-    updateBenchReturns(findLast(portV0), null, null);
+    storeBenchData(isoDates0, labels0, portV0, null, null, depV0);
+    applyPeriodFilter();
   }
 
   // ── Step 2a: Static JSON (generated daily by GitHub Actions — always works) ──
@@ -1179,8 +1303,9 @@ async function renderBenchmarkChart() {
     const qqqmVals = align(qqqmData ? calcWhatIfLineDollar(qqqmData, portfolioDeposits) : null);
     const depVals  = align(calcDepositedLine(refData, portfolioDeposits));
 
-    drawPerfChart(labels, portVals, vooVals, qqqmVals, depVals);
-    updateBenchReturns(findLast(portVals), findLast(vooVals), findLast(qqqmVals));
+    const isoDates = refData.map(p => new Date(p.ts).toISOString().split('T')[0]);
+    storeBenchData(isoDates, labels, portVals, vooVals, qqqmVals, depVals);
+    applyPeriodFilter();
   } catch(e) {
     console.error('[bench]', e.message);
   }
@@ -1497,7 +1622,7 @@ async function loadTransactions() {
 document.addEventListener('DOMContentLoaded', async () => {
   initAllocationChart({});
   updateStatCards({});
-  drawPerfChart([], null, null, null, null); // empty placeholder
+  renderPeriodButtons(DEPOSIT_START_DATE); // render buttons immediately with default start date
 
   try {
     await Promise.all([
