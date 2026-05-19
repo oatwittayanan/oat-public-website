@@ -648,87 +648,6 @@
       "date": "2026-05-19"
     }
   },
-  "ETN": {
-    "symbol": "ETN",
-    "display": "ETN",
-    "category": "infrastructure",
-    "name": "Eaton Corporation",
-    "sector": "Infrastructure",
-    "sectorSlug": "infra",
-    "chips": [
-      "Infrastructure",
-      "Power Management"
-    ],
-    "bull": [
-      "Electrical Americas DC orders +240% YoY; 228 GW backlog = 12 years at 2025 build rates",
-      "Boyd Thermal acquisition: completes grid-to-chip portfolio (power + cooling + switchgear)",
-      "800V DC architecture ecosystem partner with NVIDIA, ABB, Schneider, Vertiv",
-      "Rolling 12-month orders +42%; raised FY2026 organic growth guidance to 10% midpoint",
-      "Q1 2026: record revenue $7.5B, adj EPS $2.81, FCF +245% YoY"
-    ],
-    "risk": [
-      "Industrial segment growth slow vs Electrical -- not all business is datacenter",
-      "High-voltage transformer lead times 2-3 years -- revenue recognition lag",
-      "Boyd Thermal ($9.5B) acquisition dilutive to EPS short-term",
-      "Margin headwind Q1-Q2 2026 from capacity ramp costs; recovery expected Q3-Q4",
-      "If AI CapEx cycle slows, orders could reverse quickly given backlog concentration"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 4,
-    "waf": 7.5,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "price": 383.0,
-    "fv": 394.0,
-    "mos": 6.8,
-    "fpe": 27.16,
-    "peg": 1.09,
-    "scores": {
-      "bq": [
-        8.0,
-        "green",
-        80
-      ],
-      "gp": [
-        8.0,
-        "green",
-        80
-      ],
-      "va": [
-        6.5,
-        "amber",
-        65
-      ],
-      "ra": [
-        7.0,
-        "amber",
-        70
-      ]
-    },
-    "idea": "800V DC ecosystem partner with NVIDIA; datacenter electrical orders +240% YoY; 228 GW backlog; AI power demand 10-20× traditional server",
-    "updated": "2026-05-19",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-05-19",
-      "what": "Eaton provides grid-to-chip electrical power management for AI data centers (800V DC architecture), holding 228 GW backlog = 12 years at 2025 build rates, with complete power+thermal portfolio via Boyd Thermal acquisition.",
-      "why": "Electrical Americas DC orders +240% YoY; raising FY2026 organic growth to 10%; Q1 2026 FCF +245% YoY; 800V DC ecosystem partner with NVIDIA/ABB/Schneider/Vertiv = spec-in for next-gen AI data centers.",
-      "risk": "หาก AI CapEx supercycle หยุดชะงักหรือ pause >2 quarters ทำให้ Electrical Americas orders reversal, หรือ Boyd Thermal integration ($9.5B) generates significantly less cross-selling synergy than projected."
-    },
-    "charlie": {
-      "verdict": "AGREE",
-      "summary": "AI datacenter power thesis confirmed ด้วยข้อมูลอิสระ — Q1 2026 Electrical Americas orders +60% YoY, datacenter orders +240%, backlog 228 GW = 12 years of build ราคา ~$382 ใกล้เคียง Warren ($383) MoS 6.8% ยังต่ำกว่า gate แต่ business แข็งมาก",
-      "risks": [
-        "Datacenter capex slowdown ถ้า AI ROI ไม่ชัดเจน",
-        "Tariff impact on power equipment supply chain",
-        "Schneider Electric competition ใน liquid cooling"
-      ],
-      "yf_price": 382.0,
-      "warren_fv": 394.0,
-      "date": "2026-05-19"
-    }
-  },
   "AMZN": {
     "symbol": "AMZN",
     "display": "AMZN",
@@ -810,6 +729,88 @@
       "date": "2026-05-19"
     }
   },
+  "ETN": {
+    "symbol": "ETN",
+    "display": "ETN",
+    "category": "infrastructure",
+    "name": "Eaton Corporation",
+    "sector": "Infrastructure",
+    "sectorSlug": "infra",
+    "chips": [
+      "Infrastructure",
+      "Power Management"
+    ],
+    "bull": [
+      "Electrical Americas DC orders +240% YoY; 228 GW backlog = 12 years at 2025 build rates",
+      "Boyd Thermal acquisition: completes grid-to-chip portfolio (power + cooling + switchgear)",
+      "800V DC architecture ecosystem partner with NVIDIA, ABB, Schneider, Vertiv",
+      "Rolling 12-month orders +42%; raised FY2026 organic growth guidance to 10% midpoint",
+      "Q1 2026: record revenue $7.5B, adj EPS $2.81, FCF +245% YoY"
+    ],
+    "risk": [
+      "Industrial segment growth slow vs Electrical -- not all business is datacenter",
+      "High-voltage transformer lead times 2-3 years -- revenue recognition lag",
+      "Boyd Thermal ($9.5B) acquisition dilutive to EPS short-term",
+      "Margin headwind Q1-Q2 2026 from capacity ramp costs; recovery expected Q3-Q4",
+      "If AI CapEx cycle slows, orders could reverse quickly given backlog concentration"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 4,
+    "waf": 7.23,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 425.55,
+    "fv": 394.0,
+    "mos": -3.9,
+    "fpe": 30.26,
+    "peg": 1.22,
+    "scores": {
+      "bq": [
+        8.0,
+        "green",
+        80
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        5.5,
+        "orange",
+        55
+      ],
+      "ra": [
+        7.0,
+        "amber",
+        70
+      ]
+    },
+    "idea": "800V DC ecosystem partner with NVIDIA; datacenter electrical orders +240% YoY; 228 GW backlog; AI power demand 10-20× traditional server",
+    "updated": "2026-05-19",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Eaton provides grid-to-chip electrical power management for AI data centers (800V DC architecture), holding 228 GW backlog = 12 years at 2025 build rates, with complete power+thermal portfolio via Boyd Thermal acquisition.",
+      "why": "Electrical Americas DC orders +240% YoY; raising FY2026 organic growth to 10%; Q1 2026 FCF +245% YoY; 800V DC ecosystem partner with NVIDIA/ABB/Schneider/Vertiv = spec-in for next-gen AI data centers.",
+      "risk": "หาก AI CapEx supercycle หยุดชะงักหรือ pause >2 quarters ทำให้ Electrical Americas orders reversal, หรือ Boyd Thermal integration ($9.5B) generates significantly less cross-selling synergy than projected."
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "PRICE CORRECTED — ราคาจริง $425.55 (Warren เคยใช้ $383 ผิด) Charlie ยืนยัน ETN ATH $435.43 เมื่อ 1 พ.ค. ปัจจุบัน $425.55 — MoS -3.9% (FV_weighted $409) ไม่ผ่าน gate AI datacenter power thesis ยังแข็งแกร่ง แต่ราคาสูงกว่า FV แล้ว Warren ปรับ WAF 7.50→7.23 ถูกต้อง",
+      "risks": [
+        "Datacenter capex slowdown ถ้า AI ROI ไม่ชัดเจน",
+        "Tariff impact on power equipment supply chain",
+        "Schneider Electric competition ใน liquid cooling",
+        "ราคา $425 เกิน FV_weighted $409 แล้ว — ไม่มี margin of safety"
+      ],
+      "yf_price": 425.55,
+      "warren_fv": 394.0,
+      "date": "2026-05-19"
+    }
+  },
   "PLTR": {
     "symbol": "PLTR",
     "display": "PLTR",
@@ -888,87 +889,6 @@
       ],
       "yf_price": 133.99,
       "warren_fv": 108.0,
-      "date": "2026-05-19"
-    }
-  },
-  "MRVL": {
-    "symbol": "MRVL",
-    "display": "MRVL",
-    "category": "semiconductor",
-    "name": "Marvell Technology",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "Custom Silicon + Optical"
-    ],
-    "bull": [
-      "PAM DSP leadership — first-to-productize 200G/lane สำหรับ 1.6T transition",
-      "Custom XPU design wins 20+ sockets ฝังลึกใน hyperscaler roadmaps",
-      "End-to-End Data Center portfolio: scale-out + scale-across + scale-up + switching",
-      "DCI to all 5 US hyperscalers ใน FY27 = TAM expansion significant",
-      "Celestial AI CPO scale-up — CEO คาด could exceed $10B by 2030"
-    ],
-    "risk": [
-      "Revenue concentration: top hyperscalers = 80%+ ของรายได้",
-      "Custom silicon design wins อาจถูก in-house ถ้า hyperscaler scale up ทีม",
-      "Optical interconnect competitive: Intel, Coherent, Lumentum แข่ง",
-      "FY2026 guidance อ่อนแอกว่า consensus — near-term execution risk",
-      "Valuation P/E สูงในบริบท fabless semiconductor cyclicality"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 3,
-    "waf": 7.05,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 166.0,
-    "fv": 133.0,
-    "mos": -10.4,
-    "fpe": 44.37,
-    "peg": 0.52,
-    "scores": {
-      "bq": [
-        7.5,
-        "amber",
-        75
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        5.0,
-        "orange",
-        50
-      ],
-      "ra": [
-        6.5,
-        "amber",
-        65
-      ]
-    },
-    "idea": "5 hyperscaler XPU + PAM DSP leadership; FY2028 $15B revenue target; Q1 FY27 earnings May 27 — near-term catalyst",
-    "updated": "2026-05-19",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-05-19",
-      "what": "Marvell provides custom AI accelerators (XPU) to 5 US hyperscalers and PAM DSP optical interconnects (first-to-200G/lane) targeting $15B revenue by FY2028 — deeply embedded in hyperscaler multi-year silicon roadmaps.",
-      "why": "NVIDIA's $2B equity investment in COHR signals optical interconnect urgency; Marvell's Celestial AI ($3.25-5.5B) acquisition = Photonic Fabric for >33TB shared memory; Q1 FY2027 earnings May 27 = next major catalyst; all 5 US hyperscalers by FY2027.",
-      "risk": "หาก hyperscalers scale up internal chip design teams (like Google's TPU team) และลด MRVL custom XPU dependency, หรือ Celestial AI Photonic Fabric รัน late >18 months ทำให้ FY2028 $15B target ไม่สำเร็จ."
-    },
-    "charlie": {
-      "verdict": "CAUTION",
-      "summary": "ราคา ~$166 ตรงกับ Warren Earnings May 27 คือ catalyst สำคัญ BofA + RBC ยก PT ถึง $200 (ฐาน Warren FV $133 conservative มาก) ถ้า Q1 FY27 earnings beat: ราคาอาจขึ้นแรง / miss: ร่วงแรง High risk/reward event",
-      "risks": [
-        "Earnings May 27 — miss หรือ weak guide กดราคา sharply",
-        "Warren's FV $133 conservative มากเทียบกับ analyst $200",
-        "Hyperscaler in-house XPU ลดการพึ่ง MRVL ระยะยาว"
-      ],
-      "yf_price": 166.0,
-      "warren_fv": 149.0,
       "date": "2026-05-19"
     }
   },
@@ -1338,6 +1258,88 @@
       ],
       "yf_price": 362.83,
       "warren_fv": 297.0,
+      "date": "2026-05-19"
+    }
+  },
+  "MRVL": {
+    "symbol": "MRVL",
+    "display": "MRVL",
+    "category": "semiconductor",
+    "name": "Marvell Technology",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "Custom Silicon + Optical"
+    ],
+    "bull": [
+      "PAM DSP leadership — first-to-productize 200G/lane สำหรับ 1.6T transition",
+      "Custom XPU design wins 20+ sockets ฝังลึกใน hyperscaler roadmaps",
+      "End-to-End Data Center portfolio: scale-out + scale-across + scale-up + switching",
+      "DCI to all 5 US hyperscalers ใน FY27 = TAM expansion significant",
+      "Celestial AI CPO scale-up — CEO คาด could exceed $10B by 2030"
+    ],
+    "risk": [
+      "Revenue concentration: top hyperscalers = 80%+ ของรายได้",
+      "Custom silicon design wins อาจถูก in-house ถ้า hyperscaler scale up ทีม",
+      "Optical interconnect competitive: Intel, Coherent, Lumentum แข่ง",
+      "FY2026 guidance อ่อนแอกว่า consensus — near-term execution risk",
+      "Valuation P/E สูงในบริบท fabless semiconductor cyclicality"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 6.78,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 177.95,
+    "fv": 133.0,
+    "mos": -16.3,
+    "fpe": 46.71,
+    "peg": 0.55,
+    "scores": {
+      "bq": [
+        7.5,
+        "amber",
+        75
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        4.0,
+        "orange",
+        40
+      ],
+      "ra": [
+        6.5,
+        "amber",
+        65
+      ]
+    },
+    "idea": "5 hyperscaler XPU + PAM DSP leadership; FY2028 $15B revenue target; Q1 FY27 earnings May 27 — near-term catalyst",
+    "updated": "2026-05-19",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Marvell provides custom AI accelerators (XPU) to 5 US hyperscalers and PAM DSP optical interconnects (first-to-200G/lane) targeting $15B revenue by FY2028 — deeply embedded in hyperscaler multi-year silicon roadmaps.",
+      "why": "NVIDIA's $2B equity investment in COHR signals optical interconnect urgency; Marvell's Celestial AI ($3.25-5.5B) acquisition = Photonic Fabric for >33TB shared memory; Q1 FY2027 earnings May 27 = next major catalyst; all 5 US hyperscalers by FY2027.",
+      "risk": "หาก hyperscalers scale up internal chip design teams (like Google's TPU team) และลด MRVL custom XPU dependency, หรือ Celestial AI Photonic Fabric รัน late >18 months ทำให้ FY2028 $15B target ไม่สำเร็จ."
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "PRICE CORRECTED — ราคาจริง $177.95 (Warren เคยใช้ $166 ต่ำเกิน) Charlie ยืนยันราคา $177.95 +4.16% วันนี้ — MoS -16.3% (FV_weighted $149) overvalued มากขึ้น RBC ยก PT $200 จาก $170 ก่อน Q1 FY27 earnings May 27 = catalyst สำคัญ Warren WAF ปรับ 7.05→6.78 ถูกต้อง",
+      "risks": [
+        "Earnings May 27 — miss หรือ weak guide กดราคา sharply จาก $178",
+        "ราคา $177.95 ห่าง FV_weighted $149 มากขึ้น MoS -16.3%",
+        "Warren's FV $133 conservative มากเทียบกับ analyst PT $200",
+        "Hyperscaler in-house XPU ลดการพึ่ง MRVL ระยะยาว"
+      ],
+      "yf_price": 177.95,
+      "warren_fv": 149.0,
       "date": "2026-05-19"
     }
   },
