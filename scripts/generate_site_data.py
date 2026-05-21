@@ -150,6 +150,15 @@ def parse_wiki_story_gate(content):
     if mm:
         out['updated'] = mm.group(1)
 
+    # Tier — **Tier:** 🏛️ Inevitable / 🚀 Pre-Inevitable / 🌱 Fast Grower / 🔁 Cyclical / ⚠️ Turnaround / ❌ Avoid
+    mm = re.search(r'\*\*Tier:\*\*\s*([^\n|]+?)(?:\s*\||$|\n)', section)
+    if mm:
+        tier_raw = mm.group(1).strip()
+        out['tier'] = tier_raw
+        # Extract slug for CSS class — strip emoji, lowercase, dash
+        tier_text = re.sub(r'[^\w\s-]', '', tier_raw).strip().lower().replace(' ', '-')
+        out['tier_slug'] = tier_text
+
     # WHAT — new: **WHAT:** inline  |  old: **WHAT — label?**\n content
     mm = re.search(r'\*\*WHAT:\*\*\s*(.+?)(?=\n\n|\*\*WHY|\Z)', section, re.DOTALL)
     if not mm:
@@ -462,6 +471,8 @@ def generate_stocks_inline():
             sg_js = (
                 f"{{ passed: {'true' if sg.get('passed') else 'false'}, "
                 f"status: {js_str(sg.get('status'))}, "
+                f"tier: {js_str(sg.get('tier'))}, "
+                f"tier_slug: {js_str(sg.get('tier_slug'))}, "
                 f"what: {js_str(sg.get('what'))}, "
                 f"why: {js_str(sg.get('why'))}, "
                 f"risk: {js_str(sg.get('risk'))}, "
