@@ -64,14 +64,21 @@
       "status": "PASS",
       "updated": "2026-05-21",
       "what": "NVIDIA sells full-stack AI factory platforms (Grace Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) — และเพิ่ม Vera CPU $200B TAM ใหม่ที่ purpose-built for agentic AI ($20B visibility ปีนี้)",
+      "why": "Consensus เห็น Q2 FY27 guide $91B = continued AI ramp; Warren เห็นต่างว่า **Vera CPU TAM disclosure ($200B) + dividend +25x + new $80B buyback** signals confidence ใน $1T Blackwell+Rubin envelope CY2025-2027 ที่ยังไม่ priced-in — market reaction +1.93% only suggests Vera optionality ยังไม่ digested",
       "risk": "Vera Rubin Q3 FY27 production ramp slips >1 quarter, OR hyperscaler CapEx cuts >30% on AI ROI disappointment causing $119B supply commitment write-off, OR China antitrust escalates to NVDA networking products ban"
     },
     "charlie": {
       "verdict": "AGREE",
       "summary": "Q1 FY27 fully verified — beat on rev/EPS, Vera CPU $200B TAM disclosed independently (CNBC/Stocktwits), Q2 guide $91B verified. Warren's WAF upgrade 8.25→8.60 ตรง logic เพราะ Vera CPU = structural new growth vector. Stock barely moved (+1.93%) แสดงว่า market hasn't digested Vera optionality.",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": null,
+      "risks": [
+        "Supply commitments $119B (+25% QoQ) = larger downside if hyperscaler CapEx pauses",
+        "Securities class action class-certified March 25, 2026 — Warren noted but litigation now formal",
+        "Average day-of reaction last 4 earnings = -1.54%; today +1.93% = positive but not euphoric → market wants more proof of Vera CPU",
+        "Q2 FY27 sequential revenue growth requires zero China DC compute (consistent with last 2 quarters)",
+        "Stock 6.78% below 52W high — momentum has cooled vs early 2026 peak"
+      ],
+      "yf_price": 220.5,
+      "warren_fv": 308.0,
       "date": "2026-05-21"
     }
   },
@@ -145,9 +152,13 @@
     "charlie": {
       "verdict": "AGREE",
       "summary": "Gate relaxation enables BUY at $616. Charlie's May 19 verification: $610.7 (close enough). FTC risk RESOLVED per Boasberg ruling Nov 2025 — Warren still flags it but downgraded. PEG 0.47 = cheapest Big Tech. Verdict AGREE — high-conviction BUY.",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": null,
+      "risks": [
+        "Capex FY2026 $115-135B กดดัน FCF ระยะสั้น",
+        "IRS $15.89B + EU DSA $12B still pending",
+        "Reality Labs $19B annual loss — no clear breakeven path"
+      ],
+      "yf_price": 616.0,
+      "warren_fv": 722.0,
       "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
     }
   },
@@ -291,9 +302,12 @@
     "charlie": {
       "verdict": "AGREE",
       "summary": "Cleanest BUY — MoS 24.1% PASSES even old 20% gate. Charlie May 19 verified $425.24 vs Warren $418.05 (~$7 spread, within noise). Wedbush PT $575. Verdict AGREE.",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": null,
+      "risks": [
+        "OpenAI dependency — strategic but concentrated",
+        "DOJ antitrust scrutiny continuing"
+      ],
+      "yf_price": 418.05,
+      "warren_fv": 519.0,
       "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
     }
   },
@@ -437,9 +451,13 @@
     "charlie": {
       "verdict": "CAUTION",
       "summary": "Peak cycle methodology highest MoS = highest upside but also cyclicality risk. Warren's $1393 base FV uses peak EPS $92.85 (SK Hynix 72% OM precedent) — aggressive assumption. Verdict CAUTION — BUY OK but with smaller position than WAF suggests.",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": null,
+      "risks": [
+        "Peak EPS $92.85 assumption requires SK Hynix 72% OM repeat — may not materialize at this timeline",
+        "Bear case $120 = DRAM crash → 82% downside if cycle inverts",
+        "China memory (SK Hynix/Samsung) aggression on HBM capacity"
+      ],
+      "yf_price": 681.54,
+      "warren_fv": 1393.0,
       "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
     }
   },
@@ -1034,9 +1052,12 @@
     "charlie": {
       "verdict": "AGREE",
       "summary": "Post 10:1 split deep value at $89.65. Charlie verified $89.30 May 18. WAF 6.80 = Medium conviction → small position only. Verdict AGREE.",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": null,
+      "risks": [
+        "Content cost escalation",
+        "Live sports rights expensive + ROI uncertain"
+      ],
+      "yf_price": 89.65,
+      "warren_fv": 121.9,
       "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
     }
   },

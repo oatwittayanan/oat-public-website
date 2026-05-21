@@ -6188,7 +6188,7 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 
 **WHAT:** NVIDIA sells full-stack AI factory platforms (Grace Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) — และเพิ่ม Vera CPU $200B TAM ใหม่ที่ purpose-built for agentic AI ($20B visibility ปีนี้)
 
-**WHY NOW (Second-Level):** Consensus เห็น Q2 FY27 guide $91B = continued AI ramp; Warren เห็นต่างว่า **Vera CPU TAM disclosure ($200B) + dividend +25x + new $80B buyback** signals confidence ใน $1T Blackwell+Rubin envelope CY2025-2027 ที่ยังไม่ priced-in — market reaction +1.93% only suggests Vera optionality ยังไม่ digested
+**WHY NOW:** Consensus เห็น Q2 FY27 guide $91B = continued AI ramp; Warren เห็นต่างว่า **Vera CPU TAM disclosure ($200B) + dividend +25x + new $80B buyback** signals confidence ใน $1T Blackwell+Rubin envelope CY2025-2027 ที่ยังไม่ priced-in — market reaction +1.93% only suggests Vera optionality ยังไม่ digested
 
 **IF WRONG:** Vera Rubin Q3 FY27 production ramp slips >1 quarter, OR hyperscaler CapEx cuts >30% on AI ROI disappointment causing $119B supply commitment write-off, OR China antitrust escalates to NVDA networking products ban
 
