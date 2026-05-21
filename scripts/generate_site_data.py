@@ -122,7 +122,12 @@ def parse_wiki_valuation(content):
     return out
 
 def parse_wiki_story_gate(content):
-    """Extract Story Gate (WHAT/WHY NOW/IF WRONG/Status) from ## Story Gate section."""
+    """Extract Story Gate (WHAT/WHY NOW/IF WRONG/Status) from ## Story Gate section.
+    Handles two formats:
+      New: **WHAT:** content  /  **WHY NOW:** content  /  **Status:** PASS
+      Old: **WHAT — Thai label?**\n content  /  **ผลการพิจารณา: PASS**
+    Also handles WHY NOW variants: **WHY NOW (Second-Level):** etc.
+    """
     m = re.search(r'## Story Gate\n(.*?)(?=\n## |\Z)', content, re.DOTALL)
     if not m:
         return None
@@ -132,24 +137,37 @@ def parse_wiki_story_gate(content):
 
     out = {}
 
+    # Status — new: **Status:** PASS/FAIL  |  old: **ผลการพิจารณา: PASS**
     mm = re.search(r'\*\*Status:\*\*\s*(PASS|FAIL)', section)
+    if not mm:
+        mm = re.search(r'\*\*ผลการพิจารณา:\s*(PASS|FAIL)', section)
     if mm:
         out['passed'] = mm.group(1) == 'PASS'
         out['status'] = mm.group(1)
 
-    mm = re.search(r'\*\*Last Updated:\*\*\s*([\d-]+)', section)
+    # Last Updated — new: **Last Updated:** DATE  |  old: **ประเมิน:** DATE
+    mm = re.search(r'\*\*(?:Last Updated|ประเมิน):\*\*\s*([\d-]+)', section)
     if mm:
         out['updated'] = mm.group(1)
 
+    # WHAT — new: **WHAT:** inline  |  old: **WHAT — label?**\n content
     mm = re.search(r'\*\*WHAT:\*\*\s*(.+?)(?=\n\n|\*\*WHY|\Z)', section, re.DOTALL)
+    if not mm:
+        mm = re.search(r'\*\*WHAT[^*]+\*\*\s*\n+(.+?)(?=\n\n|\*\*WHY|\Z)', section, re.DOTALL)
     if mm:
         out['what'] = mm.group(1).strip()
 
-    mm = re.search(r'\*\*WHY NOW:\*\*\s*(.+?)(?=\n\n|\*\*IF|\Z)', section, re.DOTALL)
+    # WHY NOW — variants: **WHY NOW:** / **WHY NOW (...):** / **WHY NOW — label?**\n content
+    mm = re.search(r'\*\*WHY NOW[^*]*:\*\*\s*(.+?)(?=\n\n|\*\*IF|\Z)', section, re.DOTALL)
+    if not mm:
+        mm = re.search(r'\*\*WHY NOW[^*]+\*\*\s*\n+(.+?)(?=\n\n|\*\*IF|\Z)', section, re.DOTALL)
     if mm:
         out['why'] = mm.group(1).strip()
 
+    # IF WRONG — new: **IF WRONG:** inline  |  old: **IF WRONG — label?**\n content
     mm = re.search(r'\*\*IF WRONG:\*\*\s*(.+?)(?=\n\n|\Z)', section, re.DOTALL)
+    if not mm:
+        mm = re.search(r'\*\*IF WRONG[^*]+\*\*\s*\n+(.+?)(?=\n\n|\Z)', section, re.DOTALL)
     if mm:
         out['risk'] = mm.group(1).strip()
 

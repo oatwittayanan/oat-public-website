@@ -147,6 +147,7 @@
       "status": "PASS",
       "updated": "2026-05-21",
       "what": "Meta monetizes 3.56B daily active people through AI-enhanced advertising (impressions +19% + price +12% simultaneously), creating an irreplaceable network effect flywheel no competitor can replicate at scale.",
+      "why": "Consensus เห็น META expensive จาก legal overhang (FTC + IRS + DSA); Warren เห็นต่างว่า Fwd PE 18.62 = cheapest Big Tech ขณะที่ Q1 2026 OM 41% record + Revenue +33% YoY = AI flywheel ที่ measurable compounding — gate relaxation (15% MoS) ทำให้ MoS 17.2% ตอนนี้ผ่าน BUY threshold",
       "risk": "FTC appeals court forces Instagram/WhatsApp divestiture (thesis collapse), or IRS $15.89B + EU DSA $12B simultaneously drain FCF and force CapEx cuts."
     },
     "charlie": {
@@ -865,7 +866,15 @@
       ]
     },
     "idea": "CPU ISA moat; CSS complete blueprints cut time-to-market; royalty rate upgrade per v9 adoption",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "ARM เป็นเจ้าของ ISA (Instruction Set Architecture) ที่ครองตลาด mobile processor >95% และขยายเข้า datacenter, automotive, IoT ผ่านรูปแบบ IP licensing + royalties ทำให้มี near-zero marginal cost ต่อ chip ที่ผลิตเพิ่ม Cortex-X, Neoverse, Ethos series คือ blueprints ที่ hyperscalers (Amazon Graviton, Google Axion, Apple M-series) ใช้โดยตรง — switching cost สูงมากเพราะต้องเขียน software stack ใหม่ทั้งหมด",
+      "why": "Compute Subsystems (CSS) คือ complete chip blueprints ที่ช่วยลด time-to-market จาก 5 ปีเหลือ 2-3 ปี — hyperscalers และ fabless ต้องการมากขึ้นเพราะ custom silicon boom; Royalty rate per chip เพิ่มขึ้น 2-3× จาก v8 → v9 architecture (AI-enhanced); Q3 FY2026 revenue +34% YoY",
+      "risk": "RISC-V open-source เป็น existential threat ระยะยาว — ถ้า hyperscalers migrate หรือ China (25% revenue) cutoff เกิดขึ้น valuation จะ re-rate ลงรุนแรง; SoftBank ถือ ~90% ของ ARM = governance risk และ potential secondary offering pressure"
+    }
   },
   "QCOM": {
     "symbol": "QCOM",
@@ -926,7 +935,15 @@
       ]
     },
     "idea": "Snapdragon X Elite gaining PC market share from Intel; Automotive $959M +59%",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Qualcomm เป็นเจ้าของ Patent Portfolio ที่แข็งแกร่งที่สุดใน mobile wireless (CDMA/5G) — ทำให้ทุก handset manufacturer ต้องจ่าย royalty; Snapdragon ครอง >50% premium Android market; กำลัง diversify ไป Automotive (Snapdragon Digital Chassis), PC (Snapdragon X Elite ท้าชน Intel/AMD), IoT",
+      "why": "On-device AI (NPU ใน Snapdragon 8 Elite) คือ differentiator ใหม่สำหรับ premium Android; Q2 FY2026 revenue $11.0B +17% YoY; Automotive $959M +59% YoY — fast-growing segment; Snapdragon X Elite adoption ใน Copilot+ PCs กำลัง take share จาก Intel",
+      "risk": "Apple ออก ARM ISA license เองหมด = ไม่ต้องพึ่ง QCOM royalty; Samsung/MediaTek พัฒนา in-house SoC ดีขึ้น; ARM license dispute ยืดเยื้อ; China handset market ฟื้นไม่ได้"
+    }
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -987,7 +1004,15 @@
       ]
     },
     "idea": "Apple Intelligence iOS 18 upgrade cycle; Services revenue $26.7B +14% Q2 FY2026",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Apple Ecosystem Lock-in คือ Competitive Advantage ที่แข็งแกร่งที่สุดใน Consumer Tech — iPhone/Mac/iPad/Watch/AirPods ทำงานร่วมกันเป็น seamless ทำให้ switching cost สูง; Services (App Store, iCloud, Apple TV+, Apple Pay) margin 73%+ และ recurring revenue $100B+/ปี; Apple Silicon (M-series) ทำให้ Mac มี performance/watt นำหน้า x86",
+      "why": "Apple Intelligence (iOS 18) เป็น catalyst ใหม่สำหรับ upgrade cycle — on-device AI ที่ไม่ส่งข้อมูลออก cloud เป็น USP ที่แตกต่าง; Q2 FY2026 Services revenue $26.7B +14% YoY; หาก iPhone 17 + Apple Intelligence ดึง upgrade wave ได้ จะ re-accelerate growth",
+      "risk": "DOJ/EU regulatory action ต่อ App Store (30% take rate); Tariff impact on iPhone manufacturing (>90% made in China/India); Apple Intelligence underwhelm → ไม่เกิด upgrade cycle; China market share loss ต่อ Huawei ต่อเนื่อง (China revenue -14% Q2 FY2026)"
+    }
   },
   "NFLX": {
     "symbol": "NFLX",
@@ -1049,6 +1074,14 @@
     },
     "idea": "Live events (NFL, WWE, Boxing) catalyst adds engagement; Ad revenue scaling; Q1 2026 revenue $10.54B +13% YoY, OM 31.7%",
     "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Netflix มี Content Library + Algorithm Moat — ทุ่มลงทุน $17-18B/ปีสร้าง Original Content ที่ competitors ไม่สามารถ replicate ได้ทันที; 302M+ paid subscribers ทั่วโลก = data flywheel ที่ทำให้ recommendation algorithm แม่นขึ้นเรื่อยๆ; Password sharing crackdown ที่เสร็จแล้วปลดล็อก growth ในตลาดที่ penetration ต่ำ; Ad-supported tier ($7.99) ขยาย TAM",
+      "why": "Live events (NFL, WWE, Boxing) คือ catalyst ใหม่ที่เพิ่ม engagement + ดึงผู้ชม sports; Ad revenue กำลัง scale — เป้า $9B+ ad revenue ในอนาคต; Q1 2026 revenue $10.54B +13% YoY, OM 31.7%; 2026 guide revenue $43-44B, OM 29%",
+      "risk": "Content cost escalation ทำ margin compress; Disney+/Max bundling กัดส่วนแบ่ง; Live sports rights expensive ไม่คุ้ม; แข่ง Ads กับ YouTube/Meta ได้ลำบาก; subscriber growth ceiling ในตลาด developed"
+    },
     "charlie": {
       "verdict": "AGREE",
       "summary": "Post 10:1 split deep value at $89.65. Charlie verified $89.30 May 18. WAF 6.80 = Medium conviction → small position only. Verdict AGREE.",
@@ -1120,7 +1153,15 @@
       ]
     },
     "idea": "800G/1.6T optical transceiver for AI datacenter; Datacom +83% YoY; NVIDIA $2B equity investment lock-in",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Coherent เป็นผู้ผลิต 800G/1.6T transceiver และ EML/VCSEL laser ชั้นนำที่ใช้ใน AI datacenter interconnect — ลูกค้าหลักคือ hyperscalers ที่ต้องการ bandwidth สูงระหว่าง GPU clusters; Vertical integration (ผลิต laser chip เอง) ทำให้ต้นทุนต่ำและ margin สูงกว่า competitors; Silicon Carbide (SiC) สำหรับ EV เป็น diversification ที่ลด cyclicality",
+      "why": "AI datacenter buildout กำลัง drive demand สำหรับ 800G → 1.6T optics; COHR Q3 FY2026 Datacom revenue +83% YoY; Long-haul และ Metro optics ฟื้นตัว; 5G buildout ในตลาด emerging เพิ่ม Telecom demand",
+      "risk": "Co-packaged optics (CPO) adoption เร็วกว่าคาด → ทำให้ pluggable transceiver obsolete; II-VI legacy debt หนัก $4.5B+; Lumentum/Fabrinet แข่ง fierce; SiC market softer from EV slowdown"
+    }
   },
   "MRVL": {
     "symbol": "MRVL",
@@ -1250,7 +1291,15 @@
       ]
     },
     "idea": "MI350 H2 2026 competitive roadmap vs NVIDIA Blackwell; EPYC Turin server share gain; Data Center +57% Q1 2026",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "AMD เป็น sole credible competitor ต่อ NVIDIA ใน GPU/AI Accelerator — Instinct MI300X เป็นทางเลือกสำหรับ hyperscalers ที่ต้องการ diversify away from NVIDIA; EPYC CPU ครอง >35% server CPU market share แซง Intel Xeon; ROCm software ecosystem กำลัง improve แต่ยังห่างจาก CUDA",
+      "why": "MI350 (H2 2026) และ MI400 (2027) คือ roadmap ที่ competitive กับ NVIDIA Blackwell; Q1 2026 Data Center revenue $3.7B +57% YoY; EPYC Turin (Gen 5) กำลัง capture enterprise server refresh; hyperscalers ต้องการ 2nd source GPU supplier",
+      "risk": "ROCm software ecosystem ยังไม่ catch up CUDA → hyperscalers ไม่ adopt MI-series จริงจัง; NVIDIA Vera Rubin H200 ยิ่งห่างขึ้น; China export ban กระทบ MI300X sales; AI capex slowdown ทั่วไป"
+    }
   },
   "VRT": {
     "symbol": "VRT",
@@ -1311,7 +1360,15 @@
       ]
     },
     "idea": "AI datacenter power/cooling infrastructure; Q1 2026 EPS +83% YoY; backlog $15B (12-18mo visibility)",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Vertiv เป็นผู้นำด้าน Critical Digital Infrastructure — UPS, cooling systems, power distribution สำหรับ datacenter; ลูกค้าหลักคือ hyperscalers (AWS, Google, Microsoft, Meta) ที่ไม่สามารถหยุด operation ได้; Liquid cooling (direct-to-chip) สำหรับ AI GPU cluster เป็น fast-growing segment; Backlog $7.5B (Q1 2026) = visibility สูง",
+      "why": "AI GPU cluster ใช้ไฟฟ้า 10-20× มากกว่า traditional server → Vertiv cooling และ power solutions demand surging; Q1 2026 organic growth +17% YoY; orders +26% YoY; 2026 guidance revenue $9.1-9.3B, OM ~21%",
+      "risk": "Datacenter capex slowdown ถ้า AI ROI ไม่ชัดเจน → order book drops; Eaton/Schneider Electric แข่งในตลาด; ราคาแพงมาก (Fwd PE 49×+) ทำให้ downside ใหญ่ถ้า growth miss; Tariff impact ต่อ supply chain"
+    }
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -1372,7 +1429,15 @@
       ]
     },
     "idea": "Robotaxi Austin launch Q2 2026; Optimus humanoid robot scaling; real-world AI training data moat",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Tesla มี Real-World AI Training Data moat — ขับรถ >2 ทริลเลี่ยน ไมล์ สร้าง proprietary dataset ที่ competitors ไม่สามารถ replicate ได้ใน short term; Supercharger network เป็น network effect moat; Optimus humanoid robot + FSD (Full Self-Driving) คือ option ที่ตลาดให้ราคาสูง",
+      "why": "Robotaxi launch (Austin, Q2 2026) คือ catalyst สำคัญ; Optimus production scaling (1,000 units/สัปดาห์ เป้าปลายปี 2026); Energy storage ฟื้น Q1 2026; Cybercab reveal H2 2026",
+      "risk": "Robotaxi regulatory rejection หรือ accident → thesis collapse; Elon Musk brand damage (DOGE/political controversy) ทำ boycott ต่อเนื่อง — Q1 2026 deliveries -13% YoY; BYD/Chinese EV ยึดส่วนแบ่งตลาดทั่วโลก; Optimus timeline slip ซ้ำๆ; Fwd PE 190× ทำ downside ใหญ่มากถ้า option value ไม่ materialize"
+    }
   },
   "INTC": {
     "symbol": "INTC",
@@ -1433,6 +1498,14 @@
       ]
     },
     "idea": "Foundry turnaround under CEO Lip-Bu Tan; 18A node first customer win would validate thesis",
-    "updated": "2026-05-21"
+    "updated": "2026-05-21",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "what": "Intel มี x86 ISA ecosystem lock-in ที่ยังคงอยู่ใน enterprise legacy — แต่ competitive moat กำลังถูก erode; Intel Foundry Services (IFS) คือ attempt ใหม่ที่จะแข่ง TSMC แต่ยัง loss-making; Gaudi AI accelerator เป็นทางเลือก budget ต่อ NVIDIA แต่ยังไม่ได้รับการยืนยันจากตลาด",
+      "why": "Intel อยู่ใน turnaround phase — CEO Lip-Bu Tan ใหม่ (2025) วางแผนปรับโครงสร้าง; 18A process node เป็น key catalyst ถ้า yield ดีพอ; ถ้า foundry ประสบความสำเร็จ = massive upside; แต่นี่เป็น speculation ไม่ใช่ investment",
+      "risk": "18A node ล้มเหลว → foundry strategy abandon; AMD เพิ่ม server CPU share → x86 moat แตก; การเลิกจ้าง 15,000+ คน ทำ R&D capability ลดลง; Intel อาจ break up หรือ forced divestiture; Q1 2026 Net Loss ต่อเนื่อง"
+    }
   }
 }
