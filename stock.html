@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260525114531"></script>
+  <script src="knowledge.js?v=20260525120205"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -416,6 +416,19 @@ const STOCKS_INLINE = {
     bull: ['18A RibbonFET + PowerVia backside power delivery = technical innovation จริง', 'CHIPS Act $8.5B grant + DOE $11B loan = government backstop', 'Intel Foundry Services ลูกค้าใหม่ (Microsoft, Amazon rumored)', 'x86 server market share ยังสูง แม้ AMD กำลัง gain share', 'ราคาหุ้น beaten down = upside ถ้า turnaround สำเร็จ'],
     risk: ['GAAP loss ยาว — turnaround multi-year ไม่รู้ว่าจะสำเร็จไหม', '18A execution risk สูงมาก — ประวัติ miss yield target ก่อนหน้านี้', 'AMD EPYC กำลัง erode x86 server market share ต่อเนื่อง', 'TSMC, Samsung เป็น alternative foundry ที่ดีกว่าสำหรับบางกลุ่ม', 'Conviction 2/5 สะท้อนว่า upside thesis ยังไม่ proven — high risk'],
     updated: '2026-05-21'
+  },
+  SPCX: {
+    name: 'Space Exploration Technologies Corp.', sector: 'Space & AI', sectorSlug: 'space',
+    chips: ['Space & AI', 'Pre-IPO'],
+    action: null, actionLabel: null, conviction: 3,
+    waf: null, wafBadge: null, wafComposite: null,
+    price: null, fv: null, mos: null, fpe: null, peg: null,
+    scores: { bq: [null,'amber',50], gp: [null,'amber',50], va: [null,'amber',50], ra: [null,'amber',50] },
+    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'SpaceX เป็น vertically integrated space company ที่ควบคุม 3 business ในตัวเดียว: (1) Space — Falcon 9 ครอง majority ของ global commercial launches, (2) Connectivity — Starlink global broadband ที่มี 10.3M subscribers, Adj EBITDA Margin 63% = cash machine ที่ทรงพลัง, (3) AI — xAI (Grok) + X (social media + advertising) ที่รวม asset เข้ามาใน Feb 2026; Falcon 9 reusability สร้าง cost moat ที่คู่แข่งแทบ replicate ไม่ได้', why: 'S-1 filed SEC May 20, 2026 = IPO กำลังจะเกิดภายใต้ ticker SPCX บน Nasdaq; Connectivity 2025 Revenue $11.4B (+50% YoY), Op Income $4.4B, Adj EBITDA $7.2B; Starlink subscribers 10.3M (Mar 2026, +105% YoY จาก 5.0M); Starship full reusability จะ unlock ต้นทุน launch ที่ต่ำลงอย่างมีนัยสำคัญ', risk: 'AI segment เผาเงิน $(6.4B) operating loss ใน 2025 + $12.7B CapEx = drag ต่อ consolidated P&L; Starlink ARPU กำลัง decline structurally ($99→$91→$81→$66); Elon Musk overextended ทำให้ execution risk สูง; Starship commercialization ยังไม่เกิด', updated: '2026-05-25' },
+    idea: null,
+    bull: ['Starlink 10.3M subscribers (Q1 2026, +105% YoY) + Connectivity Adj EBITDA $7.2B (63% margin) = cash machine', 'Falcon 9 ครอง global commercial launches — 170 missions ใน 2025, launch cost moat แทบ replicate ไม่ได้', 'Revenue $18.7B (+33% YoY 2025); Connectivity Op Income $4.4B พิสูจน์ว่าธุรกิจกำไรได้จริง', 'Starship reusability ถ้าสำเร็จ = launch cost revolution + unlock Lunar/Mars/mega-constellation TAM', 'IPO S-1 filed May 20, 2026 — SPCX บน Nasdaq; xAI (Grok) + X รวมใน entity เดียวกัน'],
+    risk: ['AI segment (xAI/X) เผาเงิน $(6.4B) op loss + $12.7B CapEx ใน 2025 = drag ต่อ consolidated P&L', 'Starlink ARPU declining structurally: $99→$91→$81→$66 — pricing pressure รุนแรง', 'Elon Musk key person risk: CEO Tesla + SpaceX + xAI + DOGE พร้อมกัน', 'Dual-class voting (Class B = 10 votes) = Elon ควบคุม 100% — Class A IPO investors มี governance น้อยมาก', 'Starship commercialization ยังไม่เกิด — $3B R&D burn ต่อปี; FAA approvals และ timeline ไม่แน่นอน'],
+    updated: null
   },
 };
 
