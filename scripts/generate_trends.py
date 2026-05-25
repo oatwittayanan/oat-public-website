@@ -8,8 +8,14 @@ import re
 import os
 from datetime import date
 
-TRENDS_DIR = "/Users/wittayanan/Desktop/OAT OS/oat-investment-knowledge/knowledge/trends"
-OUTPUT_FILE = "/Users/wittayanan/Desktop/OAT OS/oat-public-website/trends.js"
+TRENDS_DIR = os.environ.get(
+    "TRENDS_DIR",
+    "/Users/wittayanan/Desktop/OAT OS/oat-investment-knowledge/knowledge/trends",
+)
+OUTPUT_FILE = os.environ.get(
+    "OUTPUT_FILE",
+    "/Users/wittayanan/Desktop/OAT OS/oat-public-website/trends.js",
+)
 
 # Display order as specified
 DISPLAY_ORDER = [
@@ -87,9 +93,10 @@ def parse_trend_file(filepath):
     )
     if benefiting_match:
         benefiting_body = benefiting_match.group(1)
-        # Match **TICKER** or **TICKER (...)** at start of bold patterns
-        # Ticker = 1-6 uppercase letters/digits, optionally followed by space and company name in parens
-        ticker_matches = re.findall(r"\*\*([A-Z]{1,6}(?:\.[A-Z])?)\b", benefiting_body)
+        # Match **[[TICKER]]** (wikilink) or **TICKER** (direct) in bold patterns
+        ticker_matches = re.findall(r"\*\*\[\[([A-Z]{1,6}(?:\.[A-Z])?)\]\]", benefiting_body)
+        if not ticker_matches:
+            ticker_matches = re.findall(r"\*\*([A-Z]{1,6}(?:\.[A-Z])?)\b", benefiting_body)
         seen = set()
         for t in ticker_matches:
             if t not in seen:
