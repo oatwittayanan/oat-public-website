@@ -7213,6 +7213,109 @@ Space Exploration Technologies Corp. (SpaceX) founded 2002 by Elon Musk, incorpo
 
 ---
 
+## Analyst Research Notes
+
+> **Source:** FundaAI Deep Dive Series (Parts 1–3, Jan–Apr 2026) + Damnang Semiconductor Insight (May 2026) + FundaAI Global Space Launch Report (2026) + FundaAI Space Breakout (Jan 2026)
+> ทุก insight ในส่วนนี้มาจาก Secondary Research (Analyst Reports) — ไม่ใช่ Primary S-1
+
+### SOTP Valuation Framework (FundaAI Part 2 — Apr 2026)
+
+Bottom-up SOTP โดย FundaAI แบ่งตาม 3 segment:
+- **Starlink (Connectivity):** 10–15x P/S
+- **Launch Services (Space):** 10–20x P/S
+- **Starshield (Gov/Defense):** 3–8x EV/Rev
+- **→ SOTP Base: $992B | Bull: $1.49T**
+- **→ $2T target = SOTP $992B + Option Premium ~$1,008B**
+
+Option Premium decomposition (Part 3):
+1. **xAI + Space Data Centers** (ใหญ่สุด) — orbital compute bypass terrestrial power grid/cooling; Starlink as edge network + proprietary AI training data
+2. **Starship Manufacturing & Logistics** — deep-space manufacturing, lunar transport
+3. **SBSP/Orbital Services/Tourism** — speculative; ไกลที่สุด
+
+Key takeaway: "most non-xAI businesses position SpaceX as transporter, not operator" — option value แฝงอยู่ใน infrastructure moat ไม่ใช่ operating premium
+
+### Starship Economic Logic (FundaAI Parts 1 & 3)
+
+Cost trajectory ต่อ kg สู่ LEO:
+- Space Shuttle: $54,500/kg → Falcon 9 (2024): $2,720/kg → **Starship target: <$200/kg** (mature: $25–50/kg)
+- ลดลง **>95%** ใน 20 ปี = Moore's Law ของ Aerospace
+
+**Falcon Flywheel:** Reusability → launch cost ต่ำ → Starlink deployment → subscription revenue → fund Starship R&D → repeat
+
+**Starship V3 catalysts (2026):**
+- "Pez Dispenser" mass deployment mechanism สำหรับ V3 satellites (2-ton/satellite)
+- 14-day turnaround validation = key metric สำหรับ IPO underwriters
+- Commercial operations target Q4 2026
+
+**Manufacturing Paradigm Shift:** เมื่อ <$200/kg — "from watchmaking to heavy industry" — ใช้ heavier/cheaper COTS components แทน custom rad-hard parts; Starlink V3 เปลี่ยน spacecraft manufacturing เป็น mass production ~70 satellites/week
+
+### Semiconductor Supply Chain (Damnang, May 2026)
+
+SpaceX เป็น major semiconductor buyer ที่ตลาดประเมินต่ำ:
+- Terminal production: **20,000 units/day = 7.3M/year**
+- Per-terminal semiconductor BOM: ~**$130–165** (retail $299, sold near cost)
+- Annual semiconductor spend ทั้งหมด: ประมาณ **$1.3–1.8B/year** (terminals + satellites + ground stations)
+
+**Confirmed Suppliers:**
+
+| Company | Role | Evidence | Revenue Sensitivity |
+|---------|------|----------|---------------------|
+| STMicroelectronics (STM) | BiCMOS RF front-end (phased array), STM32 MCU, GNSS | Official (Dec 2025) | HIGH — LEO rev $600M (2025) → $1B (2026); cum. $3B target 2026–28; 7.5B chips shipped |
+| Filtronic (FTC/FLTCF) | E-band (71–86 GHz) GaN SSPAs — ground stations | Official (Apr 2024) | VERY HIGH (concentrated); $62.5M contract; SpaceX holds warrants for 10% equity |
+| AMD | Versal AI Core SoC (V3 satellite processing) | Confirmed (Lisa Su, Q3'24) | LOW (tiny % of AMD total revenue) |
+
+**Insourcing Gradient — SpaceX building in-house:**
+
+| Stage | Status | Impact on Suppliers |
+|-------|--------|---------------------|
+| PCB manufacturing | ✅ Complete (Bastrop, TX — largest in US) | — |
+| Semiconductor packaging (FOPLP) | 🔄 In Progress — $280M expansion; target end-2026 | STM packaging (Malaysia/Malta) at risk medium-term |
+| Chip design (custom ASIC) | 🔄 Hiring — RF engineers, 5G/LTE/Wi-Fi MCM for Starlink Mobile | STM BiCMOS role may shrink long-term |
+| Wafer fab (Terafab) | 📢 Announced — $55B initial; JV Tesla+SpaceX+xAI+Intel 14A; D3 (rad-hard AI) + AI5 (Tesla) | Pilot 2028–2029; far-out risk for all |
+
+Note: Filtronic (E-band GaN SSPA) has **lowest insourcing risk** — no SpaceX signal of internal capability here
+
+### Competitive Landscape — Space Market (Funda AI 2026)
+
+**Global Launch 2025:**
+- Total mass: 3,020 MT launched globally; US 85% volumetric share
+- SpaceX: 161–170 commercial launches, **82% global commercial market, 80% US domestic**
+
+**Challengers:**
+
+| Player | Position | Key Asset | 2026 Catalyst |
+|--------|----------|-----------|---------------|
+| Blue Origin New Glenn | Heavy-lift challenger | 45T LEO, 7m fairing, maritime booster recovery (Nov 2025) | Amazon Kuiper FCC deadline forces cadence ramp |
+| Rocket Lab Neutron | Only public vertically integrated alternative | $816M SDA Tranche 3; 13T LEO | Maiden flight mid-2026; path to FCF positive late-2026 |
+| China (LandSpace, SpaceSail) | Parallel ecosystem | CTC ITU filing: 193,428 sats; VTVL tests | LandSpace $1.1B IPO at $2.7B valuation |
+
+**D2D Competitive Dynamics (Apr 2026):**
+- Amazon acquires Globalstar (GSAT) **$11.6B** (Apr 13, 2026): MSS spectrum in 120+ countries, Apple anchor customer (iPhone Emergency SOS), D2D rollout 2028
+- Amazon: 400+ satellites vs SpaceX: 10,000+ — significant gap to close
+- D2D = **3-way race: SpaceX, ASTS, Amazon** — ASTS BlueBird-7 lost in Blue Origin launch failure (Apr 2026), timeline set back
+- GSAT deal reprices satellite spectrum assets: IRDM, VSAT potential beneficiaries
+
+**Endgame structure:** SpaceX as "orbital utility" (railroad baron analogy); Blue Origin + Rocket Lab as government-backed alternatives; China builds independent closed-loop ecosystem; legacy ULA/Arianespace structurally declining
+
+### Hard Anchors — 2026 Forced Demand (Funda AI Space Breakout)
+
+- **Amazon Kuiper FCC deadline Jul 30, 2026**: must deploy 50% of 3,236-satellite constellation or risk spectrum revocation; forces non-SpaceX heavy-lift demand (ULA, Blue Origin, Arianespace)
+- **SDA Tranche 3**: $3.5B fixed-price contracts (Lockheed $1.1B, L3Harris $843M, Rocket Lab $805M, Northrop $764M) — shifts defense from cost-plus to production discipline
+- **ITU "use it or lose it"**: China's 193,428-satellite filing forces all competitors to accelerate deployment to protect spectrum priority
+
+### Risk Matrix Summary (FundaAI Part 2 Risk Framework)
+
+| Risk | Severity | Nature |
+|------|----------|--------|
+| 1. Starship delays | **Systemic** — cascades to entire $2T thesis | Only risk that can break the core model |
+| 2. Musk key person | HIGH | Tesla/SpaceX/xAI/X/DOGE simultaneously |
+| 3. Starlink ARPU decline | HIGH | $99→$66 structural; offset by volume |
+| 4. AI segment profitability | HIGH | xAI/X burning $6-7B/yr; no clear timeline |
+| 5. Regulatory (FAA/spectrum) | MEDIUM | FAA approval backlogs; ITAR export controls |
+| 6. Governance | MEDIUM | Dual-class; IPO investors = no meaningful control |
+
+---
+
 ## Financial Log
 
 | Period | Revenue | Op Income/Loss | Net I/L | Adj EBITDA | Starlink Subs | Launches |
@@ -7233,6 +7336,14 @@ Space Exploration Technologies Corp. (SpaceX) founded 2002 by Elon Musk, incorpo
 | ไฟล์ | ประเภท | อ่านเมื่อ |
 |------|--------|----------|
 | Space Exploration Technologies - S-1.html | S-1 Registration Statement (Primary) | 2026-05-25 |
+| SpaceX Deep Dive Part 1 — Falcon to Starship.pdf | Analyst Report — FundaAI (Secondary) | 2026-05-25 |
+| SpaceX Deep Dive Part 2 — Fundamentals & $2T Risk Matrix.pdf | Analyst Report — FundaAI (Secondary) | 2026-05-25 |
+| SpaceX Deep Dive Part 3 — When Launch Costs Approach Zero.pdf | Analyst Report — FundaAI (Secondary) | 2026-05-25 |
+| Global Space Launch Market In-Depth Research Report 2026.pdf | Industry Report — FundaAI (Secondary) | 2026-05-25 |
+| 2026 The Space Breakout.pdf | Industry Report — FundaAI (Secondary) | 2026-05-25 |
+| The Real SpaceX IPO Beneficiaries Are in Semiconductors.pdf | Analyst Report — Damnang Substack (Secondary) | 2026-05-25 |
+| Weekly Apr 19 2026 — SpaceX Part 2, ASML, TSMC.pdf | Weekly Newsletter — FundaAI (Secondary) | 2026-05-25 |
+| Weekly Apr 26 2026 — NVDA Moat, SpaceX Part 3.pdf | Weekly Newsletter — FundaAI (Secondary) | 2026-05-25 |
 `,
 
 "TSLA": `# Tesla (TSLA) · Consumer / EV + Energy + AI + Robotics
