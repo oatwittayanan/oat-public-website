@@ -83,7 +83,11 @@ def load_json(path, label):
         return None
 
 def parse_wiki_valuation(content):
-    """Extract FV/MoS/Price/PEG/FwdPE from ## Valuation Range section of a Wiki Card."""
+    """Extract FV/MoS/Price/PEG/FwdPE/WAF/scores/action/conviction from ## Valuation Range section.
+    Handles two formats:
+      Old (paragraph): **ราคาปัจจุบัน:** $XXX, **Weighted Fair Value:** $XXX, **WAF Score:** X.XX | **Conviction:** HIGH
+      New (table):     **Price:** $XXX, | Fair Value (Weighted) | $XXX |, | **WAF Total** | **X.XX** | | **HIGH** |
+    """
     m = re.search(r'## Valuation Range\n(.*?)(?=\n## |\Z)', content, re.DOTALL)
     if not m:
         return {}
@@ -93,33 +97,105 @@ def parse_wiki_valuation(content):
 
     out = {}
 
+    # Last Updated
     mm = re.search(r'\*\*Last Updated:\*\*\s*([\d-]+)', section)
+    if not mm:
+        mm = re.search(r'\*\*ประเมิน:\*\*\s*([\d-]+)', section)
     if mm:
         out['updated'] = mm.group(1)
 
-    for pat in [r'\*\*ราคาปัจจุบัน:\*\*\s*\$?([\d,]+\.?\d*)',
-                r'\*\*Price ณ วันนั้น:\*\*\s*\$?([\d,]+\.?\d*)']:
+    # Price — old: **ราคาปัจจุบัน:** / **Price ณ วันนั้น:** / new: **Price:** XXX (handles ~ prefix)
+    for pat in [r'\*\*ราคาปัจจุบัน:\*\*\s*~?\$?([\d,]+\.?\d*)',
+                r'\*\*Price ณ วันนั้น:\*\*\s*~?\$?([\d,]+\.?\d*)',
+                r'\*\*Price:\*\*\s*~?\$?([\d,]+\.?\d*)',
+                r'\|\s*Current Price\s*\|\s*\$?([\d,]+\.?\d*)\s*\|']:
         mm = re.search(pat, section)
         if mm:
             out['price'] = float(mm.group(1).replace(',', ''))
             break
 
-    mm = re.search(r'\*\*Weighted Fair Value:\*\*\s*\$?([\d,]+)', section)
-    if mm:
-        out['fv'] = float(mm.group(1).replace(',', ''))
+    # Fair Value Weighted — old: **Weighted Fair Value:** / new: | Fair Value (Weighted) | $XXX |
+    for pat in [r'\*\*Weighted Fair Value:\*\*\s*\$?([\d,]+\.?\d*)',
+                r'\|\s*Fair Value \(Weighted\)\s*\|\s*\$?([\d,]+\.?\d*)\s*\|']:
+        mm = re.search(pat, section)
+        if mm:
+            out['fv'] = float(mm.group(1).replace(',', ''))
+            break
 
-    mm = re.search(r'\*\*Margin of Safety:\*\*\s*([+\-−]?[\d.]+)%', section)
-    if mm:
-        raw = mm.group(1).replace('−', '-')
-        out['mos_pct'] = float(raw)
+    # Margin of Safety — old: **Margin of Safety:** / **MoS vs XXX:** / new: | **Margin of Safety** | **XX.X%** |
+    for pat in [r'\*\*Margin of Safety:\*\*\s*([+\-−]?[\d.]+)%',
+                r'\*\*MoS vs [^:]*:\*\*\s*([+\-−]?[\d.]+)%',
+                r'\|\s*\*\*Margin of Safety\*\*\s*\|\s*\*\*([+\-−]?[\d.]+)%\*\*']:
+        mm = re.search(pat, section)
+        if mm:
+            raw = mm.group(1).replace('−', '-')
+            out['mos_pct'] = float(raw)
+            break
 
-    mm = re.search(r'\*\*PEG:\*\*\s*([\d.]+)', section)
-    if mm:
-        out['peg'] = float(mm.group(1))
+    # PEG — old: **PEG:** / **PEG Ratio:** / new: | **PEG** | **X.XX** |
+    for pat in [r'\*\*PEG:\*\*\s*([\d.]+)',
+                r'\*\*PEG Ratio:\*\*\s*([\d.]+)',
+                r'\|\s*\*\*PEG\*\*\s*\|\s*\*\*([\d.]+)\*\*']:
+        mm = re.search(pat, section)
+        if mm:
+            out['peg'] = float(mm.group(1))
+            break
 
-    mm = re.search(r'Fwd P/E\s+([\d.]+)', section)
+    # Forward P/E — old: Fwd P/E XX.X / new: | Forward P/E | XX.X× |
+    for pat in [r'Fwd P/E\s+([\d.]+)',
+                r'Forward PE[^\d]*([\d.]+)',
+                r'\|\s*Forward P/E\s*\|\s*([\d.]+)×?']:
+        mm = re.search(pat, section)
+        if mm:
+            out['forward_pe'] = float(mm.group(1))
+            break
+
+    # WAF Score — old: **WAF Score:** X.XX / new: | **WAF Total** | **X.XX** |
+    for pat in [r'\*\*WAF Score:\*\*\s*([\d.]+)',
+                r'\|\s*\*\*WAF Total\*\*\s*\|\s*\*\*([\d.]+)\*\*']:
+        mm = re.search(pat, section)
+        if mm:
+            out['waf'] = float(mm.group(1))
+            break
+
+    # Conviction — old: **Conviction:** HIGH / new: | **WAF Total** | **X.XX** | | **HIGH** |
+    for pat in [r'\*\*Conviction:\*\*\s*([A-Z\s]+?)(?:\s*\||$|\n)',
+                r'\*\*WAF Total\*\*[^\n]*?\|\s*\|\s*\*\*([A-Z\s]+?)\*\*']:
+        mm = re.search(pat, section)
+        if mm:
+            conv = mm.group(1).strip()
+            if conv:
+                out['conviction'] = conv
+                break
+
+    # Action — old: **Action:** WATCH/BUY/STUDY / new: **Action:** ✅ BUY / ⏸ WATCH / ❌ AVOID
+    mm = re.search(r'\*\*Action:\*\*\s*[✅⏸❌🚫]?\s*(BUY|WATCH\+?|HOLD|SELL|STUDY|AVOID|DO NOT BUY)', section)
     if mm:
-        out['forward_pe'] = float(mm.group(1))
+        act = mm.group(1).strip()
+        # Normalize: WATCH+ → WATCH, DO NOT BUY → AVOID
+        if act == 'WATCH+':
+            act = 'WATCH'
+        if act == 'DO NOT BUY':
+            act = 'AVOID'
+        out['action'] = act
+
+    # BQ/GP/VA/RA scores from WAF Score Breakdown table (new format)
+    # | BQ (Business Quality) | 9.5 | 30% | 2.85 |
+    for label, key in [('BQ', 'bq'), ('GP', 'gp'), ('VA', 'va'), ('RA', 'ra')]:
+        mm = re.search(rf'\|\s*{label}\s*\([^)]*\)\s*\|\s*([\d.]+)\s*\|', section)
+        if mm:
+            out[f'score_{key}'] = float(mm.group(1))
+
+    # Investment Idea / Thesis / Thesis Risk (new format)
+    mm = re.search(r'\*\*Investment Idea:\*\*\s*(.+?)(?=\n\n|\*\*Thesis|\Z)', section, re.DOTALL)
+    if mm:
+        out['investment_idea'] = mm.group(1).strip()
+    mm = re.search(r'\*\*Thesis:\*\*\s*(.+?)(?=\n\n|\*\*Thesis Risk|\*\*Action|\Z)', section, re.DOTALL)
+    if mm:
+        out['thesis'] = mm.group(1).strip()
+    mm = re.search(r'\*\*Thesis Risk:\*\*\s*(.+?)(?=\n\n|\*\*Action|\Z)', section, re.DOTALL)
+    if mm:
+        out['thesis_risk'] = mm.group(1).strip()
 
     return out
 
@@ -311,7 +387,7 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
         if thesis_risk and not entry.get("risk"):
             entry["risk"] = [thesis_risk]
 
-    # Wiki Card valuation as fallback — only fills fields missing from watchlist_valuations.json
+    # Wiki Card valuation as fallback — fills fields missing from watchlist_valuations.json
     if wiki_val:
         if 'price'      in wiki_val and entry.get('price') is None:   entry['price']   = wiki_val['price']
         if 'fv'         in wiki_val and entry.get('fv') is None:       entry['fv']       = wiki_val['fv']
@@ -319,6 +395,53 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
         if 'peg'        in wiki_val and entry.get('peg') is None:      entry['peg']      = wiki_val['peg']
         if 'forward_pe' in wiki_val and entry.get('fpe') is None:      entry['fpe']      = wiki_val['forward_pe']
         if 'updated'    in wiki_val and entry.get('updated') is None:  entry['updated']  = wiki_val['updated']
+
+        # WAF + Conviction + Action fallback (for SKIP tickers not in watchlist_valuations)
+        if 'waf' in wiki_val and entry.get('waf') is None:
+            entry['waf'] = wiki_val['waf']
+            badge, comp = waf_badge_composite(wiki_val['waf'])
+            entry['wafBadge'] = badge
+            entry['wafComposite'] = comp
+        if 'conviction' in wiki_val and entry.get('conviction') is None:
+            # Normalize: MED → MEDIUM
+            conv_norm = wiki_val['conviction'].upper().strip()
+            if conv_norm == 'MED':
+                conv_norm = 'MEDIUM'
+            entry['conviction'] = CONVICTION_MAP.get(conv_norm, 3)
+        if 'action' in wiki_val and entry.get('action') is None:
+            act_str = wiki_val['action'].upper()
+            action, albl = ACTION_MAP.get(act_str, ("hold", "Hold"))
+            entry['action'] = action
+            entry['actionLabel'] = albl
+        elif entry.get('action') is None and wiki_val.get('waf') is not None:
+            # Derive action from WAF + MoS if not stated explicitly
+            waf = wiki_val['waf']
+            mos = wiki_val.get('mos_pct', 0)
+            if waf >= 6.5 and mos >= 15:
+                entry['action'], entry['actionLabel'] = 'buy', 'Buy'
+            elif waf >= 6.5:
+                entry['action'], entry['actionLabel'] = 'watch', 'Watch'
+            elif waf >= 5:
+                entry['action'], entry['actionLabel'] = 'hold', 'Hold'
+            else:
+                entry['action'], entry['actionLabel'] = 'study', 'Study'
+
+        # Scores fallback
+        if entry.get('scores') is None and any(f'score_{k}' in wiki_val for k in ['bq','gp','va','ra']):
+            entry['scores'] = make_scores(
+                wiki_val.get('score_bq'),
+                wiki_val.get('score_gp'),
+                wiki_val.get('score_va'),
+                wiki_val.get('score_ra'),
+            )
+
+        # Investment idea fallback
+        if 'investment_idea' in wiki_val and not entry.get('idea'):
+            entry['idea'] = wiki_val['investment_idea']
+        if 'thesis' in wiki_val and not entry.get('bull'):
+            entry['bull'] = [wiki_val['thesis']]
+        if 'thesis_risk' in wiki_val and not entry.get('risk'):
+            entry['risk'] = [wiki_val['thesis_risk']]
 
     # Story Gate (from Wiki Card ## Story Gate section)
     if story_gate:

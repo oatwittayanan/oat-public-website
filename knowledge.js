@@ -2633,6 +2633,155 @@ COHR position: no single competitor replicates full InP stack. OCS (Optical Circ
 | 2026Q1 - COHR - Exhibit-99-1.pdf | Exhibit 99-1 (Q3 FY2026) | 2026-05-18 |
 `,
 
+"CRWD": `# CrowdStrike (CRWD) · Software / Cybersecurity
+
+**Last Updated:** 2026-05-08
+**Source:** NotebookLM — CRWD
+
+
+
+
+## News Update — 2026-05-14
+$CRWD — นักลงทุนรายใหญ่ Chris Rokos เพิ่งเปิดตำแหน่งใหม่ในหุ้น CrowdStrike พร้อมมีความเห็นว่าอาจมีการ Explode หลังจากการประกาศผลประกอบการ
+
+## Business Overview
+CrowdStrike เป็น cloud-native cybersecurity platform บน Falcon platform เก็บข้อมูลทุก endpoint ใน AI threat graph ทำเงินจาก SaaS subscription (ARR-based) โดย Falcon platform มี 33 modules ลูกค้า Enterprise ซื้อ module เพิ่มได้
+
+**Revenue Segments**
+| Segment | FY2026 | YoY% |
+|---------|--------|------|
+| Subscription Revenue | ~$4,600M+ | +23% |
+| Professional Services | ~$200M | — |
+| **รวม** | **$4,812M** | **+22%** |
+
+**ARR Breakdown (Q4 FY2026)**
+- Total ARR: $5,252.8M (+24% YoY)
+- Falcon Flex ARR: ~30% ของ ARR total (+120% YoY)
+- Net Revenue Retention: 115%
+
+## Latest Financials
+**Q4 FY2026 & FY2026** (ล่าสุด)
+- FY2026 Revenue: **$4,812M** (+22% YoY)
+- ARR: **$5,252.8M** (+24% YoY)
+- Net Revenue Retention: **115%**
+- GAAP Net Loss: **-$162.5M** (กำลังดีขึ้น)
+- Cash: $5,230.1M
+
+**Key Metrics:**
+- Falcon Flex (ซื้อ module flexible): 30% ของ ARR, +120% YoY
+- Charlotte AI ARR: tripled YoY
+- 33 modules บน Falcon platform
+
+## Management
+- **CEO:** George Kurtz (Co-Founder)
+- **CFO:** Burt Podbere
+
+**Key Event:** July 19, 2024 — Falcon sensor update ทำให้ Windows hosts ทั่วโลก crash (Blue Screen of Death) กระทบ ~8.5M เครื่อง รวมถึงสายการบิน โรงพยาบาล ธนาคาร — Delta Airlines ฟ้องเรียกค่าเสียหาย $500M+ เป็น biggest reputation risk ของบริษัท
+
+## MOAT & Competitive Advantage
+- **"Power of the Crowd" Network Effect:** ยิ่งมีลูกค้ามาก ยิ่งมี threat intelligence มาก → detect faster, more accurate
+- **AI-native Falcon Platform:** Cloud-native architecture + AI graph = switching cost สูงมาก (ย้ายออกยาก)
+- **Charlotte AI:** Conversational AI security operations = ลด analyst workload
+- **33 modules upsell:** ลูกค้าเริ่มจาก endpoint แล้ว expand → Net Retention 115%
+- **Falcon Flex:** Flexible licensing ทำให้ enterprise ลอง module ใหม่ง่ายขึ้น → accelerate upsell
+
+**ภัยต่อ MOAT:**
+1. July 2024 Outage — ทำลาย trust ระยะยาว โดยเฉพาะกับ Critical Infrastructure
+2. Microsoft Defender (bundle ฟรีกับ Windows) — free competitor สำหรับ SMB
+3. Palo Alto Networks (PANW) aggressive bundling/pricing
+4. SentinelOne ราคาถูกกว่า
+5. GAAP ยังขาดทุน → ถ้าตลาดแย่ premium multiple จะถูก re-rate
+
+## Competitive Landscape
+- **Cybersecurity:** Palo Alto Networks (PANW), SentinelOne (S), Microsoft Defender, Fortinet
+- **AI Security:** PANW Cortex XSIAM, SentinelOne Purple AI
+- **Endpoint Protection:** Traditional AV vendors (Symantec, McAfee)
+
+**ตำแหน่ง:** Leader ใน AI-native endpoint security, กำลัง expand สู่ SIEM + SOC platform
+
+## Growth Catalysts & Future Plans
+- **Falcon Flex expansion:** ARR +120% YoY — Enterprise กำลัง consolidate security vendors → CRWD ได้ประโยชน์
+- **Charlotte AI monetization:** AI SOC assistant → ลด analyst cost → enterprise ROI clear
+- **Government/Federal market:** FedRAMP certified, defense sector expanding
+- **International expansion:** EMEA + APAC market penetration
+- **Path to GAAP profitability:** FCF positive แล้ว, ขาดทุน GAAP ลดลงต่อเนื่อง
+- **AI cyberattack tailwind:** AI ทำให้ cyberattacks ถี่และซับซ้อนขึ้น → ทุกองค์กรต้องซื้อ AI defense
+
+## Risks & Watch List
+**2024 Outage reputation:** Delta lawsuit $500M+, trust damage กับ Critical Infrastructure ยังมีผล
+**GAAP profitability:** ยังขาดทุน GAAP → multiple sensitive ถ้าตลาด risk-off
+**Microsoft competition:** Defender bundle ฟรี + M365 ecosystem = strong incentive ให้ SMB ไม่ซื้อ CRWD
+**PANW aggressive pricing:** Palo Alto ใช้ "platformization" ให้ module ฟรีชั่วคราว → เจาะลูกค้า CRWD
+**Valuation premium:** ราคาสูง หาก ARR growth decelerate → multiple compress
+
+**ติดตาม:**
+1. ARR growth trajectory (sustain +24%? หลัง Outage recovery เต็มที่?)
+2. Delta lawsuit resolution + insurance coverage
+3. Charlotte AI ARR growth (tripled → base สูงขึ้น = harder comp)
+4. GAAP profitability timeline (ขาดทุนลดเหลือ 0 เมื่อไหร่?)
+5. Net Revenue Retention 115% — ดู trend (ขึ้นหรือลง?)
+
+---
+## Quarter Log
+| Quarter | Revenue | ARR | Net Retention | Notes |
+|---------|---------|-----|--------------|-------|
+| FY2026 | $4,812M | $5,252.8M (+24%) | 115% | Falcon Flex +120%, Charlotte AI ARR tripled |
+| Q4 FY2026 | ~$1,300M | $5,252.8M | 115% | GAAP Net Loss -$162.5M total FY |
+
+
+## Story Gate
+**Last Updated:** 2026-05-25  |  **Status:** PASS  |  **Tier:** 🌱 Fast Grower
+
+**WHAT:** CrowdStrike's Falcon platform is AI-native cloud cybersecurity with 33 modules spanning the kill chain (EDR/XDR/Identity/Cloud/SIEM) — once Falcon Flex committed, switching cost is high because customers consolidate across modules, locked-in via threat graph data accumulation.
+
+**WHY NOW:** Consensus เห็น CRWD ว่า "premium price + July 2024 outage stigma"; Warren เห็นต่างว่า Falcon Flex +120% YoY + Charlotte AI ARR tripled + NRR 115% = post-outage consolidation thesis ทำงานจริง — แต่ valuation $663 ที่ Fwd PE 108× ทำให้ Action = AVOID จนกว่าราคา pullback.
+
+**IF WRONG:** Microsoft Defender bundle scale ดึง enterprise customers >20% market share หรือ Falcon Flex churn rate กลับมาเกิน 10% หลัง initial commitment expire.
+
+---
+
+## Valuation Range
+**Last Updated:** 2026-05-25  |  **Price:** $663.46  |  **Tier:** 🌱 Fast Grower  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+
+### Snapshot (Watchlist Refresh)
+
+| Metric | Value | Gate |
+|--------|-------|------|
+| Current Price | $663.46 | — |
+| Fair Value (Weighted) | $495.0 | — |
+| Fair Value Base | $500 | — |
+| **Margin of Safety** | **-32.7%** | ✗ FAIL (gate 15%) |
+| **5-yr Expected Return** | **8.4%/yr** | ✗ FAIL (gate 15%) |
+| Forward P/E | 107.7× | — |
+| **PEG** | **4.49** | ✗ FAIL (cap 1.5) |
+
+### Fair Value Scenarios
+
+| Scenario | Fair Value | vs Price | Basis |
+|----------|-----------|----------|-------|
+| **Bull** | $700 | +5.5% | Premium multiple × growth acceleration |
+| **Base** | $500 | -24.6% | Base multiple × consensus EPS |
+| **Bear** | $280 | -57.8% | Compressed multiple × thesis break |
+
+### WAF Score Breakdown
+
+| Component | Score | Weight | Contribution |
+|-----------|-------|--------|--------------|
+| BQ (Business Quality) | 8.5 | 30% | 2.55 |
+| GP (Growth Potential) | 7.5 | 30% | 2.25 |
+| VA (Valuation) | 2.5 | 25% | 0.62 |
+| RA (Risk Assessment) | 7.0 | 15% | 1.05 |
+| **WAF Total** | **6.47** | | **LOW** |
+
+**Investment Idea:** Falcon Cybersecurity Platform — 33 modules + ARR flywheel
+
+**Thesis:** ARR $5.25B (+24%) + Falcon Flex +120% YoY + NRR 115% — แต่ราคา $663 ที่ FwdPE 108× + PEG 4.49 = extreme premium
+
+**Thesis Risk:** July 2024 outage liability + Microsoft Defender bundle ที่กดดัน pricing + post-outage churn
+
+**Action:** ⏸ WATCH — ราคาเกิน FV; รอ pullback
+`,
+
 "ETN": `# Eaton Corporation plc (ETN) · Infrastructure / Intelligent Power Management
 
 **Last Updated:** 2026-05-18
