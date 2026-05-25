@@ -711,18 +711,41 @@
       "Margin headwind Q1-Q2 2026 from capacity ramp costs; recovery expected Q3-Q4",
       "If AI CapEx cycle slows, orders could reverse quickly given backlog concentration"
     ],
-    "price": 381.87,
-    "fv": 409.0,
-    "mos": 6.6,
-    "peg": 1.09,
-    "fpe": 27.16,
-    "updated": "2026-05-21",
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 4,
     "waf": 7.5,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "conviction": 4,
-    "action": "watch",
-    "actionLabel": "Watch",
+    "price": 391.35,
+    "fv": 394,
+    "mos": 0.7,
+    "fpe": 27.16,
+    "peg": 1.09,
+    "scores": {
+      "bq": [
+        8.5,
+        "green",
+        85
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        6.0,
+        "orange",
+        60
+      ],
+      "ra": [
+        7.0,
+        "amber",
+        70
+      ]
+    },
+    "idea": "Electrification + AI Datacenter Power — grid-to-chip electrical management",
+    "updated": "2026-05-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -732,6 +755,77 @@
       "what": "Eaton provides grid-to-chip electrical power management for AI data centers (800V DC architecture), holding 228 GW backlog = 12 years at 2025 build rates, with complete power+thermal portfolio via Boyd Thermal acquisition.",
       "why": "Electrical Americas DC orders +240% YoY; raising FY2026 organic growth to 10%; Q1 2026 FCF +245% YoY; 800V DC ecosystem partner with NVIDIA/ABB/Schneider/Vertiv = spec-in for next-gen AI data centers.",
       "risk": "หาก AI CapEx supercycle หยุดชะงักหรือ pause >2 quarters ทำให้ Electrical Americas orders reversal, หรือ Boyd Thermal integration ($9.5B) generates significantly less cross-selling synergy than projected."
+    }
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "display": "AMD",
+    "category": "ai_semiconductor",
+    "name": "AMD",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "CPU + GPU AI"
+    ],
+    "bull": [
+      "MI455X HBM bandwidth สูงกว่า NVIDIA H200 ใน bandwidth-bound workloads",
+      "EPYC market share ใน x86 server CPU expanding ต่อเนื่อง",
+      "Lisa Su execution track record = among best in semiconductor",
+      "ROCm ecosystem improving — Meta/Microsoft กำลัง adopt",
+      "Ryzen AI กำลัง capture NPU market สำหรับ AI PC"
+    ],
+    "risk": [
+      "ROCm ecosystem ตาม CUDA มากกว่า 5 ปี — switching cost ของ CUDA สูงมาก",
+      "MoS เพียง 3.1% ต่ำเกินไป — ราคาใกล้ Fair Value แล้ว",
+      "AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก",
+      "Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ",
+      "CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 7.35,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 467.51,
+    "fv": 467,
+    "mos": -0.1,
+    "fpe": 25.0,
+    "peg": 0.81,
+    "scores": {
+      "bq": [
+        8.5,
+        "green",
+        85
+      ],
+      "gp": [
+        9.0,
+        "green",
+        90
+      ],
+      "va": [
+        4.5,
+        "orange",
+        45
+      ],
+      "ra": [
+        6.5,
+        "amber",
+        65
+      ]
+    },
+    "idea": "MI450 + Helios Rack Platform — AI GPU + EPYC dual engine",
+    "updated": "2026-05-25",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
+      "what": "AMD เป็น sole credible competitor ต่อ NVIDIA ใน GPU/AI Accelerator — Instinct MI300X เป็นทางเลือกสำหรับ hyperscalers ที่ต้องการ diversify away from NVIDIA; EPYC CPU ครอง >35% server CPU market share แซง Intel Xeon; ROCm software ecosystem กำลัง improve แต่ยังห่างจาก CUDA",
+      "why": "Q1 2026 Data Center revenue $5.8B +57% YoY; EPYC Turin >50% revenue mix; Helios rack platform (MI450 + Venice CPU + Pensando) = Q3 2026 initial ramp; OpenAI + Meta 6GW deals (warrant = financial lock-in, not weak demand — warrants vest on shipment milestones); AMD is the ONLY company with x86 CPU + AI GPU + rack simultaneously — 41.3% server CPU share (Mercury Research Q4 2025) + MI450 GPU + Helios system. Rerating: \"GPU laggard\" → \"indispensable second source\" = 2H 2026–1H 2027 timeframe",
+      "risk": "ROCm software ecosystem ยังไม่ catch up CUDA → hyperscalers ไม่ adopt MI-series จริงจัง; NVIDIA Vera Rubin H200 ยิ่งห่างขึ้น; China export ban กระทบ MI300X sales; AI capex slowdown ทั่วไป"
     }
   },
   "MU": {
@@ -886,100 +980,6 @@
       "what": "Palantir's AIP platform converts enterprise and government data into AI-powered production decisions within 5 days via bootcamp model — a capability that hyperscalers (MSFT/GOOGL/AMZN) cannot replicate because they lack operational context and workflow depth.",
       "why": "US Revenue +104% YoY; Rule of 40 = 145 (best in class); FY2026 guidance +71% YoY ($7.65B raised 10pp from prior quarter); GAAP profitable 53% net margin + $925M FCF = not a pre-revenue story.",
       "risk": "หาก Microsoft/Google/Amazon ด้วย distribution scale ขนาดใหญ่สามารถ replicate AIP bootcamp effectiveness ผ่าน Azure AI Foundry/Vertex AI ได้สำเร็จ หรือ government budget sequestration กระทบ US DoD contracts >30%."
-    }
-  },
-  "AMD": {
-    "symbol": "AMD",
-    "display": "AMD",
-    "category": "ai_semiconductor",
-    "name": "AMD",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "CPU + GPU AI"
-    ],
-    "bull": [
-      "MI455X HBM bandwidth สูงกว่า NVIDIA H200 ใน bandwidth-bound workloads",
-      "EPYC market share ใน x86 server CPU expanding ต่อเนื่อง",
-      "Lisa Su execution track record = among best in semiconductor",
-      "ROCm ecosystem improving — Meta/Microsoft กำลัง adopt",
-      "Ryzen AI กำลัง capture NPU market สำหรับ AI PC"
-    ],
-    "risk": [
-      "ROCm ecosystem ตาม CUDA มากกว่า 5 ปี — switching cost ของ CUDA สูงมาก",
-      "MoS เพียง 3.1% ต่ำเกินไป — ราคาใกล้ Fair Value แล้ว",
-      "AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก",
-      "Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ",
-      "CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด"
-    ],
-    "price": 421.0,
-    "fv": 449.0,
-    "mos": 6.6,
-    "updated": "2026-05-23",
-    "waf": 7.0,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "conviction": 3,
-    "action": "watch",
-    "actionLabel": "Watch",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-05-19",
-      "tier": "🔁 Cyclical",
-      "tier_slug": "cyclical",
-      "what": "AMD เป็น sole credible competitor ต่อ NVIDIA ใน GPU/AI Accelerator — Instinct MI300X เป็นทางเลือกสำหรับ hyperscalers ที่ต้องการ diversify away from NVIDIA; EPYC CPU ครอง >35% server CPU market share แซง Intel Xeon; ROCm software ecosystem กำลัง improve แต่ยังห่างจาก CUDA",
-      "why": "Q1 2026 Data Center revenue $5.8B +57% YoY; EPYC Turin >50% revenue mix; Helios rack platform (MI450 + Venice CPU + Pensando) = Q3 2026 initial ramp; OpenAI + Meta 6GW deals (warrant = financial lock-in, not weak demand — warrants vest on shipment milestones); AMD is the ONLY company with x86 CPU + AI GPU + rack simultaneously — 41.3% server CPU share (Mercury Research Q4 2025) + MI450 GPU + Helios system. Rerating: \"GPU laggard\" → \"indispensable second source\" = 2H 2026–1H 2027 timeframe",
-      "risk": "ROCm software ecosystem ยังไม่ catch up CUDA → hyperscalers ไม่ adopt MI-series จริงจัง; NVIDIA Vera Rubin H200 ยิ่งห่างขึ้น; China export ban กระทบ MI300X sales; AI capex slowdown ทั่วไป"
-    }
-  },
-  "QCOM": {
-    "symbol": "QCOM",
-    "display": "QCOM",
-    "category": "semiconductor",
-    "name": "Qualcomm",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "Mobile + AI Edge"
-    ],
-    "bull": [
-      "DC custom silicon for hyperscaler กำลัง ship December 2026 — growth vector ใหม่นอก mobile",
-      "Automotive record $1.3B (+38% YoY) — Snapdragon Ride backlog >$45B, multi-year ramp",
-      "Snapdragon X Series ใน Windows PC กำลัง gain share — Dell, Lenovo, HP, Samsung",
-      "QTL licensing business = high-margin recurring revenue พื้นฐานแกร่งทุก cycle",
-      "IoT และ Edge AI ขยายตัวต่อเนื่อง — on-device AI เป็น next platform"
-    ],
-    "risk": [
-      "Apple ลด dependency บน Qualcomm modem — ความเสี่ยงระยะยาวใน handset revenue",
-      "Samsung และ MediaTek competition ใน mid-range ที่ volume สูง",
-      "China exposure: Huawei licensing + China handset OEM = regulatory risk",
-      "Handset cycle ชะลอตัว กระทบ QCT revenue ใน soft quarter",
-      "Execution risk บน custom silicon program — ล่าช้าหรือ spec miss จะกระทบ credibility"
-    ],
-    "price": 203.75,
-    "fv": 197.0,
-    "mos": -3.3,
-    "peg": 20.6,
-    "fpe": 20.6,
-    "updated": "2026-05-19",
-    "waf": 6.9,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "conviction": 3,
-    "action": "watch",
-    "actionLabel": "Watch",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-05-19",
-      "tier": "🔁 Cyclical",
-      "tier_slug": "cyclical",
-      "what": "Qualcomm เป็นเจ้าของ Patent Portfolio ที่แข็งแกร่งที่สุดใน mobile wireless (CDMA/5G) — ทำให้ทุก handset manufacturer ต้องจ่าย royalty; Snapdragon ครอง >50% premium Android market; กำลัง diversify ไป Automotive (Snapdragon Digital Chassis), PC (Snapdragon X Elite ท้าชน Intel/AMD), IoT",
-      "why": "Data center entry thesis confirmed: CEO Amon Q2 FY2026: \"A leading hyperscaler custom silicon engagement is on track for initial shipments later this calendar year.\" LPDDR strategy = 768GB LPDDR (vs HBM) = decode-centric disaggregated serving = cheaper per-token inference at scale. ASIC stack: Hexagon NPU + Alphawave (SerDes/PCIe Gen6/UCIe) + Ventana Veyron (RISC-V CPU). Automotive $1.33B +38% record; Auto Q3 guided +50% YoY. **June 24, 2026 Investor Day = customer identity + engagement structure disclosure.** HUMAIN 200MW contract (Saudi Arabia). 15x P/E = cheapest AI semiconductor play.",
-      "risk": "Apple ออก ARM ISA license เองหมด = ไม่ต้องพึ่ง QCOM royalty; Samsung/MediaTek พัฒนา in-house SoC ดีขึ้น; ARM license dispute ยืดเยื้อ; China handset market ฟื้นไม่ได้"
     }
   },
   "MRVL": {
@@ -1266,6 +1266,77 @@
       "risk": "Co-packaged optics (CPO) adoption เร็วกว่าคาด → ทำให้ pluggable transceiver obsolete; II-VI legacy debt หนัก $4.5B+; Lumentum/Fabrinet แข่ง fierce; SiC market softer from EV slowdown"
     }
   },
+  "QCOM": {
+    "symbol": "QCOM",
+    "display": "QCOM",
+    "category": "semiconductor",
+    "name": "Qualcomm",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "Mobile + AI Edge"
+    ],
+    "bull": [
+      "DC custom silicon for hyperscaler กำลัง ship December 2026 — growth vector ใหม่นอก mobile",
+      "Automotive record $1.3B (+38% YoY) — Snapdragon Ride backlog >$45B, multi-year ramp",
+      "Snapdragon X Series ใน Windows PC กำลัง gain share — Dell, Lenovo, HP, Samsung",
+      "QTL licensing business = high-margin recurring revenue พื้นฐานแกร่งทุก cycle",
+      "IoT และ Edge AI ขยายตัวต่อเนื่อง — on-device AI เป็น next platform"
+    ],
+    "risk": [
+      "Apple ลด dependency บน Qualcomm modem — ความเสี่ยงระยะยาวใน handset revenue",
+      "Samsung และ MediaTek competition ใน mid-range ที่ volume สูง",
+      "China exposure: Huawei licensing + China handset OEM = regulatory risk",
+      "Handset cycle ชะลอตัว กระทบ QCT revenue ใน soft quarter",
+      "Execution risk บน custom silicon program — ล่าช้าหรือ spec miss จะกระทบ credibility"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 6.3,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 238.16,
+    "fv": 197,
+    "mos": -20.9,
+    "fpe": 23.0,
+    "peg": 1.84,
+    "scores": {
+      "bq": [
+        7.5,
+        "amber",
+        75
+      ],
+      "gp": [
+        7.5,
+        "amber",
+        75
+      ],
+      "va": [
+        3.0,
+        "orange",
+        30
+      ],
+      "ra": [
+        7.0,
+        "amber",
+        70
+      ]
+    },
+    "idea": "X105 NR-NTN Modem + Automotive/PC Expansion + Starlink Mobile Beneficiary",
+    "updated": "2026-05-25",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-19",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
+      "what": "Qualcomm เป็นเจ้าของ Patent Portfolio ที่แข็งแกร่งที่สุดใน mobile wireless (CDMA/5G) — ทำให้ทุก handset manufacturer ต้องจ่าย royalty; Snapdragon ครอง >50% premium Android market; กำลัง diversify ไป Automotive (Snapdragon Digital Chassis), PC (Snapdragon X Elite ท้าชน Intel/AMD), IoT",
+      "why": "Data center entry thesis confirmed: CEO Amon Q2 FY2026: \"A leading hyperscaler custom silicon engagement is on track for initial shipments later this calendar year.\" LPDDR strategy = 768GB LPDDR (vs HBM) = decode-centric disaggregated serving = cheaper per-token inference at scale. ASIC stack: Hexagon NPU + Alphawave (SerDes/PCIe Gen6/UCIe) + Ventana Veyron (RISC-V CPU). Automotive $1.33B +38% record; Auto Q3 guided +50% YoY. **June 24, 2026 Investor Day = customer identity + engagement structure disclosure.** HUMAIN 200MW contract (Saudi Arabia). 15x P/E = cheapest AI semiconductor play.",
+      "risk": "Apple ออก ARM ISA license เองหมด = ไม่ต้องพึ่ง QCOM royalty; Samsung/MediaTek พัฒนา in-house SoC ดีขึ้น; ARM license dispute ยืดเยื้อ; China handset market ฟื้นไม่ได้"
+    }
+  },
   "ARM": {
     "symbol": "ARM",
     "display": "ARM",
@@ -1433,17 +1504,41 @@
       "EV margin กดดัน — average price ลดลง ส่วนแบ่งตลาดลดใน China",
       "Optimus timeline uncertainty — production scale ยังไม่พิสูจน์"
     ],
-    "price": 409.47,
-    "fv": 215.0,
-    "mos": -47.6,
-    "fpe": 190.5,
-    "updated": "2026-05-19",
-    "waf": 5.2,
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 4.95,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "conviction": 2,
-    "action": "hold",
-    "actionLabel": "Hold",
+    "price": 426.01,
+    "fv": 170,
+    "mos": -150.6,
+    "fpe": 200.0,
+    "peg": 999,
+    "scores": {
+      "bq": [
+        6.0,
+        "orange",
+        60
+      ],
+      "gp": [
+        7.0,
+        "amber",
+        70
+      ],
+      "va": [
+        1.5,
+        "orange",
+        15
+      ],
+      "ra": [
+        4.5,
+        "orange",
+        45
+      ]
+    },
+    "idea": "Robotaxi + Optimus optionality — ไม่ใช่ EV-only thesis",
+    "updated": "2026-05-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1480,17 +1575,41 @@
       "TSMC, Samsung เป็น alternative foundry ที่ดีกว่าสำหรับบางกลุ่ม",
       "Conviction 2/5 สะท้อนว่า upside thesis ยังไม่ proven — high risk"
     ],
-    "price": 107.03,
-    "fv": 20.0,
-    "mos": -81.3,
-    "fpe": 107.0,
-    "updated": "2026-05-19",
-    "waf": 4.9,
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 4.27,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "conviction": 3,
-    "action": "study",
-    "actionLabel": "Study",
+    "price": 119.84,
+    "fv": 20,
+    "mos": -499.2,
+    "fpe": 195.0,
+    "peg": 3.9,
+    "scores": {
+      "bq": [
+        5.0,
+        "orange",
+        50
+      ],
+      "gp": [
+        6.0,
+        "orange",
+        60
+      ],
+      "va": [
+        1.5,
+        "orange",
+        15
+      ],
+      "ra": [
+        4.0,
+        "orange",
+        40
+      ]
+    },
+    "idea": "18A Foundry + x86 Revival — turnaround binary outcome",
+    "updated": "2026-05-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
