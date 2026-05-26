@@ -1006,13 +1006,14 @@ function applyPeriodFilter() {
   if (!_fullBenchData) return;
   const sliced = sliceByPeriod(_fullBenchData, _activePeriod);
   drawPerfChart(sliced.labels, sliced.portVals, sliced.vooVals, sliced.qqqmVals, sliced.depositedVals);
-  const findFirst = arr => { for(const v of (arr||[])) if(v!=null && v>0) return v; return null; };
-  const findLast  = arr => { for(let i=(arr||[]).length-1;i>=0;i--) if(arr[i]!=null && arr[i]>0) return arr[i]; return null; };
-  const pct = (first, last) => (first && last && first > 0) ? (last - first) / first * 100 : null;
+  const findLast = arr => { for(let i=(arr||[]).length-1;i>=0;i--) if(arr[i]!=null && arr[i]>0) return arr[i]; return null; };
+  // % return = (last value - cumulative deposited at last point) / cumulative deposited * 100
+  const lastDep = findLast(sliced.depositedVals);
+  const pct = last => (last && lastDep && lastDep > 0) ? (last - lastDep) / lastDep * 100 : null;
   showBenchReturnsPct(
-    pct(findFirst(sliced.portVals),  findLast(sliced.portVals)),
-    pct(findFirst(sliced.vooVals),   findLast(sliced.vooVals)),
-    pct(findFirst(sliced.qqqmVals),  findLast(sliced.qqqmVals))
+    pct(findLast(sliced.portVals)),
+    pct(findLast(sliced.vooVals)),
+    pct(findLast(sliced.qqqmVals))
   );
 }
 
@@ -1108,10 +1109,11 @@ function drawPerfChart(labels, portVals, vooVals, qqqmVals, depositedVals) {
               const v = item.raw;
               if (v == null) return null;
               const fmtV = v >= 1000 ? `$${(v/1000).toFixed(1)}k` : `$${v.toFixed(0)}`;
-              const allData = item.chart.data.datasets[item.datasetIndex].data;
-              const first = allData.find(x => x != null && x > 0);
-              const pctStr = (first && first > 0)
-                ? ` (${v >= first ? '+' : ''}${((v - first) / first * 100).toFixed(1)}%)`
+              // % return = (value - cumulative deposited) / cumulative deposited * 100
+              const depData = item.chart.data.datasets.find(d => d.label === 'Deposited')?.data || [];
+              const dep = depData[item.dataIndex];
+              const pctStr = (dep && dep > 0)
+                ? ` (${v >= dep ? '+' : ''}${((v - dep) / dep * 100).toFixed(1)}%)`
                 : '';
               return ` ${item.dataset.label}: ${fmtV}${pctStr}`;
             },
