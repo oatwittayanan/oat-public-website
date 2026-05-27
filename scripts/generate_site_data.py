@@ -22,9 +22,13 @@ WATCHLIST_VALUATIONS_JSON = INVESTMENT_DIR / "portfolio/watchlist_valuations.jso
 KNOWLEDGE_DIR  = OAT_OS / "oat-investment-knowledge/knowledge"
 
 CHARLIE_WATCHLIST_JSON = INVESTMENT_DIR / "portfolio/charlie_watchlist_reviews.json"
+PAPERS_JSON            = INVESTMENT_DIR / "portfolio/papers.json"
+CHARLIE_REVIEWS_JSON   = INVESTMENT_DIR / "portfolio/charlie_reviews.json"
 
 OUT_STOCKS     = ROOT / "data/stocks.json"
 OUT_KNOWLEDGE  = ROOT / "knowledge.js"
+OUT_PAPERS     = ROOT / "data/papers.json"
+OUT_CHARLIE    = ROOT / "data/charlie_reviews.json"
 
 # ── Mappings ──────────────────────────────────────────────────────────────────
 CONVICTION_MAP = {
@@ -669,5 +673,17 @@ if __name__ == "__main__":
 
     print(f"\n── Inline Sync ────────────────────────────────────────────")
     generate_stocks_inline()
+
+    print(f"\n── Papers & Charlie Reviews → data/ ───────────────────────")
+    for src, dst, label in [
+        (PAPERS_JSON, OUT_PAPERS, "papers.json"),
+        (CHARLIE_REVIEWS_JSON, OUT_CHARLIE, "charlie_reviews.json"),
+    ]:
+        if src.exists():
+            import shutil
+            shutil.copy2(src, dst)
+            print(f"[copy] {label} → data/{label}")
+        else:
+            print(f"[skip] {label} ไม่พบ: {src}")
 
     print("\n✅ Done")

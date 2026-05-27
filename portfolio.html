@@ -258,9 +258,10 @@
         </div>
       </div>
     </div>
-    <div class="card" style="padding:32px 24px; text-align:center; border:1px dashed var(--hairline)">
-      <div style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.08em; color:var(--fg-dim); text-transform:uppercase; margin-bottom:10px">Pending</div>
-      <p style="font-size:14px; color:var(--fg-muted); margin:0; line-height:1.6">Warren จะเขียน Portfolio Paper ครั้งแรกเมื่อพอร์ตพร้อม deploy — ติดตามที่นี่</p>
+    <div id="portfolio-paper-summary">
+      <div style="padding:32px 24px; text-align:center; border:1px dashed var(--hairline); border-radius:var(--radius-lg)">
+        <div style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.08em; color:var(--fg-dim); text-transform:uppercase; margin-bottom:10px">Loading...</div>
+      </div>
     </div>
   </div>
 </section>
@@ -350,9 +351,9 @@
             <div style="font-size:14px; font-weight:600">Charlie</div>
             <div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-muted)">Investment Auditor</div>
           </div>
-          <span style="margin-left:auto; font-family:var(--font-mono); font-size:11px; padding:4px 10px; border-radius:6px; background:rgba(71,85,105,0.15); color:var(--fg-dim); border:1px solid var(--hairline); font-weight:600; text-transform:uppercase">Pending</span>
+          <span id="charlie-portfolio-badge" style="margin-left:auto; font-family:var(--font-mono); font-size:11px; padding:4px 10px; border-radius:6px; background:rgba(71,85,105,0.15); color:var(--fg-dim); border:1px solid var(--hairline); font-weight:600; text-transform:uppercase">Loading</span>
         </div>
-        <p style="font-size:13px; color:var(--fg-muted); line-height:1.6; margin:0">Charlie จะ verify Valuation ของ Warren หลังจาก /warren watchlist รัน — Charlie ใช้ข้อมูลอิสระจาก yfinance และ web search เท่านั้น</p>
+        <p id="charlie-portfolio-summary" style="font-size:13px; color:var(--fg-muted); line-height:1.6; margin:0">กำลังโหลด...</p>
       </div>
 
       <div class="card card-pad" style="padding:24px">
@@ -1812,6 +1813,79 @@ async function renderCategoryAllocation(holdings, cashVal, portVal) {
     if (tbody) tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding:32px; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">ยังไม่มีข้อมูล Valuation — รัน /warren watchlist เพื่อ generate</td></tr>`;
     if (counter) counter.textContent = '—';
   }
+})();
+</script>
+
+<script>
+(function () {
+  'use strict';
+  function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  function verdictStyle(v) {
+    if (v === 'AGREE') return 'background:var(--green-soft); color:var(--green); border:1px solid var(--green-line)';
+    if (v === 'CAUTION') return 'background:var(--amber-soft); color:var(--amber); border:1px solid var(--amber-line)';
+    if (v === 'DISAGREE') return 'background:rgba(239,68,68,0.08); color:#ef4444; border:1px solid rgba(239,68,68,0.2)';
+    return 'background:rgba(71,85,105,0.12); color:var(--fg-muted); border:1px solid var(--hairline)';
+  }
+
+  function actionCls(a) {
+    return a === 'BUY' ? 'action action-buy' : a === 'SELL' ? 'action action-sell' : 'action action-hold';
+  }
+
+  Promise.all([
+    fetch('data/papers.json').then(function(r){ return r.json(); }).catch(function(){ return []; }),
+    fetch('data/charlie_reviews.json').then(function(r){ return r.json(); }).catch(function(){ return []; }),
+  ]).then(function(results) {
+    var papers = results[0];
+    var charlieReviews = results[1];
+
+    // ── Warren Paper Summary ──────────────────────────────────────────────
+    var paperEl = document.getElementById('portfolio-paper-summary');
+    if (paperEl && papers && papers.length > 0) {
+      var latest = papers.slice().sort(function(a,b){ return (b.date||'').localeCompare(a.date||''); })[0];
+      var charlieMap = {};
+      (charlieReviews||[]).forEach(function(cr){ charlieMap[cr.paper_id] = cr.overall_verdict; });
+      var cv = charlieMap[latest.id];
+
+      var recs = (latest.recommendations || []).filter(function(r){ return r.ticker !== 'CASH'; });
+      var recsHtml = recs.map(function(r) {
+        return '<div style="display:flex; align-items:center; gap:8px; padding:10px 0; border-bottom:1px solid var(--hairline)">' +
+          '<a href="stock.html?t=' + esc(r.ticker) + '" style="font-family:var(--font-mono); font-weight:700; font-size:14px; color:var(--fg); text-decoration:none; width:56px">' + esc(r.ticker) + '</a>' +
+          '<span class="' + actionCls(r.action) + '" style="font-size:11px; padding:2px 7px">$' + (r.amount||0) + '</span>' +
+          (r.waf != null ? '<span style="font-family:var(--font-mono); font-size:11px; color:var(--fg-muted)">WAF ' + r.waf + '</span>' : '') +
+          (r.scores && r.scores.va && r.scores.va.mos_pct != null ? '<span style="margin-left:auto; font-family:var(--font-mono); font-size:11px; color:var(--green)">MoS ' + (+r.scores.va.mos_pct).toFixed(1) + '%</span>' : '') +
+          '</div>';
+      }).join('');
+
+      var cvBadge = cv ? '<span style="font-family:var(--font-mono); font-size:11px; padding:3px 8px; border-radius:4px; ' + verdictStyle(cv) + '; text-transform:uppercase; letter-spacing:0.05em">Charlie: ' + esc(cv) + '</span>' : '';
+
+      paperEl.innerHTML = '<div style="padding:20px 24px">' +
+        '<div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:16px">' +
+        '<div><div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:4px">' + esc(latest.date) + '</div>' +
+        '<div style="font-weight:600; font-size:15px">' + esc(latest.title) + '</div></div>' +
+        cvBadge +
+        '</div>' +
+        '<div style="border-top:1px solid var(--hairline)">' + recsHtml + '</div>' +
+        '<div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap">' +
+        '<a href="papers.html" style="font-size:12px; font-family:var(--font-mono); color:var(--amber); text-decoration:none">Read full Paper →</a>' +
+        (cv ? '<a href="charlie.html#review-' + esc(latest.id) + '" style="font-size:12px; font-family:var(--font-mono); color:var(--fg-muted); text-decoration:none">Charlie Review →</a>' : '') +
+        '</div></div>';
+    }
+
+    // ── Charlie Summary Badge ─────────────────────────────────────────────
+    var badgeEl = document.getElementById('charlie-portfolio-badge');
+    var summaryEl = document.getElementById('charlie-portfolio-summary');
+    if (badgeEl && summaryEl && charlieReviews && charlieReviews.length > 0) {
+      var latestReview = charlieReviews.slice().sort(function(a,b){ return (b.date||'').localeCompare(a.date||''); })[0];
+      badgeEl.textContent = latestReview.overall_verdict;
+      badgeEl.setAttribute('style', 'margin-left:auto; font-family:var(--font-mono); font-size:11px; padding:4px 10px; border-radius:6px; ' + verdictStyle(latestReview.overall_verdict) + '; font-weight:600; text-transform:uppercase');
+      summaryEl.innerHTML = esc(latestReview.overall_summary || '') +
+        ' <a href="charlie.html#' + esc(latestReview.id) + '" style="color:var(--amber); text-decoration:none">อ่านรีวิวเต็ม →</a>';
+    } else if (badgeEl && summaryEl) {
+      badgeEl.textContent = 'Pending';
+      summaryEl.textContent = 'Charlie จะ verify Paper ของ Warren — ยังไม่มีข้อมูล';
+    }
+  });
 })();
 </script>
 </body>

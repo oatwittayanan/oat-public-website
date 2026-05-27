@@ -1,0 +1,98 @@
+[
+  {
+    "id": "review-2026-05-27",
+    "date": "2026-05-27",
+    "paper_id": "2026-05-27",
+    "title": "Charlie Review — Paper #1 (Deploy พ.ค. 2026)",
+    "overall_verdict": "CAUTION",
+    "overall_summary": "NVDA: fundamentals confirmed โดยสมบูรณ์ — Q1 beat massive และ Q2 guidance แข็งแกร่ง ✅ AGREE. MSFT: พบ new risk สำคัญที่ Warren ไม่ได้ระบุชัด — OpenAI cap revenue sharing ที่ $38B และการที่ OpenAI หันไปใช้ AWS ลดความ exclusive ของ MSFT ซึ่งกระทบ GP thesis ⚠️ CAUTION. META: Q1 earnings ยืนยัน thesis แต่พบ 3 new flags — (1) Zero buybacks Q1 ลดลงจาก $12.8B (2) Supreme Court ปฏิเสธ appeal Vermont = legal exposure ใหม่ (3) MoS 15.5% บางมาก ⚠️ CAUTION.",
+    "ticker_reviews": [
+      {
+        "ticker": "NVDA",
+        "verdict": "AGREE",
+        "summary": "Q1 FY2027 earnings ยืนยัน Warren thesis ทุกจุด: Revenue $81.6B (+85% YoY), EPS $1.87 (+131%), Q2 guidance $91B = การเติบโตสามไตรมาสติดต่อกัน Blackwell + Vera CPU ramp ยังคงดำเนินอยู่ ราคา $214.86 ≈ entry thesis, MoS 30.4% ยังสมเหตุสมผล",
+        "agree_points": [
+          "Q1 FY27 Revenue $81.6B (+85% YoY) — beat estimates ชัดเจน",
+          "Data Center $75B (+92% YoY) = Blackwell demand confirmed",
+          "Q2 guidance ~$91B = visibility แข็งแกร่ง",
+          "Dividend 25x hike = management confidence สูง",
+          "Fwd P/E ~30x ณ ราคาปัจจุบัน = ยังสมเหตุสมผลกับ growth rate"
+        ],
+        "risks_found": [
+          "China Data Center revenue = $0 ใน Q2 (export ban ยังต่อเนื่อง) — Warren รับรู้แล้วใน RA 7.0 แต่ยืนยันว่าเป็นจริง",
+          "Post-earnings stock ลดลงเล็กน้อย — ส่วนหนึ่งจาก elevated valuation near Fwd P/E 30x",
+          "Rising opex + competition risks ยังคงอยู่"
+        ],
+        "price_at_review": 214.86,
+        "warren_fv": 308.0,
+        "warren_mos_pct": 30.4,
+        "data_date": "2026-05-27"
+      },
+      {
+        "ticker": "MSFT",
+        "verdict": "CAUTION",
+        "summary": "Azure growth และ Copilot thesis ยังคงอยู่ แต่พบ NEW RISK สำคัญที่ Warren ไม่ได้ประเมินชัด: (1) OpenAI ตั้ง revenue sharing cap ที่ $38B ซึ่งจำกัด AI upside ที่ Warren ใช้ใน GP thesis (2) OpenAI diversify ไปหา AWS = MSFT ไม่ใช่ exclusive AI partner อีกต่อไป (3) FY2026 CapEx ทะลุ $190B (vs $150B เดิม) กด near-term FCF margin มากกว่าที่คาด",
+        "agree_points": [
+          "Azure cloud growth thesis ยังคงแข็งแกร่ง",
+          "RPO $627B+ = revenue visibility ดีมาก",
+          "Enterprise moat (Windows/Office/Azure) ยังคงสมบูรณ์",
+          "Fwd P/E ~22x ยังต่ำกว่า peak"
+        ],
+        "risks_found": [
+          "⚠️ NEW: OpenAI ตั้ง revenue sharing cap $38B กับ MSFT — จำกัด upside จาก AI monetization ที่ Warren assume ว่าไม่มี cap",
+          "⚠️ NEW: OpenAI ทำ deals กับ AWS และ partners อื่น = ลด exclusivity ของ MSFT จาก OpenAI relationship",
+          "⚠️ CapEx FY2026 projected $190B (vs $150B estimate เดิม) = FCF pressure มากกว่าที่ Warren ประเมิน",
+          "Gaming division ยังคง decline -30%+ สองไตรมาสติดต่อกัน",
+          "MoS 18.2% บาง — ราคาปัจจุบัน $413.50 ต่ำกว่า entry $424.60 แล้ว"
+        ],
+        "price_at_review": 413.50,
+        "warren_fv": 519.0,
+        "warren_mos_pct": 18.2,
+        "data_date": "2026-05-27"
+      },
+      {
+        "ticker": "META",
+        "verdict": "CAUTION",
+        "summary": "Q1 2026 earnings ยืนยัน AI ads flywheel ของ Warren: Revenue +33%, Net Income +61%, OM 41% record ✅ แต่พบ 3 flags สำคัญ: (1) Zero buybacks ใน Q1 (vs $12.8B ปีก่อน) = capital allocation เปลี่ยน all-in capex (2) Supreme Court ปฏิเสธ appeal Vermont lawsuit = legal exposure ขยายตัว (3) CapEx 2026 ทะลุ $145B = margin pressure มากกว่าที่ประเมิน; MoS เพียง 15.5% ทำให้ buffer น้อยมากหากข่าวลบมา",
+        "agree_points": [
+          "Q1 Revenue +33% YoY = AI ads flywheel confirmed",
+          "Net Income +61% YoY = strong profitability",
+          "OM 41% record = pricing power ยืนยัน",
+          "AI-driven impressions +19% × price +12% = simultaneous growth ตรงตาม thesis",
+          "Fwd P/E ~17x ยังถูกสุดใน Big Tech"
+        ],
+        "risks_found": [
+          "⚠️ NEW: Zero share buybacks ใน Q1 2026 (down จาก $12.8B Q1 2025) — capital ถูก redirected ทั้งหมดไปหา AI capex",
+          "⚠️ NEW: Supreme Court ปฏิเสธ hearing Meta Vermont lawsuit (May 26, 2026) = legal exposure เพิ่มขึ้น ที่ Warren ยังไม่ได้ factor in",
+          "⚠️ CapEx 2026 ทะลุ $145B (vs prior guidance ต่ำกว่า) — FCF margin กดดัน",
+          "EU DSA preliminary finding: fine up to $12B (Warren รับรู้แล้ว แต่ยืนยันว่า proceeding จริง)",
+          "MoS เพียง 15.5% = ที่ราคา $612.34 ปัจจุบัน ต่ำกว่า entry $610.26 เล็กน้อย = MoS ต่ำกว่า 15% แล้ว"
+        ],
+        "price_at_review": 612.34,
+        "warren_fv": 722.0,
+        "warren_mos_pct": 15.5,
+        "data_date": "2026-05-27"
+      }
+    ],
+    "points_to_verify": [
+      "MSFT: ติดตาม OpenAI revenue sharing deal รายละเอียดเพิ่มเติม — มีผลต่อ FY27 GP estimate ของ Warren มากแค่ไหน",
+      "META: ติดตาม EU DSA fine ruling — ถ้าเป็น $12B จริงจะกระทบ net income FY2026 ประมาณ 6–7%",
+      "META: ติดตาม FTC appeal outcome — ยังคง existential risk สูงสุดใน portfolio"
+    ],
+    "watch_out": [
+      "MSFT ราคาปัจจุบัน $413.50 ต่ำกว่า Warren's entry $424.60 แล้ว — ถ้าลงต่อ MoS จะเพิ่มขึ้น (ดีสำหรับ Warren) แต่ OpenAI cap risk ทำให้ FV $519 อาจต้องปรับลง",
+      "META MoS ต่ำมาก — ณ ราคา $612.34 เทียบ FV $722 = MoS 15.2% ต่ำกว่า gate 15% เล็กน้อย ถ้า Warren ซื้อ $610.26 และราคาขึ้นมา entry นี้เสี่ยงว่าจะไม่ผ่าน gate แล้ว",
+      "NVDA China risk confirmed — $0 revenue Q2 = กระทบ FY27 revenue จริง แต่ guidance $91B absorb ไว้แล้ว"
+    ],
+    "data_sources": [
+      "yfinance — NVDA/MSFT/META prices and financial data",
+      "Yahoo Finance quotes — price verification",
+      "CNBC NVDA Q1 FY2027 earnings report (May 20, 2026)",
+      "TIKR.com — NVIDIA Q1 2027 Earnings $81.6B",
+      "FX Leaders — MSFT OpenAI revenue sharing cap $38B (May 2026)",
+      "Quartz / Yahoo Finance — META Q1 2026 earnings capex $145B",
+      "US News — Supreme Court declines META Vermont lawsuit (May 26, 2026)",
+      "FX Leaders — NVDA China risks post-Q1 (May 26, 2026)"
+    ]
+  }
+]
