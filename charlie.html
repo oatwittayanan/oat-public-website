@@ -131,24 +131,50 @@
   }
 
   function renderTickerReview(tr) {
+    var verdict = tr.charlie_verdict || tr.verdict;
+
     var agreeHtml = '';
-    if ((tr.agree_points || []).length > 0) {
+    if ((tr.verified_claims || tr.agree_points || []).length > 0) {
+      var claims = tr.verified_claims || tr.agree_points || [];
       agreeHtml = '<div>' +
         '<div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:12px">✓ Verified Claims</div>' +
         '<ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px">' +
-        (tr.agree_points || []).map(function(pt){
-          return '<li style="font-size:13px; color:var(--fg-muted); line-height:1.5; display:flex; gap:8px"><span style="color:var(--green); flex-shrink:0; margin-top:1px">✓</span>' + esc(pt) + '</li>';
+        claims.map(function(pt){
+          return '<li style="font-size:13px; color:var(--fg); line-height:1.5; display:flex; gap:8px"><span style="color:var(--green); flex-shrink:0; margin-top:1px">✓</span>' + esc(pt) + '</li>';
         }).join('') +
         '</ul></div>';
     }
 
     var risksHtml = '';
-    if ((tr.risks_found || []).length > 0) {
+    if ((tr.concerns || tr.risks_found || []).length > 0) {
+      var risks = tr.concerns || tr.risks_found || [];
       risksHtml = '<div>' +
-        '<div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:12px">⚠ Risks Found</div>' +
+        '<div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:12px">⚠ Concerns</div>' +
         '<ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px">' +
-        (tr.risks_found || []).map(function(r){
-          return '<li style="font-size:13px; color:var(--fg-muted); line-height:1.5; display:flex; gap:8px"><span style="color:var(--amber); flex-shrink:0; margin-top:1px">⚠</span>' + esc(r) + '</li>';
+        risks.map(function(r){
+          return '<li style="font-size:13px; color:var(--fg); line-height:1.5; display:flex; gap:8px"><span style="color:var(--amber); flex-shrink:0; margin-top:1px">⚠</span>' + esc(r) + '</li>';
+        }).join('') +
+        '</ul></div>';
+    }
+
+    var redFlagsHtml = '';
+    if ((tr.red_flags || []).length > 0) {
+      redFlagsHtml = '<div>' +
+        '<div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:12px">✗ Red Flags</div>' +
+        '<ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px">' +
+        tr.red_flags.map(function(r){
+          return '<li style="font-size:13px; color:var(--fg); line-height:1.5; display:flex; gap:8px"><span style="color:#ef4444; flex-shrink:0; margin-top:1px">✗</span>' + esc(r) + '</li>';
+        }).join('') +
+        '</ul></div>';
+    }
+
+    var upsideHtml = '';
+    if ((tr.upside_surprises || []).length > 0) {
+      upsideHtml = '<div>' +
+        '<div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; margin-bottom:12px">↑ Upside Surprises</div>' +
+        '<ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px">' +
+        tr.upside_surprises.map(function(r){
+          return '<li style="font-size:13px; color:var(--fg); line-height:1.5; display:flex; gap:8px"><span style="color:var(--green); flex-shrink:0; margin-top:1px">↑</span>' + esc(r) + '</li>';
         }).join('') +
         '</ul></div>';
     }
@@ -167,11 +193,11 @@
       '<a href="stock.html?t=' + esc(tr.ticker) + '" style="font-size:20px; font-weight:700; font-family:var(--font-mono); color:var(--fg); text-decoration:none">' + esc(tr.ticker) + '</a>' +
       priceInfo +
       '</div>' +
-      '<span style="font-family:var(--font-mono); font-size:12px; padding:4px 10px; border-radius:6px; ' + verdictStyle(tr.verdict) + '; text-transform:uppercase; letter-spacing:0.05em; font-weight:600">Charlie: ' + esc(tr.verdict) + '</span>' +
+      '<span style="font-family:var(--font-mono); font-size:12px; padding:4px 10px; border-radius:6px; ' + verdictStyle(verdict) + '; text-transform:uppercase; letter-spacing:0.05em; font-weight:600">Charlie: ' + esc(verdict) + '</span>' +
       '</div>' +
-      (tr.summary ? '<div style="margin-bottom:20px; font-size:13px; color:var(--fg-muted); line-height:1.6; padding:14px 16px; background:var(--bg-elev); border-radius:8px; border:1px solid var(--hairline)">' + esc(tr.summary) + '</div>' : '') +
+      (tr.summary ? '<div style="margin-bottom:20px; font-size:13px; color:var(--fg); line-height:1.6; padding:14px 16px; background:var(--bg-elev); border-radius:8px; border:1px solid var(--hairline)">' + esc(tr.summary) + '</div>' : '') +
       '<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px">' +
-      agreeHtml + risksHtml +
+      agreeHtml + risksHtml + redFlagsHtml + upsideHtml +
       '</div></div>';
   }
 
