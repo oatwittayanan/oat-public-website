@@ -26,13 +26,13 @@ DOJ/EU regulatory action ต่อ App Store (30% take rate); Tariff impact on i
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $308.82  |  **Tier:** 🏛️ Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $308.39  |  **Tier:** 🏛️ Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $308.82 | — |
+| Current Price | $308.39 | — |
 | Fair Value (Weighted) | $248.8 | — |
 | Fair Value Base | $255 | — |
 | **Margin of Safety** | **-21.1%** | ✗ FAIL (gate 15%) |
@@ -387,6 +387,7 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Recent News
+**2026-05-27** — 🤖 $AAPL — Apple สามารถกลายเป็น AI Winner ผ่านการนำสมาร์ตโฟน AI Features มาใช้และการบูรณาการ AI ในระบบ | [src](https://news.google.com/rss/articles/CBMijwFBVV95cUxQOWZnVU1rTUsydGVqX2VmY0hUMGJiY3VsdkpmQk1WUVNEX3huNXAtTWhfazF0aHN6MHVXZkF4d2xvbzl5emMtRGRabUwwd2Q2Z0pFN2ZZejhZMVhvR3dQd2dycFl5SjR5aF9ZUUt3Y1o5cTJmalloWFY5ZW50QUU1cVMyZU5ob1VWanpnVm1uZw?oc=5)
 **2026-05-23** — 🚀 $AAPL — หุ้นอยู่ที่ 52-week high ท่ามกลาง earnings rally หลังการประกาศปรับโครงสร้างทีม hardware นำโดย Srouji เพื่อเร่งการพัฒนา device | [src](https://news.google.com/rss/articles/CBMikwFBVV95cUxNTmJnWWNpZGRhNHVqREJFODZzUkJLOGZXM00xZi1MSDVKVFVWd2RYeThuelVnRUpNcHdtbi1Sekd3c0FTaFQxSXhfYXpfZW5kcUpwcjZFbF9RRmxCNXZuUGo1SXl3T0Y5OEdILTE1NjVDamNfZm9IMGpFcHFOaTN5ZlJqN1kwVUYzdmVnZVNKLXVjeFk?oc=5)
 
 ## Source Log
@@ -428,7 +429,7 @@ ROCm software ecosystem ยังไม่ catch up CUDA → hyperscalers ไม
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $467.51  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $467.51  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
@@ -759,6 +760,7 @@ AMD เป็น fabless semiconductor company สัญชาติอเมร
 ---
 
 ## Recent News
+**2026-05-26** — 🤖 $AMD — AMD วางแผนลงทุนกว่า $10 พันล้านในตลาด AI ของไต้หวัน | [src](https://news.google.com/rss/articles/CBMimwFBVV95cUxQZE5NQmJhZ0hGU3Fzc2FTV1h3QkpRS2FDS1Z1WnZzXzRvZEl1LUpyNURpMDZxNnBPYlVMZk8tY0RZX3p4Y2JCTHJJRTdFOWkweXhmYm9TcW0tUld3eGlzTmdlRXhQQ0RHUGpoZlJQTzdCdHN0WW1vTE80alV2ZkluSnZ0N1N4TnA3TktEei1KOWlOb0RTalBNZmJXZw)
 **2026-05-23** — 🏗️ $AMD — หุ้นขึ้น 4% หลังจากประกาศแผน capex ขนาดใหญ่ใน Taiwan สำหรับผลิต AI chips พร้อม Amkor เข้าร่วมใน advanced packaging | [src](https://news.google.com/rss/articles/CBMivgFBVV95cUxOZVZpZ1lGdmoyem5Yb3VZMHU2Vm5TclZZNzJfVHQzeDZDY200R29qbHA3NjNMcWNBcktEb0pSenVYbjQ0WUZ2cllzWWZORzQ3NU9ObTk1QjMycDhOTzBzUkZxWF8zXzkyZFZYVzNaWmVwckx1QWFKTndKMURGY1B2QUV2dmlOb0UxeVVoWlpac0lFNGJSdDg3QTBjZHI5VGc4NjlqS05Vcm9OTU5qaDhzTlh6dmxPNkw5ZWNqdmd3?oc=5)
 
 ## Source Log
@@ -1111,13 +1113,13 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $266.32  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $263.99  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $266.32 | — |
+| Current Price | $263.99 | — |
 | Fair Value (Weighted) | $304.2 | — |
 | Fair Value Base | $268 | — |
 | **Margin of Safety** | **0.6%** | ✗ FAIL (gate 15%) |
@@ -1164,43 +1166,43 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Story Gate
-**ประเมิน:** 2026-05-19 | **ราคาปัจจุบัน:** $215.12  |  **Tier:** 🌱 Fast Grower
+**ประเมิน:** 2026-05-27 | **ราคาปัจจุบัน:** $320.08  |  **Tier:** 🌱 Fast Grower
 
 **WHAT — ธุรกิจสร้าง Competitive Advantage อะไรได้จริง?**
 ARM เป็นเจ้าของ ISA (Instruction Set Architecture) ที่ครองตลาด mobile processor >95% และขยายเข้า datacenter, automotive, IoT ผ่านรูปแบบ IP licensing + royalties ทำให้มี near-zero marginal cost ต่อ chip ที่ผลิตเพิ่ม Cortex-X, Neoverse, Ethos series คือ blueprints ที่ hyperscalers (Amazon Graviton, Google Axion, Apple M-series) ใช้โดยตรง — switching cost สูงมากเพราะต้องเขียน software stack ใหม่ทั้งหมด
 
 **WHY NOW — อะไรทำให้วันนี้น่าสนใจเป็นพิเศษ?**
-Compute Subsystems (CSS) คือ complete chip blueprints ที่ช่วยลด time-to-market จาก 5 ปีเหลือ 2-3 ปี — hyperscalers และ fabless ต้องการมากขึ้นเพราะ custom silicon boom; Royalty rate per chip เพิ่มขึ้น 2-3× จาก v8 → v9 architecture (AI-enhanced); Q3 FY2026 revenue +34% YoY
+Compute Subsystems (CSS) คือ complete chip blueprints ที่ช่วยลด time-to-market จาก 5 ปีเหลือ 2-3 ปี — hyperscalers และ fabless ต้องการมากขึ้นเพราะ custom silicon boom; Royalty rate per chip เพิ่มขึ้น 2-3× จาก v8 → v9 architecture (AI-enhanced); AGI CPU demand >$2B ใน FY2027-2028; data center royalty doubled YoY FY2026
 
 **IF WRONG — ถ้า Thesis ผิด อะไรจะเกิดขึ้น?**
-RISC-V open-source เป็น existential threat ระยะยาว — ถ้า hyperscalers migrate หรือ China (25% revenue) cutoff เกิดขึ้น valuation จะ re-rate ลงรุนแรง; SoftBank ถือ ~90% ของ ARM = governance risk และ potential secondary offering pressure
+RISC-V open-source เป็น existential threat ระยะยาว — ถ้า hyperscalers migrate หรือ China (17% revenue) cutoff เกิดขึ้น valuation จะ re-rate ลงรุนแรง; SoftBank ถือ ~87% ของ ARM = governance risk และ potential secondary offering pressure; **[NEW] DOJ/FTC antitrust investigation (May 2026)** — สอบสวน ARM's chip licensing practices ซึ่งอาจบังคับ ARM เปลี่ยน licensing model หรือลด royalty rates = direct hit ต่อ revenue model; Qualcomm lawsuit (pending post-trial motions) อาจ renegotiate license terms ลด 10% revenue
 
-**ผลการพิจารณา: PASS** — IP moat ยังแข็งแกร่ง แต่ราคาแพงมาก
+**ผลการพิจารณา: PASS** — IP moat ยังแข็งแกร่ง แต่ราคาแพงเกิน FV Bull มาก + antitrust risk เพิ่มขึ้น
 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $306.51  |  **Tier:** 🌱 Fast Grower  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $320.08  |  **Tier:** 🌱 Fast Grower  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $306.51 | — |
+| Current Price | $320.08 | — |
 | Fair Value (Weighted) | $129.5 | — |
 | Fair Value Base | $130 | — |
-| **Margin of Safety** | **-135.8%** | ✗ FAIL (gate 15%) |
-| **5-yr Expected Return** | **0.6%/yr** | ✗ FAIL (gate 15%) |
-| Forward P/E | 100.3× | — |
-| **PEG** | **3.58** | ✗ FAIL (cap 1.5) |
+| **Margin of Safety** | **-146.2%** | ✗ FAIL (gate 15%) |
+| **5-yr Expected Return** | **-0.3%/yr** | ✗ FAIL (gate 15%) |
+| Forward P/E | 104.6× | — |
+| **PEG** | **3.74** | ✗ FAIL (cap 1.5) |
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $200 | -34.7% | Premium multiple × growth acceleration |
-| **Base** | $130 | -57.6% | Base multiple × consensus EPS |
-| **Bear** | $72 | -76.5% | Compressed multiple × thesis break |
+| **Bull** | $200 | -37.5% | Premium multiple × growth acceleration |
+| **Base** | $130 | -59.4% | Base multiple × consensus EPS |
+| **Bear** | $72 | -77.5% | Compressed multiple × thesis break |
 
 ### WAF Score Breakdown
 
@@ -1209,16 +1211,16 @@ RISC-V open-source เป็น existential threat ระยะยาว — ถ
 | BQ (Business Quality) | 8.5 | 30% | 2.55 |
 | GP (Growth Potential) | 7.0 | 30% | 2.10 |
 | VA (Valuation) | 1.5 | 25% | 0.38 |
-| RA (Risk Assessment) | 5.5 | 15% | 0.82 |
-| **WAF Total** | **5.85** | | **LOW** |
+| RA (Risk Assessment) | 5.0 | 15% | 0.75 |
+| **WAF Total** | **5.78** | | **LOW** |
 
 **Investment Idea:** Mobile ISA Monopoly + CSS royalty uplift
 
-**Thesis:** ARMv9 royalty 2× ARMv8 + CSS adoption — แต่ราคา $306 เกิน Bull case ($200) ไปแล้ว 53%
+**Thesis:** ARMv9 royalty 2× ARMv8 + CSS adoption — ราคา $320 เกิน Bull case ($200) ไปแล้ว 60%; antitrust investigation เพิ่ม regulatory risk ให้ RA ลดลง
 
-**Thesis Risk:** FTC antitrust investigation (May 2026) + RISC-V adoption acceleration + Qualcomm dispute escalation
+**Thesis Risk:** DOJ/FTC antitrust investigation ต่อ licensing practices (May 2026) + RISC-V adoption acceleration + Qualcomm lawsuit post-trial motions + ราคาเกิน FV ทุก scenario
 
-**Action:** ⏸ WATCH — ราคาเกิน FV; รอ pullback
+**Action:** ⏸ WATCH — ราคาเกิน FV Bull มาก; รอ pullback ≥50% ก่อน revisit
 
 ---
 
@@ -1537,6 +1539,7 @@ FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉ�
 ---
 
 ## Recent News
+**2026-05-26** — ⚖️ $ARM — ARM Holdings เผชิญการสอบสวน antitrust จากสหรัฐฯ เกี่ยวกับเทคโนโลยีชิป | [src](https://news.google.com/rss/articles/CBMimgFBVV95cUxNeWdmWTNST2prajRtd1JhNENOLXk0N1luS0I2U3M0UGo1RTJPa0Y4Y2xBb0FTOXQ3QVU0UHVyc2hhSUtXWWg2dkQ1UXJ0ZDZOSFhlSnd2dXVhT2pGc0lMbWVBRlBBc3I1ektQNV91Qk1xMmJibjY0VTE1N3AzUHVhSG1ycm9MTFdoV0VGV3d0VWZ2V1hhRklwRFNB)
 **2026-05-25** — ⚖️ $ARM — Arm Holdings เผชิญการสอบสวน antitrust จากหน่วยงานสหรัฐฯ เกี่ยวกับเทคโนโลยี chip | [src](https://news.google.com/rss/articles/CBMirwFBVV95cUxQTDl0SGR6cXR2TFozU2RpYUFxN3dkU1lxcE5MMUhTUkM2aHBBa2loQUFNTmlsNXF4d2Y3SjhmNW0zTmg5Ymt2WU55Q0p6dy05UEJsSTdLUTNaN3VOSHdTcFNkdmV2Tzdhc1VYaGJlOEQ2ZHFlSGxSQWRPT1k5ME96VFV1Q2RlM1J5UVoxd3ItdWx1WEJDU1MtNGROLWZ6MWNpZXg5c1c4eTY1NjZDWXAw)
 **2026-05-18** — $ARM — เผชิญกับการสอบสวน Antitrust จากหน่วยงาน FTC ของสหรัฐฯ เกี่ยวกับปัญหา Chip Licensing Practices ความเสี่ยงด้านนโยบายกำลังเพิ่มขึ้น
 **2026-05-07** — ARM Q4 FY2026 Earnings Review (Jason's Chips): Revenue $1.490B (+1.4% beat); ACV $1.66B (+22% YoY — deceleration from +28%); CFO Jason Child: "super cycle or whatever folks are calling it… who knows how much longer it goes" — Jason: incongruent with "AGI CPU" branding; ARM -6.4% AH despite +13.6% intraday; "the teammate that didn't hit a home run"
@@ -1828,6 +1831,7 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 ---
 
 ## Recent News
+**2026-05-27** — 🏭 $ASML — ASML วางแผนจ้างคนงาน 1,000 คนในไต้หวันเพื่อตอบสนองความต้องการของลูกค้าที่เพิ่มขึ้น | [src](https://news.google.com/rss/articles/CBMidkFVX3lxTE41TS14SjY5UExpdm0tMUZZOEdFRlhiLWUwNHBsRjloVXZPSDN3MU5vWWprNnk1RUJlczQ0Z0VCUERxY3huRVlnLXNFbGtwLTdLUjlHazlMR3dvd0c3akhOZzlFYWxkRGxuU1Nrc2pJRlF5X1ZPdEE?oc=5)
 **2026-05-23** — 🚀 $ASML — ราคาหุ้นขึ้นตามสัญญาณ Golden Cross ด้วย Technical ที่แข็งแกร่ง สะท้อนความเชื่อมั่นในอุปมงค์ High-NA lithography machines | [src](https://news.google.com/rss/articles/CBMimgFBVV95cUxOaFpDcEh6WVZ4d3BabGFuektpOWFhajZFZU5qM2tfVV9qNk1xN0l0clgtUllxeVFqZGozNFhIMjh1SnJSWmpHMDg0MTVGck9wTElZTGdCbGlnRzhoZ09PeUNDQ3U1MTA0cFp6OHdMYUE0eWdaTE5WaEd6MlE4MjV3aGp2dGF0Y3ZGUFhzXzB4OWFxTWRGVnpYRWVR?oc=5)
 **2026-05-21** — 🏭 $ASML — กำลังเป็นตัวดึงดูดความสนใจของนักลงทุน สะท้อนถึงศรัทธาในมูลค่าธุรกิจพื้นฐาน | [src](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQ3JYQlVJUkxrbXVGeWNtVDBVc2piVkdaWmNDNHVzbWlRS1BuTkhwb2VLVjBOZTZaSU5OM0I2bHNkRlg2MkpSRGpGZUhrMWR6SVozcVhCSEhnR1ZLT05MWF9TQjhTSUV5eS1GcXNLamZ6c3ZBbGNmSUhndEMzek04Um9ncVFiQ1RXR2VNYVhvOWIxTTFvSWRIcjIyZnZaVlZzVE5IellvMm1pOXBvMFpQTVo3WV9IczhWTVdQakMwamlSNlFJdGJvQ1RkZnd3bW8zeEE)
 **2026-05-18** — $ASML — เข้าร่วม Partnership กับ Tata Electronics ของอินเดีย ในโครงการ Fab ขนาด $11 พันล้านดอลลาร์ เครื่องหมายการขยายตัวของ Supply chain Semiconductor นอกจากไต้หวัน
@@ -1857,13 +1861,13 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $1632.90  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $1640.20  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $1632.90 | — |
+| Current Price | $1640.20 | — |
 | Fair Value (Weighted) | $1481.2 | — |
 | Fair Value Base | $1498 | — |
 | **Margin of Safety** | **-9.0%** | ✗ FAIL (gate 15%) |
@@ -2348,7 +2352,7 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~2.3% of re
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $414.14  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $414.14  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
@@ -2417,13 +2421,13 @@ Co-packaged optics (CPO) adoption เร็วกว่าคาด → ทำ�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $377.57  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $376.09  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $377.57 | — |
+| Current Price | $376.09 | — |
 | Fair Value (Weighted) | $293.3 | — |
 | Fair Value Base | $297 | — |
 | **Margin of Safety** | **-27.1%** | ✗ FAIL (gate 15%) |
@@ -2757,13 +2761,13 @@ CrowdStrike เป็น cloud-native cybersecurity platform บน Falcon platf
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $663.46  |  **Tier:** 🌱 Fast Grower  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $671.55  |  **Tier:** 🌱 Fast Grower  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $663.46 | — |
+| Current Price | $671.55 | — |
 | Fair Value (Weighted) | $495.0 | — |
 | Fair Value Base | $500 | — |
 | **Margin of Safety** | **-32.7%** | ✗ FAIL (gate 15%) |
@@ -3137,13 +3141,13 @@ Orders +240% YoY ใน Q1 2026 — ตัวเลขสูงมากจน�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $391.35  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $390.38  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $391.35 | — |
+| Current Price | $390.38 | — |
 | Fair Value (Weighted) | $409.0 | — |
 | Fair Value Base | $394 | — |
 | **Margin of Safety** | **0.7%** | ✗ FAIL (gate 15%) |
@@ -3586,7 +3590,7 @@ Intel อยู่ใน turnaround phase — CEO Lip-Bu Tan ใหม่ (2025)
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $119.84  |  **Tier:** ⚠️ Turnaround  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $119.84  |  **Tier:** ⚠️ Turnaround  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
@@ -3918,6 +3922,9 @@ Intel Corporation เป็นบริษัทที่ออกแบบแ�
 ---
 
 ## Recent News
+**2026-05-27** — 🏭 $INTC — Intel เข้าสู่ "Risk Production Phase" สำหรับ 14A ในปี 2028 ขณะเตรียมการลงทุนใหญ่ในเทคโนโลยี Foundry | [src](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ1NBcng1R014elhUYzNpTW40V08xU1NKZFNJQkxyaHJubHhQcHVTVjlkdnA3TENEU0FUTFk3a0NiTlhiWVdLMlRiSWhma2JwTk1GWmNVU0paTWpsR2FRYWRTZE1zRVVVRG5XY2wxOXRxTGNCcnlyb1NyQzBBc1psaDFIa0ExRkExel93ZnpXTHU3MkFEckw1NnZpMDQ0N2EwaVdjZFc3NG01cm8?oc=5)
+**2026-05-26** — 🚀 $INTC — Intel เปิดตัวเครื่องมือ AI SuperClaw | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxOLTkwaXdPZW1RWkliTUdfNHQ2bkh6X19WOWxvYWJyQjgwd0w1ZzRpRDNpd0xoZnFVblY3MjdpX0ViWndON2YxeFFNRHpkakp0alZCMm12QndkTEpYUkdVamd5NUE0RGdkanczaE1lbnptMElMQUtRdmNYcFU4UEFWLUw4bUt6ZnpRclJKdmxpSmw4c3NycFllaW9vcy1rdw)
+**2026-05-26** — 🤝 $INTC — Intel เรียกร้องให้ผู้ผลิต PC เปลี่ยนมาใช้ชิปรุ่นล่าสุดกลางความต้องการ AI | [src](https://news.google.com/rss/articles/CBMi7wFBVV95cUxOS0lYVUFVVFF1OG9XWFZBbXBSZU9UUnd1RXJSWUhoMVJMSWVHanBGdk9oQnB2MDM0Z2N4ZVIzMmVZNkhPdUllVVFQTkIzbW8zdHBva2ozOTBUV0R6UW1jemhXNlRwS01VWVNwS2pTR2MwSk81Z1B2ak1CYmdhZ21OOUM0VDdEdDVxWlVXaFFvcVVZeV9fOS1FWnRTSzBHa1FKa2VUdGtRWHpHdk5kUm9RSFFfaHk4X3BBVmpNWjBJRGw2a3hfVkQzRFZZQlZRa0lWbkNLUDZpT1BKQk1NVzVJTXN3R2ZpRFd6WGwxa1dIOA)
 **2026-04-24** — Q1 2026 Earnings: Revenue $13.58B (+10% beat); Non-GAAP EPS $0.29 (+1,400% vs $0.01 est); Non-GAAP GM 41% (+650 bps beat); INTC +20% AH, all-time high since 2000 dot-com bubble
 **2026-05-23** — 🤖 $INTC — หุ้นพุ่งขึ้นจากข่าวการพูดคุยกับ Tenstorrent ว่า Citi ปรับ price target ขึ้น สัญญาณความพยายาม Intel ฟื้นตัวจากวิกฤตการณ์ | [src](https://news.google.com/rss/articles/CBMitAFBVV95cUxQMWdaRDVLMEljSWNXTlQ1OWJpbVVxVk12bFB4ZjhLSnVIMEF4aWRFb2N0QjR6a2pBVXp2TXM2QWtIUk0wWGdxa29JRHlZaWZaY1d5VlNJcDF0VkFJSG5KQnBZUm9FZlROWDA1aHpxa0FMZkRualV0SE40NHFlcldZR3N4clcweF85WGo2S3V2UGdpaEJibGw0cEtpcjhiUWdBNzgtbTV4V0R0OXFNQUEtcmNOQ2I?oc=5)
 **2026-05-18** — $INTC — ข่าวลบ เนื่องจากการลงนามสัญญาระยะยาวกับ Apple ไม่สามารถเสริมความแข็งแกร่งให้ราคาหุ้นได้อย่างคาด
@@ -4567,6 +4574,7 @@ Marvell เป็น fabless semiconductor ที่ออกแบบชิป�
 ---
 
 ## Recent News
+**2026-05-27** — 🤖 $MRVL — Marvell เข้าร่วม NVIDIA AI Ecosystem ผ่านการร่วมมือ NVLink Fusion | [src](https://news.google.com/rss/articles/CBMirAFBVV95cUxNdVZUSU83TGk2TG1McGhCQ3ktMWgtNVVPdDljRDVhZ1duamR3eXpZa1o5U19DNHVTVTZvSTJ5NG9mR1lVLVRpYjVxYklVZkNYcUlEb0poeGhqWjZGbDRhVGFKdGJoUkxDNXhBd0NzOXlGM3h4VkxpLTRwMkhpQ3VFV3ZsOE9iTmxEUnIyWkhKUmJjcG9zTm1sYmpScEJSOGVGdGhlaW91MzNETnVn?oc=5)
 **2026-05-23** — 🤖 $MRVL — Stifel ยกระดับ price target บน Marvell คาดการ beat-and-raise จากความต้องการ AWS Trainium accelerators ที่สูง | [src](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWpaTzZkLXI2SXNYUjZlTnlTUjZhOTFJMm1nV3BWaGpJV0QxQndkZHA4ZDlrd1pEbkxieERSSE5tNFUxZjlzZDVRbXF1dWZzOU1EaTFEZGg0Rmk1N3plblJsZmpOWTNWeW4tcVNFSDFUQ1ZsRkdJTTUzajZPYjVkdnZIRlBqTTIwMHVFamd5UVc4TG43T0hpMElwMDh4RnZtdGlpMWtZLWVPN0E?oc=5)
 **2026-05-21** — 🤖 $MRVL — Marvell Technology มีศักยภาพขึ้นจากการเติบโตของ AI data center demand | [src](https://news.google.com/rss/articles/CBMirAFBVV95cUxPVUFPWG5kbHUtcTBXbGJsNHBOTW4wUXIxSnNEXzZZamRsdE85dEhlT1FWZjVFWERicWw5b2NrU2tuaDM1a041ZHdVR01MVDVDRmNBUWpqWG40NVpSakZpRk5yZkVTNzlLb0MxNUYxT2Zrc0VhcEpVT0htSUxXVmtTNnZONEI1UDFqTmxkOUlydjV5MG02N3ljV2xFcGVyWVRGMGZJYlNKTmdYYTFK)
 
@@ -4582,56 +4590,56 @@ Marvell เป็น fabless semiconductor ที่ออกแบบชิป�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-05-21  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-05-27  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
 
 **WHAT:** Marvell provides custom AI accelerators (XPU) to 5 US hyperscalers and PAM DSP optical interconnects (first-to-200G/lane) targeting $15B revenue by FY2028 — deeply embedded in hyperscaler multi-year silicon roadmaps.
 
-**WHY NOW:** NVIDIA's $2B equity investment in COHR signals optical interconnect urgency; Marvell's Celestial AI ($3.25B initial → $5.5B with milestones, closed Feb 2026) = Photonic Fabric for >33TB shared memory; **AWS already signed warrant agreement** (first customer locked in); $1B annual revenue target by end 2029; Q1 FY2027 earnings May 27 = next major catalyst; all 5 US hyperscalers by FY2027.
+**WHY NOW:** **NVIDIA NVLink Fusion partnership (May 27, 2026)** — NVIDIA formally integrates MRVL custom XPUs into its AI ecosystem via NVLink Fusion, confirming hyperscaler co-silicon strategy (custom XPU + NVIDIA Blackwell coexist natively); Celestial AI Photonic Fabric ($5.5B with milestones, closed Feb 2026) = scale-up interconnect for >33TB shared memory; **AWS warrant agreement signed** (first anchor customer); $1B annualized CPO revenue target by end 2029; all 5 US hyperscalers by FY2027. Q1 FY2027 earnings released today (May 27) — guidance midpoint $2.4B.
 
 **IF WRONG:** หาก hyperscalers scale up internal chip design teams (like Google's TPU team) และลด MRVL custom XPU dependency, หรือ Celestial AI Photonic Fabric รัน late >18 months ทำให้ FY2028 $15B target ไม่สำเร็จ.
 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $196.33  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $204.35  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $196.33 | — |
+| Current Price | $204.35 | — |
 | Fair Value (Weighted) | $152.6 | — |
 | Fair Value Base | $133 | — |
-| **Margin of Safety** | **-47.6%** | ✗ FAIL (gate 15%) |
-| **5-yr Expected Return** | **24.4%/yr** | ✓ PASS |
-| Forward P/E | 36.0× | — |
-| **PEG** | **0.42** | ✓ PASS |
+| **Margin of Safety** | **-53.6%** | ✗ FAIL (gate 15%) |
+| **5-yr Expected Return** | **23.0%/yr** | ✓ PASS |
+| Forward P/E | 37.5× | — |
+| **PEG** | **0.44** | ✓ PASS |
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $247 | +25.8% | Premium multiple × growth acceleration |
-| **Base** | $133 | -32.3% | Base multiple × consensus EPS |
-| **Bear** | $60 | -69.4% | Compressed multiple × thesis break |
+| **Bull** | $247 | +20.9% | Premium multiple × growth acceleration |
+| **Base** | $133 | -34.9% | Base multiple × consensus EPS |
+| **Bear** | $60 | -70.6% | Compressed multiple × thesis break |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution |
 |-----------|-------|--------|--------------|
-| BQ (Business Quality) | 8.0 | 30% | 2.40 |
-| GP (Growth Potential) | 9.0 | 30% | 2.70 |
+| BQ (Business Quality) | 8.5 | 30% | 2.55 |
+| GP (Growth Potential) | 9.5 | 30% | 2.85 |
 | VA (Valuation) | 3.5 | 25% | 0.88 |
 | RA (Risk Assessment) | 6.0 | 15% | 0.90 |
-| **WAF Total** | **6.88** | | **MEDIUM** |
+| **WAF Total** | **7.18** | | **MEDIUM** |
 
-**Investment Idea:** Hyperscaler Custom XPU + 200G/lane DSP — Celestial AI Photonic Fabric
+**Investment Idea:** Hyperscaler Custom XPU + 200G/lane DSP — Celestial AI Photonic Fabric + NVLink Fusion ecosystem
 
-**Thesis:** AWS Trainium ramp + 5 US hyperscalers customers — Stifel ยกระดับ target (May 23) — แต่ราคา $196 ขึ้น 16% ใน 4 วันเกิน FV $133
+**Thesis:** NVLink Fusion partnership (May 27) ยืนยัน MRVL เป็น official partner ของ NVIDIA ecosystem — custom XPU coexist กับ Blackwell; Q1 FY2027 earnings out today; ราคา $204 ยังเกิน FV Base $133; BQ/GP ขึ้นหลัง thesis confirmation
 
-**Thesis Risk:** CPO disruption ลด DSP TAM + 5-customer concentration risk + Celestial AI integration delays
+**Thesis Risk:** CPO disruption ลด DSP TAM + 5-customer concentration risk + Celestial AI integration delays + Q1 FY2027 earnings miss จาก guide
 
-**Action:** ⏸ WATCH — ER ผ่านแต่ MoS ยังไม่ถึง 15%; รอ pullback
+**Action:** ⏸ WATCH — ER ผ่าน 23%/yr แต่ MoS -53.6% FAIL; รอ pullback เข้า FV range
 
 ---
 
@@ -5042,13 +5050,13 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $418.57  |  **Tier:** 🏛️ Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $424.60  |  **Tier:** 🏛️ Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $418.57 | — |
+| Current Price | $424.60 | — |
 | Fair Value (Weighted) | $529.2 | — |
 | Fair Value Base | $519 | — |
 | **Margin of Safety** | **19.4%** | ✓ PASS |
@@ -5507,6 +5515,7 @@ Management note: FQ3 single-quarter guidance exceeds full-year revenue for every
 ---
 
 ## Recent News
+**2026-05-27** — 📊 $MU — Micron Technology เผชิญความต้องการที่เพิ่มขึ้นด้าน Memory และ AI ผลักดัน Market Momentum | [src](https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0NMWEx2MmxVaWgzdHQzMjdzXzZ1Qzl0RklnaTB0VHZDUXFBVnhMVlV5OTE1RzV3MjI0MVluWGFjTWRDcURYMkZqcmc2VFlzNDRpQ0xaRGM2NUtvZ1VqYzFzVzdhdTZSSFRjZ2NkSzl2Z3BEQ0RLWXZGd1ByZFNTRUlTcnJXZTM2VkREYXlEeWlxWXo2?oc=5)
 **2026-05-23** — 🏭 $MU — Melius Research ยกระดับ price target สะท้อนโอกาส upside จากการเติบโต memory demand ใน AI data center ecosystem | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxQb3V4V3FNTG9VOTdBMUJsVWllZkNVVm5yb21LVEd3ZVNQMjBqODFvUFBFT0hhZTJsdHA4RHRQblRaeDZ6Y05SQmxEVnQ5dGo2a1ZxNUJGZFp4dkV6ME9qT2xxVnd3dDVpOWNKU0Nnalh2SnNsRkhvX0NfLXY1SXBTZm5pN3dzUjZVc2piRFdGS2lSUkRfcEdfbDJHbW02dw?oc=5)
 **2026-05-21** — ⚠️ $MU — Micron ลดลง 14% ท่ามกลางความกังวลเรื่องวัฏจักร Memory Chip และ Samsung Strike ในเกาหลี | [src](https://news.google.com/rss/articles/CBMikwFBVV95cUxPa0xYTDdVSVN3cmhKTS1BTVRlVG0zMmZaelNaaExDaW44ZFo4MFFTaC1BRWN6REFieTZselUwelZLSllDS0J6RFgydENEbGV0XzVSdk1SWjVLa1N4RnV1bk5kVmRhZG9KVHloX3RKanp4aVJ1N1JLY0ZNbUZsVktsZ1l3OG53bkFicVpWS0ZfOEVMR1k)
 
@@ -5537,45 +5546,47 @@ Management note: FQ3 single-quarter guidance exceeds full-year revenue for every
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $751.00  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $902.88  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+
+> **Price Trigger:** +20.2% จาก $751 (May 25) → $902.88 (May 27) — Fair Value ถูกปรับขึ้นจาก Q2 FY26 massive beat: EPS $12.20 vs $9.21 est (+32%), Revenue $23.9B vs $20.0B est (+19.5%); UBS PT $1,625
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $751.00 | — |
-| Fair Value (Weighted) | $1326.8 | — |
-| Fair Value Base | $1393 | — |
-| **Margin of Safety** | **46.1%** | ✓ PASS |
-| **5-yr Expected Return** | **25.0%/yr** | ✓ PASS |
-| Forward P/E | 7.3× | — |
-| **PEG** | **0.15** | ✓ PASS |
+| Current Price | $902.88 | — |
+| Fair Value (Weighted) | $1,940.0 | — |
+| Fair Value Base | $2,000 | — |
+| **Margin of Safety** | **54.9%** | ✓ PASS |
+| **5-yr Expected Return** | **28.0%/yr** | ✓ PASS |
+| Forward P/E | 6.9× | — |
+| **PEG** | **0.23** | ✓ PASS |
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $2000 | +166.3% | Premium multiple × growth acceleration |
-| **Base** | $1393 | +85.5% | Base multiple × consensus EPS |
-| **Bear** | $400 | -46.7% | Compressed multiple × thesis break |
+| **Bull** | $2,800 | +210.1% | 20× × FY27E EPS $140 (full HBM supercycle) |
+| **Base** | $2,000 | +121.6% | 15× × FY27E EPS $130 (revised up post-Q2 beat) |
+| **Bear** | $500 | -44.6% | 6× × trough EPS $80 (memory downcycle) |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution |
 |-----------|-------|--------|--------------|
 | BQ (Business Quality) | 7.5 | 30% | 2.25 |
-| GP (Growth Potential) | 8.0 | 30% | 2.40 |
-| VA (Valuation) | 7.0 | 25% | 1.75 |
+| GP (Growth Potential) | 8.5 | 30% | 2.55 |
+| VA (Valuation) | 8.0 | 25% | 2.00 |
 | RA (Risk Assessment) | 5.5 | 15% | 0.82 |
-| **WAF Total** | **7.23** | | **MEDIUM** |
+| **WAF Total** | **7.63** | | **HIGH** |
 
-**Investment Idea:** HBM Memory Supercycle — LTAs lock floor pricing through 2028
+**Investment Idea:** HBM Memory Supercycle — Q2 FY26 massive beat confirms structural AI demand; sole US HBM supplier with LTAs through 2028-2029
 
-**Thesis:** SK Hynix 72% OM proves HBM pricing power + LTA floor pricing + KV cache problem in agentic AI = structural demand — Fwd PE 7.3 cheapest in AI semis
+**Thesis:** Q2 FY26 EPS $12.20 (+32% beat) + Revenue $23.9B (+19.5% beat) = AI memory demand running far ahead of consensus; KV cache agentic AI structurally demands HBM+NAND simultaneously; FV revised to $2,000 (15× FY27E $130E)
 
-**Thesis Risk:** ⚠️ Cyclical peak — SK Hynix/Samsung HBM capacity ramp faster forces price capitulation + CHIPS Act execution risk
+**Thesis Risk:** ⚠️ Cyclical peak — SK Hynix/Samsung HBM capacity ramp faster forces price capitulation + CHIPS Act execution risk + Samsung Korea strike resolution that releases capacity faster than LTA buffers
 
-**Action:** ✅ BUY — ผ่านทุก gate (MoS ≥15%, PEG ≤1.5, ER ≥15%, WAF ≥6.5)
+**Action:** ✅ BUY — ผ่านทุก gate (MoS 54.9% ≥15%, PEG 0.23 ≤1.5, ER 28% ≥15%, WAF 7.63 ≥6.5)
 
 ---
 
@@ -5606,13 +5617,13 @@ Content cost escalation ทำ margin compress; Disney+/Max bundling กัด�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $88.60  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $92.36  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $88.60 | — |
+| Current Price | $92.36 | — |
 | Fair Value (Weighted) | $124.3 | — |
 | Fair Value Base | $122 | — |
 | **Margin of Safety** | **27.4%** | ✓ PASS |
@@ -6568,13 +6579,13 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $215.33  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $214.28  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $215.33 | — |
+| Current Price | $214.28 | — |
 | Fair Value (Weighted) | $308.3 | — |
 | Fair Value Base | $308 | — |
 | **Margin of Safety** | **30.1%** | ✓ PASS |
@@ -6611,6 +6622,7 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Recent News
+**2026-05-27** — ⚠️ $NVDA — การจัดส่ง H200 ไปยังจีนชะลอตัวจากการเก็บแปลง 25% ของสหรัฐฯ ส่งผลกระทบต่อรายได้ | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxQOHlTRm8yZ1BBVE1GSk5QYmJwb3lkY2F4OG9adURNamZ3U3BtWXgzcFVGVmt1TE01Y2hmc2txOGtXa1N1ajhnamxvQ2gtRE9jbF9UNDNIWHhQbGZPNDl5NHMxYmNIOG1GMGJoNlhxeU1GbkxsNC1vOXh0d3FPR1hrMkJoQXo4d2ItNXhjNC1Vck5HSENJTmc?oc=5)
 **2026-05-23** — 🤖 $NVDA — Cerebras Systems เปิดตัว chip ที่อ้างว่าเร็วกว่าบาง Blackwell models ของ Nvidia ถึง 15 เท่า แต่ Nvidia ยังมีข้อได้เปรียบด้าน ecosystem และ supply chain | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxOLUhTWDl0N1A3UGpaajBHTUQ4aDVWVTZmMm9ySy1PbmlIRWMxMHducXNyWkFHMmtkRmpBVV8yQTVFX1FyeERQUHFKQ2ZXVVJHblN1QUpJOVhBTkFxUUdqS014X3pIV1JvbUc4X1lCTGhGZkNzcDktdHdSR1JtNVJqbThETnFjVmV5Q3N5VFo2R0w0U3lSQWpsYXVWOGJvLTBu?oc=5)
 **2026-05-21** — 📊 $NVDA — ประกาศผลประกอบการเบียงขึ้นกว่าคาดหวัง | [src](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEVFWXU1NllhRXlDVzRyVm1qbFVxenZEMXdGWG93Vko2bVkzdjMyQ2pIeVlBVGxTVTNLR05FU3F2ckJCNEFkVXY3eGY0RU1yS2JlSDg5OXJacDNqdHZVaUZnWXA1OVI4OThLSzR2cGRXTHJCUUR4a243NVVIMUZqYjNSUGRMM09hb3lndENSRzFoMTU0VUhzeThhMEQwdUN1LWhaZkIwdlRuWmJVV2RPc2ppNWY5MWZX)
 
@@ -6861,7 +6873,7 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $136.88  |  **Tier:** 🌱 Fast Grower  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $136.88  |  **Tier:** 🌱 Fast Grower  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
@@ -7655,13 +7667,13 @@ Robotaxi regulatory rejection หรือ accident → thesis collapse; Elon Mu
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $426.01  |  **Tier:** ⚠️ Turnaround  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $432.33  |  **Tier:** ⚠️ Turnaround  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $426.01 | — |
+| Current Price | $432.33 | — |
 | Fair Value (Weighted) | $202.8 | — |
 | Fair Value Base | $170 | — |
 | **Margin of Safety** | **-150.6%** | ✗ FAIL (gate 15%) |
@@ -8391,6 +8403,8 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Recent News
+**2026-05-27** — 🥊 $TSM — TSMC เผชิญความกดดันจากการขยายตัวของ Huawei ในการสร้างชิปขั้นสูง ซึ่งทดสอบความเป็นผู้นำด้าน Node ขั้นสูงและ Pricing Power | [src](https://news.google.com/rss/articles/CBMilwFBVV95cUxOVFR1WDl4V2ZmUEQtUnNTOU1NeGpNMXNqU2FLdGtXVThjenRManJnYm5kVWNkVVNzVUZTaXRET0NIaUlEdV9YVkI1YkxmSjNsTUZXeTRsRGNhcW5PZ18xQ2xHc3lta3dTVlhGUWNnbnBTYlBGVjVKUTNPbndpQXcyVDg4QUo0Y3J3UmdXcl9GdFM1VEFOUk9R?oc=5)
+**2026-05-27** — 🏭 $TSM — TSMC ขยายกำลังการผลิต ขณะที่ตลาดหุ้นไต้หวันขึ้นมาเป็นตลาดที่ 5 ของโลก | [src](https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2ZMbklIVnJnUW1Ibm1hbFNXUnJIdFFweG1TZncwRVc2eC1ldFkzbGFUUEliV19xNG1fVjQ0cnAxN0RmcWk2a081LUdCZ3B3bV9kbVBZZWZxNERVTUs1VTNGblkxU2F2R3JBNlJxNlBKZWVSTUZKZWotM3JtRnBtbGN1M3pDRi1UYnRuVmYzZjMzTVRQUnAtQlNnekVlTVF6Z3RycUUtX3A4MGMzeEZ4SGN3?oc=5)
 **2026-05-25** — 🏭 $TSM — TSMC ขยายธุรกิจเซนเซอร์ร่วมกับ Sony เพื่อเข้าสู่ตลาดใหม่และป้องกัน IP | [src](https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRmdUVnpRRnFtVW00aWlDYkVhOWppdEpXNWdITTdxX2wyT29HOWtrd0xsaGttdGk2b3pPUHpFUHNnX3hvT2FkeW83TUNpU0J3dmNkLXA3S2pyTlV0cGNhNmhIU09jcTdTeENhU1J3ZlI5OHpXRTBJVlJsY1Y5YkZDeER2ekdLU1FIc2FKZUx6dGlqdUkzZjBMVElFUVVZOEQzZi05VTBpRloxc1dIeFFXUURHSXpPem1mLWxXNzY4T1Z4NDB0SkpWdTdHcFF2ZjJFZUM1LXpiSWlXT3ppZlZaVWw5elQzNjlFRVlTN9IB8gFBVV95cUxOOG9ObUdWenF1RzY0d2FJeTZYMlBjcmFvamhMNWpKdlptdEhVd3FBUGxtLWVOVllvQ2FkOWVTSWExeVI3cVRiQXlBb2s2aVBrOEg2WWI4OFcyRGVzLUNocXhvZjB4SnB5ZURDM3N0Y19iRHppaXd5NnJocG9ORHdIeWZRRGoweVY2YnY4bDlITzF0NDVsM0VzTjg5Uk9pVTZNZ0tyRG5lUm55Z0JuYkI4Y1VDeTR5RmdBaFRwVllCTFE1WGpyUGdCaVFXSFVrWFZhcnNLdkJ4clZCd0pTbUNMTXA2M1dWT29QZDZ3VUpRQnZzQQ)
 
 ## Source Log
@@ -8416,7 +8430,7 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $404.52  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $404.52  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
@@ -8485,13 +8499,13 @@ Datacenter capex slowdown ถ้า AI ROI ไม่ชัดเจน → order
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-05-25  |  **Price:** $327.46  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
+**Last Updated:** 2026-05-27  |  **Price:** $337.53  |  **Tier:** 🔁 Cyclical  |  **Method:** P/E Multiple × Forward EPS (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $327.46 | — |
+| Current Price | $337.53 | — |
 | Fair Value (Weighted) | $123.1 | — |
 | Fair Value Base | $119 | — |
 | **Margin of Safety** | **-175.2%** | ✗ FAIL (gate 15%) |
