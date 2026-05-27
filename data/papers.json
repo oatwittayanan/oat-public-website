@@ -87,24 +87,24 @@
           },
           "va": {
             "score": 7.5,
-            "detail": "Fwd P/E 21.96; MoS 18.2% ✓ ผ่าน 15% gate; PEG 1.08 ✓ ต่ำกว่า ceiling 1.5; ER 18.9%/yr ✓ ผ่าน 15% hurdle — Inevitable tier อนุญาต PEG ≤ 2.0 แต่ actual PEG 1.08 = ยิ่งดี; cleanest risk/reward ใน watchlist",
-            "price": 424.60,
+            "detail": "Fwd P/E 21.5; MoS 19.8% ✓ ผ่าน 15% gate; PEG 1.08 ✓ ต่ำกว่า ceiling 1.5; ER 20.0%/yr ✓ ผ่าน 15% hurdle — Inevitable tier อนุญาต PEG ≤ 2.0 แต่ actual PEG 1.08 = ยิ่งดี; cleanest risk/reward ใน watchlist",
+            "price": 416.03,
             "fair_value_base": 519.0,
             "fair_value_bull": 735.0,
             "fair_value_bear": 300.0,
             "fair_value_weighted": 529.2,
-            "mos_pct": 18.2,
-            "forward_pe": 21.96,
+            "mos_pct": 19.8,
+            "forward_pe": 21.5,
             "peg": 1.08,
-            "expected_return_5yr_pct": 18.9,
+            "expected_return_5yr_pct": 20.0,
             "valuation_assumptions": {
               "fair_value_method": "28× P/E × FY26E EPS $18.53 = $518.84 ≈ $519",
               "pe_multiple_rationale": "28× = premium เหนือ S&P (21×) เพราะ Inevitable tier + durable cloud moat; discount จาก peak 35× เพราะ CapEx surge FY2026 $190B กด near-term FCF",
               "eps_basis": "FY2026 consensus EPS estimate $18.53 (yfinance, Q3 FY26 actuals support)",
               "growth_rate": "20% FY26–27 consensus (Azure acceleration + Copilot monetization)",
-              "peg_formula": "Fwd P/E 21.96 ÷ Growth 20% = 1.08",
-              "mos_formula": "(FV $519 − Price $424.60) ÷ $519 = 18.2%",
-              "data_source": "Warren watchlist_valuations.json 2026-05-27 + yfinance"
+              "peg_formula": "Fwd P/E 21.5 ÷ Growth 20% = 1.08",
+              "mos_formula": "(FV $519 − Price $416.03) ÷ $519 = 19.8%",
+              "data_source": "Warren watchlist_valuations.json 2026-05-25 + verified by Charlie $416.03 [CORRECTED 2026-05-27: ราคาเดิม $424.60 เกิดจาก yfinance rate-limit คืน stale price]"
             }
           },
           "ra": {

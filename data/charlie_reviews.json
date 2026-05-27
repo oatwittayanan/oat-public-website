@@ -3,25 +3,37 @@
     "id": "review-2026-05-27",
     "date": "2026-05-27",
     "paper_id": "2026-05-27",
-    "title": "Charlie Review — Paper #1 (Deploy พ.ค. 2026)",
+    "title": "Charlie Review — Paper #1 (Corrected) — Deploy เงินเดือน พ.ค. 2026",
     "overall_verdict": "CAUTION",
-    "overall_summary": "NVDA: fundamentals confirmed โดยสมบูรณ์ — Q1 beat massive และ Q2 guidance แข็งแกร่ง ✅ AGREE. MSFT: พบ new risk สำคัญที่ Warren ไม่ได้ระบุชัด — OpenAI cap revenue sharing ที่ $38B และการที่ OpenAI หันไปใช้ AWS ลดความ exclusive ของ MSFT ซึ่งกระทบ GP thesis ⚠️ CAUTION. META: Q1 earnings ยืนยัน thesis แต่พบ 3 new flags — (1) Zero buybacks Q1 ลดลงจาก $12.8B (2) Supreme Court ปฏิเสธ appeal Vermont = legal exposure ใหม่ (3) MoS 15.5% บางมาก ⚠️ CAUTION.",
+    "overall_summary": "Paper #1 ผ่านการตรวจสอบส่วนใหญ่ แต่มี 1 CAUTION สำคัญ: MSFT มี new risk ที่ Warren ไม่ได้ระบุ — OpenAI ตั้ง revenue cap $38B กับ MSFT (ข่าว 18–23 พ.ค. 2026) จำกัด AI upside ที่ Warren ใช้คำนวณ GP thesis; NVDA confirmed ทุกจุดและมี upside ใหม่ (Beijing summit); META ดีกว่าที่ Warren ประเมิน — ชนะ FTC คดี Nov 2025 แล้ว (ไม่ใช่แค่ pending) ทำให้ RA ควรสูงกว่า 6.0 ที่ Warren ให้ไว้",
     "ticker_reviews": [
       {
         "ticker": "NVDA",
-        "verdict": "AGREE",
-        "summary": "Q1 FY2027 earnings ยืนยัน Warren thesis ทุกจุด: Revenue $81.6B (+85% YoY), EPS $1.87 (+131%), Q2 guidance $91B = การเติบโตสามไตรมาสติดต่อกัน Blackwell + Vera CPU ramp ยังคงดำเนินอยู่ ราคา $214.86 ≈ entry thesis, MoS 30.4% ยังสมเหตุสมผล",
-        "agree_points": [
-          "Q1 FY27 Revenue $81.6B (+85% YoY) — beat estimates ชัดเจน",
-          "Data Center $75B (+92% YoY) = Blackwell demand confirmed",
-          "Q2 guidance ~$91B = visibility แข็งแกร่ง",
-          "Dividend 25x hike = management confidence สูง",
-          "Fwd P/E ~30x ณ ราคาปัจจุบัน = ยังสมเหตุสมผลกับ growth rate"
+        "warren_action": "BUY",
+        "warren_amount": 40,
+        "charlie_verdict": "AGREE",
+        "tier_verdict": "AGREE",
+        "summary": "Q1 FY2027 earnings ยืนยัน Warren thesis ทุกจุด: Revenue $81.6B (+85% YoY), EPS $1.87 (+131%), Q2 guidance $91B — Vera Rubin samples shipped จริงแล้วตาม schedule พบ upside ใหม่: Jensen Huang ร่วม Beijing Summit กับ Trump (พ.ค. 2026) = โอกาส China re-entry ที่ Warren ไม่ได้ include ใน thesis",
+        "verified_claims": [
+          "Revenue $81.6B (+85% YoY) ✓ confirmed by Q1 FY27 earnings",
+          "Q2 guidance ~$91B ✓ confirmed",
+          "Vera Rubin first samples shipped to customers ✓ on track H2 FY27",
+          "China Data Center revenue $0 Q2 ✓ Warren correctly noted this risk",
+          "Dividend 25x hike ✓ confirmed",
+          "Price $214.86 ≈ Warren's $214.28 ✓ difference 0.3% — accurate"
         ],
-        "risks_found": [
-          "China Data Center revenue = $0 ใน Q2 (export ban ยังต่อเนื่อง) — Warren รับรู้แล้วใน RA 7.0 แต่ยืนยันว่าเป็นจริง",
-          "Post-earnings stock ลดลงเล็กน้อย — ส่วนหนึ่งจาก elevated valuation near Fwd P/E 30x",
-          "Rising opex + competition risks ยังคงอยู่"
+        "concerns": [
+          "Analyst price targets มี wide range $140–$380 = uncertainty สูง",
+          "Trailing P/E 43x เกิน semiconductor average 25x — vulnerability ถ้า earnings disappoint",
+          "China revenue $0 confirmed — กระทบ near-term แต่ Q2 guide $91B absorb ไว้แล้ว"
+        ],
+        "red_flags": [],
+        "upside_surprises": [
+          "Jensen Huang ไปร่วม Beijing Summit กับ Trump + Xi Jinping (พ.ค. 2026) — potential China re-entry framework ที่ Warren ไม่ได้ include ในราคา"
+        ],
+        "verify_further": [
+          "ติดตาม outcome ของ Beijing Summit ว่า H200/H20 export framework เปลี่ยนไหม",
+          "Vera Rubin production ramp Q3 FY27 — ติดตาม TSMC CoWoS capacity availability"
         ],
         "price_at_review": 214.86,
         "warren_fv": 308.0,
@@ -30,43 +42,66 @@
       },
       {
         "ticker": "MSFT",
-        "verdict": "CAUTION",
-        "summary": "Azure growth และ Copilot thesis ยังคงอยู่ แต่พบ NEW RISK สำคัญที่ Warren ไม่ได้ประเมินชัด: (1) OpenAI ตั้ง revenue sharing cap ที่ $38B ซึ่งจำกัด AI upside ที่ Warren ใช้ใน GP thesis (2) OpenAI diversify ไปหา AWS = MSFT ไม่ใช่ exclusive AI partner อีกต่อไป (3) FY2026 CapEx ทะลุ $190B (vs $150B เดิม) กด near-term FCF margin มากกว่าที่คาด",
-        "agree_points": [
-          "Azure cloud growth thesis ยังคงแข็งแกร่ง",
-          "RPO $627B+ = revenue visibility ดีมาก",
-          "Enterprise moat (Windows/Office/Azure) ยังคงสมบูรณ์",
-          "Fwd P/E ~22x ยังต่ำกว่า peak"
+        "warren_action": "BUY",
+        "warren_amount": 35,
+        "charlie_verdict": "CAUTION",
+        "tier_verdict": "AGREE",
+        "summary": "Azure thesis ยังคงแข็งแกร่ง แต่พบ NEW RISK สำคัญ 2 เรื่องที่ Warren ไม่ได้ระบุใน Paper: (1) OpenAI ตั้ง revenue sharing cap $38B กับ MSFT ซึ่งจำกัด AI partnership upside ที่ Warren ใช้ใน GP; (2) Copilot retention lagging expectations ตาม user surveys BUY ยังสมเหตุสมผลในระยะยาว แต่ต้องติดตาม AI monetization timeline อย่างใกล้ชิด",
+        "verified_claims": [
+          "Azure +29% YoY ✓ confirmed by Q3 FY26 results",
+          "RPO $627B+ ✓ confirmed",
+          "Price $416.03 ✓ verified by Charlie — ตรงกับ corrected Warren entry price",
+          "MoS 19.8% ✓ at $416.03 vs FV $519 — ผ่าน gate 15% อย่างสบาย",
+          "Consensus Buy rating: 31 analysts Buy, target $565 ✓",
+          "CapEx FY2026 ~$190B — Warren ระบุไว้ถูกต้อง"
         ],
-        "risks_found": [
-          "⚠️ NEW: OpenAI ตั้ง revenue sharing cap $38B กับ MSFT — จำกัด upside จาก AI monetization ที่ Warren assume ว่าไม่มี cap",
-          "⚠️ NEW: OpenAI ทำ deals กับ AWS และ partners อื่น = ลด exclusivity ของ MSFT จาก OpenAI relationship",
-          "⚠️ CapEx FY2026 projected $190B (vs $150B estimate เดิม) = FCF pressure มากกว่าที่ Warren ประเมิน",
-          "Gaming division ยังคง decline -30%+ สองไตรมาสติดต่อกัน",
-          "MoS 18.2% บาง — ราคาปัจจุบัน $413.50 ต่ำกว่า entry $424.60 แล้ว"
+        "concerns": [
+          "⚠️ NEW: OpenAI ตั้ง revenue sharing cap $38B กับ MSFT (ข่าว 18–23 พ.ค. 2026) — จำกัด upside ที่ Warren ใช้คำนวณ GP score 8.5",
+          "⚠️ NEW: Copilot retention lagging — user surveys show enthusiasm fades when alternatives tested",
+          "MSFT เป็น worst Mag7 performer 2026 ปีนี้ (-13% YTD) — market repricing AI payoff expectations",
+          "CapEx $190B FY2026 กด near-term FCF และ gross margin ลดลง YoY"
         ],
-        "price_at_review": 413.50,
+        "red_flags": [
+          "OpenAI revenue cap $38B ต้องตรวจสอบว่ากระทบ FY27 GP estimate ของ Warren แค่ไหน — ถ้า OpenAI upside จำกัด GP อาจต่ำกว่า 8.5 ที่ Warren ให้"
+        ],
+        "verify_further": [
+          "ติดตาม OpenAI revenue sharing agreement รายละเอียด — มีผลต่อ MSFT FY27 EPS estimate ไหม",
+          "Copilot enterprise renewal rate Q4 FY26 — ถ้าต่ำกว่า 70% = thesis risk"
+        ],
+        "price_at_review": 416.03,
         "warren_fv": 519.0,
-        "warren_mos_pct": 18.2,
+        "warren_mos_pct": 19.8,
         "data_date": "2026-05-27"
       },
       {
         "ticker": "META",
-        "verdict": "CAUTION",
-        "summary": "Q1 2026 earnings ยืนยัน AI ads flywheel ของ Warren: Revenue +33%, Net Income +61%, OM 41% record ✅ แต่พบ 3 flags สำคัญ: (1) Zero buybacks ใน Q1 (vs $12.8B ปีก่อน) = capital allocation เปลี่ยน all-in capex (2) Supreme Court ปฏิเสธ appeal Vermont lawsuit = legal exposure ขยายตัว (3) CapEx 2026 ทะลุ $145B = margin pressure มากกว่าที่ประเมิน; MoS เพียง 15.5% ทำให้ buffer น้อยมากหากข่าวลบมา",
-        "agree_points": [
-          "Q1 Revenue +33% YoY = AI ads flywheel confirmed",
-          "Net Income +61% YoY = strong profitability",
-          "OM 41% record = pricing power ยืนยัน",
-          "AI-driven impressions +19% × price +12% = simultaneous growth ตรงตาม thesis",
-          "Fwd P/E ~17x ยังถูกสุดใน Big Tech"
+        "warren_action": "BUY",
+        "warren_amount": 15,
+        "charlie_verdict": "AGREE",
+        "tier_verdict": "AGREE",
+        "summary": "META ดีกว่าที่ Warren ประเมินไว้ — Warren ให้ RA 6.0 เพราะ FTC divestiture เป็น 'existential binary risk' แต่ Charlie พบว่า Meta ชนะ FTC คดีแล้วตั้งแต่ Nov 2025 (Judge Boasberg ปฏิเสธ divestiture) FTC กำลัง appeal แต่ downside risk ลดลงมาก; Q1 2026 earnings ยืนยัน AI ads flywheel ทุกจุด — META น่าสนใจกว่าที่ WAF 8.17 สะท้อน",
+        "verified_claims": [
+          "Q1 2026 Revenue +33% YoY ✓ confirmed",
+          "Operating Margin 41% record ✓ confirmed",
+          "AI Impressions +19% × Price +12% simultaneous ✓ confirmed",
+          "Meta AI 1.2B users ✓ confirmed",
+          "Price $612.34 ≈ Warren's $610.26 ✓ difference 0.3% — accurate",
+          "MoS at current price: (722-612.34)/722 = 15.2% ✓ still above 15% gate"
         ],
-        "risks_found": [
-          "⚠️ NEW: Zero share buybacks ใน Q1 2026 (down จาก $12.8B Q1 2025) — capital ถูก redirected ทั้งหมดไปหา AI capex",
-          "⚠️ NEW: Supreme Court ปฏิเสธ hearing Meta Vermont lawsuit (May 26, 2026) = legal exposure เพิ่มขึ้น ที่ Warren ยังไม่ได้ factor in",
-          "⚠️ CapEx 2026 ทะลุ $145B (vs prior guidance ต่ำกว่า) — FCF margin กดดัน",
-          "EU DSA preliminary finding: fine up to $12B (Warren รับรู้แล้ว แต่ยืนยันว่า proceeding จริง)",
-          "MoS เพียง 15.5% = ที่ราคา $612.34 ปัจจุบัน ต่ำกว่า entry $610.26 เล็กน้อย = MoS ต่ำกว่า 15% แล้ว"
+        "concerns": [
+          "⚠️ Zero share buybacks Q1 2026 (vs $12.8B Q1 2025) — capex all-in",
+          "EU DSA fine up to $12B proceeding อยู่",
+          "CapEx 2026 $145B = FCF pressure ระยะสั้น",
+          "MoS 15.2% ที่ราคาปัจจุบัน = บาง ถ้าราคาขึ้นอีก 0.2% จะต่ำกว่า gate"
+        ],
+        "red_flags": [],
+        "upside_surprises": [
+          "META ชนะ FTC antitrust case Nov 2025 — Warren ให้ RA 6.0 เพราะ FTC risk แต่ risk นี้ลดลงมากแล้ว RA ที่ถูกต้องน่าจะเป็น 7.0–7.5 → WAF จริงๆ น่าจะสูงกว่า 8.17",
+          "eMarketer คาดว่า META จะแซง Alphabet ในแง่ global digital ad revenue ปี 2026"
+        ],
+        "verify_further": [
+          "ติดตาม FTC appeal outcome — แม้ชนะ district court แล้ว appeal อาจใช้เวลา 2-3 ปี",
+          "META MoS บาง — ถ้าราคาเกิน $612 อีก 0.3% = ต่ำกว่า 15% gate; ต้อง monitor entry price"
         ],
         "price_at_review": 612.34,
         "warren_fv": 722.0,
@@ -75,24 +110,27 @@
       }
     ],
     "points_to_verify": [
-      "MSFT: ติดตาม OpenAI revenue sharing deal รายละเอียดเพิ่มเติม — มีผลต่อ FY27 GP estimate ของ Warren มากแค่ไหน",
-      "META: ติดตาม EU DSA fine ruling — ถ้าเป็น $12B จริงจะกระทบ net income FY2026 ประมาณ 6–7%",
-      "META: ติดตาม FTC appeal outcome — ยังคง existential risk สูงสุดใน portfolio"
+      "MSFT: OpenAI revenue cap $38B — ต้องหาว่ากระทบ MSFT AI revenue timeline แค่ไหน และ GP score 8.5 ยังถูกไหม",
+      "MSFT: Copilot enterprise renewal rate — ถ้า retention ต่ำ = GP thesis at risk",
+      "NVDA: ติดตาม Beijing Summit outcome — China re-entry framework จะเป็น significant upside catalyst",
+      "META: RA score 6.0 ของ Warren อาจต่ำเกินไป — FTC risk ลดลงแล้ว ราคาและ WAF ควรสะท้อนความจริงนี้"
     ],
     "watch_out": [
-      "MSFT ราคาปัจจุบัน $413.50 ต่ำกว่า Warren's entry $424.60 แล้ว — ถ้าลงต่อ MoS จะเพิ่มขึ้น (ดีสำหรับ Warren) แต่ OpenAI cap risk ทำให้ FV $519 อาจต้องปรับลง",
-      "META MoS ต่ำมาก — ณ ราคา $612.34 เทียบ FV $722 = MoS 15.2% ต่ำกว่า gate 15% เล็กน้อย ถ้า Warren ซื้อ $610.26 และราคาขึ้นมา entry นี้เสี่ยงว่าจะไม่ผ่าน gate แล้ว",
-      "NVDA China risk confirmed — $0 revenue Q2 = กระทบ FY27 revenue จริง แต่ guidance $91B absorb ไว้แล้ว"
+      "MSFT เป็น worst Mag7 performer -13% YTD — market repricing OpenAI upside; ถ้าลงต่อ MoS จะดีขึ้น แต่ GP thesis อาจต้องปรับ",
+      "META MoS เหลือน้อย — ณ $612.34 = 15.2% แทบผ่าน gate; ถ้าราคาขึ้นอีก แนะนำ Warren ทบทวน FV $722 ก่อน deploy เพิ่ม",
+      "NVDA analyst range $140–$380 = uncertainty สูงมาก — position sizing ตาม tier (Pre-Inevitable 10–25%) เหมาะสมแล้ว"
     ],
+    "price_correction_note": "CORRECTED 2026-05-27: Warren Paper #1 มีราคา MSFT ผิดพลาด $424.60 → แก้เป็น $416.03 (yfinance rate-limit คืน stale price) Charlie review นี้ใช้ราคา $416.03 ตลอด MoS 19.8% (ก่อนแก้: 18.2%)",
     "data_sources": [
-      "yfinance — NVDA/MSFT/META prices and financial data",
-      "Yahoo Finance quotes — price verification",
-      "CNBC NVDA Q1 FY2027 earnings report (May 20, 2026)",
-      "TIKR.com — NVIDIA Q1 2027 Earnings $81.6B",
-      "FX Leaders — MSFT OpenAI revenue sharing cap $38B (May 2026)",
-      "Quartz / Yahoo Finance — META Q1 2026 earnings capex $145B",
-      "US News — Supreme Court declines META Vermont lawsuit (May 26, 2026)",
-      "FX Leaders — NVDA China risks post-Q1 (May 26, 2026)"
+      "Yahoo Finance — NVDA $214.86, MSFT $416.03, META $612.34 (close May 26, 2026)",
+      "WebSearch — NVDA Q1 FY27 results: Revenue $81.6B, EPS $1.87 confirmed",
+      "ProactiveInvestors — Vera Rubin samples shipped, H2 FY27 production on track",
+      "FX Leaders — MSFT OpenAI revenue sharing cap $38B (May 18–23, 2026)",
+      "Motley Fool — MSFT worst Mag7 performer 2026 (-13% YTD)",
+      "Yahoo Finance / NPR / CBS News — Meta WON FTC antitrust case Nov 2025 (Judge Boasberg ruling)",
+      "Carbon Law Group — FTC v. Meta appeal status 2026",
+      "WebSearch — Meta eMarketer ad revenue 2026 forecast",
+      "CryptoBriefing / Motley Fool — Jensen Huang Beijing Summit with Trump + Xi May 2026"
     ]
   }
 ]
