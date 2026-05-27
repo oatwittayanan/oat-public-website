@@ -1,24 +1,29 @@
 {
   "dates": [
-    "2026-05-26"
+    "2026-05-26",
+    "2026-05-27"
   ],
   "portfolio": [
+    100.0,
     100.0
   ],
   "voo": [
-    100.0
+    100.0,
+    99.99
   ],
   "qqqm": [
-    100.0
+    100.0,
+    99.9
   ],
   "deposited": [
+    100.0,
     100.0
   ],
   "summary": {
     "portfolio_pct": 0.0,
-    "voo_pct": 0.0,
-    "qqqm_pct": 0.0,
+    "voo_pct": -0.01,
+    "qqqm_pct": -0.1,
     "total_deposited": 100.0
   },
-  "generated_at": "2026-05-27T07:23:36Z"
+  "generated_at": "2026-05-27T23:59:14Z"
 }
