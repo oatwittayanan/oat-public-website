@@ -98,18 +98,31 @@ def fetch_sheet_rows() -> list[list[str]]:
         from google.oauth2 import service_account
         from googleapiclient.discovery import build
     except ImportError:
-        print("[fetch] ERROR: google-api-python-client not installed")
-        print("  Run: pip3 install google-api-python-client google-auth")
+        print("[fetch] ERROR: google-api-python-client not installed — pip install google-api-python-client google-auth")
         sys.exit(1)
 
-    if not Path(CRED_FILE).exists():
-        print(f"[fetch] ERROR: credential file not found: {CRED_FILE}")
+    # Support credentials from env var (GitHub Actions Secret) or file path
+    cred_json_str = os.environ.get("GOOGLE_CRED_JSON", "")
+    if cred_json_str:
+        import tempfile
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as tmp:
+            tmp.write(cred_json_str)
+            tmp_path = tmp.name
+        creds = service_account.Credentials.from_service_account_file(
+            tmp_path,
+            scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
+        )
+        os.unlink(tmp_path)
+        print("[fetch] using GOOGLE_CRED_JSON env var")
+    elif Path(CRED_FILE).exists():
+        creds = service_account.Credentials.from_service_account_file(
+            CRED_FILE,
+            scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
+        )
+        print(f"[fetch] using credential file: {CRED_FILE}")
+    else:
+        print(f"[fetch] ERROR: no credentials found (GOOGLE_CRED_JSON env or {CRED_FILE})")
         sys.exit(1)
-
-    creds = service_account.Credentials.from_service_account_file(
-        CRED_FILE,
-        scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
-    )
     service = build("sheets", "v4", credentials=creds)
     result = service.spreadsheets().values().get(
         spreadsheetId=SHEET_ID,
