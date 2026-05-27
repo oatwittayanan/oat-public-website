@@ -320,11 +320,12 @@
               <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Fwd P/E</th>
               <th style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">PEG</th>
               <th style="padding:12px 16px; text-align:left; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Action</th>
+              <th style="padding:12px 16px; text-align:center; font-family:var(--font-mono); font-size:10px; color:var(--fg-dim); letter-spacing:0.08em; text-transform:uppercase; font-weight:500">Charlie</th>
             </tr>
           </thead>
           <tbody id="watchlist-tbody">
             <tr>
-              <td colspan="9" style="text-align:center; padding:32px; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">กำลังโหลดข้อมูล...</td>
+              <td colspan="10" style="text-align:center; padding:32px; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">กำลังโหลดข้อมูล...</td>
             </tr>
           </tbody>
         </table>
@@ -1762,6 +1763,17 @@ async function renderCategoryAllocation(holdings, cashVal, portVal) {
     if (v >= 0)    return 'var(--amber)';
     return 'var(--red)';
   }
+  function charlieCell(c) {
+    if (!c || !c.verdict) return '<span style="color:var(--fg-dim); font-size:11px">—</span>';
+    const v = c.verdict;
+    const styles = {
+      AGREE:    'background:var(--green-soft); color:var(--green); border:1px solid var(--green-line)',
+      CAUTION:  'background:var(--amber-soft); color:var(--amber); border:1px solid var(--amber-line)',
+      DISAGREE: 'background:rgba(239,68,68,0.08); color:#ef4444; border:1px solid rgba(239,68,68,0.2)',
+    };
+    const st = styles[v] || 'background:rgba(71,85,105,0.12); color:var(--fg-muted); border:1px solid var(--hairline)';
+    return `<span style="font-family:var(--font-mono); font-size:10px; padding:2px 7px; border-radius:4px; ${st}; white-space:nowrap">${v}</span>`;
+  }
 
   try {
     const res    = await fetch('data/stocks.json');
@@ -1806,11 +1818,12 @@ async function renderCategoryAllocation(holdings, cashVal, portVal) {
           <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">${fpe}</td>
           <td style="padding:12px 16px; text-align:right; font-family:var(--font-mono); font-size:12px">${peg}</td>
           <td style="padding:12px 16px"><span class="action action-${action}" style="font-size:11px; padding:3px 8px">${label}</span></td>
+          <td style="padding:12px 16px; text-align:center">${charlieCell(s.charlie)}</td>
         </tr>`;
     }).join('');
 
   } catch (_) {
-    if (tbody) tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding:32px; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">ยังไม่มีข้อมูล Valuation — รัน /warren watchlist เพื่อ generate</td></tr>`;
+    if (tbody) tbody.innerHTML = `<tr><td colspan="10" style="text-align:center; padding:32px; color:var(--fg-dim); font-family:var(--font-mono); font-size:12px">ยังไม่มีข้อมูล Valuation — รัน /warren watchlist เพื่อ generate</td></tr>`;
     if (counter) counter.textContent = '—';
   }
 })();
