@@ -8,22 +8,43 @@ Usage:  python3 scripts/generate_site_data.py
 """
 
 import json
+import os
 import re
 import sys
 from datetime import datetime
 from pathlib import Path
 
-# ── Paths ─────────────────────────────────────────────────────────────────────
-ROOT           = Path(__file__).parent.parent
-OAT_OS         = ROOT.parent
-INVESTMENT_DIR = OAT_OS / "investment-system"
-WATCHLIST_JSON = OAT_OS / "kim-line-bot/config/watchlist.json"
-WATCHLIST_VALUATIONS_JSON = INVESTMENT_DIR / "portfolio/watchlist_valuations.json"
-KNOWLEDGE_DIR  = OAT_OS / "oat-investment-knowledge/knowledge"
+# ── Paths — support env var overrides for CI/GitHub Actions ───────────────────
+ROOT   = Path(__file__).parent.parent
+OAT_OS = ROOT.parent
 
-CHARLIE_WATCHLIST_JSON = INVESTMENT_DIR / "portfolio/charlie_watchlist_reviews.json"
-PAPERS_JSON            = INVESTMENT_DIR / "portfolio/papers.json"
-CHARLIE_REVIEWS_JSON   = INVESTMENT_DIR / "portfolio/charlie_reviews.json"
+_INVESTMENT_DIR = OAT_OS / "investment-system"
+_KNOWLEDGE_REPO = OAT_OS / "oat-investment-knowledge"
+
+WATCHLIST_JSON = Path(os.environ.get(
+    "WATCHLIST_JSON",
+    str(OAT_OS / "kim-line-bot/config/watchlist.json"),
+))
+WATCHLIST_VALUATIONS_JSON = Path(os.environ.get(
+    "WATCHLIST_VALUATIONS_JSON",
+    str(_INVESTMENT_DIR / "portfolio/watchlist_valuations.json"),
+))
+KNOWLEDGE_DIR = Path(os.environ.get(
+    "KNOWLEDGE_DIR",
+    str(_KNOWLEDGE_REPO / "knowledge"),
+))
+CHARLIE_WATCHLIST_JSON = Path(os.environ.get(
+    "CHARLIE_WATCHLIST_JSON",
+    str(_INVESTMENT_DIR / "portfolio/charlie_watchlist_reviews.json"),
+))
+PAPERS_JSON = Path(os.environ.get(
+    "PAPERS_JSON",
+    str(_INVESTMENT_DIR / "portfolio/papers.json"),
+))
+CHARLIE_REVIEWS_JSON = Path(os.environ.get(
+    "CHARLIE_REVIEWS_JSON",
+    str(_INVESTMENT_DIR / "portfolio/charlie_reviews.json"),
+))
 
 OUT_STOCKS     = ROOT / "data/stocks.json"
 OUT_KNOWLEDGE  = ROOT / "knowledge.js"
