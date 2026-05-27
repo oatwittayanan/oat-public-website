@@ -1,29 +1,32 @@
 """
 generate_benchmark.py
-Reads trade history from public Google Sheet CSV,
+Reads trade history from Google Sheet via Service Account,
 calculates Portfolio vs VOO vs QQQM using yfinance prices,
 and writes data/benchmark.json.
 
-No credentials needed — Sheet must be publicly readable.
+Requires: google-api-python-client google-auth
+Credential file: /Users/wittayanan/DATA/Credentials/oat-portfolio-dd6c8e0730ab.json
 """
 
 import io
 import json
+import os
 import re
 import sys
 from datetime import datetime, date
 from pathlib import Path
 
 import pandas as pd
-import requests
 import yfinance as yf
 
 # ── Config ────────────────────────────────────────────────────────────────────
-SHEET_ID  = "1jlSF2S6e6wSkf2KnnfmC9-zIx-RjRg8y_L69FUnL_90"
-SHEET_GID = "1519518339"   # main sheet (transactions + deposits)
-CSV_URL   = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={SHEET_GID}"
+SHEET_ID    = "1jlSF2S6e6wSkf2KnnfmC9-zIx-RjRg8y_L69FUnL_90"
+CRED_FILE   = os.environ.get(
+    "GOOGLE_CRED_FILE",
+    "/Users/wittayanan/DATA/Credentials/oat-portfolio-dd6c8e0730ab.json"
+)
 
-OUT_FILE  = Path(__file__).parent.parent / "data" / "benchmark.json"
+OUT_FILE    = Path(__file__).parent.parent / "data" / "benchmark.json"
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 THAI_MONTHS = {
@@ -88,6 +91,42 @@ def parse_date(s) -> date | None:
     return None
 
 
+# ── Fetch sheet rows via Service Account ──────────────────────────────────────
+def fetch_sheet_rows() -> list[list[str]]:
+    """Return all rows from the main Transaction sheet as list of string lists."""
+    try:
+        from google.oauth2 import service_account
+        from googleapiclient.discovery import build
+    except ImportError:
+        print("[fetch] ERROR: google-api-python-client not installed")
+        print("  Run: pip3 install google-api-python-client google-auth")
+        sys.exit(1)
+
+    if not Path(CRED_FILE).exists():
+        print(f"[fetch] ERROR: credential file not found: {CRED_FILE}")
+        sys.exit(1)
+
+    creds = service_account.Credentials.from_service_account_file(
+        CRED_FILE,
+        scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
+    )
+    service = build("sheets", "v4", credentials=creds)
+    result = service.spreadsheets().values().get(
+        spreadsheetId=SHEET_ID,
+        range="Transaction"
+    ).execute()
+    raw_rows = result.get("values", [])
+    # Pad each row to at least 36 cols and convert all to str
+    out = []
+    for row in raw_rows:
+        padded = [str(c).strip() if c is not None else "" for c in row]
+        while len(padded) < 36:
+            padded.append("")
+        out.append(padded)
+    print(f"[fetch] {len(out)} rows from Service Account")
+    return out
+
+
 # ── Fetch trade history ───────────────────────────────────────────────────────
 def fetch_trades() -> pd.DataFrame:
     """
@@ -97,12 +136,8 @@ def fetch_trades() -> pd.DataFrame:
       Deposits:     AI(34)=date AJ(35)=USD amount
     Headers on row index 2, data starts index 3.
     """
-    print(f"[fetch] downloading sheet CSV …")
-    resp = requests.get(CSV_URL, timeout=30)
-    resp.raise_for_status()
-    resp.encoding = "utf-8"
-
-    rows = list(pd.read_csv(io.StringIO(resp.text), header=None).values)
+    print(f"[fetch] loading sheet via Service Account …")
+    rows = fetch_sheet_rows()
     records = []
 
     for row in rows[3:]:   # skip first 3 rows (summary / headers)
@@ -162,8 +197,40 @@ def fetch_trades() -> pd.DataFrame:
 
 
 # ── Price loader ──────────────────────────────────────────────────────────────
+def _fetch_prices_http(tickers: list[str], start_date) -> dict[str, dict[str, float]]:
+    """Fetch closing prices via direct Yahoo Finance v8 API (no yfinance dependency)."""
+    import time as _time
+    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
+    try:
+        start_dt = start_date if isinstance(start_date, datetime) else datetime.combine(start_date, datetime.min.time())
+        period1  = int(start_dt.timestamp())
+        period2  = int(_time.time()) + 86400
+    except Exception:
+        period1 = 0; period2 = int(_time.time()) + 86400
+
+    result: dict[str, dict[str, float]] = {t: {} for t in tickers}
+    for sym in tickers:
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?period1={period1}&period2={period2}&interval=1d"
+        try:
+            import requests as _req
+            r = _req.get(url, headers=headers, timeout=15)
+            data = r.json()
+            chart = data.get("chart", {}).get("result", [{}])[0]
+            closes = chart.get("indicators", {}).get("quote", [{}])[0].get("close", [])
+            ts_list = chart.get("timestamp", [])
+            for ts_val, c in zip(ts_list, closes):
+                if c is not None and not (isinstance(c, float) and c != c):  # not NaN
+                    dt_str = datetime.utcfromtimestamp(ts_val).strftime("%Y-%m-%d")
+                    result[sym][dt_str] = round(float(c), 4)
+        except Exception as ex:
+            print(f"[prices-http] {sym}: {ex}")
+    return result
+
+
 def load_prices(tickers: list[str], start_date) -> pd.DataFrame:
     print(f"[prices] downloading {tickers} from {start_date} …")
+
+    # Try 1: yfinance
     try:
         raw = yf.download(tickers, start=str(start_date)[:10],
                           progress=False, auto_adjust=True)
@@ -171,13 +238,29 @@ def load_prices(tickers: list[str], start_date) -> pd.DataFrame:
         if isinstance(prices, pd.Series):
             prices = prices.to_frame(name=tickers[0])
         prices.columns = [str(c) for c in prices.columns]
-        # Forward-fill gaps (weekends/holidays)
         prices = prices.ffill()
-        print(f"[prices] {len(prices)} trading days, cols: {list(prices.columns)}")
-        return prices
+        if not prices.empty:
+            print(f"[prices] {len(prices)} trading days via yfinance, cols: {list(prices.columns)}")
+            return prices
     except Exception as e:
-        print(f"[prices] ERROR: {e}")
+        print(f"[prices] yfinance failed ({e}), falling back to HTTP …")
+
+    # Try 2: direct Yahoo Finance HTTP
+    print(f"[prices] trying direct HTTP …")
+    http_data = _fetch_prices_http(tickers, start_date)
+    all_dates = sorted(set(dt for sym in http_data.values() for dt in sym.keys()))
+    if not all_dates:
+        print("[prices] HTTP also empty — aborting")
         return pd.DataFrame()
+
+    idx = pd.to_datetime(all_dates)
+    df = pd.DataFrame(index=idx)
+    for sym in tickers:
+        sym_map = http_data.get(sym, {})
+        df[sym] = pd.Series({pd.Timestamp(d): v for d, v in sym_map.items()})
+    df = df.ffill()
+    print(f"[prices] {len(df)} trading days via HTTP, cols: {list(df.columns)}")
+    return df
 
 
 # ── Core comparison (same logic as Warren's build_comparison) ─────────────────

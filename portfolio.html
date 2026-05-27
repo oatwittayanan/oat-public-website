@@ -422,18 +422,10 @@ const TICKER_COLORS = {
 };
 const DEFAULT_COLORS = ['#f59e0b','#06b6d4','#84cc16','#f43f5e','#8b5cf6','#fb923c'];
 
-// Fallback static config (used if Sheet fetch fails)
-const HOLDINGS_CONFIG = [
-  { ticker: 'NVDA',  shares: 26.14402, avgCost: 191.25, name: 'NVIDIA Corp.',    color: TICKER_COLORS.NVDA },
-  { ticker: 'TSM',   shares: 11.72355, avgCost: 324.13, name: 'TSMC',            color: TICKER_COLORS.TSM  },
-  { ticker: 'GOOGL', shares: 11.41859, avgCost: 319.65, name: 'Alphabet Inc.',   color: TICKER_COLORS.GOOGL },
-  { ticker: 'TSLA',  shares: 9.20621,  avgCost: 445.35, name: 'Tesla Inc.',      color: TICKER_COLORS.TSLA  },
-  { ticker: 'MSFT',  shares: 8.97418,  avgCost: 445.72, name: 'Microsoft Corp.', color: TICKER_COLORS.MSFT  },
-  { ticker: 'AMZN',  shares: 10.63908, avgCost: 234.98, name: 'Amazon.com',      color: TICKER_COLORS.AMZN  },
-  { ticker: 'META',  shares: 3.83669,  avgCost: 651.60, name: 'Meta Platforms',  color: TICKER_COLORS.META  },
-];
-const CASH_USD = 136.37;
-let DEPOSIT_START_DATE = '2025-09-01'; // updated from Sheet AI4 at runtime
+// Fallback static config (used if Sheet fetch fails) — updated from Paper #1 2026-05-27
+const HOLDINGS_CONFIG = [];
+const CASH_USD = 100.0;
+let DEPOSIT_START_DATE = '2026-05-26'; // updated from Sheet AI4 at runtime
 
 let portfolioReturnPct    = 0;  // set by loadHoldings
 let portfolioDeposits     = []; // { ts: ms, amount: USD }, set by loadTransactions

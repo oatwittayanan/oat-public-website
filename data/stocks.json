@@ -71,17 +71,15 @@
     },
     "charlie": {
       "verdict": "AGREE",
-      "summary": "Q1 FY27 fully verified — beat on rev/EPS, Vera CPU $200B TAM disclosed independently (CNBC/Stocktwits), Q2 guide $91B verified. Warren's WAF upgrade 8.25→8.60 ตรง logic เพราะ Vera CPU = structural new growth vector. Stock barely moved (+1.93%) แสดงว่า market hasn't digested Vera optionality.",
+      "summary": "yfinance confirms cheap valuation: FwdPE 16.99 with 85% revenue growth, PEG 0.66. Analyst consensus $297 target. Vera CPU $200B TAM thesis intact. BUY confirmed.",
       "risks": [
-        "Supply commitments $119B (+25% QoQ) = larger downside if hyperscaler CapEx pauses",
-        "Securities class action class-certified March 25, 2026 — Warren noted but litigation now formal",
-        "Average day-of reaction last 4 earnings = -1.54%; today +1.93% = positive but not euphoric → market wants more proof of Vera CPU",
-        "Q2 FY27 sequential revenue growth requires zero China DC compute (consistent with last 2 quarters)",
-        "Stock 6.78% below 52W high — momentum has cooled vs early 2026 peak"
+        "Supply concentration (CoWoS/HBM bottleneck)",
+        "China export restrictions on DC compute",
+        "Vera Rubin Q3 FY27 ramp execution risk"
       ],
-      "yf_price": 220.5,
-      "warren_fv": 308.0,
-      "date": "2026-05-21"
+      "yf_price": 214.86,
+      "warren_fv": 308,
+      "date": "2026-05-27"
     }
   },
   "MSFT": {
@@ -156,14 +154,15 @@
     },
     "charlie": {
       "verdict": "AGREE",
-      "summary": "Cleanest BUY — MoS 24.1% PASSES even old 20% gate. Charlie May 19 verified $425.24 vs Warren $418.05 (~$7 spread, within noise). Wedbush PT $575. Verdict AGREE.",
+      "summary": "MoS 19.8% passes gate. FwdPE 21.5 with Azure +29%. PEG 1.29 reasonable. RPO $627B+ visibility confirmed. BUY confirmed.",
       "risks": [
-        "OpenAI dependency — strategic but concentrated",
-        "DOJ antitrust scrutiny continuing"
+        "OpenAI exclusivity erosion",
+        "DOJ antitrust scrutiny",
+        "Azure growth re-acceleration pace"
       ],
-      "yf_price": 418.05,
-      "warren_fv": 519.0,
-      "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
+      "yf_price": 416.03,
+      "warren_fv": 519,
+      "date": "2026-05-27"
     }
   },
   "TSM": {
@@ -235,6 +234,17 @@
       "what": "TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) used in all leading AI chips globally — ไม่มีทางผลิต AI chip ระดับ top-tier โดยไม่ผ่าน TSMC.",
       "why": "N2 เข้า HVM ด้วย good yield + FY2026 >30% revenue growth confirmed; supply tight through 2027 per C.C. Wei; CapEx $52-56B builds moat ที่คู่แข่งไม่สามารถสร้างได้ในทศวรรษ",
       "risk": "หาก US-Taiwan geopolitical tension escalates ถึงจุดที่ mainland China ดำเนินการทางทหาร หรือถ้า Apple+NVIDIA พร้อมกันลด volume ไปที่ Samsung/Intel Foundry มากกว่า 30%"
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "MoS 6.3% fails 15% gate — WATCH is correct. yfinance PEG 1.26 confirms reasonable valuation but not cheap enough. Price $412 slightly above Warren's $404.",
+      "risks": [
+        "Taiwan geopolitical risk unchanged",
+        "Arizona cost overruns"
+      ],
+      "yf_price": 412.32,
+      "warren_fv": 440,
+      "date": "2026-05-27"
     }
   },
   "META": {
@@ -308,16 +318,16 @@
       "risk": "FTC appeals court forces Instagram/WhatsApp divestiture (thesis collapse), or IRS $15.89B + EU DSA $12B simultaneously drain FCF and force CapEx cuts."
     },
     "charlie": {
-      "verdict": "AGREE",
-      "summary": "Gate relaxation enables BUY at $616. Charlie's May 19 verification: $610.7 (close enough). FTC risk RESOLVED per Boasberg ruling Nov 2025 — Warren still flags it but downgraded. PEG 0.47 = cheapest Big Tech. Verdict AGREE — high-conviction BUY.",
+      "verdict": "CAUTION",
+      "summary": "BUY action passes gate but margin is razor-thin: MoS 15.2% (gate 15%). Any further price increase makes this a FAIL. yfinance PEG 0.88 supports growth story.",
       "risks": [
-        "Capex FY2026 $115-135B กดดัน FCF ระยะสั้น",
-        "IRS $15.89B + EU DSA $12B still pending",
-        "Reality Labs $19B annual loss — no clear breakeven path"
+        "MoS at gate threshold — 1% price move fails gate",
+        "FTC Instagram/WhatsApp divestiture risk ongoing",
+        "IRS $15.89B tax dispute"
       ],
-      "yf_price": 616.0,
-      "warren_fv": 722.0,
-      "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
+      "yf_price": 612.34,
+      "warren_fv": 722,
+      "date": "2026-05-27"
     }
   },
   "AMZN": {
@@ -389,6 +399,17 @@
       "what": "Amazon operates the world's largest cloud (AWS 33% share) with AI services $15B+ annualized run-rate, Trainium custom silicon worth $50B standalone, and Prime ecosystem 200M+ subscribers creating commerce+media flywheel.",
       "why": "AWS AI revenue +170% QoQ (Bedrock capacity-constrained); Trainium3 shipping H1 2026, \"largely spoken for 18 months before availability\" per management; Cloud backlog building with committed revenue.",
       "risk": "หาก Trainium/Inferentia ไม่สามารถจับ NVIDIA convergence rates ได้ และ AWS growth ชะลอ <20% เนื่องจาก Azure/GCP competition เข้มข้น ทำให้ custom silicon ROI ไม่คุ้ม."
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "WATCH is correct. Price $265 barely at FV $268 (MoS 1%). PEG 1.83 yfinance vs Warren's 0.90 — Warren's aggressive AWS AI growth assumptions.",
+      "risks": [
+        "Azure/GCP competition for enterprise AI spend",
+        "AWS growth dependent on AI workload migration ROI"
+      ],
+      "yf_price": 265.29,
+      "warren_fv": 268,
+      "date": "2026-05-27"
     }
   },
   "ASML": {
@@ -460,6 +481,17 @@
       "what": "ASML is the sole global supplier of EUV lithography machines — ไม่มีทางผลิต semiconductor ≤7nm ได้โดยไม่ผ่าน ASML — monopoly ที่ไม่มีผู้แข่งขันและไม่มีแผนสร้างได้ในทศวรรษนี้.",
       "why": "\"2027 EUV supply shortage\" ถูกระบุโดย ASML management เอง; N2 ของ TSMC เข้า HVM + A14 roadmap 2028; TSMC CapEx toward high end of $52-56B; revenue guidance raised to €36-40B for 2026.",
       "risk": "หาก recession ทำให้ semiconductor demand crash และ TSMC/Samsung ชะลอ EUV orders, หรือ export control escalation ตัด China DUV revenue โดยกะทันหัน."
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "WATCH confirmed. MoS -9%, PEG 2.45 both fail gates. Analyst target $1,660 slightly above current $1,632.",
+      "risks": [
+        "China export ban limits ~15-20% revenue",
+        "Customer capex cycle sensitivity"
+      ],
+      "yf_price": 1632.03,
+      "warren_fv": 1498,
+      "date": "2026-05-27"
     }
   },
   "NFLX": {
@@ -533,15 +565,16 @@
       "risk": "Content cost escalation ทำ margin compress; Disney+/Max bundling กัดส่วนแบ่ง; Live sports rights expensive ไม่คุ้ม; แข่ง Ads กับ YouTube/Meta ได้ลำบาก; subscriber growth ceiling ในตลาด developed"
     },
     "charlie": {
-      "verdict": "AGREE",
-      "summary": "Post 10:1 split deep value at $89.65. Charlie verified $89.30 May 18. WAF 6.80 = Medium conviction → small position only. Verdict AGREE.",
+      "verdict": "CAUTION",
+      "summary": "⚠️ PEG discrepancy: yfinance 1.72 ABOVE ceiling 1.5 vs Warren's 0.83. At 22.8x FwdPE, implied growth 13% vs Warren's 28%. MoS 28% passes but PEG gate may fail.",
       "risks": [
-        "Content cost escalation",
-        "Live sports rights expensive + ROI uncertain"
+        "PEG 1.72 per yfinance consensus exceeds 1.5 ceiling — challenges BUY gate",
+        "Content cost escalation + Disney+/Max competition",
+        "Ad revenue cyclical sensitivity"
       ],
-      "yf_price": 89.65,
+      "yf_price": 87.68,
       "warren_fv": 121.9,
-      "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
+      "date": "2026-05-27"
     }
   },
   "AVGO": {
@@ -613,6 +646,17 @@
       "what": "Broadcom delivers exclusive custom AI accelerators (XPU) for hyperscalers (Google GXPU, Meta MTIA, OpenAI, Apple, 6th customer) and near-monopoly Ethernet networking (Tomahawk/Jericho), creating locked-in AI infrastructure revenue growing 106% YoY.",
       "why": "Custom XPU revenue targeting $15B by FY2028 from $6.1B FY2025 (+146%); Q2 FY2026 guidance $22B (+11% QoQ); VMware $8B+ synergies materializing; 6th XPU customer (likely Microsoft) announced.",
       "risk": "หาก Google/Meta scale up in-house chip design teams และลด AVGO XPU dependency >50% ระยะยาว หรือ VMware integration generates significantly less synergy than $8B+ projected."
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "WATCH confirmed. MoS -13.4% fails gate. yfinance PEG 0.92 more attractive than Warren's 0.45 — both below ceiling. Price $422 higher than Warren's $414.",
+      "risks": [
+        "6th XPU customer may reduce AVGO engagement eventually",
+        "VMware integration pace"
+      ],
+      "yf_price": 422.01,
+      "warren_fv": 372,
+      "date": "2026-05-27"
     }
   },
   "GOOGL": {
@@ -684,6 +728,18 @@
       "what": "Alphabet dominates global search (90% share), cloud (GCP fastest-growing hyperscaler +63% YoY, capacity-constrained), and AI with full-stack Gemini+TPU platform creating $462B backlog.",
       "why": "GCP re-accelerating with $462B backlog (nearly 2x QoQ); AI Overviews expanding search monetization; Cloud margin expanding 17.8% → 32.9% in 1 year = operating leverage inflection.",
       "risk": "หาก DOJ Search remedy บังคับยกเลิก Apple TAC deal (~$18-20B revenue สูญเสีย) และ DOJ Ad Tech divestiture เกิดขึ้นพร้อมกัน ทำให้ business model หลักเสียหายถาวร."
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "WATCH confirmed. But PEG 1.51 sits exactly at the 1.5 ceiling — one consensus revision away from failing. DOJ Search remedy risk is live.",
+      "risks": [
+        "DOJ Search remedy: Apple TAC $18-20B annual loss risk",
+        "DOJ Ad Tech divestiture",
+        "GCP growth sustainability"
+      ],
+      "yf_price": 388.88,
+      "warren_fv": 376,
+      "date": "2026-05-27"
     }
   },
   "MU": {
@@ -757,16 +813,16 @@
       "risk": "หาก SK Hynix+Samsung ramp HBM capacity much faster than expected และบังคับ price capitulation, หรือ AI capex cycle pauses ทำให้ HBM demand หายจาก LTA commitments."
     },
     "charlie": {
-      "verdict": "CAUTION",
-      "summary": "Peak cycle methodology highest MoS = highest upside but also cyclicality risk. Warren's $1393 base FV uses peak EPS $92.85 (SK Hynix 72% OM precedent) — aggressive assumption. Verdict CAUTION — BUY OK but with smaller position than WAF suggests.",
+      "verdict": "AGREE",
+      "summary": "BUY strongly confirmed. yfinance FwdPE 8.62 and PEG 0.26 = dirt cheap. MoS 55.2%. Q2 FY26 +32% EPS beat validates thesis. LTA floor pricing through 2028-2029.",
       "risks": [
-        "Peak EPS $92.85 assumption requires SK Hynix 72% OM repeat — may not materialize at this timeline",
-        "Bear case $120 = DRAM crash → 82% downside if cycle inverts",
-        "China memory (SK Hynix/Samsung) aggression on HBM capacity"
+        "Cyclical peak risk — HBM capacity ramp by SK Hynix/Samsung",
+        "China DRAM competition",
+        "Price surged +20% in 1 day — short-term overextended"
       ],
-      "yf_price": 681.54,
-      "warren_fv": 1393.0,
-      "date": "2026-05-21 (Warren) / 2026-05-19 (Charlie price)"
+      "yf_price": 895.88,
+      "warren_fv": 2000,
+      "date": "2026-05-27"
     }
   },
   "ETN": {
@@ -838,6 +894,18 @@
       "what": "Eaton provides grid-to-chip electrical power management for AI data centers (800V DC architecture), holding 228 GW backlog = 12 years at 2025 build rates, with complete power+thermal portfolio via Boyd Thermal acquisition.",
       "why": "Electrical Americas DC orders +240% YoY; raising FY2026 organic growth to 10%; Q1 2026 FCF +245% YoY; 800V DC ecosystem partner with NVIDIA/ABB/Schneider/Vertiv = spec-in for next-gen AI data centers.",
       "risk": "หาก AI CapEx supercycle หยุดชะงักหรือ pause >2 quarters ทำให้ Electrical Americas orders reversal, หรือ Boyd Thermal integration ($9.5B) generates significantly less cross-selling synergy than projected."
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "⚠️ PEG discrepancy: yfinance 3.04 vs Warren's 1.09. Warren used 25% growth; consensus sees 8-9%. HOWEVER analyst targets $450-500 (Morgan Stanley $500) are much more bullish than Warren's FV $394.",
+      "risks": [
+        "PEG 3.04 per yfinance exceeds ceiling 1.5 — Warren's growth assumption may be too aggressive",
+        "Price $403 now above Warren's FV $394",
+        "Datacenter capex cyclicality"
+      ],
+      "yf_price": 403.13,
+      "warren_fv": 394,
+      "date": "2026-05-27"
     }
   },
   "AMD": {
@@ -909,6 +977,18 @@
       "what": "AMD เป็น sole credible competitor ต่อ NVIDIA ใน GPU/AI Accelerator — Instinct MI300X เป็นทางเลือกสำหรับ hyperscalers ที่ต้องการ diversify away from NVIDIA; EPYC CPU ครอง >35% server CPU market share แซง Intel Xeon; ROCm software ecosystem กำลัง improve แต่ยังห่างจาก CUDA",
       "why": "Q1 2026 Data Center revenue $5.8B +57% YoY; EPYC Turin >50% revenue mix; Helios rack platform (MI450 + Venice CPU + Pensando) = Q3 2026 initial ramp; OpenAI + Meta 6GW deals (warrant = financial lock-in, not weak demand — warrants vest on shipment milestones); AMD is the ONLY company with x86 CPU + AI GPU + rack simultaneously — 41.3% server CPU share (Mercury Research Q4 2025) + MI450 GPU + Helios system. Rerating: \"GPU laggard\" → \"indispensable second source\" = 2H 2026–1H 2027 timeframe",
       "risk": "ROCm software ecosystem ยังไม่ catch up CUDA → hyperscalers ไม่ adopt MI-series จริงจัง; NVIDIA Vera Rubin H200 ยิ่งห่างขึ้น; China export ban กระทบ MI300X sales; AI capex slowdown ทั่วไป"
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "⚠️ Price $503.89 now ABOVE Warren's FV $467 by 7.9%. Q1 2026 beat (May 5): Revenue $10.25B, EPS $1.37. Analyst targets $500-625 suggest Warren's FV understated. WATCH correct but FV may need revision.",
+      "risks": [
+        "Warren's FV $467 vs analyst consensus $500-625 — potential underestimate",
+        "ROCm software still behind CUDA",
+        "Price at all-time high after 118% YTD gain"
+      ],
+      "yf_price": 503.89,
+      "warren_fv": 467,
+      "date": "2026-05-27"
     }
   },
   "MRVL": {
@@ -980,6 +1060,18 @@
       "what": "Marvell provides custom AI accelerators (XPU) to 5 US hyperscalers and PAM DSP optical interconnects (first-to-200G/lane) targeting $15B revenue by FY2028 — deeply embedded in hyperscaler multi-year silicon roadmaps.",
       "why": "**NVIDIA NVLink Fusion partnership (May 27, 2026)** — NVIDIA formally integrates MRVL custom XPUs into its AI ecosystem via NVLink Fusion, confirming hyperscaler co-silicon strategy (custom XPU + NVIDIA Blackwell coexist natively); Celestial AI Photonic Fabric ($5.5B with milestones, closed Feb 2026) = scale-up interconnect for >33TB shared memory; **AWS warrant agreement signed** (first anchor customer); $1B annualized CPO revenue target by end 2029; all 5 US hyperscalers by FY2027. Q1 FY2027 earnings released today (May 27) — guidance midpoint $2.4B.",
       "risk": "หาก hyperscalers scale up internal chip design teams (like Google's TPU team) และลด MRVL custom XPU dependency, หรือ Celestial AI Photonic Fabric รัน late >18 months ทำให้ FY2028 $15B target ไม่สำเร็จ."
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "⚠️ PEG discrepancy: yfinance 2.30 vs Warren's 0.44. Consensus implies ~16% growth; Warren uses ~85%. WATCH correct but growth assumption needs Q1 FY27 validation. NVLink Fusion positive.",
+      "risks": [
+        "Q1 FY27 earnings results today — unknown outcome",
+        "PEG 2.30 per consensus = aggressive WAF calculation",
+        "CPO disruption risk to optical TAM"
+      ],
+      "yf_price": 208.26,
+      "warren_fv": 133,
+      "date": "2026-05-27"
     }
   },
   "PLTR": {
@@ -1051,6 +1143,18 @@
       "what": "Palantir's AIP platform converts enterprise and government data into AI-powered production decisions within 5 days via bootcamp model — a capability that hyperscalers (MSFT/GOOGL/AMZN) cannot replicate because they lack operational context and workflow depth.",
       "why": "US Revenue +104% YoY; Rule of 40 = 145 (best in class); FY2026 guidance +71% YoY ($7.65B raised 10pp from prior quarter); GAAP profitable 53% net margin + $925M FCF = not a pre-revenue story.",
       "risk": "หาก Microsoft/Google/Amazon ด้วย distribution scale ขนาดใหญ่สามารถ replicate AIP bootcamp effectiveness ผ่าน Azure AI Foundry/Vertex AI ได้สำเร็จ หรือ government budget sequestration กระทบ US DoD contracts >30%."
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "WATCH confirmed. MoS -43.8%. PEG 1.97 yfinance vs Warren's 0.93 — Warren too aggressive on growth. DO NOT BUY at $137.",
+      "risks": [
+        "MSFT/GOOGL replicating AIP bootcamp through Azure Foundry",
+        "Government budget cuts (DOGE) risk",
+        "SBC dilution"
+      ],
+      "yf_price": 136.6,
+      "warren_fv": 95,
+      "date": "2026-05-27"
     }
   },
   "AAPL": {
@@ -1122,6 +1226,18 @@
       "what": "Apple Ecosystem Lock-in คือ Competitive Advantage ที่แข็งแกร่งที่สุดใน Consumer Tech — iPhone/Mac/iPad/Watch/AirPods ทำงานร่วมกันเป็น seamless ทำให้ switching cost สูง; Services (App Store, iCloud, Apple TV+, Apple Pay) margin 73%+ และ recurring revenue $100B+/ปี; Apple Silicon (M-series) ทำให้ Mac มี performance/watt นำหน้า x86",
       "why": "Apple Intelligence (iOS 18) เป็น catalyst ใหม่สำหรับ upgrade cycle — on-device AI ที่ไม่ส่งข้อมูลออก cloud เป็น USP ที่แตกต่าง; Q2 FY2026 Services revenue $26.7B +14% YoY; หาก iPhone 17 + Apple Intelligence ดึง upgrade wave ได้ จะ re-accelerate growth",
       "risk": "DOJ/EU regulatory action ต่อ App Store (30% take rate); Tariff impact on iPhone manufacturing (>90% made in China/India); Apple Intelligence underwhelm → ไม่เกิด upgrade cycle; China market share loss ต่อ Huawei ต่อเนื่อง (China revenue -14% Q2 FY2026)"
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "WATCH confirmed. MoS -20.9%. FwdPE 32x for ~10-12% growth is expensive. China market share loss continuing.",
+      "risks": [
+        "China revenue loss to Huawei",
+        "App Store regulatory pressure",
+        "No AI upgrade cycle materializing yet"
+      ],
+      "yf_price": 308.33,
+      "warren_fv": 255,
+      "date": "2026-05-27"
     }
   },
   "CRWD": {
@@ -1193,6 +1309,18 @@
       "what": "CrowdStrike's Falcon platform is AI-native cloud cybersecurity with 33 modules spanning the kill chain (EDR/XDR/Identity/Cloud/SIEM) — once Falcon Flex committed, switching cost is high because customers consolidate across modules, locked-in via threat graph data accumulation.",
       "why": "Consensus เห็น CRWD ว่า \"premium price + July 2024 outage stigma\"; Warren เห็นต่างว่า Falcon Flex +120% YoY + Charlotte AI ARR tripled + NRR 115% = post-outage consolidation thesis ทำงานจริง — แต่ valuation $663 ที่ Fwd PE 108× ทำให้ Action = AVOID จนกว่าราคา pullback.",
       "risk": "Microsoft Defender bundle scale ดึง enterprise customers >20% market share หรือ Falcon Flex churn rate กลับมาเกิน 10% หลัง initial commitment expire."
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "DO NOT BUY confirmed. PEG 5.47 per yfinance (Warren 4.49). FwdPE 109x extreme. July 2024 outage liability still overhang.",
+      "risks": [
+        "July 2024 outage liability ($0.5B+ claims)",
+        "Microsoft Defender bundling pressure",
+        "FwdPE 109x prices perfection"
+      ],
+      "yf_price": 671.55,
+      "warren_fv": 500,
+      "date": "2026-05-27"
     }
   },
   "COHR": {
@@ -1264,6 +1392,18 @@
       "what": "Coherent เป็นผู้ผลิต 800G/1.6T transceiver และ EML/VCSEL laser ชั้นนำที่ใช้ใน AI datacenter interconnect — ลูกค้าหลักคือ hyperscalers ที่ต้องการ bandwidth สูงระหว่าง GPU clusters; Vertical integration (ผลิต laser chip เอง) ทำให้ต้นทุนต่ำและ margin สูงกว่า competitors; Silicon Carbide (SiC) สำหรับ EV เป็น diversification ที่ลด cyclicality",
       "why": "AI datacenter buildout กำลัง drive demand สำหรับ 800G → 1.6T optics; COHR Q3 FY2026 Datacom revenue +83% YoY; Long-haul และ Metro optics ฟื้นตัว; 5G buildout ในตลาด emerging เพิ่ม Telecom demand",
       "risk": "Co-packaged optics (CPO) adoption เร็วกว่าคาด → ทำให้ pluggable transceiver obsolete; II-VI legacy debt หนัก $4.5B+; Lumentum/Fabrinet แข่ง fierce; SiC market softer from EV slowdown"
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "⚠️ PEG discrepancy (favorable to COHR): yfinance 0.92 vs Warren's 2.03. Analyst consensus sees faster growth than Warren assumed. MoS -28.4% still fails gate. WATCH is correct.",
+      "risks": [
+        "CPO disruption could displace pluggable transceivers",
+        "II-VI legacy debt $4.5B",
+        "yfinance PEG 0.92 suggests Warren may be too conservative on growth"
+      ],
+      "yf_price": 381.35,
+      "warren_fv": 297,
+      "date": "2026-05-27"
     }
   },
   "QCOM": {
@@ -1335,6 +1475,18 @@
       "what": "Qualcomm เป็นเจ้าของ Patent Portfolio ที่แข็งแกร่งที่สุดใน mobile wireless (CDMA/5G) — ทำให้ทุก handset manufacturer ต้องจ่าย royalty; Snapdragon ครอง >50% premium Android market; กำลัง diversify ไป Automotive (Snapdragon Digital Chassis), PC (Snapdragon X Elite ท้าชน Intel/AMD), IoT",
       "why": "Data center entry thesis confirmed: CEO Amon Q2 FY2026: \"A leading hyperscaler custom silicon engagement is on track for initial shipments later this calendar year.\" LPDDR strategy = 768GB LPDDR (vs HBM) = decode-centric disaggregated serving = cheaper per-token inference at scale. ASIC stack: Hexagon NPU + Alphawave (SerDes/PCIe Gen6/UCIe) + Ventana Veyron (RISC-V CPU). Automotive $1.33B +38% record; Auto Q3 guided +50% YoY. **June 24, 2026 Investor Day = customer identity + engagement structure disclosure.** HUMAIN 200MW contract (Saudi Arabia). 15x P/E = cheapest AI semiconductor play.",
       "risk": "Apple ออก ARM ISA license เองหมด = ไม่ต้องพึ่ง QCOM royalty; Samsung/MediaTek พัฒนา in-house SoC ดีขึ้น; ARM license dispute ยืดเยื้อ; China handset market ฟื้นไม่ได้"
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "⚠️ Price +4.5% vs Warren's May 25 analysis. yfinance PEG 1.01 vs Warren's 1.84 — yfinance is significantly more bullish. MoS -26.3% still fails. ARM dispute risk ongoing.",
+      "risks": [
+        "Apple in-house modem replacement 2027+",
+        "ARM royalty dispute escalation",
+        "China revenue dependency"
+      ],
+      "yf_price": 248.82,
+      "warren_fv": 197,
+      "date": "2026-05-27"
     }
   },
   "VRT": {
@@ -1406,6 +1558,18 @@
       "what": "Vertiv เป็นผู้นำด้าน Critical Digital Infrastructure — UPS, cooling systems, power distribution สำหรับ datacenter; ลูกค้าหลักคือ hyperscalers (AWS, Google, Microsoft, Meta) ที่ไม่สามารถหยุด operation ได้; Liquid cooling (direct-to-chip) สำหรับ AI GPU cluster เป็น fast-growing segment; Backlog $7.5B (Q1 2026) = visibility สูง",
       "why": "AI GPU cluster ใช้ไฟฟ้า 10-20× มากกว่า traditional server → Vertiv cooling และ power solutions demand surging; Q1 2026 organic growth +17% YoY; orders +26% YoY; 2026 guidance revenue $9.1-9.3B, OM ~21%",
       "risk": "Datacenter capex slowdown ถ้า AI ROI ไม่ชัดเจน → order book drops; Eaton/Schneider Electric แข่งในตลาด; ราคาแพงมาก (Fwd PE 49×+) ทำให้ downside ใหญ่ถ้า growth miss; Tariff impact ต่อ supply chain"
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "DO NOT BUY confirmed. Price 2.72× above Warren's FV $119. FwdPE 36.65 with PEG 1.64 above ceiling. Analyst targets needed to justify $324 price.",
+      "risks": [
+        "Extreme overvaluation vs fundamental model",
+        "Datacenter capex cyclicality",
+        "Competition from Schneider/Eaton"
+      ],
+      "yf_price": 323.91,
+      "warren_fv": 119,
+      "date": "2026-05-27"
     }
   },
   "ARM": {
@@ -1477,6 +1641,18 @@
       "what": "ARM เป็นเจ้าของ ISA (Instruction Set Architecture) ที่ครองตลาด mobile processor >95% และขยายเข้า datacenter, automotive, IoT ผ่านรูปแบบ IP licensing + royalties ทำให้มี near-zero marginal cost ต่อ chip ที่ผลิตเพิ่ม Cortex-X, Neoverse, Ethos series คือ blueprints ที่ hyperscalers (Amazon Graviton, Google Axion, Apple M-series) ใช้โดยตรง — switching cost สูงมากเพราะต้องเขียน software stack ใหม่ทั้งหมด",
       "why": "Compute Subsystems (CSS) คือ complete chip blueprints ที่ช่วยลด time-to-market จาก 5 ปีเหลือ 2-3 ปี — hyperscalers และ fabless ต้องการมากขึ้นเพราะ custom silicon boom; Royalty rate per chip เพิ่มขึ้น 2-3× จาก v8 → v9 architecture (AI-enhanced); AGI CPU demand >$2B ใน FY2027-2028; data center royalty doubled YoY FY2026",
       "risk": "RISC-V open-source เป็น existential threat ระยะยาว — ถ้า hyperscalers migrate หรือ China (17% revenue) cutoff เกิดขึ้น valuation จะ re-rate ลงรุนแรง; SoftBank ถือ ~87% ของ ARM = governance risk และ potential secondary offering pressure; **[NEW] DOJ/FTC antitrust investigation (May 2026)** — สอบสวน ARM's chip licensing practices ซึ่งอาจบังคับ ARM เปลี่ยน licensing model หรือลด royalty rates = direct hit ต่อ revenue model; Qualcomm lawsuit (pending post-trial motions) อาจ renegotiate license terms ลด 10% revenue"
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "DO NOT BUY confirmed. Price 147% above FV $130. FwdPE 105x, PEG 2.66. DOJ/FTC antitrust investigation is a NEW material risk to licensing revenue model.",
+      "risks": [
+        "DOJ/FTC antitrust investigation targeting licensing practices (May 2026)",
+        "RISC-V adoption acceleration",
+        "Qualcomm lawsuit post-trial motions pending"
+      ],
+      "yf_price": 321.22,
+      "warren_fv": 130,
+      "date": "2026-05-27"
     }
   },
   "TSLA": {
@@ -1548,6 +1724,18 @@
       "what": "Tesla มี Real-World AI Training Data moat — ขับรถ >2 ทริลเลี่ยน ไมล์ สร้าง proprietary dataset ที่ competitors ไม่สามารถ replicate ได้ใน short term; Supercharger network เป็น network effect moat; Optimus humanoid robot + FSD (Full Self-Driving) คือ option ที่ตลาดให้ราคาสูง",
       "why": "Robotaxi launch (Austin, Q2 2026) คือ catalyst สำคัญ; Optimus production scaling (1,000 units/สัปดาห์ เป้าปลายปี 2026); Energy storage ฟื้น Q1 2026; Cybercab reveal H2 2026",
       "risk": "Robotaxi regulatory rejection หรือ accident → thesis collapse; Elon Musk brand damage (DOGE/political controversy) ทำ boycott ต่อเนื่อง — Q1 2026 deliveries -13% YoY; BYD/Chinese EV ยึดส่วนแบ่งตลาดทั่วโลก; Optimus timeline slip ซ้ำๆ; Fwd PE 190× ทำ downside ใหญ่มากถ้า option value ไม่ materialize"
+    },
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "DO NOT BUY confirmed. FwdPE 172.8x, PEG 5.87. Price 155% above FV $170. Robotaxi commercial launch unproven.",
+      "risks": [
+        "Robotaxi commercial timeline delays",
+        "Musk brand damage impact on demand",
+        "Auto margin compression <10%"
+      ],
+      "yf_price": 433.59,
+      "warren_fv": 170,
+      "date": "2026-05-27"
     }
   },
   "INTC": {
@@ -1619,6 +1807,19 @@
       "what": "Intel มี x86 ISA ecosystem lock-in ที่ยังคงอยู่ใน enterprise legacy — แต่ competitive moat กำลังถูก erode; Intel Foundry Services (IFS) คือ attempt ใหม่ที่จะแข่ง TSMC แต่ยัง loss-making; Gaudi AI accelerator เป็นทางเลือก budget ต่อ NVIDIA แต่ยังไม่ได้รับการยืนยันจากตลาด",
       "why": "Intel อยู่ใน turnaround phase — CEO Lip-Bu Tan ใหม่ (2025) วางแผนปรับโครงสร้าง; 18A process node เป็น key catalyst ถ้า yield ดีพอ; ถ้า foundry ประสบความสำเร็จ = massive upside; แต่นี่เป็น speculation ไม่ใช่ investment",
       "risk": "18A node ล้มเหลว → foundry strategy abandon; AMD เพิ่ม server CPU share → x86 moat แตก; การเลิกจ้าง 15,000+ คน ทำ R&D capability ลดลง; Intel อาจ break up หรือ forced divestiture; Q1 2026 Net Loss ต่อเนื่อง"
+    },
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "⚠️ Warren's FV $20 may be too pessimistic. yfinance PEG 1.36 < ceiling 1.5 — consensus prices in 18A turnaround. However, at $123.52 vs FV $20 = 517% premium. Extreme risk either way.",
+      "risks": [
+        "18A process yield uncertainty — binary outcome",
+        "AMD continuing server CPU share gain",
+        "Apollo SCIP debt burden",
+        "Warren FV $20 based on current earnings = ignores turnaround optionality"
+      ],
+      "yf_price": 123.52,
+      "warren_fv": 20,
+      "date": "2026-05-27"
     }
   },
   "SPCX": {
