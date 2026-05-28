@@ -180,11 +180,13 @@
     }
 
     var priceInfo = '';
-    if (tr.price_at_review != null) {
-      priceInfo += '<span style="font-family:var(--font-mono); font-size:13px; color:var(--fg-muted)">$' + (+tr.price_at_review).toFixed(2) + '</span>';
+    var priceVal = tr.price_at_review != null ? tr.price_at_review : tr.yf_price;
+    if (priceVal != null) {
+      priceInfo += '<span style="font-family:var(--font-mono); font-size:13px; color:var(--fg-muted)">$' + (+priceVal).toFixed(2) + '</span>';
     }
-    if (tr.warren_fv != null) {
-      priceInfo += '<span style="font-family:var(--font-mono); font-size:12px; color:var(--fg-dim)">FV $' + (+tr.warren_fv).toFixed(0) + ' · MoS ' + (+tr.warren_mos_pct).toFixed(1) + '%</span>';
+    var fvVal = tr.warren_fv != null ? tr.warren_fv : tr.warren_fv_base;
+    if (fvVal != null) {
+      priceInfo += '<span style="font-family:var(--font-mono); font-size:12px; color:var(--fg-dim)">FV $' + (+fvVal).toFixed(0) + ' · MoS ' + (+tr.warren_mos_pct).toFixed(1) + '%</span>';
     }
 
     return '<div class="card card-pad" style="margin-bottom:20px; padding:28px">' +

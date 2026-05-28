@@ -210,7 +210,7 @@
         '<span style="font-size:22px; font-weight:700; font-family:var(--font-mono); color:var(--fg)">' + esc(rec.ticker) + '</span>' +
         '<span style="font-size:14px; color:var(--fg-muted)">' + esc(NAMES[rec.ticker] || '') + '</span>' +
         '</div><div style="font-size:13px; color:var(--fg-muted); margin-top:6px">Dry Powder · Cash Equivalent</div></div>' +
-        '<div><div class="' + actionCls(rec.action) + '" style="font-size:13px; padding:5px 12px">' + esc(rec.action) + ' $' + (rec.amount || 0) + '</div></div>' +
+        '<div><div class="' + actionCls(rec.action) + '" style="font-size:13px; padding:5px 12px">' + esc(rec.action) + ' $' + (rec.amount_usd || rec.amount || 0) + '</div></div>' +
         '</div>' +
         (rec.investment_idea ? '<div style="font-size:13px; color:var(--fg-muted); line-height:1.6">' + esc(rec.investment_idea) + '</div>' : '') +
         (rec.thesis ? '<div style="margin-top:10px; font-size:13px; color:var(--fg-muted); line-height:1.6"><strong style="color:var(--fg)">Thesis:</strong> ' + esc(rec.thesis) + '</div>' : '') +
@@ -231,7 +231,7 @@
       (rec.tier ? '<div style="font-size:13px; color:var(--fg-muted); margin-top:6px">' + esc(rec.tier) + '</div>' : '') +
       '</div>' +
       '<div style="text-align:right; flex-shrink:0">' +
-      '<div class="' + actionCls(rec.action) + '" style="font-size:13px; padding:5px 12px">' + esc(rec.action) + ' $' + (rec.amount || 0) + '</div>' +
+      '<div class="' + actionCls(rec.action) + '" style="font-size:13px; padding:5px 12px">' + esc(rec.action) + ' $' + (rec.amount_usd || rec.amount || 0) + '</div>' +
       (rec.conviction ? '<div style="font-family:var(--font-mono); font-size:11px; color:var(--fg-dim); margin-top:6px">Conviction ' + esc(rec.conviction) + ' ' + (DOTS[rec.conviction] || '') + '</div>' : '') +
       '</div></div>' +
       (rec.investment_idea ? '<div class="idea-block" style="margin-bottom:20px"><span class="idea-block-eyebrow">Investment Idea</span><p class="idea-block-text" style="margin:0">' + esc(rec.investment_idea) + '</p></div>' : '') +
@@ -246,7 +246,7 @@
   }
 
   function renderIndexCard(p, num, charlieVerdict) {
-    var regime = (p.market_context && p.market_context.market_regime) || '—';
+    var regime = (p.market_context && (p.market_context.market_temp || p.market_context.market_regime)) || '—';
     var deployed = (p.portfolio_snapshot && p.portfolio_snapshot.deployed) || 0;
     var recs = p.recommendations || [];
     var tickers = recs.filter(function(r){ return r.ticker !== 'CASH'; })
@@ -267,7 +267,7 @@
   }
 
   function renderFullPaper(p, num, charlieVerdict) {
-    var regime = (p.market_context && p.market_context.market_regime) || '—';
+    var regime = (p.market_context && (p.market_context.market_temp || p.market_context.market_regime)) || '—';
     var snap = p.portfolio_snapshot || {};
     var ctx = p.market_context || {};
     var recs = p.recommendations || [];
@@ -295,7 +295,7 @@
       (ctx.sp500_fwd_pe ? '<span style="font-family:var(--font-mono); font-size:12px; color:var(--fg-muted)">S&amp;P Fwd P/E ' + ctx.sp500_fwd_pe + '× · VIX ' + (ctx.vix || '—') + '</span>' : '') +
       '</div>' +
       '<p class="idea-block-text" style="margin:0">' + esc(p.market_outlook || '') + '</p>' +
-      (ctx.mos_gate_pct ? '<div style="margin-top:16px; padding-top:16px; border-top:1px solid var(--amber-line); font-family:var(--font-mono); font-size:12px; color:var(--fg-muted)"><strong style="color:var(--fg)">Gates:</strong> MoS ≥' + ctx.mos_gate_pct + '% · PEG ≤' + (ctx.peg_cap || 1.5) + ' · ER ≥15%/yr</div>' : '') +
+      (ctx.mos_gate_pct ? '<div style="margin-top:16px; padding-top:16px; border-top:1px solid var(--amber-line); font-family:var(--font-mono); font-size:12px; color:var(--fg-muted)"><strong style="color:var(--fg)">Gates:</strong> MoS ≥' + ctx.mos_gate_pct + '% · PEG ≤' + (ctx.peg_ceiling || ctx.peg_cap || 1.5) + ' · ER ≥15%/yr</div>' : '') +
       '</div>' +
 
       '<div style="margin-bottom:32px">' +
