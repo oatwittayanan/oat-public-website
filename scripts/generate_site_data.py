@@ -194,7 +194,7 @@ def parse_wiki_valuation(content):
                 break
 
     # Action — old: **Action:** WATCH/BUY/STUDY / new: **Action:** ✅ BUY / ⏸ WATCH / ❌ AVOID
-    mm = re.search(r'\*\*Action:\*\*\s*[✅⏸❌🚫]?\s*(BUY|WATCH\+?|HOLD|SELL|STUDY|AVOID|DO NOT BUY)', section)
+    mm = re.search(r'\*\*Action:\*\*\s*[✅⏸❌🚫🌓]?\s*(BUY|WATCH\+?|STARTER|HOLD|SELL|STUDY|AVOID|DO NOT BUY)', section)
     if mm:
         act = mm.group(1).strip()
         # Normalize: WATCH+ → WATCH, DO NOT BUY → AVOID
@@ -254,7 +254,10 @@ def parse_wiki_story_gate(content):
         out['updated'] = mm.group(1)
 
     # Tier — **Tier:** 🏛️ Inevitable / 🚀 Pre-Inevitable / 🌱 Fast Grower / 🔁 Cyclical / ⚠️ Turnaround / ❌ Avoid
+    # Look in Story Gate section first; fallback to ## Valuation Range (warren_watchlist writes it there)
     mm = re.search(r'\*\*Tier:\*\*\s*([^\n|]+?)(?:\s*\||$|\n)', section)
+    if not mm:
+        mm = re.search(r'\*\*Tier:\*\*\s*([^\n|]+?)(?:\s*\||$|\n)', content)
     if mm:
         tier_raw = mm.group(1).strip()
         out['tier'] = tier_raw
