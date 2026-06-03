@@ -1,1 +1,241 @@
-[]
+[
+  {
+    "id": "2026-05-28",
+    "date": "2026-05-28",
+    "title": "Paper #1 — Deploy เงินเดือนแรก พ.ค. 2026 ($100)",
+    "market_outlook": "VIX 17.44 = Normal Mode (DCA ตามแผน); S&P500 Fwd P/E 21.06 = Normal market (MoS Gate 15%, PEG Cap 1.5). AI Infrastructure cycle ยัง peak: Big Tech 4 CapEx FY2026 ~$725B (+77% YoY), NVIDIA Vera Rubin Q3 FY27 ramp, MSFT Azure capacity-constrained, META Q1 OM 41% record. NFLX ถูกตัดออกหลัง Charlie review (CAUTION) — 5Y growth forecast 14% vs Warren 27% gap ใหญ่ + 52W -26% momentum drag.",
+    "market_context": {
+      "vix": 17.44,
+      "vix_mode": "Normal",
+      "sp500_fwd_pe": 21.06,
+      "market_temp": "Normal",
+      "mos_gate_pct": 15,
+      "peg_ceiling": 1.5,
+      "note": "VIX/PE จาก watchlist snapshot 2026-05-21 (ตลาดสงบไม่เปลี่ยน 7 วัน)"
+    },
+    "portfolio_snapshot": {
+      "total_deposited_usd": 100.0,
+      "cash_before": 100.0,
+      "cash_after": 10.0,
+      "deployed": 90.0
+    },
+    "position_sizing_rule": {
+      "increment_usd": 10,
+      "minimum_position_usd": 10,
+      "note": "ทุก amount เป็นหน่วย $10 (กฎโอ๊ต 2026-05-28) — ถ้าจัดสรรได้ < $10 → ตัดออก"
+    },
+    "recommendations": [
+      {
+        "ticker": "NVDA",
+        "action": "BUY",
+        "amount_usd": 40.0,
+        "shares": 0.1882,
+        "conviction": "VERY HIGH",
+        "tier": "🚀 Pre-Inevitable",
+        "waf": 8.75,
+        "investment_idea": "AI Factory Platform Owner — CUDA monopoly + Vera Rubin + new $200B Vera CPU TAM ที่ purpose-built for agentic AI ($20B visibility ปีนี้)",
+        "thesis": "Vera Rubin Q3 FY27 ramp + Vera CPU $200B new TAM + $80B buyback = $1T Blackwell+Rubin envelope CY2025-2027 ที่ยังไม่ priced-in ที่ Fwd P/E 17x; Q2 FY27 guide $91B = continued AI ramp; CUDA 7.5M devs + 1.5M AI models = ecosystem switching cost ที่แทบเป็นไปไม่ได้จะ migrate. Allocation $40 (40%) = top WAF + best MoS 30.4% — ใช้ขอบบนของ Pre-Inevitable Tier range",
+        "thesis_risk": "Vera Rubin Q3 FY27 production ramp slips >1 quarter หรือ hyperscaler CapEx cuts >30% บน AI ROI disappointment ทำให้ $119B supply commitment write-off หรือ China antitrust escalates ไป networking products ban",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "7 Powers ครบ: Network Effect (CUDA 7.5M devs), Switching Cost (1.5M AI models), Scale Economies (CapEx leadership), Cornered Resource (TSMC CoWoS allocation); ROIC > 100%, FCF $96.6B FY2026, SBC < 8% revenue; Jensen rational capital allocation track record"
+          },
+          "gp": {
+            "score": 9.5,
+            "detail": "Revenue FY2026 $215.9B +65% YoY ยังเร่งตัว; Q1 FY27 guide $78B; Vera CPU $200B new TAM ทับซ้อน GPU $1T envelope; Hyperscaler CapEx visibility 2-3 ปีชัดเจน"
+          },
+          "va": {
+            "score": 8.0,
+            "detail": "Fwd P/E 17.0x = cheapest ใน Big Tech AI semiconductor; PEG 0.57 ต่ำกว่า cap 1.5 เกือบ 3 เท่า; MoS 30.4% ผ่าน gate 15% สบายๆ; ER 24.6%/yr beat QQQM ~13-15%",
+            "price": 212.60,
+            "fair_value_base": 308,
+            "fair_value_bull": 455,
+            "fair_value_bear": 126,
+            "fair_value_weighted": 308.3,
+            "mos_pct": 30.4,
+            "forward_pe": 17.0,
+            "peg": 0.57,
+            "expected_return_5yr_pct": 24.6,
+            "valuation_assumptions": {
+              "fair_value_method": "P/E Multiple × Forward EPS (terminal 5yr ER)",
+              "pe_multiple_rationale": "Base 17x = market PE; Bull 25x = premium for Vera CPU upside; Bear 7x = thesis break compress",
+              "eps_basis": "FY27 consensus EPS $18.12 (Yahoo Finance consensus)",
+              "growth_rate": "Revenue 30-40% FY27 → 20-25% FY28-30 (terminal); FCF growth ใกล้เคียง",
+              "peg_formula": "Fwd P/E 17.0 ÷ EPS Growth Rate 30% = 0.57",
+              "mos_formula": "(Fair Value $308 − Price $212.60) ÷ $308 = 30.4%",
+              "data_source": "Stock card NVDA.md 2026-05-27 + Stooq close 2026-05-27 + yfinance FY27 EPS consensus"
+            }
+          },
+          "ra": {
+            "score": 7.0,
+            "detail": "China H20/H200 export risk (25% tariff impact 2026-05-27 news = revenue headwind สั้น); Customer concentration top 2 = 36%; Competition AMD MI455X + Cerebras ในบาง niche; Antitrust สอบสวนหลายประเทศ — แต่ Balance Sheet แข็งแกร่ง $80B buyback ออก = capital allocation flexibility"
+          }
+        }
+      },
+      {
+        "ticker": "MSFT",
+        "action": "BUY",
+        "amount_usd": 30.0,
+        "shares": 0.0727,
+        "conviction": "VERY HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 8.55,
+        "investment_idea": "Enterprise AI Stack — Azure + Copilot + India largest data center expansion",
+        "thesis": "RPO $627B+ multi-year demand locked + Azure +29% YoY capacity-constrained (Q3 FY26 actual +40%) + India largest data center Q3 2026 + GitHub Copilot 15M+ paid seats + M365 Copilot $30/seat across 300M+ users = enterprise AI stack ที่ฝังลึกที่สุดใน Big Tech. Allocation $30 (30%) = กลาง Inevitable Tier range, VIX Normal mode",
+        "thesis_risk": "Azure growth ชะลอ <15% 2 quarters ติดต่อกัน; OpenAI พัฒนา platform ของตัวเองและลด exclusivity; Gaming/Activision integration drag ยืดเยื้อ",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "🏛️ Inevitable: Moat 30+ ปี ผ่าน 4 crises; Power ขยาย — Network Effect (M365), Switching Cost (Azure + enterprise contracts), Scale Economies; ROIC > 30% ต่อเนื่อง 10+ ปี; Satya rational capital allocation; SBC < 5% revenue"
+          },
+          "gp": {
+            "score": 8.5,
+            "detail": "Azure +40% Q3 FY26 (better than 39% expected) = demand > supply; Copilot enterprise adoption inflect; India data center Q3 2026 unlocks Asian market; FY2026 CapEx $190B (~$25B incremental จาก memory price); Q4 guide 39-40% with H2 acceleration"
+          },
+          "va": {
+            "score": 7.5,
+            "detail": "Fwd P/E 21.5x = ต่ำกว่า historical average (24x); PEG 1.08 ผ่าน cap 1.5; MoS 19.8% ผ่าน gate 15% (edge); ER 20%/yr beat QQQM. ⚠️ Charlie note: ถ้าใช้ 5Y consensus growth 14.58% → PEG จะเป็น 1.53 (marginal)",
+            "price": 412.67,
+            "fair_value_base": 519,
+            "fair_value_bull": 735,
+            "fair_value_bear": 300,
+            "fair_value_weighted": 529.2,
+            "mos_pct": 19.8,
+            "forward_pe": 21.5,
+            "peg": 1.08,
+            "expected_return_5yr_pct": 20.0,
+            "valuation_assumptions": {
+              "fair_value_method": "P/E Multiple × Forward EPS (terminal 5yr ER)",
+              "pe_multiple_rationale": "Base 24x = historical; Bull 30x = AI premium; Bear 14x = thesis break (Azure decel + OpenAI defection)",
+              "eps_basis": "FY27 consensus EPS $21.63",
+              "growth_rate": "EPS growth 18-22% FY27-30 (Warren) — Charlie 5Y forecast 14.58% (gap)",
+              "peg_formula": "Fwd P/E 21.5 ÷ EPS Growth 20% = 1.08",
+              "mos_formula": "(Fair Value $519 − Price $412.67) ÷ $519 = 19.8%",
+              "data_source": "Stock card MSFT.md 2026-05-27 + Stooq close 2026-05-27"
+            }
+          },
+          "ra": {
+            "score": 8.5,
+            "detail": "Balance Sheet pristine ($75B cash); Diversified revenue (Cloud + Productivity + Gaming + Security); EU antitrust ตามดู แต่ไม่ structural threat; OpenAI dependency = key concern แต่ MSFT มี Phi/Copilot in-house alternatives"
+          }
+        }
+      },
+      {
+        "ticker": "META",
+        "action": "BUY",
+        "amount_usd": 20.0,
+        "shares": 0.0315,
+        "conviction": "HIGH",
+        "tier": "🚀 Pre-Inevitable",
+        "waf": 8.17,
+        "investment_idea": "AI-Enhanced Advertising Flywheel + Largest Big Tech Discount + FTC Tail Risk REMOVED",
+        "thesis": "Q1 2026 Impressions +19% × Price +12% simultaneous = AI ad flywheel ที่ measurable compounding; OM 41% record-high; Revenue +33% YoY; Fwd PE 16.9x = cheapest Big Tech; PEG 0.48; 3.56B DAU = data flywheel ขนาดใหญ่ที่สุด. ⚡ MAJOR THESIS BOOST: FTC vs Meta ruled in Meta's favor Nov 18, 2025 (Judge Boasberg) — biggest IF WRONG event ถูก resolved. Allocation $20 (20%) = กลาง Pre-In Tier range",
+        "thesis_risk": "FTC appeals court (filed Jan 2026) overturns ruling (unlikely); IRS $15.89B + EU DSA $12B aggregate liability; Reality Labs $19B/yr losses ไม่มี breakeven path",
+        "scores": {
+          "bq": {
+            "score": 9.0,
+            "detail": "Network Effect ใหญ่ที่สุดในโลก (3.56B DAU); Switching Cost สูง (social graph + photo history); Data Moat = AI training advantage; CEO Zuckerberg rational long-term capital allocation; SBC ~ 8% revenue"
+          },
+          "gp": {
+            "score": 9.0,
+            "detail": "Revenue $56.31B Q1 +33% YoY = accelerating; AI ad monetization upside continuing; FCF $12.39B/quarter; Threads expansion vs Reddit = new TAM; Gross Margin 81.94% = best in class"
+          },
+          "va": {
+            "score": 7.5,
+            "detail": "Fwd PE 16.9x = cheapest Big Tech; PEG 0.48 = exceptional (Charlie ใช้ 0.93 ก็ยังต่ำกว่า 1.5 cap); MoS 13.7% ขอบล่างของ gate 15%; ER 26.6%/yr ดีที่สุดในกลุ่ม BUY",
+            "price": 635.25,
+            "fair_value_base": 722,
+            "fair_value_bull": 1008,
+            "fair_value_bear": 375,
+            "fair_value_weighted": 738.4,
+            "mos_pct": 13.7,
+            "forward_pe": 17.6,
+            "peg": 0.50,
+            "expected_return_5yr_pct": 26.6,
+            "valuation_assumptions": {
+              "fair_value_method": "P/E Multiple × Forward EPS (terminal 5yr ER)",
+              "pe_multiple_rationale": "Base 22x = AI flywheel premium vs historical 18x; Bull 30x = Reality Labs breakeven optionality; Bear 12x = FTC divest scenario (now low probability)",
+              "eps_basis": "FY27 consensus EPS $32.83",
+              "growth_rate": "EPS growth 30-35% FY27-28 (AI ad acceleration) — Charlie cautioned overly optimistic",
+              "peg_formula": "Fwd P/E 17.6 ÷ EPS Growth 35% = 0.50",
+              "mos_formula": "(Fair Value $722 − Price $635.25) ÷ $722 = 13.7% (ปรับลงจาก 15.5% เพราะราคาขึ้นจาก $610)",
+              "data_source": "Stock card META.md 2026-05-25 + Stooq close 2026-05-27 + FTC ruling Nov 2025 (NPR/CBS)"
+            }
+          },
+          "ra": {
+            "score": 6.0,
+            "detail": "Regulatory risk ลดลงหลัง FTC win Nov 2025; IRS + EU DSA aggregate; Reality Labs cash drain; Ad revenue cyclical; แต่ Balance Sheet strong + buyback ใหญ่"
+          }
+        }
+      },
+      {
+        "ticker": "CASH",
+        "action": "HOLD",
+        "amount_usd": 10.0,
+        "shares": null,
+        "conviction": null,
+        "tier": null,
+        "waf": null,
+        "investment_idea": "รอ pullback ของ GOOGL/AMZN/TSM ที่ MoS ใกล้ 15% gate",
+        "thesis": "Pre-Inevitable category cap = 60% เต็มแล้ว (NVDA 40% + META 20%); GOOGL MoS -1.9%, AMZN MoS +1.5%, TSM MoS +8.1% — ทุกตัวคุณภาพดี (WAF 7.75-8.22) แต่ราคาเกิน Fair Value; รอ pullback >5% เพื่อ deploy ใน Paper #2",
+        "thesis_risk": "ถ้าราคาขึ้นต่อ → opportunity cost; แต่ $10 cash reserve เล็กพอที่จะ acceptable",
+        "scores": null
+      }
+    ],
+    "holdings_analysis": [],
+    "category_allocation": {
+      "inevitable": {
+        "tickers": ["MSFT"],
+        "total_pct": 30.0,
+        "cap_pct": 80.0,
+        "status": "✓"
+      },
+      "pre_inevitable": {
+        "tickers": ["NVDA", "META"],
+        "total_pct": 60.0,
+        "cap_pct": 60.0,
+        "status": "✓ (at cap)"
+      },
+      "cash_sgov": {
+        "total_pct": 10.0,
+        "note": "รอ pullback Big Tech ที่ใกล้ MoS gate"
+      }
+    },
+    "rejected_candidates": [
+      {
+        "ticker": "NFLX",
+        "reason": "Charlie review CAUTION — 5Y growth forecast 14% (stockanalysis.com) vs Warren's assumption 27% (gap 2x); 52W price change -26.31% = momentum drag; content cost $18B→$20B (+11% YoY) = margin pressure; Amazon Prime 22% U.S. share + Disney+ competition material",
+        "decision": "Skip ใน Paper #1 — รอ Q2 2026 earnings ดู gross margin trend ก่อน reconsider"
+      },
+      {
+        "ticker": "MU",
+        "reason": "Cyclical tier — MoS 54.9% ใช้ peak EPS overstate FV (ห้ามตามกฎ WARREN.md); Charlie จะ flag CAUTION ถ้า include",
+        "decision": "Skip ใน Paper #1 — รอ normalized EPS analysis"
+      }
+    ],
+    "retrospective": {
+      "papers_reviewed": 0,
+      "thesis_outcomes": [],
+      "bias_patterns": "Paper แรก — ยังไม่มี historical bias data. Charlie จับ pattern ครั้งแรก: Warren ใช้ growth rate สูงกว่า 5Y consensus เกือบทุกตัว (NVDA +43%, MSFT +37%, NFLX +93%) — ต้อง monitor",
+      "portfolio_health": "Initial deployment — เริ่มต้นจาก 100% CASH → 90% deployed across 3 high-conviction names + 10% reserve"
+    },
+    "proposed_improvements": [
+      {
+        "observation": "Yahoo Finance v8 API rate-limited บ่อย — fetch_prices.py ล้มเหลวบ่อย",
+        "suggested_fix": "เพิ่ม Stooq.com (CSV endpoint) เป็น tertiary fallback ใน fetch_prices.py — ทดสอบแล้วใช้ได้ ครอบคลุม 25/25 tickers รวม VOO/QQQM/SGOV",
+        "target": "investment-system/scripts/fetch_prices.py"
+      },
+      {
+        "observation": "Google Sheet ไม่ได้เปิด 'Anyone with link' → pandas.read_csv URL ล้มเหลว (HTML login response)",
+        "suggested_fix": "ปรับ WARREN.md → Step 2 (อ่านข้อมูลพอร์ตจาก Google Sheets) ให้ระบุการใช้ Service Account warren-dashboard@oat-portfolio.iam.gserviceaccount.com เป็น primary method แทน CSV export URL",
+        "target": "WARREN.md (Steps เมื่อรัน /warren) + skill prompt"
+      },
+      {
+        "observation": "Warren growth rate ใน PEG calculation สูงกว่า 5Y consensus forecast เกือบทุกตัว (NVDA +43%, MSFT +37%, NFLX +93%) — Charlie จับ bias pattern",
+        "suggested_fix": "เพิ่มกฎ: Warren ต้อง document Growth Rate Sanity Check — เปรียบเทียบกับ 5Y consensus จาก stockanalysis.com/yfinance ทุก paper; ถ้า Warren growth > consensus +20% → ต้องอธิบาย rationale ชัด",
+        "target": "WARREN.md Valuation Documentation Standard"
+      }
+    ]
+  }
+]
