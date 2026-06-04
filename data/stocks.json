@@ -58,7 +58,7 @@
       ]
     },
     "idea": "ถือต่อ/สะสม — undervalued ~28% เทียบ FV; AI factory full-stack ยังนำคู่แข่งหลายช่วงตัว",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -141,7 +141,7 @@
       ]
     },
     "idea": "undervalued ~15% — BUY conviction สูงสุด; Azure + Copilot + RPO $627B visibility",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -224,7 +224,7 @@
       ]
     },
     "idea": "undervalued ~17% — BUY; data flywheel + margin record + PEG 0.9",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -307,7 +307,7 @@
       ]
     },
     "idea": "undervalued ~19% — BUY; AWS เร่งตัวเร็วสุดใน 15 ไตรมาส = catalyst ยืนยัน thesis",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -390,7 +390,7 @@
       ]
     },
     "idea": "ใกล้ FV (MoS +5%) — คุณภาพสูง Tier 🏛️ (ยังไม่เข้า STARTER band — MoS ขาด Gate >7 จุด); AI pricing power + price hike 2026 = FV uplift จาก $440→$470",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -473,7 +473,7 @@
       ]
     },
     "idea": "undervalued ~32% — BUY; ราคาย่อจาก $92→$83 (post 10:1 split) เปิด entry ดี",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -556,7 +556,7 @@
       ]
     },
     "idea": "ใกล้ FV (MoS +4%) — คุณภาพสูง Tier 🏛️ (ยังไม่เข้า STARTER band — MoS ขาด Gate >7 จุด); รอ MoS ขยายเข้า Gate",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -639,7 +639,7 @@
       ]
     },
     "idea": "Buy on pullback to $1300-1400 (P/E ~28x) for 5-year compounder play on EUV monopoly + AI-driven semi capex supercycle.",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -722,7 +722,7 @@
       ]
     },
     "idea": "Buy on pullback below $360 (10%+ MoS); core AI-infrastructure pick-and-shovel with multi-year backlog visibility and Q4 2026 margin inflection catalyst.",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -805,7 +805,7 @@
       ]
     },
     "idea": "ราคาเกิน FV ~27% — รอ pullback; Citi top pick + custom XPU momentum แต่ valuation ตึง",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -888,7 +888,7 @@
       ]
     },
     "idea": "ราคาเกิน FV ~12% — รอ pullback; Venice EPYC ramp + $10B Taiwan เป็น catalyst ระยะกลาง",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -910,6 +910,77 @@
       "yf_price": 521.54,
       "warren_fv": 467,
       "date": "2026-06-03"
+    }
+  },
+  "SPCX": {
+    "symbol": "SPCX",
+    "display": "SPCX",
+    "category": "pre_ipo",
+    "name": "Space Exploration Technologies Corp.",
+    "sector": "Space & AI",
+    "sectorSlug": "space",
+    "chips": [
+      "Space & AI",
+      "Pre-IPO"
+    ],
+    "bull": [
+      "Starlink 10.3M subscribers (Q1 2026, +105% YoY) + Connectivity Adj EBITDA $7.2B (63% margin) = cash machine",
+      "Falcon 9 ครอง global commercial launches — 170 missions ใน 2025, launch cost moat แทบ replicate ไม่ได้",
+      "Revenue $18.7B (+33% YoY 2025); Connectivity Op Income $4.4B พิสูจน์ว่าธุรกิจกำไรได้จริง",
+      "Starship reusability ถ้าสำเร็จ = launch cost revolution + unlock Lunar/Mars/mega-constellation TAM",
+      "IPO S-1 filed May 20, 2026 — SPCX บน Nasdaq; xAI (Grok) + X รวมใน entity เดียวกัน"
+    ],
+    "risk": [
+      "AI segment (xAI/X) เผาเงิน $(6.4B) op loss + $12.7B CapEx ใน 2025 = drag ต่อ consolidated P&L",
+      "Starlink ARPU declining structurally: $99→$91→$81→$66 — pricing pressure รุนแรง",
+      "Elon Musk key person risk: CEO Tesla + SpaceX + xAI + DOGE พร้อมกัน",
+      "Dual-class voting (Class B = 10 votes) = Elon ควบคุม 100% — Class A IPO investors มี governance น้อยมาก",
+      "Starship commercialization ยังไม่เกิด — $3B R&D burn ต่อปี; FAA approvals และ timeline ไม่แน่นอน"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 4,
+    "waf": 7.0,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": null,
+    "fv": null,
+    "mos": null,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        9.0,
+        "green",
+        90
+      ],
+      "gp": [
+        9.5,
+        "green",
+        95
+      ],
+      "va": [
+        3.0,
+        "orange",
+        30
+      ],
+      "ra": [
+        4.5,
+        "orange",
+        45
+      ]
+    },
+    "idea": "SpaceX IPO — Nasdaq SPCX, pricing June 11, listing June 12, 2026. ธุรกิจ world-class (Starlink $7.2B Adj EBITDA 2025, 63% margin) แต่ IPO ราคา $1.75T premium ไม่มี MoS",
+    "updated": "2026-06-04",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-05-25",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "SpaceX เป็น vertically integrated space company ที่ควบคุม 3 business ในตัวเดียว: (1) Space — Falcon 9 ครอง majority ของ global commercial launches, (2) Connectivity — Starlink global broadband ที่มี 10.3M subscribers, Adj EBITDA Margin 63% = cash machine ที่ทรงพลัง, (3) AI — xAI (Grok) + X (social media + advertising) ที่รวม asset เข้ามาใน Feb 2026; Falcon 9 reusability สร้าง cost moat ที่คู่แข่งแทบ replicate ไม่ได้",
+      "why": "S-1 filed SEC May 20, 2026 = IPO กำลังจะเกิดภายใต้ ticker SPCX บน Nasdaq; Connectivity 2025 Revenue $11.4B (+50% YoY), Op Income $4.4B, Adj EBITDA $7.2B; Starlink subscribers 10.3M (Mar 2026, +105% YoY จาก 5.0M); Starship full reusability จะ unlock ต้นทุน launch ที่ต่ำลงอย่างมีนัยสำคัญ",
+      "risk": "AI segment เผาเงิน $(6.4B) operating loss ใน 2025 + $12.7B CapEx = drag ต่อ consolidated P&L; Starlink ARPU กำลัง decline structurally ($99→$91→$81→$66); Elon Musk overextended ทำให้ execution risk สูง; Starship commercialization ยังไม่เกิด"
     }
   },
   "MU": {
@@ -971,7 +1042,7 @@
       ]
     },
     "idea": "เข้า $1T market cap club — Warren ใช้ normalized mid-cycle EPS (ไม่ใช่ peak); FV ปรับลง $2000→$1100 ตามกฎ cyclical, MoS เหลือ ~3%",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1054,7 +1125,7 @@
       ]
     },
     "idea": "ราคาวิ่ง +35% สัปดาห์เดียว — Warren disciplined ไม่ไล่; FV uplift $133→$180 จาก record growth แต่ยังเกินมูลค่า 62%",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1137,7 +1208,7 @@
       ]
     },
     "idea": "ราคาแพงมาก เกิน FV ~52% — รอ pullback ลึก; Dell AI Factory beat ดันหุ้น +10%",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1220,7 +1291,7 @@
       ]
     },
     "idea": "ราคาเกิน FV ~24% — รอ; คุณภาพสูงสุดแต่ AI growth ช้ากว่า peers",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1303,7 +1374,7 @@
       ]
     },
     "idea": "ราคาเกิน FV ~22% — รอ; DC custom silicon ship ธ.ค. 2026 เป็น growth vector ใหม่",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1386,7 +1457,7 @@
       ]
     },
     "idea": "Fwd P/E 109x PEG 4.5 เกิน ceiling หลายเท่า — รอ; ราคา +14% ยิ่งตึง",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1469,7 +1540,7 @@
       ]
     },
     "idea": "ราคา +14% เกิน FV ~29% — รอ; DC revenue +40% YoY ดี แต่ valuation ตึง, FV uplift $297→$330",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1552,7 +1623,7 @@
       ]
     },
     "idea": "ราคาเกิน FV มาก — รอ pullback ลึก; AI data center power demand จริงแต่ priced-in เต็ม",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1635,7 +1706,7 @@
       ]
     },
     "idea": "ราคาแพงสุดขั้ว P/E 115x — หลีกเลี่ยง; NVIDIA RTX Spark AI PC ดันหุ้น +18% แต่ valuation ไม่ support",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1718,7 +1789,7 @@
       ]
     },
     "idea": "P/E 200x+ ราคา assume ทุกอย่างสำเร็จ — PASS; Optimus/FSD optionality ยังไม่ priced เป็นมูลค่า",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1801,7 +1872,7 @@
       ]
     },
     "idea": "Turnaround ยังไม่ proven — PASS; ราคาเกิน intrinsic มากตาม Warren's bear FV",
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1823,44 +1894,6 @@
       "yf_price": 107.93,
       "warren_fv": 20,
       "date": "2026-06-03"
-    }
-  },
-  "SPCX": {
-    "symbol": "SPCX",
-    "display": "SPCX",
-    "category": "pre_ipo",
-    "name": "Space Exploration Technologies Corp.",
-    "sector": "Space & AI",
-    "sectorSlug": "space",
-    "chips": [
-      "Space & AI",
-      "Pre-IPO"
-    ],
-    "bull": [
-      "Starlink 10.3M subscribers (Q1 2026, +105% YoY) + Connectivity Adj EBITDA $7.2B (63% margin) = cash machine",
-      "Falcon 9 ครอง global commercial launches — 170 missions ใน 2025, launch cost moat แทบ replicate ไม่ได้",
-      "Revenue $18.7B (+33% YoY 2025); Connectivity Op Income $4.4B พิสูจน์ว่าธุรกิจกำไรได้จริง",
-      "Starship reusability ถ้าสำเร็จ = launch cost revolution + unlock Lunar/Mars/mega-constellation TAM",
-      "IPO S-1 filed May 20, 2026 — SPCX บน Nasdaq; xAI (Grok) + X รวมใน entity เดียวกัน"
-    ],
-    "risk": [
-      "AI segment (xAI/X) เผาเงิน $(6.4B) op loss + $12.7B CapEx ใน 2025 = drag ต่อ consolidated P&L",
-      "Starlink ARPU declining structurally: $99→$91→$81→$66 — pricing pressure รุนแรง",
-      "Elon Musk key person risk: CEO Tesla + SpaceX + xAI + DOGE พร้อมกัน",
-      "Dual-class voting (Class B = 10 votes) = Elon ควบคุม 100% — Class A IPO investors มี governance น้อยมาก",
-      "Starship commercialization ยังไม่เกิด — $3B R&D burn ต่อปี; FAA approvals และ timeline ไม่แน่นอน"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-05-25",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "SpaceX เป็น vertically integrated space company ที่ควบคุม 3 business ในตัวเดียว: (1) Space — Falcon 9 ครอง majority ของ global commercial launches, (2) Connectivity — Starlink global broadband ที่มี 10.3M subscribers, Adj EBITDA Margin 63% = cash machine ที่ทรงพลัง, (3) AI — xAI (Grok) + X (social media + advertising) ที่รวม asset เข้ามาใน Feb 2026; Falcon 9 reusability สร้าง cost moat ที่คู่แข่งแทบ replicate ไม่ได้",
-      "why": "S-1 filed SEC May 20, 2026 = IPO กำลังจะเกิดภายใต้ ticker SPCX บน Nasdaq; Connectivity 2025 Revenue $11.4B (+50% YoY), Op Income $4.4B, Adj EBITDA $7.2B; Starlink subscribers 10.3M (Mar 2026, +105% YoY จาก 5.0M); Starship full reusability จะ unlock ต้นทุน launch ที่ต่ำลงอย่างมีนัยสำคัญ",
-      "risk": "AI segment เผาเงิน $(6.4B) operating loss ใน 2025 + $12.7B CapEx = drag ต่อ consolidated P&L; Starlink ARPU กำลัง decline structurally ($99→$91→$81→$66); Elon Musk overextended ทำให้ execution risk สูง; Starship commercialization ยังไม่เกิด"
     }
   }
 }
