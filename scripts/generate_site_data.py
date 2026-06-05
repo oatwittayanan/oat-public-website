@@ -74,6 +74,8 @@ CATEGORY_MAP = {
     "diversified":      ("Diversified",   "diversified"),
     "infrastructure":   ("Infrastructure","infra"),
     "software":         ("Software",      "software"),
+    "materials":        ("Materials",     "materials"),
+    "defense":          ("Defense",       "defense"),
     "pre_ipo":          ("Space & AI",    "space"),
     "index":            None,   # skip ETF indices
     "private":          None,   # skip private ecosystem-watch only
