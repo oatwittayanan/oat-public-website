@@ -477,6 +477,13 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
     if story_gate:
         entry["story_gate"] = story_gate
 
+    # Top-level tier — prefer Story Gate tier, fall back to watchlist_valuations rec tier.
+    # (tickers ที่ยังไม่มี ## Story Gate section ในการ์ดจะได้ tier จาก rec แทน — กัน badge ว่าง)
+    if story_gate and story_gate.get("tier"):
+        entry["tier"] = story_gate["tier"]
+    elif paper_rec and paper_rec.get("tier"):
+        entry["tier"] = paper_rec["tier"]
+
     # Charlie Watchlist Review
     if charlie_rev:
         entry["charlie"] = charlie_rev
