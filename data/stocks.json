@@ -467,6 +467,16 @@
     },
     "idea": "Optical/laser leader ที่ AI ดันรายได้ Q3 FY26 record $808M (+90% YoY); NVIDIA ลงทุน $2B + EMLs/pump lasers sold out >30%; CPO laser chips = growth driver ใหญ่สุด + Greensboro fab อาจเพิ่มรายได้ >$5B (ยังไม่อยู่ใน guidance)",
     "updated": "2026-06-05",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-05",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
+      "what": "Lumentum ครอง laser-chip (EML/pump/CW) + optical components + vertical InP fabs สำหรับ connectivity ใน AI data center — laser light source ที่ transceiver/CPO ขาดไม่ได้",
+      "why": "Q3 FY26 รายได้ record $808M (+90% YoY) + NVIDIA ลงทุน $2B preferred + EML/pump lasers sold out (supply ขาด >30%); CPO laser chips = growth driver ใหญ่สุด + Greensboro fab (>$5B incremental) ยังไม่อยู่ใน guidance; path to $2B/quarter",
+      "risk": "หาก CPO timeline เลื่อน >12 เดือน, NVIDIA single-customer concentration กระทบเมื่อ NVIDIA in-source หรือ optical oversupply จากคู่แข่งเร่งกำลังผลิตจน margin หด"
+    },
     "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "CAUTION",
@@ -626,13 +636,13 @@
       "passed": true,
       "status": "PASS",
       "updated": "2026-06-05",
-      "tier": "🏛️ Inevitable",
-      "tier_slug": "inevitable",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
       "what": "Broadcom delivers exclusive custom AI accelerators (XPU) for 6 hyperscalers (Google, Anthropic, OpenAI, Meta + 2 unnamed) and near-monopoly Ethernet networking (Tomahawk 100T/Jericho), creating locked-in AI infrastructure revenue — Q2 FY26 AI rev $10.8B (+143% YoY).",
       "why": "Q2 FY26 รายงาน rev $22.2B (+48%, record) + AI $10.8B (+143%); Q3 guide $29.4B (+84%) **เหนือ** consensus $28.53B, AI ~$16B (+200%); FY26 AI reaffirmed $56B, FY27 line-of-sight >$100B; ราคาร่วง -13% หลัง earnings มาจาก software (VMware) miss + ไม่ raise guidance (supply-constrained) — เป็น sentiment ไม่ใช่ thesis break.",
       "risk": "หาก Google/Meta scale up in-house chip design teams และลด AVGO XPU dependency >50% ระยะยาว หรือ VMware integration generates significantly less synergy than $8B+ projected."
     },
-    "tier": "🏛️ Inevitable",
+    "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
       "summary": "Q2 FY26 record AI rev $10.8B (+143%) + Q3 guide $29.4B เหนือ consensus ยืนยัน thesis; การร่วง −13% มาจาก software miss + ไม่ raise guidance ไม่ใช่ demand — Warren FV $420 ที่ราคา = วินัยถูกต้อง รอ margin",
@@ -870,7 +880,17 @@
     },
     "idea": "Specialty materials หลากหลาย spin-off จาก Honeywell (ต.ค. 2025) — ConverDyn = UF6 nuclear conversion เจ้าเดียวในสหรัฐ (backlog $2.2B ถึง 2030) + Electronic Materials (sputtering targets) +21% จาก AI/semi; FY26 EBITDA $975M-1.025B",
     "updated": "2026-06-05",
-    "tier": "🏛️ Inevitable",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-05",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "Solstice ครอง ConverDyn (Metropolis Works) = UF6 nuclear conversion เจ้าเดียวในสหรัฐ + specialty materials กระจาย (refrigerants HFO, electronic materials AI/semi, Spectra armor) บนสาย fluorine",
+      "why": "Spin-off จาก Honeywell (ต.ค. 2025); FY26 EBITDA $975M-1.025B; nuclear backlog $2.2B ราคาล็อกถึง 2030; Electronic Materials (sputtering targets) +21% จาก AI/semi + data center cooling demand; ConverDyn อ้างใน Executive Order 14302",
+      "risk": "หาก nuclear policy พลิก, contract repricing ช้ากว่าคาด, standalone public-company costs กด margin มากกว่าคาด หรือ Building Solutions (construction-exposed) ฉุดยาว"
+    },
+    "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
       "summary": "Honeywell spin-off (ต.ค. 2025) ธุรกิจกระจาย + nuclear UF6 monopoly (ConverDyn) + AI/semi materials; FY26 EBITDA ~$1B, EV/EBITDA ~15x = สมเหตุผล; Warren เติม FV $88 จาก card จริงเหมาะสม MoS +4%",
@@ -943,7 +963,17 @@
     },
     "idea": "เจ้าของเหมือง bertrandite ใหญ่สุดในโลก = beryllium integrated เจ้าเดียวในสหรัฐ + defense supercycle (orders +50% YoY, RFQs $100M→>$300M); FY26 adj EPS $6.00-6.50; FV ปรับลง $380→$290 (วินัย multiple — เดิม preliminary aggressive)",
     "updated": "2026-06-05",
-    "tier": "🏛️ Inevitable",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-05",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "Materion เป็นเจ้าของเหมือง bertrandite ใหญ่สุดในโลก = ผู้ผลิต beryllium แบบ vertically integrated เจ้าเดียวในสหรัฐ (75 ปี) + electronic materials (sputtering targets) AI/semi + precision optics",
+      "why": "Defense supercycle: orders +50% YoY, open RFQs $100M→>$300M; Electronic Materials margin record 28.3% + semi +40% (ex-China); record backlog +20% YoY; FY26 adj EPS $6.00-6.50 (มั่นใจปลายช่วงบน); customer-funded $65M beryllium capacity",
+      "risk": "หาก defense spending ชะลอ, China semi headwind แรงขึ้น, Performance Materials (clad strip) ฉุดยาว หรือ EPS ไม่ ramp ตาม backlog ทำให้ valuation forward PE ~35x แพงเกิน"
+    },
+    "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
       "summary": "Beryllium monopoly (integrated เจ้าเดียวในสหรัฐ) + defense supercycle (orders +50%, RFQs >$300M) จริง; Warren trim FV $380→$290 เป็นวินัยที่ถูกต้อง (materials multiple), MoS +21.6% ยังน่าสนใจ",
@@ -1182,13 +1212,13 @@
       "passed": true,
       "status": "PASS",
       "updated": "2026-05-25",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
+      "tier": "⚠️ Speculative",
+      "tier_slug": "speculative",
       "what": "SpaceX เป็น vertically integrated space company ที่ควบคุม 3 business ในตัวเดียว: (1) Space — Falcon 9 ครอง majority ของ global commercial launches, (2) Connectivity — Starlink global broadband ที่มี 10.3M subscribers, Adj EBITDA Margin 63% = cash machine ที่ทรงพลัง, (3) AI — xAI (Grok) + X (social media + advertising) ที่รวม asset เข้ามาใน Feb 2026; Falcon 9 reusability สร้าง cost moat ที่คู่แข่งแทบ replicate ไม่ได้",
       "why": "S-1 filed SEC May 20, 2026 = IPO กำลังจะเกิดภายใต้ ticker SPCX บน Nasdaq; Connectivity 2025 Revenue $11.4B (+50% YoY), Op Income $4.4B, Adj EBITDA $7.2B; Starlink subscribers 10.3M (Mar 2026, +105% YoY จาก 5.0M); Starship full reusability จะ unlock ต้นทุน launch ที่ต่ำลงอย่างมีนัยสำคัญ",
       "risk": "AI segment เผาเงิน $(6.4B) operating loss ใน 2025 + $12.7B CapEx = drag ต่อ consolidated P&L; Starlink ARPU กำลัง decline structurally ($99→$91→$81→$66); Elon Musk overextended ทำให้ execution risk สูง; Starship commercialization ยังไม่เกิด"
     },
-    "tier": "🚀 Pre-Inevitable",
+    "tier": "⚠️ Speculative",
     "charlie": {
       "verdict": "AGREE",
       "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
@@ -1256,6 +1286,16 @@
     },
     "idea": "ATE duopoly (Teradyne+Advantest), ~70% รายได้ผูก AI; Q1 record rev $1.28B (+87%) op margin 37.5% สูงสุด — แต่ Q2 guide ลด (normalize + one-time benefits); FV ปรับลง $480→$420 (วินัย — Q1 มี one-time)",
     "updated": "2026-06-05",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-05",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "Teradyne เป็น ATE duopoly (กับ Advantest) — เครื่องทดสอบ semiconductor ที่ qualify เข้า production flow ลูกค้าแล้วเปลี่ยนยาก; ~70% รายได้ผูก AI; กลยุทธ์ wafer-to-AI-data-center + Robotics",
+      "why": "Q1 FY26 record รายได้ $1.28B (+87%) op margin 37.5% สูงสุด; memory supercycle (HBM test) + merchant GPU test order แรก (~$50M) + Photon 100 ทดสอบ SiPho/CPO (TAM $300-700M); full-year target $6B/EPS $9.50-11",
+      "risk": "หาก AI capex ชะลอลด test demand, customer concentration (hyperscaler/foundry) ทำรายได้ผันผวน (lumpy), Q1 มี one-time benefits ที่ไม่ใช่ run-rate หรือ Advantest แย่ง memory test share"
+    },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "CAUTION",
@@ -1414,6 +1454,16 @@
     },
     "idea": "ผู้นำ directed energy (อาวุธเลเซอร์) + Coherent Beam Combining leadership; Q1 record rev $80.2M (+55%), A&D +69%, Products GM record 43.6%; FV ปรับลง $90→$82 (วินัย — barely profitable + SBC สูง)",
     "updated": "2026-06-05",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-05",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
+      "what": "nLIGHT เป็นผู้นำเลเซอร์พลังสูงสำหรับ directed energy (อาวุธเลเซอร์) + Coherent Beam Combining (CBC) leadership + vertically integrated ผลิตในสหรัฐ (diode→system) ได้เปรียบสัญญารัฐ",
+      "why": "Q1 FY26 record รายได้ $80.2M (+55%) + A&D +69% (record A&D product $33.1M +98%) + Products GM record 43.6% + Adj EBITDA record $13.8M; backlog $161.6M; งบกลาโหมเพิ่มหนุน directed energy ramp = optionality ใหญ่",
+      "risk": "หาก directed energy adoption ช้ากว่าคาด, กำไรจริงไม่ ramp เพราะ SBC สูง ($10.9M > net income), Development contract timing ผันผวน หรือ valuation ~83x non-GAAP unwind"
+    },
     "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "CAUTION",
@@ -1903,13 +1953,13 @@
       "passed": true,
       "status": "PASS",
       "updated": "2026-06-03",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
       "what": "Coherent เป็นผู้ผลิต 800G/1.6T transceiver และ EML/VCSEL laser ชั้นนำที่ใช้ใน AI datacenter interconnect — ลูกค้าหลักคือ hyperscalers ที่ต้องการ bandwidth สูงระหว่าง GPU clusters; Vertical integration (ผลิต laser chip เอง) ทำให้ต้นทุนต่ำและ margin สูงกว่า competitors; Silicon Carbide (SiC) สำหรับ EV เป็น diversification ที่ลด cyclicality",
       "why": "AI datacenter buildout กำลัง drive demand สำหรับ 800G → 1.6T optics; COHR Q3 FY2026 Datacom revenue +83% YoY; Long-haul และ Metro optics ฟื้นตัว; 5G buildout ในตลาด emerging เพิ่ม Telecom demand",
       "risk": "Co-packaged optics (CPO) adoption เร็วกว่าคาด → ทำให้ pluggable transceiver obsolete; II-VI legacy debt หนัก $4.5B+; Lumentum/Fabrinet แข่ง fierce; SiC market softer from EV slowdown"
     },
-    "tier": "🚀 Pre-Inevitable",
+    "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "AGREE",
       "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
@@ -1983,13 +2033,13 @@
       "passed": true,
       "status": "PASS",
       "updated": "2026-06-03",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
       "what": "Vertiv เป็นผู้นำด้าน Critical Digital Infrastructure — UPS, cooling systems, power distribution สำหรับ datacenter; ลูกค้าหลักคือ hyperscalers (AWS, Google, Microsoft, Meta) ที่ไม่สามารถหยุด operation ได้; Liquid cooling (direct-to-chip) สำหรับ AI GPU cluster เป็น fast-growing segment; Backlog $7.5B (Q1 2026) = visibility สูง",
       "why": "AI GPU cluster ใช้ไฟฟ้า 10-20× มากกว่า traditional server → Vertiv cooling และ power solutions demand surging; Q1 2026 organic growth +17% YoY; orders +26% YoY; 2026 guidance revenue $9.1-9.3B, OM ~21%",
       "risk": "Datacenter capex slowdown ถ้า AI ROI ไม่ชัดเจน → order book drops; Eaton/Schneider Electric แข่งในตลาด; ราคาแพงมาก (Fwd PE 49×+) ทำให้ downside ใหญ่ถ้า growth miss; Tariff impact ต่อ supply chain"
     },
-    "tier": "🚀 Pre-Inevitable",
+    "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "AGREE",
       "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
@@ -2024,8 +2074,8 @@
       "SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure",
       "UK regulatory environment ไม่แน่นอน"
     ],
-    "action": "hold",
-    "actionLabel": "Hold",
+    "action": "watch",
+    "actionLabel": "Watch",
     "conviction": 4,
     "waf": 5.65,
     "wafBadge": "waf-low",
@@ -2062,14 +2112,14 @@
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-06-03",
-      "tier": "⚠️ Watch-Only",
-      "tier_slug": "watch-only",
+      "updated": "2026-06-05",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
       "what": "ARM owns the dominant CPU ISA (>95% mobile share) and monetizes via licensing + per-chip royalties with near-zero marginal cost, now expanding into datacenter/AI via Compute Subsystems (CSS) and AGI CPU production silicon.",
       "why": "Consensus sees ARM as a mature mobile IP licensor; Warren sees ARMv9 royalty rates 2-3× v8, CSS adoption accelerating custom silicon time-to-market, and datacenter royalty doubling YoY — but this is now largely priced in at 115× forward P/E.",
       "risk": "DOJ/FTC antitrust action forces licensing model change OR RISC-V adoption accelerates at hyperscalers, collapsing royalty growth and triggering multiple compression."
     },
-    "tier": "⚠️ Watch-Only",
+    "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
       "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
