@@ -28,7 +28,12 @@
       {
         "ticker": "NVDA",
         "action": "BUY",
+        "status": "ACTIVE",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 1,
+        "last_reviewed": "2026-05-28",
         "amount_usd": 40.0,
+        "total_invested_usd": 40.0,
         "shares": 0.1882,
         "conviction": "VERY HIGH",
         "tier": "🚀 Pre-Inevitable",
@@ -48,7 +53,7 @@
           "va": {
             "score": 8.0,
             "detail": "Fwd P/E 17.0x = cheapest ใน Big Tech AI semiconductor; PEG 0.57 ต่ำกว่า cap 1.5 เกือบ 3 เท่า; MoS 30.4% ผ่าน gate 15% สบายๆ; ER 24.6%/yr beat QQQM ~13-15%",
-            "price": 212.60,
+            "price": 212.6,
             "fair_value_base": 308,
             "fair_value_bull": 455,
             "fair_value_bear": 126,
@@ -71,12 +76,24 @@
             "score": 7.0,
             "detail": "China H20/H200 export risk (25% tariff impact 2026-05-27 news = revenue headwind สั้น); Customer concentration top 2 = 36%; Competition AMD MI455X + Cerebras ในบาง niche; Antitrust สอบสวนหลายประเทศ — แต่ Balance Sheet แข็งแกร่ง $80B buyback ออก = capital allocation flexibility"
           }
-        }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-05-28",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $40 (Paper #1)"
+          }
+        ]
       },
       {
         "ticker": "MSFT",
         "action": "BUY",
+        "status": "ACTIVE",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 1,
+        "last_reviewed": "2026-05-28",
         "amount_usd": 30.0,
+        "total_invested_usd": 30.0,
         "shares": 0.0727,
         "conviction": "VERY HIGH",
         "tier": "🏛️ Inevitable",
@@ -119,12 +136,24 @@
             "score": 8.5,
             "detail": "Balance Sheet pristine ($75B cash); Diversified revenue (Cloud + Productivity + Gaming + Security); EU antitrust ตามดู แต่ไม่ structural threat; OpenAI dependency = key concern แต่ MSFT มี Phi/Copilot in-house alternatives"
           }
-        }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-05-28",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $30 (Paper #1)"
+          }
+        ]
       },
       {
         "ticker": "META",
         "action": "BUY",
+        "status": "ACTIVE",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 1,
+        "last_reviewed": "2026-05-28",
         "amount_usd": 20.0,
+        "total_invested_usd": 20.0,
         "shares": 0.0315,
         "conviction": "HIGH",
         "tier": "🚀 Pre-Inevitable",
@@ -151,7 +180,7 @@
             "fair_value_weighted": 738.4,
             "mos_pct": 13.7,
             "forward_pe": 17.6,
-            "peg": 0.50,
+            "peg": 0.5,
             "expected_return_5yr_pct": 26.6,
             "valuation_assumptions": {
               "fair_value_method": "P/E Multiple × Forward EPS (terminal 5yr ER)",
@@ -167,7 +196,14 @@
             "score": 6.0,
             "detail": "Regulatory risk ลดลงหลัง FTC win Nov 2025; IRS + EU DSA aggregate; Reality Labs cash drain; Ad revenue cyclical; แต่ Balance Sheet strong + buyback ใหญ่"
           }
-        }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-05-28",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $20 (Paper #1)"
+          }
+        ]
       },
       {
         "ticker": "CASH",
@@ -186,13 +222,18 @@
     "holdings_analysis": [],
     "category_allocation": {
       "inevitable": {
-        "tickers": ["MSFT"],
+        "tickers": [
+          "MSFT"
+        ],
         "total_pct": 30.0,
         "cap_pct": 80.0,
         "status": "✓"
       },
       "pre_inevitable": {
-        "tickers": ["NVDA", "META"],
+        "tickers": [
+          "NVDA",
+          "META"
+        ],
         "total_pct": 60.0,
         "cap_pct": 60.0,
         "status": "✓ (at cap)"
@@ -236,6 +277,568 @@
         "suggested_fix": "เพิ่มกฎ: Warren ต้อง document Growth Rate Sanity Check — เปรียบเทียบกับ 5Y consensus จาก stockanalysis.com/yfinance ทุก paper; ถ้า Warren growth > consensus +20% → ต้องอธิบาย rationale ชัด",
         "target": "WARREN.md Valuation Documentation Standard"
       }
-    ]
+    ],
+    "lessons_summary": "Paper #1 — ยังไม่มีบทเรียนจาก thesis ที่ปิด. Charlie จับ pattern แรก: Warren ใช้ growth rate สูงกว่า 5Y consensus เกือบทุกตัว (NVDA/MSFT/NFLX) — ต้อง monitor"
+  },
+  {
+    "id": "2026-06-10",
+    "date": "2026-06-10",
+    "title": "Paper #2 — Deploy เงินเดือน มิ.ย. 2026 ($100) + Tier Upgrades NVDA→Inevitable",
+    "market_outlook": "VIX 19.87 = Normal Mode (DCA ตามแผน, ไม่เร่ง); S&P 500 Fwd P/E 21.0x = Normal market (MoS Gate 15%, PEG Cap 1.5). AI Infrastructure cycle เร่งต่อ: NHS 500K+ Copilot rollout ยืนยัน WHY NOW enterprise AI; NVDA ราคาย่อจาก Musk chip claim ($208) = entry ดีขึ้น; META AI feature delay เล็กน้อย แต่ advertising thesis intact. Tier upgrade cycle: NVDA Pre-Inevitable→Inevitable (Colette CFO proven, key-man risk ลด), META Pre-Inevitable→Inevitable (4 Crystallization Signals ครบ); Category cap Inevitable รีเซ็ตเป็น 80%.",
+    "market_context": {
+      "vix": 19.87,
+      "vix_mode": "Normal (15-30)",
+      "sp500_fwd_pe": 21.0,
+      "sp500_fwd_pe_band": "18-22x (Normal)",
+      "market_temp": "Normal",
+      "mos_gate_pct": 15,
+      "vix_mos_adjust_pct": 0,
+      "peg_ceiling": 1.5,
+      "starter_band_pct": "8-15 (gate -7 จุด)",
+      "regime_shift_from_prev": false,
+      "note": "VIX 19.87 Normal — gate คงเดิมจาก Paper #1; ไม่มี regime shift"
+    },
+    "portfolio_snapshot": {
+      "total_deposited_usd": 200.0,
+      "cash_before": 100.0,
+      "cash_after": 10.0,
+      "deployed_this_paper": 90.0,
+      "total_invested_after": 190.0
+    },
+    "position_sizing_rule": {
+      "increment_usd": 10,
+      "minimum_position_usd": 10,
+      "note": "ทุก amount เป็นหน่วย $10 (กฎโอ๊ต 2026-05-28)"
+    },
+    "tier_changes": [
+      {
+        "ticker": "NVDA",
+        "from_tier": "🚀 Pre-Inevitable",
+        "to_tier": "🏛️ Inevitable",
+        "reason": "Colette CFO สืบทอด exec layer ที่ proven + key-man risk จาก Jensen ลดลงชัดเจน; CUDA moat + ROIC >100% + 5+ crisis survival = 4/4 Inevitable signals ครบ"
+      },
+      {
+        "ticker": "META",
+        "from_tier": "🚀 Pre-Inevitable",
+        "to_tier": "🏛️ Inevitable",
+        "reason": "4/4 Inevitable signals: Moat 15+ปี ✓, FTC win Nov 2025 (key-man risk Zuck ลดลง ≠ gone แต่ enterprise entrench), Power ขยาย (DAP+AI flywheel), ROIC >35% ต่อเนื่อง; Zuck key-man ยัง flag แต่ watchlist กำหนด Inevitable จากหลักฐานวันนี้"
+      }
+    ],
+    "recommendations": [
+      {
+        "ticker": "NVDA",
+        "action": "BUY",
+        "status": "ACTIVE",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 2,
+        "last_reviewed": "2026-06-10",
+        "amount_usd": 20.0,
+        "total_invested_usd": 60.0,
+        "conviction": "VERY HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 8.75,
+        "investment_idea": "AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + new $200B CPU TAM; ราคาย่อ $208 จาก Musk chip claim เปิด MoS 32.4%",
+        "thesis": "CUDA 7.5M devs + FCF $96.6B + Vera CPU optionality intact; Musk claim ยังไม่มี product proof (FAIL Disruption Test: ไม่มี HVM, ไม่มี CUDA ecosystem); entry $208 < entry ครั้งแรก $212 = ADD ที่ดีกว่า. Tier upgrade Inevitable เพิ่ม position room จาก Pre-In 60% cap → Inevitable 80% cap",
+        "thesis_risk": "Musk/xAI chip ออก product จริงที่ทำลาย H200 performance-per-dollar ≥50% = IF WRONG; hyperscaler CapEx cut >30%; export curbs จีน escalate",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "7 Powers ครบ; ROIC >100%; FCF $96.6B FY2026; Tier upgrade Inevitable confirmed (Colette CFO proven + 4 signals)"
+          },
+          "gp": {
+            "score": 9.5,
+            "detail": "Revenue FY2026 $215.9B +65%; Q1 FY27 guide $78B; Vera CPU $200B new TAM; Blackwell supply ramp H2 2026"
+          },
+          "va": {
+            "score": 8.0,
+            "detail": "Fwd P/E 16.5x = cheapest Inevitable tier; PEG 0.57 ✓ (cap 1.5); MoS 32.4% ✓ (gate 15%); ER 28.2%/yr ✓ (terminal-value 5yr)",
+            "price": 208.19,
+            "fair_value_base": 308,
+            "fair_value_bull": 360,
+            "fair_value_bear": 240,
+            "mos_pct": 32.4,
+            "forward_pe": 16.5,
+            "peg": 0.57,
+            "expected_return_5yr_pct": 28.2,
+            "valuation_assumptions": {
+              "fair_value_method": "Terminal-value 5yr EPS growth projection × terminal multiple",
+              "pe_multiple_rationale": "Base 17x; Bull 25x (Vera CPU TAM realizes); Bear 7x (thesis break/Musk chip disruption)",
+              "eps_basis": "FY27 consensus EPS $18.12 (Yahoo Finance); growth 30% FY27 → 20% FY28-30",
+              "growth_rate": "30% FY27, 20% FY28-FY30 (terminal 5yr stack)",
+              "peg_formula": "Fwd P/E 16.5 ÷ EPS Growth 29% = 0.57",
+              "mos_formula": "(FV Base $308 − Price $208.19) ÷ $308 = 32.4%",
+              "data_source": "prices_cache 2026-06-10 + NVDA.md watchlist refresh 2026-06-10"
+            }
+          },
+          "ra": {
+            "score": 7.0,
+            "detail": "Musk chip claim RA +0.5 (watch 90 days for product proof); export curbs; customer concentration 36%; antitrust. Balance Sheet $80B buyback available"
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-05-28",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $40 (Paper #1)"
+          },
+          {
+            "date": "2026-06-10",
+            "event": "REVISED → v2",
+            "note": "Tier upgrade Pre-Inevitable→Inevitable (Colette CFO proven); ADD $20 (Paper #2); MoS ดีขึ้น 30.4%→32.4%"
+          }
+        ]
+      },
+      {
+        "ticker": "MSFT",
+        "action": "BUY",
+        "status": "ACTIVE",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 1,
+        "last_reviewed": "2026-06-10",
+        "amount_usd": 10.0,
+        "total_invested_usd": 40.0,
+        "conviction": "VERY HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 8.55,
+        "investment_idea": "Enterprise AI Stack — Azure + Copilot + RPO $627B; NHS 500K+ Copilot rollout validates WHY NOW",
+        "thesis": "NHS 500K seats (06-10) confirms Copilot enterprise mainstream → WHY NOW playing out; Azure +29-40%; Fwd P/E 20.8x still below historical 24x; MoS 22.3% ✓; ADD ราคา $403 ต่ำกว่า entry เดิม $412",
+        "thesis_risk": "Azure growth ชะลอ <15% 2Q ติดต่อกัน; OpenAI defection; CapEx $190B กด FCF",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "Inevitable moat 30+ปี; ROIC >30% ต่อเนื่อง; Satya rational allocation; NHS confirms enterprise switching cost"
+          },
+          "gp": {
+            "score": 8.5,
+            "detail": "Azure capacity-constrained → demand > supply; GitHub Copilot 15M+ paid; NHS 500K = enterprise mainstream signal"
+          },
+          "va": {
+            "score": 7.5,
+            "detail": "Fwd P/E 20.8x < historical 24x; PEG 1.08 ✓; MoS 22.3% ✓; ER 22.6%/yr ✓",
+            "price": 403.41,
+            "fair_value_base": 519,
+            "fair_value_bull": 600,
+            "fair_value_bear": 420,
+            "mos_pct": 22.3,
+            "forward_pe": 20.8,
+            "peg": 1.08,
+            "expected_return_5yr_pct": 22.6,
+            "valuation_assumptions": {
+              "fair_value_method": "Terminal-value 5yr; Base 24x × FY27 EPS $21.63",
+              "pe_multiple_rationale": "Base 24x = historical; Bull 30x = AI premium; Bear 14x = Azure decel",
+              "eps_basis": "FY27 consensus EPS $21.63; growth 18-22% FY27-30",
+              "growth_rate": "20%/yr (Warren) — Charlie cautioned 14.58% 5Y consensus; ใช้ 18% conservative",
+              "peg_formula": "Fwd P/E 20.8 ÷ EPS Growth 19% = 1.08",
+              "mos_formula": "(FV $519 − Price $403.41) ÷ $519 = 22.3%",
+              "data_source": "prices_cache 2026-06-10 + MSFT.md watchlist refresh 2026-06-10"
+            }
+          },
+          "ra": {
+            "score": 8.5,
+            "detail": "Balance Sheet $75B cash; diversified; EU antitrust not structural; OpenAI in-house alternatives (Phi/Copilot)"
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-05-28",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $30 (Paper #1)"
+          },
+          {
+            "date": "2026-06-10",
+            "event": "RECHECK",
+            "note": "IF WRONG ไม่ fire; NHS confirms WHY NOW; ADD $10 (Paper #2); thesis HELD v1"
+          }
+        ]
+      },
+      {
+        "ticker": "META",
+        "action": "BUY",
+        "status": "ACTIVE",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 2,
+        "last_reviewed": "2026-06-10",
+        "amount_usd": 10.0,
+        "total_invested_usd": 30.0,
+        "conviction": "HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 8.17,
+        "investment_idea": "AI-Enhanced Advertising Flywheel + Tier Upgrade Inevitable — ราคาย่อ $584 เปิด MoS 19%; AI delay minor, advertising thesis intact",
+        "thesis": "AI feature delay (06-09) = execution setback, ไม่ใช่ structural break; advertising flywheel Impressions × Price AI intact; OM 41% record; 3.56B DAU data moat; Tier upgrade Inevitable (ROIC >35%, 4 signals ครบ). ADD $10 ที่ $584 < entry $635 = avg cost ดีขึ้น",
+        "thesis_risk": "AI feature delay ลาม → monetization miss Q3 2026; FTC appeal court overturns (low prob); Reality Labs $19B/yr ไม่มี breakeven path; CapEx $125-145B กด FCF",
+        "scores": {
+          "bq": {
+            "score": 9.0,
+            "detail": "Network Effect 3.56B DAU; Data Moat ใหญ่ที่สุด; Tier upgrade Inevitable: ROIC >35% ต่อเนื่อง + AI ad flywheel = Power ขยาย"
+          },
+          "gp": {
+            "score": 9.0,
+            "detail": "Revenue +33% YoY Q1; FCF $12.4B/Q; AI monetization upside; Threads vs Reddit new TAM; Fwd P/E ~16x cheapest Big Tech"
+          },
+          "va": {
+            "score": 7.0,
+            "detail": "MoS 19% ✓ (gate 15%); PEG 0.48 ✓; ER 30%/yr ✓; AI delay เพิ่ม uncertainty = VA score ลง 0.5 จาก 7.5",
+            "price": 584.59,
+            "fair_value_base": 722,
+            "fair_value_bull": 850,
+            "fair_value_bear": 560,
+            "mos_pct": 19.0,
+            "forward_pe": 16.2,
+            "peg": 0.48,
+            "expected_return_5yr_pct": 30.0,
+            "valuation_assumptions": {
+              "fair_value_method": "Terminal-value 5yr; Base 22x × FY27 EPS $32.83",
+              "pe_multiple_rationale": "Base 22x = AI flywheel premium vs historical 18x; Bull 30x; Bear 12x = FTC scenario",
+              "eps_basis": "FY27 consensus EPS $32.83; growth 30-35% FY27-28",
+              "growth_rate": "30% FY27-28 (Warren) — Charlie cautioned; conservative 25% used",
+              "peg_formula": "Fwd P/E 16.2 ÷ EPS Growth 34% = 0.48",
+              "mos_formula": "(FV $722 − Price $584.59) ÷ $722 = 19.0%",
+              "data_source": "prices_cache 2026-06-10 + META.md watchlist refresh"
+            }
+          },
+          "ra": {
+            "score": 6.0,
+            "detail": "AI delay risk +0.5; FTC win intact; IRS+EU DSA aggregate liability; Reality Labs drag; CapEx surge"
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-05-28",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $20 (Paper #1)"
+          },
+          {
+            "date": "2026-06-10",
+            "event": "REVISED → v2",
+            "note": "Tier upgrade Pre-Inevitable→Inevitable; AI delay noted (execution risk +); ADD $10 (Paper #2)"
+          }
+        ]
+      },
+      {
+        "ticker": "AMZN",
+        "action": "BUY",
+        "status": "NEW",
+        "thesis_date": "2026-06-10",
+        "thesis_version": 1,
+        "last_reviewed": "2026-06-10",
+        "amount_usd": 20.0,
+        "total_invested_usd": 20.0,
+        "conviction": "HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 8.12,
+        "investment_idea": "Cloud + Retail + Ads Trifecta — AWS fastest growth in 15 quarters + Trainium/Anthropic AI bet; ราคาย่อ $244 เปิด MoS 22.5%",
+        "thesis": "AWS +36% fastest growth 15Q = AI cloud demand confirmed; Trainium2 chip + Anthropic = AI compute hedge ไม่พึ่ง NVIDIA อย่างเดียว; Ads $60B growing +19%; Fwd P/E 26x สูงกว่ากลุ่ม แต่ AWS FCF margin expansion justifies; MoS 22.5% ✓",
+        "thesis_risk": "FCF กด CapEx AI สูง; AWS vs GCP +63% competition ดุ; antitrust EU/US; FCF -95% YoY ใน 1Q (ชั่วคราวจาก CapEx surge)",
+        "scores": {
+          "bq": {
+            "score": 9.0,
+            "detail": "3 moats: AWS scale, Retail logistics, Advertising data; ROIC rising (AWS contribution); Bezos-level capital allocation by Jassy"
+          },
+          "gp": {
+            "score": 8.5,
+            "detail": "AWS +36% fastest 15Q; Ads +19%; Prime membership sticky; Trainium = AI compute diversification"
+          },
+          "va": {
+            "score": 7.0,
+            "detail": "Fwd P/E 26x สูง แต่ FCF yield improving; PEG ~1.04 (26/25) ✓ cap 1.5; MoS 22.5% ✓; ER 26%/yr ✓ (terminal-value)",
+            "price": 244.19,
+            "fair_value_base": 315,
+            "fair_value_bull": 380,
+            "fair_value_bear": 250,
+            "mos_pct": 22.5,
+            "forward_pe": 26.0,
+            "peg": 1.04,
+            "expected_return_5yr_pct": 26.0,
+            "valuation_assumptions": {
+              "fair_value_method": "Terminal-value 5yr; multiple compression + FCF growth; Base 25x FCF",
+              "pe_multiple_rationale": "Base 25x = AWS premium; Bull 30x = AWS margin expansion full; Bear 15x = regulatory/CapEx drag",
+              "eps_basis": "FY27 EPS estimate; FCF-based; AWS margin expansion key driver",
+              "growth_rate": "25%/yr AWS + 15% retail; blended 20-25%",
+              "peg_formula": "Fwd P/E 26.0 ÷ EPS Growth 25% = 1.04",
+              "mos_formula": "(FV $315 − Price $244.19) ÷ $315 = 22.5%",
+              "data_source": "AMZN.md 2026-06-05 + prices_cache 2026-06-10 + watchlist carry-forward"
+            }
+          },
+          "ra": {
+            "score": 7.5,
+            "detail": "Balance Sheet strong; AWS diversified customer; antitrust EU/US watchlist; FCF CapEx surge temporary"
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-06-10",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $20 (Paper #2); diversify from NVDA/MSFT/META concentration"
+          }
+        ]
+      },
+      {
+        "ticker": "NFLX",
+        "action": "BUY",
+        "status": "NEW",
+        "thesis_date": "2026-06-10",
+        "thesis_version": 1,
+        "last_reviewed": "2026-06-10",
+        "amount_usd": 20.0,
+        "total_invested_usd": 20.0,
+        "conviction": "HIGH",
+        "tier": "🚀 Pre-Inevitable",
+        "waf": 7.92,
+        "investment_idea": "Content + Algorithm Moat + Ad Tier Scale — MoS 33.2% สูงสุดในกลุ่ม; post-10:1 split ราคา $81 เปิด entry จาก $92",
+        "thesis": "Password crackdown ✓ (302M+ subs) + Ad tier 250M MAU ✓ + Live sports (NFL/WWE) ✓ = 3 growth vectors ยืนยันแล้ว; Content flywheel $17-18B/yr ที่คู่แข่งไม่ replicate ได้ทัน; Fwd P/E 22x vs historical 35x = discount ชัด; MoS 33.2% = ดีที่สุดในกลุ่ม BUY",
+        "thesis_risk": "Content cost inflation ทำ margin ไม่ขยาย; Disney+/Prime เพิ่ม budget; Ad revenue cyclical recession risk; subscriber ceiling ในตลาด developed",
+        "scores": {
+          "bq": {
+            "score": 8.5,
+            "detail": "Content Library moat + Algorithm moat; 4/5 Pre-Inevitable signals; Switching Cost (social/watch history); Pricing Power ✓ (ขึ้นราคาทุกปีไม่หลุด)"
+          },
+          "gp": {
+            "score": 7.5,
+            "detail": "Ad tier + live sports new TAM; international expansion; gaming optionality; organic growth 15-20%/yr"
+          },
+          "va": {
+            "score": 8.5,
+            "detail": "Fwd P/E 22x vs historical 35x = ถูกชัด; MoS 33.2% ✓ ดีที่สุดในกลุ่ม; ER 32.8%/yr ✓",
+            "price": 81.41,
+            "fair_value_base": 121.9,
+            "fair_value_bull": 145.0,
+            "fair_value_bear": 95.0,
+            "mos_pct": 33.2,
+            "forward_pe": 22.0,
+            "peg": 1.1,
+            "expected_return_5yr_pct": 32.8,
+            "valuation_assumptions": {
+              "fair_value_method": "Terminal-value 5yr; Base multiple × EPS growth (post 10:1 split prices)",
+              "pe_multiple_rationale": "Base 28x = discount from historical 35x (competition risk); Bull 35x = full moat; Bear 20x = content cost spiral",
+              "eps_basis": "Post-10:1 split EPS; FY2027 consensus; growth 20% FY27-29",
+              "growth_rate": "20%/yr near-term; 15% terminal",
+              "peg_formula": "Fwd P/E 22.0 ÷ EPS Growth 20% = 1.10",
+              "mos_formula": "(FV $121.9 − Price $81.41) ÷ $121.9 = 33.2%",
+              "data_source": "NFLX.md 2026-06-03 + prices_cache 2026-06-10 (post 10:1 split)"
+            }
+          },
+          "ra": {
+            "score": 7.5,
+            "detail": "No significant debt; subscription model resilient; competition risk manageable; ad tier diversifies revenue"
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-06-10",
+            "event": "INITIATED",
+            "note": "เริ่ม thesis — ซื้อ $20 (Paper #2); MoS 33.2% ดีที่สุดในกลุ่ม; diversify Pre-Inevitable"
+          }
+        ]
+      },
+      {
+        "ticker": "TSM",
+        "action": "STARTER",
+        "status": "NEW",
+        "thesis_date": "2026-06-10",
+        "thesis_version": 1,
+        "last_reviewed": "2026-06-10",
+        "amount_usd": 10.0,
+        "total_invested_usd": 10.0,
+        "conviction": "VERY HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 8.1,
+        "investment_idea": "AI Foundry Monopoly — NVIDIA-TSMC AI factory efficiency partnership (06-08); MoS 8.9% เข้า STARTER band [8-15%]; เริ่ม ⅓ target position",
+        "thesis": "Sole HVM N3/N2/A16 = ทุก AI chip ต้องผ่าน TSMC; NVIDIA-TSMC partnership ยิ่งล็อกความสัมพันธ์ระยะยาว; FY26 >30% growth; C.C. Wei leadership proven (Inevitable ✓); MoS 8.9% เข้า band จริง (gate 15% − 7 = 8%); STARTER ⅓ target ≈ $10; เพิ่มเมื่อ MoS ≥15% หรือ signal +1",
+        "thesis_risk": "Taiwan geopolitical (ไม่เปลี่ยน tier แต่เป็น IF WRONG event ถ้า conflict เพิ่มชัด); overseas fab margin H2 2026; Apple+NVIDIA concentration 36%",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "Inevitable: foundry moat 35+ปี; C.C. Wei proven; N2/A16 Power ขยาย; ROIC >25% ต่อเนื่อง; NVIDIA lock-in new"
+          },
+          "gp": {
+            "score": 9.5,
+            "detail": "AI chip demand = every AI chip needs TSMC; N2 HVM; FY26 +30%; CoWoS near-monopoly on AI packaging"
+          },
+          "va": {
+            "score": 6.5,
+            "detail": "MoS 8.9% = STARTER band ✓ (ไม่ผ่าน BUY gate 15%); Fwd P/E 19.8x; ER 26.6%/yr ✓; action STARTER ⅓ target $10",
+            "price": 427.92,
+            "fair_value_base": 470,
+            "fair_value_bull": 560,
+            "fair_value_bear": 360,
+            "mos_pct": 8.9,
+            "forward_pe": 19.8,
+            "peg": null,
+            "expected_return_5yr_pct": 26.6,
+            "valuation_assumptions": {
+              "fair_value_method": "Terminal-value 5yr; N2/A16 ASP uplift + volume growth",
+              "pe_multiple_rationale": "Base 20x = foundry premium; Bull 24x = N2 margin full; Bear 14x = Taiwan discount",
+              "eps_basis": "FY27 EPS ADR-adjusted; consensus; FY26 growth >30%",
+              "growth_rate": "30% FY26-27, 20% FY28-30",
+              "peg_formula": "Fwd P/E 19.8 ÷ EPS Growth ~25% ≈ 0.79",
+              "mos_formula": "(FV $470 − Price $427.92) ÷ $470 = 8.9% → STARTER band",
+              "data_source": "TSM.md 2026-06-10 + prices_cache 2026-06-10 + watchlist STARTER call 06-10"
+            }
+          },
+          "ra": {
+            "score": 6.0,
+            "detail": "Taiwan geopolitical top risk; Apple+NVIDIA 36% concentration; overseas fab dilute margin; CoWoS supply bottleneck"
+          }
+        },
+        "starter_note": "STARTER ⅓ target; target full position ~5% of portfolio ($30-40 total); เพิ่ม Add ไม้ 2 เมื่อ MoS ≥15% หรือ Taiwan risk ลดลง/N2 ramp confirm",
+        "thesis_log": [
+          {
+            "date": "2026-06-10",
+            "event": "INITIATED",
+            "note": "เริ่ม STARTER — ซื้อ $10 (Paper #2); MoS 8.9% ✓ STARTER band [8-15%]; WAF 8.10 HIGH ✓"
+          }
+        ]
+      },
+      {
+        "ticker": "CASH",
+        "action": "HOLD",
+        "amount_usd": 10.0,
+        "total_invested_usd": 10.0,
+        "conviction": null,
+        "tier": null,
+        "waf": null,
+        "investment_idea": "Buffer รอ TSM STARTER Add ไม้ 2 (เมื่อ MoS ≥15%) หรือ AVGO หลัง Q2 earnings ถ้า MoS เปิด",
+        "thesis": "Inevitable cap ตอนนี้ 80% เต็มพอดี — ถ้าลงทุนเพิ่มต้องเป็น Pre-In/Fast Grower; AVGO Q2 earnings pending (06-08); GOOGL MoS 3.2% ยังไม่ถึง gate",
+        "scores": null
+      }
+    ],
+    "category_allocation": {
+      "inevitable": {
+        "tickers": [
+          "NVDA",
+          "MSFT",
+          "META",
+          "AMZN",
+          "TSM"
+        ],
+        "total_cost_usd": 160.0,
+        "total_pct_of_deployed": 80.0,
+        "cap_pct": 80.0,
+        "status": "✓ At cap"
+      },
+      "pre_inevitable": {
+        "tickers": [
+          "NFLX"
+        ],
+        "total_cost_usd": 20.0,
+        "total_pct_of_deployed": 10.0,
+        "cap_pct": 60.0,
+        "status": "✓ Room available"
+      },
+      "cash_buffer": {
+        "total_usd": 10.0,
+        "total_pct_of_deployed": 5.0,
+        "note": "รอ TSM Add ไม้ 2 / AVGO earnings opportunity"
+      }
+    },
+    "holdings_recheck": [
+      {
+        "ticker": "NVDA",
+        "entry_price": 212.6,
+        "current_price": 208.19,
+        "change_pct": -2.1,
+        "fair_value_base": 308,
+        "mos_current": 32.4,
+        "expected_return_pct": 28.2,
+        "decision": "ADD",
+        "if_wrong_fired": false,
+        "thesis_status": "THESIS_HELD",
+        "notes": "Musk chip claim = RA flag (watch 90 days) แต่ไม่ fire IF WRONG; CUDA moat intact"
+      },
+      {
+        "ticker": "MSFT",
+        "entry_price": 412.67,
+        "current_price": 403.41,
+        "change_pct": -2.2,
+        "fair_value_base": 519,
+        "mos_current": 22.3,
+        "expected_return_pct": 22.6,
+        "decision": "ADD",
+        "if_wrong_fired": false,
+        "thesis_status": "THESIS_HELD",
+        "notes": "NHS 500K Copilot seats = WHY NOW confirmed; ราคาย่อ $403 เปิด entry ดีกว่าเดิม"
+      },
+      {
+        "ticker": "META",
+        "entry_price": 635.25,
+        "current_price": 584.59,
+        "change_pct": -8.0,
+        "fair_value_base": 722,
+        "mos_current": 19.0,
+        "expected_return_pct": 30.0,
+        "decision": "ADD",
+        "if_wrong_fired": false,
+        "thesis_status": "THESIS_HELD",
+        "notes": "AI delay (06-09) = execution risk ขึ้นเล็กน้อย แต่ advertising thesis ไม่เปลี่ยน; ราคาย่อ $584 = avg cost ดีขึ้น"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "ticker": "AVGO",
+        "reason": "Q2 earnings pending (06-08) — ราคา $392 เปิด MoS 6.6% แต่ action WATCH; ต้องรอดูผล earnings ก่อน; Fwd PE ยังแพง",
+        "decision": "WATCH — ถ้า Q2 earnings ดี + ราคาย่อ → พิจารณา Paper #3"
+      },
+      {
+        "ticker": "GOOGL",
+        "reason": "MoS 3.2% ยังขาด gate 15% มาก; ราคา $364 ยังสูงกว่า entry target",
+        "decision": "WATCH — รอ MoS ≥15% (ราคาต้องลงมา ~$290)"
+      }
+    ],
+    "retrospective": {
+      "papers_reviewed": 1,
+      "thesis_outcomes": [
+        {
+          "paper_id": "2026-05-28",
+          "ticker": "NVDA",
+          "action": "BUY @ $212.60",
+          "price_then": 212.6,
+          "price_now": 208.19,
+          "actual_return_pct": -2.1,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "CORRECT (EARLY) — Vera CPU TAM not priced in; Musk claim = noise not signal",
+          "notes": "ราคาย่อ -2% จาก Musk chip claim; MoS ดีขึ้น 30.4%→32.4%; thesis intact; ADD"
+        },
+        {
+          "paper_id": "2026-05-28",
+          "ticker": "MSFT",
+          "action": "BUY @ $412.67",
+          "price_then": 412.67,
+          "price_now": 403.41,
+          "actual_return_pct": -2.2,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "CORRECT — NHS 500K Copilot seats = enterprise AI mainstream confirmed",
+          "notes": "ราคาย่อ -2%; WHY NOW playing out (NHS) = conviction ขึ้น; ADD"
+        },
+        {
+          "paper_id": "2026-05-28",
+          "ticker": "META",
+          "action": "BUY @ $635.25",
+          "price_then": 635.25,
+          "price_now": 584.59,
+          "actual_return_pct": -8.0,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "THESIS_UNCERTAIN — AI delay = execution risk ขึ้น; FTC win intact; Tier upgrade Inevitable",
+          "notes": "ราคาย่อ -8% จาก AI delay; MoS ดีขึ้น 13.7%→19%; advertising thesis ไม่เปลี่ยน; ADD"
+        }
+      ],
+      "bias_patterns": "Paper #1→#2: ราคาทุกตัวย่อ 2-8% ใน 13 วัน = Charlie growth concern บางส่วนสะท้อน; Warren growth rate สูงกว่า consensus ยังคงเป็นประเด็น (monitor); ทุก IF WRONG ยังไม่ fire = thesis selection ถูกต้อง",
+      "portfolio_health": "3/3 active thesis HELD; tier upgrade cycle NVDA+META → Inevitable = position room ขยาย; portfolio value $95.48 vs cost $100 (-4.5%) = ตลาดปกติ unrealized loss ยอมรับได้; Paper #2 deploy $90 เพิ่ม diversification (AMZN+NFLX+TSM)"
+    },
+    "proposed_improvements": [
+      {
+        "observation": "ER calculation ไม่ consistent: watchlist ใช้ terminal-value 5yr (แสดง 28.2%) แต่ standard formula FV/price^0.2-1 ให้ 8.1% — สองตัวเลขต่างกันมาก",
+        "suggested_fix": "กำหนดชัดใน WARREN.md ว่า ER standard = FV_base/price^(1/5)-1 VS terminal-value approach; ระบุว่าใช้อะไรเป็น gate (>15%) เพื่อ consistency",
+        "target": "WARREN.md — Holdings Return Recheck + Step 5.5"
+      },
+      {
+        "observation": "NFLX FV base $121.9 ที่ราคา $81 ให้ FV/price ratio ~1.5x แต่ ER standard = 8.4%/yr ต่ำกว่า hurdle 15% — ถ้าใช้ standard formula ไม่น่า BUY",
+        "suggested_fix": "Warren ควร document อย่างชัดว่า paper ใช้ terminal-value ER (growth-based) ไม่ใช่ static FV ER; ถ้าใช้ terminal-value → ต้อง document growth assumption ทุกตัวเพื่อ audit",
+        "target": "WARREN.md + paper entries (growth_rate assumptions)"
+      }
+    ],
+    "lessons_summary": "Paper #1 → #2: ทุก IF WRONG ยังไม่ fire (13 วัน); ราคาย่อ = entry ดีขึ้น ไม่ใช่ thesis break (ยืนยัน Fisher anti-panic discipline); Charlie growth-rate bias ยังต้อง monitor; Tier upgrade NVDA+META → Inevitable = framework ทำงานได้"
   }
 ]
