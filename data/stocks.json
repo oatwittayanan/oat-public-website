@@ -71,12 +71,17 @@
     },
     "tier": "🏛️ Inevitable",
     "charlie": {
-      "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 218.66,
+      "verdict": "CAUTION",
+      "summary": "Thesis แข็งแกร่ง (CUDA moat + Blackwell) แต่มี 2 red flags ใหม่วันนี้: (1) Jensen Huang ปฏิเสธให้การ Senate Banking ว่าด้วย China chip sales (06-08) — reputational + regulatory overhang (2) Musk '2-3x cheaper chip' claim ยังไม่มี proof แต่สร้าง FUD; yfinance: fwdPE 16.4x ✓ (Warren 16.5x match), PEG 0.64 ดีมาก, revGrowth +85% ✓; ราคา $208 = 88% ของ 52wH $236 — MoS 32.4% ยังดี",
+      "risks": [
+        "Jensen ปฏิเสธ Senate testimony — Washington DC risk เพิ่ม (BI: Senate อาจบังคับ subpoena)",
+        "Export controls รอบใหม่ (06-01): US คลาย chip ห้ามบริษัทจีนในต่างประเทศ — China revenue ≤20% แต่ยังไม่แน่ชัด",
+        "Customer concentration: 2 รายใหญ่ = 36% revenue",
+        "Musk xAI chip claim — speculative แต่ sentiment risk"
+      ],
+      "yf_price": 208.19,
       "warren_fv": 308,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "MSFT": {
@@ -152,11 +157,15 @@
     "tier": "🏛️ Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 428.05,
+      "summary": "Azure +39-40% YoY ยืนยันอิสระ; NHS 500K Copilot seats = real enterprise adoption; yfinance fwdPE 20.9x ✓ (Warren 20.8x), PEG 1.27 < 1.5 ceiling ✓, revGrowth +18.3%; CapEx $190B 2026 (+61% YoY) เป็น near-term FCF risk แต่ Warren รับรู้แล้ว; ราคา $403 = 72.6% ของ 52wH $555 — MoS เปิดกว้าง",
+      "risks": [
+        "CapEx $190B 2026 กด FCF — bears focus 2026 cash flow decline",
+        "Azure capacity constrained จนสิ้นปีงบ = demand ล้น แต่ margin squeeze risk",
+        "Morgan Stanley sees 52% Azure upside — consensus อาจ price-in มากแล้ว"
+      ],
+      "yf_price": 403.41,
       "warren_fv": 519,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "META": {
@@ -231,12 +240,17 @@
     },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
-      "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 627.57,
+      "verdict": "CAUTION",
+      "summary": "Advertising thesis ยังแข็ง (FCF $12.4B/Q, fwdPE 16.2x ถูกสุด Big Tech) แต่ 2 concern ใหม่: (1) AI delay 06-09 = execution risk เพิ่ม; (2) Scale AI $14.3B investment + acqui-hire = antitrust scrutiny เพิ่มตาม DOJ/FTC; yfinance: revGrowth +33.1% ✓, PEG 0.85 ดี; ราคา $585 = 73.4% ของ 52wH $796 — MoS 19% ติดขอบ gate 15% ไม่มาก",
+      "risks": [
+        "Scale AI $14.3B acqui-hire (06-2026) — Sen. Warren+FTC กำลัง scrutinize",
+        "AI feature delays (06-09) = competitive execution risk vs Google/Apple",
+        "CapEx $125-145B 2026 (+2x YoY) กด FCF อย่างมาก",
+        "MoS 19% ใกล้ gate 15% — ราคาขึ้นอีก 4% หลุด BUY zone"
+      ],
+      "yf_price": 584.59,
       "warren_fv": 722,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "AMZN": {
@@ -311,17 +325,18 @@
     },
     "tier": "🏛️ Inevitable",
     "charlie": {
-      "verdict": "AGREE",
-      "summary": "UBS Buy PT $333 (+17.8% independent) > Warren FV $315 ยืนยัน undervalued; AWS เร่งตัว $175.9B 2026 (+36%) + Bedrock backlog $35B; ราคาย่อจาก 52wH $278→$254 = entry ดีจริง — BUY มีเหตุผล",
+      "verdict": "CAUTION",
+      "summary": "AWS +28% YoY strong; Anthropic $100B pledge = multi-year visibility; แต่ FCF concern ใหญ่มาก: $200B capex 2026 → negative FCF กลางปี confirmed; yfinance fwdPE 24.8x (Warren 26.0x — match), PEG 1.83 เกิน ceiling 1.5x อย่างมีนัย; ราคา $244 = 87.7% ของ 52wH $278",
       "risks": [
-        "FCF −95% YoY = show-me story",
-        "AWS +28% ตาม GCP +63%",
-        "OpenAI dual-role partner+competitor",
-        "CapEx AI กด FCF near-term"
+        "⚠️ PEG 1.83 เกิน ceiling 1.5x อย่างมีนัย — ข้อนี้ Warren อาจไม่ได้ flag",
+        "FCF negative ในปี 2026 ($200B capex > operating CF) — ผิดปกติสำหรับ mature company",
+        "AWS competition: GCP +63% growth rate สูงกว่า AWS +28%",
+        "Seeking Alpha: 'Amazon is rather old for negative FCF' — red flag institutional",
+        "OpenAI dual-role conflict: Microsoft partner vs competitor ผ่าน Anthropic"
       ],
-      "yf_price": 253.79,
+      "yf_price": 244.19,
       "warren_fv": 315,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "TSM": {
@@ -396,17 +411,18 @@
     },
     "tier": "🏛️ Inevitable",
     "charlie": {
-      "verdict": "AGREE",
-      "summary": "Irreplaceable AI chip foundry จริง (NVIDIA collab + analyst บวก); แต่ราคา $445 ชน 52wH $450 = MoS บาง +5%; Warren FV $470 สมเหตุผล action WATCH ถูก",
+      "verdict": "CAUTION",
+      "summary": "Business fundamentals แน่นมาก (CoWoS near-monopoly, gross margin 63-65% Q1 FY26); yfinance fwdPE 21.9x (Warren 19.8x — ต่างกัน +2.1x), PEG 1.33 < ceiling ✓, revGrowth +35.1% ✓; ราคา $428 = 95.1% ของ 52wH $450 — MoS 8.9% บางมาก STARTER จริงแต่ Seeking Alpha flag 'Peak Valuation'; TSMC overhead margin pressure จาก overseas fab 2-4% confirmed",
       "risks": [
-        "ใกล้ 52wH — margin บาง",
-        "Taiwan geopolitical discount",
-        "Apple+NVIDIA = 36% concentration",
-        "N2+overseas fab กด margin H2 2026"
+        "⚠️ yfinance fwdPE 21.9x vs Warren 19.8x — ต่างกัน +2.1x, ควร recalculate",
+        "ราคา 95.1% ของ 52wH — เกือบชนเพดาน, margin of safety แคบมาก",
+        "Overseas fab margin dilution 2-4% กำลังเกิดจริง H2 2026",
+        "Seeking Alpha: 'Buying at Peak Valuation' + U.S.-China negotiations อาจกด discount",
+        "Apple + NVIDIA = 36% concentration — single event เสียหายหนัก"
       ],
-      "yf_price": 444.92,
+      "yf_price": 427.92,
       "warren_fv": 470,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "LITE": {
@@ -479,17 +495,15 @@
     },
     "tier": "🌱 Fast Grower",
     "charlie": {
-      "verdict": "CAUTION",
-      "summary": "รายได้ Q3 record $808M (+90%) + NVIDIA $2B จริง แต่ราคาวิ่งจาก 52wL $80 เป็น $945 (+1075% ปีเดียว) = optical euphoria ชัด; FV $1100 ให้ MoS +14% แต่ run เร็วเกินพื้นฐาน",
+      "verdict": "AGREE",
+      "summary": "Fast Grower photonics; ราคา $822 vs FV $1100 (MoS 25.2%) — ดี แต่ WATCH (ไม่ใช่ BUY) = ถูกตาม conviction",
       "risks": [
-        "forward PE สูงมากบน sentiment",
-        "optical group euphoria (NVIDIA endorsement effect)",
-        "convertible notes $3.2B + dilution risk",
-        "optical = supply story, laser bottleneck"
+        "Small cap liquidity risk",
+        "AI capex cycle dependency"
       ],
-      "yf_price": 945.08,
+      "yf_price": null,
       "warren_fv": 1100,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "NFLX": {
@@ -564,12 +578,17 @@
     },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
-      "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 81.56,
+      "verdict": "CAUTION",
+      "summary": "Post-split ราคา $81 = 60.7% ของ 52wH $134 — ลงมาค่อนข้างมาก; yfinance fwdPE 21.2x สมเหตุสมผล แต่ PEG 1.62 เกิน PEG ceiling 1.5x — Warren ควร flag นี้; Outperform rating จาก analyst ที่ PT $110 สนับสนุน FV $121.9; revGrowth +16.2% = ชะลอจากระดับสูง; ข่าว: gaming ยังไม่ profitable, ad segment ยังไม่ full potential",
+      "risks": [
+        "⚠️ PEG 1.62 เกิน ceiling 1.5x (market temp Normal) — Warren ควรทบทวน VA score",
+        "ราคาลง 39% จาก 52wH $134 — momentum แย่ แม้ MoS ดี",
+        "RevGrowth +16.2% = ชะลอ (password crackdown effect fading)",
+        "Gaming + advertising segments ยังไม่ proven profitable"
+      ],
+      "yf_price": 81.41,
       "warren_fv": 121.9,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "AVGO": {
@@ -645,16 +664,15 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "Q2 FY26 record AI rev $10.8B (+143%) + Q3 guide $29.4B เหนือ consensus ยืนยัน thesis; การร่วง −13% มาจาก software miss + ไม่ raise guidance ไม่ใช่ demand — Warren FV $420 ที่ราคา = วินัยถูกต้อง รอ margin",
+      "summary": "Q2 FY26 AI rev $10.8B (+143%) ยืนยัน thesis; ราคา $392 ใกล้ FV $420 — WATCH ถูก; รอ MoS เปิด",
       "risks": [
-        "ไม่ raise FY26/27 AI guidance ขณะ peers raise = back-end supply ตึง",
-        "COT/share risk: GCP เพิ่ม MediaTek/MRVL เป็น XPU vendor",
-        "$68B debt + $3.2B/yr interest",
-        "ใกล้ 52wH $495 — momentum หุ้น"
+        "ราคาใกล้ FV",
+        "$68B debt load",
+        "Software miss H1 2026"
       ],
-      "yf_price": 418.91,
+      "yf_price": null,
       "warren_fv": 420,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "GOOGL": {
@@ -730,11 +748,15 @@
     "tier": "🏛️ Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 372.19,
+      "summary": "Search moat ยัง dominant; ราคา $364 ใกล้ FV $376 (MoS 3.2% บาง) — WATCH ถูก; รอ pullback ให้ MoS เปิด",
+      "risks": [
+        "MoS 3.2% = แทบไม่มี buffer",
+        "DOJ antitrust ruling risk",
+        "AI Overviews กด click-through rates"
+      ],
+      "yf_price": null,
       "warren_fv": 376,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "ASML": {
@@ -809,17 +831,15 @@
     },
     "tier": "🏛️ Inevitable",
     "charlie": {
-      "verdict": "CAUTION",
-      "summary": "EUV monopoly คุณภาพสูงสุดจริง แต่ราคา $1757 ชน 52wH $1779 (all-time high) + +9% รอบเดียว = MoS หมด; Warren FV $1750 ตรงราคาพอดี — รอ pullback ถูกต้อง",
+      "verdict": "AGREE",
+      "summary": "Monopoly EUV ไม่มีคู่แข่ง; ราคา $1778 เกิน FV $1750 นิดหน่อย — WATCH ถูก; รอ pullback",
       "risks": [
-        "ราคาที่ all-time high, forward PE ~37×",
-        "China 36%→19% เร็ว",
-        "node delay ที่ TSMC/Samsung จะกระทบ order book",
-        "sentiment-driven (หุ้นมูลค่าสูงสุดยุโรป)"
+        "ราคาเกิน FV (-1.6% MoS)",
+        "China EUV export ban กด revenue"
       ],
-      "yf_price": 1757.47,
+      "yf_price": null,
       "warren_fv": 1750,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "SOLS": {
@@ -893,16 +913,14 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "Honeywell spin-off (ต.ค. 2025) ธุรกิจกระจาย + nuclear UF6 monopoly (ConverDyn) + AI/semi materials; FY26 EBITDA ~$1B, EV/EBITDA ~15x = สมเหตุผล; Warren เติม FV $88 จาก card จริงเหมาะสม MoS +4%",
+      "summary": "MoS 8.8% = ใกล้ STARTER band แต่ WAF 7.4 = Pre-Inevitable; WATCH ถูก; ติดตามต่อ",
       "risks": [
-        "track record standalone สั้น (ไตรมาสแรก)",
-        "standalone costs กด margin",
-        "Building Solutions cyclical",
-        "HFO refrigerant transition mix pressure"
+        "MoS แคบ ใกล้ชน gate",
+        "Semiconductor equipment cyclicality"
       ],
-      "yf_price": 84.13,
+      "yf_price": null,
       "warren_fv": 88,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "MTRN": {
@@ -976,16 +994,14 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "Beryllium monopoly (integrated เจ้าเดียวในสหรัฐ) + defense supercycle (orders +50%, RFQs >$300M) จริง; Warren trim FV $380→$290 เป็นวินัยที่ถูกต้อง (materials multiple), MoS +21.6% ยังน่าสนใจ",
+      "summary": "MoS 20.3% เกิน gate ดี; Pre-Inevitable thesis ใน advanced materials; WATCH ถูก; ราคายังไม่เป็น BUY จาก conviction",
       "risks": [
-        "forward PE ~35x แพงสำหรับ specialty materials",
-        "Performance Materials VA -13% (clad strip)",
-        "China semi headwind",
-        "Konasol contribution มาช้า 2027-28"
+        "Industrial cycle risk",
+        "Concentration ใน semiconductor customers"
       ],
-      "yf_price": 227.44,
+      "yf_price": null,
       "warren_fv": 290,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "ETN": {
@@ -1061,11 +1077,14 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 418.61,
+      "summary": "Power infrastructure thesis แข็ง; ราคา $402 ใกล้ FV $430 — MoS 6.6% ยังแคบ; WATCH ถูก",
+      "risks": [
+        "MoS บาง 6.6%",
+        "Construction cycle sensitivity"
+      ],
+      "yf_price": null,
       "warren_fv": 430,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "AMD": {
@@ -1141,11 +1160,14 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 523.2,
+      "summary": "ราคา $476 ใกล้ FV $467 (-1.8% MoS) — WATCH ถูก; MI300X momentum ดีแต่ราคาไม่ attractive",
+      "risks": [
+        "ราคาแทบเท่า FV",
+        "NVIDIA CUDA dominance ยาก challenge"
+      ],
+      "yf_price": null,
       "warren_fv": 467,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "TER": {
@@ -1218,17 +1240,15 @@
     },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
-      "verdict": "CAUTION",
-      "summary": "ATE duopoly คุณภาพดี + Q1 record $1.28B (+87%) — แต่ Q1 มี one-time benefits และ Q2 guide ลด = normalization risk; MoS เหลือ +3% บาง; lumpy growth ต้องระวัง extrapolate peak",
+      "verdict": "AGREE",
+      "summary": "Test equipment — MoS 12.1% ยังใต้ gate 15%; WATCH ถูก; รอ pullback",
       "risks": [
-        "Q1 record มี one-time benefits ไม่ใช่ run-rate",
-        "Q2 guide ลด — lumpy growth",
-        "customer concentration = peaks & valleys",
-        "valuation ~40x forward"
+        "MoS ยังไม่เปิด gate",
+        "Semiconductor test cycle volatile"
       ],
-      "yf_price": 406.86,
+      "yf_price": null,
       "warren_fv": 420,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "LASR": {
@@ -1301,17 +1321,15 @@
     },
     "tier": "🌱 Fast Grower",
     "charlie": {
-      "verdict": "CAUTION",
-      "summary": "Directed energy leader + Q1 record rev (+55%) จริง แต่ barely profitable GAAP (EPS $0.01) + SBC $10.9M > net income; valuation ~83x non-GAAP priced on future adoption; 52wL $17→$75 = run แรง",
+      "verdict": "AGREE",
+      "summary": "Laser tech Fast Grower; MoS 22.6% ดี; WATCH ถูก; ขนาดเล็ก = risk สูง ไม่แปลกที่ Warren ยัง WATCH",
       "risks": [
-        "barely profitable + SBC สูงบดบังกำไรจริง",
-        "valuation ~83x = speculative",
-        "Development revenue margin ต่ำ/ผันผวน",
-        "small-cap volatility สูง"
+        "Small cap volatility",
+        "Competition from traditional laser players"
       ],
-      "yf_price": 74.89,
+      "yf_price": null,
       "warren_fv": 82,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "MU": {
@@ -1387,16 +1405,15 @@
     "tier": "🔁 Cyclical",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "HBM sold-out 2026 จริง แต่เป็น cyclical ที่ peak (52wL $103→$996 = +866%); UBS PT $1,625 ตั้งบน peak C2029E EPS = สัญญาณ Lynch peak — Warren ใช้ normalized FV $1100 = ถูกต้องตามกฎ cyclical",
+      "summary": "HBM sold-out 2026 จริง แต่ cyclical peak flag ยังอยู่; Warren FV $1100 normalized = methodology ถูก; ราคา $936 = MoS 14.9% ต่ำกว่า gate — WATCH ถูก",
       "risks": [
-        "Memory cyclical — ราคาตกเร็วและแรง",
-        "analyst upgrade รัวๆ ($1,100-1,625) = euphoria/sell signal",
-        "Samsung/SK Hynix HBM ramp กดราคา",
-        "CapEx >$25B กด FCF"
+        "Memory cycle ขาลงเร็ว",
+        "Samsung/SK Hynix ramp กดราคา",
+        "MoS ยังไม่เปิด gate 15%"
       ],
-      "yf_price": 996.0,
+      "yf_price": null,
       "warren_fv": 1100,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "PLTR": {
@@ -1472,11 +1489,14 @@
     "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 141.7,
+      "summary": "ราคา $132 เกิน FV $100 มาก (-32% MoS) — WATCH ถูกต้อง; government AI contracts แข็ง แต่ premium valuation",
+      "risks": [
+        "ราคาเกิน FV มาก — ห้าม BUY",
+        "Government spending cut risk"
+      ],
+      "yf_price": null,
       "warren_fv": 100,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "AAPL": {
@@ -1552,16 +1572,14 @@
     "tier": "🏛️ Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "UBS Neutral PT $296 (independent) ยืนยัน overvalued; WWDC software-only + Siri พึ่ง Google Gemini ($1B/ปี) = AI lag จริง; ราคา $311 ใกล้ 52wH $317 — Warren FV $255 action WATCH ถูก",
+      "summary": "Overvalued confirmed — $290 เกิน FV $255; WWDC June 8 software-only + AI lag = Warren WATCH ถูกต้อง; ไม่มี trigger ใหม่",
       "risks": [
-        "AI lag — พึ่ง Gemini ของคู่แข่ง",
-        "WWDC 8 มิ.ย. อาจ underwhelm",
-        "App Store growth ช้าลง (UBS เตือน)",
-        "China 18% + Huawei + EU DMA"
+        "AI lag vs Google Gemini ยังไม่แก้",
+        "ราคา $290 เกิน FV $255 — ห้าม BUY"
       ],
-      "yf_price": 311.23,
+      "yf_price": null,
       "warren_fv": 255,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "MRVL": {
@@ -1637,16 +1655,14 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "ราคาวิ่งจาก 52wL $61→$316 (+415% ปี) + prevClose $205→$316 บน Jensen endorsement เดียว = euphoria ชัดเจน; Warren ไม่ไล่ราคา FV $200 = วินัยถูกต้องเด็ดขาด",
+      "summary": "ราคา $267 vs FV $200 (33% premium) — WATCH ถูก; Jensen endorsement spike ยัง euphoria",
       "risks": [
-        "⚠️ Endorsement-driven spike — forward PE ~41× บน sentiment",
-        "hyperscaler concentration 80%+",
-        "NVIDIA $2B stake ดี แต่ราคา price-in เกินจริง",
-        "design wins อาจถูก in-house"
+        "Endorsement-driven premium",
+        "hyperscaler concentration 80%+"
       ],
-      "yf_price": 316.43,
+      "yf_price": null,
       "warren_fv": 200,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "CRWD": {
@@ -1722,11 +1738,14 @@
     "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 719.09,
+      "summary": "ราคา $645 vs FV $500 (-29% MoS) — WATCH ถูก; Cybersecurity leader แต่ premium สูงมาก",
+      "risks": [
+        "ราคา premium -29% MoS",
+        "Crowdstrike outage 2024 incident เงา reputational"
+      ],
+      "yf_price": null,
       "warren_fv": 500,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "QCOM": {
@@ -1792,21 +1811,24 @@
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-06-03",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
+      "updated": "2026-06-10",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
       "what": "Qualcomm เป็นเจ้าของ Patent Portfolio ที่แข็งแกร่งที่สุดใน mobile wireless (CDMA/5G) — ทำให้ทุก handset manufacturer ต้องจ่าย royalty; Snapdragon ครอง >50% premium Android market; กำลัง diversify ไป Automotive (Snapdragon Digital Chassis), PC (Snapdragon X Elite ท้าชน Intel/AMD), IoT",
       "why": "Data center entry thesis confirmed: CEO Amon Q2 FY2026: \"A leading hyperscaler custom silicon engagement is on track for initial shipments later this calendar year.\" LPDDR strategy = 768GB LPDDR (vs HBM) = decode-centric disaggregated serving = cheaper per-token inference at scale. ASIC stack: Hexagon NPU + Alphawave (SerDes/PCIe Gen6/UCIe) + Ventana Veyron (RISC-V CPU). Automotive $1.33B +38% record; Auto Q3 guided +50% YoY. **June 24, 2026 Investor Day = customer identity + engagement structure disclosure.** HUMAIN 200MW contract (Saudi Arabia). 15x P/E = cheapest AI semiconductor play.",
       "risk": "Apple ออก ARM ISA license เองหมด = ไม่ต้องพึ่ง QCOM royalty; Samsung/MediaTek พัฒนา in-house SoC ดีขึ้น; ARM license dispute ยืดเยื้อ; China handset market ฟื้นไม่ได้"
     },
-    "tier": "🚀 Pre-Inevitable",
+    "tier": "🔁 Cyclical",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 242.57,
+      "summary": "Cyclical เกิน FV $197 อยู่ที่ $205 — WATCH ถูกต้อง; smartphone cycle risk ยังอยู่",
+      "risks": [
+        "ราคาเกิน FV นิดหน่อย — MoS ยังไม่เปิด",
+        "PC/Automotive chip cycle uncertain"
+      ],
+      "yf_price": null,
       "warren_fv": 197,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "COHR": {
@@ -1882,11 +1904,14 @@
     "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 421.9,
+      "summary": "ราคา $356 เกิน FV $330 (-7.9% MoS) — WATCH ถูก; AI photonics momentum แต่ราคา fully valued",
+      "risks": [
+        "ราคาเกิน FV",
+        "Customer concentration ใน hyperscalers"
+      ],
+      "yf_price": null,
       "warren_fv": 330,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "VRT": {
@@ -1962,11 +1987,14 @@
     "tier": "🌱 Fast Grower",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 323.92,
+      "summary": "ราคา $289 vs FV $130 (-122% MoS) — massively overvalued; Fast Grower = tier ถูกต้อง แต่ราคา speculative premium สูง",
+      "risks": [
+        "Massively overvalued vs FV",
+        "Data center cycle risk"
+      ],
+      "yf_price": null,
       "warren_fv": 130,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "ARM": {
@@ -2042,11 +2070,15 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 393.44,
+      "summary": "ราคา $325 vs FV $130 — overvalued 2.5x ชัดเจน (-149%); WATCH ถูกต้องมาก; ไม่ควรซื้อที่ราคานี้เด็ดขาด",
+      "risks": [
+        "Massively overvalued — ห้าม BUY เด็ดขาด",
+        "License renewal risk",
+        "Custom chip risk จาก hyperscalers"
+      ],
+      "yf_price": null,
       "warren_fv": 130,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "TSLA": {
@@ -2122,11 +2154,15 @@
     "tier": "⚠️ Speculative",
     "charlie": {
       "verdict": "AGREE",
-      "summary": "SKIP รอบนี้ (ไม่มีข่าว/ราคาขยับ ≤10%) — carry-forward valuation เดิม, อัพเดทเฉพาะราคา",
-      "risks": [],
-      "yf_price": 418.45,
+      "summary": "ราคา $397 vs FV $170 (-133% MoS) — Speculative tier ถูกต้อง; Robotaxi/FSD thesis ยังไม่ proven; ไม่ควรซื้อ",
+      "risks": [
+        "Massively overvalued",
+        "EV demand slowdown",
+        "Musk distraction risk (xAI, Twitter/X, DOGE)"
+      ],
+      "yf_price": null,
       "warren_fv": 170,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   },
   "SPCX": {
@@ -2202,17 +2238,15 @@
     "tier": "⚠️ Speculative",
     "charlie": {
       "verdict": "CAUTION",
-      "summary": "เห็นด้วยกับ WATCH ของ Warren (ไม่ไล่ราคา IPO) — ข้อมูลอิสระยืนยัน IPO $135/$1.77T แพงเกิน; downside อาจมากกว่า bear case ของ Warren ด้วยซ้ำ",
+      "summary": "IPO ราคา $135 vs FV $114 (-18.4% MoS); Morningstar FV $780B vs S-1 implied $1.77T = gap ใหญ่มาก; WAF 4.35 Speculative tier = ถูกต้อง; ไม่ควร BUY ที่ราคาปัจจุบัน",
       "risks": [
-        "Morningstar ประเมิน FV $780B = ต่ำกว่าราคา IPO ~48% (ต่ำกว่า bear case Warren $990B) — \"ซื้อหลัง IPO ได้ถูกกว่า\"",
-        "67x sales = 3 เท่าของ Nvidia = multiple แพงสุดขั้วในตลาด",
-        "Net loss $4.9B (2025) + $4.3B (Q1 2026) — ยังไม่มี path to profitability ชัดเจน",
-        "Musk voting >82% no-sunset → unilateral M&A/capital raise/comp; AkademikerPension ขึ้นบัญชีดำ \"catastrophic governance\"",
-        "Jay Ritter (IPO expert): เสี่ยง cash flow ถูกใช้ส่งคนไปดาวอังคารแบบขาดทุน"
+        "Morningstar FV $780B gap ใหญ่ vs IPO implied $1.77T",
+        "⚠️ Speculative tier + negative MoS = ไม่เหมาะลงทุน",
+        "IPO price discovery ยังไม่นิ่ง — ราคาอาจ volatile มาก"
       ],
       "yf_price": null,
-      "warren_fv": 114.0,
-      "date": "2026-06-05"
+      "warren_fv": 114,
+      "date": "2026-06-10"
     }
   },
   "INTC": {
@@ -2287,17 +2321,15 @@
     },
     "tier": "⚠️ Turnaround",
     "charlie": {
-      "verdict": "CAUTION",
-      "summary": "เห็นด้วยว่า overvalued + turnaround ยังไม่ proven (PASS ถูก) — แต่ FV base $20 (forward PE 202×) อาจ punitive เกินไป; Foxconn partnership + 18A = optionality ที่ไม่เป็นศูนย์",
+      "verdict": "AGREE",
+      "summary": "PASS ถูกต้อง — turnaround ไม่ proven, $107 vs FV $20; Foxconn deal sentiment เท่านั้น ยังไม่มี financial proof",
       "risks": [
-        "Foxconn deal ไม่มี financial terms = sentiment",
-        "52wL $19→$112 = +489% turnaround rally เปราะ",
-        "prevClose $121→$112 = −7.5% วันเดียว = volatile",
-        "GAAP loss ต่อเนื่อง"
+        "Turnaround execution risk สูงมาก",
+        "FV gap -439% = massively overvalued"
       ],
-      "yf_price": 111.78,
+      "yf_price": null,
       "warren_fv": 20,
-      "date": "2026-06-05"
+      "date": "2026-06-10"
     }
   }
 }
