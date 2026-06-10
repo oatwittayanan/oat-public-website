@@ -72,14 +72,14 @@
     "tier": "🏛️ Inevitable",
     "charlie": {
       "verdict": "CAUTION",
-      "summary": "Thesis แข็งแกร่ง (CUDA moat + Blackwell) แต่มี 2 red flags ใหม่วันนี้: (1) Jensen Huang ปฏิเสธให้การ Senate Banking ว่าด้วย China chip sales (06-08) — reputational + regulatory overhang (2) Musk '2-3x cheaper chip' claim ยังไม่มี proof แต่สร้าง FUD; yfinance: fwdPE 16.4x ✓ (Warren 16.5x match), PEG 0.64 ดีมาก, revGrowth +85% ✓; ราคา $208 = 88% ของ 52wH $236 — MoS 32.4% ยังดี",
+      "summary": "Thesis แข็งแกร่ง (CUDA moat + Blackwell) — ราคา $205 ยืนยันอิสระ (vs Warren $208); MoS 33.4% ✓ gate; fwdPE 23.75x GAAP (Warren 16.95x non-GAAP = SBC difference ไม่ใช่ discrepancy). RED FLAG ใหม่: Jensen ปฏิเสธ Senate Banking testimony (06-08) เรื่อง China chip exports — Sen. Warren DOJ allegation: $160M H100/H200 diverted + $510M servers. Tier Inevitable AGREE (key-man risk ลดลง, Colette CFO proven)",
       "risks": [
         "Jensen ปฏิเสธ Senate testimony — Washington DC risk เพิ่ม (BI: Senate อาจบังคับ subpoena)",
         "Export controls รอบใหม่ (06-01): US คลาย chip ห้ามบริษัทจีนในต่างประเทศ — China revenue ≤20% แต่ยังไม่แน่ชัด",
         "Customer concentration: 2 รายใหญ่ = 36% revenue",
         "Musk xAI chip claim — speculative แต่ sentiment risk"
       ],
-      "yf_price": 208.19,
+      "yf_price": 205.08,
       "warren_fv": 308,
       "date": "2026-06-10"
     }
@@ -163,7 +163,7 @@
         "Azure capacity constrained จนสิ้นปีงบ = demand ล้น แต่ margin squeeze risk",
         "Morgan Stanley sees 52% Azure upside — consensus อาจ price-in มากแล้ว"
       ],
-      "yf_price": 403.41,
+      "yf_price": 403.86,
       "warren_fv": 519,
       "date": "2026-06-10"
     }
@@ -241,14 +241,14 @@
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
       "verdict": "CAUTION",
-      "summary": "Advertising thesis ยังแข็ง (FCF $12.4B/Q, fwdPE 16.2x ถูกสุด Big Tech) แต่ 2 concern ใหม่: (1) AI delay 06-09 = execution risk เพิ่ม; (2) Scale AI $14.3B investment + acqui-hire = antitrust scrutiny เพิ่มตาม DOJ/FTC; yfinance: revGrowth +33.1% ✓, PEG 0.85 ดี; ราคา $585 = 73.4% ของ 52wH $796 — MoS 19% ติดขอบ gate 15% ไม่มาก",
+      "summary": "Advertising thesis ยังแข็ง (FCF $12.4B/Q, fwdPE 16.2x ถูกสุด Big Tech) — ราคา $589 Charlie vs Warren $585 ≈ ใกล้กัน; MoS 18.4% ✓ gate 15%. FTC antitrust: Meta ชนะ trial (Nov 2025) แต่ FTC อุทธรณ์ (Jan 2026) — divestiture risk ยังไม่หมดสิ้น. Scale AI $14.3B acqui-hire (Jun 2026) = antitrust scrutiny เพิ่ม. Tier Inevitable AGREE.",
       "risks": [
         "Scale AI $14.3B acqui-hire (06-2026) — Sen. Warren+FTC กำลัง scrutinize",
         "AI feature delays (06-09) = competitive execution risk vs Google/Apple",
         "CapEx $125-145B 2026 (+2x YoY) กด FCF อย่างมาก",
         "MoS 19% ใกล้ gate 15% — ราคาขึ้นอีก 4% หลุด BUY zone"
       ],
-      "yf_price": 584.59,
+      "yf_price": 589.19,
       "warren_fv": 722,
       "date": "2026-06-10"
     }
@@ -334,7 +334,7 @@
         "Seeking Alpha: 'Amazon is rather old for negative FCF' — red flag institutional",
         "OpenAI dual-role conflict: Microsoft partner vs competitor ผ่าน Anthropic"
       ],
-      "yf_price": 244.19,
+      "yf_price": 241.66,
       "warren_fv": 315,
       "date": "2026-06-10"
     }
@@ -501,7 +501,7 @@
         "Small cap liquidity risk",
         "AI capex cycle dependency"
       ],
-      "yf_price": null,
+      "yf_price": 874.0,
       "warren_fv": 1100,
       "date": "2026-06-10"
     }
@@ -586,7 +586,7 @@
         "RevGrowth +16.2% = ชะลอ (password crackdown effect fading)",
         "Gaming + advertising segments ยังไม่ proven profitable"
       ],
-      "yf_price": 81.41,
+      "yf_price": 81.61,
       "warren_fv": 121.9,
       "date": "2026-06-10"
     }
@@ -999,7 +999,7 @@
         "Industrial cycle risk",
         "Concentration ใน semiconductor customers"
       ],
-      "yf_price": null,
+      "yf_price": 226.99,
       "warren_fv": 290,
       "date": "2026-06-10"
     }
@@ -1411,7 +1411,7 @@
         "Samsung/SK Hynix ramp กดราคา",
         "MoS ยังไม่เปิด gate 15%"
       ],
-      "yf_price": null,
+      "yf_price": 919.73,
       "warren_fv": 1100,
       "date": "2026-06-10"
     }
