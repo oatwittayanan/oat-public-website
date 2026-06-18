@@ -77,6 +77,7 @@ CATEGORY_MAP = {
     "materials":        ("Materials",     "materials"),
     "defense":          ("Defense",       "defense"),
     "pre_ipo":          ("Space & AI",    "space"),
+    "space":            ("Space & AI",    "space"),
     "ai_cloud":         ("AI Cloud",      "aicloud"),
     "fintech":          ("Fintech",       "fintech"),
     "healthcare":       ("Healthcare",    "healthcare"),
