@@ -33,6 +33,7 @@ DISPLAY_ORDER = [
     "Space-Defense",
     "Defense-Materials",
     "Digital-Advertising",
+    "Cyber-Security",
 ]
 
 

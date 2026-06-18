@@ -300,8 +300,8 @@
     },
     "portfolio_snapshot": {
       "total_deposited_usd": 200.0,
-      "cash_before": 100.0,
-      "cash_after": 10.0,
+      "cash_before": 110.0,
+      "cash_after": 20.0,
       "deployed_this_paper": 90.0,
       "total_invested_after": 190.0
     },
