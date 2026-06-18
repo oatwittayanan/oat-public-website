@@ -77,6 +77,11 @@ CATEGORY_MAP = {
     "materials":        ("Materials",     "materials"),
     "defense":          ("Defense",       "defense"),
     "pre_ipo":          ("Space & AI",    "space"),
+    "ai_cloud":         ("AI Cloud",      "aicloud"),
+    "fintech":          ("Fintech",       "fintech"),
+    "healthcare":       ("Healthcare",    "healthcare"),
+    "energy":           ("Energy",        "energy"),
+    "public_safety":    ("Public Safety", "publicsafety"),
     "index":            None,   # skip ETF indices
     "private":          None,   # skip private ecosystem-watch only
 }
