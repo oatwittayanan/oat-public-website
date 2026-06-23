@@ -627,6 +627,75 @@
       "date": "2026-06-18"
     }
   },
+  "DUOL": {
+    "symbol": "DUOL",
+    "display": "DUOL",
+    "category": "consumer",
+    "name": "Duolingo",
+    "sector": "Consumer",
+    "sectorSlug": "consumer",
+    "chips": [
+      "Consumer",
+      "EdTech"
+    ],
+    "bull": [
+      "Revenue $292.0M +27% YoY, Net Income $43.5M, FCF $147.8M (margin 50.6%)",
+      "DAU +21% YoY (56.5M), Bookings +14%",
+      "ไม่มีหนี้, cash $1.39B"
+    ],
+    "risk": [
+      "App Store concentration: Apple 62% + Google 20% = >80% รายได้ — สัญญายกเลิกได้แค่แจ้ง 30 วัน",
+      "Dual-class governance: ผู้บริหาร+กรรมการคุม 76.3% voting power",
+      "Gross margin คาดลด 73%→69% จาก AI cost; 10-K เตือนเองว่า GenAI อาจให้คู่แข่งแซงหน้า",
+      "MAU โตช้าเหลือ +6% (DAU โตจาก retention ไม่ใช่ user ใหม่)"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 7.75,
+    "wafBadge": "waf-mid",
+    "wafComposite": "waf-composite-blue",
+    "price": 123.39,
+    "fv": 280,
+    "mos": 55.9,
+    "fpe": 25.5,
+    "peg": 1.42,
+    "scores": {
+      "bq": [
+        8.5,
+        "green",
+        85
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        7.0,
+        "amber",
+        70
+      ],
+      "ra": [
+        7.0,
+        "amber",
+        70
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
+      "what": "Duolingo คือแอปเรียนภาษาที่ใหญ่ที่สุดในโลกแบบ freemium — ชนะด้วย data flywheel (ผู้ใช้ทำแบบฝึกหัด ~2 พันล้านครั้ง/วัน) และ organic brand growth ที่ทำให้ CAC ต่ำกว่าคู่แข่งมาก",
+      "why": "Consensus เห็นว่า Duolingo คือ \"EdTech growth stock ที่ GenAI อาจ disrupt\" — Warren เห็นต่างว่าตลาดมองข้ามว่า Duolingo เองคือผู้ที่ใช้ AI เร่ง content scale ได้เร็วกว่าใคร (20,500 course units/ไตรมาส จาก 1,800 เมื่อ 2 ปีก่อน = 10x+) ทำให้ moat ด้าน content breadth ขยายเร็วกว่าที่ผู้เล่นหน้าใหม่ที่ใช้ GenAI เดียวกันจะตามทันได้ ขณะที่ balance sheet ไม่มีหนี้และ FCF margin 50%+ ให้พื้นที่ลงทุนต่อสู้ได้ยาว",
+      "risk": "ถ้า MAU growth ที่ชะลอเหลือ +6% (เทียบ DAU +21%) ไม่ฟื้นภายใน 2-3 ไตรมาส — แสดงว่า top-of-funnel ใหม่หมดแรงจริง ไม่ใช่แค่ noise ชั่วคราว และ DAU growth ที่เหลือจาก retention อย่างเดียวจะ plateau ในที่สุด"
+    },
+    "tier": "🌱 Fast Grower"
+  },
   "GOOGL": {
     "symbol": "GOOGL",
     "display": "GOOGL",
@@ -706,6 +775,145 @@
       "warren_fv": null,
       "date": "2026-06-18"
     }
+  },
+  "MELI": {
+    "symbol": "MELI",
+    "display": "MELI",
+    "category": "consumer",
+    "name": "MercadoLibre",
+    "sector": "Consumer",
+    "sectorSlug": "consumer",
+    "chips": [
+      "Consumer",
+      "LatAm E-commerce + Fintech"
+    ],
+    "bull": [
+      "Revenue $8,845M +49% YoY (เร็วสุดในรอบ ~4 ปี); TPV $87.2B +50%, GMV $19.0B +42%",
+      "Fintech MAU +29%, AUM +77%, credit card TPV +90%",
+      "Brazil GMV +38%, items sold +56%"
+    ],
+    "risk": [
+      "Brazil withholding-tax dispute $592M (probable loss, ยังอุทธรณ์) + อีก $513M reasonably-possible ที่ยังไม่ accrue",
+      "Provision for doubtful accounts +106.5% YoY (14.1% ของรายได้) เร็วกว่า revenue growth 49%",
+      "10-K เพิ่ม risk ใหม่ปี 2025: Asian e-commerce platform (Shopee/Temu/Shein-type) แย่ง market share",
+      "Operating margin หด -600bps YoY แม้ revenue โต"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 7.42,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 1631.82,
+    "fv": 1824,
+    "mos": 10.5,
+    "fpe": 42.9,
+    "peg": 1.43,
+    "scores": {
+      "bq": [
+        8.0,
+        "green",
+        80
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        6.0,
+        "orange",
+        60
+      ],
+      "ra": [
+        6.5,
+        "amber",
+        65
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "MercadoLibre ครองตลาด e-commerce + fintech ในลาตินอเมริกาผ่าน ecosystem flywheel (marketplace → payments → credit → logistics) — ชนะด้วย scale + proprietary credit risk model ที่เข้าถึงกลุ่ม underserved/unbanked",
+      "why": "Consensus เห็นว่า MELI คือ \"LatAm e-commerce leader ที่กำลังถูก Asian competitor (Shopee/Temu/Shein) แย่งตลาด\" — Warren เห็นต่างว่าตลาดมองข้ามว่า management กำลัง **เลือก** compress margin (12.9%→6.9%) เพื่อปักหมุด Brazil free-shipping moat ก่อนคู่แข่งตามทัน ซึ่งเป็นการลงทุนรุกที่ไม่ใช่สัญญาณว่าธุรกิจอ่อนแอ — GMV Brazil เร่งขึ้นเป็น +38% YoY และ unique buyer growth เร็วสุดใน 5 ปี ยืนยันว่า strategy นี้ทำงาน",
+      "risk": "ถ้า margin ไม่ฟื้นกลับมาตามที่ thesis การลงทุนคาดไว้ภายใน 2-3 ปี (deliberate margin compression กลายเป็น permanent structural problem) หรือ Asian e-commerce competitor แย่ง market share ได้ต่อเนื่องแม้ MELI ลงทุนป้องกันแล้ว"
+    },
+    "tier": "🚀 Pre-Inevitable"
+  },
+  "ORCL": {
+    "symbol": "ORCL",
+    "display": "ORCL",
+    "category": "big_tech",
+    "name": "Oracle Corporation",
+    "sector": "Big Tech",
+    "sectorSlug": "bigtech",
+    "chips": [
+      "Big Tech",
+      "Cloud Infrastructure + Enterprise SaaS"
+    ],
+    "bull": [
+      "Record Q4 FY2026 revenue $19.2B +21%, Cloud Infra (IaaS) $5.8B +93%; RPO $638B +363% YoY",
+      "GPU utilization 97.5% ทั่วโลก",
+      "FY2027 guidance $90B revenue (+34% CC); long-term target CAGR revenue 31%/EPS 28% ถึง FY2030",
+      "Multicloud database revenue +404% YoY — moat ที่คู่แข่งไม่มี (Oracle DB รันบน AWS/Azure/GCP)"
+    ],
+    "risk": [
+      "Leverage พุ่งจาก $92.6B เป็น $134.6B notes payable ภายใน 9 เดือน",
+      "Free Cash Flow ติดลบ -$23.7B FY2026 (CapEx โตเร็วกว่า operating cash flow)",
+      "Off-balance-sheet commitment โตเร็ว — power purchase obligation $2.2B→$11B ในไตรมาสเดียว + lease commitment $43.4B ที่ไม่อยู่บนงบดุล",
+      "Mandatory Convertible Preferred + ATM equity $20B = dilution risk; Co-CEO structure ใหม่ (มิ.ย. 2025) + CFO ใหม่ ยังไม่มี track record"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 7.4,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 183.53,
+    "fv": 209,
+    "mos": 12.2,
+    "fpe": 22.8,
+    "peg": 1.27,
+    "scores": {
+      "bq": [
+        8.0,
+        "green",
+        80
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        6.5,
+        "amber",
+        65
+      ],
+      "ra": [
+        5.5,
+        "orange",
+        55
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "Oracle รวม infrastructure (OCI) + database + enterprise applications เป็น full-stack เดียว — ชนะด้วย multicloud database (รันบน AWS/Azure/GCP ได้) ที่ไม่มีคู่แข่งทำได้ + speed-to-deploy ใน AI data center buildout",
+      "why": "Consensus เห็นว่า Oracle คือ \"enterprise software เดิมที่กำลังได้ AI tailwind จาก OCI\" — Warren เห็นต่างว่าตลาดยัง underweight ว่า RPO $638B (+363% YoY) ส่วนใหญ่มาจาก customer prepayment/bring-your-own-hardware ($75B สะสม) ซึ่งลด capital risk ของ Oracle เองได้มากกว่าที่ headline leverage number ($134.6B notes payable) จะดูน่ากลัว — Oracle กำลังเปลี่ยนสถานะจาก \"incumbent ที่กำลังจะถูก disrupt\" เป็น \"AI infrastructure hypergrowth player\" ที่ตลาดยังตีราคาด้วย multiple ของ enterprise software เดิม",
+      "risk": "ถ้า gross margin ไม่ inflect ตามสัญญา (FY27 guidance บอกจะลดลงต่อก่อนฟื้น) หรือ 4 ลูกค้าใหญ่ที่เซ็นสัญญา AI infra เกิน $8B รายละแต่ละ ราย concentrate เกินไปจนกลายเป็น counterparty risk แทน diversification"
+    },
+    "tier": "🚀 Pre-Inevitable"
   },
   "ASML": {
     "symbol": "ASML",
@@ -1023,6 +1231,76 @@
       "date": "2026-06-18"
     }
   },
+  "LLY": {
+    "symbol": "LLY",
+    "display": "LLY",
+    "category": "healthcare",
+    "name": "Eli Lilly and Company",
+    "sector": "Healthcare",
+    "sectorSlug": "healthcare",
+    "chips": [
+      "Healthcare",
+      "Pharma / GLP-1"
+    ],
+    "bull": [
+      "Revenue Q1 2026 $19.799B +56% YoY, EPS GAAP $8.26 (+170%)",
+      "Guidance ปรับขึ้นเป็น $82-85B revenue / EPS $35.50-37.00 FY26",
+      "Foundayo (oral GLP-1) FDA approved, รักษาแล้ว >20K คน; retatrutide TRIUMPH-1 ลดน้ำหนัก 28.3%",
+      "Patent Mounjaro/Zepbound ยาวถึง 2036-2040"
+    ],
+    "risk": [
+      "Mounjaro+Zepbound = 65% ของรายได้ Q1 — concentration สูงมาก",
+      "พึ่งพา China supply chain สำหรับ chemical synthesis/reagents (geopolitical risk)",
+      "Government price-setting (IRA) ขยายตัว — Jardiance ถูกบังคับราคาแล้ว, Trulicity+Verzenio ตามปี 2028",
+      "Trulicity patent cliff ใกล้เข้ามา 2027; litigation หลายคดี (Emgality, insulin MDL, 340B)"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 7.12,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 1112.0,
+    "fv": 1160,
+    "mos": 4.1,
+    "fpe": 30.7,
+    "peg": 1.53,
+    "scores": {
+      "bq": [
+        9.0,
+        "green",
+        90
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        4.5,
+        "orange",
+        45
+      ],
+      "ra": [
+        6.0,
+        "orange",
+        60
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🏛️ Inevitable",
+      "tier_slug": "inevitable",
+      "what": "Eli Lilly ครองความเป็นผู้นำ GLP-1/incretin market ด้วย dual-agonist science (tirzepatide) ที่ดีกว่า semaglutide เชิง clinical — ชนะด้วย manufacturing scale + patent runway ยาวถึง 2036-2040",
+      "why": "Consensus เห็นว่า Lilly คือ \"GLP-1 winner ที่ราคาแพงเกินไปแล้ว\" — Warren เห็นต่างว่าตลาดยัง underweight การ diversify นอก incretin ที่กำลังเกิดจริง (Immunology/Oncology/Neuroscience รวมกันโต 160% YoY) และ Foundayo (oral GLP-1 ตัวแรกที่ approved) จะขยาย addressable market ไปกลุ่มที่กลัวเข็มฉีดยา ซึ่งยังไม่อยู่ใน guidance ปัจจุบันเต็มที่ (management เองบอกว่า Foundayo \"not yet a principal factor\")",
+      "risk": "ถ้า Medicare/IRA government price-setting ขยายเร็วกว่าคาด (Trulicity/Verzenio เข้าปี 2028) จนกดดัน margin มากกว่าที่ pipeline ใหม่ชดเชยได้ หรือ generic semaglutide/คู่แข่งจีนแย่งตลาดได้เร็วกว่าที่ patent runway จะป้องกันได้"
+    },
+    "tier": "🏛️ Inevitable"
+  },
   "AMD": {
     "symbol": "AMD",
     "display": "AMD",
@@ -1261,6 +1539,76 @@
       "date": "2026-06-18"
     }
   },
+  "SHOP": {
+    "symbol": "SHOP",
+    "display": "SHOP",
+    "category": "consumer",
+    "name": "Shopify Inc.",
+    "sector": "Consumer",
+    "sectorSlug": "consumer",
+    "chips": [
+      "Consumer",
+      "Commerce Platform"
+    ],
+    "bull": [
+      "GMV $100.7B +35% YoY, Revenue $3.17B +34%, FCF $476M (margin 15%)",
+      "AI เขียนโค้ด 50%+ ของ Shopify เอง; Sidekick weekly active shops +385% YoY",
+      "Universal Commerce Protocol (UCP) ร่วมกับ Google + Amazon/Meta/Microsoft/Salesforce/Stripe",
+      "Buyback $2B ที่ประกาศแล้ว"
+    ],
+    "risk": [
+      "Founder Share structure: Tobi Lütke คุม voting power 40.09% (cap 49.9%) ที่ไม่ dilute ตามจำนวนหุ้นใหม่ — conflict-of-interest ที่บริษัทเปิดเผยเอง",
+      "พึ่งพา 2 PSP (Stripe+PayPal) สำหรับ Shopify Payments ที่ขับเคลื่อน Merchant Solutions (76% ของรายได้)",
+      "CRA transfer-pricing assessment (tax year 2020) ยังไม่จบ",
+      "GAAP net loss $(581)M ไตรมาสนี้ (จาก equity investment markdown)"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 6.82,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 108.09,
+    "fv": 115,
+    "mos": 6.0,
+    "fpe": 80.1,
+    "peg": 2.86,
+    "scores": {
+      "bq": [
+        8.0,
+        "green",
+        80
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        4.5,
+        "orange",
+        45
+      ],
+      "ra": [
+        6.0,
+        "orange",
+        60
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "Shopify เป็น \"essential internet infrastructure for commerce\" ที่รวม online/POS/B2B/social/agentic channel เป็น system of record เดียว — ชนะด้วย cohort economics ที่ทบต้น (merchant เก่าไม่หยุดโต, 90% ของรายได้จาก merchant ที่อยู่เกิน 1 ปี)",
+      "why": "Consensus เห็นว่า Shopify คือ \"e-commerce platform ที่ valuation แพงเกินไปแล้ว\" — Warren เห็นต่างว่าตลาดยัง underweight Universal Commerce Protocol (UCP) ที่ Shopify เป็น founding member ร่วมกับ Google/Amazon/Meta/Microsoft — ทำให้เป็น \"the only platform powering selling inside ChatGPT, Copilot, and Google จากระบบเดียว\" ซึ่ง AI-driven traffic ไปยัง Shopify stores โต 8x YoY และ orders จาก AI search โต ~13x YoY แล้ว (ไม่ใช่แค่ theory)",
+      "risk": "ถ้า agentic commerce traffic ไม่ scale ต่อจาก early numbers (เป็นแค่ novelty ชั่วคราว) หรือ Founder Share governance structure (Lütke คุม voting power สูงถึง 49.9%) นำไปสู่การตัดสินใจที่ไม่ align กับ shareholder อื่น"
+    },
+    "tier": "🚀 Pre-Inevitable"
+  },
   "MTRN": {
     "symbol": "MTRN",
     "display": "MTRN",
@@ -1338,6 +1686,76 @@
       "warren_fv": null,
       "date": "2026-06-18"
     }
+  },
+  "DDOG": {
+    "symbol": "DDOG",
+    "display": "DDOG",
+    "category": "software",
+    "name": "Datadog",
+    "sector": "Software",
+    "sectorSlug": "software",
+    "chips": [
+      "Software",
+      "Cloud Observability"
+    ],
+    "bull": [
+      "Revenue $1,006.4M +32% YoY — ไตรมาสแรกที่ทะลุ $1B, ARR ทะลุ $4B ครั้งแรก",
+      "RPO $3.48B +51% YoY, NRR low-120%s",
+      "FedRAMP High certification เปิดทาง federal government customers",
+      "ปิดดีล AI training workload monitoring 7-8 figure กับ 2 hyperscaler รายใหญ่"
+    ],
+    "risk": [
+      "Source code repository breach (เม.ย. 2025) ผ่าน compromised employee credentials",
+      "AI-native customer cohort รวม 'largest customer' ที่มีประวัติ usage spike แล้ว optimize/ไม่ renew",
+      "Hyperscaler อาจ build in-house สำหรับ training-workload monitoring ตลาดใหม่",
+      "Cloud providers (AWS/GCP/Azure) bundle native monitoring ฟรีแข่ง"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 6.77,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 226.63,
+    "fv": 187,
+    "mos": -21.2,
+    "fpe": 94.4,
+    "peg": 3.63,
+    "scores": {
+      "bq": [
+        8.0,
+        "green",
+        80
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        4.0,
+        "orange",
+        40
+      ],
+      "ra": [
+        6.5,
+        "amber",
+        65
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
+      "what": "Datadog รวม observability + security เป็น unified platform เดียว — ชนะด้วย land-and-expand (56% ของลูกค้าใช้ 4+ products) และ switching cost จาก data/workflow ที่ฝังลึกข้าม product",
+      "why": "Consensus เห็นว่า Datadog คือ \"observability leader ที่กำลังถูก hyperscaler bundle แข่ง\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ว่า AI training-workload monitoring เป็นตลาดใหม่ที่ hyperscaler เริ่มยอมรับว่าสร้างเองไม่ดีพอ (ปิดดีล 7-8 figure กับ 2 AI research lab รายใหญ่ที่สุดของโลกในไตรมาสนี้ — สิ่งที่ Olivier Pomel เองบอกว่าปีก่อนยัง \"ไม่ใช่ตลาดจริง\")",
+      "risk": "ถ้า AI-native customer cohort (รวม \"largest customer\" ที่มีประวัติ usage spike แล้ว optimize/ไม่ renew) ทำตามรูปแบบเดิม หรือ training-workload deal ที่ปิดได้เป็นแค่ 2 ดีลครั้งเดียวไม่ใช่ trend ต่อเนื่อง"
+    },
+    "tier": "🌱 Fast Grower"
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -1499,6 +1917,75 @@
       "date": "2026-06-18"
     }
   },
+  "RBLX": {
+    "symbol": "RBLX",
+    "display": "RBLX",
+    "category": "entertainment",
+    "name": "Roblox Corporation",
+    "sector": "Consumer",
+    "sectorSlug": "consumer",
+    "chips": [
+      "Consumer",
+      "Gaming Platform"
+    ],
+    "bull": [
+      "Revenue $1,442M +39%, Bookings $1,731M +43%, DAU 132M +35%",
+      "FCF $596M (+40%), cash $6.2B",
+      "AI-native Studio tools (Roblox Reality) หนุน content creation"
+    ],
+    "risk": [
+      "FY26 guidance ถูกตัดแรง (bookings 22-26%→8-12%) จากนโยบาย age-verification ที่กระทบ app-store rating + sign-up",
+      "7 state AG lawsuits (FL/IA/KY/LA/NE/TX/TN) เรื่อง youth safety, settlement accrual แล้ว $57M (3 รัฐ)",
+      "Netherlands EU-DSA investigation (ค่าปรับสูงสุด 6% ของ global revenue)",
+      "App store dependency 44% (Apple 29% + Google 15%); gambling-related class action ตั้งแต่ 2023"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 6.55,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 48.02,
+    "fv": 65,
+    "mos": 26.1,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        6.5,
+        "amber",
+        65
+      ],
+      "gp": [
+        7.0,
+        "amber",
+        70
+      ],
+      "va": [
+        7.0,
+        "amber",
+        70
+      ],
+      "ra": [
+        5.0,
+        "orange",
+        50
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
+      "what": "Roblox คือ UGC immersive gaming platform ที่ creator สร้างเกมและผู้ใช้เล่น/จ่ายเงินผ่าน Robux — ชนะด้วย two-sided network effect (content flywheel + connections flywheel) ที่ scale ใหญ่ที่สุดในกลุ่มอายุน้อย",
+      "why": "Consensus เห็นว่า Roblox คือ \"growth stock ที่กำลังถูกบังคับชะลอจาก safety regulation\" — Warren เห็นต่างว่าตลาด over-react ต่อ guidance cut ระยะสั้น (bookings 22-26%→8-12%) ที่เป็นผลจาก self-inflicted trade-off (age-check rollout) ซึ่งเป็นการลงทุนสร้าง trust moat ระยะยาวที่บริษัทเรียกว่า \"compounding moat\" — ขณะที่ O18 expansion (อายุ 18+ โต DAU/Hours >40% YoY, monetize สูงกว่า 50%+) กำลังเปิดตลาดใหม่ขนาดใหญ่ที่ยังไม่อยู่ใน valuation ปัจจุบัน",
+      "risk": "ถ้า DAU ไม่ฟื้นกลับมาโตตามที่ guide ไว้ใน Q3 2026 (สัญญาณว่า safety rollout ทำลาย organic growth permanent ไม่ใช่ชั่วคราว) หรือ youth-safety litigation (7 state AG lawsuits) จบด้วยผลลบรุนแรงกว่าที่ accrual $57M ปัจจุบันสะท้อน"
+    },
+    "tier": "🌱 Fast Grower"
+  },
   "MRVL": {
     "symbol": "MRVL",
     "display": "MRVL",
@@ -1578,6 +2065,77 @@
       "warren_fv": null,
       "date": "2026-06-18"
     }
+  },
+  "AXON": {
+    "symbol": "AXON",
+    "display": "AXON",
+    "category": "public_safety",
+    "name": "Axon Enterprise",
+    "sector": "Public Safety",
+    "sectorSlug": "publicsafety",
+    "chips": [
+      "Public Safety",
+      "Connected Devices + AI"
+    ],
+    "bull": [
+      "Revenue Q1 2026 $807M +34% YoY — ไตรมาสที่ 9 ติดต่อกันที่โตเกิน 30%",
+      "AI bookings +140% YoY, Dedrone (drone detection) bookings +500% YoY หนุนด้วย Safer Skies Act $250M federal grant",
+      "2028 target model: revenue $6B, Adj EBITDA margin 28%, TAM $159B",
+      "FY26 guidance ปรับขึ้นเป็น growth 30-32%",
+      "S&S (AI/cloud software) segment AI revenue +700% YoY"
+    ],
+    "risk": [
+      "Material weakness ใน revenue recognition controls ยังไม่ remediate (ต้อง restate งบ 2023-2024)",
+      "คดี product liability 3 เคส (wrongful death/injury จาก TASER)",
+      "ATF firearms license/import permit risk สำหรับ TASER 10",
+      "OCF/FCF ติดลบไตรมาสนี้ (-$32M/-$55M) แม้กำไรบวก"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 6.5,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 423.01,
+    "fv": 330,
+    "mos": -28.2,
+    "fpe": 57.9,
+    "peg": 1.87,
+    "scores": {
+      "bq": [
+        7.5,
+        "amber",
+        75
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        3.5,
+        "orange",
+        35
+      ],
+      "ra": [
+        5.5,
+        "orange",
+        55
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
+      "what": "Axon ขาย \"connected ecosystem\" ของ TASER + camera + AI software ให้ public safety agencies — ชนะด้วย switching cost สูง (data/workflow ฝังในระบบ) และ land-and-expand จากฐาน 17,000+ agencies",
+      "why": "Consensus เห็นว่า Axon คือ \"TASER company ที่กำลังโต AI\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ว่า Dedrone (counter-drone, bookings +500% YoY) กำลังเปลี่ยน Axon จาก single-product (TASER) เป็น multi-category platform ที่มี Safer Skies Act ($250M federal grant) เป็น tailwind ใหม่ที่ยังไม่อยู่ใน guidance ปีนี้เต็มที่",
+      "risk": "ถ้า Material Weakness ใน revenue recognition controls ไม่ remediate ภายในปีนี้ (ยังไม่ confirm \"effective for sufficient period\") หรือ growth ชะลอจาก 30%+ ต่อเนื่อง 2 ไตรมาส (สัญญาณว่า Dedrone เป็น event-driven ไม่ใช่ permanent infrastructure adoption ตามที่ฝ่ายบริหารอ้าง)"
+    },
+    "tier": "🌱 Fast Grower"
   },
   "COHR": {
     "symbol": "COHR",
@@ -1819,6 +2377,76 @@
       "date": "2026-06-18"
     }
   },
+  "SNOW": {
+    "symbol": "SNOW",
+    "display": "SNOW",
+    "category": "software",
+    "name": "Snowflake Inc.",
+    "sector": "Software",
+    "sectorSlug": "software",
+    "chips": [
+      "Software",
+      "Data Cloud / AI Platform"
+    ],
+    "bull": [
+      "Revenue $1.39B +33% YoY, NRR 126%, RPO $9.21B +38%",
+      "Cortex Code (CoCo) GA'd ก.พ. 2026 = driver หลักของ guidance raise",
+      "AWS deal $6B/5ปี",
+      "FY27 guidance ปรับขึ้น: Product Revenue $5.84B (+31%), Non-GAAP Op Margin 13.5%"
+    ],
+    "risk": [
+      "Mass customer-account breach (พ.ค. 2024) ยังเป็น multidistrict litigation อยู่ระหว่าง discovery",
+      "Securities class action สะสม 3 คดี (ล่าสุดยื่นแค่ 5 วันก่อน 10-Q นี้)",
+      "Copyright infringement lawsuit ใหม่ (พ.ย. 2025) เรื่อง LLM training",
+      "Executive turnover สูงมาก (CEO/CFO/CRO×2/SVP Engineering เปลี่ยนหมดใน ~2 ปี); GAAP net loss $(295.6)M"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 6.03,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 234.52,
+    "fv": 112,
+    "mos": -109.4,
+    "fpe": 126.1,
+    "peg": 4.2,
+    "scores": {
+      "bq": [
+        7.5,
+        "amber",
+        75
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        2.5,
+        "orange",
+        25
+      ],
+      "ra": [
+        5.0,
+        "orange",
+        50
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "🌱 Fast Grower",
+      "tier_slug": "fast-grower",
+      "what": "Snowflake เป็น unified AI Data Cloud platform แบบ consumption-based — ชนะด้วย network effect ระดับ data sharing (42% ของลูกค้ามี \"stable edge\") และ multi-cloud independence ที่ไม่ผูกติด provider เดียว",
+      "why": "Consensus เห็นว่า Snowflake คือ \"data warehouse ที่กำลังถูก Databricks/hyperscaler แข่งดุเดือด\" — Warren เห็นต่างว่าตลาดยัง underweight ว่า Cortex Code (CoCo) เป็น \"largest driver to the increase in our forecast\" ตามคำ CFO เอง — นี่คือ second-order effect ที่ AI agent ดึง consumption บน core data platform เพิ่มขึ้นไปด้วย (ไม่ใช่แค่ AI product แยกขาย) ซึ่งเพิ่งเริ่ม full-cycle หลัง GA 5 ก.พ. 2026",
+      "risk": "ถ้า CoCo adoption เป็นแค่ initial GA surge ไม่ใช่ sustained driver (ยังไม่มี full-cycle data ยืนยัน) หรือ securities class action สะสม 3 คดี (ล่าสุดยื่นแค่ 5 วันก่อน 10-Q) จบด้วยผลลบที่กระทบความเชื่อมั่น/การเงินมีนัยสำคัญ"
+    },
+    "tier": "🌱 Fast Grower"
+  },
   "VRT": {
     "symbol": "VRT",
     "display": "VRT",
@@ -1979,6 +2607,216 @@
       "date": "2026-06-18"
     }
   },
+  "CRWV": {
+    "symbol": "CRWV",
+    "display": "CRWV",
+    "category": "ai_cloud",
+    "name": "CoreWeave",
+    "sector": "AI Cloud",
+    "sectorSlug": "aicloud",
+    "chips": [
+      "AI Cloud",
+      "GPU Infrastructure"
+    ],
+    "bull": [
+      "Revenue $2,078M +112% YoY, backlog $99.4B, Adj EBITDA margin 56%",
+      "49 data centers, 1GW+ power active / 3.5GW+ contracted",
+      "FY26 guidance reaffirmed $12-13B revenue",
+      "ลูกค้าหลัก OpenAI ($6.5-11.9B MSA) + Meta ($21B order)"
+    ],
+    "risk": [
+      "Customer concentration 65% (top 2 ลูกค้า) ของรายได้",
+      "หนี้รวม $25.1B โตเร็ว, interest expense เพิ่มเป็น 2 เท่า YoY เป็น $536M/ไตรมาส",
+      "พึ่งพา NVIDIA 100% + supplier concentration (top 3 = 60% ของ FY25 purchases)",
+      "Net loss $(740)M; co-founders+CFO ตั้ง 10b5-1 selling plans พ.ย. 2025"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 5.47,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 115.21,
+    "fv": 77,
+    "mos": -49.6,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        5.5,
+        "orange",
+        55
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        3.0,
+        "orange",
+        30
+      ],
+      "ra": [
+        3.5,
+        "orange",
+        35
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "⚠️ Speculative",
+      "tier_slug": "speculative",
+      "what": "CoreWeave ให้เช่า GPU cloud capacity เฉพาะทาง AI (training/inference) ผ่านสัญญา multi-year take-or-pay — ชนะด้วยความเร็ว deploy GPU generation ใหม่ก่อนใคร (NVIDIA Exemplar Cloud status) และ relationship พิเศษกับ NVIDIA ($2B equity investment)",
+      "why": "Consensus เห็นว่า CoreWeave คือ \"neocloud leader ที่มี backlog ใหญ่สุด ($99.4B)\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ความเสี่ยงที่ gross margin ลดลงต่อเนื่อง 5 ไตรมาส (78%→68%) ขณะที่ debt โต $21.6B→$25.1B ภายในไตรมาสเดียว และ customer concentration (top 2 = 65% รายได้) หมายความว่า backlog ใหญ่ส่วนหนึ่งผูกกับ counterparty risk ของ AI lab ที่ยังไม่ profitable เอง",
+      "risk": "ถ้า margin ไม่ inflect ตามที่สัญญาไว้ (Q2→Q3 FY2026) หรือลูกค้ารายใหญ่ (OpenAI/Meta) ลด commitment ระหว่างทาง credit market จะ re-price debt ของ CoreWeave ทันที เพราะ business model พึ่งพา debt-financed capacity ที่ยังไม่พิสูจน์ unit economics ที่ scale นี้"
+    },
+    "tier": "⚠️ Speculative"
+  },
+  "IREN": {
+    "symbol": "IREN",
+    "display": "IREN",
+    "category": "ai_cloud",
+    "name": "IREN Limited",
+    "sector": "AI Cloud",
+    "sectorSlug": "aicloud",
+    "chips": [
+      "AI Cloud",
+      "GPU Infrastructure + Power"
+    ],
+    "bull": [
+      "Net income แรกในประวัติ $86.9M FY2025; Microsoft $9.7B/5ปี AI Cloud agreement (พ.ย. 2025)",
+      "NVIDIA AI Cloud contract $3.4B/5ปี + 5GW partnership ($2.1B right-to-invest)",
+      "Roadmap 2026: 480MW/150k GPU/$3.7B ARR → 2028+: 5GW",
+      "Cash $2.6B"
+    ],
+    "risk": [
+      "Customer concentration: AI early-stage/private company (credit risk) + Microsoft กลายเป็น counterparty รายใหญ่สุด",
+      "Securities class action ยังไม่จบ (ศาลยกฟ้อง ก.พ. 2026 แต่ plaintiffs อุทธรณ์ มี.ค. 2026)",
+      "Dual-class control: Roberts พี่น้องคุม 35.4% voting power (15 vote/share)",
+      "Convertible notes $3,687.8M; Canada permanent-establishment tax dispute ที่ Tax Court"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 5.3,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 58.11,
+    "fv": 47,
+    "mos": -23.6,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        5.0,
+        "orange",
+        50
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        3.5,
+        "orange",
+        35
+      ],
+      "ra": [
+        3.5,
+        "orange",
+        35
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "⚠️ Speculative",
+      "tier_slug": "speculative",
+      "what": "IREN เปลี่ยนจาก Bitcoin miner เป็น AI Cloud provider โดยใช้ความได้เปรียบจาก vertically-integrated land/power/data-center ที่สั่งสมมา 7 ปี — ชนะด้วย freehold ownership (ไม่เช่า) ที่ให้ cost advantage เหนือ neocloud ที่พึ่ง third-party hosting",
+      "why": "Consensus เห็นว่า IREN คือ \"Bitcoin miner ที่กำลัง pivot สู่ AI\" — Warren เห็นต่างว่าตลาดยังไม่แยกแยะว่า IREN มี **กำไรสุทธิจริงครั้งแรก** (FY2025 $86.9M) และ secured power 5GW ที่ใหญ่กว่าคู่แข่ง pivot เดียวกันหลายเท่า แต่ราคาตลาดกำลัง price-in การ execute สำเร็จเต็มที่ทั้งที่ Microsoft/NVIDIA contract เพิ่งเริ่ม ramp และ impairment จาก decommission mining hardware ยังกัดกินงบต่อเนื่อง",
+      "risk": "ถ้า margin ของ AI Cloud Services ไม่ inflect ตามคาดหลัง Microsoft contract เริ่ม ramp (Q3 CY26/Q1 FY27) หรือ impairment เพิ่มเติมจากการเปลี่ยนผ่าน Bitcoin→AI เกินกว่าที่ตลาดคาด"
+    },
+    "tier": "⚠️ Speculative"
+  },
+  "NBIS": {
+    "symbol": "NBIS",
+    "display": "NBIS",
+    "category": "ai_cloud",
+    "name": "Nebius Group",
+    "sector": "AI Cloud",
+    "sectorSlug": "aicloud",
+    "chips": [
+      "AI Cloud",
+      "GPU Infrastructure"
+    ],
+    "bull": [
+      "Revenue $399.0M +684% YoY, Adj EBITDA margin 32%",
+      "Meta $27B 5-ปี deal ($12B dedicated + $15B option); contracted power >3.5GW",
+      "NVIDIA ลงทุน equity stake $2B; cash $9.3B",
+      "FY26 guidance reaffirm ($3.0-3.4B revenue, $7-9B ARR)"
+    ],
+    "risk": [
+      "Legacy Yandex connection — เป็น legal successor ของ Yandex N.V., 10-K เองเตือนเรื่อง KYC/banking onboarding ช้า",
+      "Material weakness 2 จุดในระบบควบคุมภายใน ยังไม่ remediate ถึงปลายปี 2026",
+      "Customer concentration: top 3 = 51% ของรายได้ FY2025",
+      "Net income ส่วนใหญ่มาจาก non-cash ClickHouse revaluation gain ไม่ใช่กำไรจากธุรกิจหลัก; CEO คุม ~52% voting power"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 5.0,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 280.91,
+    "fv": 132,
+    "mos": -112.8,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        5.0,
+        "orange",
+        50
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        2.0,
+        "orange",
+        20
+      ],
+      "ra": [
+        3.0,
+        "orange",
+        30
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "⚠️ Speculative",
+      "tier_slug": "speculative",
+      "what": "Nebius เป็น full-stack AI-native cloud (hardware design เองถึง software) สำหรับ training/inference — ชนะด้วย NVIDIA strategic alignment (Exemplar Cloud status, $2B equity investment) และ owned-infrastructure ratio สูง (>75%)",
+      "why": "Consensus เห็นว่า Nebius คือ \"neocloud เล็กที่กำลังโตเร็วที่สุดในกลุ่ม (+684% YoY)\" — Warren เห็นต่างว่าตลาดยัง underweight ความเสี่ยงจาก Yandex legacy (KYC/banking onboarding ช้า) และ material weakness 2 จุดที่ยังไม่ remediate เต็มที่จนถึงปลายปี 2026 ขณะที่ valuation ปัจจุบัน (P/ARR ~8.9×) แพงกว่า CRWV/IREN มากแม้มี red flag เยอะกว่า",
+      "risk": "ถ้า Meta $27B deal หรือ Microsoft contract ส่งมอบไม่ตรงเวลา (มีรายงาน delay ที่ Vineland NJ แล้ว) หรือ material weakness ไม่ remediate ตามสัญญา \"by end of 2026\""
+    },
+    "tier": "⚠️ Speculative"
+  },
   "TSLA": {
     "symbol": "TSLA",
     "display": "TSLA",
@@ -2058,6 +2896,76 @@
       "warren_fv": null,
       "date": "2026-06-18"
     }
+  },
+  "CRCL": {
+    "symbol": "CRCL",
+    "display": "CRCL",
+    "category": "fintech",
+    "name": "Circle Internet Group",
+    "sector": "Fintech",
+    "sectorSlug": "fintech",
+    "chips": [
+      "Fintech",
+      "Stablecoin Infrastructure"
+    ],
+    "bull": [
+      "USDC in circulation $77.0B +28% YoY, Total Revenue $694M +20% YoY",
+      "Arc Layer-1 blockchain mainnet เปิดตัวปีนี้, ARC token presale ระดมทุน $222M @ $3B FDV",
+      "CPN (Circle Payments Network) annualized TPV $8.3B +17% QoQ",
+      "USDC ครอง 99.8% ของ X402 agentic AI payment volume"
+    ],
+    "risk": [
+      "Coinbase distribution cost $330.6M ใน Q1 เดียว = 81% ของ distribution cost ทั้งหมด + trademark clawback clause ถ้าจ่ายไม่ได้",
+      "Reserve income = 94% ของรายได้ — sensitive ต่อดอกเบี้ยมาก (return rate ลด 66bps YoY แล้ว)",
+      "Net income จริงลดลง -15% YoY สวนทาง revenue ที่โต",
+      "Tether/USDT contagion risk + ARC token regulatory risk (Reg D exemption ยังไม่ชัด)"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 4.55,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 80.59,
+    "fv": 32,
+    "mos": -151.8,
+    "fpe": 89.5,
+    "peg": 4.47,
+    "scores": {
+      "bq": [
+        5.0,
+        "orange",
+        50
+      ],
+      "gp": [
+        6.5,
+        "amber",
+        65
+      ],
+      "va": [
+        2.0,
+        "orange",
+        20
+      ],
+      "ra": [
+        4.0,
+        "orange",
+        40
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-06-18",
+      "tier": "⚠️ Speculative",
+      "tier_slug": "speculative",
+      "what": "Circle ออก USDC stablecoin และทำเงินจาก reserve income (ดอกเบี้ยจากเงินสำรอง USD) — ชนะด้วย scale (USDC $77B circulation, 80% ของ onchain dollar transaction volume) และ regulation-first positioning (OCC trust charter, BlackRock MOU)",
+      "why": "Consensus เห็นว่า Circle คือ \"regulated stablecoin winner หลัง GENIUS Act\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ว่า 94% ของรายได้ผูกกับ reserve rate ที่กำลังลดลง (3.5%, -66bps YoY) และ 81% ของ distribution cost จ่ายให้ Coinbase รายเดียว (พร้อม trademark clawback clause ที่ซ่อนอยู่) — นี่ไม่ใช่ \"stablecoin moat\" แต่เป็น \"interest-rate-arbitrage business ที่มี toll-booth คนกลางกินส่วนแบ่งใหญ่\"",
+      "risk": "ถ้า Fed ลดดอกเบี้ยต่อเนื่องจนกดดัน reserve income รุนแรง โดย USDC circulation ไม่โตชดเชย หรือ ARC token ถูกตีว่าเป็น security (SEC/ศาลไม่เห็นด้วยกับ Reg D exemption) บังคับ rescind เงิน $222M presale"
+    },
+    "tier": "⚠️ Speculative"
   },
   "INTC": {
     "symbol": "INTC",
@@ -2219,378 +3127,6 @@
       "date": "2026-06-18"
     }
   },
-  "AXON": {
-    "symbol": "AXON",
-    "display": "AXON",
-    "category": "public_safety",
-    "name": "Axon Enterprise",
-    "sector": "Public Safety",
-    "sectorSlug": "publicsafety",
-    "chips": [
-      "Public Safety",
-      "Connected Devices + AI"
-    ],
-    "bull": [
-      "Revenue Q1 2026 $807M +34% YoY — ไตรมาสที่ 9 ติดต่อกันที่โตเกิน 30%",
-      "AI bookings +140% YoY, Dedrone (drone detection) bookings +500% YoY หนุนด้วย Safer Skies Act $250M federal grant",
-      "2028 target model: revenue $6B, Adj EBITDA margin 28%, TAM $159B",
-      "FY26 guidance ปรับขึ้นเป็น growth 30-32%",
-      "S&S (AI/cloud software) segment AI revenue +700% YoY"
-    ],
-    "risk": [
-      "Material weakness ใน revenue recognition controls ยังไม่ remediate (ต้อง restate งบ 2023-2024)",
-      "คดี product liability 3 เคส (wrongful death/injury จาก TASER)",
-      "ATF firearms license/import permit risk สำหรับ TASER 10",
-      "OCF/FCF ติดลบไตรมาสนี้ (-$32M/-$55M) แม้กำไรบวก"
-    ],
-    "price": 423.01,
-    "fv": 330.0,
-    "mos": -28.2,
-    "peg": 1.87,
-    "fpe": 57.9,
-    "updated": "2026-06-18",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🌱 Fast Grower",
-      "tier_slug": "fast-grower",
-      "what": "Axon ขาย \"connected ecosystem\" ของ TASER + camera + AI software ให้ public safety agencies — ชนะด้วย switching cost สูง (data/workflow ฝังในระบบ) และ land-and-expand จากฐาน 17,000+ agencies",
-      "why": "Consensus เห็นว่า Axon คือ \"TASER company ที่กำลังโต AI\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ว่า Dedrone (counter-drone, bookings +500% YoY) กำลังเปลี่ยน Axon จาก single-product (TASER) เป็น multi-category platform ที่มี Safer Skies Act ($250M federal grant) เป็น tailwind ใหม่ที่ยังไม่อยู่ใน guidance ปีนี้เต็มที่",
-      "risk": "ถ้า Material Weakness ใน revenue recognition controls ไม่ remediate ภายในปีนี้ (ยังไม่ confirm \"effective for sufficient period\") หรือ growth ชะลอจาก 30%+ ต่อเนื่อง 2 ไตรมาส (สัญญาณว่า Dedrone เป็น event-driven ไม่ใช่ permanent infrastructure adoption ตามที่ฝ่ายบริหารอ้าง)"
-    },
-    "tier": "🌱 Fast Grower"
-  },
-  "CRCL": {
-    "symbol": "CRCL",
-    "display": "CRCL",
-    "category": "fintech",
-    "name": "Circle Internet Group",
-    "sector": "Fintech",
-    "sectorSlug": "fintech",
-    "chips": [
-      "Fintech",
-      "Stablecoin Infrastructure"
-    ],
-    "bull": [
-      "USDC in circulation $77.0B +28% YoY, Total Revenue $694M +20% YoY",
-      "Arc Layer-1 blockchain mainnet เปิดตัวปีนี้, ARC token presale ระดมทุน $222M @ $3B FDV",
-      "CPN (Circle Payments Network) annualized TPV $8.3B +17% QoQ",
-      "USDC ครอง 99.8% ของ X402 agentic AI payment volume"
-    ],
-    "risk": [
-      "Coinbase distribution cost $330.6M ใน Q1 เดียว = 81% ของ distribution cost ทั้งหมด + trademark clawback clause ถ้าจ่ายไม่ได้",
-      "Reserve income = 94% ของรายได้ — sensitive ต่อดอกเบี้ยมาก (return rate ลด 66bps YoY แล้ว)",
-      "Net income จริงลดลง -15% YoY สวนทาง revenue ที่โต",
-      "Tether/USDT contagion risk + ARC token regulatory risk (Reg D exemption ยังไม่ชัด)"
-    ],
-    "price": 80.59,
-    "fv": 32.0,
-    "mos": -151.8,
-    "peg": 4.47,
-    "fpe": 89.5,
-    "updated": "2026-06-18",
-    "action": "hold",
-    "actionLabel": "Hold",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "⚠️ Speculative",
-      "tier_slug": "speculative",
-      "what": "Circle ออก USDC stablecoin และทำเงินจาก reserve income (ดอกเบี้ยจากเงินสำรอง USD) — ชนะด้วย scale (USDC $77B circulation, 80% ของ onchain dollar transaction volume) และ regulation-first positioning (OCC trust charter, BlackRock MOU)",
-      "why": "Consensus เห็นว่า Circle คือ \"regulated stablecoin winner หลัง GENIUS Act\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ว่า 94% ของรายได้ผูกกับ reserve rate ที่กำลังลดลง (3.5%, -66bps YoY) และ 81% ของ distribution cost จ่ายให้ Coinbase รายเดียว (พร้อม trademark clawback clause ที่ซ่อนอยู่) — นี่ไม่ใช่ \"stablecoin moat\" แต่เป็น \"interest-rate-arbitrage business ที่มี toll-booth คนกลางกินส่วนแบ่งใหญ่\"",
-      "risk": "ถ้า Fed ลดดอกเบี้ยต่อเนื่องจนกดดัน reserve income รุนแรง โดย USDC circulation ไม่โตชดเชย หรือ ARC token ถูกตีว่าเป็น security (SEC/ศาลไม่เห็นด้วยกับ Reg D exemption) บังคับ rescind เงิน $222M presale"
-    },
-    "tier": "⚠️ Speculative"
-  },
-  "CRWV": {
-    "symbol": "CRWV",
-    "display": "CRWV",
-    "category": "ai_cloud",
-    "name": "CoreWeave",
-    "sector": "AI Cloud",
-    "sectorSlug": "aicloud",
-    "chips": [
-      "AI Cloud",
-      "GPU Infrastructure"
-    ],
-    "bull": [
-      "Revenue $2,078M +112% YoY, backlog $99.4B, Adj EBITDA margin 56%",
-      "49 data centers, 1GW+ power active / 3.5GW+ contracted",
-      "FY26 guidance reaffirmed $12-13B revenue",
-      "ลูกค้าหลัก OpenAI ($6.5-11.9B MSA) + Meta ($21B order)"
-    ],
-    "risk": [
-      "Customer concentration 65% (top 2 ลูกค้า) ของรายได้",
-      "หนี้รวม $25.1B โตเร็ว, interest expense เพิ่มเป็น 2 เท่า YoY เป็น $536M/ไตรมาส",
-      "พึ่งพา NVIDIA 100% + supplier concentration (top 3 = 60% ของ FY25 purchases)",
-      "Net loss $(740)M; co-founders+CFO ตั้ง 10b5-1 selling plans พ.ย. 2025"
-    ],
-    "price": 115.21,
-    "fv": 77.0,
-    "mos": -49.6,
-    "updated": "2026-06-18",
-    "action": "hold",
-    "actionLabel": "Hold",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "⚠️ Speculative",
-      "tier_slug": "speculative",
-      "what": "CoreWeave ให้เช่า GPU cloud capacity เฉพาะทาง AI (training/inference) ผ่านสัญญา multi-year take-or-pay — ชนะด้วยความเร็ว deploy GPU generation ใหม่ก่อนใคร (NVIDIA Exemplar Cloud status) และ relationship พิเศษกับ NVIDIA ($2B equity investment)",
-      "why": "Consensus เห็นว่า CoreWeave คือ \"neocloud leader ที่มี backlog ใหญ่สุด ($99.4B)\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ความเสี่ยงที่ gross margin ลดลงต่อเนื่อง 5 ไตรมาส (78%→68%) ขณะที่ debt โต $21.6B→$25.1B ภายในไตรมาสเดียว และ customer concentration (top 2 = 65% รายได้) หมายความว่า backlog ใหญ่ส่วนหนึ่งผูกกับ counterparty risk ของ AI lab ที่ยังไม่ profitable เอง",
-      "risk": "ถ้า margin ไม่ inflect ตามที่สัญญาไว้ (Q2→Q3 FY2026) หรือลูกค้ารายใหญ่ (OpenAI/Meta) ลด commitment ระหว่างทาง credit market จะ re-price debt ของ CoreWeave ทันที เพราะ business model พึ่งพา debt-financed capacity ที่ยังไม่พิสูจน์ unit economics ที่ scale นี้"
-    },
-    "tier": "⚠️ Speculative"
-  },
-  "DDOG": {
-    "symbol": "DDOG",
-    "display": "DDOG",
-    "category": "software",
-    "name": "Datadog",
-    "sector": "Software",
-    "sectorSlug": "software",
-    "chips": [
-      "Software",
-      "Cloud Observability"
-    ],
-    "bull": [
-      "Revenue $1,006.4M +32% YoY — ไตรมาสแรกที่ทะลุ $1B, ARR ทะลุ $4B ครั้งแรก",
-      "RPO $3.48B +51% YoY, NRR low-120%s",
-      "FedRAMP High certification เปิดทาง federal government customers",
-      "ปิดดีล AI training workload monitoring 7-8 figure กับ 2 hyperscaler รายใหญ่"
-    ],
-    "risk": [
-      "Source code repository breach (เม.ย. 2025) ผ่าน compromised employee credentials",
-      "AI-native customer cohort รวม 'largest customer' ที่มีประวัติ usage spike แล้ว optimize/ไม่ renew",
-      "Hyperscaler อาจ build in-house สำหรับ training-workload monitoring ตลาดใหม่",
-      "Cloud providers (AWS/GCP/Azure) bundle native monitoring ฟรีแข่ง"
-    ],
-    "price": 226.63,
-    "fv": 187.0,
-    "mos": -21.2,
-    "peg": 3.63,
-    "fpe": 94.4,
-    "updated": "2026-06-18",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🌱 Fast Grower",
-      "tier_slug": "fast-grower",
-      "what": "Datadog รวม observability + security เป็น unified platform เดียว — ชนะด้วย land-and-expand (56% ของลูกค้าใช้ 4+ products) และ switching cost จาก data/workflow ที่ฝังลึกข้าม product",
-      "why": "Consensus เห็นว่า Datadog คือ \"observability leader ที่กำลังถูก hyperscaler bundle แข่ง\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ว่า AI training-workload monitoring เป็นตลาดใหม่ที่ hyperscaler เริ่มยอมรับว่าสร้างเองไม่ดีพอ (ปิดดีล 7-8 figure กับ 2 AI research lab รายใหญ่ที่สุดของโลกในไตรมาสนี้ — สิ่งที่ Olivier Pomel เองบอกว่าปีก่อนยัง \"ไม่ใช่ตลาดจริง\")",
-      "risk": "ถ้า AI-native customer cohort (รวม \"largest customer\" ที่มีประวัติ usage spike แล้ว optimize/ไม่ renew) ทำตามรูปแบบเดิม หรือ training-workload deal ที่ปิดได้เป็นแค่ 2 ดีลครั้งเดียวไม่ใช่ trend ต่อเนื่อง"
-    },
-    "tier": "🌱 Fast Grower"
-  },
-  "DUOL": {
-    "symbol": "DUOL",
-    "display": "DUOL",
-    "category": "consumer",
-    "name": "Duolingo",
-    "sector": "Consumer",
-    "sectorSlug": "consumer",
-    "chips": [
-      "Consumer",
-      "EdTech"
-    ],
-    "bull": [
-      "Revenue $292.0M +27% YoY, Net Income $43.5M, FCF $147.8M (margin 50.6%)",
-      "DAU +21% YoY (56.5M), Bookings +14%",
-      "ไม่มีหนี้, cash $1.39B"
-    ],
-    "risk": [
-      "App Store concentration: Apple 62% + Google 20% = >80% รายได้ — สัญญายกเลิกได้แค่แจ้ง 30 วัน",
-      "Dual-class governance: ผู้บริหาร+กรรมการคุม 76.3% voting power",
-      "Gross margin คาดลด 73%→69% จาก AI cost; 10-K เตือนเองว่า GenAI อาจให้คู่แข่งแซงหน้า",
-      "MAU โตช้าเหลือ +6% (DAU โตจาก retention ไม่ใช่ user ใหม่)"
-    ],
-    "price": 123.39,
-    "fv": 280.0,
-    "mos": 55.9,
-    "peg": 1.42,
-    "fpe": 25.5,
-    "updated": "2026-06-18",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🌱 Fast Grower",
-      "tier_slug": "fast-grower",
-      "what": "Duolingo คือแอปเรียนภาษาที่ใหญ่ที่สุดในโลกแบบ freemium — ชนะด้วย data flywheel (ผู้ใช้ทำแบบฝึกหัด ~2 พันล้านครั้ง/วัน) และ organic brand growth ที่ทำให้ CAC ต่ำกว่าคู่แข่งมาก",
-      "why": "Consensus เห็นว่า Duolingo คือ \"EdTech growth stock ที่ GenAI อาจ disrupt\" — Warren เห็นต่างว่าตลาดมองข้ามว่า Duolingo เองคือผู้ที่ใช้ AI เร่ง content scale ได้เร็วกว่าใคร (20,500 course units/ไตรมาส จาก 1,800 เมื่อ 2 ปีก่อน = 10x+) ทำให้ moat ด้าน content breadth ขยายเร็วกว่าที่ผู้เล่นหน้าใหม่ที่ใช้ GenAI เดียวกันจะตามทันได้ ขณะที่ balance sheet ไม่มีหนี้และ FCF margin 50%+ ให้พื้นที่ลงทุนต่อสู้ได้ยาว",
-      "risk": "ถ้า MAU growth ที่ชะลอเหลือ +6% (เทียบ DAU +21%) ไม่ฟื้นภายใน 2-3 ไตรมาส — แสดงว่า top-of-funnel ใหม่หมดแรงจริง ไม่ใช่แค่ noise ชั่วคราว และ DAU growth ที่เหลือจาก retention อย่างเดียวจะ plateau ในที่สุด"
-    },
-    "tier": "🌱 Fast Grower"
-  },
-  "IREN": {
-    "symbol": "IREN",
-    "display": "IREN",
-    "category": "ai_cloud",
-    "name": "IREN Limited",
-    "sector": "AI Cloud",
-    "sectorSlug": "aicloud",
-    "chips": [
-      "AI Cloud",
-      "GPU Infrastructure + Power"
-    ],
-    "bull": [
-      "Net income แรกในประวัติ $86.9M FY2025; Microsoft $9.7B/5ปี AI Cloud agreement (พ.ย. 2025)",
-      "NVIDIA AI Cloud contract $3.4B/5ปี + 5GW partnership ($2.1B right-to-invest)",
-      "Roadmap 2026: 480MW/150k GPU/$3.7B ARR → 2028+: 5GW",
-      "Cash $2.6B"
-    ],
-    "risk": [
-      "Customer concentration: AI early-stage/private company (credit risk) + Microsoft กลายเป็น counterparty รายใหญ่สุด",
-      "Securities class action ยังไม่จบ (ศาลยกฟ้อง ก.พ. 2026 แต่ plaintiffs อุทธรณ์ มี.ค. 2026)",
-      "Dual-class control: Roberts พี่น้องคุม 35.4% voting power (15 vote/share)",
-      "Convertible notes $3,687.8M; Canada permanent-establishment tax dispute ที่ Tax Court"
-    ],
-    "price": 58.11,
-    "fv": 47.0,
-    "mos": -23.6,
-    "updated": "2026-06-18",
-    "action": "hold",
-    "actionLabel": "Hold",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "⚠️ Speculative",
-      "tier_slug": "speculative",
-      "what": "IREN เปลี่ยนจาก Bitcoin miner เป็น AI Cloud provider โดยใช้ความได้เปรียบจาก vertically-integrated land/power/data-center ที่สั่งสมมา 7 ปี — ชนะด้วย freehold ownership (ไม่เช่า) ที่ให้ cost advantage เหนือ neocloud ที่พึ่ง third-party hosting",
-      "why": "Consensus เห็นว่า IREN คือ \"Bitcoin miner ที่กำลัง pivot สู่ AI\" — Warren เห็นต่างว่าตลาดยังไม่แยกแยะว่า IREN มี **กำไรสุทธิจริงครั้งแรก** (FY2025 $86.9M) และ secured power 5GW ที่ใหญ่กว่าคู่แข่ง pivot เดียวกันหลายเท่า แต่ราคาตลาดกำลัง price-in การ execute สำเร็จเต็มที่ทั้งที่ Microsoft/NVIDIA contract เพิ่งเริ่ม ramp และ impairment จาก decommission mining hardware ยังกัดกินงบต่อเนื่อง",
-      "risk": "ถ้า margin ของ AI Cloud Services ไม่ inflect ตามคาดหลัง Microsoft contract เริ่ม ramp (Q3 CY26/Q1 FY27) หรือ impairment เพิ่มเติมจากการเปลี่ยนผ่าน Bitcoin→AI เกินกว่าที่ตลาดคาด"
-    },
-    "tier": "⚠️ Speculative"
-  },
-  "LLY": {
-    "symbol": "LLY",
-    "display": "LLY",
-    "category": "healthcare",
-    "name": "Eli Lilly and Company",
-    "sector": "Healthcare",
-    "sectorSlug": "healthcare",
-    "chips": [
-      "Healthcare",
-      "Pharma / GLP-1"
-    ],
-    "bull": [
-      "Revenue Q1 2026 $19.799B +56% YoY, EPS GAAP $8.26 (+170%)",
-      "Guidance ปรับขึ้นเป็น $82-85B revenue / EPS $35.50-37.00 FY26",
-      "Foundayo (oral GLP-1) FDA approved, รักษาแล้ว >20K คน; retatrutide TRIUMPH-1 ลดน้ำหนัก 28.3%",
-      "Patent Mounjaro/Zepbound ยาวถึง 2036-2040"
-    ],
-    "risk": [
-      "Mounjaro+Zepbound = 65% ของรายได้ Q1 — concentration สูงมาก",
-      "พึ่งพา China supply chain สำหรับ chemical synthesis/reagents (geopolitical risk)",
-      "Government price-setting (IRA) ขยายตัว — Jardiance ถูกบังคับราคาแล้ว, Trulicity+Verzenio ตามปี 2028",
-      "Trulicity patent cliff ใกล้เข้ามา 2027; litigation หลายคดี (Emgality, insulin MDL, 340B)"
-    ],
-    "price": 1112.0,
-    "fv": 1160.0,
-    "mos": 4.1,
-    "peg": 1.53,
-    "fpe": 30.7,
-    "updated": "2026-06-18",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🏛️ Inevitable",
-      "tier_slug": "inevitable",
-      "what": "Eli Lilly ครองความเป็นผู้นำ GLP-1/incretin market ด้วย dual-agonist science (tirzepatide) ที่ดีกว่า semaglutide เชิง clinical — ชนะด้วย manufacturing scale + patent runway ยาวถึง 2036-2040",
-      "why": "Consensus เห็นว่า Lilly คือ \"GLP-1 winner ที่ราคาแพงเกินไปแล้ว\" — Warren เห็นต่างว่าตลาดยัง underweight การ diversify นอก incretin ที่กำลังเกิดจริง (Immunology/Oncology/Neuroscience รวมกันโต 160% YoY) และ Foundayo (oral GLP-1 ตัวแรกที่ approved) จะขยาย addressable market ไปกลุ่มที่กลัวเข็มฉีดยา ซึ่งยังไม่อยู่ใน guidance ปัจจุบันเต็มที่ (management เองบอกว่า Foundayo \"not yet a principal factor\")",
-      "risk": "ถ้า Medicare/IRA government price-setting ขยายเร็วกว่าคาด (Trulicity/Verzenio เข้าปี 2028) จนกดดัน margin มากกว่าที่ pipeline ใหม่ชดเชยได้ หรือ generic semaglutide/คู่แข่งจีนแย่งตลาดได้เร็วกว่าที่ patent runway จะป้องกันได้"
-    },
-    "tier": "🏛️ Inevitable"
-  },
-  "MELI": {
-    "symbol": "MELI",
-    "display": "MELI",
-    "category": "consumer",
-    "name": "MercadoLibre",
-    "sector": "Consumer",
-    "sectorSlug": "consumer",
-    "chips": [
-      "Consumer",
-      "LatAm E-commerce + Fintech"
-    ],
-    "bull": [
-      "Revenue $8,845M +49% YoY (เร็วสุดในรอบ ~4 ปี); TPV $87.2B +50%, GMV $19.0B +42%",
-      "Fintech MAU +29%, AUM +77%, credit card TPV +90%",
-      "Brazil GMV +38%, items sold +56%"
-    ],
-    "risk": [
-      "Brazil withholding-tax dispute $592M (probable loss, ยังอุทธรณ์) + อีก $513M reasonably-possible ที่ยังไม่ accrue",
-      "Provision for doubtful accounts +106.5% YoY (14.1% ของรายได้) เร็วกว่า revenue growth 49%",
-      "10-K เพิ่ม risk ใหม่ปี 2025: Asian e-commerce platform (Shopee/Temu/Shein-type) แย่ง market share",
-      "Operating margin หด -600bps YoY แม้ revenue โต"
-    ],
-    "price": 1631.82,
-    "fv": 1824.0,
-    "mos": 10.5,
-    "peg": 1.43,
-    "fpe": 42.9,
-    "updated": "2026-06-18",
-    "action": "hold",
-    "actionLabel": "Hold",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "MercadoLibre ครองตลาด e-commerce + fintech ในลาตินอเมริกาผ่าน ecosystem flywheel (marketplace → payments → credit → logistics) — ชนะด้วย scale + proprietary credit risk model ที่เข้าถึงกลุ่ม underserved/unbanked",
-      "why": "Consensus เห็นว่า MELI คือ \"LatAm e-commerce leader ที่กำลังถูก Asian competitor (Shopee/Temu/Shein) แย่งตลาด\" — Warren เห็นต่างว่าตลาดมองข้ามว่า management กำลัง **เลือก** compress margin (12.9%→6.9%) เพื่อปักหมุด Brazil free-shipping moat ก่อนคู่แข่งตามทัน ซึ่งเป็นการลงทุนรุกที่ไม่ใช่สัญญาณว่าธุรกิจอ่อนแอ — GMV Brazil เร่งขึ้นเป็น +38% YoY และ unique buyer growth เร็วสุดใน 5 ปี ยืนยันว่า strategy นี้ทำงาน",
-      "risk": "ถ้า margin ไม่ฟื้นกลับมาตามที่ thesis การลงทุนคาดไว้ภายใน 2-3 ปี (deliberate margin compression กลายเป็น permanent structural problem) หรือ Asian e-commerce competitor แย่ง market share ได้ต่อเนื่องแม้ MELI ลงทุนป้องกันแล้ว"
-    },
-    "tier": "🚀 Pre-Inevitable"
-  },
-  "NBIS": {
-    "symbol": "NBIS",
-    "display": "NBIS",
-    "category": "ai_cloud",
-    "name": "Nebius Group",
-    "sector": "AI Cloud",
-    "sectorSlug": "aicloud",
-    "chips": [
-      "AI Cloud",
-      "GPU Infrastructure"
-    ],
-    "bull": [
-      "Revenue $399.0M +684% YoY, Adj EBITDA margin 32%",
-      "Meta $27B 5-ปี deal ($12B dedicated + $15B option); contracted power >3.5GW",
-      "NVIDIA ลงทุน equity stake $2B; cash $9.3B",
-      "FY26 guidance reaffirm ($3.0-3.4B revenue, $7-9B ARR)"
-    ],
-    "risk": [
-      "Legacy Yandex connection — เป็น legal successor ของ Yandex N.V., 10-K เองเตือนเรื่อง KYC/banking onboarding ช้า",
-      "Material weakness 2 จุดในระบบควบคุมภายใน ยังไม่ remediate ถึงปลายปี 2026",
-      "Customer concentration: top 3 = 51% ของรายได้ FY2025",
-      "Net income ส่วนใหญ่มาจาก non-cash ClickHouse revaluation gain ไม่ใช่กำไรจากธุรกิจหลัก; CEO คุม ~52% voting power"
-    ],
-    "price": 280.91,
-    "fv": 132.0,
-    "mos": -112.8,
-    "updated": "2026-06-18",
-    "action": "hold",
-    "actionLabel": "Hold",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "⚠️ Speculative",
-      "tier_slug": "speculative",
-      "what": "Nebius เป็น full-stack AI-native cloud (hardware design เองถึง software) สำหรับ training/inference — ชนะด้วย NVIDIA strategic alignment (Exemplar Cloud status, $2B equity investment) และ owned-infrastructure ratio สูง (>75%)",
-      "why": "Consensus เห็นว่า Nebius คือ \"neocloud เล็กที่กำลังโตเร็วที่สุดในกลุ่ม (+684% YoY)\" — Warren เห็นต่างว่าตลาดยัง underweight ความเสี่ยงจาก Yandex legacy (KYC/banking onboarding ช้า) และ material weakness 2 จุดที่ยังไม่ remediate เต็มที่จนถึงปลายปี 2026 ขณะที่ valuation ปัจจุบัน (P/ARR ~8.9×) แพงกว่า CRWV/IREN มากแม้มี red flag เยอะกว่า",
-      "risk": "ถ้า Meta $27B deal หรือ Microsoft contract ส่งมอบไม่ตรงเวลา (มีรายงาน delay ที่ Vineland NJ แล้ว) หรือ material weakness ไม่ remediate ตามสัญญา \"by end of 2026\""
-    },
-    "tier": "⚠️ Speculative"
-  },
   "OKLO": {
     "symbol": "OKLO",
     "display": "OKLO",
@@ -2614,12 +3150,41 @@
       "Fuel supply risk: HALEU/plutonium fuel ยังไม่มี available at scale, พึ่ง DOE plutonium-release program ที่ยังไม่ finalize",
       "Net loss $105.7M FY2025, accumulated deficit $(273.8)M"
     ],
-    "price": 58.82,
-    "fv": 53.0,
-    "mos": -11.0,
-    "updated": "2026-06-18",
     "action": "hold",
     "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 4.15,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 58.82,
+    "fv": 53,
+    "mos": -11.0,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        3.5,
+        "orange",
+        35
+      ],
+      "gp": [
+        7.0,
+        "amber",
+        70
+      ],
+      "va": [
+        2.5,
+        "orange",
+        25
+      ],
+      "ra": [
+        2.5,
+        "orange",
+        25
+      ]
+    },
+    "idea": "",
+    "updated": "2026-06-18",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -2631,170 +3196,5 @@
       "risk": "ถ้า NRC Part 57 framework ที่ฝ่ายบริหารตื่นเต้นมากไม่ผ่านตามแผน (ยังเป็นแค่ \"proposed\") หรือ Aurora-INL ไม่ deliver ตาม timeline 2028 ที่ตั้งไว้ (first-of-a-kind risk สูงตามที่ 10-K เตือนเอง)"
     },
     "tier": "⚠️ Speculative"
-  },
-  "ORCL": {
-    "symbol": "ORCL",
-    "display": "ORCL",
-    "category": "big_tech",
-    "name": "Oracle Corporation",
-    "sector": "Big Tech",
-    "sectorSlug": "bigtech",
-    "chips": [
-      "Big Tech",
-      "Cloud Infrastructure + Enterprise SaaS"
-    ],
-    "bull": [
-      "Record Q4 FY2026 revenue $19.2B +21%, Cloud Infra (IaaS) $5.8B +93%; RPO $638B +363% YoY",
-      "GPU utilization 97.5% ทั่วโลก",
-      "FY2027 guidance $90B revenue (+34% CC); long-term target CAGR revenue 31%/EPS 28% ถึง FY2030",
-      "Multicloud database revenue +404% YoY — moat ที่คู่แข่งไม่มี (Oracle DB รันบน AWS/Azure/GCP)"
-    ],
-    "risk": [
-      "Leverage พุ่งจาก $92.6B เป็น $134.6B notes payable ภายใน 9 เดือน",
-      "Free Cash Flow ติดลบ -$23.7B FY2026 (CapEx โตเร็วกว่า operating cash flow)",
-      "Off-balance-sheet commitment โตเร็ว — power purchase obligation $2.2B→$11B ในไตรมาสเดียว + lease commitment $43.4B ที่ไม่อยู่บนงบดุล",
-      "Mandatory Convertible Preferred + ATM equity $20B = dilution risk; Co-CEO structure ใหม่ (มิ.ย. 2025) + CFO ใหม่ ยังไม่มี track record"
-    ],
-    "price": 183.53,
-    "fv": 209.0,
-    "mos": 12.2,
-    "peg": 1.27,
-    "fpe": 22.8,
-    "updated": "2026-06-18",
-    "action": "hold",
-    "actionLabel": "Hold",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "Oracle รวม infrastructure (OCI) + database + enterprise applications เป็น full-stack เดียว — ชนะด้วย multicloud database (รันบน AWS/Azure/GCP ได้) ที่ไม่มีคู่แข่งทำได้ + speed-to-deploy ใน AI data center buildout",
-      "why": "Consensus เห็นว่า Oracle คือ \"enterprise software เดิมที่กำลังได้ AI tailwind จาก OCI\" — Warren เห็นต่างว่าตลาดยัง underweight ว่า RPO $638B (+363% YoY) ส่วนใหญ่มาจาก customer prepayment/bring-your-own-hardware ($75B สะสม) ซึ่งลด capital risk ของ Oracle เองได้มากกว่าที่ headline leverage number ($134.6B notes payable) จะดูน่ากลัว — Oracle กำลังเปลี่ยนสถานะจาก \"incumbent ที่กำลังจะถูก disrupt\" เป็น \"AI infrastructure hypergrowth player\" ที่ตลาดยังตีราคาด้วย multiple ของ enterprise software เดิม",
-      "risk": "ถ้า gross margin ไม่ inflect ตามสัญญา (FY27 guidance บอกจะลดลงต่อก่อนฟื้น) หรือ 4 ลูกค้าใหญ่ที่เซ็นสัญญา AI infra เกิน $8B รายละแต่ละ ราย concentrate เกินไปจนกลายเป็น counterparty risk แทน diversification"
-    },
-    "tier": "🚀 Pre-Inevitable"
-  },
-  "RBLX": {
-    "symbol": "RBLX",
-    "display": "RBLX",
-    "category": "entertainment",
-    "name": "Roblox Corporation",
-    "sector": "Consumer",
-    "sectorSlug": "consumer",
-    "chips": [
-      "Consumer",
-      "Gaming Platform"
-    ],
-    "bull": [
-      "Revenue $1,442M +39%, Bookings $1,731M +43%, DAU 132M +35%",
-      "FCF $596M (+40%), cash $6.2B",
-      "AI-native Studio tools (Roblox Reality) หนุน content creation"
-    ],
-    "risk": [
-      "FY26 guidance ถูกตัดแรง (bookings 22-26%→8-12%) จากนโยบาย age-verification ที่กระทบ app-store rating + sign-up",
-      "7 state AG lawsuits (FL/IA/KY/LA/NE/TX/TN) เรื่อง youth safety, settlement accrual แล้ว $57M (3 รัฐ)",
-      "Netherlands EU-DSA investigation (ค่าปรับสูงสุด 6% ของ global revenue)",
-      "App store dependency 44% (Apple 29% + Google 15%); gambling-related class action ตั้งแต่ 2023"
-    ],
-    "price": 48.02,
-    "fv": 65.0,
-    "mos": 26.1,
-    "updated": "2026-06-18",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🌱 Fast Grower",
-      "tier_slug": "fast-grower",
-      "what": "Roblox คือ UGC immersive gaming platform ที่ creator สร้างเกมและผู้ใช้เล่น/จ่ายเงินผ่าน Robux — ชนะด้วย two-sided network effect (content flywheel + connections flywheel) ที่ scale ใหญ่ที่สุดในกลุ่มอายุน้อย",
-      "why": "Consensus เห็นว่า Roblox คือ \"growth stock ที่กำลังถูกบังคับชะลอจาก safety regulation\" — Warren เห็นต่างว่าตลาด over-react ต่อ guidance cut ระยะสั้น (bookings 22-26%→8-12%) ที่เป็นผลจาก self-inflicted trade-off (age-check rollout) ซึ่งเป็นการลงทุนสร้าง trust moat ระยะยาวที่บริษัทเรียกว่า \"compounding moat\" — ขณะที่ O18 expansion (อายุ 18+ โต DAU/Hours >40% YoY, monetize สูงกว่า 50%+) กำลังเปิดตลาดใหม่ขนาดใหญ่ที่ยังไม่อยู่ใน valuation ปัจจุบัน",
-      "risk": "ถ้า DAU ไม่ฟื้นกลับมาโตตามที่ guide ไว้ใน Q3 2026 (สัญญาณว่า safety rollout ทำลาย organic growth permanent ไม่ใช่ชั่วคราว) หรือ youth-safety litigation (7 state AG lawsuits) จบด้วยผลลบรุนแรงกว่าที่ accrual $57M ปัจจุบันสะท้อน"
-    },
-    "tier": "🌱 Fast Grower"
-  },
-  "SHOP": {
-    "symbol": "SHOP",
-    "display": "SHOP",
-    "category": "consumer",
-    "name": "Shopify Inc.",
-    "sector": "Consumer",
-    "sectorSlug": "consumer",
-    "chips": [
-      "Consumer",
-      "Commerce Platform"
-    ],
-    "bull": [
-      "GMV $100.7B +35% YoY, Revenue $3.17B +34%, FCF $476M (margin 15%)",
-      "AI เขียนโค้ด 50%+ ของ Shopify เอง; Sidekick weekly active shops +385% YoY",
-      "Universal Commerce Protocol (UCP) ร่วมกับ Google + Amazon/Meta/Microsoft/Salesforce/Stripe",
-      "Buyback $2B ที่ประกาศแล้ว"
-    ],
-    "risk": [
-      "Founder Share structure: Tobi Lütke คุม voting power 40.09% (cap 49.9%) ที่ไม่ dilute ตามจำนวนหุ้นใหม่ — conflict-of-interest ที่บริษัทเปิดเผยเอง",
-      "พึ่งพา 2 PSP (Stripe+PayPal) สำหรับ Shopify Payments ที่ขับเคลื่อน Merchant Solutions (76% ของรายได้)",
-      "CRA transfer-pricing assessment (tax year 2020) ยังไม่จบ",
-      "GAAP net loss $(581)M ไตรมาสนี้ (จาก equity investment markdown)"
-    ],
-    "price": 108.09,
-    "fv": 115.0,
-    "mos": 6.0,
-    "peg": 2.86,
-    "fpe": 80.1,
-    "updated": "2026-06-18",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "Shopify เป็น \"essential internet infrastructure for commerce\" ที่รวม online/POS/B2B/social/agentic channel เป็น system of record เดียว — ชนะด้วย cohort economics ที่ทบต้น (merchant เก่าไม่หยุดโต, 90% ของรายได้จาก merchant ที่อยู่เกิน 1 ปี)",
-      "why": "Consensus เห็นว่า Shopify คือ \"e-commerce platform ที่ valuation แพงเกินไปแล้ว\" — Warren เห็นต่างว่าตลาดยัง underweight Universal Commerce Protocol (UCP) ที่ Shopify เป็น founding member ร่วมกับ Google/Amazon/Meta/Microsoft — ทำให้เป็น \"the only platform powering selling inside ChatGPT, Copilot, and Google จากระบบเดียว\" ซึ่ง AI-driven traffic ไปยัง Shopify stores โต 8x YoY และ orders จาก AI search โต ~13x YoY แล้ว (ไม่ใช่แค่ theory)",
-      "risk": "ถ้า agentic commerce traffic ไม่ scale ต่อจาก early numbers (เป็นแค่ novelty ชั่วคราว) หรือ Founder Share governance structure (Lütke คุม voting power สูงถึง 49.9%) นำไปสู่การตัดสินใจที่ไม่ align กับ shareholder อื่น"
-    },
-    "tier": "🚀 Pre-Inevitable"
-  },
-  "SNOW": {
-    "symbol": "SNOW",
-    "display": "SNOW",
-    "category": "software",
-    "name": "Snowflake Inc.",
-    "sector": "Software",
-    "sectorSlug": "software",
-    "chips": [
-      "Software",
-      "Data Cloud / AI Platform"
-    ],
-    "bull": [
-      "Revenue $1.39B +33% YoY, NRR 126%, RPO $9.21B +38%",
-      "Cortex Code (CoCo) GA'd ก.พ. 2026 = driver หลักของ guidance raise",
-      "AWS deal $6B/5ปี",
-      "FY27 guidance ปรับขึ้น: Product Revenue $5.84B (+31%), Non-GAAP Op Margin 13.5%"
-    ],
-    "risk": [
-      "Mass customer-account breach (พ.ค. 2024) ยังเป็น multidistrict litigation อยู่ระหว่าง discovery",
-      "Securities class action สะสม 3 คดี (ล่าสุดยื่นแค่ 5 วันก่อน 10-Q นี้)",
-      "Copyright infringement lawsuit ใหม่ (พ.ย. 2025) เรื่อง LLM training",
-      "Executive turnover สูงมาก (CEO/CFO/CRO×2/SVP Engineering เปลี่ยนหมดใน ~2 ปี); GAAP net loss $(295.6)M"
-    ],
-    "price": 234.52,
-    "fv": 112.0,
-    "mos": -109.4,
-    "peg": 4.2,
-    "fpe": 126.1,
-    "updated": "2026-06-18",
-    "action": "hold",
-    "actionLabel": "Hold",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-06-18",
-      "tier": "🌱 Fast Grower",
-      "tier_slug": "fast-grower",
-      "what": "Snowflake เป็น unified AI Data Cloud platform แบบ consumption-based — ชนะด้วย network effect ระดับ data sharing (42% ของลูกค้ามี \"stable edge\") และ multi-cloud independence ที่ไม่ผูกติด provider เดียว",
-      "why": "Consensus เห็นว่า Snowflake คือ \"data warehouse ที่กำลังถูก Databricks/hyperscaler แข่งดุเดือด\" — Warren เห็นต่างว่าตลาดยัง underweight ว่า Cortex Code (CoCo) เป็น \"largest driver to the increase in our forecast\" ตามคำ CFO เอง — นี่คือ second-order effect ที่ AI agent ดึง consumption บน core data platform เพิ่มขึ้นไปด้วย (ไม่ใช่แค่ AI product แยกขาย) ซึ่งเพิ่งเริ่ม full-cycle หลัง GA 5 ก.พ. 2026",
-      "risk": "ถ้า CoCo adoption เป็นแค่ initial GA surge ไม่ใช่ sustained driver (ยังไม่มี full-cycle data ยืนยัน) หรือ securities class action สะสม 3 คดี (ล่าสุดยื่นแค่ 5 วันก่อน 10-Q) จบด้วยผลลบที่กระทบความเชื่อมั่น/การเงินมีนัยสำคัญ"
-    },
-    "tier": "🌱 Fast Grower"
   }
 }

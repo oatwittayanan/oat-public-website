@@ -321,18 +321,26 @@ def load_wiki_valuations():
 
 # ── Load sources ──────────────────────────────────────────────────────────────
 def load_papers(papers_data):
-    """Return {TICKER: recommendation_dict} from latest paper."""
+    """Return {TICKER: recommendation_dict} from latest paper.
+
+    A single watchlist run can be split into multiple same-date entries
+    (e.g. a "refresh 27" batch + an "add 14 new" batch). Merge the
+    recommendations from ALL entries sharing the latest date so no batch
+    is dropped; later entries override earlier ones for duplicate tickers.
+    """
     if not papers_data:
         return {}, ""
     sorted_p = sorted(papers_data, key=lambda p: p.get("date", ""), reverse=True)
-    latest = sorted_p[0]
-    date   = latest.get("date", "")
+    date   = sorted_p[0].get("date", "")
     result = {}
-    for rec in latest.get("recommendations", []):
-        t = (rec.get("ticker") or "").upper().strip()
-        if t:
-            result[t] = rec
-    print(f"[papers] latest: {date}, tickers: {sorted(result)}")
+    # Iterate oldest→newest among the latest-date entries so the newest wins
+    latest_entries = [p for p in sorted_p if p.get("date", "") == date]
+    for entry in reversed(latest_entries):
+        for rec in entry.get("recommendations", []):
+            t = (rec.get("ticker") or "").upper().strip()
+            if t:
+                result[t] = rec
+    print(f"[papers] latest: {date} ({len(latest_entries)} entries), tickers: {sorted(result)}")
     return result, date
 
 def load_watchlist(watchlist_data):
