@@ -148,8 +148,10 @@ def parse_wiki_valuation(content):
             break
 
     # Fair Value Weighted — old: **Weighted Fair Value:** / new: | Fair Value (Weighted) | $XXX |
-    for pat in [r'\*\*Weighted Fair Value:\*\*\s*\$?([\d,]+\.?\d*)',
-                r'\|\s*Fair Value \(Weighted\)\s*\|\s*\$?([\d,]+\.?\d*)\s*\|']:
+    # / Watchlist Refresh: | Fair Value Base | $XXX |
+    for pat in [r'\*\*Weighted Fair Value:\*\*\s*~?\$?([\d,]+\.?\d*)',
+                r'\|\s*Fair Value \(Weighted\)\s*\|\s*\$?([\d,]+\.?\d*)\s*\|',
+                r'\|\s*Fair Value Base\s*\|\s*\$?([\d,]+\.?\d*)\s*\|']:
         mm = re.search(pat, section)
         if mm:
             out['fv'] = float(mm.group(1).replace(',', ''))
@@ -312,6 +314,11 @@ def load_wiki_valuations():
         if val:
             result[ticker] = val
             print(f"[wiki-val] {ticker}: FV={val.get('fv')} MoS={val.get('mos_pct')}% Price={val.get('price')}")
+            # Format-drift alarm: section clearly has valuation data (price/MoS parsed)
+            # but FV regex found nothing — likely a new table label the parser doesn't know yet.
+            if val.get('fv') is None and (val.get('price') is not None or val.get('mos_pct') is not None):
+                print(f"  ⚠️  [wiki-val] {ticker}: Valuation section parsed but FV is None — "
+                      f"card may use a new Fair Value row label; check parse_wiki_valuation() patterns")
         sg = parse_wiki_story_gate(content)
         if sg:
             story_gates[ticker] = sg
@@ -491,12 +498,16 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
     if story_gate:
         entry["story_gate"] = story_gate
 
-    # Top-level tier — prefer Story Gate tier, fall back to watchlist_valuations rec tier.
-    # (tickers ที่ยังไม่มี ## Story Gate section ในการ์ดจะได้ tier จาก rec แทน — กัน badge ว่าง)
-    if story_gate and story_gate.get("tier"):
-        entry["tier"] = story_gate["tier"]
-    elif paper_rec and paper_rec.get("tier"):
+    # Top-level tier — prefer watchlist_valuations rec tier (latest Warren analysis,
+    # same source price/fv/mos/action already trust), fall back to Story Gate tier
+    # from the wiki card only when this ticker has no rec yet (e.g. brand new ticker).
+    # Story Gate section is updated less often than the JSON, so preferring it first
+    # caused stale tier badges (e.g. NFLX stuck at Pre-Inevitable after a 07-12 rec
+    # upgrade to Inevitable that never got written back into NFLX.md).
+    if paper_rec and paper_rec.get("tier"):
         entry["tier"] = paper_rec["tier"]
+    elif story_gate and story_gate.get("tier"):
+        entry["tier"] = story_gate["tier"]
 
     # Charlie Watchlist Review
     if charlie_rev:
