@@ -57,12 +57,14 @@ CONVICTION_MAP = {
 }
 
 ACTION_MAP = {
-    "BUY":     ("buy",     "Buy"),
-    "STARTER": ("starter", "Starter"),
-    "SELL":    ("sell",    "Sell"),
-    "HOLD":    ("hold",    "Hold"),
-    "WATCH":   ("watch",   "Watch"),
-    "STUDY":   ("study",   "Study"),
+    "BUY":        ("buy",     "Buy"),
+    "STARTER":    ("starter", "Starter"),
+    "SELL":       ("sell",    "Sell"),
+    "HOLD":       ("hold",    "Hold"),
+    "WATCH":      ("watch",   "Watch"),
+    "STUDY":      ("study",   "Study"),
+    "AVOID":      ("avoid",   "Avoid"),
+    "DO NOT BUY": ("avoid",   "Avoid"),
 }
 
 CATEGORY_MAP = {

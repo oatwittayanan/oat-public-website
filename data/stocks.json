@@ -2453,8 +2453,8 @@
       "SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure",
       "UK regulatory environment ไม่แน่นอน"
     ],
-    "action": "hold",
-    "actionLabel": "Hold",
+    "action": "avoid",
+    "actionLabel": "Avoid",
     "conviction": 3,
     "waf": 5.65,
     "wafBadge": "waf-low",
