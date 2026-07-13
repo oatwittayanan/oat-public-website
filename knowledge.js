@@ -8456,6 +8456,272 @@ Shopify เปิดเผยเองว่าคู่แข่งบางร
 | 2025Q4 - SHOP - 10K.pdf | 10K | 2026-06-18 |
 `,
 
+"SKHYV": `# SK hynix Inc. (SKHYV) · Semiconductor / Memory (DRAM · HBM · NAND)
+
+**Last Updated:** 2026-07-12
+**Source:** Primary Document — 424B4 Prospectus (IPO, dated 2026-07-09)
+**Trend Tags:** [[Memory-Supercycle]] [[AI-Infrastructure]] [[Advanced-Packaging]]
+
+> ⚠️ **Ticker note:** **SKHYV** = when-issued ticker บน Nasdaq ช่วง IPO (suffix "V"); จะเปลี่ยนเป็น **SKHY** เมื่อเข้า regular-way trading. ในเอกสาร prospectus ระบุ symbol ถาวรว่า "SKHY".
+>
+> ⚠️ **ADS structure:** American Depositary Shares บน Nasdaq Global Select Market. **1 ADS = 1/10 ของ common share** (common share เทรดบน KRX KOSPI รหัส "000660"). IPO price = **US$149.00/ADS**. งบการเงินทั้งหมดในเอกสารเป็น **IFRS** (ไม่ใช่ US GAAP) และรายงานเป็น **KRW (พันล้านวอน)** พร้อม USD convenience translation ที่ **W1,523.5 = US$1.00** (noon buying rate 2026-03-31). ระวังสลับ per-share กับ per-ADS.
+
+---
+
+## Business Overview
+
+SK hynix เป็นหนึ่งในผู้ผลิต memory semiconductor รายใหญ่ที่สุดของโลก — ออกแบบ ผลิต และขาย advanced memory (DRAM, HBM, NAND flash) ใช้ในแทบทุกอุปกรณ์อิเล็กทรอนิกส์ (graphics cards, PC, data center servers, smartphones, consumer electronics) นอกจากนี้มีธุรกิจ foundry ผ่านบริษัทลูก SK hynix system ic และ SK keyfoundry
+
+**Market Position (IDC, Q1 2026, by revenue):**
+| ตลาด | อันดับโลก | Market Share Q1 2026 |
+|------|----------|---------------------|
+| **HBM** (High Bandwidth Memory) | **#1** | **56.4%** |
+| DRAM (รวม HBM) | #2 | 29.1% |
+| NAND flash | #2 | 18.5% |
+
+**Revenue Mix (by product):**
+- DRAM: 77.3% ของยอดขาย Q1 2026 (77.1% FY2025)
+- NAND flash: 22.0% ของยอดขาย Q1 2026 (21.3% FY2025)
+
+**Geographic (by sales-subsidiary location):**
+- สหรัฐฯ: 64.7% ของ revenue Q1 2026 (68.8% FY2025)
+- จีน: 24.3% ของ revenue Q1 2026 (19.7% FY2025)
+
+**Fabs / Facilities:** Wafer fabs ที่ Icheon และ Cheongju (เกาหลี), Wuxi และ Dalian (จีน); assembly & test ที่ Icheon, Cheongju (เกาหลี), Chongqing (จีน)
+- **M15X** (Cheongju) — extension fab ใหม่ เปิด cleanroom ต.ค. 2025, เริ่ม wafer input Q1 2026 (เพิ่มกำลังผลิต next-gen DRAM/HBM)
+- **Yongin complex** — เริ่มสร้าง fab แรก ก.พ. 2025, phase 1 cleanroom คาดเปิด Q1 2027
+- **P&T7** (Cheongju) — advanced packaging plant คาดเสร็จปลายปี 2027
+- **Indiana, USA** — advanced packaging plant คาดเริ่มดำเนินการ 2H 2028 (ประกาศ ธ.ค. 2024)
+
+**ธุรกิจ Solidigm:** ซื้อ NAND/storage business ของ Intel (Intel NAND Business Acquisition, ตกลง ต.ค. 2020) — จ่าย US$6.6B (ธ.ค. 2021) + US$2.2B (มี.ค. 2025) ดำเนินงานในสหรัฐฯ ภายใต้แบรนด์ "Solidigm"
+
+---
+
+## Latest Financials
+
+> จาก 424B4 Prospectus. หน่วย: KRW = พันล้านวอน, US$ = ล้านดอลลาร์. USD convenience @ W1,523.5/US$1.00.
+> ⚠️ IPO ไม่มี segment operating-margin breakdown แบบ 10-Q; ตัวเลข operating profit ด้านล่างเป็น **derived** (Gross − S&A − R&D)
+
+### Consolidated Income Statement (IFRS)
+
+| Metric | Q1 2026 (US$) | Q1 2026 (KRW) | Q1 2025 (KRW) | FY2025 (US$) | FY2025 (KRW) | FY2024 (KRW) | FY2023 (KRW) |
+|--------|--------------|---------------|---------------|--------------|--------------|--------------|--------------|
+| **Revenue** | 34,510 | 52,576 | 17,639 | 63,765 | 97,147 | 66,193 | 32,766 |
+| Cost of sales | 7,153 | 10,897 | 7,537 | 25,242 | 38,456 | 34,365 | 33,299 |
+| **Gross profit** | 27,358 | 41,679 | 10,102 | 38,524 | 58,691 | 31,828 | (533) |
+| S&A expenses | 1,062 | 1,618 | 1,190 | 3,294 | 5,019 | 3,924 | 3,446 |
+| R&D expenses | 1,609 | 2,451 | 1,472 | 4,244 | 6,466 | 4,436 | 3,751 |
+| Finance income | 11,196 | 17,056 | 2,687 | 10,747 | 16,373 | 4,855 | 2,262 |
+| Finance expenses | 1,985 | 3,023 | 765 | 8,208 | 12,505 | 5,708 | 6,093 |
+| Profit before tax | 33,880 | 51,617 | 9,299 | 33,125 | 50,466 | 23,885 | (11,658) |
+| Income tax | 7,398 | 11,271 | 1,191 | 4,934 | 7,518 | 4,088 | (2,520) |
+| **Profit (loss)** | **26,482** | **40,346** | 8,108 | **28,190** | **42,948** | 19,797 | **(9,138)** |
+
+**Derived margins & operating profit:**
+| | Q1 2026 | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|---|
+| Gross margin | 79.3% | 60.4% | 48.1% | −1.6% |
+| Operating profit (KRW, derived = GP−S&A−R&D) | 37,610 | 47,206 | 23,468 | (7,730) |
+| Operating margin (derived) | ~71.5% | ~48.6% | ~35.5% | loss |
+| Net margin | 76.7% | 44.2% | 29.9% | loss |
+
+> 🔴 **สำคัญ — Finance income บิดเบือน net profit:** Q1 2026 net profit US$26,482M มี **Finance income US$11,196M** รวมอยู่ (non-operating, ส่วนใหญ่เป็น FX/valuation gains). Operating profit (derived) เพียง ~US$24,687M. กล่าวคือ "record net income" ถูกดันด้วยรายการนอกการดำเนินงานก้อนใหญ่ — ดู Adjusted EBITDA เป็นตัววัด operating ที่สะอาดกว่า (reconciliation หัก finance income ออก)
+
+### Adjusted EBITDA (Non-IFRS)
+| | Q1 2026 | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|---|
+| Adjusted EBITDA (US$) | 27,132 | 40,102 | — | — |
+| Adjusted EBITDA (KRW) | 41,336 | 61,096 | 36,012 | 5,889 |
+
+### Balance Sheet (as of 2026-03-31)
+| Metric | US$ | KRW |
+|--------|-----|-----|
+| Total assets | 146,261 | 222,829 |
+| Total liabilities | 38,365 | 58,449 |
+| **Total equity** | **107,896** | **164,380** |
+| Retained earnings | — | 148,746 |
+| Capital stock (par W5,000/share) | — | 3,658 |
+
+(เทียบ 2025-12-31: Total assets W176,108B / Equity W120,667B — equity โต ~W43.7T ใน Q1 จากกำไร Q1 2026)
+
+### Cash Flow (high-confidence items)
+| | Q1 2026 | FY2025 | FY2024 |
+|---|---|---|---|
+| Net cash from operating activities (US$ / KRW) | 17,283 / 26,330 | 35,033 / 53,373 | — / 29,796 |
+| CapEx (US$ / KRW) | 5,026 / 7,657 | 18,063 / 27,519 | — |
+
+### Dividends (ต่ำมาก — reinvestment company)
+- Q1 2026 quarterly dividend: **W375/common share** (= W37.5/ADS เทียบเท่า)
+- FY2025 รวม: quarterly W375 ×3 (Q1–Q3) + annual W1,875 = **W3,000/common share** ต่อปี
+- Yield ต่ำมาก (~0.14% เทียบราคา KOSPI W2,186,000/share ณ 2026-07-09)
+
+---
+
+## Management
+
+**Nohjung Kwak (곽노정) — President & Chief Executive Officer** (Board ตั้งแต่ 2022-03-30)
+- Ph.D. 1994, Korea University (สาย engineering/technology)
+- ประวัติภายในบริษัท: อดีต President of Manufacturing & Technology Division, Head of Technology & Development ของ Cheongju fab — CEO สาย technologist/ผลิต
+- Chairman ของ Semiconductor Committee ที่ SUPEX Council ของ SK Group
+
+**Woo Hyun Kim — Vice President & Head of Finance / Chief Financial Officer**
+- ดูแล treasury, accounting, investor relations
+- ประวัติจากเครือ SK: Head of Corporate Center ที่ SK Broadband, Head of Strategy & Planning ที่ SK Telecom
+
+**อื่นๆ:** Seon Yong Cha (President & Head of R&D, อดีต Head of DRAM Development Team)
+
+**Ownership / Control:**
+- **SK square Co., Ltd.** (บริษัทในเครือ SK Group / chaebol) เป็นผู้ถือหุ้นใหญ่ที่สุด — ถือ **20.5%** ณ 2026-03-31
+- ต้องคงสัดส่วน **≥20%** ตาม Monopoly Regulation and Fair Trade Act (Holding Company Regulations) — จำกัดขนาด offering ไว้ที่ 2.50% ของหุ้นทั้งหมด
+- Board มีตัวแทน SK Group (เช่น Jung Kyu Kim = CEO ของ SK square; Yong Ho Jang = CEO ของ SK Inc.)
+
+---
+
+## MOAT & Competitive Advantage
+
+- **ผู้นำ HBM อันดับ 1 โลก (56.4% share)** — เป็นบริษัทแรกที่ mass-produce HBM หลายเจน (HBM3, HBM3E), commercialize HBM3E ปี 2024 และพัฒนา HBM4 ปี 2025; กำลังลงทุน HBM4E — HBM เป็น memory หัวใจของ AI/GPU (bandwidth สูง, กินไฟต่ำ)
+- **Switching cost / qualification barrier:** ลูกค้า HBM ต้องผ่าน rigorous testing & approval, align product development ร่วมกัน — เปลี่ยน supplier ยาก
+- **Technology leadership:** industry-first HBM4, LPDDR5T mobile DRAM เร็วสุด, NAND 321-layer, portfolio ครบ (DDR5, LPDDR5T/5X, GDDR7, RDIMM, SOCAMM2, eSSD)
+- **Scale + vertical:** fabs ครบ front-end/back-end + advanced packaging (สำคัญมากสำหรับ HBM stacking/TSV) + foundry subsidiaries
+- HBM + server DRAM + eSSD ช่วย mitigate cyclicality ของตลาด memory (ผู้บริหารระบุเอง)
+
+---
+
+## Competitive Landscape
+
+- **DRAM:** Samsung (#1 โลก), SK hynix (#2, 29.1%), **Micron/MU** (#3) — oligopoly 3 ราย
+- **HBM:** SK hynix นำ (#1, 56.4%) เหนือ Samsung และ Micron — เป็น primary HBM supplier ให้ AI GPU makers (ลูกค้ารายใหญ่สุด US = 23.9% ของ revenue FY2025, น่าจะ Nvidia)
+- **NAND:** Samsung นำ, SK hynix #2 (18.5%, รวม Solidigm), + Kioxia, Micron, WDC
+- โครงสร้าง = oligopoly เข้มข้น, barrier to entry สูงมาก (capex หลายหมื่นล้าน + know-how)
+
+---
+
+## Growth Catalysts
+
+- **AI infrastructure buildout** — demand HBM/server DRAM/eSSD จาก AI data center เป็น driver หลัก
+- กำลังผลิตใหม่: M15X (ramping), Yongin fab #1 (Q1 2027), P&T7 packaging (ปลาย 2027), Indiana US packaging (2H 2028)
+- HBM4 / HBM4E generation ถัดไป (custom HBM ตาม spec ลูกค้า)
+- Upcycle ของตลาด memory (FY2025 revenue +46.8% YoY, พลิกจากขาดทุน FY2023)
+- **IPO proceeds ~US$26.2B** ใช้เป็น general corporate purposes รวม capital expenditures (ขยายกำลังผลิต)
+
+---
+
+## Capital Structure / Risks (IPO-specific + Business)
+
+**IPO / Offering:**
+- เสนอขาย 17,790,000 common shares (= 177,900,000 ADSs) @ US$149.00/ADS → gross ~US$26.5B, net ~US$26.2B
+- หุ้นทั้งหมดหลัง offering: **728,865,500 common shares** (offering = 2.50% ของหุ้น)
+- **Cornerstone Investors:** Baillie Gifford, กองทุนบริหารโดย Coatue Management, Situational Awareness Partners LP — แสดงความสนใจซื้อรวมสูงสุด **US$7B** (ไม่ผูกมัด)
+- **Dilution:** NTBV ณ 2026-03-31 = US$14.69/ADS; หลัง offering = US$17.94/ADS → ผู้ซื้อ IPO เจอ **immediate dilution US$131.06/ADS** (จ่าย $149 vs book ~$18 → P/B สูง)
+- Reference price: common share เทรด KOSPI ที่ W2,186,000 (~US$1,421.28/share = ~US$142.13/ADS) ณ 2026-07-09 → IPO priced ที่ ~premium เล็กน้อยเหนือราคาตลาดเกาหลี
+
+**Key Risks:**
+1. **Cyclicality** — ตลาด memory เป็น boom/bust รุนแรง (FY2023 ขาดทุน W9,138B → FY2025 กำไร W42,948B); oversupply กลับมาได้เสมอ
+2. **Customer concentration** — 2 ลูกค้าใหญ่สุด = 14.8% + 12.4% (รวม 27.2%) ของ revenue Q1 2026; **ลูกค้ารายใหญ่สุด = 23.9% ของ revenue FY2025** (single-customer dependency สูง, น่าจะ AI GPU maker)
+3. **US–China geopolitical / export control** — มี fabs ในจีน (Wuxi, Dalian); ลูกค้ากระจุกใน US (64.7%) + China (24.3%); BIS export controls, Entity List (หยุดขาย Huawei ตั้งแต่ 2020), CHIPS Act guardrails
+4. **AI demand dependency** — ถ้า AI infra capex ชะลอ หรือเทคโนโลยีลด memory usage ในงาน AI → กระทบ HBM/server DRAM โดยตรง
+5. **FX exposure** — งบเป็น KRW แต่ขายเป็น USD; net profit ผันผวนตาม finance income (FX gains/losses) — Q1 2026 กำไรถูกดันด้วย finance income US$11.2B
+6. **Korea-specific** — ความตึงเครียดเกาหลีเหนือ, เศรษฐกิจเกาหลี, chaebol governance
+7. **Foreign Private Issuer** — ไม่อยู่ใต้ US corporate governance บางข้อ; ADS holders มีข้อจำกัดด้าน voting / preemptive rights / re-deposit
+8. **Controlled company** — SK square ถือ 20.5% + SK Group control; free float ต่ำ (offering แค่ 2.50%)
+
+---
+
+## Recent News
+
+**2026-07-09** — 🆕 $SKHY — IPO priced US$149.00/ADS บน Nasdaq Global Select Market (177.9M ADSs, gross ~US$26.5B, net ~US$26.2B); Cornerstone: Baillie Gifford/Coatue/Situational Awareness สูงสุด $7B; หุ้น common ยังเทรด KOSPI "000660" | [src](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm) | 🔴MATERIAL
+
+---
+
+## Analyst Research Notes
+
+**Last Updated:** 2026-07-12 (Warren)
+
+**Bull points (ถ้า de-cycling เป็นจริง):**
+- ผู้นำ HBM #1 โลก 56.4% share — HBM เป็น bottleneck ของ AI GPU ทุกตัว, qualification barrier สูง เปลี่ยน supplier ยาก (structural pricing power)
+- Memory-Supercycle thesis (HIGH conviction): LTA lock ราคา floor 80–100% เหนือ baseline เดิม (Micron เซ็น 5-yr LTA) → ลบ downside cyclicality แบบเก่า; NAND KV-cache เป็น demand vector ใหม่
+- Operating margin Q1 2026 ~71% + FY2025 +46.8% YoY — franchise economics แข็งแรงมากในช่วง up-cycle
+- New capacity (M15X ramping, Yongin Q1 2027, P&T7 + Indiana packaging 2027–28) รองรับ HBM4/HBM4E demand
+
+**Bear / risk points (Warren's base case):**
+- ⚠️ **[CONFLICT]** ผู้บริหารเคลม "memory is no longer a cyclical industry" (Silicon Valley, มี.ค. 2026) — เป็น narrative ที่ยังไม่พิสูจน์ข้าม down-cycle จริง; Warren treat ตามกฎ cyclical peak-EPS bias เสมอ (Charlie จะ flag เป็น management hype)
+- 🔴 Q1 2026 net profit US$26.5B **บิดเบือนด้วย finance income US$11.2B** (FX/valuation gains, non-operating) — "record earnings" ไม่ใช่ operating power ล้วน
+- ราคา ADR $168.01 = trade ที่ **+18.2% premium เหนือหุ้นแม่ KOSPI** (~$142.13/ADS-equiv) — when-issued froth, สภาพคล่องบาง
+- Samsung HBM parity + CXMT (จีน) กำลังพัฒนา HBM → supply catch-up ในตลาดที่ตึง = margin compression risk
+- Customer concentration: ลูกค้ารายใหญ่สุด 23.9% ของ revenue FY2025 (น่าจะ Nvidia)
+- Controlled company (SK square 20.5%, free float 2.5%), Foreign Private Issuer, chaebol governance, China fabs (geopolitical/export-control)
+
+---
+
+## Story Gate
+**Last Updated:** 2026-07-12  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+**WHAT:** SK hynix เป็นผู้นำ HBM อันดับ 1 โลก (56.4% share) ผลิต advanced memory (DRAM/HBM/NAND) ซึ่งเป็นหัวใจของ AI compute — ชนะด้วย HBM technology lead (HBM4 industry-first) + qualification switching cost + scale/vertical packaging.
+
+**WHY NOW:** Consensus มองว่า memory "de-cycled" แล้ว (LTA lock floor, HBM mandatory) จึงยอมจ่ายราคาที่สะท้อน **peak earnings ถาวร** — ณ $168/ADS ตลาด price บน peak Q1-annualized net ~$106B (P/E เพียง ~11–12× บน peak) ราวกับ cycle หายไป. Warren เห็นต่างว่ากำไร Q1 ถูกดันด้วย finance income $11.2B + operating margin 71% คือ cycle peak ที่ไม่ยั่งยืน + Samsung/CXMT HBM parity กำลังมา → normalized mid-cycle earnings ต่ำกว่า peak มาก → ราคาแพงเกินบน normalized basis (edge = ไม่ไล่ราคา peak ของ cyclical, รอ cycle ย่อ).
+
+**IF WRONG:** ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด, และราคา $168 justified.
+
+**Tier Basis:** 🔁 Cyclical — commodity-like DRAM/NAND core (HBM ~ส่วนน้อยของ mix, DRAM 77%/NAND 22%), EPS swing >2× (FY2023 ขาดทุน W9.1T → FY2025 กำไร W42.9T → Q1'26 annualized ~$106B), heavy CapEx (~$18B/yr), customer concentration 23.9% — เข้านิยาม Cyclical ชัดเจน. **ไม่ใช่ Speculative** (บริษัทมี track record หลายสิบปี + KOSPI listing ยาว, แค่ ADR ใหม่).
+
+---
+
+## Valuation Range
+**Last Updated:** 2026-07-12  |  **Price:** $168.01/ADS (NASDAQ when-issued, 2026-07-09)  |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple (cyclical peak-EPS bias rule — ห้าม extrapolate peak)
+
+> ⚠️ **Cyclical valuation discipline:** Q1 2026 net US$26.5B (annualized ~$106B) = **cycle peak + FX-distorted** (finance income $11.2B). Warren **ไม่** ใช้ peak × normal multiple (จะ overstate FV มหาศาล). ใช้ **normalized mid-cycle net income** แทน. ADR when-issued ยัง trade +18.2% เหนือหุ้นแม่ KOSPI → valuation คิดบน underlying fundamentals ไม่ใช่ ADR froth.
+
+### Snapshot
+
+| Metric | Value | Gate |
+|--------|-------|------|
+| Current Price | $168.01/ADS | — |
+| Fair Value Base | $100 | — |
+| **Margin of Safety** | **−40.5%** | ✗ FAIL (gate 15%) |
+| **5-yr Expected Return** | **−9.9%/yr** | ✗ FAIL (gate 15%) |
+| ADR premium vs KOSPI | +18.2% ($168.01 vs ~$142.13/ADS-equiv) | ⚠️ froth |
+| P/E on peak Q1-annualized EPS (~$14.5/ADS) | ~11.6× | ⚠️ low P/E = peak-cycle trap (Lynch) |
+
+### Normalized Earnings Basis
+
+- Common shares post-offering: 728.87M → ADS-equiv (1 ADS = 1/10 share): **7,288.65M ADS**
+- **Normalized mid-cycle net income ≈ US$52B/yr** — สูงกว่า FY2025 ($28.2B) มาก (credit structural HBM/AI demand + capacity ใหม่) แต่ต่ำกว่า peak run-rate ($106B) ~50% เพราะ finance-income distortion + peak margin ไม่ยั่งยืน + future down-leg
+- **Normalized EPS ≈ $7.13/ADS** ($52,000M ÷ 7,288.65M)
+
+### Fair Value Scenarios (per ADS)
+
+| Scenario | Fair Value | vs Price | Basis |
+|----------|-----------|----------|-------|
+| **Bull** | $140 | −16.7% | de-cycling เป็นจริงส่วนใหญ่: normalized net ~$68B ($9.33/ADS) × 15× — HBM4E premium ยืน, LTA floors held; **แม้ bull ก็ยังต่ำกว่าราคา** |
+| **Base** | $100 | −40.5% | normalized mid-cycle net $52B ($7.13/ADS) × 14× (premium cyclical: HBM #1 + partial de-cycling + oligopoly, capped โดย cyclicality/FX/controlled-company) |
+| **Bear** | $48 | −71.4% | cycle down-leg + Samsung/CXMT HBM parity บีบ margin: normalized net ~$35B ($4.80/ADS) × 10× |
+
+### WAF Score Breakdown
+
+| Component | Score | Weight | Contribution | Reasoning |
+|-----------|-------|--------|--------------|-----------|
+| BQ (Business Quality) | 7.5 | 30% | 2.25 | HBM #1 (56.4%) + 7 Powers (scale/switching/process/cornered-resource HBM4), ROE ~26%, FCF+ ($17B FY25) — แต่ DRAM/NAND core commodity-ish + controlled-company governance + FX-distorted earnings + FPI ถ่วง (เทียบ MU 7.5) |
+| GP (Growth Potential) | 8.5 | 30% | 2.55 | 3 HIGH-conviction trends (Memory-Supercycle, AI-Infrastructure, Advanced-Packaging), FY25 rev +46.8%, HBM4/4E + capacity ใหม่ — แต่ growth ส่วนหนึ่งเป็น cycle amplification ไม่ใช่ structural ล้วน + law of large numbers |
+| VA (Valuation) | 2.5 | 25% | 0.625 | MoS −40.5%, ER −9.9%/yr — priced บน peak earnings; ADR +18.2% premium เหนือหุ้นแม่; แพงกว่า MU (MoS −8.7%) มาก → คะแนนต่ำกว่า |
+| RA (Risk Assessment) | 4.5 | 15% | 0.675 | Balance sheet ดี (equity $108B, low leverage) แต่ cyclicality รุนแรง + customer concentration 23.9% + US-China (China fabs) + FX distortion + controlled/2.5% float + ADR when-issued liquidity + peak-valuation risk |
+| **WAF Total** | **6.10** | | **LOW** | |
+
+**Investment Idea:** Franchise ระดับโลก (HBM #1) แต่ราคา ADR $168 = ตลาด price peak-cycle earnings ราวกับ memory หยุด cyclical — บน normalized mid-cycle earnings ($52B net) หุ้นแพงเกิน ~40%; ยัง trade +18.2% เหนือหุ้นแม่ KOSPI (when-issued froth); ไม่ไล่ซื้อ cyclical ที่ peak
+
+**Thesis:** HBM leadership + AI memory demand จริง structural — แต่ Q1 net ถูกดันด้วย finance income $11.2B, operating margin 71% = peak ไม่ยั่งยืน; normalized earnings ต่ำกว่า peak ~50%; Samsung/CXMT HBM parity + memory ยังเป็น cyclical แม้ narrative "de-cycled"
+
+**Thesis Risk:** ถ้า de-cycling เป็นจริง (LTA floors ยืน + margin >50% ต่อเนื่อง 2+ ปี) → normalized earnings ใกล้ peak → FV base ผิด, ราคา justified; upside risk ถ้า HBM4E premium สูงกว่าคาด
+
+**Action:** 👀 **WATCH** — MoS −40.5% (gate 15%) + ER −9.9%/yr ไม่ผ่าน gate ใดเลย; WAF 6.10 LOW; Cyclical tier + peak valuation + ADR premium → ไม่ BUY, ไม่ STARTER (STARTER เฉพาะ 🏛️/🚀 ที่ MoS ขาด ≤7%). รอ cycle ย่อ / ราคา ADR converge กับหุ้นแม่ / หลักฐาน de-cycling ยืนข้าม down-leg จริง
+
+---
+
+## Source Log
+| ไฟล์ | ประเภท | อ่านเมื่อ |
+|------|--------|----------|
+| 2026Q3 - SKHY - 424B4-Prospectus.pdf | IPO Prospectus (424B4) | 2026-07-12 |
+`,
+
 "SNDK": `# SNDK — Sandisk Corporation
 
 **Ticker:** SNDK (Nasdaq)
