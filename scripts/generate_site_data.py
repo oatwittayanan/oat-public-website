@@ -57,11 +57,12 @@ CONVICTION_MAP = {
 }
 
 ACTION_MAP = {
-    "BUY":   ("buy",   "Buy"),
-    "SELL":  ("sell",  "Sell"),
-    "HOLD":  ("hold",  "Hold"),
-    "WATCH": ("watch", "Watch"),
-    "STUDY": ("study", "Study"),
+    "BUY":     ("buy",     "Buy"),
+    "STARTER": ("starter", "Starter"),
+    "SELL":    ("sell",    "Sell"),
+    "HOLD":    ("hold",    "Hold"),
+    "WATCH":   ("watch",   "Watch"),
+    "STUDY":   ("study",   "Study"),
 }
 
 CATEGORY_MAP = {
@@ -328,26 +329,31 @@ def load_wiki_valuations():
 
 # ── Load sources ──────────────────────────────────────────────────────────────
 def load_papers(papers_data):
-    """Return {TICKER: recommendation_dict} from latest paper.
+    """Return {TICKER: recommendation_dict} carrying forward the most recent
+    rec per ticker across ALL batches.
 
-    A single watchlist run can be split into multiple same-date entries
-    (e.g. a "refresh 27" batch + an "add 14 new" batch). Merge the
-    recommendations from ALL entries sharing the latest date so no batch
-    is dropped; later entries override earlier ones for duplicate tickers.
+    A watchlist run may cover only a subset of tickers (a partial re-run).
+    Reading only the single latest date would drop every ticker not in that
+    batch back to stale wiki-card data — that is how STARTER tickers analysed
+    on an earlier date silently disappeared. Instead iterate oldest→newest
+    across all batches so each ticker keeps its most recent Warren rec; the
+    rec is stamped with its own batch date (_date) for an accurate timestamp.
+    The returned date is the overall latest (used only as a fallback).
     """
     if not papers_data:
         return {}, ""
-    sorted_p = sorted(papers_data, key=lambda p: p.get("date", ""), reverse=True)
-    date   = sorted_p[0].get("date", "")
+    sorted_p = sorted(papers_data, key=lambda p: p.get("date", ""))  # oldest→newest
+    date   = sorted_p[-1].get("date", "")
     result = {}
-    # Iterate oldest→newest among the latest-date entries so the newest wins
-    latest_entries = [p for p in sorted_p if p.get("date", "") == date]
-    for entry in reversed(latest_entries):
+    for entry in sorted_p:
+        edate = entry.get("date", "")
         for rec in entry.get("recommendations", []):
             t = (rec.get("ticker") or "").upper().strip()
             if t:
-                result[t] = rec
-    print(f"[papers] latest: {date} ({len(latest_entries)} entries), tickers: {sorted(result)}")
+                rec = dict(rec)
+                rec["_date"] = edate
+                result[t] = rec  # newer batch overrides older per ticker
+    print(f"[papers] merged {len(sorted_p)} batches, latest: {date}, tickers: {sorted(result)}")
     return result, date
 
 def load_watchlist(watchlist_data):
@@ -427,7 +433,7 @@ def build_entry(ticker, base, paper_rec, watchlist_info, paper_date, wiki_val=No
             "peg":          peg,
             "scores":       make_scores(bq_s, gp_s, va_s, ra_s),
             "idea":         paper_rec.get("investment_idea") or entry.get("idea", ""),
-            "updated":      paper_date,
+            "updated":      paper_rec.get("_date") or paper_date,
         })
 
         # Fill bull/risk from thesis if base doesn't have them yet
