@@ -847,14 +847,14 @@
       "AI capex slowdown; customer concentration (lumpy revenue); memory oversupply fear if it becomes real (not just sentiment); China export-talk stalemate; Advantest competitive share loss; Q2 earnings (07-28) guidance unconfirmed."
     ],
     "bull": [
-      "ATE duopoly + AI test demand 70% of business + Tokyo Electron JV + Air Force defense diversification; thesis ธุรกิจยังแกร่งเหมือนเดิม ราคาคืนกลับมาใกล้ intrinsic value หลัง flow-driven spike จบลง"
+      "ATE duopoly + AI test demand 70% of business ยังจริงและแข็งแรง (Story Gate ยัง PASS) — แต่นี่คือ **valuation-driven WATCH ไม่ใช่ thesis พัง**: ราคาปัจจุบันเรียกร้องให้ AI supercycle ต่อเนื่องระยะยาวไม่มี pullback ซึ่งเป็นสมมติฐานที่ยังไม่พิสูจน์และตรงข้ามกับหลักการวัดมูลค่า Cyclical stock"
     ],
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-07-16",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
+      "updated": "2026-07-17",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
       "what": "Teradyne เป็น ATE duopoly (กับ Advantest) — เครื่องทดสอบ semiconductor ที่ qualify เข้า production flow ลูกค้าแล้วเปลี่ยนยาก; ~70% รายได้ผูก AI; กลยุทธ์ wafer-to-AI-data-center + Robotics",
       "why": "ราคาพลิกร่วง -25.8% จาก ATH post-inclusion ($460.98 → $342.12 วันนี้) จาก sector-wide semiconductor selloff (memory oversupply fear + US-China chip export talks ค้าง + AI-capex valuation jitters) — **exactly** index-flow reversal risk ที่ Warren เตือนไว้ใน gate ก่อน (06-22 Nasdaq-100 inclusion rally); ไม่มี earnings miss, guidance cut, หรือเสียลูกค้า — fundamentals (ATE duopoly, ~70% AI revenue, Semi Test ทะลุ $1.1B) ไม่เปลี่ยน ขณะราคาคืน premium ที่วิ่งจาก flow ทั้งหมด Warren เห็นว่านี่คือโอกาส re-price กลับเข้าใกล้ intrinsic value จริง — consensus ยังเทรดตาม index-flow narrative (mean-revert อยู่) ขณะ fundamentals ไม่ขยับ",
       "risk": "หาก AI capex ชะลอลด test demand, customer concentration (hyperscaler/foundry) ทำรายได้ผันผวน (lumpy), Q1 มี one-time benefits ที่ไม่ใช่ run-rate, Advantest แย่ง memory test share, หรือ Q2 earnings (28 ก.ค.) guidance ผิดหวัง/ยืนยัน memory oversupply fear จริง"

@@ -791,5 +791,90 @@
       "TIKR/StockTitan/Fool: Teradyne earnings 07-28, Street mean ~$399, chip rout −14%, insider sale 07-16",
       "yfinance — rate-limited รอบนี้ ใช้ CNBC+Nasdaq fallback ตาม recipe"
     ]
+  },
+  {
+    "id": "review-2026-07-17-ter-nflx-recheck",
+    "date": "2026-07-17",
+    "paper_id": "2026-07-17",
+    "title": "Charlie Review — TER/NFLX Recheck (Paper #4 revised numbers)",
+    "overall_verdict": "CAUTION",
+    "overall_summary": "Scoped recheck ของ 2 ตัวที่ Warren แก้ตัวเลขคืนนี้ (ไม่แตะตัวอื่นในพอร์ต). TER: AGREE กับ WATCH $0 — independent mid-cycle FV ~$200 (feps $6.94 × conservative 29x, blended 10yr avg 27.3x/5yr avg 30.7x จาก fullratio/macrotrends, ต่ำกว่า current fwd PE 46.45x และ trailing PE 92x มาก) vs ราคา $322.30 = ระดับ +61% เหนือ FV แบบ normalized — ไม่มีเหตุผลให้ซื้อแม้แต่ไม้เล็กก่อน earnings 07-28. NFLX: CAUTION — fresh FV อิสระ (FY27 consensus EPS $3.92 × current fwd PE 20.4x บนราคาหลังร่วง) = ~$80 ต่ำกว่า FV $98 ที่ Warren carry มาจาก Charlie รอบก่อน 22.5% (> เกณฑ์ 20%) → MoS จริงที่ FV $80 vs ราคา $67.6 = ~15.5% เฉียดเส้น Gate พอดี ไม่มี buffer เผื่อ estimate ถูกหั่นเพิ่มหลังงบ.",
+    "frozen_tickers": [],
+    "ticker_reviews": [
+      {
+        "ticker": "TER",
+        "warren_action": "WATCH",
+        "warren_amount": 0,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 200,
+        "warren_fv_gap_pct": null,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "ราคา $322.30 (07-16 close) ✓ CNBC quote API + Nasdaq api.quote/info ตรงกันเป๊ะ (<1% diff) — เป็นวันที่ร่วง -5.79% จาก $342.12",
+          "52W range $88.60-$487.91 ✓ ทั้ง 2 แหล่งตรงกัน — ราคาปัจจุบันต่ำกว่า high 34% แล้ว (correction เริ่มแล้วก่อนงบ)",
+          "Earnings 07-28/2026 4:30pm ET ✓ ยืนยันจาก StockTitan/Intellectia — consensus คาด EPS +258% YoY, revenue +86% YoY (priced-for-perfection)",
+          "Insider selling ต่อเนื่อง: CEO Gregory Smith ขาย 4,000 หุ้น (07-15), Director Marilyn Matz ขาย 1,200 หุ้น (07-15), รวม 3 เดือน sold $6.7M / ซื้อ $0 (Motley Fool/MarketBeat) — ภายใต้ 10b5-1 plan แต่ zero-buy pattern ยังเป็น soft red flag"
+        ],
+        "concerns": [
+          "Independent normalized FV ~$200 = feps consensus $6.94 (ไม่ normalize สำหรับ cycle) × conservative multiple 29x (blend 10yr avg PE 27.28x + 5yr avg PE 30.73x จาก fullratio/macrotrends) — ต่ำกว่าราคาปัจจุบัน $322.30 ถึง ~61% แม้ใช้ peak-consensus EPS ยังไม่ normalize ลงเป็น mid-cycle จริง (ซึ่งจะทำให้ FV ต่ำกว่านี้อีก) → ยืนยันชัดว่านี่คือ late-cycle valuation profile ตามกฎ Cyclical Peak EPS Bias",
+          "Current fwd P/E 46.45x และ trailing P/E 59.65-91.99x (ต่างแหล่งรายงานต่างกัน แต่ทั้งคู่สูงกว่า 10yr avg 27.28x มาก) — ไม่มี multiple compression ใดที่ทำให้ราคานี้สมเหตุสมผลสำหรับ tier Cyclical",
+          "Earnings 07-28 เป็น binary catalyst ที่ expectations สูงมาก (+258% EPS YoY) — ถ้าพลาดแม้เล็กน้อย downside risk สูงกว่าฝั่ง upside ที่ราคานี้"
+        ],
+        "red_flags": [
+          "ไม่มีเหตุผลอิสระใดสนับสนุนแม้แต่ small tranche ($10) ก่อนงบ — ทั้ง valuation (61% เหนือ normalized FV), timing (binary catalyst 11 วัน), และ insider flow (sell-only 3 เดือน) ชี้ทางเดียวกัน"
+        ],
+        "verify_further": [
+          "หลัง earnings 07-28: ถ้าราคาย่อลงมาใกล้ $200-230 (normalized FV zone) + guidance ยืนยัน AI-testing demand ไม่ใช่แค่ 1-2 ไตรมาส ค่อยพิจารณา starter tranche ใหม่"
+        ]
+      },
+      {
+        "ticker": "NFLX",
+        "warren_action": "BUY",
+        "warren_amount": 10,
+        "charlie_verdict": "CAUTION",
+        "charlie_fv": 80,
+        "warren_fv_gap_pct": 22.5,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "ราคา post-earnings after-hours $67.62 (-9.05%) ✓ CNBC ExtendedMktQuote ตรงกับ Nasdaq API และตรงกับที่ Warren ระบุ $67.64 (<1% diff)",
+          "Q2 revenue $12.56B +13.4% YoY in-line ✓ ยืนยันจาก Variant/Yahoo/Investing.com หลายแหล่ง; EPS beat",
+          "Q3 guide revenue growth 12% (ลงจาก Q2 ~13.4%) = ไตรมาสที่ 2 ติดต่อกันที่ growth ชะลอ ✓ ยืนยันหลายแหล่ง (Yahoo, Variety); FY26 guide แคบลง $51.0-51.4B ✓",
+          "Analyst PT ก่อนงบถูกหั่นทั้งแถบ: Oppenheimer $120→$100, KeyBanc $115→$92, Morgan Stanley $115→$90, Barclays $110→$85, Citi/Bernstein →$100 (TipRanks) — เฉลี่ย ~$93; ยังไม่มี PT cut รอบใหม่ index หลังงบ 07-16 ให้เห็นตอนนี้"
+        ],
+        "concerns": [
+          "Charlie fresh independent FV = FY2027 consensus EPS $3.92 (avg, range $3.46-4.32, จาก analyst forecast aggregator) × current forward P/E ~20.4x (post-drop price/feps) = ~$80 — ต่ำกว่า FV $98 ที่ Warren carry มาจาก Charlie's own prior review (28x × FY27 $3.49) อยู่ 22.5% (> เกณฑ์ 20% inflation flag) เพราะ current fwd PE ยุบจาก ~28x เหลือ 20.4x หลังราคาร่วงเพิ่ม",
+          "MoS ที่ FV อิสระใหม่ $80 vs ราคา $67.6 = ~15.5% พอดีเฉียดเส้น Gate 15% ไม่มี buffer — sensitive สูงต่อ consensus EPS range: ถ้าใช้ low-end $3.46 → FV $70.6, MoS เหลือ ~4% เท่านั้น",
+          "Engagement erosion มีหลักฐานอิสระต่อเนื่อง: Nielsen streaming-time share 21%→17% ใน 2 ปี, US TV viewership share ลงมา 7.8% (ต่ำสุดรอบ 20 เดือน) — สอดคล้องกับ Q3 guide ที่ชะลอเป็นไตรมาสที่ 2",
+          "Post-earnings analyst PT reset ยังไม่ปรากฏใน search index (มีแต่ pre-earnings cuts) — โอกาสสูงที่ PT จะถูกหั่นเพิ่มสัปดาห์นี้ตาม weak Q3 guide + engagement disclosure ที่ลดลง ซึ่งจะกดดัน FV ต่อ"
+        ],
+        "red_flags": [
+          "Netflix ประกาศลดความถี่รายงาน engagement ('What We Watched') เหลือปีละครั้งเริ่ม 2027 — ลด transparency ตรงจุดที่ตลาดกังวลที่สุด เป็น classic red flag ของบริษัทที่รู้ตัวว่าตัวเลขไม่สวย"
+        ],
+        "verify_further": [
+          "รอ analyst PT reset หลังงบ 1-2 สัปดาห์ก่อนพิจารณาเติมเกิน $10 ขั้นต่ำ",
+          "ติดตาม FY2027 consensus EPS revision ทิศทางลงหรือไม่ในรอบถัดไป — ถ้าเลื่อนลงต่ำกว่า $3.70 MoS จะหลุด Gate"
+        ]
+      }
+    ],
+    "points_to_verify": [
+      "TER: รอ earnings 07-28 ก่อนพิจารณา BUY ใดๆ — ราคาปัจจุบันสูงกว่า normalized FV ~61%",
+      "NFLX: MoS ที่ FV อิสระ $80 บาง (~15.5%) — ติดตาม post-earnings analyst target reset และ FY27 EPS revision ก่อนเพิ่ม position เกิน $10"
+    ],
+    "watch_out": [
+      "ทั้ง TER และ NFLX มี binary/event risk ใกล้ตัว: TER earnings 07-28 (priced-for-perfection), NFLX เพิ่งผ่าน earnings ที่ผลลบ + ลด transparency — ทั้งคู่ไม่ควรเพิ่ม position เกินขั้นต่ำจนกว่าจะเห็นข้อมูลใหม่ที่ชัดเจนกว่านี้"
+    ],
+    "data_sources": [
+      "CNBC quote-html-webservice — TER/NFLX price+fundamentals 2026-07-17",
+      "Nasdaq api.nasdaq.com/api/quote — TER/NFLX price cross-check 2026-07-17",
+      "WebSearch: TipRanks — NFLX analyst price target cuts (Oppenheimer/KeyBanc/Morgan Stanley/Barclays/Citi/Bernstein) 2026-07-13~15",
+      "WebSearch: Yahoo Finance UK / Variety / Investing.com — NFLX Q2 2026 earnings + Q3 guidance 2026-07-16",
+      "WebSearch: CNBC — Netflix engagement disclosure cutback 2026-07-16",
+      "WebSearch: WallStreetZen — NFLX FY2027 consensus EPS estimate",
+      "WebSearch: Motley Fool / MarketBeat — Teradyne insider selling activity 2026-07-15/16",
+      "WebSearch: StockTitan / Intellectia — Teradyne Q2 2026 earnings date 07-28",
+      "WebSearch: fullratio.com / macrotrends.net — Teradyne 5yr/10yr average PE ratio"
+    ]
   }
 ]

@@ -7728,45 +7728,47 @@ Q2 earnings (07-16) ยืนยัน engagement เสื่อมจริง
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-15  |  **Price:** $73.53  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
+**Last Updated:** 2026-07-17  |  **Price:** $67.64 (after-hours, post-Q2)  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Deep Recheck — FV formula error corrected (Charlie DISAGREE upheld)
 
-### Snapshot (Watchlist Refresh)
+### Snapshot (Deep Recheck 2026-07-17, post-Q2 earnings)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $73.53 | — |
-| Fair Value Base | $121.9 | — |
-| **Margin of Safety** | **39.7%** | ✓ PASS (Gate 15%) |
-| Consensus EPS Growth (used in ER) | 24.9%/yr | FY2026 guidance-implied EPS growth $2.53→$3.16 (source: S&P Global Market Intelligence consensus, already documented in card) |
-| **5-yr Expected Return** | **35.5%/yr** | ✓ PASS (Gate ≥15%) — corrected formula: convergence 10.6% + growth 24.9% (เดิม 10.6% เป็น convergence-only ที่รู้อยู่แล้วว่า understate สำหรับ compounder คุณภาพสูง แก้สูตรแล้ว 07-15 ตอนนี้ผ่าน gate ชัดเจนมาก ไม่ต้อง caveat) |
-| Forward P/E | ~21.1× | — |
-| PEG | ~0.85 (Fwd PE 21.1 ÷ consensus EPS growth ~24.9% FY2026) | ✓ PASS (Effective Cap 1.5) |
+| Current Price (after-hours) | $67.64 | — |
+| Fair Value Base (corrected) | $98 | — |
+| **Margin of Safety** | **31.0%** | ✓ PASS (Gate 15%) |
+| Consensus EPS Growth (used in ER, revised) | 15%/yr | ลดจาก 18% เดิม — สะท้อน Q3 guide +11.7% ต่ำกว่า Street ~13% + analyst revision บางรายเหลือ +7.8% |
+| **5-yr Expected Return** | **22.7%/yr** | ✓ PASS (Gate ≥15%) — convergence 7.7% + growth 15% |
+| Forward P/E (on FY27 EPS $3.49) | ~19.4× | — |
+| PEG | ~1.29 | ✓ PASS (Effective Cap 1.5) |
 
-### Fair Value Scenarios
+> **🔧 Formula Error Corrected 2026-07-17 (Charlie DISAGREE 07-16 upheld):** FV Base เดิม $121.9 ไม่ตรงกับสูตรที่ระบุเอง — "Base 28x × FY27 consensus EPS ~$3.49" ต้องได้ **$97.72** ไม่ใช่ $121.9 (multiple ที่ใช้จริงคือ ~34.9x ไม่ใช่ 28x ที่ label ไว้ — internal formula inconsistency ชนิดเดียวกับ NVDA EPS-mislabel ที่เพิ่งแก้ไปในพอร์ตเดียวกัน) แก้เป็น **FV Base $98** ตรงกับ Street PT cluster post-earnings-cut ($90-100: Morgan Stanley $90, KeyBanc $92, Bernstein/Citi/Oppenheimer $100)
+
+### Fair Value Scenarios (Corrected)
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $145 | +97.2% | Premium multiple × growth acceleration |
-| **Base** | $121.9 | +65.8% | Base multiple × consensus EPS (unchanged — Q2 earnings รอ 07-16) |
-| **Bear** | $95 | +29.2% | Compressed multiple × thesis break |
+| **Bull** | $120 | +77.4% | Premium multiple 32x (ads/live-sports monetization accelerate) |
+| **Base** | $98 | +44.9% | Base multiple 28x × FY27 consensus EPS $3.49 (สูตรแก้แล้ว) |
+| **Bear** | $78 | +15.3% | Compressed multiple 22x (deceleration confirmed, engagement erosion จริง) |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 8.5 | 30% | 2.55 | Unchanged — content flywheel + 325M+ subs; Radford Studio bargain purchase (78% discount to 2021 sale price) reinforces disciplined capital allocation |
-| GP (Growth Potential) | 7.5 | 30% | 2.25 | Unchanged — no new quarter yet (07-16 pending); ads doubling to $3B already known direction; Letterboxd/publisher partnerships incremental, not thesis-changing |
-| VA (Valuation) | 8.7 | 25% | 2.18 | Up from 8.5 — price fell further to $73.53 (near 52-wk low $70.86) with FV unchanged → MoS widened 36.9%→39.7%, best entry point yet this cycle |
-| RA (Risk Assessment) | 7.3 | 15% | 1.10 | Down slightly from 7.5 — engagement-vs-YouTube competitive narrative intensifying pre-earnings adds modest near-term uncertainty; core content/guild/Brazil risks unchanged |
-| **WAF Total** | **8.07** | | **HIGH** | |
+| BQ (Business Quality) | 8.2 | 30% | 2.46 | ลดจาก 8.5 — content/algorithm moat ยังแข็งแรง แต่ตัดคะแนน candor เล็กน้อย: ลดความถี่เปิดเผย "What We Watched" เหลือปีละครั้งตั้งแต่ 2027 ขณะตลาดกังวลเรื่อง engagement มากที่สุด |
+| GP (Growth Potential) | 6.8 | 30% | 2.04 | ลดจาก 7.5 — ยืนยัน deceleration จริง: Q3 guide revenue +11.7% ($12.86B) ต่ำกว่า Street ~$13B |
+| VA (Valuation) | 7.8 | 25% | 1.95 | ลดจาก 8.7 (ตัวเลขเดิมผิดสูตร) — MoS แก้เป็น 31.0% (ยังผ่าน gate สบาย แม้ลดจาก 44.5% ที่รายงานผิด) |
+| RA (Risk Assessment) | 6.5 | 15% | 0.98 | ลดจาก 7.3 — engagement erosion evidence จริง (viewership top-10 titles ลด H1 2026) + ลดการเปิดเผยข้อมูล + analyst PT cuts หนักทั้งกลุ่ม |
+| **WAF Total** | **7.40** | | **MEDIUM** | |
 
-**Investment Idea:** ราคาไหลลงต่อใกล้ 52-week low ก่อน Q2 earnings (07-16) บน narrative engagement เสียส่วนแบ่งให้ YouTube — MoS ขยายต่อเป็น 39.7% ดีที่สุดในกลุ่ม Big Tech/Pre-Inevitable ของ watchlist; Radford Studio bargain buy + ปฏิเสธข่าวลือ NBCU ลดความเสี่ยง capital misallocation; **[07-15 formula fix]** ER คำนวณใหม่ = convergence 10.6% + consensus growth 24.9% = 35.5%/yr ผ่าน hurdle ชัดเจนมาก (เดิม 10.6% convergence-only ที่รู้อยู่แล้วว่า understate) — ทั้ง 4 gates ผ่านสะอาดไม่ต้องพึ่ง MoS+WAF override อีกต่อไป
+**Investment Idea:** Q2 earnings (07-16) ยืนยัน thesis หลัก (EPS $0.80 beat, revenue $12.56B +13.4% in-line, margin 33% ตรง guide) ไม่มี subscriber/engagement miss เชิงตัวเลขที่รายงาน แต่ deep recheck พบ **FV formula error** (Charlie DISAGREE ถูกต้อง: 28x×$3.49 ต้อง=$98 ไม่ใช่ $121.9) + หลักฐาน engagement erosion จริง (viewership top-10 ลด, ลดความถี่เปิดเผยข้อมูล) + Q3 guide deceleration (+11.7% ต่ำกว่า Street) — แก้ FV แล้ว MoS ยังแข็งแรง (31.0%) พอสำหรับ BUY แต่ลดขนาดไม้ลงครึ่งหนึ่งสะท้อนความเสี่ยงที่เพิ่มขึ้น
 
-**Thesis:** Password crackdown tailwind เข้าสู่ steady-state + ads tier (2x growth 2026) + live sports + content flywheel + M&A ฉลาดในราคาถูก; MoS ดีที่สุดในกลุ่ม Big Tech ตอนนี้
+**Thesis:** Content + algorithm moat + ad tier scale ยังจริง แต่ conviction ลดจาก HIGH เป็น MEDIUM หลัง recheck พบทั้ง valuation error และสัญญาณ deceleration/erosion ที่ต้องติดตามใกล้ชิดขึ้น
 
-**Thesis Risk:** Q2 earnings (07-16, พรุ่งนี้) คือ swing catalyst — engagement เสื่อมจริงหรือ noise ระยะสั้น; content cost inflation; Disney+/Prime competition; M&A ขนาดใหญ่ผิดพลาด
+**Thesis Risk:** Q3 guide deceleration ต่อเนื่องเป็น trend ไม่ใช่ noise ครั้งเดียว; engagement erosion ขยายเป็น subscriber/revenue miss จริงในไตรมาสหน้า; ลดความถี่เปิดเผย engagement data (2027) = ตรวจสอบยากขึ้น; content cost inflation; Disney+/Prime เพิ่ม budget
 
-**Action:** ✅ BUY (MoS 39.7% ✓, PEG 0.85 ✓, ER 35.5%/yr ✓ (แก้สูตรแล้ว), WAF 8.07 HIGH ✓ — ผ่านครบ 4 gates สะอาด ไม่ต้อง override) — ⚠️ **หมายเหตุสำคัญ: Q2 earnings ออกพรุ่งนี้ (07-16) ก่อน execute ควร re-verify ราคา/guidance ใหม่ทันทีหลังประกาศ**
+**Action:** ✅ BUY $10 (ลดจาก $20 เดิม — MoS 31.0% ✓, PEG 1.29 ✓, ER 22.7%/yr ✓, WAF 7.40 MEDIUM ✓ ผ่านทุก gate แต่ conviction ลดลง จึงลดขนาดไม้แทนการซื้อเต็ม)
 
 ---
 
@@ -10365,9 +10367,9 @@ Teradyne ออกแบบและผลิต **Automated Test Equipment (ATE
 | Q1 2026 | $1,282.5M | +87% | $2.56 | 37.5% (record) | Semi Test ทะลุ $1.1B; ~70% AI revenue; merchant GPU first order; Photon 100/Omnyx เปิดตัว; Q2 guide ลง (normalization) |
 
 ## Story Gate
-**Last Updated:** 2026-07-16  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-07-17  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
 
-**Tier Basis:** Pre-Inevitable: 4/5 (switching-qualified-testers✓ margin✓ ROIC✓ crisis✓) — ATE duopoly, lumpy growth — ไม่มี tier change รอบนี้
+**Tier Basis:** ⚠️ TIER CHANGE 2026-07-17 (ยอมรับ Charlie SUGGEST_DOWNGRADE 07-16): revenue history ผูก semiconductor/memory capex cycle ชัดเจน (2022 $3.16B → 2023 $2.68B −15.2% → 2024 +5.4% → 2025 +13.1% → FY26 guide $6B เกือบเท่าตัว) ตรงนิยาม Cyclical (EPS/revenue swing มาก) มากกว่า Pre-Inevitable (ต้อง moat พิสูจน์ผ่านวิกฤต 3+ ครั้งแบบ compounding สม่ำเสมอ) — Warren เองก็ normalize FY26 headline growth +84.1% ออกด้วยเหตุผลเดียวกับที่ใช้กับ cyclical stocks อยู่แล้ว
 
 **WHAT:** Teradyne เป็น ATE duopoly (กับ Advantest) — เครื่องทดสอบ semiconductor ที่ qualify เข้า production flow ลูกค้าแล้วเปลี่ยนยาก; ~70% รายได้ผูก AI; กลยุทธ์ wafer-to-AI-data-center + Robotics
 
@@ -10378,47 +10380,48 @@ Teradyne ออกแบบและผลิต **Automated Test Equipment (ATE
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-16  |  **Price:** $342.12  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER — consensus-growth formula per 2026-07-15 fix)
+**Last Updated:** 2026-07-17  |  **Price:** $322.30  |  **Tier:** 🔁 Cyclical  |  **Method:** Cyclical Exception — Normalized Mid-Cycle EPS × Normal Multiple (ห้ามใช้ peak-year EPS × multiple ปกติ)
 
-### Snapshot (Watchlist Refresh)
+### Snapshot (Deep Recheck — Cyclical Reframe 2026-07-17)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $342.12 | — |
-| Fair Value Base | $420 | — |
-| **Margin of Safety** | **18.5%** | ✓ PASS (Gate 15%) |
-| **PEG** (Fwd P/E ÷ normalized consensus growth) | **1.34** | ✓ PASS (Cap 1.5) |
-| **5-yr Expected Return** | **39.2%/yr** | ✓ PASS (Gate 15%) |
-| Forward P/E | 46.9× (on FY26 EPS $7.29) | — |
-| Consensus EPS Growth (normalized) | 35.0% | stockanalysis.com FY27 YoY (see note) |
+| Current Price | $322.30 | — |
+| Fair Value Base (normalized) | $100 | — |
+| **Margin of Safety** | **-222.3%** | ❌ FAIL (Gate 15%) |
+| **PEG** | N/A | Cyclical exception — ไม่ใช้ PEG cap |
+| **5-yr Expected Return** | **~-13.5%/yr** | ❌ FAIL (Gate 15%) |
+| Forward P/E (current, on FY26 street EPS ~$7.29) | 44-46× | — สัญญาณ late-cycle |
+| Normalized EPS basis | ~$5.29 (50/50 blend: 5yr actual avg $4.33 + FY26 conservative consensus $6.24) | — |
+| Normal-cycle multiple used | 19x (ช่วง 18-20x, ไม่ใช่ 44-46x ปัจจุบันหรือ 10yr avg 27x ที่รวมปีเฟ้อ AI) | — |
 
-> **Growth-rate note:** FY26 consensus EPS growth is +84.1% YoY, but this is inflated by a depressed FY25 base (mobile/auto trough before the AI test-demand ramp) — same base-effect distortion flagged for TSLA in the 2026-07-15 batch. Used FY27 YoY growth (35.0%) as the normalized rate for both PEG and ER per Consensus-as-Base discipline, to avoid overstating a one-year snapback as a 5-year compounding rate.
+> **⚠️ Deep Recheck 2026-07-17 (ก่อน execute BUY):** Warren Base FV เดิม $420 ใช้ current-year (FY26) EPS ที่พุ่งจาก AI supercycle ($7.29 หรือ management target $9.50-11) × multiple 44-58x — **นี่คือ peak-EPS × generous-multiple แบบเดียวกับที่กฎเหล็ก Cyclical ห้ามไว้ชัดเจน** (ดู WARREN.md → Cyclical Exception). Recheck ใช้ normalized mid-cycle EPS จริง (เฉลี่ย non-GAAP EPS 5 ปี 2021-2025: $5.98/$4.25/$4.25/$3.22/$3.96 = avg $4.33) ผสมถ่วงน้ำหนักกับ FY26 consensus แบบระมัดระวังที่สุด ($6.24, ไม่ใช้ management target) = normalized EPS ~$5.29 × normal-cycle multiple 18-20x (ไม่ใช่ multiple ที่ตลาดให้อยู่ตอนนี้) → **FV Base ยุบเหลือ $100** เท่านั้น — ราคาปัจจุบันแพงกว่า FV ปกติเกือบ 3.2 เท่า
 
-### Fair Value Scenarios
+### Fair Value Scenarios (Normalized)
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $540 | +57.8% | Premium multiple × growth acceleration |
-| **Base** | $420 | +22.8% | Base multiple × consensus EPS (unchanged) |
-| **Bear** | $310 | -9.4% | Compressed multiple × thesis break |
+| **Bull** | $150 | -53.5% | Normalized EPS × premium multiple (AI structural-shift durability confirmed) |
+| **Base** | $100 | -69.0% | Normalized EPS $5.29 × 19x normal-cycle multiple |
+| **Bear** | $70 | -78.3% | Historical-only 5yr avg EPS $4.33 × 16x (pure mean-reversion, no AI credit) |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 8.0 | 30% | 2.40 | Unchanged — ATE duopoly + Tokyo Electron chiplet JV reinforces qualified-tester switching cost moat |
-| GP (Growth Potential) | 7.5 | 30% | 2.25 | Unchanged — no new quarter data since last gate (Q2 earnings not yet reported, due 07-28) |
-| VA (Valuation) | 7.5 | 25% | 1.88 | Up sharply from 2.5 — price crashed -25.8% on index-flow reversal (the exact risk flagged last gate) while FV unchanged → MoS flipped from -9.8% (fail) to +18.5% (pass), PEG now clears cap too |
-| RA (Risk Assessment) | 6.5 | 15% | 0.98 | Unchanged — no new risk evidence; memory-oversupply/export-talk fears are sector sentiment, not TER-specific deterioration |
-| **WAF Total** | **7.50** | | **HIGH** | |
+| BQ (Business Quality) | 8.0 | 30% | 2.40 | ไม่เปลี่ยน — ATE duopoly + Q1 2026 record $1.28B (+87% YoY) ยืนยันความแข็งแกร่งธุรกิจจริง คุณภาพนี้ไม่ใช่ประเด็นที่ถูกท้าทาย |
+| GP (Growth Potential) | 7.0 | 30% | 2.10 | ลดจาก 7.5 — AI test demand จริง (70% ของรายได้) แต่ Q1 record มี one-time benefits (card ยอมรับเอง); FY26 guide $6B เกือบเท่าตัวจาก 2025 เป็น step-change ที่ยังไม่พิสูจน์ durability ข้ามหลายปี |
+| VA (Valuation) | 1.8 | 25% | 0.45 | ยุบจาก 7.5 — normalized mid-cycle EPS framing เผย MoS ติดลบรุนแรง (-222%); ราคาปัจจุบันตั้งอยู่บนสมมติฐานว่า AI supercycle ต่อเนื่องไม่มี pullback ซึ่งขัดกับกฎเหล็ก cyclical bias |
+| RA (Risk Assessment) | 5.0 | 15% | 0.75 | ลดจาก 6.5 — insider sale ก่อน earnings (10b5-1 pre-planned แต่ timing ไม่สวย) + fwd PE 44-46x หลังวิ่ง +140-268% YTD ใกล้ ATH + customer concentration 19%/12%/10% = Cyclical Peak Bias signature ชัดเจน |
+| **WAF Total** | **5.70** | | **LOW** | |
 
-**Investment Idea:** TER ร่วง -25.8% จาก ATH ($460.98→$342.12) เมื่อ Nasdaq-100-inclusion flow กลับทิศท่ามกลาง sector-wide semiconductor selloff (memory oversupply fear + US-China export talk ค้าง) — ไม่มี fundamental เสื่อม (ไม่มี earnings miss/guidance cut) ทั้ง 4 เกณฑ์ BUY ผ่านครบ: MoS 18.5%, PEG 1.34, ER 39.2%/yr, WAF 7.50 — พลิกจาก WATCH เป็น fresh-money BUY signal แท้ๆ เป็นโอกาส re-price ที่ราคาคืน premium จาก flow ทั้งหมดขณะคุณภาพธุรกิจ (ATE duopoly, 70% AI revenue) ไม่เปลี่ยน — ⚠️ ข้อควรระวัง: Q2 earnings (28 ก.ค.) ยังไม่ออก ต้อง verify guidance ก่อน sizing จริง
+**Investment Idea:** 🚀 Edge Sleeve candidate — Teradyne (ATE duopoly, 70% AI revenue) ร่วง sector-wide ไม่มีข่าวร้ายบริษัท แต่ deep recheck ภายใต้ tier 🔁 Cyclical (ยอมรับจาก Charlie 07-16) พบว่า valuation เดิม ($420 FV Base) ใช้ peak-year AI-supercycle EPS ไม่ใช่ normalized mid-cycle EPS ตามกฎเหล็ก — เมื่อแก้ตามกฎ FV ยุบเหลือ $100 เท่านั้น MoS ติดลบรุนแรง (-222%) WAF ยุบจาก 7.50 HIGH เป็น 5.70 LOW → **ถอนคำสั่ง BUY ทั้งหมด ไม่ execute**
 
-**Thesis:** ATE duopoly + AI test demand 70% of business + Tokyo Electron JV + Air Force defense diversification; thesis ธุรกิจยังแกร่งเหมือนเดิม ราคาคืนกลับมาใกล้ intrinsic value หลัง flow-driven spike จบลง
+**Thesis:** ATE duopoly + AI test demand 70% of business ยังจริงและแข็งแรง (Story Gate ยัง PASS) — แต่นี่คือ **valuation-driven WATCH ไม่ใช่ thesis พัง**: ราคาปัจจุบันเรียกร้องให้ AI supercycle ต่อเนื่องระยะยาวไม่มี pullback ซึ่งเป็นสมมติฐานที่ยังไม่พิสูจน์และตรงข้ามกับหลักการวัดมูลค่า Cyclical stock
 
-**Thesis Risk:** AI capex slowdown; customer concentration lumpy revenue; memory oversupply fear (ถ้ากลายเป็นจริง); China export talk ค้าง; Advantest competition; Q2 earnings (28 ก.ค.) ยังไม่ยืนยัน guidance
+**Thesis Risk:** AI capex slowdown ทำให้ FY26 เป็น one-off ไม่ใช่ new-normal; customer concentration lumpy revenue (1 ราย 19%); Advantest competition; ATE cyclical swing ประวัติศาสตร์ -15% ถึง +87% ระหว่างปี; Q2 earnings (28 ก.ค.) ยังไม่ยืนยัน guidance durability
 
-**Action:** 🟢 BUY (ทั้ง 4 เกณฑ์ผ่านหลัง mean-reversion; flag: Q2 earnings 28 ก.ค. ยังไม่ออก — verify ก่อน size เงินจริง)
+**Action:** 🔍 WATCH (ถอน BUY — normalized cyclical valuation ไม่ผ่านทุก gate; รอ Q2 earnings 07-28 พิสูจน์ durability ของ AI-driven earnings step-change หรือราคาย่อลงมาใกล้ normalized FV ก่อนพิจารณาใหม่)
 
 ---
 

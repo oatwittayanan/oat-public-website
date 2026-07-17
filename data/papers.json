@@ -868,11 +868,11 @@
     "portfolio_snapshot": {
       "total_deposited_usd": 300.0,
       "cash_before": 120.0,
-      "cash_after": 20.0,
-      "deployed_this_paper": 100.0,
-      "total_invested_after": 280.0,
+      "cash_after": 40.0,
+      "deployed_this_paper": 80.0,
+      "total_invested_after": 260.0,
       "current_value_usd": 298.7,
-      "note": "มูลค่าพอร์ต $298.70 (invested $178.70 @ ราคา 07-17 + cash $120) vs deposited $300 = −0.4%; total_invested_after = cost basis $180 (Sheets) + deploy $100 รอบนี้; total_invested ของ NVDA/TER ใน Paper #3 ถูกแก้กลับตาม Sheets (70→60, 20→10) เพราะคำสั่งไม่เคย execute"
+      "note": "มูลค่าพอร์ต $298.70 (invested $178.70 @ ราคา 07-17 + cash $120) vs deposited $300 = -0.4%; หลัง deep recheck TER/NFLX (07-17 เย็น) + Charlie review ครบ: TER ถอน BUY ทั้งหมด (WATCH, cyclical mid-cycle EPS ไม่ผ่าน gate MoS -222%), NFLX ลด ADD $20->$10 (แก้ FV formula error 121.9->98 ตาม Charlie DISAGREE, engagement-erosion evidence) — deploy รวม $80, cash_after $40"
     },
     "position_sizing_rule": {
       "increment_usd": 10,
@@ -926,24 +926,24 @@
           },
           "va": {
             "score": 6.5,
-            "detail": "Full re-analysis หลัง Charlie DISAGREE (ที่ Paper #3 ค้างไว้): FV Base $233 = 25x × FY27 consensus EPS $9.34; ที่ราคา $207.40 MoS = 11.0% — อยู่ใน STARTER band [8,15) แต่ NVDA เป็น position เต็มไซซ์แล้ว (21.4% ของ invested) ไม่ใช่ staged entry → ไม่เข้าเกณฑ์ STARTER; PEG 0.80 ผ่าน cap; ER 30.0%/yr สูงแต่ MoS Gate เป็น universal floor",
-            "price": 207.4,
+            "detail": "🔄 Price refresh 07-17 เย็น (broad semi sell-off ข้ามคืน): ราคาจาก $207.40 → $205.96 (after-hours, ตาม briefing โอ๊ต + สอดคล้องทิศทาง WebSearch premarket -1.44% $209.43) — MoS ขยับ 11.0%→11.6% ยังต่ำกว่า gate 15% → Action ยังคงเป็น HOLD เหมือนเดิม ไม่มีอะไรเปลี่ยนเชิงคุณภาพ (นี่คือ sector-wide sentiment sell-off ไม่ใช่ NVDA-specific news ใหม่)",
+            "price": 205.96,
             "fair_value_base": 233,
             "fair_value_bull": 280,
             "fair_value_bear": 159,
-            "mos_pct": 11.0,
-            "forward_pe": 22.2,
+            "mos_pct": 11.6,
+            "forward_pe": 22.0,
             "peg": 0.8,
-            "expected_return_5yr_pct": 30.0,
+            "expected_return_5yr_pct": 30.1,
             "valuation_assumptions": {
               "fair_value_method": "Base 25x × FY27 consensus EPS $9.34 = $233 (re-derived เต็มหลัง Charlie DISAGREE — เลิกใช้โครง 17x-on-FY29 เดิมทั้งชุด)",
               "pe_multiple_rationale": "Base 25x (PEG 0.90 บน growth 27.6% — discount จาก historical fwd P/E 30-35x เพราะ China structural loss + customer concentration); Bull 30x = $280 (Vera CPU TAM realize); Bear 17x = $159 (= Charlie independent floor, no multiple expansion)",
               "eps_basis": "FY27 (FYE Jan 2027) consensus non-GAAP EPS $9.34 — Simply Wall St $9.34 / Goldman $9.50 / JPM $8.73 / stockanalysis $8.98 (re-verified WebSearch 2026-07-17); sanity check: price $207.40 ÷ implied fwd EPS จาก fwd P/E ตลาด ~22.5x ≈ $9.2 สอดคล้อง ✓",
               "growth_rate": "27.6% = consensus FY27→FY28 ($9.34→$11.92, stockanalysis/Yahoo consensus 2026-07-17)",
-              "consensus_growth": "27.6% (FY28/FY27 consensus) — convergence (233/207.40)^(1/5)−1 = +2.4% + 27.6% = ER 30.0%/yr; ⚠️ growth term ใหญ่ ให้ Charlie cross-check ตาม §2.6",
+              "consensus_growth": "27.6% (unchanged) — convergence (233/205.96)^(1/5)−1 = +2.5% + 27.6% = ER 30.1%/yr",
               "variant_view": null,
-              "mos_formula": "(FV Base $233 − Price $207.40) ÷ $233 = 11.0%",
-              "data_source": "prices_cache 2026-07-17 (CNBC/Nasdaq) + WebSearch consensus EPS 2026-07-17 + Charlie review 2026-07-16"
+              "mos_formula": "(FV Base $233 − Price $205.96) ÷ $233 = 11.6%",
+              "data_source": "WebSearch 2026-07-17 evening: after-hours ~$205.96 (per Kim briefing, broad semi weakness post TSM capex-guidance shock: MU -8%, INTC -4%, AMD/LRCX -3%, SK hynix ADR -13.7%); corroborated by separate premarket print $209.43 (-1.44%, Investing.com/marketchameleon); Nasdaq API regular-session close still shows prior $207.40 (Jul 16) — no fresh regular-session print yet, using after-hours estimate"
             }
           },
           "ra": {
@@ -971,6 +971,11 @@
             "date": "2026-07-17",
             "event": "REVISED → v4",
             "note": "ตอบ Charlie DISAGREE: FV Base $308→$233 (25x × FY27 consensus $9.34, PEG 0.80); MoS 11.0% < gate 15% → ถอน ADD ที่ freeze, HOLD; total_invested แก้กลับเป็น $60 ตาม Sheets (ADD $10 ของ Paper #3 ไม่เคย execute) (Paper #4)"
+          },
+          {
+            "date": "2026-07-17",
+            "event": "PRICE REFRESH",
+            "note": "Broad semi sell-off ข้ามคืน (S&P -0.51%, Nasdaq -1.47%, TSM capex-guidance trigger) — ราคา NVDA $207.40→$205.96 after-hours; MoS 11.0%→11.6% ยังไม่ผ่าน gate 15% → HOLD คงเดิม ไม่ execute BUY"
           }
         ],
         "charlie_verdict": "DISAGREE",
@@ -1056,7 +1061,7 @@
           }
         ],
         "charlie_verdict": "AGREE",
-        "note": "Charlie AGREE 07-16; แยก narrative ตามที่ Charlie ขอ: layoff 4,800 ส่วนใหญ่คือ Xbox restructuring (profitability challenge ธุรกิจเกม — ไม่ใช่ AI story) คนละ event กับ cybersecurity reorg (Hayete Gallot, AI-security pivot) — core thesis Azure/Copilot ไม่เกี่ยวทั้งสอง event"
+        "note": "Charlie AGREE 07-16; แยก narrative ตามที่ Charlie ขอ: layoff 4,800 ส่วนใหญ่คือ Xbox restructuring (profitability challenge ธุรกิจเกม — ไม่ใช่ AI story) คนละ event กับ cybersecurity reorg (Hayete Gallot, AI-security pivot) — core thesis Azure/Copilot ไม่เกี่ยวทั้งสอง event🔄 Recheck 07-17 เย็น (broad sell-off): ราคา MSFT ยืนยันจาก Nasdaq API ตรงกับที่ใช้อยู่แล้ว (ไม่มี fresh after-hours print ที่ต่างจาก close) — ไม่มี ticker-specific news กระทบ thesis, MoS/WAF ไม่เปลี่ยน ไม่ต้องแก้ amount_usd"
       },
       {
         "ticker": "META",
@@ -1130,7 +1135,8 @@
             "event": "RECHECK",
             "note": "ราคาย่อ $676→$664.54: MoS 8.0% (แตะพื้น STARTER band พอดี), PEG 1.47 กลับมาใต้ cap แล้ว แต่ ER 15.5% แค่ HOLD band + ตำแหน่งเต็มอยู่แล้ว → HOLD ไม่เติม รอ earnings ยืนยัน momentum (Paper #4)"
           }
-        ]
+        ],
+        "note": "🔄 Recheck 07-17 เย็น (broad sell-off): ราคา META ยืนยันจาก Nasdaq API ตรงกับที่ใช้อยู่แล้ว (ไม่มี fresh after-hours print ที่ต่างจาก close) — ไม่มี ticker-specific news กระทบ thesis, MoS/WAF ไม่เปลี่ยน ไม่ต้องแก้ amount_usd"
       },
       {
         "ticker": "AMZN",
@@ -1201,57 +1207,57 @@
           }
         ],
         "charlie_verdict": "AGREE",
-        "note": "Charlie AGREE 07-16 พร้อม concern: FTC ad-pricing complaint drafted อาจฟ้อง/settle ภายใน 1-2 เดือน — ยอมรับความเสี่ยง headline volatility ระยะสั้น เพราะ core AWS/AI thesis ไม่ถูกกระทบ; ติดตามข่าว FTC 4-8 สัปดาห์ตาม verify_further"
+        "note": "Charlie AGREE 07-16 พร้อม concern: FTC ad-pricing complaint drafted อาจฟ้อง/settle ภายใน 1-2 เดือน — ยอมรับความเสี่ยง headline volatility ระยะสั้น เพราะ core AWS/AI thesis ไม่ถูกกระทบ; ติดตามข่าว FTC 4-8 สัปดาห์ตาม verify_further🔄 Recheck 07-17 เย็น (broad sell-off): ราคา AMZN ยืนยันจาก Nasdaq API ตรงกับที่ใช้อยู่แล้ว (ไม่มี fresh after-hours print ที่ต่างจาก close) — ไม่มี ticker-specific news กระทบ thesis, MoS/WAF ไม่เปลี่ยน ไม่ต้องแก้ amount_usd"
       },
       {
         "ticker": "NFLX",
         "action": "BUY",
-        "status": "ADDED",
+        "status": "REVISED",
         "thesis_date": "2026-06-10",
         "thesis_version": 1,
         "last_reviewed": "2026-07-17",
-        "amount_usd": 0.0,
-        "total_invested_usd": 40.0,
-        "conviction": "HIGH",
+        "amount_usd": 10.0,
+        "total_invested_usd": 30.0,
+        "conviction": "MEDIUM",
         "tier": "🚀 Pre-Inevitable",
-        "waf": 8.02,
-        "investment_idea": "Content + Algorithm Moat + Ad Tier Scale — Q2 ยืนยัน thesis (EPS beat, margin in-line, ads on track 2x เป็น $3B) แต่ตลาดเทขาย −9% เพราะผิดหวัง guidance ไม่ยก → MoS ถ่างเป็น 44.5% = โอกาส ADD แบบที่ระบบออกแบบไว้",
-        "thesis": "Earnings-pending blocker ของ Paper #3 resolve แล้ว: Q2 2026 EPS $0.80 beat consensus $0.79, revenue $12.56B +13.4% YoY (in-line, miss จิ๋ว −0.17%), operating margin 33% ตรง guide, FY26 guide แคบลงเป็น $51.0-51.4B + OM 31.5% คงเดิม, ad revenue on track 2x → $3B — ไม่มีข้อไหนแตะ IF WRONG (engagement/subscriber erosion) เลย; after-hours −9.0% ($67.64) เป็น sentiment ผิดหวังที่ guidance ไม่ถูกยก = Fair Value ไม่ได้ลดตามราคา → MoS 44.5% กว้างสุดในพอร์ต; ADD $20 ขนาดพอประมาณ (ไม่ใส่แรงกว่านี้) เพราะ FV $121.9 ต้อง re-verify กับ consensus หลัง earnings + Charlie เคย flag growth term สูงไป 12-18pp — ER ที่ใช้จึงกดเหลือ growth 18% แบบ conservative แล้วก็ยังได้ 30.5%/yr",
-        "thesis_risk": "FY26 revenue guide ถูกหั่นรอบถัดไป (top-end เริ่มถูก trim แล้ว); engagement erosion โผล่ใน H2; content cost inflation; Disney+/Prime เพิ่ม budget; consensus EPS ถูก revise ลงจน FV ต้องลดตาม",
+        "waf": 7.4,
+        "investment_idea": "Content + Algorithm Moat + Ad Tier Scale — Q2 ยืนยัน EPS beat/margin in-line/no subscriber miss แต่ recheck พบ Warren FV เดิม $121.9 ผิดสูตรตัวเอง (28x × EPS $3.49 = $97.7 ไม่ใช่ $121.9 — ใช้ multiple จริง ~35x โดยไม่ได้ตั้งใจ) + มีสัญญาณ engagement erosion จริงที่ยังไม่ fire IF WRONG เต็มรูป — แก้ FV ตรงสูตร ($98) + ลดขนาดไม้ลงครึ่งหนึ่งสะท้อนความไม่แน่นอนที่เพิ่มขึ้น",
+        "thesis": "Charlie DISAGREE ถูกต้อง: สูตร Base 28x × FY27 consensus EPS $3.49 ต้องได้ $97.72 ไม่ใช่ $121.9 ที่รายงานไว้ (ผิดพลาดจากใช้ multiple จริง ~34.9x ที่ label ผิดเป็น 28x) — แก้เป็น FV Base $98; ที่ราคา after-hours $67.64 → MoS 31.0% (ลงจาก 44.5% ที่รายงานผิด แต่ยังผ่าน gate 15% อย่างสบาย); ปรับ growth ลงจาก 18% เป็น 15% สะท้อนหลักฐานชะลอตัวที่ยืนยันจริง (Q3 guide +11.7% ต่ำกว่า Street ~13%, analyst บางรายปรับประมาณการ FY27 เหลือ +7.8% YoY) → PEG 1.29 ผ่าน cap 1.5, ER 22.7%/yr ยังผ่าน hurdle 15% แต่ไม่ใช่ 'สูงสุดในพอร์ต' อย่างที่เคยอ้าง; engagement erosion evidence (viewership top-10 ลด, ลดความถี่เปิดเผย What-We-Watched เหลือปีละครั้งตั้งแต่ 2027) เป็น candor/transparency red flag ที่แท้จริงแม้ยังไม่ fire IF WRONG เต็มรูป (EPS/revenue/margin ยัง in-line/beat) — ลดขนาดไม้จาก $20 เหลือ $10 เพื่อสะท้อนความไม่แน่นอนที่เพิ่มขึ้น ไม่ใช่ยกเลิกทั้งหมดเพราะ MoS ยังแข็งแรงและ Street PT cluster $90-100 ยังสูงกว่าราคาปัจจุบันมาก",
+        "thesis_risk": "Q3 guide deceleration (+11.7% ต่ำกว่า Street) ต่อเนื่องเป็น trend ไม่ใช่ noise ครั้งเดียว; engagement erosion (viewership top-10 ลด H1 2026) ขยายเป็น subscriber/revenue miss จริงในไตรมาสหน้า; ลดความถี่เปิดเผย engagement data (2027) ทำให้ตรวจสอบยากขึ้น = ความเสี่ยง transparency; content cost inflation; Disney+/Prime เพิ่ม budget",
         "scores": {
           "bq": {
-            "score": 8.5,
-            "detail": "Content Library moat + Algorithm moat; 4/5 Pre-Inevitable signals; Pricing Power ✓ (ขึ้นราคาทุกปีไม่หลุด subs)"
+            "score": 8.2,
+            "detail": "ลดจาก 8.5 — เนื้อหา/algorithm moat ยังแข็งแรง แต่ตัดคะแนน candor เล็กน้อย: บริษัทลดความถี่เปิดเผยรายงาน 'What We Watched' เหลือปีละครั้งตั้งแต่ 2027 ขณะตลาดกังวลเรื่อง engagement มากที่สุด — ลดความโปร่งใสตรงจุดที่ sensitive ที่สุด"
           },
           "gp": {
-            "score": 7.5,
-            "detail": "Q2 revenue +13.4% YoY (ต่ำกว่า band 15-20% ที่เคยคาดเล็กน้อย); ad revenue on track 2x → $3B FY26; live sports + international ยังเป็น TAM ใหม่; FY26 guide $51.0-51.4B"
+            "score": 6.8,
+            "detail": "ลดจาก 7.5 — ยืนยัน deceleration จริง: Q3 guide revenue +11.7% ($12.86B) ต่ำกว่า Street ~$13B; ads on track 2x→$3B ยังเป็นบวก แต่ core subscription growth ชะลอชัดเจนกว่าที่คาด"
           },
           "va": {
-            "score": 8.5,
-            "detail": "ใช้ราคา after-hours $67.64 (Nasdaq API, −9.0% หลังประกาศ — คำสั่งซื้อจะ execute วันนี้ใกล้ราคานี้): MoS 44.5% กว้างสุดในพอร์ต; PEG ~1.08; ER conservative 30.5%/yr (กด growth เหลือ 18% ตาม Charlie growth-gap flag แทน 24.9% เดิม) — ผ่านทุก gate; หักคะแนนเล็กน้อยจาก 8.7 เพราะ FV ยังไม่ re-verify กับ consensus post-earnings",
+            "score": 7.8,
+            "detail": "🔧 แก้ error: FV Base เดิม $121.9 ไม่ตรงสูตรที่ระบุเอง (28x×$3.49=$97.7) — Charlie DISAGREE ถูกต้อง, root cause = multiple จริงที่ใช้คือ ~34.9x ไม่ใช่ 28x ที่ label ไว้; แก้เป็น FV Base $98 ตรงกับ Street PT cluster post-cut ($90-100); ที่ราคา after-hours $67.64: MoS 31.0% (ยังผ่าน gate 15% สบาย แม้ลดจากตัวเลขผิด 44.5%); PEG 1.29 ผ่าน cap; ER 22.7%/yr ผ่าน hurdle 15% (ลดจาก growth 18%→15% สะท้อน deceleration evidence)",
             "price": 67.64,
-            "fair_value_base": 121.9,
-            "fair_value_bull": 145,
-            "fair_value_bear": 95,
-            "mos_pct": 44.5,
+            "fair_value_base": 98,
+            "fair_value_bull": 120,
+            "fair_value_bear": 78,
+            "mos_pct": 31.0,
             "forward_pe": 19.4,
-            "peg": 1.08,
-            "expected_return_5yr_pct": 30.5,
+            "peg": 1.29,
+            "expected_return_5yr_pct": 22.7,
             "valuation_assumptions": {
-              "fair_value_method": "Terminal-value 5yr; Base 28x × FY27 consensus EPS post 10:1 split (คงเดิมจาก 06-03; Q2 ไม่ได้เปลี่ยน earnings power — guide FY26 แคบลงแต่ midpoint ใกล้เดิม + OM คงเดิม) — ⚠️ flag: ต้อง re-verify FV กับ consensus ที่จะ update หลัง earnings ในรอบ /warren watchlist หน้า",
-              "pe_multiple_rationale": "Base 28x = discount จาก historical 35x (competition risk)",
-              "eps_basis": "FY2027 consensus post-split ~$3.49 (implied จาก fwd P/E 21.1 @ $73.53 batch 07-15)",
-              "growth_rate": "18% (conservative — ปรับลงจาก 24.9% เดิมตาม Charlie calibration flag ว่า NFLX growth term สูงกว่า consensus จริง 12-18pp; anchor จาก Q2 actual rev +13.4% + margin expansion)",
-              "consensus_growth": "18% (conservative หลัง Charlie flag) — convergence (121.9/67.64)^(1/5)−1 = +12.5% + 18% = ER 30.5%/yr (ถ้าใช้ 24.9% เดิมจะได้ 37.4% — รายงานตัว conservative)",
+              "fair_value_method": "🔧 CORRECTED 2026-07-17 (Charlie DISAGREE upheld): Base 28x × FY27 consensus EPS post-split $3.49 = $97.72 ≈ $98 (เดิม $121.9 ผิดเพราะ multiple จริงที่ใช้ ~34.9x ไม่ตรงกับ 28x ที่ label ไว้ — internal formula inconsistency)",
+              "pe_multiple_rationale": "Base 28x = discount จาก historical peak 35x (เหตุผลเดิมยังใช้ได้ แต่ตอนนี้คำนวณให้ตรงกับ EPS จริง); Bull 32x (ads/live-sports monetization accelerate) = $120; Bear 22x (deceleration confirmed, engagement erosion จริง) = $78",
+              "eps_basis": "FY2027 consensus post-split EPS $3.49 (คงเดิม จาก implied fwd PE 21.1x @ batch 07-15 price $73.53) — sanity check ผ่าน: consistent กับตัวเลข one-analyst-est FY2027 $3.85 (ต่างกัน ~10%, ยอมรับได้)",
+              "growth_rate": "15% (ปรับลงจาก 18% เดิม — สะท้อน Q3 guide +11.7% ต่ำกว่า Street ~13% + analyst revision บางรายเหลือ +7.8% — ใช้ 15% เป็นจุดกึ่งกลางระหว่าง company-guided revenue growth ~13% กับ margin-expansion upside เล็กน้อยจาก buyback)",
+              "consensus_growth": "15% (conservative, ปรับลงจาก 18%) — convergence (98/67.64)^(1/5)−1 = +7.7% + 15% = ER 22.7%/yr",
               "variant_view": null,
-              "mos_formula": "(FV $121.9 − Price after-hours $67.64) ÷ $121.9 = 44.5%",
-              "data_source": "Nasdaq API after-hours 2026-07-16 19:59 ET ($67.64 −9.02%) + CNBC/247wallst Q2 earnings coverage 07-16 + watchlist_valuations batch 2026-07-15"
+              "mos_formula": "(FV Base $98 − Price after-hours $67.64) ÷ $98 = 31.0% [CORRECTED — เดิม (121.9−67.64)/121.9=44.5% ใช้ FV ผิดสูตร]",
+              "data_source": "Charlie independent review 2026-07-16 (DISAGREE, floor $98) + WebSearch 2026-07-17: post-earnings PT cuts (Morgan Stanley $90, KeyBanc $92, Bernstein/Citi/Oppenheimer $100) + one-analyst FY26/27 EPS $3.57/$3.85 + Q3 guide $12.86B (+11.7%)"
             }
           },
           "ra": {
-            "score": 7.3,
-            "detail": "Event risk ที่กังวลรอบก่อน (Q2 earnings) ผ่านไปแล้วผลออกมา in-line/beat; no significant debt; subscription resilient; ความเสี่ยงใหม่ = guidance trim momentum"
+            "score": 6.5,
+            "detail": "ลดจาก 7.3 — engagement erosion evidence จริง (viewership top-10 titles ลด H1 2026, Motley Fool/Citi) + ลดการเปิดเผยข้อมูล + หุ้นแตะ 52-week low ก่อนงบ + analyst PT cuts หนักทั้งกลุ่ม (Oppenheimer/KeyBanc/Citi/Bernstein/Morgan Stanley) ล้วนเป็นสัญญาณเสี่ยงเพิ่มขึ้นจริง ไม่ใช่แค่ sentiment ชั่วคราว"
           }
         },
         "thesis_log": [
@@ -1269,11 +1275,21 @@
             "date": "2026-07-17",
             "event": "ADD $20",
             "note": "Q2 verify ผ่าน: EPS beat/margin in-line/IF WRONG ไม่ fire; after-hours −9.0% → $67.64 MoS 44.5% → ADD $20 (Paper #4); ⚠️ FV 121.9 รอ re-verify consensus post-earnings รอบ watchlist หน้า"
+          },
+          {
+            "date": "2026-07-17",
+            "event": "RECHECK → REVISE FV + halve size",
+            "note": "Deep recheck ตามคำสั่งโอ๊ต: แก้ FV $121.9→$98 (ตรงสูตร 28x×$3.49 ตามที่ Charlie DISAGREE ชี้); MoS 44.5%→31.0% (ยังผ่าน gate); ลด ADD $20→$10 สะท้อน engagement-erosion evidence + PT cuts หนัก; WAF 8.02→7.40 MEDIUM"
           }
         ],
-        "charlie_verdict": "DISAGREE",
-        "frozen": true,
-        "note": "Freeze — Charlie DISAGREE: FV $121.9 ขัดสูตรตัวเอง (28x×$3.49=$98 → MoS จริง ~31%) + engagement erosion มีหลักฐานอิสระกำลัง fire — รอโอ๊ตตัดสิน"
+        "note": "ลดครึ่งจาก Charlie CAUTION (FV-gap >20%: independent FV ~$80 vs Warren FV $98, MoS อิสระ ~15.5% เฉียด gate พอดี ไม่มี buffer จริง; Q3 guide ชะลอต่อเนื่องรอบที่ 2, Nielsen share 21%→17% ใน 2 ปี, ลดความถี่เปิดเผย engagement data) — amount อยู่ที่ position minimum $10 อยู่แล้ว จึงไม่ลดต่อ — รอ charlie_response รอบหน้า",
+        "charlie_response": [
+          "FV formula error: ยอมรับเต็มที่ — Base 28x × EPS $3.49 = $97.72 ไม่ใช่ $121.9 ที่เคยรายงาน (root cause: multiple ที่ใช้จริงในการคำนวณคือ ~34.9x ไม่ใช่ 28x ที่ label ไว้ — ผิดพลาดชนิดเดียวกับ NVDA EPS-mislabel ที่เพิ่งแก้ไปในพอร์ตเดียวกัน, เป็น pattern ที่ต้องระวังเป็นระบบ) — แก้เป็น $98 แล้ว",
+          "Q3 guide deceleration + PT cuts ($90-100 cluster): ยืนยันตรงกับ WebSearch (Morgan Stanley $90, KeyBanc $92, Bernstein/Citi/Oppenheimer $100) — FV ใหม่ $98 อยู่กลางกลุ่มนี้พอดี ไม่ใช่สูงกว่า Street แบบเดิม",
+          "Engagement erosion + disclosure reduction: ยอมรับเป็น red flag จริง ไม่ใช่แค่ noise — ปรับ RA ลง (7.3→6.5) และ BQ ลงเล็กน้อย (8.5→8.2, candor test) แต่ยังไม่ถึงขั้น IF WRONG fired เพราะ Q2 ตัวเลขจริง (EPS/revenue/margin) ยัง beat/in-line ทั้งหมด — ลดขนาดไม้แทนการ freeze ทั้งหมด"
+        ],
+        "charlie_verdict": "CAUTION",
+        "charlie_caution": true
       },
       {
         "ticker": "TSM",
@@ -1286,10 +1302,10 @@
         "total_invested_usd": 30.0,
         "conviction": "VERY HIGH",
         "tier": "🏛️ Inevitable",
-        "waf": 8.66,
+        "waf": 8.58,
         "investment_idea": "AI Foundry Monopoly — Q2 beat จริง (revenue record $40.2B +36% YoY) + FY26 guide ยกจาก >30%→>40% resolve earnings-pending blocker เดิม MoS ข้าม gate 15% พอดี (thin margin) — เติมไม้ 2 ต่อจาก STARTER เดิม",
         "thesis": "Sole HVM N3/N2/A16 = ทุก AI chip ต้องผ่าน TSMC; Q2 2026 ยืนยัน FY26 guide >40% growth; MoS 15.1% ผ่าน gate แบบ thin margin (0.1pt) — ยังไม่ full target ($30-40) แต่ signal ดีขึ้นชัดเจนจาก STARTER เดิม (MoS 8.9%→15.1%) เข้าเงื่อนไข 'เติมเมื่อพื้นฐานดีขึ้น' ตามกฎ Staged Entry เติม $20 ไม้ 2 (รวม $30 ใกล้ target)",
-        "thesis_risk": "Taiwan geopolitical; overseas fab margin pressure H2 2026 (guided); customer concentration Apple+NVIDIA 36%",
+        "thesis_risk": "Taiwan geopolitics; customer concentration Apple+NVIDIA 36%; 🆕 capex guide $60-64B (+15% จากเดิม) กด near-term FCF/margin ชัดเจนขึ้น — H2 2026 overseas fab ramp dilution ที่ Charlie เคย flag ตอนนี้ confirmed แล้ว ต้องติดตามว่า ROIC ยังคง >15% ท่ามกลาง capex เร่งตัวหรือไม่",
         "scores": {
           "bq": {
             "score": 9.5,
@@ -1301,29 +1317,29 @@
           },
           "va": {
             "score": 8.0,
-            "detail": "ราคา $409.74 (ย่อจาก $411.63): MoS 15.5% ผ่าน gate 15% (margin บางแต่กว้างขึ้นจากเมื่อวาน 0.1→0.5pt); PEG 0.70 ต่ำสุดในพอร์ต; ER 30.4%/yr สูงสุดใน Core holdings; FV $485 ยัง conservative กว่า Street PT $498.24",
+            "detail": "🔄 Price refresh + capex-guidance recheck 07-17: ราคาย่อต่อจาก $409.74 → ~$407 (estimate — ไม่พบ premarket print ที่ชัดเจนสำหรับ 07-17 เช้า, ใช้ technical support $407 ที่ Schaeffer's Research อ้างอิง + broad Nasdaq futures -0.3% เป็นฐาน; ราคาจริงต้อง verify ด้วย fetch_prices.py หลังตลาดเปิด) — MoS ขยับ 15.5%→16.1% (margin เหนือ gate กว้างขึ้นเล็กน้อยเพราะราคาลงขณะ FV ไม่เปลี่ยน) — Story ยังไม่พัง: capex guide $60-64B (จาก $52-56B) มาพร้อม revenue growth guide ที่ยกขึ้นเป็น >40% ในเวลาเดียวกัน — เป็นการลงทุนขยายกำลังผลิต (70-80% ไปที่ advanced nodes) เพื่อรับดีมานด์ที่ทำ Q2 beat จริงแล้ว ไม่ใช่สัญญาณธุรกิจอ่อนแอ — แต่ยอมรับ ความเสี่ยง near-term FCF/margin dilution ที่ Charlie เคย flag ไว้ตั้งแต่ Paper #4 เดิม (H2 2026 overseas fab dilution) ตอนนี้ 'confirmed' เป็นรูปธรรมมากขึ้น ไม่ใช่แค่ risk สมมติ → ลด RA ลงเล็กน้อยสะท้อนความชัดเจนของ risk นี้ [Kim correction: price verified $409.74 via fetch_prices.py cnbc/nasdaq cache post-Warren-recheck (was estimate $407.0), MoS recalculated 16.1%→15.5%]",
             "price": 409.74,
             "fair_value_base": 485,
             "fair_value_bull": 575,
             "fair_value_bear": 370,
             "mos_pct": 15.5,
-            "forward_pe": 18.9,
+            "forward_pe": 18.8,
             "peg": 0.7,
-            "expected_return_5yr_pct": 30.4,
+            "expected_return_5yr_pct": 30.6,
             "valuation_assumptions": {
               "fair_value_method": "Terminal-value 5yr; N2/A16 ASP uplift + volume growth; FV Base ปรับขึ้น $470→$485 หลัง Q2 guide ใหม่",
               "pe_multiple_rationale": "Base 20x = foundry premium; Bull 24x = N2 margin full; Bear 14x = Taiwan discount",
               "eps_basis": "FY27 EPS ADR-adjusted consensus, ปรับตาม FY26 guide >40%",
               "growth_rate": "40%+ FY26 (guide ใหม่), ลดหลั่นเทอมยาว",
-              "consensus_growth": "27% blended post-Q2 (guide FY26 >40% เฉลี่ยลดหลั่น) — convergence (485/409.74)^(1/5)−1 = +3.4% + 27% = ER 30.4%/yr",
+              "consensus_growth": "27% (unchanged, ยังไม่มี analyst EPS revision ใหม่หลัง capex guide เพราะเพิ่งประกาศพร้อม earnings 07-16) — convergence (485/407)^(1/5)−1 = +3.6% + 27% = ER 30.6%/yr",
               "variant_view": null,
-              "mos_formula": "(FV $485 − Price $409.74) ÷ $485 = 15.5%",
-              "data_source": "prices_cache 2026-07-17 (CNBC/Nasdaq) + watchlist_valuations batch 2026-07-16 (FV ยกเป็น $485 หลัง Q2 beat) + Charlie review 2026-07-16"
+              "mos_formula": "(FV $485 − Price ~$407) ÷ $485 = 16.1%",
+              "data_source": "WebSearch 2026-07-17: TSM capex guide $60-64B (up from $52-56B, GuruFocus/Benzinga); technical support $407/resistance $420-431 (Schaeffer's Research 07-17); down 14% off June 30 ATH $479, 6th-straight loss; sector context: Nasdaq -1.47% 07-16, MU -5.7%/-8%, AMD -5.3%, AVGO -5%, SK hynix ADR -13.7% (CNBC/Sedaily) — no confirmed July 17 premarket print found; price is a conservative estimate pending market open"
             }
           },
           "ra": {
-            "score": 6.0,
-            "detail": "Taiwan geopolitical top risk; overseas fab dilute margin (guided H2); Apple+NVIDIA 36% concentration; CoWoS supply bottleneck"
+            "score": 5.5,
+            "detail": "ลดจาก 6.0 — capex guidance เพิ่ม $52-56B→$60-64B ทำให้ margin/FCF dilution risk ที่ Charlie เคย flag (H2 2026 overseas fab) เปลี่ยนจาก 'risk ที่ยังไม่ยืนยัน' เป็น 'confirmed magnitude ชัดเจนแล้ว' — ยังไม่ใช่ thesis break (revenue growth guide ก็ถูกยกขึ้นพร้อมกันเป็น >40%, บ่งชี้ demand รองรับการลงทุนนี้จริง) แต่ near-term FCF compression เป็นความเสี่ยงที่ต้อง discount เพิ่มจากเดิม; Taiwan geopolitics + customer concentration (Apple+NVIDIA 36%) unchanged"
           }
         },
         "starter_note": "ไม้ 2 จาก STARTER เดิม ($10 06-10) → รวม $30; target full ~$30-40; MoS ข้าม gate แล้วจึงเติมใกล้ target แทนที่จะรอ signal เพิ่มอีก",
@@ -1342,6 +1358,11 @@
             "date": "2026-07-17",
             "event": "ADD $20",
             "note": "Re-issue คำสั่ง Paper #3 ที่ไม่ได้ execute — Charlie AGREE (verify Q2 ตรงทุกจุด, Street PT $498 > FV $485); ราคา $409.74 MoS 15.5% ผ่าน gate (บางแต่ผ่าน) / ER 30.4% (Paper #4)"
+          },
+          {
+            "date": "2026-07-17",
+            "event": "RECHECK — capex guidance + sector sell-off",
+            "note": "TSM ยก capex guide $52-56B→$60-64B พร้อม revenue growth guide >40% (Q2 earnings 07-16) — trigger sector-wide sell-off (MU/AMD/AVGO -3-8%, SK hynix ADR -13.7%); ราคา TSM เอง ~$409.74→$407 (estimate) MoS 15.5%→16.1% ยังผ่าน gate; ประเมินว่าเป็น sentiment/near-term-FCF-concern ไม่ใช่ thesis พัง (revenue guide ยกพร้อมกัน = demand จริงรองรับ capex) — คง BUY $20 ตามเดิม, ลด RA 6.0→5.5 สะท้อนความเสี่ยง margin dilution ที่ confirmed ชัดขึ้น, WAF ขยับลงเล็กน้อย 8.66→8.61 (ยังคง VERY HIGH)"
           }
         ],
         "charlie_verdict": "AGREE",
@@ -1349,53 +1370,53 @@
       },
       {
         "ticker": "TER",
-        "action": "BUY",
-        "status": "NEW",
+        "action": "WATCH",
+        "status": "REVISED",
         "thesis_date": "2026-07-16",
-        "thesis_version": 1,
+        "thesis_version": 2,
         "last_reviewed": "2026-07-17",
-        "amount_usd": 10.0,
-        "total_invested_usd": 10.0,
-        "conviction": "HIGH",
+        "amount_usd": 0.0,
+        "total_invested_usd": 0.0,
+        "conviction": "LOW",
         "tier": "🔁 Cyclical",
-        "waf": 7.5,
-        "investment_idea": "🚀 Edge Sleeve ตัวแรกของพอร์ต — Teradyne (semiconductor ATE/test) ร่วง sector-wide ไม่มีข่าวร้ายบริษัท; ยอมรับ Charlie: จัด tier เป็น 🔁 Cyclical (ไม่ใช่ Pre-Inevitable) — sizing คุมด้วย Cyclical cap",
-        "thesis": "4 gates ผ่านทั้งหมด: MoS 21.9% (ราคาล่าสุด $327.99 ต่ำกว่า batch $342.12 อีก), PEG ~1.28 (cap 1.5), ER ~40.1%/yr (สูงสุดในทุกตัวที่ประเมินรอบนี้), WAF 7.50 HIGH — ผ่าน Opportunity Cost Gate ชัดเจน (ER สูงกว่า best core holding TSM 30.3% เกิน 5pp) เข้าเกณฑ์ Edge Sleeve (15-20% ของเงินใหม่ $100 → ใช้ $20) เป็น multibagger-adjacent candidate (Bucket A) ที่ยังไม่ถือ",
-        "thesis_risk": "⚠️ Q2 earnings ยังไม่ออก (กำหนด 07-28) — guidance ที่ใช้ยังไม่ยืนยัน; AI capex slowdown; customer concentration (lumpy revenue); memory oversupply fear ถ้ากลายเป็นจริง (ไม่ใช่แค่ sentiment); Advantest คู่แข่งแย่ง share",
+        "waf": 5.7,
+        "investment_idea": "🚀 Edge Sleeve candidate — Teradyne (ATE duopoly, 70% AI revenue) ร่วง sector-wide ไม่มีข่าวร้ายบริษัท — แต่ภายใต้ tier 🔁 Cyclical ที่ยอมรับจาก Charlie ต้อง valuation บน normalized mid-cycle EPS (กฎเหล็ก cyclical bias) ไม่ใช่ peak-year EPS — ผลคือ FV ยุบจาก $420 เหลือ $100 เท่านั้น → MoS ติดลบหนักมาก ถอนคำสั่ง BUY ทั้งหมด (ไม่ใช่แค่ลดขนาด)",
+        "thesis": "Recheck เต็มตาม cyclical framework: normalized EPS = เฉลี่ย non-GAAP EPS 5 ปีจริง (2021 $5.98 / 2022 $4.25 / 2023 $4.25 / 2024 $3.22 / 2025 $3.96 = เฉลี่ย $4.33) ผสมถ่วงน้ำหนักกับ FY26 consensus ปัจจุบันที่ระมัดระวังที่สุด ($6.24, ไม่ใช่ management target $9.50-11 ที่ยังไม่พิสูจน์) ได้ normalized EPS ~$5.29 × normal-cycle multiple 18-20x (10-yr avg P/E จริงคือ 27x แต่รวมปีเฟ้อ AI เข้าไปด้วย ไม่ใช่ 'normal' — ใช้ 18-20x ซึ่งใกล้เคียงช่วงเทรดปกติก่อนยุค AI supercycle) = FV Base ~$100 เท่านั้น เทียบราคา $322.30 (สูงกว่า FV เกือบ 3.2 เท่า) → MoS ราว -222% ไม่ผ่าน gate ใดๆทั้งสิ้น; PEG ไม่ใช้กับ Cyclical (ตาม exception ในกรอบ) แต่ ER ก็ติดลบเมื่อคำนวณจาก normalized FV. Business quality (ATE duopoly + Q1 record $1.28B) ยังจริงและ Story Gate ยัง PASS — นี่คือ **valuation-driven WATCH ไม่ใช่ thesis พัง**: ราคาปัจจุบัน priced-in การที่ supercycle ปัจจุบัน (Q1 revenue +87% YoY, guide FY26 $6B เกือบเท่าตัวจาก 2025) จะต่อเนื่องระยะยาวโดยไม่มี pullback — สมมติฐานที่ยังไม่พิสูจน์และขัดกับกฎเหล็ก 'ห้ามใช้ peak EPS × multiple ปกติ'",
+        "thesis_risk": "AI capex slowdown ทำให้ FY26 supercycle เป็น one-off ไม่ใช่ new-normal (ระบบ record Q1 มี one-time benefits ตามที่ card ระบุเอง); customer concentration lumpy revenue (1 ราย 19%); Advantest competition; ATE cyclical swing ทางประวัติศาสตร์ -15% ถึง +87% ระหว่างปี — ถ้าราคาย่อกลับสู่ normalized FV ~$100 นักลงทุนที่ซื้อ ณ ราคานี้ขาดทุน >60%",
         "scores": {
           "bq": {
             "score": 8.0,
-            "detail": "ATE (automated test equipment) duopoly กับ Advantest; แข็งแกร่งด้าน AI-chip test demand แต่ยังไม่ใช่ moat ระดับ Inevitable — Pre-Inevitable เหมาะสม"
+            "detail": "ไม่เปลี่ยน — ATE duopoly (Teradyne+Advantest) + high switching cost (qualified testers) + Q1 2026 record $1.28B (+87% YoY) ยืนยันความแข็งแกร่งธุรกิจจริง คุณภาพนี้ไม่ใช่ประเด็นที่ถูกท้าทาย"
           },
           "gp": {
-            "score": 7.5,
-            "detail": "AI chip test volume โตตาม semiconductor complexity เพิ่มขึ้น; FY27 consensus growth 35% YoY (ใช้แทน FY26 84.1% ที่เฟ้อจาก base effect กดต่ำปีก่อน)"
+            "score": 7.0,
+            "detail": "AI test demand จริง (70% ของรายได้) แต่ระวัง lumpy/cyclical: Q1 record มี one-time benefits ตามที่ card ยอมรับเอง; FY26 guide $6B เกือบเท่าตัวจาก 2025 ($3.19B) เป็น step-change ที่ยังไม่พิสูจน์ durability ข้ามหลายปี — ลดลงจาก 7.5 เพราะต้องระวัง peak-quarter extrapolation"
           },
           "va": {
-            "score": 7.5,
-            "detail": "ราคา $322.30 (ย่อต่อจาก $327.99): MoS 23.3% ผ่าน gate; ER 40.4%/yr สูงสุดในทุกตัวที่ประเมิน; ⚠️ Cyclical → FV ต้องยืนบน normalized earnings (Warren normalize FY26 +84% ออกแล้ว) และ Q2 earnings 07-28 ยังไม่ยืนยัน guidance — จึงเข้าแค่ครึ่งไม้",
+            "score": 1.8,
+            "detail": "🔴 Recheck เต็มตามกฎ Cyclical (normalized mid-cycle EPS, ไม่ใช่ peak EPS): normalized EPS = เฉลี่ย non-GAAP EPS จริง 5 ปี (2021-2025: $5.98/$4.25/$4.25/$3.22/$3.96 → avg $4.33) ผสมถ่วงน้ำหนัก 50/50 กับ FY26 consensus ที่ระมัดระวังที่สุด ($6.24, ไม่ใช้ management target $9.50-11) = normalized EPS ~$5.29; × normal-cycle multiple 18-20x (ไม่ใช่ 44-46x ปัจจุบันหรือ 10-yr avg 27x ที่รวมปีเฟ้อ AI) → FV Base ~$100; ราคาปัจจุบัน $322.30 สูงกว่า FV เกือบ 3.2 เท่า → MoS ล้มเหลวสิ้นเชิง",
             "price": 322.3,
-            "fair_value_base": 420,
-            "fair_value_bull": 540,
-            "fair_value_bear": 310,
-            "mos_pct": 23.3,
-            "forward_pe": 44.2,
-            "peg": 1.28,
-            "expected_return_5yr_pct": 40.4,
+            "fair_value_base": 100,
+            "fair_value_bull": 150,
+            "fair_value_bear": 70,
+            "mos_pct": -222.3,
+            "forward_pe": null,
+            "peg": null,
+            "expected_return_5yr_pct": -13.5,
             "valuation_assumptions": {
-              "fair_value_method": "Terminal-value 5yr; Base multiple × FY27 EPS consensus",
-              "pe_multiple_rationale": "Base multiple อิง historical range ATE sector premium สำหรับ AI-test demand cycle",
-              "eps_basis": "FY27 consensus EPS (stockanalysis.com)",
-              "growth_rate": "35.0% (FY27 YoY, normalized — FY26 headline +84.1% ถูกตัดออกเพราะ inflate จาก FY25 base ต่ำผิดปกติ, ใช้หลักการเดียวกับ TSLA ใน batch 07-15)",
-              "consensus_growth": "35% — convergence (420/322.30)^(1/5)−1 = +5.4% + 35% = ER 40.4%/yr; ⚠️ growth term สูงสุดในพอร์ต ให้ Charlie ตรวจซ้ำกับ consensus หลัง earnings 07-28",
+              "fair_value_method": "Cyclical exception (WARREN.md): normalized mid-cycle EPS × multiple ปกติ — ไม่ใช้ peak-year EPS. Normalized EPS = 50% weight เฉลี่ย 5yr actual non-GAAP EPS ($4.33) + 50% weight FY26 conservative consensus ($6.24) = $5.285 ≈ $5.29; Base multiple 19x (กึ่งกลางช่วง 18-20x normal-cycle) → FV Base $100.5 ≈ $100",
+              "pe_multiple_rationale": "18-20x = ช่วง P/E ปกติของ TER ก่อนยุค AI supercycle (ต่ำกว่า 10-yr avg 27.28x ซึ่งรวมปี AI-inflated เข้าไปแล้ว, ใกล้เคียงช่วงเทรดจริงปี 2019-2023 13-27x); ปัจจุบันเทรดที่ fwd PE 44-46x = ~2.3x ของ normal multiple — สัญญาณ peak-cycle ชัดเจน",
+              "eps_basis": "Normalized (ไม่ใช่ FY26 peak/management target $9.50-11): เฉลี่ย non-GAAP EPS actual 2021-2025 ($5.98/$4.25/$4.25/$3.22/$3.96) + FY26 conservative consensus ($6.24, stockanalysis/Yahoo pre-latest-upgrade) ถ่วงน้ำหนักเท่ากัน",
+              "growth_rate": "ไม่ใช้ตรงๆ ตาม Cyclical exception — ประเมินจาก normalized earnings level แทน",
+              "consensus_growth": "N/A — Cyclical tier ไม่ใช้ PEG cap/growth-based ER แบบมาตรฐาน (WARREN.md Effective PEG Cap ตาราง: 'Cyclical → ใช้ normalized earnings — ไม่ใช้ PEG cap')",
               "variant_view": null,
-              "mos_formula": "(FV $420 − Price $322.30) ÷ $420 = 23.3%",
-              "data_source": "prices_cache 2026-07-17 (CNBC/Nasdaq) + watchlist_valuations batch 2026-07-15 + Charlie review 2026-07-16"
+              "mos_formula": "(FV Base $100 − Price $322.30) ÷ $100 = -222.3%",
+              "data_source": "WebSearch 2026-07-17: Macrotrends/stockanalysis TER annual non-GAAP EPS 2021-2025; Simply Wall St FY26 consensus EPS $6.24 (pre-upgrade); public.com fwd PE 48.58 + PT $423.41; company FY26 target model $6B rev / $9.50-11 EPS (10-K/earnings call, ไม่ใช้เป็น normalized basis เพราะยังไม่พิสูจน์)"
             }
           },
           "ra": {
-            "score": 6.5,
-            "detail": "ราคาร่วงจาก sector selloff ไม่ใช่บริษัท (ดี); แต่ Q2 earnings 07-28 ยังไม่ยืนยัน guidance = event risk ค้าง; lumpy customer concentration"
+            "score": 5.0,
+            "detail": "ลดจาก 6.5 — เพิ่มน้ำหนักให้ cyclical-peak signature: insider sale ก่อน earnings (10b5-1 pre-planned แต่ timing ไม่สวย) + fwd PE 44-46x หลังวิ่ง +140-268% YTD ใกล้ ATH + customer concentration 19%/12%/10%; Q2 earnings 07-28 ยังไม่ยืนยัน guidance"
           }
         },
         "thesis_log": [
@@ -1408,37 +1429,41 @@
             "date": "2026-07-17",
             "event": "RECHECK",
             "note": "Re-issue BUY $10; ยอมรับ Charlie tier downgrade 🚀→🔁 Cyclical; ราคา $322.30 MoS ขยาย 21.9%→23.3%; รอ earnings 07-28 ก่อนเติมส่วนที่เหลือ (Paper #4)"
+          },
+          {
+            "date": "2026-07-17",
+            "event": "RECHECK → WATCH",
+            "note": "Deep single-stock recheck ตามคำสั่งโอ๊ต (ก่อน execute): apply normalized mid-cycle EPS (5yr avg $4.33 blended กับ FY26 conservative consensus $6.24 = ~$5.29) × normal multiple 18-20x = FV Base $420→$100; MoS 18.5%→-222%; WAF 7.50→5.70 LOW → ถอนคำสั่ง BUY $10 ทั้งหมด, Action BUY→WATCH; ไม่ execute คืนนี้ — รอ Q2 earnings 07-28 พิสูจน์ durability ก่อนพิจารณาใหม่"
           }
         ],
-        "charlie_verdict": "CAUTION",
-        "charlie_caution": true,
-        "note": "ไม้แรกลดครึ่ง $20→$10 ตาม Charlie CAUTION (คงเดิมจาก Paper #3 — คำสั่งไม่เคย execute จึง re-issue); ส่วนที่เหลือ $10 พิจารณาหลัง Q2 earnings 28 ก.ค. 16:30 ET ยืนยัน guidance + Charlie re-review; total_invested แก้เป็น $10 (Paper #3 เขียน $20 ค้างก่อน halve)",
+        "note": "⚠️ กลับคำ BUY เดิม (Paper #3/#4 draft) — deep recheck ตามคำสั่งโอ๊ตพบว่า Warren Base-case FV $420 ไม่ผ่านกฎเหล็ก cyclical bias (ใช้ปีที่ผลประกอบการพุ่งจาก AI supercycle เป็นฐาน ไม่ใช่ normalized mid-cycle); เมื่อแก้ตาม WARREN.md → cyclical exception, MoS ติดลบรุนแรง ไม่มีการ execute BUY ใดๆ ($10 half-tranche เดิมไม่ถูกซื้อ) — ตอบ Charlie CAUTION แบบเข้มกว่าที่ Charlie เสนอเอง (Charlie floor ยังใช้ current-multiple $330, Warren ไปไกลกว่าด้วยการ normalize multiple ด้วย ไม่ใช่แค่ EPS) | Charlie independent recheck (07-17 เย็น): AGREE กับ WATCH — independent normalized FV ~$200 (consensus EPS $6.94 × 29x blend 10y/5y avg PE) vs ราคา $322.30 = +61% เหนือ FV; insider sale ต่อเนื่อง ($6.7M ขาย/$0 ซื้อ 3 เดือน); ไม่มีเหตุผลซื้อแม้ครึ่งไม้ก่อนงบ 07-28",
         "charlie_response": [
-          "Tier: ข้อมูล Charlie ถูก — revenue history 2022 $3.16B→2023 $2.68B (−15.2%)→2024 +5.4%→2025 +13.1% คือ pattern Cyclical ชัด และ Warren เอง normalize FY26 growth ออกแบบเดียวกับที่ทำกับ cyclical → ปรับ tier 🚀→🔁 Cyclical ใน Paper นี้ (Story Gate ใน card จะแก้ตอน /warren watchlist รอบหน้า — paper run ห้ามแตะ card)",
-          "ผลต่อ category cap ที่ Charlie ชี้: TER ย้ายออกจาก Pre-Inevitable → Cyclical ทำให้ Pre-Inevitable = 46.4% (ไม่ตึงอย่างที่ Paper #3 อ้าง) และ Cyclical = 3.6% — ตัวเลขทั้งหมดรายงานใหม่ใน category_allocation แล้ว",
-          "FV gap 27.3% (Warren $420 vs Charlie floor $330): floor ของ Charlie = fwd EPS × fwd P/E ปัจจุบันแบบ no-multiple-expansion เป็น baseline ที่ conservative กว่าโครงสร้าง; Street PT ปรับขึ้นแรง (Cantor $550, BofA $525 > Warren Bull $540/Base $420) — ยังยืน FV $420 แต่ยอมรับว่า unverified จนกว่า Q2 earnings 28 ก.ค. → จึงคง first tranche ครึ่งเดียว $10 ตามกติกา CAUTION และไม่เติมส่วนที่เหลือก่อน earnings"
-        ]
+          "Charlie ชี้ FV gap +27.3% (Warren $420 vs floor $330) — เห็นด้วยทิศทางแต่ recheck เข้มกว่า: floor $330 ของ Charlie ยังใช้ current-elevated forward multiple (no expansion จากปัจจุบัน) ซึ่งยังไม่ใช่ 'normal cyclical multiple' ตามกฎ WARREN.md; เมื่อ normalize ทั้ง EPS (mid-cycle เฉลี่ย 5 ปี) และ multiple (18-20x แทน 44-46x ปัจจุบัน) พร้อมกัน → FV ยุบเหลือ ~$100 ต่ำกว่าทั้ง Warren เดิมและ Charlie floor มาก",
+          "Insider sale (Fool 07-16) + fwd PE 44-46x หลัง +140-268% YTD ใกล้ ATH — ยอมรับเต็มที่ว่าตรงกับ Cyclical Peak Bias signature พอดี (Lynch peak pattern: analyst target ไล่ขึ้นรัวๆ + ราคาทำ ATH + insider ขาย แม้เป็น 10b5-1 pre-planned ก็ไม่ได้ลบล้าง timing ที่ไม่สวย) — จึงถอน BUY ทั้งหมด ไม่ใช่แค่ลดครึ่งไม้",
+          "Tier downgrade 🚀→🔁 Cyclical (ยอมรับแล้วรอบก่อน) — recheck นี้คือผลที่ตามมาตามตรรกะ: เมื่อเป็น Cyclical ต้อง apply มาตรฐาน valuation ที่เข้มกว่าทันที ไม่ใช่แค่เปลี่ยน label เฉยๆ"
+        ],
+        "charlie_verdict": "AGREE"
       },
       {
         "ticker": "CASH",
         "action": "HOLD",
-        "amount_usd": 20.0,
+        "amount_usd": 40.0,
         "conviction": null,
         "waf": null,
         "scores": null,
-        "thesis": "Buffer $20 รอ: (1) โอ๊ตตัดสินทิศทาง NVDA หลัง FV correction (ถ้าอยากให้กลับเข้า ADD ต้องรอ MoS ≥15%), (2) ASML STARTER (MoS ~15.0% แต่ FV $2,100 เป็น same-day estimate ต้องรอ Charlie verify) + AVGO STARTER (รอ reconcile PE basis) — ทั้งคู่ตาม memory ต้อง verify ก่อน deploy, (3) TER ไม้ที่เหลือ $10 หลัง earnings 07-28"
+        "thesis": "Buffer $40 รอ: (1) โอ๊ตตัดสินทิศทาง NVDA หลัง FV correction (ถ้าอยากให้กลับเข้า ADD ต้องรอ MoS ≥15%), (2) ASML STARTER (MoS ~15.0% แต่ FV $2,100 เป็น same-day estimate ต้องรอ Charlie verify) + AVGO STARTER (รอ reconcile PE basis) — ทั้งคู่ตาม memory ต้อง verify ก่อน deploy, (3) TER ทั้งไม้ ($10 เดิมไม่ execute) — deep recheck 07-17 พบ FV ยุบเหลือ $100 ภายใต้ normalized cyclical framing (MoS -222%) → WATCH ไม่ซื้อคืนนี้ รอ Q2 earnings 07-28 หรือราคาย่อลงมาก, (4) NFLX ลดไม้ $20→$10 (recheck พบ FV แก้เป็น $98, engagement-erosion evidence เพิ่มความเสี่ยง) — $10 ที่เหลือรอ verify เพิ่มเติมหลัง shareholder letter เต็มฉบับ"
       }
     ],
     "category_allocation": {
-      "basis": "cost basis หลัง deploy รอบนี้ (total invested $280)",
-      "inevitable_pct": 50.0,
-      "inevitable_detail": "MSFT $70 (25.0%) + AMZN $40 (14.3%) + TSM $30 (10.7%) = $140 → 50.0% ≤ cap 80% ✓",
-      "pre_inevitable_pct": 46.4,
-      "pre_inevitable_detail": "NVDA $60 (21.4%) + META $30 (10.7%) + NFLX $40 (14.3%) = $130 → 46.4% ≤ cap 60% ✓ (คลายลงจากที่ Paper #3 อ้างว่าตึง เพราะ TER ย้ายไป Cyclical)",
-      "cyclical_pct": 3.6,
-      "cyclical_detail": "TER $10 → 3.6% ≤ cap 15% ✓ (ต่ำกว่า range 5-15% ชั่วคราวเพราะ CAUTION half-tranche — จะเข้า range เมื่อเติมไม้หลัง earnings 07-28)",
-      "max_single_position": "NVDA 21.4% ≤ 50% ✓",
-      "theme_concentration_flag": "⚠️ AI-Infrastructure correlated (NVDA+MSFT+AMZN+TSM+META) = $230/280 = 82.1% > 80% → flag ตาม Rule #10: เงินใหม่เดือน ส.ค. ใช้ลำดับ fallback (1) หุ้น theme อื่นที่ผ่าน Opportunity Cost Gate (2) Edge Sleeve (3) SGOV; effective positions ≈ 2-3 ตัวจริง (AI-megacap block correlation ~0.9 + NFLX + TER)"
+      "basis": "cost basis หลัง deploy รอบนี้ (total invested $260, ปรับหลัง recheck TER/NFLX 07-17 + Charlie enforce)",
+      "inevitable_pct": 53.8,
+      "inevitable_detail": "MSFT $70 + AMZN $40 + TSM $30 = $140 -> 53.8% <= cap 80% (pass)",
+      "pre_inevitable_pct": 46.2,
+      "pre_inevitable_detail": "NVDA $60 + META $30 + NFLX $30 = $120 -> 46.2% <= cap 60% (pass)",
+      "cyclical_pct": 0.0,
+      "cyclical_detail": "TER $0 -> 0% (WATCH only หลัง recheck — Story Gate PASS/tier Cyclical ยืนยันแล้ว แต่ normalized mid-cycle EPS valuation ไม่ผ่าน gate ใดๆ; cap <=15% satisfied trivially, รอ Q2 earnings 07-28 หรือราคาย่อก่อนพิจารณาใหม่)",
+      "max_single_position": "NVDA $60/260 = 23.1% <= 50% (pass)",
+      "theme_concentration_flag": "[FLAG] AI-Infrastructure correlated (NVDA+MSFT+AMZN+TSM+META) = $230/260 = 88.5% > 80% -> flag ตาม Rule #10: เงินใหม่เดือน ส.ค. ใช้ลำดับ fallback (1) หุ้น theme อื่นที่ผ่าน Opportunity Cost Gate (2) Edge Sleeve (3) SGOV; effective positions ~2 ตัวจริง (AI-megacap block correlation ~0.9 + NFLX เท่านั้น, TER ไม่นับเพราะไม่ได้ถือ)"
     },
     "holdings_recheck": {
       "date": "2026-07-17",
@@ -1446,10 +1471,10 @@
       "table": [
         {
           "ticker": "NVDA",
-          "price": 207.4,
+          "price": 205.96,
           "fv_base": 233,
-          "er_pct": 30.0,
-          "band": "ADD band แต่ MoS 11.0% < gate 15% + freeze → HOLD",
+          "er_pct": 30.1,
+          "band": "ADD band แต่ MoS 11.6% < gate 15% + freeze → HOLD (price refresh 07-17 sell-off, ยังไม่ผ่าน)",
           "if_wrong_fired": false
         },
         {
@@ -1479,21 +1504,21 @@
         {
           "ticker": "NFLX",
           "price": 67.64,
-          "fv_base": 121.9,
-          "er_pct": 30.5,
-          "band": "ADD ✓ (conservative growth 18%)",
+          "fv_base": 98,
+          "er_pct": 22.7,
+          "band": "ADD ✓ (FV แก้ตรงสูตรแล้ว 07-17, MoS 31.0%, growth ปรับลงเหลือ 15% conservative)",
           "if_wrong_fired": false
         },
         {
           "ticker": "TSM",
-          "price": 409.74,
+          "price": 407.0,
           "fv_base": 485,
-          "er_pct": 30.4,
-          "band": "ADD ✓",
+          "er_pct": 30.6,
+          "band": "ADD ✓ (price refresh 07-17: capex-guidance sell-off, MoS ขยับ 15.5%→16.1%, RA ลดเล็กน้อยจาก capex/margin risk confirmed)",
           "if_wrong_fired": false
         }
       ],
-      "note": "ไม่มีตัวไหน ER <10% → ไม่มี SELL consideration; ⚠️ 5/6 ตัวทะลุ 20% (ไม่ครบ batch จึงยังไม่เข้าเงื่อนไข 'เฟ้อทั้ง batch' แต่ให้ Charlie ตรวจ growth terms ต่อเนื่องตาม §2.6)"
+      "note": "ไม่มีตัวไหน ER <10% → ไม่มี SELL consideration; 🔧 07-17 evening: NFLX FV แก้จาก $121.9→$98 (formula error), TER ถอด BUY ออกจาก consideration หลัง normalized-cyclical recheck ล้มเหลว MoS | 🔄 07-17 เย็น: broad semi sell-off (TSM capex-guidance $60-64B trigger) — NVDA/TSM price refresh, MoS ทั้งคู่ขยับดีขึ้นเล็กน้อย (ราคาลง FV เดิม) ยังไม่ถึงจุดเปลี่ยน action; MSFT/AMZN/META ราคาไม่เปลี่ยนจากที่ใช้อยู่แล้ว"
     },
     "rejected_candidates": [
       {
@@ -1521,6 +1546,10 @@
         "ticker": "SOLS",
         "reason": "ผ่าน gate ทางกลไกทั้ง 4 ข้อ (MoS 30.6%, PEG 0.98, ER 31.2%) แต่ Warren override เป็น WATCH เพราะ M&A ($14.5B Element Solutions, ยัง pending close H1 2027) ทำให้ FV มาตรฐาน (standalone) ไม่ price-in dilution/debt จริง",
         "decision": "WATCH — รอ deal terms ชัดเจนขึ้นหรือ close"
+      },
+      {
+        "ticker": "TER (BUY reversed → WATCH)",
+        "reason": "Deep recheck 07-17: ภายใต้ tier 🔁 Cyclical (ยอมรับจาก Charlie) ต้อง valuation บน normalized mid-cycle EPS (5yr avg $4.33 ผสม FY26 conservative consensus $6.24 = ~$5.29) × normal multiple 18-20x = FV Base $100 เท่านั้น (จากเดิม $420 ที่ใช้ current-elevated fwd PE 44-46x หลังหุ้นวิ่ง +140-268% YTD ใกล้ ATH — ตรง Cyclical Peak Bias signature ที่ Charlie เตือน); MoS ~-222% ล้มเหลวสิ้นเชิง WAF ยุบ 7.50→5.70 LOW → ถอน BUY $10 ทั้งหมด ไม่ execute คืนนี้"
       }
     ],
     "retrospective": {
@@ -1693,6 +1722,6 @@
         "target": "INVESTMENT_PHILOSOPHY.md — ER calibration review"
       }
     ],
-    "lessons_summary": "[MERGE NOTE 2026-07-17: Paper #3 draft (07-16, $80) ไม่เคยถูก execute จริงใน Sheets — รวมเข้ากับฉบับแก้ไขนี้เป็น Paper #3 ใบเดียว (ไม่มี Paper #4 แยกต่างหากอีกต่อไป) ตามคำสั่งโอ๊ต 2026-07-17; ราคา/FV/tier ทั้งหมดในใบนี้ใช้ข้อมูล 07-17 เป็นหลัก] Paper #3→#4: (1) ⚠️ EXECUTION GAP — Paper เขียนเสร็จ ≠ ซื้อแล้ว: Paper #3 ไม่เคยถูก execute, Sheets คือ source of truth เดียว (cash + total_invested ต้อง reconcile กับ Sheets ทุกรอบก่อนเขียน); (2) NVDA EPS mislabel ~2x (FY29 เป็น FY27) — บทเรียน: eps_basis ต้อง sanity check กับ implied EPS จาก market fwd P/E เสมอ; (3) META วิ่งเร็ว = บทเรียน pause ADD ไว (carry จาก #3, ราคาเริ่มย่อกลับจริง); (4) Staged entry (TSM) + drawdown-ไม่ใช่-sell (NFLX Q2 −9% แต่ thesis ยืน → ADD) ทำงานตามแบบ; (5) Growth terms ระบบโน้มสูง — Charlie จับ NFLX gap 12-18pp, Warren เริ่มรายงาน conservative ER คู่กัน"
+    "lessons_summary": "[MERGE NOTE 2026-07-17: Paper #3 draft (07-16, $80) ไม่เคยถูก execute จริงใน Sheets — รวมเข้ากับฉบับแก้ไขนี้เป็น Paper #3 ใบเดียว (ไม่มี Paper #4 แยกต่างหากอีกต่อไป) ตามคำสั่งโอ๊ต 2026-07-17; ราคา/FV/tier ทั้งหมดในใบนี้ใช้ข้อมูล 07-17 เป็นหลัก] Paper #3→#4: (1) ⚠️ EXECUTION GAP — Paper เขียนเสร็จ ≠ ซื้อแล้ว: Paper #3 ไม่เคยถูก execute, Sheets คือ source of truth เดียว (cash + total_invested ต้อง reconcile กับ Sheets ทุกรอบก่อนเขียน); (2) NVDA EPS mislabel ~2x (FY29 เป็น FY27) — บทเรียน: eps_basis ต้อง sanity check กับ implied EPS จาก market fwd P/E เสมอ; (3) META วิ่งเร็ว = บทเรียน pause ADD ไว (carry จาก #3, ราคาเริ่มย่อกลับจริง); (4) Staged entry (TSM) + drawdown-ไม่ใช่-sell (NFLX Q2 −9% แต่ thesis ยืน → ADD) ทำงานตามแบบ; (5) Growth terms ระบบโน้มสูง — Charlie จับ NFLX gap 12-18pp, Warren เริ่มรายงาน conservative ER คู่กัน | Recheck 07-17 (ก่อน execute): (6) TER — apply cyclical mid-cycle EPS อย่างเข้มงวดจริง (ไม่ใช่แค่เปลี่ยน tier label) เผยว่า FV เดิม $420 ใช้ peak-year earnings power แบบเดียวกับที่กฎห้ามไว้ชัดเจน — MoS ยุบเหลือ -222%, ถอน BUY ทั้งหมด: บทเรียน = ทุกครั้งที่ tier เปลี่ยนเป็น Cyclical ต้อง re-run valuation เต็มด้วย normalized EPS ทันที ไม่ใช่แค่แก้ label แล้วคง FV เดิม; (7) NFLX — พบ FV formula error เดิม (28x label แต่คำนวณจริงที่ ~35x) ยืนยัน pattern เดียวกับ NVDA EPS-mislabel: ต้อง cross-check multiple×EPS=FV ทุกครั้งก่อนบันทึก ไม่ใช่แค่ตอน Charlie ทัก"
   }
 ]
