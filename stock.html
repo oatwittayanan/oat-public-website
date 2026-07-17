@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260717134429"></script>
+  <script src="knowledge.js?v=20260717174403"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -144,19 +144,6 @@ let STOCKS = {};
 
 // ─── Legacy inline data (fallback if stocks.json fails to load) ────────────
 const STOCKS_INLINE = {
-  NVDA: {
-    name: 'NVIDIA Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
-    chips: ['Semiconductor', 'AI Infrastructure'],
-    action: 'buy', actionLabel: 'Buy', conviction: 3,
-    waf: 8.8, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 211.8, fv: 308, mos: 31.2, fpe: 13.8, peg: 0.74,
-    scores: { bq: [9.5,'green',95], gp: [9.5,'green',95], va: [8.5,'green',85], ra: [6.5,'amber',65] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).', why: 'Consensus is treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren sees NVDA\'s Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction — Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) are unchanged and MoS at $211.80 is still 31%+; market is repricing the AI-semi basket without differentiating NVDA\'s contracted backlog visibility from names with genuine demand questions (SK Hynix).', risk: 'Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven).', updated: '2026-07-15' },
-    idea: 'BUY — formula correction (ER = convergence + consensus growth) flips this from HOLD to a fresh-money BUY signal: MoS 31.2%, PEG 0.74, ER 26.5%/yr all clear gates comfortably; existing holding so this is an ADD signal, not fresh-position.',
-    bull: ['CUDA ecosystem 7.5M developers = switching cost ที่แทบเป็นไปไม่ได้จะ migrate', 'Blackwell architecture รัน majority ของ Data Center revenue แล้ว', 'FY2026 Revenue $215.9B +65% YoY, FCF $96.6B = cash machine', 'Q1 FY2027 guidance $78B = growth ยังไม่หยุด', 'Full-stack AI factory: GPU + Networking + Software (CUDA/NIM)'],
-    risk: ['Valuation สูง — ต้องการ execution perfect หลายปีต่อเนื่อง', 'US export restrictions ต่อ China H20 chips กระทบ revenue ทันที', 'Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด', 'AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน', 'Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation'],
-    updated: '2026-07-15'
-  },
   MSFT: {
     name: 'Microsoft', sector: 'Big Tech', sectorSlug: 'bigtech',
     chips: ['Big Tech', 'Cloud + AI + Productivity'],
@@ -196,6 +183,19 @@ const STOCKS_INLINE = {
     risk: ['China export restrictions ห้ามขาย EUV — กระทบ 10-15% revenue ทันที', 'Semi cyclicality ทำให้ orders อาจชะลอในช่วง down-cycle', 'High-NA EUV ราคา $350M/unit ทำให้ customer deployment ช้า', 'อ่อนไหวต่อ geopolitics EU-China', 'MoS เพียง 8.9% จาก FV $900 — ต้องการ pullback เพื่อ entry ที่ดีขึ้น'],
     updated: '2026-07-16'
   },
+  NVDA: {
+    name: 'NVIDIA Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Semiconductor', 'AI Infrastructure'],
+    action: 'hold', actionLabel: 'Hold', conviction: 3,
+    waf: 8.23, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
+    price: 205.96, fv: 233, mos: 11.6, fpe: 22.0, peg: 0.8,
+    scores: { bq: [9.5,'green',95], gp: [9.5,'green',95], va: [6.5,'amber',65], ra: [6.0,'orange',60] },
+    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).', why: 'Consensus is treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren sees NVDA\'s Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction — Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) are unchanged and MoS at $211.80 is still 31%+; market is repricing the AI-semi basket without differentiating NVDA\'s contracted backlog visibility from names with genuine demand questions (SK Hynix).', risk: 'Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven).', updated: '2026-07-17' },
+    idea: 'AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin + $200B CPU TAM. FV แก้จาก data error (EPS mislabel FY29→FY27): FV $308→$233, MoS 11.6% ต่ำกว่า gate → HOLD.',
+    bull: ['CUDA ecosystem 7.5M developers = switching cost ที่แทบเป็นไปไม่ได้จะ migrate', 'Blackwell architecture รัน majority ของ Data Center revenue แล้ว', 'FY2026 Revenue $215.9B +65% YoY, FCF $96.6B = cash machine', 'Q1 FY2027 guidance $78B = growth ยังไม่หยุด', 'Full-stack AI factory: GPU + Networking + Software (CUDA/NIM)'],
+    risk: ['Valuation สูง — ต้องการ execution perfect หลายปีต่อเนื่อง', 'US export restrictions ต่อ China H20 chips กระทบ revenue ทันที', 'Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด', 'AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน', 'Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation'],
+    updated: '2026-07-17'
+  },
   AVGO: {
     name: 'Broadcom Inc.', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'Custom AI Chips + Networking'],
@@ -221,19 +221,6 @@ const STOCKS_INLINE = {
     bull: ['รายได้ Q3 FY26 record $808M +90% YoY จาก AI/cloud optical demand', 'NVIDIA ลงทุน $2B (Series A preferred) + EMLs/pump lasers sold out >30% imbalance', 'CPO laser chips = growth driver ใหญ่สุด, Greensboro fab อาจเพิ่มรายได้ >$5B', 'vertical integration InP fabs = margin + supply security'],
     risk: ['ราคาวิ่งแรงมาก (52wL $80 → $945) = optical group euphoria', 'forward PE สูงมากบน sentiment', 'convertible notes $3.2B + dilution risk', 'optical demand เป็น supply story — laser bottleneck'],
     updated: '2026-07-16'
-  },
-  NFLX: {
-    name: 'Netflix Inc.', sector: 'Consumer', sectorSlug: 'consumer',
-    chips: ['Consumer', 'Streaming Media'],
-    action: 'buy', actionLabel: 'Buy', conviction: 3,
-    waf: 8.07, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 73.53, fv: 121.9, mos: 39.7, fpe: 21.1, peg: 0.85,
-    scores: { bq: [8.5,'green',85], gp: [7.5,'amber',75], va: [8.7,'green',87], ra: [7.3,'amber',73] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Netflix มี Content Library + Algorithm Moat — ทุ่มลงทุน $17-18B/ปีสร้าง Original Content ที่ competitors ไม่สามารถ replicate ได้ทันที; 325M+ paid subscribers ทั่วโลก = data flywheel; Password sharing crackdown ปลดล็อก growth ในตลาด penetration ต่ำ; Ad-supported tier ขยาย TAM', why: 'Consensus แบ่งเป็น 2 ฝั่งก่อน Q2 earnings (07-16 พรุ่งนี้): "engagement เสียส่วนแบ่งให้ YouTube" (ราคาไหลลงใกล้ 52-week low $70.86) vs "ad monetization กำลังเร่ง" (ad revenue จะโต 2x เป็น ~$3B ปี 2569); ราคาตอนนี้ $73.53 ใกล้จุดต่ำสุดรอบปี ก่อนผลประกอบการ Warren เห็นต่างว่า pullback รอบนี้สะท้อน sentiment/engagement-narrative de-rating มากกว่าความเสื่อมพื้นฐานที่ยืนยันแล้ว (ไม่มี guidance cut, Q1 ยัง beat) — ตรงกับหลัก Marks "de-rate จาก sentiment ≠ สัญญาณขาย"; ผู้บริหารยังฉวยโอกาสซื้อทรัพย์สินถูก (Radford Studio Center ~$400M เทียบราคาขายปี 2564 ที่ $1.85B) ขณะที่ WSJ ปฏิเสธข่าวลือ NBCUniversal takeover ลดความเสี่ยง capital misallocation — Mr. Market กำลังเสนอราคาที่ดีขึ้นบนธุรกิจที่ไม่เปลี่ยน (หรือดีขึ้นเล็กน้อยจาก M&A ฉลาด) ไม่ใช่ข้อมูลใหม่เรื่อง moat เสื่อม', risk: 'Q2 earnings (07-16) ยืนยัน engagement เสื่อมจริง (ไม่ใช่ noise ระยะสั้น) พร้อม guidance cut, หรือ content cost inflation กด margin ต่ำกว่า guided 31.5-32.6%, หรือมี M&A ขนาดใหญ่ (ระดับ NBCUniversal) เกิดขึ้นจริงในราคาที่ทำลาย capital discipline', updated: '2026-07-15' },
-    idea: 'Price near 52-wk low pre-Q2-earnings (07-16) on YouTube-engagement narrative; MoS best in Big Tech watchlist; Radford Studio bargain buy + NBCU rumor denial reinforce capital discipline. All 4 gates pass cleanly.',
-    bull: ['Password sharing crackdown สำเร็จ = 300M+ paid subscribers เติบโตต่อ', 'Ads-supported tier growing fast = pricing power + margin expansion', 'Live Sports (NFL Christmas, WWE Raw) = retention + acquisition', 'Content flywheel = cost per hour ลดทุกปีเมื่อ scale ใหญ่ขึ้น', 'Games expansion ฟรีสำหรับ subscribers = engagement เพิ่ม'],
-    risk: ['MoS 4.5% ต่ำมาก — ราคา $1,080 แทบไม่มี safety net', 'Content cost inflation ถ้า Hollywood guild ขอเพิ่มค่าจ้าง', 'Disney+/Prime/Max competition ยังไม่ยอมแพ้', 'Ad revenue cyclical ถ้า macro slowdown', 'Subscriber growth ceiling ในตลาด developed markets'],
-    updated: '2026-07-15'
   },
   AMZN: {
     name: 'Amazon', sector: 'Big Tech', sectorSlug: 'bigtech',
@@ -274,19 +261,6 @@ const STOCKS_INLINE = {
     risk: ['CapEx FY2026 $125-145B เพิ่ม 2x+ YoY = commitment ใหญ่สุดในประวัติ META', 'Reality Labs ขาดทุน ~$19B FY2025 ไม่มีทิศทาง breakeven ชัดเจน', 'FTC antitrust case (Instagram/WhatsApp) — ถ้าถูกบังคับขาย = thesis change ทันที', 'Revenue 99%+ จาก advertising = cyclical risk สูงถ้า macro อ่อนแอ', 'EU Digital Markets Act ลด targeting effectiveness'],
     updated: '2026-07-15'
   },
-  TER: {
-    name: 'Teradyne, Inc.', sector: 'Semiconductor', sectorSlug: 'semi',
-    chips: ['Semiconductor Test', 'Robotics'],
-    action: 'buy', actionLabel: 'Buy', conviction: 3,
-    waf: 7.5, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 342.12, fv: 420, mos: 18.5, fpe: 46.9, peg: 1.34,
-    scores: { bq: [8.0,'green',80], gp: [7.5,'amber',75], va: [7.5,'amber',75], ra: [6.5,'amber',65] },
-    story_gate: { passed: true, status: 'PASS', tier: '🔁 Cyclical', tier_slug: 'cyclical', what: 'Teradyne เป็น ATE duopoly (กับ Advantest) — เครื่องทดสอบ semiconductor ที่ qualify เข้า production flow ลูกค้าแล้วเปลี่ยนยาก; ~70% รายได้ผูก AI; กลยุทธ์ wafer-to-AI-data-center + Robotics', why: 'ราคาพลิกร่วง -25.8% จาก ATH post-inclusion ($460.98 → $342.12 วันนี้) จาก sector-wide semiconductor selloff (memory oversupply fear + US-China chip export talks ค้าง + AI-capex valuation jitters) — **exactly** index-flow reversal risk ที่ Warren เตือนไว้ใน gate ก่อน (06-22 Nasdaq-100 inclusion rally); ไม่มี earnings miss, guidance cut, หรือเสียลูกค้า — fundamentals (ATE duopoly, ~70% AI revenue, Semi Test ทะลุ $1.1B) ไม่เปลี่ยน ขณะราคาคืน premium ที่วิ่งจาก flow ทั้งหมด Warren เห็นว่านี่คือโอกาส re-price กลับเข้าใกล้ intrinsic value จริง — consensus ยังเทรดตาม index-flow narrative (mean-revert อยู่) ขณะ fundamentals ไม่ขยับ', risk: 'หาก AI capex ชะลอลด test demand, customer concentration (hyperscaler/foundry) ทำรายได้ผันผวน (lumpy), Q1 มี one-time benefits ที่ไม่ใช่ run-rate, Advantest แย่ง memory test share, หรือ Q2 earnings (28 ก.ค.) guidance ผิดหวัง/ยืนยัน memory oversupply fear จริง', updated: '2026-07-17' },
-    idea: 'TER crashed -25.8% from its Nasdaq-100-inclusion ATH ($460.98→$342.12) amid a sector-wide semiconductor selloff (memory oversupply fears + stalled US-China chip export talks + AI-capex jitters) — no earnings miss, no guidance cut, no lost customer. This is exactly the index-flow mean-reversion risk flagged in the prior gate materializing. All 4 BUY gates now clear: MoS 18.5%, PEG 1.34, ER 39.2%/yr, WAF 7.50 — flips from WATCH to a fresh-money BUY signal. Caveat: Q2 earnings not yet reported (due 2026-07-28) — verify guidance holds before final sizing.',
-    bull: ['ATE duopoly + AI test demand 70% of business ยังจริงและแข็งแรง (Story Gate ยัง PASS) — แต่นี่คือ **valuation-driven WATCH ไม่ใช่ thesis พัง**: ราคาปัจจุบันเรียกร้องให้ AI supercycle ต่อเนื่องระยะยาวไม่มี pullback ซึ่งเป็นสมมติฐานที่ยังไม่พิสูจน์และตรงข้ามกับหลักการวัดมูลค่า Cyclical stock'],
-    risk: ['AI capex slowdown; customer concentration (lumpy revenue); memory oversupply fear if it becomes real (not just sentiment); China export-talk stalemate; Advantest competitive share loss; Q2 earnings (07-28) guidance unconfirmed.'],
-    updated: '2026-07-15'
-  },
   LLY: {
     name: 'Eli Lilly and Company', sector: 'Healthcare', sectorSlug: 'healthcare',
     chips: ['Healthcare', 'GLP-1'],
@@ -299,6 +273,19 @@ const STOCKS_INLINE = {
     bull: [],
     risk: ['IRA/Medicare price-setting expanding faster than pipeline diversification offsets it, or generic semaglutide/Chinese competition erodes share faster than patent runway (2036-2040) protects'],
     updated: '2026-07-15'
+  },
+  NFLX: {
+    name: 'Netflix Inc.', sector: 'Consumer', sectorSlug: 'consumer',
+    chips: ['Consumer', 'Streaming Media'],
+    action: 'buy', actionLabel: 'Buy', conviction: 3,
+    waf: 7.4, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 67.64, fv: 98, mos: 31.0, fpe: 19.4, peg: 1.29,
+    scores: { bq: [8.2,'green',82], gp: [6.8,'amber',68], va: [7.8,'amber',78], ra: [6.5,'amber',65] },
+    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Netflix มี Content Library + Algorithm Moat — ทุ่มลงทุน $17-18B/ปีสร้าง Original Content ที่ competitors ไม่สามารถ replicate ได้ทันที; 325M+ paid subscribers ทั่วโลก = data flywheel; Password sharing crackdown ปลดล็อก growth ในตลาด penetration ต่ำ; Ad-supported tier ขยาย TAM', why: 'Consensus แบ่งเป็น 2 ฝั่งก่อน Q2 earnings (07-16 พรุ่งนี้): "engagement เสียส่วนแบ่งให้ YouTube" (ราคาไหลลงใกล้ 52-week low $70.86) vs "ad monetization กำลังเร่ง" (ad revenue จะโต 2x เป็น ~$3B ปี 2569); ราคาตอนนี้ $73.53 ใกล้จุดต่ำสุดรอบปี ก่อนผลประกอบการ Warren เห็นต่างว่า pullback รอบนี้สะท้อน sentiment/engagement-narrative de-rating มากกว่าความเสื่อมพื้นฐานที่ยืนยันแล้ว (ไม่มี guidance cut, Q1 ยัง beat) — ตรงกับหลัก Marks "de-rate จาก sentiment ≠ สัญญาณขาย"; ผู้บริหารยังฉวยโอกาสซื้อทรัพย์สินถูก (Radford Studio Center ~$400M เทียบราคาขายปี 2564 ที่ $1.85B) ขณะที่ WSJ ปฏิเสธข่าวลือ NBCUniversal takeover ลดความเสี่ยง capital misallocation — Mr. Market กำลังเสนอราคาที่ดีขึ้นบนธุรกิจที่ไม่เปลี่ยน (หรือดีขึ้นเล็กน้อยจาก M&A ฉลาด) ไม่ใช่ข้อมูลใหม่เรื่อง moat เสื่อม', risk: 'Q2 earnings (07-16) ยืนยัน engagement เสื่อมจริง (ไม่ใช่ noise ระยะสั้น) พร้อม guidance cut, หรือ content cost inflation กด margin ต่ำกว่า guided 31.5-32.6%, หรือมี M&A ขนาดใหญ่ (ระดับ NBCUniversal) เกิดขึ้นจริงในราคาที่ทำลาย capital discipline', updated: '2026-07-15' },
+    idea: 'Content + Algorithm Moat + Ad Tier Scale — Q2 ยืนยัน EPS beat/margin in-line; ราคาร่วง post-earnings ทำ MoS ถ่าง. FV แก้ formula error $121.9→$98 (28x×$3.49).',
+    bull: ['Password sharing crackdown สำเร็จ = 300M+ paid subscribers เติบโตต่อ', 'Ads-supported tier growing fast = pricing power + margin expansion', 'Live Sports (NFL Christmas, WWE Raw) = retention + acquisition', 'Content flywheel = cost per hour ลดทุกปีเมื่อ scale ใหญ่ขึ้น', 'Games expansion ฟรีสำหรับ subscribers = engagement เพิ่ม'],
+    risk: ['MoS 4.5% ต่ำมาก — ราคา $1,080 แทบไม่มี safety net', 'Content cost inflation ถ้า Hollywood guild ขอเพิ่มค่าจ้าง', 'Disney+/Prime/Max competition ยังไม่ยอมแพ้', 'Ad revenue cyclical ถ้า macro slowdown', 'Subscriber growth ceiling ในตลาด developed markets'],
+    updated: '2026-07-17'
   },
   UBER: {
     name: 'Uber Technologies', sector: 'Consumer', sectorSlug: 'consumer',
@@ -585,6 +572,19 @@ const STOCKS_INLINE = {
     bull: ['Armv9 royalty rate 2x Armv8 = structural revenue uplift ทุกปี', '22M+ developers ecosystem ฝังแน่นใน mobile, IoT, servers', '350B chips shipped = installed base ขนาดใหญ่ที่สุดในโลก', 'CSS (Compute Subsystem) higher royalty tier กำลัง scale', 'AWS Graviton, Apple M-series = royalty revenue ใหม่ขนาดใหญ่'],
     risk: ['P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง', 'RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue', 'Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips', 'SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure', 'UK regulatory environment ไม่แน่นอน'],
     updated: '2026-07-15'
+  },
+  TER: {
+    name: 'Teradyne, Inc.', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Semiconductor Test', 'Robotics'],
+    action: 'watch', actionLabel: 'Watch', conviction: 3,
+    waf: 5.7, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 322.3, fv: 100, mos: -222.3, fpe: null, peg: null,
+    scores: { bq: [8.0,'green',80], gp: [7.0,'amber',70], va: [1.8,'orange',18], ra: [5.0,'orange',50] },
+    story_gate: { passed: true, status: 'PASS', tier: '🔁 Cyclical', tier_slug: 'cyclical', what: 'Teradyne เป็น ATE duopoly (กับ Advantest) — เครื่องทดสอบ semiconductor ที่ qualify เข้า production flow ลูกค้าแล้วเปลี่ยนยาก; ~70% รายได้ผูก AI; กลยุทธ์ wafer-to-AI-data-center + Robotics', why: 'ราคาพลิกร่วง -25.8% จาก ATH post-inclusion ($460.98 → $342.12 วันนี้) จาก sector-wide semiconductor selloff (memory oversupply fear + US-China chip export talks ค้าง + AI-capex valuation jitters) — **exactly** index-flow reversal risk ที่ Warren เตือนไว้ใน gate ก่อน (06-22 Nasdaq-100 inclusion rally); ไม่มี earnings miss, guidance cut, หรือเสียลูกค้า — fundamentals (ATE duopoly, ~70% AI revenue, Semi Test ทะลุ $1.1B) ไม่เปลี่ยน ขณะราคาคืน premium ที่วิ่งจาก flow ทั้งหมด Warren เห็นว่านี่คือโอกาส re-price กลับเข้าใกล้ intrinsic value จริง — consensus ยังเทรดตาม index-flow narrative (mean-revert อยู่) ขณะ fundamentals ไม่ขยับ', risk: 'หาก AI capex ชะลอลด test demand, customer concentration (hyperscaler/foundry) ทำรายได้ผันผวน (lumpy), Q1 มี one-time benefits ที่ไม่ใช่ run-rate, Advantest แย่ง memory test share, หรือ Q2 earnings (28 ก.ค.) guidance ผิดหวัง/ยืนยัน memory oversupply fear จริง', updated: '2026-07-17' },
+    idea: 'Edge Sleeve candidate — Teradyne (ATE duopoly, 70% AI revenue) แต่ deep recheck ภายใต้ tier Cyclical: FV เดิม $420 ใช้ peak-year AI EPS ผิดกฎ; normalized mid-cycle EPS $5.29 × 19x = FV $100 → MoS -222%.',
+    bull: ['ATE duopoly + AI test demand 70% of business ยังจริงและแข็งแรง (Story Gate ยัง PASS) — แต่นี่คือ **valuation-driven WATCH ไม่ใช่ thesis พัง**: ราคาปัจจุบันเรียกร้องให้ AI supercycle ต่อเนื่องระยะยาวไม่มี pullback ซึ่งเป็นสมมติฐานที่ยังไม่พิสูจน์และตรงข้ามกับหลักการวัดมูลค่า Cyclical stock'],
+    risk: ['AI capex slowdown ทำ FY26 เป็น one-off; customer concentration 19%; Advantest competition; cyclical swing -15% ถึง +87%; Q2 earnings 07-28 ยังไม่ยืนยัน durability.'],
+    updated: '2026-07-17'
   },
   TSLA: {
     name: 'Tesla Inc.', sector: 'Consumer', sectorSlug: 'consumer',

@@ -8199,7 +8199,10 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-15
+**Last Updated:** 2026-07-17
+
+**Update (2026-07-17) — FV re-derivation (EPS basis correction, Paper #3)** [VALUATION]
+- ตอบ Charlie DISAGREE: EPS ที่ใช้คำนวณ FV เดิม "~$18+" เป็น FY29/CY2028 mislabeled เป็น FY27 — แก้เป็น FY27 consensus $9.34 (single-variable correction), FV Base $308→$233 (25x), MoS 31.6%→11.0% → ถอน BUY เป็น HOLD. Charlie independent FV $194; ภายใต้ FV-Gap Conservative Rule (gap 16.7%) MoS บน min(FV)=$194 ติดลบ → NO-BUY ยืนยัน. ธุรกิจ/bull thesis ไม่เปลี่ยน — เป็น valuation correction ล้วน. ดู \`## Valuation Range\` สำหรับรายละเอียดเต็ม.
 
 **Update (2026-07-15) — Asia buyer whitelist tightening + broad AI/semi selloff + Tier correction** [PRIMARY/MARKET NEWS]
 - 2026-07-14: NVDA more than halved its approved Asia AI-chip buyer list (Singapore/Malaysia/Japan neo-clouds) after introducing stricter "whitelist" compliance checks (data-center visits, contract verification, end-user interviews) — response to US Commerce Dept May 2026 guidance targeting indirect China re-export via SE Asia entities. Incremental tightening of an already-known/priced China-export risk category — no new risk category, reinforces RA caution slightly.
@@ -8280,7 +8283,7 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-15  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-07-17  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
 **Tier Basis:** Pre-Inevitable: 5/5 Crystallization Signals — pricing✓ (CUDA premium ~18ppt GM over AMD) · switching-cost✓ (7.5M devs, 1.5M models) · margin-expansion✓ (75% GM sustained through hypergrowth) · reinvestment-ROIC✓ (>50%) · crisis✓ (survived 2022 crypto crash + 2025 DeepSeek scare). **TIER CORRECTED this batch (was 🏛️ Inevitable):** prior "Huang CEO transition proven" claim was factually wrong — Jensen Huang is founder-CEO, has never transitioned, no successor tested. WARREN.md's Inevitable criteria explicitly disqualify founder-led companies without a proven successor and name Jensen/NVDA directly — downgrading label to Pre-Inevitable to fix this documentation error (quality unchanged).
 
@@ -8293,48 +8296,51 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-16 (EPS basis correction — see note)  |  **Price:** $210.78  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
+**Last Updated:** 2026-07-17  |  **Price:** $207.40  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Base 25x × FY27 consensus EPS (re-derived เต็มหลัง Charlie DISAGREE)
 
-### Snapshot (Watchlist Refresh)
+### Snapshot (Paper #3 Re-derivation)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $210.78 | — |
-| Fair Value Base | $156 | — |
-| **Margin of Safety** | **-35.1%** | ✗ FAIL (Gate 15%) — price above FV |
-| **5-yr Expected Return** | **12.9%/yr** | ✗ FAIL (Gate ≥15%) — convergence -5.8% + consensus EPS growth 18.7% |
-| Forward P/E (FY27) | ~23.0× | — |
-| **PEG** | **~1.23** (23.0× ÷ 18.7% consensus EPS growth) | ✓ PASS (Effective Cap 1.5), but MoS gate fails |
+| Current Price | $207.40 | — |
+| Fair Value Base | $233 | — |
+| **Margin of Safety** | **11.0%** | ✗ FAIL (Gate 15%) — ต่ำกว่า gate → ถอน BUY, HOLD |
+| **5-yr Expected Return** | **30.0%/yr** | ✓ PASS (Gate ≥15%) — convergence 2.4% + consensus EPS growth 27.6% |
+| Forward P/E (FY27) | ~22.2× | — |
+| **PEG** | **~0.80** (22.2× ÷ 27.6% consensus EPS growth) | ✓ PASS (Effective Cap 1.5) |
+| eps_used / basis | $9.34 (FY27 consensus, \`consensus_forward\`) | — |
 
-> ⚠️ **EPS Basis CORRECTED 2026-07-16** (ad-hoc recheck, prompted by Charlie DISAGREE on Paper #3 review-2026-07-16): The 07-15 snapshot below used an EPS figure of "~$18+" labeled "FY27 consensus" that was actually a **calendar-2028E / FY29 estimate** (UBS C2028E $17.07-18.24; BofA FY29 ~$18.04 — see analyst notes above) mislabeled as the current fiscal year. NVDA's fiscal year ends late January, so FY27 (ending Jan 2027) is the **current** fiscal year, roughly = calendar 2026 — not calendar 2027 or 2028. True FY27 consensus non-GAAP EPS ≈ **$9.15** (Goldman $9.50, JPMorgan $8.73, Seeking Alpha/stockanalysis.com $8.98, Simply Wall St $9.34, FundaAI est $9.42, re-verified via WebSearch 2026-07-16). The old "Forward P/E (C2027E) ~13.8x" line was itself internally inconsistent — $210.78/13.8 implies EPS ~$15.3 (UBS's calendar-2027E, a *different* number from the ~$18 used for FV Base), confirming two different mislabeled EPS figures had been mixed into the same valuation. Corrected FV Base = 17x × $9.15 ≈ $156 — MoS now **negative** (NVDA overvalued ~35% at current price on this basis), consistent with Charlie's independent re-derivation (~$159 FV, DISAGREE). BUY remains frozen pending Oat's decision.
+> ⚠️ **FV Re-derived 2026-07-17 (ตอบ Charlie DISAGREE, Paper #3):** snapshot 07-15 เดิมใช้ EPS "~$18+" labeled "FY27 consensus" ที่จริงเป็น **calendar-2028E/FY29 estimate** mislabeled — NVDA fiscal year จบปลาย ม.ค. ดังนั้น FY27 (จบ ม.ค. 2027) = ปีปัจจุบัน. True FY27 consensus non-GAAP EPS ≈ **$9.34** (Goldman $9.50 / JPMorgan $8.73 / stockanalysis $8.98 / Simply Wall St $9.34, re-verified WebSearch 2026-07-17). แก้ EPS ตัวเดียว (single-variable) + re-rationalize multiple เป็น 25x (PEG 0.80 บน growth 27.6%, discount จาก historical 30-35x เพราะ China share collapse 66%→8%) → **FV Base $233**, MoS 11.0% ต่ำกว่า gate 15% → ถอน BUY, **HOLD**.
+>
+> ⚖️ **FV-Gap Conservative Rule (2026-07-17):** Charlie independent FV = **$194** (gap 16.7% กับ $233 > 15% threshold). min($233, $194) = $194 → MoS บนฝั่งต่ำ = (194−207.40)/194 = **−6.9% ติดลบ** → **NO-BUY** ยืนยัน (สอดคล้อง HOLD). Re-entry ต้องให้ราคาย่อลงหรือ FV สองฝั่ง converge ก่อน — ห้าม unfreeze จน MoS บน min(FV) ผ่าน gate.
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $229 | +8.6% | Premium multiple (25x) × corrected FY27 consensus EPS $9.15 |
-| **Base** | $156 | -26.0% | Base multiple (17x) × corrected FY27 consensus EPS $9.15 |
-| **Bear** | $64 | -69.6% | Compressed multiple (7x) × corrected FY27 consensus EPS $9.15 |
+| **Bull** | $280 | +35.0% | 30x × FY27 consensus EPS $9.34 (Vera CPU TAM realize) |
+| **Base** | $233 | +12.3% | 25x × FY27 consensus EPS $9.34 (PEG 0.80 บน growth 27.6%) |
+| **Bear** | $159 | -23.3% | 17x × FY27 consensus EPS $9.34 (= Charlie floor, no multiple expansion) |
 
-> Prior (stale, pre-correction) figures: FV Base $308 / Bull $360 / Bear $240, MoS +31.2%, ER +26.5%/yr, PEG ~0.74 — all derived from the mislabeled ~$18 EPS figure above and superseded by this correction.
+> Prior (stale, superseded) figures: FV Base $308 (07-15, mislabeled ~$18 EPS) → $156 (07-16 interim, 17x×$9.15) → **$233 (07-17 final)**. เลข $308/$156 เลิกใช้แล้ว.
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 9.5 | 30% | 2.85 | CUDA moat unchanged, ROIC>50%, no Red Flags; unaffected by tier label correction (tier ≠ quality) |
-| GP (Growth Potential) | 9.5 | 30% | 2.85 | Unchanged — no new earnings this batch; Vera CPU TAM + Q2 FY27 guide +34% YoY still intact |
-| VA (Valuation) | 8.5 | 25% | 2.125 | Up from 7.5 — with the Step 5.5 formula correction, all 4 gates now pass comfortably (MoS 31.2%, PEG 0.74, ER 26.5%/yr, WAF); previously scored as a partial-pass (MoS/PEG pass, ER fail) purely due to the convergence-only formula bug, not a real valuation issue |
-| RA (Risk Assessment) | 6.5 | 15% | 0.975 | Down from 7.0 (unchanged this batch) — Asia buyer-list halving (07-14) intensifies (doesn't newly create) China-adjacent compliance risk; supply obligation $119B, securities class action, sector selloff sentiment all unchanged |
-| **WAF Total** | **8.80** | | **VERY HIGH** | |
+| BQ (Business Quality) | 9.5 | 30% | 2.85 | 7 Powers ครบ; ROIC>50%; FCF $96.6B; 5/5 Crystallization Signals ผ่าน — tier label แก้เป็น Pre-Inevitable ถูกต้องแล้ว คุณภาพเดิมไม่เปลี่ยน |
+| GP (Growth Potential) | 9.5 | 30% | 2.85 | Revenue FY2026 +65%; Q1 FY27 guide $78B; Vera CPU $200B TAM ใหม่; Blackwell ramp H2 2026 |
+| VA (Valuation) | 6.5 | 25% | 1.625 | Full re-analysis หลัง Charlie DISAGREE: FV Base $233 (25x × FY27 $9.34); ที่ราคา $207.40 MoS = 11.0% ต่ำกว่า gate; PEG 0.80 + ER 30% ผ่าน แต่ MoS Gate เป็น universal floor |
+| RA (Risk Assessment) | 6.0 | 15% | 0.90 | ลดจาก 6.5 — China AI-chip share ร่วง 66%(2024)→~8%(2026, Bernstein) เป็น structural loss; Musk chip claim watch; customer concentration 36% |
+| **WAF Total** | **8.23** | | **HIGH** | |
 
-**Investment Idea:** BUY — formula correction flips this from HOLD to a fresh-money BUY signal: MoS 31.2%, PEG 0.74, and ER 26.5%/yr (convergence 7.8% + UBS consensus EPS growth 18.7%) all clear their gates comfortably; the July AI-semi selloff (SK Hynix-driven, sector-wide) actually improved the entry math for NVDA specifically since fundamentals are unchanged. Note: NVDA is an existing holding, so this reads as an ADD signal, not a fresh-position Opportunity Cost Gate case.
+**Investment Idea:** AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM ใหม่ (bet เดิม) — แต่ FV ถูกแก้จาก data error: MoS จริง ~11% ไม่ใช่ 31.6% ที่เคยรายงาน; ธุรกิจไม่เปลี่ยน (5/5 signals ผ่าน) แต่ valuation ไม่เหลือ margin พอที่ราคาปัจจุบัน
 
-**Thesis:** CUDA moat + FCF $96.6B + Vera CPU optionality; entry at $211.80 offers wide MoS and, with the formula fix, a clearly-passing ER — the prior ER/FV tension was a formula bug, not a thesis health issue.
+**Thesis:** ธุรกิจไม่เปลี่ยน แต่ valuation model เดิมมี EPS basis error ~2x (mislabel FY29 เป็น FY27) — Warren ยอมรับ Charlie DISAGREE และ re-derive FV เต็มรอบนี้: FV Base $233 → MoS 11.0% ต่ำกว่า gate → HOLD (ไม่มี BUY ให้ unfreeze); ER ~30%/yr ยังสูงแต่ MoS Gate เป็น universal floor ห้ามใช้ ER แทน
 
-**Thesis Risk:** Musk/xAI chip claim (unproven); export curbs intensifying (Asia buyer list halved); customer concentration; tier corrected to Pre-Inevitable this batch (was mislabeled Inevitable in prior batches, carried forward from earlier today).
+**Thesis Risk:** Musk/xAI chip ทำลาย perf-per-dollar ≥50%; hyperscaler CapEx cut >30%; China structural loss ลึกกว่าคิด (share 66%→8%) กด growth consensus; FY27 consensus EPS ถูก revise ลง
 
-**Action:** ✅ BUY (formula-corrected — all 4 gates pass: MoS 31.2% / PEG 0.74 / ER 26.5%/yr / WAF 8.80 VERY HIGH; existing holding, so this is an ADD signal)
+**Action:** ⏸️ HOLD (MoS 11.0% < gate 15% + FV-Gap Conservative NO-BUY บน Charlie FV $194 — ถอนคำสั่ง BUY/ADD; re-entry รอราคาย่อหรือ FV converge)
 
 ---
 ## Recent News
