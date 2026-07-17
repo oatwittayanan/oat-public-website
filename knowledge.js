@@ -8291,28 +8291,30 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-15  |  **Price:** $211.80  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
+**Last Updated:** 2026-07-16 (EPS basis correction — see note)  |  **Price:** $210.78  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $211.80 | — |
-| Fair Value Base | $308 | — |
-| **Margin of Safety** | **31.2%** | ✓ PASS (Gate 15%) |
-| **5-yr Expected Return** | **26.5%/yr** | ✓ PASS (Gate ≥15%) — convergence 7.8% + consensus EPS growth 18.7% (see note) |
-| Forward P/E (C2027E) | ~13.8× | — |
-| **PEG** | **~0.74** (13.8× ÷ ~18.7% C27→C28 consensus EPS growth, UBS) | ✓ PASS (Effective Cap 1.5) |
+| Current Price | $210.78 | — |
+| Fair Value Base | $156 | — |
+| **Margin of Safety** | **-35.1%** | ✗ FAIL (Gate 15%) — price above FV |
+| **5-yr Expected Return** | **12.9%/yr** | ✗ FAIL (Gate ≥15%) — convergence -5.8% + consensus EPS growth 18.7% |
+| Forward P/E (FY27) | ~23.0× | — |
+| **PEG** | **~1.23** (23.0× ÷ 18.7% consensus EPS growth) | ✓ PASS (Effective Cap 1.5), but MoS gate fails |
 
-> ✅ **Formula Correction Applied (2026-07-15):** WARREN.md Step 5.5 was fixed today (ratified 2026-07-13, first applied this batch) — ER must be **convergence + consensus EPS growth**, not convergence alone. Prior 2 batches reported ER=7.8%/yr (convergence-only) and flagged it as an unresolved FAIL despite MoS/PEG passing comfortably. Recomputed: convergence (7.8%) + UBS C27→C28 consensus EPS growth (18.7%, same source already used for PEG) = **26.5%/yr**, clearing the >20%/yr "BUY — น่าสนใจมาก" band decisively. This resolves the 2-batch ER/FV tension — the prior formula was simply omitting the growth term; no FV_base re-derivation needed.
+> ⚠️ **EPS Basis CORRECTED 2026-07-16** (ad-hoc recheck, prompted by Charlie DISAGREE on Paper #3 review-2026-07-16): The 07-15 snapshot below used an EPS figure of "~$18+" labeled "FY27 consensus" that was actually a **calendar-2028E / FY29 estimate** (UBS C2028E $17.07-18.24; BofA FY29 ~$18.04 — see analyst notes above) mislabeled as the current fiscal year. NVDA's fiscal year ends late January, so FY27 (ending Jan 2027) is the **current** fiscal year, roughly = calendar 2026 — not calendar 2027 or 2028. True FY27 consensus non-GAAP EPS ≈ **$9.15** (Goldman $9.50, JPMorgan $8.73, Seeking Alpha/stockanalysis.com $8.98, Simply Wall St $9.34, FundaAI est $9.42, re-verified via WebSearch 2026-07-16). The old "Forward P/E (C2027E) ~13.8x" line was itself internally inconsistent — $210.78/13.8 implies EPS ~$15.3 (UBS's calendar-2027E, a *different* number from the ~$18 used for FV Base), confirming two different mislabeled EPS figures had been mixed into the same valuation. Corrected FV Base = 17x × $9.15 ≈ $156 — MoS now **negative** (NVDA overvalued ~35% at current price on this basis), consistent with Charlie's independent re-derivation (~$159 FV, DISAGREE). BUY remains frozen pending Oat's decision.
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $360 | +70.0% | Premium multiple × growth acceleration |
-| **Base** | $308 | +45.4% | Base multiple × consensus EPS (unchanged, no new earnings) |
-| **Bear** | $240 | +13.3% | Compressed multiple × thesis break |
+| **Bull** | $229 | +8.6% | Premium multiple (25x) × corrected FY27 consensus EPS $9.15 |
+| **Base** | $156 | -26.0% | Base multiple (17x) × corrected FY27 consensus EPS $9.15 |
+| **Bear** | $64 | -69.6% | Compressed multiple (7x) × corrected FY27 consensus EPS $9.15 |
+
+> Prior (stale, pre-correction) figures: FV Base $308 / Bull $360 / Bear $240, MoS +31.2%, ER +26.5%/yr, PEG ~0.74 — all derived from the mislabeled ~$18 EPS figure above and superseded by this correction.
 
 ### WAF Score Breakdown
 

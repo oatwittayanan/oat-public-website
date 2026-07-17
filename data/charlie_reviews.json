@@ -298,7 +298,7 @@
           "warren_price": 244.19,
           "charlie_current": 240.99,
           "52w_high": 278.56,
-          "52w_low": 196.00,
+          "52w_low": 196.0,
           "pct_of_52w_high": 86.5,
           "charlie_mos_pct": 23.5
         }
@@ -375,7 +375,7 @@
           "warren_price": 427.92,
           "charlie_current": 424.19,
           "52w_high": 450.16,
-          "52w_low": 206.20,
+          "52w_low": 206.2,
           "pct_of_52w_high": 94.2,
           "charlie_mos_pct": 9.7,
           "note": "STARTER band ✓ [8-15%] แต่ upside จำกัดระยะสั้น"
@@ -413,5 +413,383 @@
       "TradersUnion: 'Microsoft AI business reaches $37B annual revenue' 2026-06-08"
     ],
     "methodology_note": "yfinance rate-limited — Charlie ใช้ Yahoo Finance Chart API (curl) สำหรับ price data + WebSearch สำหรับ fundamental context. Fundamental metrics (PE/PEG/margins) จาก public sources ไม่ใช่ yfinance direct. Paper #1 review preserved as-is."
+  },
+  {
+    "id": "review-2026-07-16",
+    "date": "2026-07-16",
+    "paper_id": "2026-07-16",
+    "title": "Charlie Review — Paper #3 Deploy เงินเดือน ก.ค. 2026 ($100) + Tier Correction NVDA/META + Edge Sleeve TER",
+    "overall_verdict": "CAUTION",
+    "overall_summary": "MSFT/AMZN/TSM ยืนยันได้ดีจากแหล่งอิสระ (ราคา, Q2 TSM beat, analyst consensus target ใกล้เคียง FV ของ Warren มาก — MSFT/AMZN ต่างกัน <1%). แต่พบปัญหาสำคัญ 2 จุด: (1) NVDA — FV Base $308 อ้างอิง 'FY27 consensus EPS ~$18+ (Yahoo Finance)' ซึ่งขัดกับ consensus จริงที่ verify ได้จาก 3 แหล่ง (Goldman $9.50, JPMorgan $8.73, general consensus $8.98-9.34 ต่อหุ้น) — ต่างกันเกือบ 2 เท่า; ถ้าใช้ EPS ที่ถูกต้องกับ multiple ที่ Warren ระบุเอง (17x) จะได้ FV ~$159 ไม่ใช่ $308 (MoS จะติดลบ ไม่ใช่ +31.6%) — Freeze BUY จนกว่าจะ re-verify EPS source. (2) TER — tier ระบุ Pre-Inevitable แต่ revenue history แสดง cyclical ชัดเจน (2022 $3.155B → 2023 $2.676B ลด -15.2% → 2024 $2.82B → 2025 $3.19B) ผูกกับ semiconductor capex/memory cycle ตรงกับเหตุผลที่หุ้นร่วง -25.8% รอบนี้ (memory-glut panic) — แนะนำ downgrade เป็น Cyclical ซึ่งกระทบการคำนวณ category cap ที่ Warren ใช้อ้างว่า Pre-Inevitable 'ใกล้เต็ม cap' ด้วย.",
+    "frozen_tickers": [
+      "NVDA"
+    ],
+    "tier_change_review": [
+      {
+        "ticker": "NVDA",
+        "warren_change": "🏛️ Inevitable → 🚀 Pre-Inevitable",
+        "tier_verdict": "AGREE",
+        "rationale": "แก้ตามกฎเหล็กถูกต้อง — Jensen Huang เป็น founder-CEO ไม่มี successor พิสูจน์แล้วจริง (ไม่พบข่าว CEO transition ใดๆ). คุณภาพ/moat ไม่เปลี่ยน ไม่กระทบ verdict เรื่องคุณภาพธุรกิจ"
+      },
+      {
+        "ticker": "META",
+        "warren_change": "🏛️ Inevitable → 🚀 Pre-Inevitable",
+        "tier_verdict": "AGREE",
+        "rationale": "เหตุผลเดียวกัน — Zuckerberg founder-CEO ไม่มี successor พิสูจน์แล้ว. Fair — แต่ราคาวิ่ง +21%/สัปดาห์รอบนี้มาจาก catalyst จริง (ดู concern ด้านล่าง) ไม่ใช่ sentiment ล้วนตามที่ Warren ระบุ"
+      }
+    ],
+    "ticker_reviews": [
+      {
+        "ticker": "NVDA",
+        "warren_action": "BUY (ADD)",
+        "warren_amount": 10,
+        "charlie_verdict": "DISAGREE",
+        "charlie_fv": 159,
+        "warren_fv_gap_pct": 93.7,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "Price: Nasdaq API $206.61 (intraday -2.77% วันนี้) vs Warren cache $210.78 — ต่างกัน 1.9%, ยังอยู่ในเกณฑ์ยอมรับได้",
+          "China market share: ยืนยันจาก Bernstein Research ผ่าน WebSearch — NVDA China AI-chip share ร่วงจาก 66% (2024) เหลือ ~8% (2026), Huawei ขึ้นเป็น ~50% — รุนแรงกว่าที่ thesis_risk ระบุไว้มาก (Warren พูดแค่ 'Asia buyer list halved 07-14')",
+          "Analyst 1-yr price target consensus $294-310 (Nasdaq API OneYrTarget $294.00, อีกหลายแหล่งเฉลี่ย ~$304-310) — ใกล้เคียง Warren FV Base $308 โดยบังเอิญ แต่มาจากคนละ input"
+        ],
+        "concerns": [
+          "CRITICAL — EPS basis error: Warren ระบุ 'FY27 consensus EPS ~$18+ (Yahoo Finance)' แต่ verify ได้จาก 3 แหล่งอิสระว่า FY27 consensus EPS จริงอยู่ที่ ~$8.98-9.50 (Goldman Sachs $9.50, JPMorgan $8.73, general consensus $8.98/$9.34) — ต่างกันเกือบ 2 เท่า จากตัวเลขที่ Warren อ้าง",
+          "ถ้าใช้ EPS ที่ verify แล้ว ($9.34) คูณ multiple ที่ Warren ระบุเอง (Base 17x) = FV ~$159 ไม่ใช่ $308 — ที่ราคาปัจจุบัน ~$207-210 นี่จะหมายถึง NVDA แพงกว่า FV ~30% (overvalued) ไม่ใช่ MoS +31.6% ตามที่ Warren รายงาน",
+          "PEG/Forward PE ก็อาจผิดตามไปด้วย: Warren รายงาน forward_pe 13.8 ($210.78/$18.1≈11.6 ไม่ตรงเป๊ะกับที่ระบุด้วยซ้ำ — internal inconsistency); ถ้าใช้ EPS $9.34 จริง forward PE จะ ~22.5x ไม่ใช่ 13.8x และ PEG จะสูงกว่า 0.74 ที่รายงานไว้มาก",
+          "Bull/Bear FV ไม่ scale สอดคล้องกับ EPS เดียวกัน (Bull 25x×$18=$450 แต่รายงาน Bull ไว้ $360; Bear 7x ก็ไม่ตรง) — สัญญาณว่าตัวเลขในโมเดลอาจไม่ผ่านการ cross-check ภายในตัวเอง",
+          "China market share collapse (66%→8%) ที่ verify ได้รุนแรงกว่าที่ RA score 6.5 น่าจะสะท้อน — เป็น structural revenue impact ไม่ใช่แค่ 'watch ต่อเนื่อง'"
+        ],
+        "red_flags": [
+          "EPS assumption ที่ใช้คำนวณ FV Base ($308) ไม่ตรงกับ consensus จริงในระดับที่กระทบทิศทางการตัดสินใจ BUY โดยตรง — ต้อง re-verify แหล่งข้อมูล EPS ก่อนเติมเงินรอบหน้า"
+        ],
+        "verify_further": [
+          "ให้ Warren re-pull FY27 (และ FY28 terminal) consensus EPS จาก Yahoo Finance/stockanalysis.com ใหม่ พร้อม screenshot/citation ชัดเจน ว่าใช้เลขจากไหนได้ $18+",
+          "เช็คว่า Warren สับสนระหว่าง FY27 กับ FY28/29 EPS หรือไม่ (Goldman FY28 EPS estimate ~$15.25, BofA FY29 ~$18.04 — ตัวเลข '$18+' ใกล้เคียง FY29 มากกว่า FY27)",
+          "ถ้าพบว่าใช้ EPS ผิดปีจริง ต้อง re-derive FV Base/Bull/Bear ทั้งหมดใหม่ก่อนเติมเงิน NVDA รอบหน้า"
+        ]
+      },
+      {
+        "ticker": "MSFT",
+        "warren_action": "BUY (ADD)",
+        "warren_amount": 30,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 558.66,
+        "warren_fv_gap_pct": -7.1,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "Price: Nasdaq API $398.07 (+0.62% วันนี้) vs Warren cache $395.50 — ต่างกัน 0.65% เท่านั้น ✓",
+          "Analyst 1-yr consensus target mean $558.66 (yfinance) สูงกว่า Warren FV Base $519 ถึง 7.6% — Warren ระมัดระวังกว่า Street ไม่ใช่เฟ้อ ✓",
+          "Cybersecurity reorg ยืนยันจริง — Microsoft แต่งตั้ง Hayete Gallot (อดีต Google Cloud) เป็น security chief คนใหม่ 07-15, เปลี่ยน leadership team 8 คน, ปรับเป็น AI-security focus (Security Copilot) — ตัดตำแหน่งหลักร้อยตำแหน่ง"
+        ],
+        "concerns": [
+          "Layoff 4,800 ตำแหน่งที่ Warren อ้างเป็น 'cost discipline สไตล์ Fisher' จริงๆ ส่วนใหญ่มาจาก Xbox gaming division (ตัด ~20% ของ Xbox, 3,200 ตำแหน่งตลอดปี) เพราะ 'profitability challenges + hardware crisis' ในธุรกิจเกม — คนละเรื่องกับ cybersecurity reorg (แยกกันคนละ event, headcount เล็กกว่ามาก). Warren เอาสอง events มาปนกันเป็นเรื่องเดียว — narrative ไม่ผิดทิศทางใหญ่ (Azure/Cloud AI ยังโตดี) แต่ควรแยกให้ถูกต้องรอบหน้า",
+          "yfinance forwardEps $19.38 ต่ำกว่า Warren basis $21.63 อยู่ 11.6% — ไม่ถึงเกณฑ์ >20% ที่ต้อง mandatory CAUTION แต่ควร monitor"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "แยก layoff narrative ให้ถูกต้อง (Xbox struggle vs cybersecurity AI pivot) ในรอบหน้า ไม่กระทบ verdict รอบนี้"
+        ]
+      },
+      {
+        "ticker": "AMZN",
+        "warren_action": "BUY (ADD)",
+        "warren_amount": 20,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 314.35,
+        "warren_fv_gap_pct": -0.2,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "Price: Nasdaq API $255.755 vs Warren cache $255.73 — ตรงกันแทบเป๊ะ (+0.01%) ✓",
+          "Analyst 1-yr consensus target mean $314.35 (yfinance) ใกล้เคียง Warren FV Base $315 มาก (ต่างกัน 0.2%) — well-calibrated ✓",
+          "FTC ad-pricing case: ยืนยันจริง — FTC ร่างข้อกล่าวหาเสร็จแล้ว (complaint drafted), มี state AGs ร่วมสอบ, อาจฟ้อง/settle ได้ตั้งแต่ 'this summer' และมีโอกาสค่าปรับระดับพันล้านดอลลาร์ — escalate ชัดเจนกว่าที่ thesis_risk อธิบายไว้แบบกว้างๆ"
+        ],
+        "concerns": [
+          "FTC ad case ใกล้ตัดสิน/ฟ้องมากกว่าที่คิด (อาจเกิดขึ้นใน 1-2 เดือนข้างหน้า) — ra score 6.5 ควร weight เพิ่มเล็กน้อยสำหรับ near-term legal headline risk แม้ระยะยาว AWS thesis ไม่กระทบ"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "ติดตามข่าว FTC filing/settlement ในอีก 4-8 สัปดาห์ — ถ้าฟ้องจริงจะมี headline volatility ระยะสั้น"
+        ]
+      },
+      {
+        "ticker": "TSM",
+        "warren_action": "BUY (ADD)",
+        "warren_amount": 20,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 498.24,
+        "warren_fv_gap_pct": 2.7,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "Price: Nasdaq API $410.255 vs Warren cache $411.63 — ต่างกัน 0.3% ✓",
+          "Q2 2026 results ยืนยันตรงกับที่ Warren อ้างทุกจุด: revenue $40.20B (+36.0% YoY, +12.0% QoQ) ✓, gross margin 67.7% (+1.5pp QoQ) ✓, FY26 guide ปรับเป็น 'slightly above 40% YoY' ตรงกับที่ Warren สรุปว่า '>40%' ✓, Q3 guide $44.6-45.8B (+37% YoY) — เป็นการยืนยัน earnings-pending blocker resolve จริง ไม่ใช่การตีความเกินจริง",
+          "Analyst 1-yr consensus target mean $498.24 สูงกว่า Warren FV Base $485 เล็กน้อย (2.7%) — Warren ระมัดระวังกว่า Street"
+        ],
+        "concerns": [
+          "MoS 15.1% เป็น thin margin เหนือ gate 15% พอดี (0.1pt) ตามที่ Warren เตือนไว้เองแล้ว — ยังต้องติดตาม overseas fab margin dilution H2 2026 ตามที่ guide ไว้"
+        ],
+        "red_flags": [],
+        "verify_further": []
+      },
+      {
+        "ticker": "TER",
+        "warren_action": "BUY (NEW — Edge Sleeve)",
+        "warren_amount": 20,
+        "charlie_verdict": "CAUTION",
+        "charlie_fv": 330,
+        "warren_fv_gap_pct": 27.3,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "SUGGEST_DOWNGRADE",
+        "verified_claims": [
+          "Price: Nasdaq API $329.10 vs Warren cache $327.99 — ต่างกัน 0.3% ✓",
+          "Selloff เป็น sector-wide จริง ไม่ใช่ company-specific — ยืนยันจาก WebSearch: 'memory-glut panic' ทำหุ้นชิปทั้งกลุ่มร่วง, TER เดี่ยวร่วง -13.63% วันเดียว 07-02 — ตรงกับ thesis ของ Warren ว่าไม่มี earnings miss/guidance cut จากบริษัทเอง ✓",
+          "Analyst sentiment เป็นบวกจริง: Cantor Fitzgerald ปรับเป้าขึ้นเป็น $550 (จาก $400), BofA ปรับเป็น $525 (จาก $365) — สูงกว่า FV Bull ของ Warren ($540) ด้วยซ้ำ",
+          "Q2 earnings ยืนยันวันที่ 28 ก.ค. 16:30 ET จริงตามที่ Warren ระบุ — ยังไม่ verify guidance ตามที่เตือนไว้"
+        ],
+        "concerns": [
+          "Tier misclassification risk: Warren ให้ TER = 🚀 Pre-Inevitable แต่ revenue history แสดง cyclical ชัดเจน — 2022 $3.155B → 2023 $2.676B (-15.2%, cyclical downturn ตามข่าว) → 2024 $2.82B (+5.4%) → 2025 $3.19B (+13.1%). Pattern นี้ตรงกับนิยาม Cyclical ใน CHARLIE.md (EPS/revenue swing มาก ผูกกับ capex cycle) มากกว่า Pre-Inevitable (ต้องผ่าน 3+ Crystallization signals แบบ compounding สม่ำเสมอ)",
+          "Warren เองก็ implicit ยอมรับความผันผวนนี้แล้วโดย normalize FY26 headline growth +84.1% ออกเพราะ 'inflate จาก FY25 base ต่ำผิดปกติ' — เป็น pattern เดียวกับการ handle cyclical stock (เหมือน TSLA) แต่ tier label ไม่ได้ปรับตาม",
+          "ผลกระทบ category cap: Warren อ้างว่า Pre-Inevitable 'ใกล้ cap' (50%/60%) เป็นเหตุผลที่ไม่เติม NVDA/META เพิ่ม — ถ้า TER ควรเป็น Cyclical ไม่ใช่ Pre-Inevitable ตัวเลข cap ของทั้งสอง category จะเปลี่ยน กระทบ position sizing logic ของรอบต่อไป",
+          "Charlie independent-FV floor (forward EPS × current forward PE, no multiple expansion) ≈ $330 ใกล้ราคาปัจจุบันมาก vs Warren FV Base $420 (gap 27.3%, เกิน threshold 20%) — ส่วนหนึ่งเพราะ forward PE ปัจจุบัน (33.6x) สูงอยู่แล้วจาก AI-test hype ทำให้ downside ถ้า sentiment กลับ (เช่น memory-glut fear กลายเป็นจริง ไม่ใช่แค่ sentiment) จะแรง"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "ให้ Warren ประเมินใหม่ว่า TER ควรจัดเป็น Cyclical หรือ Pre-Inevitable — ถ้า downgrade เป็น Cyclical ต้อง apply normalized mid-cycle EPS rule (ตามบทเรียน MU 2026-05-29) แทน peak-cycle AI-test demand assumption",
+          "รอ Q2 earnings 07-28 ก่อนพิจารณาเติมไม้ 2 — guidance ที่ใช้ตอนนี้ยังไม่ยืนยัน"
+        ]
+      }
+    ],
+    "points_to_verify": [
+      "NVDA: Warren ต้อง re-source FY27 EPS consensus ให้ตรงกับความจริง ($9.34 ไม่ใช่ $18+) ก่อนเติมเงินรอบหน้า — ตอนนี้ freeze BUY $10 ไว้ก่อน",
+      "TER: รอผล Q2 earnings 07-28 + พิจารณา tier reclassification เป็น Cyclical",
+      "META (HOLD, ไม่ deploy รอบนี้): Warren ระบุว่าราคาวิ่ง +21%/สัปดาห์ 'ไม่มี fundamentals ใหม่' แต่ verify แล้วพบ catalyst จริง — เปิดตัว 'Meta Compute' (cloud infra แข่งกับ AWS/Azure/GCP), Iris chip (ก.ย. 2026), BofA reiterate Buy PT $835. คำอธิบายของ Warren ไม่ตรงกับข้อเท็จจริง (มี fundamentals ใหม่จริง ไม่ใช่แค่ sentiment) แม้ผลลัพธ์ (ไม่เติมไม้ใหม่เพราะ MoS หด) จะยังสมเหตุสมผลอยู่ก็ตาม — ควรแก้ narrative ในรอบหน้า และพิจารณาว่า re-rating นี้ยั่งยืนหรือเป็น speculative optionality ที่ยังไม่พิสูจน์ execution",
+      "NFLX (HOLD รอ earnings): consensus ก่อนประกาศคือ revenue $12.58B (+13.8% YoY), EPS ~$0.79 — สอดคล้องกับการที่ Warren เลือกไม่ ADD ก่อนเห็นผลจริง ถูกต้อง"
+    ],
+    "watch_out": [
+      "Data-integrity risk: พบ EPS assumption ผิดพลาดขนาดใหญ่ในการคำนวณ NVDA FV — ควรเพิ่มขั้นตอน cross-check EPS consensus จาก 2 แหล่งก่อนบันทึกใน valuation_assumptions ทุกครั้ง ไม่ใช่เฉพาะราคา",
+      "Concentration/correlation: Edge Sleeve (TER) ยังอยู่ใน semiconductor/AI-capex supply chain เดียวกับ NVDA/TSM ทางอ้อม — ประโยชน์ด้าน diversification อาจไม่มากเท่าที่ตั้งใจ ถ้า AI-capex cycle turn ลง TER+NVDA+TSM+MSFT(Azure capex)+AMZN(AWS capex) จะร่วงพร้อมกันได้",
+      "Tier classification discipline: พบ pattern ว่า tier label 'ตกหล่น' ได้ง่ายเมื่อไม่มี explicit checklist (NVDA/META Inevitable bug ค้าง 5 สัปดาห์ในรอบก่อน, ตอนนี้ TER เข้าข่ายเดียวกันฝั่ง Pre-Inevitable/Cyclical) — ควรมี checklist บังคับทุกครั้งที่ assign tier ใหม่ ไม่ใช่แค่ตอน correct bug"
+    ],
+    "data_sources": [
+      "yfinance — MSFT/AMZN/TSM/TER/META/NFLX info snapshot 2026-07-16 (NVDA yfinance rate-limited หลายครั้ง ใช้ Nasdaq API + WebSearch แทน)",
+      "Nasdaq API (api.nasdaq.com/api/quote/{TICKER}/info) — second-source price cross-check ทุก ticker 2026-07-16 ~11:11 AM ET",
+      "WebSearch: Bernstein Research China AI-chip market share (Tom's Hardware, FourWeekMBA, Techloy) 2026-07",
+      "WebSearch: TSMC Q2 2026 earnings (Bitget, TechTimes, TradingKey) 2026-07-16",
+      "WebSearch: Microsoft layoffs/cybersecurity reorg (GuruFocus, PYMNTS, TipRanks, FoxBusiness) 2026-07",
+      "WebSearch: Teradyne news/analyst targets (TIKR, StockStory) + yfinance income_stmt revenue history 2022-2025",
+      "WebSearch: Amazon FTC ad-pricing probe (Blockonomi, Yahoo Finance, LawYard) 2026-07",
+      "WebSearch: Meta Compute / stock surge catalysts (CNBC, TradingKey, Fool) 2026-07",
+      "WebSearch: NVDA FY27 EPS consensus (Yahoo Finance, Seeking Alpha, VCP Scanner, various analyst estimates) 2026-07 — Goldman Sachs $9.50, JPMorgan $8.73, general consensus $8.98-9.34",
+      "WebSearch: Netflix Q2 2026 earnings preview consensus (Tickeron, Hudson Labs) 2026-07-16"
+    ]
+  },
+  {
+    "id": "review-2026-07-17",
+    "date": "2026-07-17",
+    "paper_id": "2026-07-17",
+    "title": "Charlie Review — Paper #4",
+    "overall_verdict": "CAUTION",
+    "overall_summary": "Paper #4 ส่วนใหญ่ผ่านการตรวจสอบดี — NVDA response ยอมรับได้ (แก้ EPS basis ถูกต้อง ถอน ADD), MSFT/AMZN/TSM ยืนยันได้จากแหล่งอิสระทุกจุด, TER คง CAUTION เดิม. แต่พบปัญหาใหญ่ 1 จุด: NFLX ADD $20 → DISAGREE เพราะ (1) FV $121.9 ขัดกับสูตรที่ Warren ระบุเอง (28x × FY27 $3.49 = $98 ไม่ใช่ $121.9 — implied multiple จริง 35x) ทำให้ MoS จริง ~31% ไม่ใช่ 44.5% ที่อ้างว่า 'กว้างสุดในพอร์ต' และ (2) ข้ออ้าง 'ไม่มีข้อไหนแตะ IF WRONG (engagement)' ขัดกับหลักฐานอิสระ: viewership top-10 ลดลง H1 2026, Netflix ลดการเปิดเผย engagement เหลือปีละครั้ง, Q3 guide 11.7% ต่ำกว่า Street, analyst PT ถูกหั่นเหลือ $92-100 ทั้งแถบ.",
+    "frozen_tickers": [
+      "NFLX"
+    ],
+    "ticker_reviews": [
+      {
+        "ticker": "NVDA",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 194,
+        "warren_fv_gap_pct": 20.1,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "FY27 consensus EPS $9.34 ✓ ตรงกับที่ Charlie verify 3 แหล่งเมื่อ 07-16 (Goldman $9.50 / JPM $8.73 / $8.98-9.34) — Warren แก้ EPS basis error ถูกต้อง",
+          "ถอน ADD ที่ freeze + HOLD เพราะ MoS 11.0% < gate 15% ✓ สอดคล้องกฎ MoS Gate เป็น universal floor",
+          "ราคา $207.40 ✓ CNBC/Nasdaq ตรงกัน (<1%)",
+          "China share collapse 66%→8% ถูกใส่เป็น thesis_risk + ปรับ RA ลง ตามที่ Charlie ชี้"
+        ],
+        "concerns": [
+          "FV ใหม่ $233 (25x) ยังสูงกว่า Charlie conservative FV $194 (= $9.34 × current fwd P/E 20.78, CNBC) อยู่ +20.1% — ยอมรับได้สำหรับ HOLD แต่ถ้ารอบหน้าจะกลับเข้า ADD ต้องผ่าน re-review multiple 25x อีกครั้ง: PEG 0.90 ฟังขึ้น แต่ historical discount จาก China loss อาจต้องลึกกว่านี้",
+          "ER 30.0%/yr มี growth term 27.6% เป็นสัดส่วนใหญ่ — อยู่ในกลุ่ม batch ER เฟ้อที่ flag ไว้"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "รอบหน้า: ตรวจ FY27 consensus revision หลัง earnings ส.ค. — ถ้า consensus ถูก revise ลง FV $233 ต้องลดตาม"
+        ]
+      },
+      {
+        "ticker": "MSFT",
+        "warren_action": "BUY",
+        "warren_amount": 30,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 558.66,
+        "warren_fv_gap_pct": -7.1,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "ราคา $401.10 ✓ CNBC ตรงเป๊ะ / Nasdaq ต่าง <0.3%",
+          "Layoff 4,800 (~2.1% workforce) ✓ NBC/Yahoo ยืนยัน ส่วนใหญ่ Xbox (~3,200) + sales/consulting — ตรงกับ narrative ที่ Warren แยกไว้ตามที่ Charlie ขอ ไม่ใช่ demand อ่อน",
+          "Street PT mean $558.66 สูงกว่า Warren FV $519 → FV ไม่เฟ้อเทียบ Street",
+          "MoS 22.7% ผ่าน gate สบาย แม้ใช้ fwd EPS conservative ($19.38) ก็ยังได้ FV ~$448 > ราคา"
+        ],
+        "concerns": [
+          "MSFT รายงาน FQ4 earnings 29 ก.ค. (~2 สัปดาห์หลังซื้อ) — event risk ที่ Paper ไม่ได้กล่าวถึง; Street คาด revenue +15% YoY $87.66B",
+          "EPS basis gap ยังค้าง: Warren FY27 $21.63 vs yfinance fwd $19.38 (11.6%) — monitor ต่อ",
+          "UK antitrust probe cloud licensing + CapEx $80-146B FY2026 อาจกด FCF margin (bear case ภายนอก)"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "ผล FQ4 29 ก.ค.: Azure growth ต้องไม่ต่ำกว่า ~mid-20s% เพื่อยืนยัน capacity-constrained thesis"
+        ]
+      },
+      {
+        "ticker": "META",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 722,
+        "warren_fv_gap_pct": 0.0,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "ราคา $664.54 ✓ CNBC ตรง; fwd P/E 21.43 (CNBC) ใกล้ 20.2 ของ Warren",
+          "ตรรกะ HOLD สอดคล้องกฎ: MoS 8.0% ต่ำกว่า gate, ER 15.5% แค่ HOLD band — ไม่เติมถูกต้อง"
+        ],
+        "concerns": [
+          "ราคาวิ่งจาก sentiment ไม่มี earnings ใหม่ — ถ้า Q2 (ปลาย ก.ค.) ไม่ยืนยัน momentum อาจ correct แรง (Warren ระบุแล้ว)"
+        ],
+        "red_flags": [],
+        "verify_further": []
+      },
+      {
+        "ticker": "AMZN",
+        "warren_action": "BUY",
+        "warren_amount": 20,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 314.35,
+        "warren_fv_gap_pct": 0.2,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "ราคา $249.89 ✓ CNBC ตรงเป๊ะ",
+          "Warren FV $315 ≈ Street PT mean $314.35 (ต่าง 0.2%) — well-calibrated",
+          "FTC ad-pricing complaint drafted จริง (โทษปรับระดับ billions + state AGs ร่วม) — Warren รับทราบใน note แล้ว ✓"
+        ],
+        "concerns": [
+          "ใหม่: EU เตรียม designate AWS เป็น gatekeeper ใต้ DMA — regulatory ซ้อนอีกชั้นที่ Paper ไม่ได้กล่าวถึง",
+          "Earnings 30 ก.ค. + FTC filing window 1-2 เดือน = สองเหตุการณ์อาจ stack กัน → headline volatility สูงช่วงปลาย ก.ค.",
+          "นี่คือ FTC probe ที่ 3 (Prime settle $2.5B 2025, antitrust trial 2027) — pattern regulatory pressure ต่อเนื่อง"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "ติดตามข่าว FTC ad case 4-8 สัปดาห์ + ผล earnings 30 ก.ค."
+        ]
+      },
+      {
+        "ticker": "NFLX",
+        "warren_action": "BUY",
+        "warren_amount": 20,
+        "charlie_verdict": "DISAGREE",
+        "charlie_fv": 98,
+        "warren_fv_gap_pct": 24.4,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "Q2 EPS $0.80 beat consensus $0.79 ✓ (CNBC)",
+          "Revenue $12.56B +13% YoY in-line (คาด $12.58B) ✓",
+          "FY26 guide แคบลงเป็น $51.0-51.4B ✓",
+          "After-hours −9% → ~$67.6-68.0 ✓ Nasdaq API ตรง ($67.64 −9.02%)"
+        ],
+        "concerns": [
+          "FV $121.9 ขัดกับสูตรที่ Warren ระบุเอง: 'Base 28x × FY27 consensus EPS ~$3.49' = $97.7 ไม่ใช่ $121.9 (implied multiple 35x = historical peak ที่ Warren บอกเองว่า discount แล้ว) → MoS จริงที่สูตร 28x คือ ~31% ไม่ใช่ 44.5% — ตัวเลข headline 'กว้างสุดในพอร์ต' ผิดจาก math error ชนิดเดียวกับ NVDA FV case",
+          "Q3 guide +11.7% ($12.86B) ต่ำกว่า Street ~$13B — deceleration จริง ไม่ใช่แค่ sentiment; FY26 guide top-end ถูก trim",
+          "Analyst PT ถูกหั่นทั้งแถบเดือนนี้: Oppenheimer $120→$100, KeyBanc $115→$92, Citi $100, Bernstein $100, Morgan Stanley cut — Warren FV $121.9 สูงกว่า post-cut Street PT ~22-32%",
+          "growth term 18% ที่เรียกว่า conservative ยังสูงกว่า FY26 guided growth 13-14% และ Q3 11.7% ที่กำลังชะลอ"
+        ],
+        "red_flags": [
+          "IF WRONG (engagement erosion) มีหลักฐานอิสระว่ากำลังส่งสัญญาณ — ขัดกับข้ออ้าง 'ไม่มีข้อไหนแตะ IF WRONG เลย': (1) viewership top-10 titles ลดลงใน H1 2026 (Motley Fool/Citi), (2) returning series retain audience ไม่อยู่, (3) Netflix ประกาศลดการเปิดเผย What We Watched เหลือปีละครั้งตั้งแต่ 2027 — การลด transparency ของ metric ที่ตลาดกังวลที่สุดคือ classic red flag",
+          "หุ้นแตะ 52-week low, ลง 45% จาก peak, ลง ~30% YTD — falling knife ที่ Street มองว่าขาด catalyst"
+        ],
+        "verify_further": [
+          "โอ๊ตต้องตัดสิน: (1) ให้ Warren re-derive NFLX FV ด้วย consensus post-earnings ก่อน (แนะนำ) แล้วค่อยดูว่า MoS เหลือเท่าไหร่, (2) ซื้อ $20 ตามแผนเดิม, หรือ (3) ข้ามรอบนี้",
+          "ขอ engagement data จริงจาก Q2 letter (view hours) มา verify ว่า erosion จริงหรือแค่ slate อ่อน"
+        ]
+      },
+      {
+        "ticker": "TSM",
+        "warren_action": "BUY",
+        "warren_amount": 20,
+        "charlie_verdict": "AGREE",
+        "charlie_fv": 498.24,
+        "warren_fv_gap_pct": -2.7,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "Q2 revenue record $40.2B +36% YoY ✓ (TechTimes/Yahoo)",
+          "FY26 guide ยกเป็น >40% USD terms ✓",
+          "เพิ่มเติมที่ Paper ไม่ได้อ้าง: net profit +77.4% record, GM 67.7% ทะลุ guidance ceiling, HPC = 66% ของ wafer revenue — ยิ่งหนุน thesis",
+          "ราคา $409.74 ✓ CNBC ตรงเป๊ะ; FV $485 < Street PT $498.24"
+        ],
+        "concerns": [
+          "MoS 15.5% ผ่าน gate แบบบาง (0.5pt) — ราคาขยับขึ้น ~2% ก็หลุด gate; ไซซ์ $20 (รวม $30 ใกล้ full target) เหมาะสมแล้วอย่าเกิน",
+          "CapEx ยกเป็น $60-64B + $100B Arizona — overseas fab margin dilution H2 ตาม guide เป็น drag ที่ต้อง track"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "Overseas fab margin dilution H2 2026 ตาม guide"
+        ]
+      },
+      {
+        "ticker": "TER",
+        "warren_action": "BUY",
+        "warren_amount": 10,
+        "charlie_verdict": "CAUTION",
+        "charlie_fv": 330,
+        "warren_fv_gap_pct": 27.3,
+        "variant_view_verdict": "NO_VARIANT",
+        "tier_verdict": "AGREE",
+        "verified_claims": [
+          "Warren ยอมรับ tier downgrade 🚀→🔁 Cyclical ตาม Charlie ✓ + คงไม้ครึ่ง $10 ตาม CAUTION เดิม ✓ — enforce ถูกต้อง",
+          "ราคา $322.30 ✓ CNBC ตรง; ร่วง ~14% สัปดาห์นี้จาก chip rout (sector-wide จริง ไม่ใช่ข่าวบริษัท) ✓",
+          "Earnings 07-28 16:30 ET ✓ ยืนยันจาก StockTitan; Street คาด Q2 EPS $2.04 (+258% YoY), rev $1.22B (+86%)"
+        ],
+        "concerns": [
+          "FV gap ยังกว้าง: Warren $420 vs Charlie floor $330 (+27.3% > 20%) → CAUTION คงเดิม; FV $420 ยังสูงกว่า Street mean ~$399",
+          "ซื้อ cyclical ที่ fwd P/E 44-46x หลังหุ้นขึ้น ~140% YTD (+250% จาก low) ใกล้ all-time high — แม้ normalize growth แล้ว นี่คือ profile ปลาย cycle ตามกฎ Cyclical Peak Bias",
+          "Insider sale ก่อน earnings (Fool 07-16) — ไม่ conclusive แต่ timing ไม่สวย",
+          "ER 40.4%/yr สูงสุดในพอร์ต สร้างบน growth 35% ที่ยังไม่ถูกยืนยันโดย earnings 07-28"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "Earnings 07-28: ต้องเห็น full-year raise + HBM/memory backlog build จริง ก่อนเติม $10 ที่เหลือ"
+        ]
+      }
+    ],
+    "points_to_verify": [
+      "NFLX frozen — โอ๊ตต้องตัดสินก่อน deploy $20: แนะนำให้ Warren re-derive FV จาก consensus post-earnings ก่อน (สูตร 28x ที่ Warren ระบุเองให้ FV ~$98 → MoS ~31% ยังผ่าน gate — ประเด็นไม่ใช่ว่าซื้อไม่ได้ แต่ตัวเลขในใบต้องถูกก่อน)",
+      "Earnings cluster ปลาย ก.ค.: TER 07-28, MSFT 07-29, AMZN 07-30, META ~ปลาย ก.ค. — เงินที่ deploy รอบนี้ ~$70 ใน 4 ตัวจะเจอ event ภายใน 2 สัปดาห์",
+      "Execution gap ของ Paper #3: Kim/โอ๊ตควรยืนยันว่ารอบนี้คำสั่ง Paper #4 ถูก execute จริงใน Sheets — อย่าให้ซ้ำรอย (Charlie ตรวจใบ ไม่ได้ตรวจ execution)"
+    ],
+    "watch_out": [
+      "Batch ER เฟ้อ: 6/7 ตัว ER > 20% (30.0/24.4/25.7/30.5/30.4/40.4) — ตามกติกา §2.6 นี่คือสัญญาณ growth term เฟ้อทั้งระบบ สอดคล้อง calibration 07-16 ที่พบ 13/35 CAUTION — อย่าใช้ ER สูงเป็นเหตุ override MoS Gate",
+      "Portfolio concentration: หลัง deploy พอร์ตเป็น AI/semi-heavy (NVDA+TSM+TER+MSFT+AMZN ล้วนอิง AI capex cycle) — ถ้า AI capex sentiment กลับทิศ ทุกตัวลงพร้อมกัน; NFLX คือ diversifier เดียวที่เพิ่มรอบนี้และโดน freeze",
+      "การซื้อ NFLX ที่ after-hours price ($67.64): ราคาเปิดจริง 07-17 อาจต่างจาก after-hours มาก — MoS ที่คำนวณอาจเปลี่ยนตอน execute จริง"
+    ],
+    "data_sources": [
+      "Nasdaq API quote — 7 tickers 2026-07-17 (after-hours 07-16 19:59 ET)",
+      "CNBC quote API — 7 tickers (price ตรง Warren 100%, fwd P/E cross-check)",
+      "CNBC: Netflix Q2 2026 earnings 07-16 (EPS $0.80 beat, Q3 guide $12.86B, ลดการเปิดเผย engagement)",
+      "Variety/Deadline/TheWrap: NFLX stock drops on lower Q3 outlook, 52-week low 07-16",
+      "Investing.com/TipRanks: Morgan Stanley/KeyBanc $92/Oppenheimer $100/Citi $100/Bernstein $100 PT cuts on NFLX engagement concerns ก.ค. 2026",
+      "TechTimes/Yahoo Finance: TSMC Q2 record $40.2B, guide >40%, GM 67.7%, +$100B Arizona 07-16",
+      "NBC/Yahoo: Microsoft 4,800 layoffs (Xbox ~3,200 + sales/consulting) ก.ค. 2026; FQ4 earnings 07-29",
+      "TS2/GlobeAndMail/CoinCentral: Amazon FTC ad-pricing complaint drafted + EU DMA AWS gatekeeper; earnings 07-30",
+      "TIKR/StockTitan/Fool: Teradyne earnings 07-28, Street mean ~$399, chip rout −14%, insider sale 07-16",
+      "yfinance — rate-limited รอบนี้ ใช้ CNBC+Nasdaq fallback ตาม recipe"
+    ]
   }
 ]
