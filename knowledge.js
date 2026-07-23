@@ -8902,7 +8902,7 @@ Shopify เปิดเผยเองว่าคู่แข่งบางร
 | 2025Q4 - SHOP - 10K.pdf | 10K | 2026-06-18 |
 `,
 
-"SKHYV": `# SK hynix Inc. (SKHYV) · Semiconductor / Memory (DRAM · HBM · NAND)
+"SKHY": `# SK hynix Inc. (SKHY) · Semiconductor / Memory (DRAM · HBM · NAND)
 
 **Last Updated:** 2026-07-12
 **Source:** Primary Document — 424B4 Prospectus (IPO, dated 2026-07-09)
