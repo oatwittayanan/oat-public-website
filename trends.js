@@ -481,15 +481,16 @@ ASML ไม่ใช่ cyclical story แต่เป็น secular compounder 
     tag: "CPU-Renaissance",
     title: "CPU Renaissance: การฟื้นคืนชีพของชิปที่ทุกคนลืม",
     subtitle: "ทุกคนจ้องที่ GPU แต่ agentic AI กำลังทำให้ CPU กลับมามีความสำคัญอีกครั้ง",
-    conviction: "HIGH (ปรับขึ้นจาก MED เมื่อ 2026-07-27)",
+    conviction: "HIGH",
     last_updated: "2026-07-27",
     summary: "ตั้งแต่ปี 2022 เป็นต้นมา ทุกบทสนทนาเรื่อง AI semiconductor มักวนเวียนอยู่กับ GPU GPU ใหญ่กว่า เร็วกว่า มี HBM มากกว่า NVIDIA คืนใหม่ที่สาย semiconductor รอคอย CPU ที่เคยเป็นหัวใจของ computing กลายเป็นเพียงผู้สนับสนุนที่ไม่มีใครพูดถึง",
     tickers: ["ARM", "INTC", "AMD"],
     content: `# CPU Renaissance: การฟื้นคืนชีพของชิปที่ทุกคนลืม
 *ทุกคนจ้องที่ GPU แต่ agentic AI กำลังทำให้ CPU กลับมามีความสำคัญอีกครั้ง*
 
-**Warren's Conviction:** HIGH (ปรับขึ้นจาก MED เมื่อ 2026-07-27)
+**Warren's Conviction:** HIGH
 **Last Updated:** 2026-07-27
+*(ปรับขึ้นจาก MED เมื่อ 2026-07-27 — ดูรายละเอียดในหัวข้อ "อัพเดท 2026-07-27" ด้านล่าง)*
 
 ---
 
