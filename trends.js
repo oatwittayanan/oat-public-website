@@ -481,15 +481,15 @@ ASML ไม่ใช่ cyclical story แต่เป็น secular compounder 
     tag: "CPU-Renaissance",
     title: "CPU Renaissance: การฟื้นคืนชีพของชิปที่ทุกคนลืม",
     subtitle: "ทุกคนจ้องที่ GPU แต่ agentic AI กำลังทำให้ CPU กลับมามีความสำคัญอีกครั้ง",
-    conviction: "MED",
-    last_updated: "2026-05-16",
+    conviction: "HIGH (ปรับขึ้นจาก MED เมื่อ 2026-07-27)",
+    last_updated: "2026-07-27",
     summary: "ตั้งแต่ปี 2022 เป็นต้นมา ทุกบทสนทนาเรื่อง AI semiconductor มักวนเวียนอยู่กับ GPU GPU ใหญ่กว่า เร็วกว่า มี HBM มากกว่า NVIDIA คืนใหม่ที่สาย semiconductor รอคอย CPU ที่เคยเป็นหัวใจของ computing กลายเป็นเพียงผู้สนับสนุนที่ไม่มีใครพูดถึง",
     tickers: ["ARM", "INTC", "AMD"],
     content: `# CPU Renaissance: การฟื้นคืนชีพของชิปที่ทุกคนลืม
 *ทุกคนจ้องที่ GPU แต่ agentic AI กำลังทำให้ CPU กลับมามีความสำคัญอีกครั้ง*
 
-**Warren's Conviction:** MED
-**Last Updated:** 2026-05-16
+**Warren's Conviction:** HIGH (ปรับขึ้นจาก MED เมื่อ 2026-07-27)
+**Last Updated:** 2026-07-27
 
 ---
 
@@ -526,6 +526,14 @@ Philadelphia SOX index ทะลุ 10,000 เป็นครั้งแรก�
 ความเสี่ยงที่ใหญ่ที่สุดสำหรับทั้ง Intel และ AMD คือ hyperscalers ที่กำลังพัฒนา RISC-V CPU ของตัวเอง Google, Amazon, Meta ต่างมี program ในการ explore custom CPU architectures ที่ bypass Intel/AMD/ARM royalties ถ้าเส้นทางนี้เร็วกว่าที่คาด จะ compress TAM ของ CPU สำเร็จรูปในระยะ 5-7 ปี
 
 Intel ยังมีความเสี่ยงว่า Q1 2026 อาจเป็นผลของ inventory restocking หลัง trough ไม่ใช่ structural demand recovery จริง Q2 2026 จะเป็น test สำคัญที่จะตอบคำถามนี้
+
+## อัพเดท 2026-07-27 — ปรับ Conviction ขึ้นเป็น HIGH
+
+ธนาคารสองแห่ง (BofA และ UBS) ยืนยันตรงกันโดยอิสระว่าตลาด server CPU กำลังขยายตัวใหญ่กว่าที่เคยประเมินไว้มาก BofA ปรับเป้า CY2030 server CPU TAM จาก $125bn เป็น **$170bn+** (โต ~5 เท่า, CAGR 37%) แบ่งเป็น traditional CPU $30bn + AI head-node CPU $70bn + AI agentic-standalone CPU $70bn ส่วน UBS จากงาน Computex รายงานว่าวงการกำลังพูดถึงตัวเลขที่สูงกว่านั้นอีกที่ **~$200bn+**
+
+จุดที่น่าสนใจที่สุดคือ ARM: แม้ BofA จะปรับเป้าราคาขึ้นจาก $245 เป็น $335 (คิดจาก sum-of-parts ธุรกิจ IP + ธุรกิจชิป) และเห็นว่า ARM จะได้ market share รวมของ server CPU สูงถึง ~50% ภายในปี 2030 (35% จากชิป merchant + 15% จาก custom ASIC ของ hyperscaler) แต่ BofA ยังคงเรตติ้ง ARM ไว้ที่ **Neutral — "ราคาเหมาะสมแล้ว"** เท่านั้น สะท้อนว่าตลาดได้ price-in โอกาสเติบโตนี้ไปมากแล้ว
+
+NVIDIA เปิดเผยว่า Vera CPU จะมียอดขาย ~$20bn ในช่วงครึ่งหลังปี 2027 แบ่งเท่าๆ กันระหว่างงาน head-node กับ agentic-standalone และ content ต่อ GW ของ NVIDIA เพิ่มขึ้นทุกเจนเนอเรชัน จาก ~$40bn/GW (Blackwell Ultra) เป็น $60-80bn/GW (Vera Rubin) และอาจถึง ~$100bn/GW (Feynman ปี 2028)
 
 ## มุมมองระยะยาว
 
