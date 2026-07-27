@@ -8,7 +8,7 @@ var TRENDS_DATA = [
     conviction: "HIGH",
     last_updated: "2026-05-16",
     summary: "ลองนึกภาพการก่อสร้างเมืองใหม่ทั้งเมืองในเวลาห้าปี ไม่ใช่บ้านสองสามหลัง แต่เป็นโครงสร้างพื้นฐานทั้งหมด ตั้งแต่ถนน ระบบไฟฟ้า ท่อน้ำ ไปจนถึงตึกสูง นั่นคือสิ่งที่กำลังเกิดขึ้นในโลกของ AI datacenter ในขณะนี้",
-    tickers: ["NVDA", "AVGO", "MRVL", "TSM", "MSFT"],
+    tickers: ["NVDA", "AVGO", "TSM", "LITE", "COHR", "MU", "SKHY", "SPCX", "MSFT", "GOOGL", "AMZN"],
     content: `# โครงสร้างพื้นฐาน AI: มหาสงครามแห่งการลงทุน
 *เมื่อ Big Tech ทุ่ม $725 พันล้านดอลลาร์ในปีเดียว คำถามไม่ใช่ว่าใครจะชนะ แต่ว่าใครจะส่งของได้ทัน*
 
@@ -41,13 +41,27 @@ ASML ซึ่งเป็นบริษัทเดียวในโลกท
 
 **[[AVGO]]** (Broadcom) สร้างชิป ASIC แบบ custom สำหรับ hyperscalers รายใหญ่ รายได้ datacenter อยู่ที่ $6.1B ปี FY2026 โดยตั้งเป้าที่ $15B ในปี FY2028 นอกจากนี้ยัง CPO (Co-Packaged Optics) อยู่ใน volume production แล้ว
 
-**[[MRVL]]** (Marvell) เป็น custom silicon platform ที่โตเร็วที่สุด รายได้ $8.2B FY2026 เป็น all-time high โดย 74% มาจาก datacenter พร้อม deal $2B จาก NVIDIA ที่ยืนยัน strategic importance
-
 **[[TSM]]** (TSMC) คือโรงงานผลิตชิปที่ทุกคนต้องพึ่ง ไม่มีทางเลือกอื่นสำหรับ advanced node และ moat นี้แข็งแกร่งขึ้นทุกปี
+
+**[[LITE]]** (Lumentum) เป็นหนึ่งในสองบริษัทที่ NVIDIA ทุ่มเงินลงทุนตรง $2B พร้อม multi-year purchase commitment (2 มี.ค. 2026) เพื่อ lock supply ชิ้นส่วน optical/photonic ที่จำเป็นสำหรับ AI datacenter networking — สะท้อนว่า optics กลายเป็นคอขวดของโครงสร้างพื้นฐาน AI ไม่ต่างจาก GPU หรือ HBM
+
+**[[COHR]]** (Coherent) ได้เงินลงทุนตรง $2B จาก NVIDIA พร้อมกันกับ Lumentum ในวันเดียวกัน จุดแข็งคือ vertical integration เต็มรูปแบบใน InP (Indium Phosphide) ตั้งแต่ปลูกผลึกจนถึงแพ็คเกจ transceiver สำเร็จรูป ซึ่งไม่มีคู่แข่งรายใดทำได้ครบวงจรเท่านี้
+
+**[[MU]]** (Micron) คือหนึ่งในสามผู้ผลิต HBM รายใหญ่ที่ NVIDIA รับรองเป็นซัพพลายเออร์ HBM4 บน Vera Rubin platform ปัจจุบัน MU มี Strategic Customer Agreements (SCA) 16 ฉบับ มูลค่ารวม ~$100B ที่ล็อครายได้ล่วงหน้า ทำให้ demand ฝั่ง AI infrastructure มี floor ที่มั่นคงกว่าวงจร memory แบบเดิม
+
+**[[SKHY]]** (SK hynix) เป็นผู้นำตลาด HBM อันดับ 1 ของโลกด้วยส่วนแบ่ง 56.4% (Q1 2026) และเป็นซัพพลายเออร์ HBM หลักให้ NVIDIA มายาวนาน TSMC ปรับ CoWoS process recipe ให้เข้ากับ SK hynix มาตั้งแต่ยุค HBM2e ซึ่งเป็นความได้เปรียบเชิงโครงสร้างที่ทำให้ SK hynix อยู่ในตำแหน่งศูนย์กลางของ AI Infrastructure supply chain
+
+**[[SPCX]]** (SpaceX) แม้ไม่ใช่ผู้เล่นตรงในฝั่ง chip/datacenter แต่ Starlink/Starshield และแผน space-based compute infrastructure ทำให้ SpaceX กลายเป็นผู้เล่นสำคัญของโครงสร้างพื้นฐานยุคใหม่ที่เชื่อมต่อ AI workloads ผ่านดาวเทียม รองรับ demand สำหรับ connectivity ที่ hyperscalers ต้องการขยายไปทั่วโลก
 
 **Cloud Hyperscalers**
 
-**[[MSFT]], [[GOOGL]], [[META]], [[AMZN]]** ได้ประโยชน์ทั้งในฐานะผู้ซื้อ infrastructure (ที่กำลัง monetize ผ่าน AI services) และผู้ลงทุนในโครงสร้างพื้นฐาน Azure เติบโต +39% YoY, GCP +63% YoY, AWS AI revenue run-rate >$15B และยังขาด capacity อีก
+**[[MSFT]]** Azure เติบโต +39% YoY และเป็นหนึ่งในผู้ลงทุน CapEx รายใหญ่สุดในกลุ่ม Big Tech $725B ปี 2026
+
+**[[GOOGL]]** GCP เติบโต +63% YoY พร้อม backlog ที่พุ่งขึ้นเป็น $460B เกือบเพิ่มเป็นสองเท่าในหนึ่งไตรมาส
+
+**[[AMZN]]** AWS AI revenue run-rate >$15B พร้อม backlog $364B (+49% QoQ) และยังขาด capacity รองรับ demand อยู่
+
+META ก็ได้ประโยชน์ในฐานะผู้ซื้อ infrastructure และผู้ลงทุนโครงสร้างพื้นฐานเช่นเดียวกัน (ไม่อยู่ใน watchlist ปัจจุบัน)
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -67,7 +81,7 @@ AI Infrastructure คือ secular trend ที่แข็งแกร่ง�
     conviction: "HIGH",
     last_updated: "2026-07-26",
     summary: "มีคำถามที่นักลงทุนถามมานานหลายทศวรรษว่า \"หุ้น memory ควรซื้อตอนไหน?\" คำตอบดั้งเดิมคือ \"ซื้อตอน down cycle ขายตอน up cycle\" เพราะ memory คือสินค้าโภคภัณฑ์ที่ราคาวนเวียนขึ้นลงตามกำลังการผลิตและ demand ของ consumer electronics",
-    tickers: ["NVDA", "AMD", "AVGO", "MRVL"],
+    tickers: ["NVDA", "AMD", "MU", "SKHY"],
     content: `# วงจร Memory ที่เปลี่ยนไปตลอดกาล
 *จากสินค้าโภคภัณฑ์ที่ขึ้นๆ ลงๆ สู่ส่วนประกอบที่ขาดไม่ได้ของ AI*
 
@@ -102,9 +116,9 @@ Demand ของ memory ก็กว้างขึ้นเรื่อยๆ �
 
 **[[AMD]]** ใช้ HBM3E ใน MI300X accelerator ซึ่งเป็น AI chip หลักของ AMD การเติบโตของ AI accelerator revenue AMD ขึ้นอยู่กับการได้รับ HBM allocation จาก SK Hynix หรือ Micron
 
-**[[AVGO]]** (Broadcom) Custom ASICs ของ Broadcom ทั้งหมดที่ทำให้ Google TPU, Meta MTIA, Amazon Trainium ต่างต้องใช้ HBM และ CoWoS packaging ก็รวม HBM attachment เป็นส่วนหนึ่งของกระบวนการ
+**[[MU]]** (Micron) เป็นผู้นำเทคโนโลยี HBM4 ตัวจริง — volume ramp เร็วกว่า HBM3E ถึง 2 เท่า และเป็นเจ้าแรกที่ shipped HBM4 revenue เกิน $1B แล้ว ได้รับเลือกเป็นซัพพลายเออร์ HBM4 สำหรับ NVIDIA Vera Rubin platform นอกจากนี้ Micron ยังเซ็น LTA (Long-Term Agreement) 5 ปีครั้งแรกในประวัติศาสตร์บริษัท ล็อคราคาไว้สูงกว่า baseline เดิม 80-100% พร้อม 16 Strategic Customer Agreements มูลค่ารวม ~$100B ที่ทำให้ downside cyclicality ลดลงมาก แม้จะมีความเป็นผู้นำด้านเทคโนโลยี แต่ UBS ประเมิน market share HBM ปี 2027 ให้ Micron อยู่อันดับ 3 ห่างๆ ที่ 20% (Samsung 41%, SK Hynix 39%) — เทคโนโลยีนำหน้าไม่ได้แปลว่าจะได้ส่วนแบ่งตลาดมากที่สุด
 
-**[[MRVL]]** (Marvell) มี CXL memory controller IP ที่ช่วยให้ hyperscalers สร้าง memory pooling ซึ่งช่วยใช้ HBM ให้มีประสิทธิภาพสูงขึ้น รวมถึง HBM4E Controller IP ที่ licensed ให้ hyperscalers โดยตรง
+**[[SKHY]]** (SK hynix) คือผู้นำตลาด HBM อันดับ 1 ของโลกในปัจจุบันด้วยส่วนแบ่ง 56.4% (Q1 2026) และทำ operating margin สูงถึง 72% ใน Q1 2026 ซึ่งเป็นระดับที่ปกติเห็นเฉพาะธุรกิจ software TSMC ปรับ CoWoS process recipe ให้เข้ากับ SK hynix มาตั้งแต่ยุค HBM2e ต่างจาก Samsung ที่ TSMC ทำงานแบบ arms-length เท่านั้น — เป็น soft moat เชิงโครงสร้างที่ทำให้ SK hynix รักษาตำแหน่งผู้นำได้ยาก แม้ UBS จะมองว่า Samsung อาจแซงหน้าเล็กน้อยในปี 2027 (41% vs 39%)
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -128,7 +142,7 @@ thesis ของ Memory Supercycle มีสองเสาหลัก: HBM ส
     conviction: "HIGH",
     last_updated: "2026-07-26",
     summary: "ลองนึกถึงทางด่วนในกรุงเทพที่รถติดสนิท คุณสามารถขยายช่องทางได้ แต่มีข้อจำกัดทางกายภาพที่ทำให้ขยายต่อไม่ได้อีกแล้ว ไม่ว่าจะลงทุนเพิ่มเท่าไร นั่นคือปัญหาของสายทองแดงในโลก AI ปัจจุบัน",
-    tickers: ["NVDA", "AVGO", "MRVL", "MSFT"],
+    tickers: ["NVDA", "AVGO", "COHR", "LITE"],
     content: `# การปฏิวัติ Optical Interconnect: เมื่อแสงแทนที่ทองแดง
 *ทองแดงใช้ส่งสัญญาณ AI ไม่ได้อีกแล้ว อนาคตคือแสง*
 
@@ -159,9 +173,9 @@ Broadcom Tomahawk 5 CPO อยู่ใน volume production แล้ว NVIDIA
 
 **[[AVGO]]** (Broadcom) มี Tomahawk 5 CPO ใน volume production แล้ว และ custom ASIC networking สำหรับ hyperscalers ต้องรวม optics เป็นส่วนหนึ่งของ solution ตำแหน่งที่แข็งแกร่งใน scale-out network ทำให้ AVGO ได้ประโยชน์ทั้งในปัจจุบันและอนาคต
 
-**[[MRVL]]** (Marvell) คือ optical DSP leader ในปัจจุบัน และผ่านการซื้อ Celestial AI มูลค่า $3.25B-$5.5B Marvell กำลังสร้าง Photonic Fabric ที่จะทำให้ optical die-to-die interconnect เป็นไปได้ โดยสร้าง unified optical memory pool ขนาด 33TB+ ซึ่งจำเป็นสำหรับ model พารามิเตอร์หลายล้านล้านตัวในอนาคต รายได้ Marvell อยู่ที่ $8.2B โดย 74% มาจาก datacenter
+**[[COHR]]** (Coherent) ได้รับเงินลงทุนตรง $2B จาก NVIDIA (2 มี.ค. 2026) พร้อม multi-year purchase commitment จุดแข็งคือ vertical integration เต็มรูปแบบใน InP (Indium Phosphide) ตั้งแต่ปลูกผลึก ผลิตเวเฟอร์ ออกแบบชิป จนถึงแพ็คเกจ transceiver สำเร็จรูป — ไม่มีคู่แข่งรายใดทำได้ครบวงจรเท่านี้ ทำให้ได้ประโยชน์โดยตรงจากทั้ง demand ที่เพิ่มขึ้นและ pricing power จาก InP wafer ที่ราคาพุ่งขึ้น 250% จากภาวะขาดแคลน
 
-**[[MSFT]] และ [[GOOGL]]** ได้ประโยชน์ในฐานะ early adopter ที่ลดต้นทุน infrastructure ด้วยการใช้ CXL memory pooling ผ่าน optical และ OCS-based fabric ตามลำดับ
+**[[LITE]]** (Lumentum) ได้รับเงินลงทุนตรง $2B จาก NVIDIA ในวันเดียวกับ Coherent พร้อม multi-year purchase commitment ธุรกิจหลักคือ optical/photonic component (66% ของรายได้ Q3 FY2026) ครอบคลุม EML laser, VCSEL, ROADM ที่จำเป็นสำหรับ transceiver 800G/1.6T และ CPO รุ่นถัดไป — อยู่ในตำแหน่งที่ได้ประโยชน์ทั้งจาก scale-out และ scale-up transition
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -193,7 +207,7 @@ Broadcom Tomahawk 5 CPO อยู่ใน volume production แล้ว NVIDIA
     conviction: "HIGH",
     last_updated: "2026-05-16",
     summary: "มีความเข้าใจผิดที่พบบ่อยในการวิเคราะห์หุ้นเทคโนโลยีว่า \"ถ้าบริษัทเพิ่มงบ CapEx มาก หมายความว่ากำไรจะลดลง\" ความเข้าใจนี้อาจถูกสำหรับบริษัททั่วไป แต่ผิดอย่างมีนัยสำคัญสำหรับ hyperscalers ในปี 2026",
-    tickers: ["GOOGL", "MSFT", "AMZN", "META"],
+    tickers: ["GOOGL", "MSFT", "AMZN", "META", "LITE"],
     content: `# Cloud CapEx Acceleration: เมื่อยักษ์ใหญ่ทุ่มพร้อมกัน
 *สามยักษ์ Cloud เพิ่มงบลงทุนพร้อมกันในขณะที่รายได้เร่งตัวขึ้น — นี่คือสัญญาณที่ดีที่สุดที่จะเห็นได้*
 
@@ -230,6 +244,8 @@ META และ Amazon ซึ่งครั้งหนึ่งถูกมอ�
 
 **[[META]]** ได้ประโยชน์จาก AI-enhanced ad monetization และการสร้าง Llama open-source ecosystem ที่ทำให้นักพัฒนาทั่วโลก build บน Meta infrastructure รายได้โฆษณาที่ดีขึ้นจาก AI targeting ทำให้ ROI สำหรับผู้โฆษณาดีขึ้น ซึ่ง reinforce ให้พวกเขาใช้จ่ายมากขึ้น
 
+**[[LITE]]** (Lumentum) ได้ประโยชน์โดยตรงจาก cloud CapEx ที่เร่งตัว เพราะทุก dollar ที่ hyperscaler ทุ่มลงทุนใน AI data center ต้องการ optical transceiver และ laser chip เพื่อเชื่อมต่อ GPU cluster ขนาดใหญ่ให้ทำงานเป็นกลุ่มเดียวกัน Q3 FY2026 revenue โต +90% YoY เป็น record จากดีมานด์ cloud/AI โดยตรง และ NVIDIA ลงทุน $2B เป็น strategic investment ใน Lumentum ซึ่งยืนยันว่า optical connectivity คือ bottleneck ถัดไปของการขยาย cloud infrastructure หลังจาก compute เอง EML และ pump laser ขายหมด (sold out) สะท้อนว่า cloud buildout กำลังวิ่งเร็วกว่า supply chain ของ optical component
+
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
 บริษัท SaaS ที่ให้บริการ generic tools โดยไม่มี AI differentiation จะเผชิญกับ pressure ต่อเนื่อง เพราะ hyperscalers กำลัง bundle AI capabilities เข้าใน platform ของตัวเองโดยไม่คิดราคาเพิ่ม บริษัท enterprise software ที่ไม่มี AI roadmap ที่ชัดเจนจะเสียส่วนแบ่งตลาดให้กับ cloud-native AI alternatives
@@ -248,7 +264,7 @@ Cloud acceleration ไม่ใช่ one-year event แต่เป็น multi
     conviction: "HIGH",
     last_updated: "2026-05-16",
     summary: "ในโลกของ semiconductor มีกฎที่คนทั่วไปมักเข้าใจผิดว่า \"ถ้า Google หรือ Amazon ออกแบบชิปเอง นั่นหมายความว่า NVIDIA แพ้\" ความเข้าใจนี้ไม่ถูก และการเข้าใจว่าทำไมจึงไม่ถูกคือกุญแจสู่การเข้าใจ custom silicon trend นี้",
-    tickers: ["AVGO", "MRVL", "GOOGL", "AMZN", "AMD"],
+    tickers: ["AVGO", "GOOGL", "AMZN", "AMD", "ARM"],
     content: `# Custom Silicon: เมื่อยักษ์ใหญ่ออกแบบชิปเอง
 *NVIDIA ไม่ได้จะหายไป แต่ตลาดชิป AI กำลังใหญ่พอที่จะมีผู้ชนะหลายคน*
 
@@ -281,13 +297,13 @@ NVIDIA เองประกาศ NVLink Fusion platform ที่ GTC 2026 ซ
 
 **[[AVGO]]** (Broadcom) คือ บริษัทที่ได้ประโยชน์โดยตรงที่สุดจาก hyperscaler custom silicon trend สองโปรแกรม hyperscaler ASIC หลักของ Broadcom ต่างมีเป้าหมายรายได้ >$15B ต่อโปรแกรมใน FY2028 ซึ่งรวมกันเกินกว่าขนาด revenue ปัจจุบันทั้งบริษัท
 
-**[[MRVL]]** (Marvell) คือชื่อที่ undervalued ที่สุดใน watchlist เมื่อเทียบกับ conviction ที่มี custom XPUs บน NVLink Fusion, revenue $8.2B ที่โตสู่ $15B ใน FY2028, NVIDIA strategic investment และ Celestial AI Photonic Fabric ที่เป็น option ฟรีสำหรับ optical die-to-die interconnect รายได้ปลายปี 2028 ทั้งหมดนี้ยังซื้อขายในราคาที่ discount Broadcom อย่างมีนัยสำคัญ
-
 **[[GOOGL]]** TPU 8th generation เริ่มขาย externally ให้ลูกค้า GCP แล้ว ซึ่ง validate ว่า custom silicon ของ Google ดีพอที่จะ compete กับ NVIDIA ในหลาย workload Axion CPU ประกอบกับ TPU ทำให้ cost per AI workload ดีกว่า NVIDIA 2x+
 
 **[[AMZN]]** Graviton CPU ที่ ARM-based ได้รับความไว้วางใจจาก 98% ของ top 1,000 EC2 customers แม้แต่ Meta ก็ commit tens of millions ของ Graviton cores นี่คือ market validation ที่ทรงพลัง
 
 **[[AMD]]** มี EPYC server CPU ที่กำลังได้ market share และ MI300X ที่เป็น competitive option สำหรับ AI inference แต่ AMD ใช้ Broadcom/Marvell custom silicon platforms ไม่ใช่สร้างเองทั้งหมด ดังนั้น AMD ได้ประโยชน์บางส่วนจาก trend นี้ แต่ไม่เต็มเม็ดเต็มหน่วย
+
+**[[ARM]]** ได้ประโยชน์ทางอ้อมแต่กว้างที่สุดจาก custom silicon trend เพราะทุกชิปที่ hyperscaler ออกแบบเอง ไม่ว่าจะเป็น Google Axion, Amazon Graviton, Microsoft Cobalt หรือ NVIDIA Vera/Grace ล้วนใช้ ARM ISA เป็นฐาน ARM จึงเก็บ royalty จากทุก custom chip ที่ hyperscaler ผลิตโดยไม่ต้องแข่งขันหรือเลือกข้างว่าใครจะชนะในตลาด custom silicon ยิ่งขยายตัวมากเท่าไหร่ ARM ยิ่งได้ประโยชน์มากเท่านั้น เพราะ win condition ของ ARM ง่ายกว่าผู้เล่นรายอื่นทั้งหมดใน trend นี้
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -309,7 +325,7 @@ Custom silicon เป็น theme ที่มี revenue visibility ที่�
     conviction: "HIGH",
     last_updated: "2026-05-16",
     summary: "ช่วงปี 2023-2024 คนส่วนใหญ่ใช้ AI แบบ \"ถาม-ตอบ\" คุณพิมพ์คำถาม AI ตอบ คุณอ่าน ถ้าต้องการอะไรเพิ่ม ก็ถามใหม่ AI ทำงานเฉพาะเมื่อมีคนถาม และหยุดทันทีที่ตอบเสร็จ",
-    tickers: ["NVDA", "META", "AMZN", "MSFT", "GOOGL", "PLTR"],
+    tickers: ["NVDA", "META", "AMZN", "MSFT", "GOOGL", "AAPL", "ARM", "SPCX"],
     content: `# Agentic AI: เมื่อ AI เริ่มทำงานแทนคนจริงๆ
 *จาก AI ที่ตอบคำถาม สู่ AI ที่รับงาน ทำงาน และส่งผลลัพธ์โดยไม่ต้องถามทุกขั้นตอน*
 
@@ -348,7 +364,11 @@ Agentic AI คือสิ่งที่แตกต่างอย่างส
 
 **[[GOOGL]]** มี Gemini agent ecosystem และ GCP backlog $460B ส่วนใหญ่มาจาก agentic workload commitments
 
-**[[PLTR]]** (Palantir) คือบริษัทที่มี enterprise agentic revenue ใน production แล้วตอนนี้ ไม่ใช่แค่ planning ผ่าน AIP (Artificial Intelligence Platform) ที่ deploy ใน government และ enterprise clients
+**[[AAPL]]** ได้ประโยชน์จาก agentic AI ผ่าน installed base 2.5B+ devices ที่เป็นช่องทางการกระจาย agent ให้ผู้ใช้ทั่วโลก Apple Intelligence และ Siri เวอร์ชันใหม่ (คาดออก H2 2026) วางแผนให้ agent ทำงานบนอุปกรณ์โดยตรงมากขึ้น แต่ต้องยอมรับตรงไปตรงมาว่า Apple ยังตามหลังคู่แข่งในการพัฒนา agentic capability ของตัวเอง — Siri ใหม่ใช้ Google Gemini foundation model เป็นแกนหลัก (จ่ายราว $1B/ปี ให้ GOOGL) แทนที่จะเป็น in-house model ล้วนๆ ทำให้ Apple ได้ประโยชน์จาก distribution/ecosystem มากกว่าจากการเป็นผู้นำเทคโนโลยี agentic เอง
+
+**[[ARM]]** ได้ประโยชน์จาก agentic AI ในฐานะผู้ผลิต ISA ที่ CPU เกือบทุกตัวที่ orchestrate agent workload ต้องใช้ CEO Rene Haas วาง vision ชัดเจนว่า "CPU เป็น Orchestrator ของ AI Agents" เพราะ agent ต้อง orchestrate tools, เรียก API, อ่านฐานข้อมูล และตัดสินใจ multi-step ซึ่งเป็นงานของ CPU ไม่ใช่ GPU ARM เปิดตัว AGI CPU ชิปสำเร็จรูปตัวแรกสำหรับ data center ที่ออกแบบมาเพื่อ agentic workload โดยเฉพาะ มี demand แล้ว $2B+ ตั้งแต่เปิดตัว โดยมี Meta เป็น lead partner ในการพัฒนา
+
+**[[SPCX]]** (SpaceX) เชื่อมกับ agentic AI ทางอ้อมผ่าน xAI (Grok) ที่รวมเข้าเป็นส่วนหนึ่งของบริษัทหลังการควบรวมเดือนกุมภาพันธ์ 2026 และผ่านสัญญา merchant compute กับ Anthropic ($45B ตลอด 3 ปี ผ่าน COLOSSUS/COLOSSUS II) ที่ทำให้ SpaceX เป็นผู้ให้บริการ compute infrastructure สำหรับ agentic AI ของบริษัทอื่นด้วย อย่างไรก็ตาม ต้องยอมรับตรงไปตรงมาว่านี่เป็น exposure ทางอ้อมผ่านฝั่ง infrastructure/compute เป็นหลัก ไม่ใช่ agentic AI product ของ SpaceX เอง และสัญญา Anthropic มีเงื่อนไข termination ได้ทุก 90 วัน ทำให้ความแน่นอนของรายได้ส่วนนี้ต่ำกว่าตัวเลขหัวข่าว
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -370,7 +390,7 @@ Timeline ที่ควรติดตาม: enterprise agentic deployment ก
     conviction: "HIGH",
     last_updated: "2026-07-26",
     summary: "หลายทศวรรษที่ผ่านมา อุตสาหกรรม semiconductor พัฒนาด้วยการทำ transistor ให้เล็กลงทุกสองปีตาม Moore's Law แต่ขณะนี้การทำ transistor ให้เล็กกว่า 2nm กำลังเข้าสู่ข้อจำกัดทางฟิสิกส์ที่แก้ยากมากขึ้นเรื่อยๆ",
-    tickers: ["NVDA", "AVGO", "ASML", "INTC"],
+    tickers: ["NVDA", "AVGO", "ASML", "TSM", "LITE"],
     content: `# Advanced Packaging: ศิลปะแห่งการประกอบชิปในยุค AI
 *เมื่อ Moore's Law ชะลอตัว วิธีที่ชิปถูก "แพ็ค" เข้าด้วยกันกลายเป็น competitive advantage ใหม่*
 
@@ -405,7 +425,9 @@ OSAT (Outsourced Semiconductor Assembly and Test) ซึ่งคือบริ
 
 **[[ASML]]** EUV lithography ที่ ASML ผลิตเป็นพื้นฐานของ leading-edge node ที่ advanced packaging นำมาเชื่อมต่อ การขยาย N2/A14 ของ TSMC ที่ขับเคลื่อนโดย packaging demand ต้องใช้ EUV tools เพิ่มขึ้น
 
-**[[INTC]]** (Intel) EMIB คือ catalyst ที่สำคัญที่สุดสำหรับ Intel Foundry ถ้า NVIDIA qualify Intel EMIB สำหรับ next-generation architecture มันจะเปลี่ยน revenue trajectory ของ Intel Foundry อย่างมีนัยสำคัญ แม้แต่ partial qualification สำหรับ specific chips จะ meaningful Intel's STCO (System Technology Co-Optimization) ที่เป็น 5-layer simultaneous optimization ก็เป็น moat ที่ deeper กว่า node advantage อื่นๆ
+**[[TSM]]** (TSMC) คือเจ้าของเทคโนโลยี CoWoS (Chip-on-Wafer-on-Substrate) ซึ่งเป็นคอขวดหลักของ AI GPU assembly ในปัจจุบัน — GPU ทุกตัวของ NVIDIA, accelerator ของ AMD, และ ASIC ของ Broadcom ล้วนต้องพึ่ง CoWoS ของ TSMC รายได้ advanced packaging เพิ่มจาก ~8% ของรายได้รวม FY2024 เป็น low-teens% ที่ guide ไว้สำหรับ FY2026 และ TSMC กำลังลงทุนสร้างโรงงาน advanced packaging เพิ่มอีก 13 แห่งในไต้หวันรวมถึงที่ Arizona เพื่อขยาย capacity ที่ยัง "ตึงมาก" ถึงปี 2027
+
+**[[LITE]]** (Lumentum) แม้ core business จะอยู่ฝั่ง optical component แต่ก็เกี่ยวพันกับ advanced packaging โดยตรงผ่าน CPO (Co-Packaged Optics) ที่ต้องรวม optics เข้ากับ chip package เดียวกัน — Lumentum เป็นหนึ่งในสองบริษัท optics ที่ NVIDIA ทุ่มเงินลงทุนตรง $2B (พร้อม Coherent) เพื่อ secure supply chain ที่จำเป็นสำหรับ next-gen packaging ของ AI chip
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -484,7 +506,7 @@ ASML ไม่ใช่ cyclical story แต่เป็น secular compounder 
     conviction: "HIGH",
     last_updated: "2026-07-27",
     summary: "ตั้งแต่ปี 2022 เป็นต้นมา ทุกบทสนทนาเรื่อง AI semiconductor มักวนเวียนอยู่กับ GPU GPU ใหญ่กว่า เร็วกว่า มี HBM มากกว่า NVIDIA คืนใหม่ที่สาย semiconductor รอคอย CPU ที่เคยเป็นหัวใจของ computing กลายเป็นเพียงผู้สนับสนุนที่ไม่มีใครพูดถึง",
-    tickers: ["ARM", "INTC", "AMD"],
+    tickers: ["ARM", "AMD"],
     content: `# CPU Renaissance: การฟื้นคืนชีพของชิปที่ทุกคนลืม
 *ทุกคนจ้องที่ GPU แต่ agentic AI กำลังทำให้ CPU กลับมามีความสำคัญอีกครั้ง*
 
@@ -517,8 +539,6 @@ Philadelphia SOX index ทะลุ 10,000 เป็นครั้งแรก�
 ## หุ้นที่ได้ประโยชน์
 
 **[[ARM]]** คือ highest-conviction play ใน CPU Renaissance ARM ผลิต ISA (Instruction Set Architecture) ที่ทุก ARM-based CPU ต้องใช้ license ไม่ว่าจะเป็น Apple M-series, AWS Graviton, Qualcomm Snapdragon, หรือ Nvidia Grace CPU ARM ได้ royalty จากทุกชิปที่ขาย win condition ของ ARM ง่ายมาก: "ARM architecture proliferates in servers" ไม่ว่า Intel หรือ AMD จะชนะ ไม่ว่า Apple หรือ Qualcomm จะแข็งแกร่งกว่ากัน ARM ชนะเสมอถ้า ARM ISA ขยายตัว
-
-**[[INTC]]** (Intel) มีหลายปัจจัย: server demand ดีกว่าคาด, capacity reallocation ทำงาน, EMIB packaging optionality, STCO framework ที่เป็น deeper moat กว่าที่ตลาดเข้าใจ แต่ conviction อยู่ที่ MED เพราะ thesis ขึ้นอยู่กับหลายเงื่อนไขพร้อมกัน
 
 **[[AMD]]** EPYC server CPU กำลังได้ market share จาก Intel ใน enterprise server Zen 6 Venice ออกแบบสำหรับ agentic orchestration โดยเฉพาะ MI300X ที่รวม CPU+GPU ในแพ็คเกจเดียวก็ทำให้ AMD ได้ประโยชน์จากทั้ง CPU และ GPU side พร้อมกัน
 
@@ -656,7 +676,7 @@ Humanoid robotics คือ theme ที่ตื่นเต้นที่ส�
     conviction: "MED",
     last_updated: "2026-05-25",
     summary: "Space และ Defense กำลังผ่านจุดเปลี่ยนพร้อมกันสองด้าน ด้านแรกคือ Space ที่เคยเป็น \"artisan prestige engineering\" ราคาหลายพันล้านดอลลาร์ กำลังกลายเป็นอุตสาหกรรมสายพานผลิต ต้นทุนขนส่งสู่วงโคจรลดลง 95%+ จาก $54,000/kg ของ Space Shuttle เหลือ <$2,000/kg ของ Falcon 9 และกำลังมุ่งสู่ <$200/kg เมื่อ Starship V3 สำเร็จ",
-    tickers: ["LASR", "ASTS", "PL", "RDW", "STM"],
+    tickers: ["SPCX"],
     content: `# Space & Defense: จากจรวดสู่เลเซอร์ทำลายล้าง
 *SpaceX IPO มูลค่า $1.75T และอาวุธพลังงานทิศทาง (DEW) กลายเป็นจริงพร้อมกันในปี 2026*
 
@@ -687,15 +707,9 @@ Flywheel ของ SpaceX: Falcon 9 launch Starlinks → subscription revenue �
 
 ## หุ้นที่ได้ประโยชน์
 
-**[[LASR]]** (nLight) คือ pure-play DEW integrator เพียงรายเดียวที่ listed ในตลาด เป็นผู้ผลิตและ integrator ที่ทำ "everything in the system" — ได้รับการยืนยันว่าเป็น supplier ให้กับ Iron Beam, Pentagon HELSI megawatt program, และ Golden Dome RFP Citrini เข้าซื้อที่ $8.47 ในเดือนพฤษภาคม 2025 และ 6x แล้ว แต่ thesis ของ structural growth เพิ่งเริ่มต้น — US Navy ตั้งใจจะติด laser ใน "ทุกเรือ" ซึ่งมีอยู่ ~290 ลำ
+**[[SPCX]]** (SpaceX) คือหุ้นเดียวใน watchlist ที่อยู่ใน Space & Defense trend หลัง IPO วันที่ 12 มิถุนายน 2026 ด้วยมูลค่า ~$1.765T โครงสร้าง 4 เสาของ SpaceX ทำให้ได้ประโยชน์จากทั้งสองด้านของ trend นี้พร้อมกัน — ด้าน **Space** ผ่าน Falcon 9 ที่ครอง ~82% ของ global commercial launch และ Starship ที่กำลังพัฒนาสู่ cost/kg <$200 ด้าน **Connectivity/Starshield** ผ่าน Starlink ที่มี Adj EBITDA margin 63% เป็น cash machine หลักของบริษัท และ Starshield (segment ภาครัฐ/กองทัพ) ที่เป็น growth-rate เร็วที่สุดในบรรดา 4 segment ทำหน้าที่เป็น defense angle โดยตรงของ trend นี้ผ่านสัญญากับกองทัพสหรัฐฯ
 
-**[[ASTS]]** (AST SpaceMobile) เทคโนโลยี Direct-to-Cell ให้ smartphone ต่อตรงกับดาวเทียมโดยไม่ต้องมี dedicated terminal Q4 2025 รายได้ $54.3M (beat consensus 30%), service revenue $18.1M ที่ margin 87.9%, liquidity $4B ลดความเสี่ยง dilution เป้าหมาย: 45-60 ดาวเทียมภายในสิ้นปี 2026
-
-**[[PL]]** (Planet Labs) เพิ่งบรรลุ positive FCF เป็นครั้งแรกในประวัติศาสตร์ มี backlog $900M และ D&I revenue +50% YoY จาก Swedish Armed Forces, DIU INDOPACOM, NATO กำลังเปลี่ยน business model จาก data subscription ไปสู่ Satellite-as-a-Service ซึ่ง TAM ใหญ่กว่า 6-10x
-
-**[[RDW]]** (Redwire) Q1 2026: book-to-bill 1.92x, backlog สูงสุดตลอดกาล $498M pipeline ที่น่าสนใจ: Andromeda program (~$6B), Golden Dome (VLEO prime), Lunar Power Grid ใกล้ชิดกว่าผู้เล่นอื่น
-
-**[[STM]]** (STMicroelectronics) เป็น officially confirmed RF supplier ให้ SpaceX มี cumulative revenue เป้าหมาย $3B ปี 2026-2028 ความเสี่ยง: SpaceX กำลัง insource packaging ที่ Bastrop TX ปลายปี 2026
+ในมุมมองของ Warren: การที่ trend นี้เหลือเพียง single-stock สะท้อนว่า pure-play Directed Energy Weapons (nLight/LASR) และชื่อ commercial-space อื่นที่เคยติด trend นี้ (AST SpaceMobile, Planet Labs, Redwire, STMicroelectronics) ไม่ได้อยู่ใน watchlist หลักอีกต่อไป — SpaceX เป็นบริษัทเดียวที่ผสาน launch + connectivity + government/defense ครบทั้ง value chain ทำให้เป็น expression ที่ชัดเจนที่สุดของทั้ง theme แต่ก็ทำให้ trend นี้ผูกกับความเสี่ยงเฉพาะตัวของ SpaceX เพียงบริษัทเดียว (lockup unlock overhang, Musk key-man risk, AI-segment burn) แทนที่จะกระจายผ่านหลายผู้เล่นเหมือนเดิม
 
 ## มุมมองระยะยาว
 
@@ -770,7 +784,7 @@ Atoms vs Bits เป็น cross-cutting framework ที่มีผลต่�
     conviction: "MED",
     last_updated: "2026-05-16",
     summary: "ในช่วงปี 2023-2024 narrative ที่ครอบงำ Wall Street คือ \"AI จะทำลาย Google Search\" เพราะถ้าคนหันไปถาม ChatGPT แทน Google ก็ไม่มีคนคลิก ad แล้ว narrative นี้ทำให้หุ้น META และ GOOGL ถูก discount ว่าเป็น \"AI loser\" ในขณะที่ MSFT ได้รับ premium จากการลงทุนใน OpenAI",
-    tickers: ["META", "GOOGL"],
+    tickers: ["META", "GOOGL", "NFLX"],
     content: `# Digital Advertising ยุค AI: เมื่อโฆษณาฉลาดขึ้น ทุกคนได้ประโยชน์ยกเว้นคนที่ล้าหลัง
 *META และ GOOGL ถูกมองว่าเป็น "AI laggard" แต่นั่นคือโอกาสที่นักลงทุนส่วนใหญ่พลาดไป*
 
@@ -802,6 +816,8 @@ META open-source Llama ecosystem ทำให้นักพัฒนาทั�
 **[[META]]** คือชื่อที่มี conviction สูงที่สุดใน Digital Advertising trend AI-enhanced ad targeting เพิ่ม ROI ให้ผู้โฆษณาโดยตรง ซึ่งทำให้พวกเขาเพิ่ม budget บน META platform Llama open-source ecosystem สร้าง developer moat ที่แยกจาก advertising business ให้ศักยภาพ upside เพิ่มเติม Instagram และ Facebook ยังคง engagement ที่แข็งแกร่งท่ามกลางการแข่งขันจาก TikTok ที่ intense กว่าที่เคย
 
 **[[GOOGL]]** ได้ประโยชน์จาก AI Overview ad coverage expansion ที่ขยาย monetization ของ complex queries ออกไป YouTube ยังคงเป็น platform หลักสำหรับ video advertising ที่ไม่มีคู่แข่งที่ใกล้เคียงในฝั่งตะวันตก Gemini Enterprise monetization เป็น revenue stream ใหม่ที่กำลัง ramp ขึ้น
+
+**[[NFLX]]** (Netflix) เข้าสู่ digital advertising อย่างจริงจังในฐานะผู้เล่นใหม่ที่เติบโตเร็วที่สุดใน trend นี้ Ad-supported tier มีสัดส่วนกว่า 60% ของ sign-up ใหม่ในประเทศที่มีแผนโฆษณา ทำงานร่วมกับ advertiser กว่า 4,000 ราย (+70% YoY) รายได้โฆษณาปี 2025 เกิน $1.5B (โต 2.5 เท่าจากปีก่อน) และตั้งเป้าปี 2026 ที่ ~$3B (โตเป็น 2 เท่าอีกครั้ง) Netflix Ads Suite ที่พัฒนาเอง ผนวกกับ AI tools ตลอด lifecycle การโฆษณา (planning→creative→optimization→reporting) ทำให้ Netflix เริ่มแข่งขันในพื้นที่ที่ META และ GOOGL ครองอยู่ แม้ยังเป็นสัดส่วนเล็กของรายได้รวมบริษัท แต่เป็น growth vector ที่ชัดเจนที่สุดตัวหนึ่ง
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
