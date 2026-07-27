@@ -8,7 +8,7 @@ var TRENDS_DATA = [
     conviction: "HIGH",
     last_updated: "2026-05-16",
     summary: "ลองนึกภาพการก่อสร้างเมืองใหม่ทั้งเมืองในเวลาห้าปี ไม่ใช่บ้านสองสามหลัง แต่เป็นโครงสร้างพื้นฐานทั้งหมด ตั้งแต่ถนน ระบบไฟฟ้า ท่อน้ำ ไปจนถึงตึกสูง นั่นคือสิ่งที่กำลังเกิดขึ้นในโลกของ AI datacenter ในขณะนี้",
-    tickers: ["NVDA", "AVGO", "MRVL", "TSM", "MSFT"],
+    tickers: ["NVDA", "AVGO", "TSM", "LITE", "COHR", "MU", "SKHY", "SPCX", "MSFT", "GOOGL", "AMZN"],
     content: `# โครงสร้างพื้นฐาน AI: มหาสงครามแห่งการลงทุน
 *เมื่อ Big Tech ทุ่ม $725 พันล้านดอลลาร์ในปีเดียว คำถามไม่ใช่ว่าใครจะชนะ แต่ว่าใครจะส่งของได้ทัน*
 
@@ -41,13 +41,27 @@ ASML ซึ่งเป็นบริษัทเดียวในโลกท
 
 **[[AVGO]]** (Broadcom) สร้างชิป ASIC แบบ custom สำหรับ hyperscalers รายใหญ่ รายได้ datacenter อยู่ที่ $6.1B ปี FY2026 โดยตั้งเป้าที่ $15B ในปี FY2028 นอกจากนี้ยัง CPO (Co-Packaged Optics) อยู่ใน volume production แล้ว
 
-**[[MRVL]]** (Marvell) เป็น custom silicon platform ที่โตเร็วที่สุด รายได้ $8.2B FY2026 เป็น all-time high โดย 74% มาจาก datacenter พร้อม deal $2B จาก NVIDIA ที่ยืนยัน strategic importance
-
 **[[TSM]]** (TSMC) คือโรงงานผลิตชิปที่ทุกคนต้องพึ่ง ไม่มีทางเลือกอื่นสำหรับ advanced node และ moat นี้แข็งแกร่งขึ้นทุกปี
+
+**[[LITE]]** (Lumentum) เป็นหนึ่งในสองบริษัทที่ NVIDIA ทุ่มเงินลงทุนตรง $2B พร้อม multi-year purchase commitment (2 มี.ค. 2026) เพื่อ lock supply ชิ้นส่วน optical/photonic ที่จำเป็นสำหรับ AI datacenter networking — สะท้อนว่า optics กลายเป็นคอขวดของโครงสร้างพื้นฐาน AI ไม่ต่างจาก GPU หรือ HBM
+
+**[[COHR]]** (Coherent) ได้เงินลงทุนตรง $2B จาก NVIDIA พร้อมกันกับ Lumentum ในวันเดียวกัน จุดแข็งคือ vertical integration เต็มรูปแบบใน InP (Indium Phosphide) ตั้งแต่ปลูกผลึกจนถึงแพ็คเกจ transceiver สำเร็จรูป ซึ่งไม่มีคู่แข่งรายใดทำได้ครบวงจรเท่านี้
+
+**[[MU]]** (Micron) คือหนึ่งในสามผู้ผลิต HBM รายใหญ่ที่ NVIDIA รับรองเป็นซัพพลายเออร์ HBM4 บน Vera Rubin platform ปัจจุบัน MU มี Strategic Customer Agreements (SCA) 16 ฉบับ มูลค่ารวม ~$100B ที่ล็อครายได้ล่วงหน้า ทำให้ demand ฝั่ง AI infrastructure มี floor ที่มั่นคงกว่าวงจร memory แบบเดิม
+
+**[[SKHY]]** (SK hynix) เป็นผู้นำตลาด HBM อันดับ 1 ของโลกด้วยส่วนแบ่ง 56.4% (Q1 2026) และเป็นซัพพลายเออร์ HBM หลักให้ NVIDIA มายาวนาน TSMC ปรับ CoWoS process recipe ให้เข้ากับ SK hynix มาตั้งแต่ยุค HBM2e ซึ่งเป็นความได้เปรียบเชิงโครงสร้างที่ทำให้ SK hynix อยู่ในตำแหน่งศูนย์กลางของ AI Infrastructure supply chain
+
+**[[SPCX]]** (SpaceX) แม้ไม่ใช่ผู้เล่นตรงในฝั่ง chip/datacenter แต่ Starlink/Starshield และแผน space-based compute infrastructure ทำให้ SpaceX กลายเป็นผู้เล่นสำคัญของโครงสร้างพื้นฐานยุคใหม่ที่เชื่อมต่อ AI workloads ผ่านดาวเทียม รองรับ demand สำหรับ connectivity ที่ hyperscalers ต้องการขยายไปทั่วโลก
 
 **Cloud Hyperscalers**
 
-**[[MSFT]], [[GOOGL]], [[META]], [[AMZN]]** ได้ประโยชน์ทั้งในฐานะผู้ซื้อ infrastructure (ที่กำลัง monetize ผ่าน AI services) และผู้ลงทุนในโครงสร้างพื้นฐาน Azure เติบโต +39% YoY, GCP +63% YoY, AWS AI revenue run-rate >$15B และยังขาด capacity อีก
+**[[MSFT]]** Azure เติบโต +39% YoY และเป็นหนึ่งในผู้ลงทุน CapEx รายใหญ่สุดในกลุ่ม Big Tech $725B ปี 2026
+
+**[[GOOGL]]** GCP เติบโต +63% YoY พร้อม backlog ที่พุ่งขึ้นเป็น $460B เกือบเพิ่มเป็นสองเท่าในหนึ่งไตรมาส
+
+**[[AMZN]]** AWS AI revenue run-rate >$15B พร้อม backlog $364B (+49% QoQ) และยังขาด capacity รองรับ demand อยู่
+
+META ก็ได้ประโยชน์ในฐานะผู้ซื้อ infrastructure และผู้ลงทุนโครงสร้างพื้นฐานเช่นเดียวกัน (ไม่อยู่ใน watchlist ปัจจุบัน)
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -67,7 +81,7 @@ AI Infrastructure คือ secular trend ที่แข็งแกร่ง�
     conviction: "HIGH",
     last_updated: "2026-07-26",
     summary: "มีคำถามที่นักลงทุนถามมานานหลายทศวรรษว่า \"หุ้น memory ควรซื้อตอนไหน?\" คำตอบดั้งเดิมคือ \"ซื้อตอน down cycle ขายตอน up cycle\" เพราะ memory คือสินค้าโภคภัณฑ์ที่ราคาวนเวียนขึ้นลงตามกำลังการผลิตและ demand ของ consumer electronics",
-    tickers: ["NVDA", "AMD", "AVGO", "MRVL"],
+    tickers: ["NVDA", "AMD", "MU", "SKHY"],
     content: `# วงจร Memory ที่เปลี่ยนไปตลอดกาล
 *จากสินค้าโภคภัณฑ์ที่ขึ้นๆ ลงๆ สู่ส่วนประกอบที่ขาดไม่ได้ของ AI*
 
@@ -102,9 +116,9 @@ Demand ของ memory ก็กว้างขึ้นเรื่อยๆ �
 
 **[[AMD]]** ใช้ HBM3E ใน MI300X accelerator ซึ่งเป็น AI chip หลักของ AMD การเติบโตของ AI accelerator revenue AMD ขึ้นอยู่กับการได้รับ HBM allocation จาก SK Hynix หรือ Micron
 
-**[[AVGO]]** (Broadcom) Custom ASICs ของ Broadcom ทั้งหมดที่ทำให้ Google TPU, Meta MTIA, Amazon Trainium ต่างต้องใช้ HBM และ CoWoS packaging ก็รวม HBM attachment เป็นส่วนหนึ่งของกระบวนการ
+**[[MU]]** (Micron) เป็นผู้นำเทคโนโลยี HBM4 ตัวจริง — volume ramp เร็วกว่า HBM3E ถึง 2 เท่า และเป็นเจ้าแรกที่ shipped HBM4 revenue เกิน $1B แล้ว ได้รับเลือกเป็นซัพพลายเออร์ HBM4 สำหรับ NVIDIA Vera Rubin platform นอกจากนี้ Micron ยังเซ็น LTA (Long-Term Agreement) 5 ปีครั้งแรกในประวัติศาสตร์บริษัท ล็อคราคาไว้สูงกว่า baseline เดิม 80-100% พร้อม 16 Strategic Customer Agreements มูลค่ารวม ~$100B ที่ทำให้ downside cyclicality ลดลงมาก แม้จะมีความเป็นผู้นำด้านเทคโนโลยี แต่ UBS ประเมิน market share HBM ปี 2027 ให้ Micron อยู่อันดับ 3 ห่างๆ ที่ 20% (Samsung 41%, SK Hynix 39%) — เทคโนโลยีนำหน้าไม่ได้แปลว่าจะได้ส่วนแบ่งตลาดมากที่สุด
 
-**[[MRVL]]** (Marvell) มี CXL memory controller IP ที่ช่วยให้ hyperscalers สร้าง memory pooling ซึ่งช่วยใช้ HBM ให้มีประสิทธิภาพสูงขึ้น รวมถึง HBM4E Controller IP ที่ licensed ให้ hyperscalers โดยตรง
+**[[SKHY]]** (SK hynix) คือผู้นำตลาด HBM อันดับ 1 ของโลกในปัจจุบันด้วยส่วนแบ่ง 56.4% (Q1 2026) และทำ operating margin สูงถึง 72% ใน Q1 2026 ซึ่งเป็นระดับที่ปกติเห็นเฉพาะธุรกิจ software TSMC ปรับ CoWoS process recipe ให้เข้ากับ SK hynix มาตั้งแต่ยุค HBM2e ต่างจาก Samsung ที่ TSMC ทำงานแบบ arms-length เท่านั้น — เป็น soft moat เชิงโครงสร้างที่ทำให้ SK hynix รักษาตำแหน่งผู้นำได้ยาก แม้ UBS จะมองว่า Samsung อาจแซงหน้าเล็กน้อยในปี 2027 (41% vs 39%)
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -128,7 +142,7 @@ thesis ของ Memory Supercycle มีสองเสาหลัก: HBM ส
     conviction: "HIGH",
     last_updated: "2026-07-26",
     summary: "ลองนึกถึงทางด่วนในกรุงเทพที่รถติดสนิท คุณสามารถขยายช่องทางได้ แต่มีข้อจำกัดทางกายภาพที่ทำให้ขยายต่อไม่ได้อีกแล้ว ไม่ว่าจะลงทุนเพิ่มเท่าไร นั่นคือปัญหาของสายทองแดงในโลก AI ปัจจุบัน",
-    tickers: ["NVDA", "AVGO", "MRVL", "MSFT"],
+    tickers: ["NVDA", "AVGO", "COHR", "LITE"],
     content: `# การปฏิวัติ Optical Interconnect: เมื่อแสงแทนที่ทองแดง
 *ทองแดงใช้ส่งสัญญาณ AI ไม่ได้อีกแล้ว อนาคตคือแสง*
 
@@ -159,9 +173,9 @@ Broadcom Tomahawk 5 CPO อยู่ใน volume production แล้ว NVIDIA
 
 **[[AVGO]]** (Broadcom) มี Tomahawk 5 CPO ใน volume production แล้ว และ custom ASIC networking สำหรับ hyperscalers ต้องรวม optics เป็นส่วนหนึ่งของ solution ตำแหน่งที่แข็งแกร่งใน scale-out network ทำให้ AVGO ได้ประโยชน์ทั้งในปัจจุบันและอนาคต
 
-**[[MRVL]]** (Marvell) คือ optical DSP leader ในปัจจุบัน และผ่านการซื้อ Celestial AI มูลค่า $3.25B-$5.5B Marvell กำลังสร้าง Photonic Fabric ที่จะทำให้ optical die-to-die interconnect เป็นไปได้ โดยสร้าง unified optical memory pool ขนาด 33TB+ ซึ่งจำเป็นสำหรับ model พารามิเตอร์หลายล้านล้านตัวในอนาคต รายได้ Marvell อยู่ที่ $8.2B โดย 74% มาจาก datacenter
+**[[COHR]]** (Coherent) ได้รับเงินลงทุนตรง $2B จาก NVIDIA (2 มี.ค. 2026) พร้อม multi-year purchase commitment จุดแข็งคือ vertical integration เต็มรูปแบบใน InP (Indium Phosphide) ตั้งแต่ปลูกผลึก ผลิตเวเฟอร์ ออกแบบชิป จนถึงแพ็คเกจ transceiver สำเร็จรูป — ไม่มีคู่แข่งรายใดทำได้ครบวงจรเท่านี้ ทำให้ได้ประโยชน์โดยตรงจากทั้ง demand ที่เพิ่มขึ้นและ pricing power จาก InP wafer ที่ราคาพุ่งขึ้น 250% จากภาวะขาดแคลน
 
-**[[MSFT]] และ [[GOOGL]]** ได้ประโยชน์ในฐานะ early adopter ที่ลดต้นทุน infrastructure ด้วยการใช้ CXL memory pooling ผ่าน optical และ OCS-based fabric ตามลำดับ
+**[[LITE]]** (Lumentum) ได้รับเงินลงทุนตรง $2B จาก NVIDIA ในวันเดียวกับ Coherent พร้อม multi-year purchase commitment ธุรกิจหลักคือ optical/photonic component (66% ของรายได้ Q3 FY2026) ครอบคลุม EML laser, VCSEL, ROADM ที่จำเป็นสำหรับ transceiver 800G/1.6T และ CPO รุ่นถัดไป — อยู่ในตำแหน่งที่ได้ประโยชน์ทั้งจาก scale-out และ scale-up transition
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
@@ -370,7 +384,7 @@ Timeline ที่ควรติดตาม: enterprise agentic deployment ก
     conviction: "HIGH",
     last_updated: "2026-07-26",
     summary: "หลายทศวรรษที่ผ่านมา อุตสาหกรรม semiconductor พัฒนาด้วยการทำ transistor ให้เล็กลงทุกสองปีตาม Moore's Law แต่ขณะนี้การทำ transistor ให้เล็กกว่า 2nm กำลังเข้าสู่ข้อจำกัดทางฟิสิกส์ที่แก้ยากมากขึ้นเรื่อยๆ",
-    tickers: ["NVDA", "AVGO", "ASML", "INTC"],
+    tickers: ["NVDA", "AVGO", "ASML", "TSM", "LITE"],
     content: `# Advanced Packaging: ศิลปะแห่งการประกอบชิปในยุค AI
 *เมื่อ Moore's Law ชะลอตัว วิธีที่ชิปถูก "แพ็ค" เข้าด้วยกันกลายเป็น competitive advantage ใหม่*
 
@@ -405,7 +419,9 @@ OSAT (Outsourced Semiconductor Assembly and Test) ซึ่งคือบริ
 
 **[[ASML]]** EUV lithography ที่ ASML ผลิตเป็นพื้นฐานของ leading-edge node ที่ advanced packaging นำมาเชื่อมต่อ การขยาย N2/A14 ของ TSMC ที่ขับเคลื่อนโดย packaging demand ต้องใช้ EUV tools เพิ่มขึ้น
 
-**[[INTC]]** (Intel) EMIB คือ catalyst ที่สำคัญที่สุดสำหรับ Intel Foundry ถ้า NVIDIA qualify Intel EMIB สำหรับ next-generation architecture มันจะเปลี่ยน revenue trajectory ของ Intel Foundry อย่างมีนัยสำคัญ แม้แต่ partial qualification สำหรับ specific chips จะ meaningful Intel's STCO (System Technology Co-Optimization) ที่เป็น 5-layer simultaneous optimization ก็เป็น moat ที่ deeper กว่า node advantage อื่นๆ
+**[[TSM]]** (TSMC) คือเจ้าของเทคโนโลยี CoWoS (Chip-on-Wafer-on-Substrate) ซึ่งเป็นคอขวดหลักของ AI GPU assembly ในปัจจุบัน — GPU ทุกตัวของ NVIDIA, accelerator ของ AMD, และ ASIC ของ Broadcom ล้วนต้องพึ่ง CoWoS ของ TSMC รายได้ advanced packaging เพิ่มจาก ~8% ของรายได้รวม FY2024 เป็น low-teens% ที่ guide ไว้สำหรับ FY2026 และ TSMC กำลังลงทุนสร้างโรงงาน advanced packaging เพิ่มอีก 13 แห่งในไต้หวันรวมถึงที่ Arizona เพื่อขยาย capacity ที่ยัง "ตึงมาก" ถึงปี 2027
+
+**[[LITE]]** (Lumentum) แม้ core business จะอยู่ฝั่ง optical component แต่ก็เกี่ยวพันกับ advanced packaging โดยตรงผ่าน CPO (Co-Packaged Optics) ที่ต้องรวม optics เข้ากับ chip package เดียวกัน — Lumentum เป็นหนึ่งในสองบริษัท optics ที่ NVIDIA ทุ่มเงินลงทุนตรง $2B (พร้อม Coherent) เพื่อ secure supply chain ที่จำเป็นสำหรับ next-gen packaging ของ AI chip
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
