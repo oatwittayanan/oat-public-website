@@ -396,7 +396,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-07-25"
+      "date": "2026-07-27"
     }
   },
   "AMZN": {
@@ -634,7 +634,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-07-25"
+      "date": "2026-07-27"
     }
   },
   "GOOGL": {
@@ -1338,7 +1338,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-07-25"
+      "date": "2026-07-27"
     }
   },
   "TSLA": {
