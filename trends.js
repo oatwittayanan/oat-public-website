@@ -670,6 +670,61 @@ Humanoid robotics คือ theme ที่ตื่นเต้นที่ส�
 `
   },
   {
+    tag: "Autonomous-Vehicle",
+    title: "Autonomous Vehicle: รถที่ขับเองได้กำลังจะ commercial จริง",
+    subtitle: "หลังสิบปีของคำสัญญา robotaxi กำลังเปลี่ยนจาก demo เป็นบริการที่เก็บเงินได้จริงในหลายเมือง",
+    conviction: "MED",
+    last_updated: "2026-05-30",
+    summary: "Autonomous Vehicle (AV) คือรถที่ขับเคลื่อนด้วยตัวเองโดยอาศัย AI, sensor (กล้อง/LiDAR/radar) และ compute บนรถ แทนที่คนขับ ระดับความสามารถแบ่งเป็น L2 (ผู้ช่วยขับ คนยังต้องคุม) ไปจนถึง L4 (ขับเองเต็มรูปแบบในพื้นที่กำหนด) และ L5 (ขับเองได้ทุกที่)",
+    tickers: ["TSLA", "NVDA", "GOOGL"],
+    content: `# Autonomous Vehicle: รถที่ขับเองได้กำลังจะ commercial จริง
+*หลังสิบปีของคำสัญญา robotaxi กำลังเปลี่ยนจาก demo เป็นบริการที่เก็บเงินได้จริงในหลายเมือง*
+
+**Warren's Conviction:** MED
+**Last Updated:** 2026-05-30
+
+---
+
+## ภาพรวม — Trend นี้คืออะไร
+
+Autonomous Vehicle (AV) คือรถที่ขับเคลื่อนด้วยตัวเองโดยอาศัย AI, sensor (กล้อง/LiDAR/radar) และ compute บนรถ แทนที่คนขับ ระดับความสามารถแบ่งเป็น L2 (ผู้ช่วยขับ คนยังต้องคุม) ไปจนถึง L4 (ขับเองเต็มรูปแบบในพื้นที่กำหนด) และ L5 (ขับเองได้ทุกที่)
+
+สิ่งที่ทำให้ปี 2026 ต่างจากรอบก่อนๆ ที่ AV เคย "จะมา" แต่ไม่มา คือมันข้ามเส้นจาก demo ไปสู่ **บริการเชิงพาณิชย์ที่เก็บเงินจริง** แล้ว — Waymo ให้บริการ robotaxi แบบไม่มีคนขับในหลายเมืองของสหรัฐฯ และ Tesla เปิด Robotaxi ที่ Austin พร้อมขยายไป Dallas/Houston กุญแจสำคัญคือ economics เริ่ม work: ต้นทุน compute และ sensor ต่อคันลดลงต่อเนื่อง ขณะที่ค่าโดยสารต่อ trip ยังเก็บได้เท่าเดิม
+
+AV เป็น theme ที่เกี่ยวพันกับหลาย trend อื่น — มันต้องใช้ Custom Silicon (ชิป inference บนรถ), AI-Infrastructure (train โมเดลใน data center) และเทคโนโลยีเดียวกับ Humanoid Robots (real-world AI, การรับรู้สภาพแวดล้อม) ทำให้บริษัทที่ลงทุนใน AV มักได้ optionality ข้าม theme
+
+## ทำไมถึงน่าสนใจตอนนี้
+
+Robotaxi กำลัง scale จริง — Waymo ทำ paid rides หลายแสนเที่ยวต่อสัปดาห์และขยายเมืองต่อเนื่อง ส่วน Tesla เริ่ม Robotaxi commercial ที่ Austin ใน Q2 2026 โดยใช้จุดแข็ง vertically integrated manufacturing + ข้อมูลการขับขี่จากรถ Tesla หลายล้านคันทั่วโลกเป็น real-world data moat ที่คู่แข่งเลียนแบบยาก
+
+ฝั่ง compute platform NVIDIA DRIVE กลายเป็น standard สำหรับ OEM หลายรายที่ไม่ได้พัฒนา full-stack เอง — รถยนต์ที่ต้องการ L2+/L3 ซื้อแพลตฟอร์ม DRIVE ไปฝังในรุ่นใหม่ ทำให้ NVIDIA ได้ revenue line จาก automotive ที่โตขึ้นเรื่อยๆ นอกเหนือจาก data center
+
+Qualcomm ก็เป็นผู้เล่นสำคัญผ่าน Snapdragon Ride (digital cockpit + ADAS/AD) ที่ฝังอยู่ใน design cycle ของ OEM ล่วงหน้า 3-5 ปี โดยมี design win pipeline ขนาดใหญ่ที่จะทยอยรับรู้รายได้ถึงปี 2030 — AV จึงเป็นหนึ่งใน growth vector หลักของการ diversify ออกจากมือถือ
+
+## หุ้นที่ได้ประโยชน์
+
+**[[TSLA]]** (Tesla) เป็น pure-play AV ที่ใหญ่ที่สุดใน watchlist — Robotaxi (Austin Q2 2026, ขยาย Dallas/Houston) + FSD + real-world data moat จากรถหลายล้านคัน ข้อได้เปรียบหลักคือ vertically integrated manufacturing ที่ทำให้ต้นทุนต่อคันต่ำ และ fleet ขนาดใหญ่ที่ป้อนข้อมูลการขับขี่กลับมา train โมเดลตลอดเวลา มูลค่าส่วนใหญ่ของ Tesla วันนี้ผูกกับการที่ AV/Robotaxi สำเร็จ — ถ้าสำเร็จคือ transformative ถ้าล่าช้าหรือเจอ regulatory คือ downside ที่ใหญ่
+
+**[[NVDA]]** ได้ประโยชน์ในฐานะ compute platform — NVIDIA DRIVE เป็นแพลตฟอร์ม end-to-end สำหรับ OEM ที่ไม่ทำ full-stack เอง บวกกับการ train โมเดล AV ใน data center ด้วย GPU ของ NVIDIA เอง ทำให้ได้ทั้ง training (data center) และ inference (on-vehicle)
+
+**[[GOOGL]]** (Alphabet) ผ่าน Waymo — ผู้นำ robotaxi เชิงพาณิชย์ที่ทำ paid rides ไม่มีคนขับใน scale จริง เป็น optionality ที่ตลาดยังให้มูลค่าไม่เต็มเมื่อเทียบกับ core search/cloud
+
+## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
+
+ผู้ผลิตรถยนต์ดั้งเดิมที่ไม่ได้ลงทุนใน AV stack อย่างจริงจังเผชิญความเสี่ยงระยะยาว — ถ้า robotaxi ทำให้คนเป็นเจ้าของรถน้อยลง (shift จาก ownership เป็น ride-hailing) ยอดขายรถส่วนบุคคลอาจถูกกดดันใน 10 ปีข้างหน้า
+
+บริษัท ride-hailing ที่ใช้คนขับ (โมเดลเดิม) เผชิญแรงกดดันด้านต้นทุนจาก robotaxi ที่ไม่มีค่าแรงคนขับ — ถ้า AV scale ได้จริง โครงสร้างต้นทุนจะเปลี่ยนทั้งอุตสาหกรรม
+
+ความเสี่ยงร่วมของทั้ง theme คือ **regulatory และ safety** — อุบัติเหตุครั้งใหญ่หรือการตัดสินใจของหน่วยงานกำกับเพียงครั้งเดียวสามารถชะลอการ rollout ทั้งอุตสาหกรรมได้หลายปี
+
+## มุมมองระยะยาว
+
+Autonomous Vehicle เป็น theme ที่ timeline ยาวและ binary สูง — ระหว่างทางจะมีทั้งช่วงที่ตลาดตื่นเต้นเกินจริงและช่วงที่ผิดหวัง pure-play ที่ดีที่สุด (Waymo) ยังอยู่ใต้ GOOGL ไม่ได้แยก IPO ส่วน TSLA เป็น exposure ที่ตรงที่สุดแต่มาพร้อม valuation premium และ key-man risk
+
+วิธีเล่น theme นี้ที่สมเหตุสมผลคือผ่าน **picks-and-shovels** (NVDA compute, QCOM automotive silicon) ที่ได้ประโยชน์ไม่ว่าผู้ชนะ robotaxi จะเป็นใคร มากกว่าการเดิมพันกับผู้ให้บริการรายใดรายหนึ่ง นักลงทุนที่ต้องการ exposure ตรงผ่าน TSLA ควร size position ให้สะท้อน timeline uncertainty และ regulatory risk ที่ยังสูง
+`
+  },
+  {
     tag: "Space-Defense",
     title: "Space & Defense: จากจรวดสู่เลเซอร์ทำลายล้าง",
     subtitle: "SpaceX IPO มูลค่า $1.75T และอาวุธพลังงานทิศทาง (DEW) กลายเป็นจริงพร้อมกันในปี 2026",

@@ -30,6 +30,7 @@ DISPLAY_ORDER = [
     "CPU-Renaissance",
     "Power-Infrastructure",
     "Humanoid-Robots",
+    "Autonomous-Vehicle",
     "Space-Defense",
     "Defense-Materials",
     "Digital-Advertising",
