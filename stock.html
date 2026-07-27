@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260727110829"></script>
+  <script src="knowledge.js?v=20260727113550"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -144,6 +144,19 @@ let STOCKS = {};
 
 // ─── Legacy inline data (fallback if stocks.json fails to load) ────────────
 const STOCKS_INLINE = {
+  MSFT: {
+    name: 'Microsoft', sector: 'Big Tech', sectorSlug: 'bigtech',
+    chips: ['Big Tech', 'Cloud + AI + Productivity'],
+    action: 'hold', actionLabel: 'Hold', conviction: 3,
+    waf: 8.7, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
+    price: 381.7, fv: 459, mos: 16.84, fpe: 19.94, peg: 1.53,
+    scores: { bq: [9.5,'green',95], gp: [8.5,'green',85], va: [8.4,'green',84], ra: [8.0,'green',80] },
+    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Microsoft monetizes enterprise AI through Azure (+29% YoY, capacity-constrained), GitHub Copilot (15M+ paid seats), and M365 Copilot ($30/seat across 300M+ enterprise users) — the most deeply embedded enterprise software ecosystem globally.', why: 'Consensus เห็นข่าว layoff 4,800 ตำแหน่ง (2.1-2.9% ของพนักงาน, ประกาศ 07-06 ยังถูกรายงาน/วิเคราะห์ต่อเนื่องถึง 07-16) เป็นสัญญาณลบ — cost pressure จาก AI capex ที่พุ่งสูง; Warren เห็นต่างว่านี่คือ **Fisher-style rational capital allocation** ตัวอย่างชัด: การตัดที่ Xbox/Windows sales/consulting (ธุรกิจโตช้า) พร้อมย้ำว่า "ไม่มีตำแหน่งไหนถูกแทนที่ด้วย AI โดยตรง"; ล่าสุด (07-16) MSFT ปรับโครงสร้าง Cybersecurity unit เพื่อรองรับภัยคุกคาม AI ใหม่ + เพิ่มผลิตภัณฑ์ที่เก็บเงินได้ — เป็นหลักฐานเพิ่มเติมว่า capital/headcount กำลังไหลเข้า high-growth adjacent categories ไม่ใช่แค่ cost-cutting เฉยๆ วินัยด้านต้นทุนขณะที่ AI ARR โต 123% YoY คือสัญญาณบวกของ management quality ไม่ใช่ความเสื่อม', risk: 'หาก Azure growth ชะลอ <15% เป็น 2 quarters ติดต่อกัน หรือ OpenAI พัฒนา platform ของตัวเองและลด exclusivity จนกระทบ Copilot ecosystem จริง', updated: '2026-07-27' },
+    idea: 'Enterprise AI Stack — Azure + Copilot + RPO $627B (bet เดิมไม่เปลี่ยน). ราคาย่อ $393.82→$381.70 (-3.1%, ไม่มีข่าว MATERIAL ใหม่หลัง gate 07-23 — เจอแค่ 🟡MONITOR Mistral partnership 07-24) ทำให้ MoS ขยับดีขึ้น 14.2%→16.84% (พ้น gate 15% แล้ว), ER 16.1%→16.76%.',
+    bull: ['Azure +29% YoY Q3 FY2026, AI revenue accelerating — RPO backlog $627B+', 'GitHub Copilot 15M+ paid seats = AI productivity เข้าสู่ enterprise mainstream', 'M365 Copilot adoption inflect — per-seat $30/mo licensing scalable', 'Cloud Margins expanding = operating leverage แข็งแกร่ง', 'OpenAI partnership = first-mover ใน enterprise AI tooling'],
+    risk: ['Valuation P/E 32x เริ่มเกิน fair value ถ้า Azure growth ชะลอ', 'OpenAI dependency — ถ้า OpenAI เปลี่ยน strategy กระทบ MSFT', 'Gaming segment อ่อนแอ Activision integration cost สูง', 'EU antitrust investigation Teams bundling ยังดำเนินอยู่', 'CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027'],
+    updated: '2026-07-27'
+  },
   NVDA: {
     name: 'NVIDIA Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'AI Infrastructure'],
@@ -156,19 +169,6 @@ const STOCKS_INLINE = {
     bull: ['CUDA ecosystem 7.5M developers = switching cost ที่แทบเป็นไปไม่ได้จะ migrate', 'Blackwell architecture รัน majority ของ Data Center revenue แล้ว', 'FY2026 Revenue $215.9B +65% YoY, FCF $96.6B = cash machine', 'Q1 FY2027 guidance $78B = growth ยังไม่หยุด', 'Full-stack AI factory: GPU + Networking + Software (CUDA/NIM)'],
     risk: ['Valuation สูง — ต้องการ execution perfect หลายปีต่อเนื่อง', 'US export restrictions ต่อ China H20 chips กระทบ revenue ทันที', 'Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด', 'AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน', 'Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation'],
     updated: '2026-07-27'
-  },
-  MSFT: {
-    name: 'Microsoft', sector: 'Big Tech', sectorSlug: 'bigtech',
-    chips: ['Big Tech', 'Cloud + AI + Productivity'],
-    action: 'hold', actionLabel: 'Hold', conviction: 3,
-    waf: 8.6, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 393.82, fv: 459, mos: 14.2, fpe: 20.58, peg: 1.85,
-    scores: { bq: [9.5,'green',95], gp: [8.5,'green',85], va: [8.1,'green',81], ra: [8.0,'green',80] },
-    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Microsoft monetizes enterprise AI through Azure (+29% YoY, capacity-constrained), GitHub Copilot (15M+ paid seats), and M365 Copilot ($30/seat across 300M+ enterprise users) — the most deeply embedded enterprise software ecosystem globally.', why: 'Consensus เห็นข่าว layoff 4,800 ตำแหน่ง (2.1-2.9% ของพนักงาน, ประกาศ 07-06 ยังถูกรายงาน/วิเคราะห์ต่อเนื่องถึง 07-16) เป็นสัญญาณลบ — cost pressure จาก AI capex ที่พุ่งสูง; Warren เห็นต่างว่านี่คือ **Fisher-style rational capital allocation** ตัวอย่างชัด: การตัดที่ Xbox/Windows sales/consulting (ธุรกิจโตช้า) พร้อมย้ำว่า "ไม่มีตำแหน่งไหนถูกแทนที่ด้วย AI โดยตรง"; ล่าสุด (07-16) MSFT ปรับโครงสร้าง Cybersecurity unit เพื่อรองรับภัยคุกคาม AI ใหม่ + เพิ่มผลิตภัณฑ์ที่เก็บเงินได้ — เป็นหลักฐานเพิ่มเติมว่า capital/headcount กำลังไหลเข้า high-growth adjacent categories ไม่ใช่แค่ cost-cutting เฉยๆ วินัยด้านต้นทุนขณะที่ AI ARR โต 123% YoY คือสัญญาณบวกของ management quality ไม่ใช่ความเสื่อม', risk: 'หาก Azure growth ชะลอ <15% เป็น 2 quarters ติดต่อกัน หรือ OpenAI พัฒนา platform ของตัวเองและลด exclusivity จนกระทบ Copilot ecosystem จริง', updated: '2026-07-23' },
-    idea: 'Enterprise AI Stack — Azure + Copilot + RPO $627B; layoff 4,800 ตำแหน่ง + Cybersecurity unit reorg (07-16) อ่านเป็นวินัยต้นทุนสไตล์ Fisher ไม่ใช่ demand อ่อน',
-    bull: ['Azure +29% YoY Q3 FY2026, AI revenue accelerating — RPO backlog $627B+', 'GitHub Copilot 15M+ paid seats = AI productivity เข้าสู่ enterprise mainstream', 'M365 Copilot adoption inflect — per-seat $30/mo licensing scalable', 'Cloud Margins expanding = operating leverage แข็งแกร่ง', 'OpenAI partnership = first-mover ใน enterprise AI tooling'],
-    risk: ['Valuation P/E 32x เริ่มเกิน fair value ถ้า Azure growth ชะลอ', 'OpenAI dependency — ถ้า OpenAI เปลี่ยน strategy กระทบ MSFT', 'Gaming segment อ่อนแอ Activision integration cost สูง', 'EU antitrust investigation Teams bundling ยังดำเนินอยู่', 'CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027'],
-    updated: '2026-07-23'
   },
   TSM: {
     name: 'Taiwan Semiconductor', sector: 'Semiconductor', sectorSlug: 'semi',
@@ -209,6 +209,19 @@ const STOCKS_INLINE = {
     risk: ['ราคาปัจจุบันเกิน Fair Value $350 — รอ pullback ก่อน entry', 'Custom XPU customers อาจพัฒนา in-house ลดความ dependency ระยะยาว', 'VMware debt overhang จาก acquisition $69B', 'Semiconductor cyclicality ใน Enterprise networking', 'Hock Tan succession planning ระยะยาว'],
     updated: '2026-07-25'
   },
+  AMZN: {
+    name: 'Amazon', sector: 'Big Tech', sectorSlug: 'bigtech',
+    chips: ['Big Tech', 'Cloud + Commerce + AI'],
+    action: 'hold', actionLabel: 'Hold', conviction: 3,
+    waf: 8.13, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
+    price: 232.11, fv: 287, mos: 19.13, fpe: 23.42, peg: 1.3,
+    scores: { bq: [9.0,'green',90], gp: [8.5,'green',85], va: [7.6,'amber',76], ra: [6.5,'amber',65] },
+    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Amazon dominates e-commerce + AWS cloud + digital ads, beating competitors via unmatched logistics scale, broadest cloud portfolio, and custom silicon (Trainium) that delivers structural cost advantage.', why: 'Consensus ยังมองข่าว FTC ad-pricing probe เป็นความเสี่ยงระดับ "billions" (ล่าสุด FTC ร่าง draft complaint แล้วแต่ยังไม่ยื่นฟ้องจริง ณ 07-15 — อาจจบเป็น settlement ช่วงซัมเมอร์นี้ตามรายงาน) กดราคาหุ้นเป็นระยะ; Warren เห็นต่างว่าตลาดยัง over-discount headline risk ของ portion เล็กของ ad revenue ไม่ใช่ AWS/Retail core — Prime Day มิ.ย. ทำยอด $26.4B (+9% YoY) ยืนยัน demand ฝั่ง retail/ads แข็งแรง; Amazon เพิ่งออกพันธบัตร $25B (07-08/09) เพื่อขยาย AI infrastructure ต่อเนื่อง + ลงทุน $1B จ้างวิศวกร AI ประจำลูกค้าองค์กร (07-01) เป็นสัญญาณเร่ง AWS AI monetization ที่ยังไม่ priced-in เต็มเทียบกับ legal overhang ที่ราคาตอบสนองมากเกินจริงเป็นระยะ ๆ', risk: 'AWS growth decelerates below 20% as Azure/GCP capture AI workloads, proving the CapEx surge was malinvestment — หรือ FTC ad-pricing case ลงเอยเป็น structural remedy (ไม่ใช่แค่ค่าปรับ) ที่บังคับเปลี่ยน ad auction model กระทบ revenue stream ถาวร', updated: '2026-07-27' },
+    idea: 'Cloud + Retail + Ads Trifecta — AWS +36% fastest growth ใน 15 ไตรมาส + Trainium/Anthropic AI compute hedge (bet เดิมไม่เปลี่ยน). ราคาย่อ $247.23→$232.11 (-6.1%, ไม่มีข่าว MATERIAL ใหม่หลัง gate 07-23) ทำให้ MoS ขยับดีขึ้น 13.9%→19.13% (พ้น gate 15% ชัดเจน), ER 21.0%→22.34%.',
+    bull: ['AWS fastest-growing hyperscaler ใน 15 quarters ล่าสุด', 'Anthropic partnership + Trainium chips = AI infrastructure play', 'Prime ecosystem 200M+ subscribers = commerce + media flywheel', 'Advertising business $60B+ ARR กำลัง accelerate', 'Operating leverage ของ AWS ทำให้ margin ขยายได้ต่อเนื่อง'],
+    risk: ['MoS เพียง 9.5% ต่ำกว่า threshold 15% — ราคายังสูงอยู่', 'Regulatory risk ทั้ง EU + US กด Commerce + Marketplace', 'CapEx AI infrastructure push ขนาดใหญ่กด FCF ระยะสั้น', 'Retail segment margin ต่ำ sensitive ต่อ macro slowdown', 'Trainium vs NVIDIA CUDA — ROI ของ custom chip ยังพิสูจน์ไม่ได้ทั้งหมด'],
+    updated: '2026-07-27'
+  },
   LITE: {
     name: 'Lumentum Holdings', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Optical/Photonics', 'AI Infrastructure'],
@@ -221,19 +234,6 @@ const STOCKS_INLINE = {
     bull: ['รายได้ Q3 FY26 record $808M +90% YoY จาก AI/cloud optical demand', 'NVIDIA ลงทุน $2B (Series A preferred) + EMLs/pump lasers sold out >30% imbalance', 'CPO laser chips = growth driver ใหญ่สุด, Greensboro fab อาจเพิ่มรายได้ >$5B', 'vertical integration InP fabs = margin + supply security'],
     risk: ['ราคาวิ่งแรงมาก (52wL $80 → $945) = optical group euphoria', 'forward PE สูงมากบน sentiment', 'convertible notes $3.2B + dilution risk', 'optical demand เป็น supply story — laser bottleneck'],
     updated: '2026-07-25'
-  },
-  AMZN: {
-    name: 'Amazon', sector: 'Big Tech', sectorSlug: 'bigtech',
-    chips: ['Big Tech', 'Cloud + Commerce + AI'],
-    action: 'hold', actionLabel: 'Hold', conviction: 3,
-    waf: 7.9, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 247.23, fv: 287, mos: 13.9, fpe: 24.95, peg: 1.61,
-    scores: { bq: [9.0,'green',90], gp: [8.5,'green',85], va: [7.2,'amber',72], ra: [6.5,'amber',65] },
-    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Amazon dominates e-commerce + AWS cloud + digital ads, beating competitors via unmatched logistics scale, broadest cloud portfolio, and custom silicon (Trainium) that delivers structural cost advantage.', why: 'Consensus ยังมองข่าว FTC ad-pricing probe เป็นความเสี่ยงระดับ "billions" (ล่าสุด FTC ร่าง draft complaint แล้วแต่ยังไม่ยื่นฟ้องจริง ณ 07-15 — อาจจบเป็น settlement ช่วงซัมเมอร์นี้ตามรายงาน) กดราคาหุ้นเป็นระยะ; Warren เห็นต่างว่าตลาดยัง over-discount headline risk ของ portion เล็กของ ad revenue ไม่ใช่ AWS/Retail core — Prime Day มิ.ย. ทำยอด $26.4B (+9% YoY) ยืนยัน demand ฝั่ง retail/ads แข็งแรง; Amazon เพิ่งออกพันธบัตร $25B (07-08/09) เพื่อขยาย AI infrastructure ต่อเนื่อง + ลงทุน $1B จ้างวิศวกร AI ประจำลูกค้าองค์กร (07-01) เป็นสัญญาณเร่ง AWS AI monetization ที่ยังไม่ priced-in เต็มเทียบกับ legal overhang ที่ราคาตอบสนองมากเกินจริงเป็นระยะ ๆ', risk: 'AWS growth decelerates below 20% as Azure/GCP capture AI workloads, proving the CapEx surge was malinvestment — หรือ FTC ad-pricing case ลงเอยเป็น structural remedy (ไม่ใช่แค่ค่าปรับ) ที่บังคับเปลี่ยน ad auction model กระทบ revenue stream ถาวร', updated: '2026-07-23' },
-    idea: 'Cloud + Retail + Ads Trifecta — AWS +36% fastest growth ใน 15 ไตรมาส + Trainium/Anthropic AI compute hedge',
-    bull: ['AWS fastest-growing hyperscaler ใน 15 quarters ล่าสุด', 'Anthropic partnership + Trainium chips = AI infrastructure play', 'Prime ecosystem 200M+ subscribers = commerce + media flywheel', 'Advertising business $60B+ ARR กำลัง accelerate', 'Operating leverage ของ AWS ทำให้ margin ขยายได้ต่อเนื่อง'],
-    risk: ['MoS เพียง 9.5% ต่ำกว่า threshold 15% — ราคายังสูงอยู่', 'Regulatory risk ทั้ง EU + US กด Commerce + Marketplace', 'CapEx AI infrastructure push ขนาดใหญ่กด FCF ระยะสั้น', 'Retail segment margin ต่ำ sensitive ต่อ macro slowdown', 'Trainium vs NVIDIA CUDA — ROI ของ custom chip ยังพิสูจน์ไม่ได้ทั้งหมด'],
-    updated: '2026-07-23'
   },
   META: {
     name: 'Meta Platforms', sector: 'Big Tech', sectorSlug: 'bigtech',
@@ -256,10 +256,10 @@ const STOCKS_INLINE = {
     price: 319.74, fv: 311, mos: -2.81, fpe: 27.73, peg: 2.52,
     scores: { bq: [9.5,'green',95], gp: [8.5,'green',85], va: [4.5,'orange',45], ra: [5.8,'orange',58] },
     story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Alphabet dominates global search (90% share), cloud (GCP fastest-growing hyperscaler +82% YoY Q2 FY26, capacity-constrained), and AI with full-stack Gemini+TPU platform — Cloud backlog พุ่งเป็น **$514B** (+$50B QoQ).', why: 'Q2 FY2026 (รายงาน 07-22) — revenue $119.8B (+24%, beat), Cloud +82%, backlog +$50B QoQ = ผลดำเนินงานแกร่งจริง; แต่หุ้น **ร่วง ~11% ($359.51→$319.74)** เพราะตลาด repricing capital-intensity: CapEx guide ยกเป็น **$195-205B**, FCF margin ทรุด 21%→9.2% (**FCF ติดลบครั้งแรก -$5.9B**), purchase commitments พุ่งเป็น **$811B**, equity raise $49.6B (dilution) + buyback หยุด. Second-level: consensus ตอนนี้กลัว "AI capex เผาเงินไม่คุ้ม" — Warren เห็นว่า operating engine ยังแกร่ง (Cloud/backlog) แต่ **ราคาที่ $319.74 = ~fairly-valued-to-slightly-rich บน clean earnings** ไม่มี MoS เหลือแล้ว; ไม่ใช่จังหวะที่ edge จะเกิด — รอให้ FCF/capex-ROI พิสูจน์ตัวก่อน', risk: 'หาก DOJ Search remedy บังคับยกเลิก Apple TAC deal (~$18-20B) + DOJ Ad-Tech divestiture พร้อมกัน = business model เสียหายถาวร — หรือ AI monetization ไม่ทันกับ $811B commitments + CapEx >$200B/ปี ทำให้ FCF ติดลบยืดเยื้อและ dilution กัด EPS มากกว่า ROI ที่ได้กลับ — หรือ GAAP EPS ที่พอง (equity gains volatile) กลับทิศเป็นขาดทุน', updated: '2026-07-25' },
-    idea: 'Full re-analysis post Q2 FY2026 (reported 07-22): revenue $119.8B (+24%, beat), Cloud $24.8B (+82%), backlog $514B (+$50B QoQ) — but stock -11% ($359.51->$319.74) on CapEx guide raised to $195-205B + FCF margin collapse 21%->9.2% (first negative FCF quarter -$5.9B) + $811B purchase commitments + $49.6B equity raise (dilution) + buyback halted. FV rebased $376->$311: old FV used GAAP EPS (~$13.9) inflated by one-time equity gains; rebuilt on clean FY27 consensus EPS $11.53 x 27x (resolves the long-flagged PEG/growth CONFLICT). At $319.74 GOOGL is ~fairly-valued-to-slightly-rich: MoS -2.8%, ER 10.45%/yr — below 15% gate -> WATCH.',
+    idea: 'Full re-analysis post Q2 FY2026 (reported 07-22): revenue $119.8B (+24%, beat), Cloud $24.8B (+82%), backlog $514B (+$50B QoQ) — but stock -11% ($359.51->$319.74) on CapEx guide raised to $195-205B + FCF margin collapse 21%->9.2% (first negative FCF quarter -$5.9B) + $811B purchase commitments + $49.6B equity raise (dilution) + buyback halted. FV rebased $376->$311 (carried from 07-25, unchanged this batch — price today identical to card price).',
     bull: ['GCP +63% YoY fastest-growing hyperscaler — Cloud Gen AI revenue +800% YoY ใน Q1 2026', 'Full-stack AI moat ที่เลียนแบบไม่ได้: Ironwood TPU + Gemini + Vertex AI + Applications', 'PEG 0.8 — จ่ายน้อยกว่า growth rate จริง หายากมากในกลุ่ม mega-cap', 'Cloud Backlog $460B+ = revenue visibility 3-5 ปีชัดเจน', 'Waymo 500K+ rides/week = Free Option ที่ตลาดยังไม่ตีราคา'],
     risk: ['DOJ Antitrust ทั้ง Search monopoly + Ad Tech — ถ้าถูกบังคับ divest Chrome/Android กระทบยาว', 'CapEx $180-190B FY2026 เพิ่ม ~2x YoY — กด Free Cash Flow ระยะสั้น', 'AI-first search behavior — ChatGPT/Perplexity กิน complex queries จริง', 'Wiz acquisition compress Cloud margin 2026', 'China revenue = zero = missed market ขนาดใหญ่'],
-    updated: '2026-07-25'
+    updated: '2026-07-27'
   },
   COHR: {
     name: 'Coherent Corp.', sector: 'Semiconductor', sectorSlug: 'semi',

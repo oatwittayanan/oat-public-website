@@ -1133,7 +1133,10 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-23
+**Last Updated:** 2026-07-27
+
+**Update (2026-07-27) — TQR backfill batch 1/5 + price refresh (no new secondary research)** [WARREN THESIS]
+- Reconfirmed: no new analyst research in inbox since 07-23, no news after gate. Only change this batch: price refresh ($247.23→$232.11, -6.1%) + Theme Playbook TQR sync (8.25, 🥈 Strong — see Valuation Range).
 
 **Update (2026-07-23) — Paper #3.1 FV Recalibration (no execution)** [WARREN THESIS]
 - FV Base แก้ลง **$315 → $287**: FV เดิมอิง multiple สูง (~33.7x โดยนัย / FCF-based) ที่ไม่ตรงกรอบ Consensus-as-Base. แก้เป็น consensus FY27 EPS $9.91 × multiple **29x** (ใกล้ current forward 28.85x + premium เล็กน้อยสะท้อน AWS/ads margin) → FV $287.
@@ -1203,9 +1206,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-23  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-07-27  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
 
-**Tier Basis:** Inevitable: ✓moat 25ปี/3วิกฤต ✓Bezos→Jassy transition ✓AWS+logistics ขยาย ✓ROIC ปรับขึ้น >15% (AWS-led) — ไม่มี tier change; Paper #3.1 = FV recalibration เท่านั้น
+**Tier Basis:** Inevitable: ✓moat 25ปี/3วิกฤต ✓Bezos→Jassy transition ✓AWS+logistics ขยาย ✓ROIC ปรับขึ้น >15% (AWS-led) — ไม่มี tier change; 07-27 = TQR backfill + price refresh เท่านั้น (thesis เดิมยังยืน ไม่มีข่าว MATERIAL ใหม่หลัง 07-23)
 
 **WHAT:** Amazon dominates e-commerce + AWS cloud + digital ads, beating competitors via unmatched logistics scale, broadest cloud portfolio, and custom silicon (Trainium) that delivers structural cost advantage.
 
@@ -1216,31 +1219,31 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-23  |  **Price:** $247.23  |  **Tier:** 🏛️ Inevitable  |  **Method:** Paper #3.1 FV Recalibration (consensus EPS × forward-anchored multiple)
+**Last Updated:** 2026-07-27  |  **Price:** $232.11  |  **Tier:** 🏛️ Inevitable  |  **Method:** Price refresh on unchanged Paper #3.1 FV (consensus EPS × forward-anchored multiple) — TQR backfill batch 1/5
 
-### Snapshot (Paper #3.1 — FV Recalibration, no execution)
+### Snapshot (Price Refresh — FV/EPS/Multiple unchanged, no new earnings)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $247.23 | — |
-| Fair Value Base | **$287** (แก้จาก $315) | — |
-| **Margin of Safety** | **13.9%** | ✗ ต่ำกว่า Gate 15% เล็กน้อย |
-| EPS ที่ใช้ | $9.91 (FY27 consensus) | ⚠️ single-source (stockanalysis) |
-| Multiple | 29× (จาก ~33.7x โดยนัย → ใกล้ forward 28.85x) | premium เล็กน้อยสะท้อน AWS/ads margin |
-| Consensus EPS Growth (used in ER) | 18%/yr | consensus FY26→FY27 |
-| **5-yr Expected Return** | **21.0%/yr** | ✓ PASS (Gate ≥15%) |
-| Forward P/E | 25.0× | — |
-| PEG | 1.61 | — |
+| Current Price | $232.11 (was $247.23, -6.1%) | — |
+| Fair Value Base | **$287** (unchanged) | — |
+| **Margin of Safety** | **19.13%** (was 13.9%) | ✓ PASS (Gate 15%) |
+| EPS ที่ใช้ | $9.91 (FY27 consensus, unchanged) | ⚠️ single-source (stockanalysis) — carried caveat |
+| Multiple | 29× (unchanged) | premium เล็กน้อยสะท้อน AWS/ads margin |
+| Consensus EPS Growth (used in ER) | 18%/yr (unchanged) | consensus FY26→FY27 |
+| **5-yr Expected Return** | **22.34%/yr** (was 21.0%) | ✓ PASS (Gate ≥15%) |
+| Forward P/E | 23.42× | — |
+| PEG | 1.30 | — |
 
-> **FV Recalibration 2026-07-23:** FV เดิม $315 อิง multiple ~33.7x (โดยนัย) เกิน forward P/E จริง → ปรับ multiple ลงเป็น 29x × consensus FY27 EPS $9.91 → FV **$287**. MoS 13.9% (บาง). ⚠️ EPS single-source — flag ไม่เติมจนกว่ามี second source. **ไม่ execute** — HOLD $40.
+> **Price Refresh only (2026-07-27):** ราคาย่อ $247.23→$232.11 (-6.1%) ไม่มีข่าว 🔴MATERIAL ใหม่หลัง gate 07-23 — FV/EPS/multiple คงเดิมทั้งหมด. MoS ดีขึ้นจนพ้น gate 15% ชัดเจน (13.9%→19.13%), ER 22.34%. ⚠️ EPS single-source ยังคงเป็น caveat เดิม. **ไม่ execute** — HOLD position เดิม $40 (add decision อยู่ที่ /warren Paper).
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $337 | +36.3% | 34× × consensus EPS $9.91 (AWS margin full) |
-| **Base** | $287 | +16.1% | 29× × FY27 consensus EPS $9.91 |
-| **Bear** | $218 | −11.8% | 22× × EPS $9.91 (FTC remedy + AWS deceleration) |
+| **Bull** | $337 | +45.2% | 34× × consensus EPS $9.91 (AWS margin full) |
+| **Base** | $287 | +23.6% | 29× × FY27 consensus EPS $9.91 |
+| **Bear** | $218 | −6.1% | 22× × EPS $9.91 (FTC remedy + AWS deceleration) |
 
 ### WAF Score Breakdown
 
@@ -1248,17 +1251,17 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 9.0 | 30% | 2.70 | Unchanged — AWS scale + logistics + custom-silicon intact |
 | GP (Growth Potential) | 8.5 | 30% | 2.55 | Unchanged — AWS +36% fastest 15Q; ads +19% |
-| VA (Valuation) | 7.2 | 25% | 1.80 | FV recalibrated $315→$287 (multiple 29x); MoS 13.9% บาง; ER 21% ADD band แต่ MoS ไม่ผ่าน gate |
-| RA (Risk Assessment) | 6.5 | 15% | 0.975 | FTC ad-pricing draft complaint; +EPS single-source risk |
-| **WAF Total** | **7.90** | | **HIGH** | |
+| VA (Valuation) | 7.6 | 25% | 1.90 | ขึ้นจาก 7.2 — MoS 13.9%→19.13% (พ้น gate ชัดเจน), ER 21%→22.34%, จากราคาย่อลงเท่านั้น (FV ไม่เปลี่ยน) |
+| RA (Risk Assessment) | 6.5 | 15% | 0.975 | Unchanged — FTC ad-pricing draft complaint; EPS single-source risk |
+| **WAF Total** | **8.13** | | **HIGH** | (ขึ้นจาก 7.90, ยัง HIGH band) |
 
-**Investment Idea:** FV recalibration ลด FV $315→$287 (multiple โดยนัยสูงเกิน forward P/E จริง). AWS engine ไม่เปลี่ยน แต่ MoS หดเหลือ 13.9% (บาง) + EPS single-source risk → quality hold, ไม่เติม.
+**Investment Idea:** Cloud + Retail + Ads Trifecta — AWS +36% fastest growth + Trainium/Anthropic AI compute hedge (bet เดิมไม่เปลี่ยน). ราคาย่อ -6.1% โดยไม่มีข่าว MATERIAL ใหม่ ทำให้ MoS/ER ขยับดีขึ้นล้วนจากราคา — theme TQR 8.25 (🥈 Strong, เพดาน 25%, อ้างอิง AI-Revolution.md playbook v1).
 
-**Thesis:** AWS +36% + Trainium/Anthropic backlog + ads; FV ปรับให้ multiple ตรง forward P/E จริง — MoS 13.9% ต่ำกว่า gate เล็กน้อยที่ราคานี้
+**Thesis:** AWS +36% + Trainium/Anthropic backlog + ads; FV คงเดิม $287 — MoS ตอนนี้ผ่าน gate ชัดเจนที่ราคานี้
 
 **Thesis Risk:** FTC ad-pricing structural remedy; AWS growth ชะลอ <20%; CapEx กด FCF; FY27 EPS $9.91 single-source (stockanalysis)
 
-**Action:** 🟢 HOLD (Paper #3.1 = FV recalibration, ไม่ execute; MoS 13.9% ต่ำกว่า gate เล็กน้อย, ER 21% — position เดิม $40 total invested)
+**Action:** 🟢 HOLD (position เดิม $40 total invested; MoS 19.13% + ER 22.34% ผ่าน gate ทั้งคู่แล้ว — เติมหรือไม่ตัดสินใจใน /warren Paper ไม่ใช่ watchlist)
 
 ---
 `,
@@ -4558,7 +4561,10 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-23
+**Last Updated:** 2026-07-27
+
+**Update (2026-07-27) — TQR backfill batch 1/5 + price refresh (no new secondary research)** [WARREN THESIS]
+- Reconfirmed: no new analyst research in inbox since 07-23. Only change this batch: price refresh ($393.82→$381.70, -3.1%, no MATERIAL news since gate) + Theme Playbook TQR sync (8.65, 🥇 Core — see Valuation Range).
 
 **Update (2026-07-23) — Paper #3.1 FV Recalibration (no execution)** [WARREN THESIS]
 - FV Base แก้ลง **$519 → $459** ด้วย Single-Variable Correction: FV เดิมใช้ FY27 EPS $21.63 ซึ่งสูงกว่า consensus $19.14–19.38 ~+13% โดยไม่ประกาศ variant_view (ผิดกฎ Consensus-as-Base) → แก้ EPS ลงเป็น consensus $19.14, **คง multiple 24x เดิม** (ไม่ดัน multiple ชดเชย). FV = 19.14 × 24 = $459.
@@ -4640,9 +4646,9 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-23  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-07-27  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
 
-**Tier Basis:** Inevitable: ✓moat 30+ปี/3วิกฤต ✓Gates→Ballmer→Nadella transition ✓cloud+AI ขยาย ✓ROIC>25% 10ปี — ไม่มี tier change; Paper #3.1 = FV recalibration เท่านั้น (EPS→consensus)
+**Tier Basis:** Inevitable: ✓moat 30+ปี/3วิกฤต ✓Gates→Ballmer→Nadella transition ✓cloud+AI ขยาย ✓ROIC>25% 10ปี — ไม่มี tier change; 07-27 = TQR backfill + price refresh เท่านั้น (thesis เดิมยังยืน ไม่มีข่าว MATERIAL ใหม่หลัง 07-23)
 
 **WHAT:** Microsoft monetizes enterprise AI through Azure (+29% YoY, capacity-constrained), GitHub Copilot (15M+ paid seats), and M365 Copilot ($30/seat across 300M+ enterprise users) — the most deeply embedded enterprise software ecosystem globally.
 
@@ -4653,31 +4659,31 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-23  |  **Price:** $393.82  |  **Tier:** 🏛️ Inevitable  |  **Method:** Paper #3.1 FV Recalibration (Consensus EPS × median-anchored multiple)
+**Last Updated:** 2026-07-27  |  **Price:** $381.70  |  **Tier:** 🏛️ Inevitable  |  **Method:** Price refresh on unchanged Paper #3.1 FV (Consensus EPS × median-anchored multiple) — TQR backfill batch 1/5
 
-### Snapshot (Paper #3.1 — FV Recalibration, no execution)
+### Snapshot (Price Refresh — FV/EPS/Multiple unchanged, no new earnings)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $393.82 | — |
-| Fair Value Base | **$459** (แก้จาก $519) | — |
-| **Margin of Safety** | **14.2%** | ✗ ต่ำกว่า Gate 15% เล็กน้อย |
-| EPS ที่ใช้ | $19.14 (FY27 consensus) | เดิม $21.63 = +13% เหนือ consensus |
-| Multiple | 24× (คงเดิม — Single-Variable Correction) | premium +13% เหนือ forward 21.3×, ต่ำกว่า median 32× |
-| Consensus EPS Growth (used in ER) | 13%/yr | consensus FY27 blend |
-| **5-yr Expected Return** | **16.1%/yr** | ✓ PASS (Gate ≥15%) |
-| Forward P/E | 20.6× | — |
-| PEG | 1.85 | — |
+| Current Price | $381.70 (was $393.82, -3.1%) | — |
+| Fair Value Base | **$459** (unchanged) | — |
+| **Margin of Safety** | **16.84%** (was 14.2%) | ✓ PASS (Gate 15%) |
+| EPS ที่ใช้ | $19.14 (FY27 consensus, unchanged) | — |
+| Multiple | 24× (unchanged) | premium +13% เหนือ forward, ต่ำกว่า median 32× |
+| Consensus EPS Growth (used in ER) | 13%/yr (unchanged) | consensus FY27 blend |
+| **5-yr Expected Return** | **16.76%/yr** (was 16.1%) | ✓ PASS (Gate ≥15%) |
+| Forward P/E | 19.94× | — |
+| PEG | 1.53 | — |
 
-> **Single-Variable Correction:** FV เดิม $519 ใช้ EPS $21.63 (สูงกว่า consensus ~+13% ไม่มี variant_view). แก้เฉพาะ EPS ลงเป็น consensus $19.14, คง multiple 24x เดิม → FV $459. **ไม่ execute** — HOLD position เดิม $70. MoS ที่ราคาซื้อจริง avg $406 = 11.5%.
+> **Price Refresh only (2026-07-27):** ราคาย่อ $393.82→$381.70 (-3.1%) ไม่มีข่าว 🔴MATERIAL ใหม่หลัง gate 07-23 (เจอแค่ 🟡MONITOR Mistral partnership 07-24) — FV/EPS/multiple คงเดิมทั้งหมด. MoS ดีขึ้นจนพ้น gate 15% แล้ว (14.2%→16.84%), ER 16.76%. **ไม่ execute** — HOLD position เดิม $70 (add decision อยู่ที่ /warren Paper).
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $574 | +45.8% | 30× × consensus EPS $19.14 |
-| **Base** | $459 | +16.6% | 24× (historical) × FY27 consensus EPS $19.14 |
-| **Bear** | $345 | −12.3% | 18× × EPS $19.14 (Azure decel) |
+| **Bull** | $574 | +50.4% | 30× × consensus EPS $19.14 |
+| **Base** | $459 | +20.3% | 24× (historical) × FY27 consensus EPS $19.14 |
+| **Bear** | $345 | −9.6% | 18× × EPS $19.14 (Azure decel) |
 
 ### WAF Score Breakdown
 
@@ -4685,17 +4691,17 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 9.5 | 30% | 2.85 | Unchanged — enterprise ecosystem moat intact |
 | GP (Growth Potential) | 8.5 | 30% | 2.55 | Unchanged — Azure +40% capacity-constrained |
-| VA (Valuation) | 8.1 | 25% | 2.025 | FV recalibrated $519→$459 (EPS→consensus); MoS 14.2% บาง แต่ ER 16.1% ยังผ่าน |
-| RA (Risk Assessment) | 8.0 | 15% | 1.20 | ลงจาก 8.5 — near-term FCF headwind จาก capex component-inflation (~$25B ใน $190B) |
-| **WAF Total** | **8.60** | | **VERY HIGH** | |
+| VA (Valuation) | 8.4 | 25% | 2.10 | ขึ้นจาก 8.1 — MoS 14.2%→16.84% (พ้น gate แล้ว), ER 16.1%→16.76%, จากราคาย่อลงเท่านั้น (FV ไม่เปลี่ยน) |
+| RA (Risk Assessment) | 8.0 | 15% | 1.20 | Unchanged — near-term FCF headwind จาก capex component-inflation (~$25B ใน $190B) |
+| **WAF Total** | **8.70** | | **VERY HIGH** | (ขึ้นจาก 8.60) |
 
-**Investment Idea:** FV recalibration ลด FV $519→$459 (EPS เฟ้อ). ธุรกิจไม่เปลี่ยน แต่ valuation edge หดลง — MoS 14.2% (บาง), ER 16.1% (HOLD band). ยังเป็น core holding คุณภาพสูง.
+**Investment Idea:** Enterprise AI Stack — Azure + Copilot + RPO $627B (bet เดิมไม่เปลี่ยน). ราคาย่อ -3.1% โดยไม่มีข่าว MATERIAL ใหม่ ทำให้ MoS/ER ขยับดีขึ้นล้วนจากราคา ไม่ใช่ fundamental เปลี่ยน — theme TQR 8.65 (🥇 Core, ไม่มีเพดานน้ำหนัก, อ้างอิง AI-Revolution.md playbook v1).
 
-**Thesis:** Azure +40% + Copilot + RPO $627B intact; FV ถูกลดให้ตรง consensus EPS — quality hold ไม่ใช่ bargain ที่ราคานี้
+**Thesis:** Azure +40% + Copilot + RPO $627B intact; FV คงเดิม $459 — quality hold, MoS ตอนนี้ผ่าน gate แล้วที่ราคานี้
 
 **Thesis Risk:** Azure ชะลอ <15% 2Q ติด; OpenAI exclusivity erosion; CapEx $190B (~$25B component-inflation) กด FCF
 
-**Action:** 🟢 HOLD (Paper #3.1 = FV recalibration, ไม่ execute; MoS 14.2% ต่ำกว่า gate เล็กน้อย, ER 16.1% ยังผ่าน — position เดิม $70 total invested)
+**Action:** 🟢 HOLD (position เดิม $70 total invested; MoS 16.84% + ER 16.76% ผ่าน gate ทั้งคู่แล้ว — เติมหรือไม่ตัดสินใจใน /warren Paper ไม่ใช่ watchlist)
 
 ---
 `,
