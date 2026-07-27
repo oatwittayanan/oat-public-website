@@ -377,8 +377,8 @@
         60
       ]
     },
-    "idea": "Price $381.92 (จาก $389.11) ดัน MoS 13.53%→15.13% — now AT the 15% gate (razor-thin, 0.13pt over). ผ่าน 4 ด่าน: MoS at gate, PEG 1.42 (thin vs 1.5), ER 36.24%/yr, WAF 8.18 VERY HIGH. ไม่มี fundamentals ใหม่ (Q3 FY26 due ~early Sept). คง STARTER (staged, ไม่ full BUY) เพราะ improvement เป็น price-driven + margins razor-thin + ยังไม่ถือ — Opportunity Cost Gate (Rule #11) vs best holding ยังไม่รัน. Flag for Kim/Charlie ก่อน execute.",
-    "updated": "2026-07-25",
+    "idea": "Price $381.92 ดัน MoS 15.13% — AT the 15% gate (razor-thin). ผ่าน 4 ด่าน: MoS at gate, PEG 1.42 (thin vs 1.5), ER 36.24%/yr, WAF 8.18 VERY HIGH. คง STARTER (staged, ไม่ full BUY) เพราะ improvement เป็น price-driven + margins razor-thin + ยังไม่ถือ — Opportunity Cost Gate (Rule #11) vs best holding ยังไม่รัน. ไม่มีข้อมูลใหม่รอบนี้ (batch นี้ = TQR sync เท่านั้น, scores carry จาก 07-25 authoritative repair batch ตรงตัว)",
+    "updated": "2026-07-27",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -615,8 +615,8 @@
         53
       ]
     },
-    "idea": "ราคาย่อ $646.01(07-18)→$595.19 (-7.9%) ดัน MoS 10.5%→17.56% ทะลุ full gate 15% ครั้งแรกตั้งแต่ราคาวิ่งขึ้นแรงต้นเดือน; FV Base คงที่ $722 (Q2 2026 รอ 29 ก.ค.). ทั้ง 4 ด่านผ่านเชิงกลไก (MoS 17.56% / PEG 1.35 / ER 17.74%/yr [conv 3.94%+growth 13.8%] / WAF 7.82 HIGH) — แต่ META เป็น holding ที่ถืออยู่ → Holdings Return Recheck คุม: ER 17.74% อยู่ใน band 15-20% = HOLD (ยังชนะ QQQM) ไม่ใช่ >20% ADD → HOLD ไม่เติมไม้ใหม่; Q2 29 ก.ค. เป็น catalyst ระยะสั้น. ไม่มี tier change.",
-    "updated": "2026-07-25",
+    "idea": "ราคาย่อ $646.01(07-18)→$595.19 (-7.9%) ดัน MoS 10.5%→17.56% ทะลุ full gate 15% ครั้งแรกตั้งแต่ราคาวิ่งขึ้นแรงต้นเดือน; FV Base คงที่ $722 (Q2 2026 รอ 29 ก.ค.). ทั้ง 4 ด่านผ่านเชิงกลไก — แต่ META เป็น holding ที่ถืออยู่ → Holdings Return Recheck คุม: ER 17.74% อยู่ใน band 15-20% = HOLD ไม่ใช่ >20% ADD. ไม่มีข้อมูลใหม่รอบนี้ (batch นี้ = TQR sync เท่านั้น, ราคา/scores carry จาก 07-25 authoritative repair batch #3 ตรงตัว)",
+    "updated": "2026-07-27",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -1319,8 +1319,8 @@
         40
       ]
     },
-    "idea": "ราคาลงต่ออีก $281.17→$260.01 (-7.5%, broad AI/semi selloff ต่อเนื่อง) — MoS ดีขึ้น -116.3%→-100.0% แต่ยัง ~2x แพงเกินมูลค่าพื้นฐาน (market forward_pe 74x บน EPS เดียวกับ FV vs Warren fair 37x, PEG 3.7 ~2.5x cap 1.5); ไม่มีข่าว fundamental ใหม่หลัง gate 07-15; คง AVOID. ER 7.1%/yr fail ≥15% gate; MoS/PEG fail ลึกกว่ามาก.",
-    "updated": "2026-07-25",
+    "idea": "ราคา $260.01 ยังคง ~2x แพงเกินมูลค่าพื้นฐาน (forward_pe 74x บน EPS เดียวกับ FV vs Warren fair 37x, PEG 3.7 ~2.5x cap 1.5) — คง AVOID. หมายเหตุ: TQR (คุณภาพ) = 🥈 Strong 7.33 (สูงกว่า WAF LOW มาก) เพราะ TQR ตัดผลราคาออก — สะท้อนว่า ARM เป็นธุรกิจคุณภาพดี (royalty moat) แต่ **ราคาไม่ผ่าน gate** เท่านั้น (แยกแกนคุณภาพ vs ราคาตามหลัก TQR). ไม่มีข้อมูลใหม่รอบนี้ (batch นี้ = TQR sync เท่านั้น, scores carry จาก 07-25 authoritative repair batch ตรงตัว)",
+    "updated": "2026-07-27",
     "story_gate": {
       "passed": true,
       "status": "PASS",
