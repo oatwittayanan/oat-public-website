@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260726101149"></script>
+  <script src="knowledge.js?v=20260727105627"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -144,6 +144,19 @@ let STOCKS = {};
 
 // ─── Legacy inline data (fallback if stocks.json fails to load) ────────────
 const STOCKS_INLINE = {
+  NVDA: {
+    name: 'NVIDIA Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Semiconductor', 'AI Infrastructure'],
+    action: 'hold', actionLabel: 'Hold', conviction: 3,
+    waf: 8.6, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
+    price: 206.84, fv: 292, mos: 29.2, fpe: 17.02, peg: 0.64,
+    scores: { bq: [9.5,'green',95], gp: [9.5,'green',95], va: [7.8,'amber',78], ra: [6.3,'orange',63] },
+    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).', why: 'Consensus was treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren saw NVDA\'s Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction. **2026-07-27 update:** the exact fear cited above — SK Hynix-linked HBM tightness threatening NVDA\'s Vera Rubin ramp — just resolved in NVDA\'s favor: NVDA signed a **$500B multi-year preferential-supply agreement with SK Hynix** (HBM3E now + HBM4 for Vera Rubin), including a dedicated 2GW SK Telecom AI-cloud build on NVDA\'s DSX architecture. This is second-level confirmation, not just defense — the same memory-scarcity narrative markets used to discount NVDA is the mechanism by which NVDA is now locking exclusive long-run allocation ahead of ASIC/hyperscaler competitors who lack equivalent commitments. Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) remain unchanged; MoS at $206.84 is still ~29%.', risk: 'Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven) — none of these fired this batch; the SK Hynix deal is incremental supply-side confirmation, not a thesis change.', updated: '2026-07-27' },
+    idea: 'AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM (bet เดิม). FV carried $292 (Paper #3.1). 07-27: NVDA signed $500B multi-year preferential-supply deal with SK Hynix (HBM3E + HBM4 for Vera Rubin) — directly de-risks the memory-bottleneck bear case that market used to discount NVDA in the July selloff; RA bumped 6.0→6.3, WAF 8.40→8.60 (now correctly VERY HIGH band).',
+    bull: ['CUDA ecosystem 7.5M developers = switching cost ที่แทบเป็นไปไม่ได้จะ migrate', 'Blackwell architecture รัน majority ของ Data Center revenue แล้ว', 'FY2026 Revenue $215.9B +65% YoY, FCF $96.6B = cash machine', 'Q1 FY2027 guidance $78B = growth ยังไม่หยุด', 'Full-stack AI factory: GPU + Networking + Software (CUDA/NIM)'],
+    risk: ['Valuation สูง — ต้องการ execution perfect หลายปีต่อเนื่อง', 'US export restrictions ต่อ China H20 chips กระทบ revenue ทันที', 'Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด', 'AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน', 'Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation'],
+    updated: '2026-07-27'
+  },
   MSFT: {
     name: 'Microsoft', sector: 'Big Tech', sectorSlug: 'bigtech',
     chips: ['Big Tech', 'Cloud + AI + Productivity'],
@@ -157,19 +170,6 @@ const STOCKS_INLINE = {
     risk: ['Valuation P/E 32x เริ่มเกิน fair value ถ้า Azure growth ชะลอ', 'OpenAI dependency — ถ้า OpenAI เปลี่ยน strategy กระทบ MSFT', 'Gaming segment อ่อนแอ Activision integration cost สูง', 'EU antitrust investigation Teams bundling ยังดำเนินอยู่', 'CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027'],
     updated: '2026-07-23'
   },
-  NVDA: {
-    name: 'NVIDIA Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
-    chips: ['Semiconductor', 'AI Infrastructure'],
-    action: 'hold', actionLabel: 'Hold', conviction: 3,
-    waf: 8.4, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 202.81, fv: 292, mos: 30.5, fpe: 16.69, peg: 0.89,
-    scores: { bq: [9.5,'green',95], gp: [9.5,'green',95], va: [7.8,'amber',78], ra: [6.0,'orange',60] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).', why: 'Consensus is treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren sees NVDA\'s Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction — Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) are unchanged and MoS at $211.80 is still 31%+; market is repricing the AI-semi basket without differentiating NVDA\'s contracted backlog visibility from names with genuine demand questions (SK Hynix).', risk: 'Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven).', updated: '2026-07-23' },
-    idea: 'AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM ใหม่ (bet เดิม) — FV recalibrated Paper #3.1: แก้ EPS ผิดปี fiscal (FY27 $9.34 → forward-year FY28 consensus $12.15) ยก FV $233→$292, MoS ~30% ที่ราคาปัจจุบัน (เคสกลับ: FV_TOO_LOW ไม่ใช่ TOO_HIGH)',
-    bull: ['CUDA ecosystem 7.5M developers = switching cost ที่แทบเป็นไปไม่ได้จะ migrate', 'Blackwell architecture รัน majority ของ Data Center revenue แล้ว', 'FY2026 Revenue $215.9B +65% YoY, FCF $96.6B = cash machine', 'Q1 FY2027 guidance $78B = growth ยังไม่หยุด', 'Full-stack AI factory: GPU + Networking + Software (CUDA/NIM)'],
-    risk: ['Valuation สูง — ต้องการ execution perfect หลายปีต่อเนื่อง', 'US export restrictions ต่อ China H20 chips กระทบ revenue ทันที', 'Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด', 'AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน', 'Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation'],
-    updated: '2026-07-23'
-  },
   TSM: {
     name: 'Taiwan Semiconductor', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'Advanced Foundry'],
@@ -177,11 +177,11 @@ const STOCKS_INLINE = {
     waf: 8.4, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
     price: 403.41, fv: 420, mos: 3.95, fpe: 19.21, peg: 0.96,
     scores: { bq: [9.5,'green',95], gp: [9.5,'green',95], va: [7.5,'amber',75], ra: [5.5,'orange',55] },
-    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.', why: 'Consensus อ่าน Q2 print ว่า "ดีแต่ priced-in, จับตา margin/capex" — Warren เห็น second-level signal ที่ FY2026 growth guidance ขึ้นเป็น **ครั้งที่สองของปี** (>30%→"slightly above 40%") + CapEx ขึ้นเป็น $60–64B + Arizona +$100B + demand "stronger and stronger" และ supply ตึงถึง 2029–2030 = demand เร่งจริง ไม่ใช่แค่ทรงตัว. แต่หลัง FV recalibration ใช้ consensus EPS (ไม่ใช้ peak-year) FV base ขยับเป็น ~$420 และราคา $403.41 → **MoS เหลือ ~4% เท่านั้น** = ซื้อเกือบเต็มมูลค่า. edge จึงไม่ใช่ "ราคาถูก" แต่คือ "คุณภาพหายากระดับ Inevitable ที่ควรถือ ไม่เติมจนกว่าจะมี buffer".', risk: 'US-Taiwan geopolitical escalates to military action, OR Apple+NVIDIA shift >30% of volume to Samsung/Intel Foundry simultaneously, OR the guided H2 margin compression (N2 ramp −3–4pp GM) proves deeper/longer than management indicated.', updated: '2026-07-25' },
-    idea: 'Q2\'26 beat-and-raise ยืนยัน demand เร่งจริง: record rev $40.20B (+33.7% USD), GM 67.7%, net +77.4% YoY + FY26 growth guide ขึ้นครั้งที่สอง (>30%→\'slightly above 40%\') + CapEx $60-64B + Arizona +$100B + supply ตึงถึง 2029-30. FV base ขยับ $412→$420 (FY27 consensus EPS $20.61→$21.0, คง 20x conservative) — ทะลุฐาน Paper #3.1 ตามที่ flag แต่เพียงเล็กน้อย. MoS ที่ $403.41 = 3.95% ยัง FAIL 15% gate = ต่ำสุดในพอร์ต, ซื้อเกือบเต็มมูลค่า → HOLD ไม่เติม (held name, ไม่ forced sell Fisher). ER de-inflated 27.7%→20.8% (convergence 0.8% + consensus growth ~20%, conservative กว่า Paper #3.1).',
+    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.', why: 'Consensus อ่าน Q2 print ว่า "ดีแต่ priced-in, จับตา margin/capex" — Warren เห็น second-level signal ที่ FY2026 growth guidance ขึ้นเป็น **ครั้งที่สองของปี** (>30%→"slightly above 40%") + CapEx ขึ้นเป็น $60–64B + Arizona +$100B + demand "stronger and stronger" และ supply ตึงถึง 2029–2030 = demand เร่งจริง ไม่ใช่แค่ทรงตัว. แต่หลัง FV recalibration ใช้ consensus EPS (ไม่ใช้ peak-year) FV base ขยับเป็น ~$420 และราคา $403.41 → **MoS เหลือ ~4% เท่านั้น** = ซื้อเกือบเต็มมูลค่า. edge จึงไม่ใช่ "ราคาถูก" แต่คือ "คุณภาพหายากระดับ Inevitable ที่ควรถือ ไม่เติมจนกว่าจะมี buffer".', risk: 'US-Taiwan geopolitical escalates to military action, OR Apple+NVIDIA shift >30% of volume to Samsung/Intel Foundry simultaneously, OR the guided H2 margin compression (N2 ramp −3–4pp GM) proves deeper/longer than management indicated.', updated: '2026-07-27' },
+    idea: 'Q2\'26 beat-and-raise ยืนยัน demand เร่งจริง: record rev $40.20B (+33.7% USD), GM 67.7%, net +77.4% YoY + FY26 growth guide ขึ้นครั้งที่สอง (>30%→\'slightly above 40%\') + CapEx $60-64B + Arizona +$100B + supply ตึงถึง 2029-30. FV base $420 (carried, 07-25). MoS ที่ $403.41 = 3.95% ยัง FAIL 15% gate = ต่ำสุดในพอร์ต, ซื้อเกือบเต็มมูลค่า → HOLD ไม่เติม.',
     bull: ['N2/A16 process leadership — Intel, Samsung ยัง catch up ไม่ถึง', 'CoWoS advanced packaging chokepoint สำหรับ AI chips ทุกตัว', 'Q1 2026 Revenue +41% YoY, Gross Margin 66% = exceptional economics', 'PEG 0.75 — cheap relative to growth สำหรับ foundry dominance', 'AI Accelerator demand visibility แข็งแกร่ง — customer backlog ยาว'],
     risk: ['Taiwan Strait geopolitical risk — ความเสี่ยงหลักที่ตลาดให้ discount ใหญ่', 'US tariff + trade policy uncertainty กระทบ supply chain', 'Customer concentration: Apple + NVIDIA + AMD = top 3', 'Intel Foundry 18A ถ้าสำเร็จ capture market share บางส่วน', 'Arizona/Japan fab ramp cost กด margin ระยะกลาง 2026-2028'],
-    updated: '2026-07-25'
+    updated: '2026-07-27'
   },
   ASML: {
     name: 'ASML Holding', sector: 'Semiconductor', sectorSlug: 'semi',
@@ -324,19 +324,6 @@ const STOCKS_INLINE = {
     idea: 'ราคาลงจาก $548.13→$521.95 (broad semi pullback) ทำให้ MoS ดีขึ้น -17.4%→-11.8% แต่ยัง fail gate 15% หนักเกิน 7pt STARTER band; 07-23 Anthropic $5B GPU deal + 07-21 Microsoft Azure Helios ตอกย้ำ AI-customer diversification (customer #3 หลัง OpenAI/Meta) — thesis แข็งขึ้น แต่ MoS ยัง override → คง WATCH ไม่ chase.',
     bull: ['MI455X HBM bandwidth สูงกว่า NVIDIA H200 ใน bandwidth-bound workloads', 'EPYC market share ใน x86 server CPU expanding ต่อเนื่อง', 'Lisa Su execution track record = among best in semiconductor', 'ROCm ecosystem improving — Meta/Microsoft กำลัง adopt', 'Ryzen AI กำลัง capture NPU market สำหรับ AI PC'],
     risk: ['ROCm ecosystem ตาม CUDA มากกว่า 5 ปี — switching cost ของ CUDA สูงมาก', 'MoS เพียง 3.1% ต่ำเกินไป — ราคาใกล้ Fair Value แล้ว', 'AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก', 'Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ', 'CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด'],
-    updated: '2026-07-25'
-  },
-  CRWD: {
-    name: 'CrowdStrike Holdings', sector: 'Software', sectorSlug: 'software',
-    chips: ['Software', 'Cybersecurity'],
-    action: 'watch', actionLabel: 'Watch', conviction: 3,
-    waf: 6.6, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 183.28, fv: 150, mos: -22.2, fpe: 149.0, peg: 5.3,
-    scores: { bq: [8.5,'green',85], gp: [8.5,'green',85], va: [3.0,'orange',30], ra: [5.0,'orange',50] },
-    story_gate: { passed: true, status: 'PASS', tier: '🌱 Fast Grower', tier_slug: 'fast-grower', what: 'CrowdStrike\'s Falcon platform is AI-native cloud cybersecurity with 33 modules spanning the kill chain (EDR/XDR/Identity/Cloud/SIEM) — once Falcon Flex committed, switching cost is high because customers consolidate across modules, locked-in via threat graph data accumulation.', why: 'Q1 FY2027 (Mark 07-24) ยืนยัน fundamentals แข็ง — Rev +26%, ARR $5.51B +24%, record Q1 NNARR $255.8M +32%, FY27 NNARR guide ยกขึ้นเป็น 27.7% (re-accelerating), FCF margin 34%; ราคาร่วง -13% ($210.73→$183.28) ทำให้ MoS ดีขึ้นเป็น -22.2% แต่ยังแพงกว่า FV; Warren เห็นว่า risk ใหม่ที่สำคัญที่สุดคือ **SEC + DOJ inquiry เรื่อง revenue recognition + การรายงาน ARR** (10-Q Note 10) — เป็นความเสี่ยงเชิงบัญชีที่กระทบ metric หลัก (ARR) ที่ตลาดใช้ประเมิน CRWD โดยตรง; growth story เป็น consensus เต็มตัวแล้ว + valuation ยัง extreme (Fwd PE ~149x, PEG ~5.3) → ไม่ใช่ edge ที่ pay up ได้', risk: 'Microsoft Defender bundle scale ดึง enterprise customers >20% market share หรือ Falcon Flex churn rate กลับมาเกิน 10% หลัง initial commitment expire, หรือ DIY agentic SOC (จาก UBS AI Survey) แย่ง mindshare จาก Charlotte AI ต่อเนื่อง, หรือ **SEC/DOJ probe พบปัญหาการรับรู้รายได้/ARR จริง = re-rate ครั้งใหญ่**', updated: '2026-07-25' },
-    idea: 'Fresh Q1 FY2027 (Mark 07-24): Rev $1,385.6M +26%, ARR $5.51B +24%, record Q1 NNARR $255.8M +32%, FY27 NNARR guide ยกเป็น 27.7% (re-accelerating), FCF margin 34%. ราคา -13% ($210.73→$183.28) ดัน MoS -40.5%→-22.2% แต่ยัง price>FV. New MATERIAL risk: SEC+DOJ inquiry เรื่อง revenue recognition + ARR reporting (10-Q Note 10) กระทบ metric หลักที่ตลาดใช้ประเมินโดยตรง. 2 ใน 4 ด่าน fail: MoS -22.2% ✗, PEG 5.3 ✗ (Fast Grower cap 1.0); ER 24.2% ✓ แต่ไม่ override MoS ที่ fail; WAF 6.60 MEDIUM → WATCH. ไม่มี tier change.',
-    bull: ['Falcon platform 33 modules — cross-sell + switching cost สูงเมื่อ adopt module ที่ 3+', 'ARR $5.25B (+24% YoY) + NRR 115% = expansion ภายในฐานลูกค้าทำงานจริง', 'Falcon Flex ARR +120% YoY + Charlotte AI ARR tripled — momentum หลัง July 2024 outage', 'AI-native cloud architecture ไม่ legacy on-prem แบบ Symantec/McAfee', 'Net retention 115% + GAAP gross margin 78%+ = software unit economics ระดับ best-in-class'],
-    risk: ['Valuation extreme — Fwd PE 108×, PEG 4.49 (เกิน ceiling 1.5 หลายเท่า)', 'Microsoft Defender bundling ดึงลูกค้า price-sensitive — competitive moat ระยะยาวเสี่ยง', 'July 2024 outage legacy: residual class actions + customer trust ฟื้นช้า', 'SBC ยังสูง — dilution ต่อ shareholders ในหลายปีข้างหน้า', 'Net new ARR growth ชะลอลงจาก peak — มี structural slow-down อาจจะมา'],
     updated: '2026-07-25'
   },
   AAPL: {

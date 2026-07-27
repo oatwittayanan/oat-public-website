@@ -361,7 +361,12 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**UBS — WWDC26 day-of confirmation, no change vs pre-event call (UBS, Jun 8, 2026 — Neutral, PT $296)** [ANALYST VIEW]
+- Same UBS call already tracked on this card (pre-event note, Jun 2) reconfirmed on the day of WWDC26 itself: forecast excess return −14.4% (vs −14.1% pre-event, immaterial rounding drift), PT $296 = 30x CY27 EPS $9.86 unchanged. No estimate changes — **no change to iPhone unit/revenue estimates** from the AI announcements.
+- Confirms the Siri rebuild runs on **Apple Foundation Models + Google Gemini** (1.2T-param model on Apple Private Cloud Compute, ~$1B/yr to GOOGL — already logged on this card and cross-referenced on GOOGL.md); Siri AI ships as **beta only**, **US-first**, with **EU and China excluded initially** (regulatory) — consistent with the "convenient but not compelling" WWDC26 aftermath framing already on this card.
+- ⚠️ [CONFLICT-CHECK] No conflict, no new information vs. the existing June 2/June 9-16 notes already on this card — logged for completeness (read as part of this batch) but does not move GP/VA scores.
 
 **Update (2026-07-25) — Price refresh only (authoritative repair batch), no thesis change** [MARKET NEWS]
 - Price $328.23→$333.02 (+1.5%), no earnings; MoS -28.7%→-30.6% (now +11% above Bull FV $300), ER 6.7%/yr — fails gates. 07-23 MacBook/iMac AI-refresh = 🟡MONITOR only. Verdict unchanged: WATCH, do not chase. Bull/bear thesis below unchanged.
@@ -760,7 +765,18 @@ AMD เป็น fabless semiconductor company สัญชาติอเมร
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**Update (2026-07-27, batch 7) — Primary-source read of BofA's June 11 industry TAM raise (PT $560 already logged 06-12); adds market-wide TAM segmentation** [ANALYST VIEW]
+- Read the actual BofA "Rise of the Agents" PDF underlying the AMD PT $500→$560 raise already on this card (2026-06-12 entry, "top CPU pick"). New detail: BofA's **industry-wide** CY2030 server CPU TAM raise is $125bn→$170bn+, segmented $30bn traditional + $70bn AI head-node + $70bn AI agentic-standalone — a market-level number, distinct from AMD's own company-specific $120B-by-C2030 guide already flagged in the 07-26 entry below as a likely AI Day (Jul 22-23) update topic. Worth checking whether AMD raises its own TAM figure at Advancing AI Day to stay consistent with the broader industry re-rating.
+- No AMD-specific new estimates in the BofA note beyond the already-logged PT/rating; this is a market-sizing input, not new AMD fundamentals. ⚠️ [CONFLICT-CHECK] None — purely additive context.
+
+**Update (2026-07-26, batch 5) — UBS "Advancing AI Day" preview (Jul 15) raises PT $670→$700 on stronger GPU-revenue path; UBS First Read (Jul 22) confirms and details the Anthropic deal already flagged on this card** [ANALYST VIEW]
+- **UBS raised its PT to $700 (from $670)** ahead of AMD's Advancing AI Day, based on a 33x multiple (down from 35x, "in-line with US public AI compute peers") applied to a raised C2028E EPS of $21.11 (from $18.85). UBS's framework: AMD can generate ~$15-20B of GPU revenue per GW of deployed AI capacity; assuming AMD lands three large-scale (1GW+) customers by 2027, that implies a path to ~$40-50B of GPU revenue in C2027. UBS raised C2026/27 revenue-EPS estimates to $51B/$7.69 (from $50B/$7.61) and $83B/$14.63 (from $79B/$13.47) respectively, citing stronger AI/infrastructure demand and "very bullish" supply-chain checks (notably a significant uptick in CoWoS packaging allocation for C2027).
+- Report flagged AMD's server-CPU TAM update as a likely AI Day topic (last formal update was 1Q26 earnings, $120B by C2030) — industry data points have "strengthened meaningfully" since then; also expected: production launch of Venice CPU (TSMC 2nm, LPDDR-based SOCAMM2 memory), early MI500/MI600 (2028) roadmap color, and possible confirmation of a broader custom-ASIC push for the data center (beyond Anthropic's CBRS fast-inference partnership, discussed elsewhere).
+- **Anthropic deal now confirmed and detailed (UBS First Read, Jul 22) — matches the "07-23 Anthropic $5B GPU deal" catalyst already logged on this card, with specifics**: Anthropic joins META/OpenAI as a GW-scale MI450 customer via a **2GW commitment for MI450 Helio rack-scale deployment, first GW beginning 1H27**. Unlike the META/OpenAI deals (which used AMD warrants), AMD is **investing $5B directly into Anthropic** — UBS reads this as a lower-dilution deal structure for AMD than the warrant-based prior deals. Software dimension: Anthropic will build Helios systems on MI355X GPUs and work directly with AMD to optimize Claude workloads on Instinct + accelerate ROCm maturity — UBS views this hyperscaler-grade software co-development as strengthening AMD's platform position with future hyperscaler customers, not just a hardware order.
+- UBS explicitly ties the combined META+OpenAI+MSFT+Anthropic (+potential AWS) customer base to "increased conviction in meaningful upside" to its $40B DC GPU revenue estimate for 2027, "with another substantial step-up in 2028."
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — both are analyst-view/deal-confirmation updates, not fundamental surprises. Action unchanged (WATCH — MoS still fails the 15% gate per the 07-25 price-refresh entry below); these updates are thesis-reinforcing (demand breadth, pricing power on GPU revenue) rather than valuation-moving on their own.
 
 **Update (2026-07-25) — Price refresh + sequential card-consistency repair, no new fundamental news** [PRIMARY/MARKET NEWS]
 - Price updated $548.13→$521.95 (prices_cache.json 2026-07-25, broad semi pullback). FV_base ($467) carried forward unchanged — no new earnings since Q1 FY2026, next report Aug 4, 2026. MoS improved -17.4%→-11.8% (still FAIL vs 15% gate). New MATERIAL catalysts: 07-23 Anthropic $5B GPU deal + 07-21 Microsoft Azure Helios (AI-customer diversification, customer #3).
@@ -1598,7 +1614,18 @@ FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**Primary-source deepening of the 06-12 BofA PT raise + UBS Computex confirmation (batch 7, 2026-07-27)** [ANALYST VIEW]
+- Read the actual BofA "Rise of the Agents" PDF (June 11, 2026) underlying the PT $245→$335 raise already logged below (2026-06-12 entry) — the primary source adds granular methodology not previously captured: **sum-of-parts valuation = $229 IP business (2.0x PEG, 20% royalty CAGR + 12% licensing CAGR, 65% combined op margin) + $106 chip business (35x PE, $15bn FY31 chip sales power at 15% share of ~$100bn CPU TAM, 30% op margin target) = $335 total**, discounted back two years. BofA's own bull case still can't get past **Neutral — "2030 server CPU market is much bigger, yet valuation already embeds heavy AI optimism"** — reinforcing, not changing, this card's existing AVOID stance.
+- BofA models ARM's **collective server CPU value share reaching ~50% by CY30** (35% merchant CPUs incl. NVDA/ARM/QCOM + 15% custom ASIC incl. AWS Graviton/GOOGL Axion/MSFT Cobalt) — the largest share estimate logged on this card to date, but arriving alongside an unchanged Neutral rating is itself the signal: even a near-monopoly royalty outcome is already priced in.
+- **UBS Computex/GTC Taipei (June 8, 2026), independent of BofA:** industry discussion now frames CPU TAM at **~$200bn+** (2x ARM's own March "ARM Everywhere" event framing) — ARM stopped short of formally updating its own estimate but confirmed ARM AGI chip is now **in production at TSMC** (36kW/8,160-core and 200kW/45,696-core rack SKUs), with **ByteDance and Oracle disclosed as new AGI customers** — broadening the customer base beyond the META/OpenAI concentration this card had previously flagged as a risk. UBS notes this makes ARM's prior $15B F2031 AGI revenue target look conservative.
+- ⚠️ [CONFLICT-CHECK] No conflict — corroborates and deepens existing AVOID thesis with primary-source detail; no WAF/score change. See CPU-Renaissance.md trend file (conviction raised MED→HIGH this batch) for the cross-stock read.
+
+**Independent Substack view — Hold/Accumulate <$140, 2028 PT $257 (~11.5%/yr CAGR), PEG 1.95x (Rijnberk InvestInsights)** [ANALYST VIEW]
+- Third independent valuation source, distinct from UBS ($260 PT, Buy) and BofA ($335 PT, Neutral) already on this card: rates ARM **Hold — Accumulate below $140/$135-140** (well below the $149 reference price in the note and far below prices this card has tracked through July), 2028 target $257 = ~11.5%/yr implied CAGR — the **most conservative** of the three third-party views logged on this card, reinforcing Warren's existing AVOID stance more than either UBS or BofA does.
+- Bull case rests on management's own FY2031 framework (EPS >$9, PEG 1.95x on 33%/yr EPS growth through 2031) — consistent with the $25B FY2031 revenue target (AGI CPU $15B + IP $10B) already logged from UBS's May 7 note. Author explicitly flags multiple compression is "absolutely happening" as the business mix shifts from IP-only (near-100% GM) toward lower-margin silicon — a 30x 2031 exit multiple (down from 70x+ today) is the base case even in the bull scenario.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — an independent, more conservative valuation view that still can't produce a PT above where ARM has traded for most of 2026, corroborating (not contradicting) this card's existing AVOID/richly-priced thesis. No WAF/score change.
 
 **Update (2026-07-25) — Price refresh only (authoritative repair batch), no thesis change** [MARKET NEWS]
 - Price $281.17→$260.01 (-7.5%, ongoing AI/semi selloff); MoS -116.3%→-100.0%, still ~2x overvalued (PEG ~3.7). Verdict unchanged: AVOID. Bull/bear thesis below unchanged.
@@ -1657,6 +1684,7 @@ FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉ�
 ---
 
 ## Recent News
+**2026-07-27** — ARM ประกาศมีออร์เดอร์ที่ค้างไว้รอจัดส่งมูลค่า 2 พันล้านดอลลาร์ บ่งบอกความต้องการสูงแต่จำกัดด้วยความจุการผลิตและการตรวจสอบ | [src](https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYWRlbDZIQjFLbDNweWhaMGJRV3JCTG1kcGl6WnE5Yk1EZVR2U3dNQmpGR2NIYmxuV196dDV1cDFENk1vWVJFUFdOd2FNT3cyLWppckRNNnlRbDBmbkVDSjVGZjJYZUJWVnJoNnZzWmpWbEJlMEpEZ0dkbUwzYVltVHBtSThsWEpvX0lzUGp6NDlxYkJZVDQ3VTM3Y09jTlRfWWU2RVBCaU9DS2pnNmlCdzI0YnIxZERCd0RkaDZ3SkN5VU1LbEMxQkJlNC05dUlxRWhnVkFrdmVBTjM2OVllVE05SWJGTkFEYk10enNnV2dUcUE?oc=5) | 🟡MONITOR
 **2026-07-14** — ซีอีโอกล่าวว่าสหรัฐยากต่อการห้ามส่งออกชิป AI ไปจีน ส่งสัญญาณต่อนโยบายส่งออก | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxQdVdvTzI4aXR6bkN1WTlseTZadVlINHR5S2dZRjJPVkprV01jejd1SDR6dmtIUmkwMmUwbWFLMDBrczV2bUZic096YXlzRUlHVmt1b2F3elZRM0tsR2MtOUpMcjByZlBwY2pXQmF1aVhBQXNyazNQQXl4cTM5QjZpaG1fMU9LeHF3MXMwcmhiQll3Zw?oc=5) | 🟡MONITOR
 **2026-07-02** — ขยายระบบ CPU สำหรับ AI บริหารตัวแทน (agentic AI) ร่วมกับ Oracle Cloud Infrastructure | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxPVmMyN2x0dGZDS0lDSE93Zl81dGdVc3ppVTM2NGVTenZKX3FtQ1E0Sm16NUJySlFmeUZEaW13Mno5aTBHY0hQRHJaeTZBamJnSmFxblhhQ09fZkFMRFlFYzBPN0c4eXo4eEtsS1pseWNWbmItZjRCOHdTWmF2a3hwemNUTHFwdHBVRWNpYkdnYzRkb3A2Y3NRcDIwWS0?oc=5)
 **2026-07-01** — ARM เปิดตัว CPU AGI สำหรับการประมวลผล AI พลังงานต่ำ; ท้าทายอำนาจการตลาด NVIDIA ในตลาด AI accelerators | [src](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM0NpMjFQTUFtVkxRZnFRUzBxaXlxRlRsYVpvY1hLY0ZTTUxBeTJlem13Ri1xbllGbkJKUklFMFZ3ZFY2MENDcllodFQzb3RoTWJQdzY4cmRMMXJablo4c1hIN1ZPWWVINkkxdzBQRlNLUDBJbjJkMTk3M213WHV0Z1BxU2RpZ2VRNzRKLVJYRVFmZEw5LW9oWklOX19qbWs1RHNfTnczLWZzOElzaDBZUWIzMk8yb3NvaGtUQzBTNHJrRUhEVEZycmx2UHR2OVVzanfSAdcBQVVfeXFMTW5MTENndnhOS1c2VDM5QmhKUnlPemJORU9ITW1QRXUwOVNrWHBnM3FPdW56ZFJJdTh3dnltY3l6M2tnMG1mX3FmTkhDN255TjFVQWtqaDdhVnRBMGE3M001ck5ybDdjclRkYmpoa1owMDR1ZmU1ajBPUUVtME1OR21kamtJdGg2WC1LdVJXVnpRTVBIbWJTWERBQ3E1MFR5TjN0OVhUVHo5SkRnbmRPNU5EVzY0OHM5UUFQRWotb1Y3QzE0Y1Uwcmt3M1FfcFRnZXR1WlFIQ3c)
@@ -1939,7 +1967,19 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-26
+
+**Update (2026-07-26) — Sell-side deep dives (UBS + FUNDA) add EUV/DUV capacity roadmap detail; confirms Q2 beat-and-raise thesis, no FV change** [ANALYST VIEW]
+- **UBS First Read (07-15, pre-print of 07-16 actuals):** UBS raised PT to €2,100 (Buy), modeling 2026-28 cons. EPS upgrade of 20-30%. UBS's own EUV shipment model: 2026 low-NA EUV capacity ~65 units (vs prior guide of at least 60), +30% to ~85 in 2027 (vs cons. 88), further +30% eval'd for 2028 to ~110 (vs cons. 88 — UBS's own number looks like a typo/inconsistency in the source, flagging but not correcting). UBS sees the credible incremental upside skewed toward **DUV** through 2027-28 (immersion capacity guided +30%/2027, further +30% eval'd/2028, from 130 to 170 systems) rather than EUV, which UBS calls "conservative" already.
+- **FUNDA pre-earnings preview (07-08):** modeled EUV shipments 66/95/109 for 2026/27/28 — memory demand: Micron raised FY CapEx guide $25bn→$27bn; South Korea government + Samsung + SK Hynix announced ~$3.1tn investment plan (mostly pulling forward 2040s-dated projects to 2033-2040, not wholly new near-term spend, but still derisks ASML's long-cycle order visibility). China demand still a tailwind via CXMT/YMTC IPOs needing capacity + SMIC/Hua Hong mature-node tightness.
+- **FUNDA post-earnings Review (07-17) — actuals beat FUNDA's own preview:** FY26 revenue guide raised again to €43-45bn (2nd raise this year, 12% above cons. midpoint); Q3 GM guide 55-57% (vs FUNDA's own 52% est. and market's 52% cons.) driven by high-margin Installed Base Management (IBM) growing >30% in 2026 — software-upgrade service revenue tied to the growing EUV installed base, largely decoupled from new-system cyclicality. FUNDA raised its own EUV shipment model to 70/95/120 (2026/27/28) and EPS to €40.1/57.3/71.4.
+- **High-NA EUV note:** Intel is now using high-NA EUV on **18A** (both UBS and FUNDA flag this) — earlier than the previously expected 14A node. Read-through: signals Intel's own confidence in near-term demand and supports the thesis that Intel may raise CapEx guidance (mentioned as a possibility in the 07-08 FUNDA preview too) — a positive demand signal for ASML's highest-margin tool tier, independent of ASML's own guide.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data or the 07-25 Warren FV update (still $2,100, unchanged) — this batch is confirmatory sell-side detail (capacity roadmap granularity) layered under the same beat-and-raise thesis. Charlie's outstanding flag (FV_base is still a proportional-scaling estimate, not a full bottom-up rebuild) remains open — none of these secondary sources provide a bottom-up EPS build Warren can use to close that gap yet.
+
+**Update (2026-07-26, batch 2) — Independent long-only tracker (InvestInsights/Daan) Q4'25 + Q1'26 reviews: own bottom-up model gives a materially LOWER PT than Warren's FV — useful independent check for Charlie's outstanding FV-verify flag** [ANALYST VIEW]
+- **Q4'25 review (29-Jan-26):** record quarter — net orders €13.2B (incl. €7.4B EUV), FY25 order intake €28B (+48% YoY), backlog €38.8B (€25.5B EUV) vs €6.3B consensus. FCF margin 34% (record), TTM ROE 38%/ROIC 37%. China revenue share falling (33%→<20% guided 2026, from 41% in 2024) — de-risking export-control exposure, consistent thesis direction. Notable CEO Fouquet quote: Nvidia now wants transistor-count scaling of **16x every 2 years** (vs traditional Moore's Law 2x) — a structural upside driver for lithography intensity if it holds. Announced 1,700 job cuts (3.5% of workforce) to manage opex. **This analyst's own PT at the time: Hold — Accumulate below €1,080, 2027 target €1,489 (~8% implied CAGR)** — i.e. even after the record quarter, this independent model saw the stock as fully priced, not cheap.
+- **Q1'26 review (16-Apr-26):** Q1 sales €8.8B (beat, high end of guide), EUV mix 66% of system sales (up from 56%), China exposure down to 19% (from 27% YoY). FY26 guide raised to €36-40B. Management stopped disclosing quarterly order intake (moved to annual disclosure) to reduce lumpy-order noise — a disclosure change, not a demand signal, but worth noting for future quarters. Memory customers "fully sold out for 2026," tightness expected through 2028. EUV target ≥60 units 2026, ≥80 units 2027 (+33%). **This analyst's own PT: Hold — Accumulate below €1,100, 2028 target €1,625 (~11% implied CAGR)** — both of this analyst's own DCF-style targets (€1,489 and €1,625) sit well below Warren's card FV ($2,100/€~1,950 equivalent) and even below the bull scenario.
+- ⚠️ [CONFLICT-CHECK] **Flagging for Charlie, not changing FV this batch:** two independent long-only reviews of the same company, using bottom-up multiple-on-EPS methodology (not proportional scaling), consistently land 20-25% below Warren's current $2,100 base FV. This doesn't necessarily mean Warren's FV is wrong (different multiple assumptions: this analyst uses 34-35x exit vs Warren's 30x on a higher consensus EPS track), but it is exactly the kind of independent bottom-up cross-check Charlie's standing flag (FV_base is a proportional estimate, not yet a full bottom-up rebuild) was asking for — worth reconciling explicitly next time Charlie verifies this card.
 
 **Update (2026-07-25) — Price refresh only (authoritative repair batch), no thesis change** [MARKET NEWS]
 - Price $1816.55→$1757.09 lifts MoS 13.5%→16.33%, clearing the full 15% gate → action STARTER→BUY. FV_base $2,100 unchanged (still a proportional estimate — Charlie FV-verify flag persists). Bull/bear thesis below unchanged.
@@ -2567,7 +2607,17 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**Independent Substack view — Buy/Accumulate <$350, 2028 PT $525 (~17%/yr CAGR), PEG 0.9x (Rijnberk InvestInsights, ~Mar 2026)** [ANALYST VIEW]
+- Third independent valuation source (distinct from UBS and BofA/Citi/Goldman views already logged): rates AVGO Buy, Accumulate-below $350, 2028 price target $525 = implied ~17%/yr CAGR, framed around a sub-1x PEG (0.9x) on the AI-semi growth rate. Underlying data cited (Q1 FY2026 rev $19.3B +29% YoY, AI semi rev $8.4B +106% YoY, XPU rev +140% YoY) matches figures already on this card's Quarter Log — no new fundamental data, but a useful third-party valuation cross-check landing directionally bullish, consistent with this card's own STARTER-with-margin stance.
+- Confirms **6 XPU customers** framing already tracked here (Google/Meta/Anthropic/OpenAI + 2 undisclosed), FY2027 AI revenue guide >$100B (consistent with UBS's "line of sight >$100B" already on card), and net debt ~$52B (Tomahawk 6/7 networking + 200G/400G SerDes context, consistent with existing Tomahawk 6/Davisson note below).
+- ⚠️ [CONFLICT-CHECK] No conflict — corroborating, not new, fundamental data; independent bullish valuation view logged for completeness.
+
+**Update (2026-07-26, batch 4) — Tomahawk 6 (Davisson) 102.4T CPO switch confirmed built on TSMC COUPE; leads the open-standards camp vs. NVIDIA's proprietary stack** [ANALYST VIEW]
+- **Broadcom's Tomahawk 6 (Davisson), a 102.4Tbps CPO switch already sampling to early-access customers, is built on TSMC's COUPE packaging platform** — cuts optical-connection power by 70% and delivers 3.5x+ pluggable efficiency vs. current-gen, while keeping the external laser field-replaceable (AI Optics Explained, Jun 2026). Meta is described as the lead validator of Broadcom's CPO approach; the "million-hour uninterrupted reliability" figure cited is a lab result, not yet a production-fleet track record — flagged as a caveat, not a confirmed claim.
+- **Standards positioning:** Broadcom anchors the open-Ethernet/open-standards coalition (UALink, Ultra Ethernet) against NVIDIA's proprietary NVLink/InfiniBand stack — "sells the roads and infrastructure" rather than a closed full-stack bundle, appealing to hyperscalers with their own custom-silicon teams (Google, Meta, AWS, Microsoft all named as co-designers with real architecture choices, not catalog buyers).
+- ⚠️ Per the June 9, 2026 research note (see Optical-Interconnect.md / Advanced-Packaging.md), large-scale CPO volume production broadly (including Tomahawk 6 ramp) is now expected 2028-2029 rather than the earlier "2026 commercialization" narrative — a timing recalibration, not a reversal; Broadcom's existing switch-ASIC/SerDes/DSP franchise is unaffected either way ("if optics wins, the conversion circuits remain; if optics is delayed, the circuits that defend copper get busier").
 
 **Update (2026-07-25) — Price refresh only (authoritative repair batch), no thesis change** [MARKET NEWS]
 - Price $389.11→$381.92 (-1.85%) lifts MoS 13.53%→15.13%, now AT the 15% gate (razor-thin). STARTER retained (staged, not full BUY; Opportunity Cost Gate unrun). FV_base $450 unchanged. Bull/bear thesis below unchanged.
@@ -2915,7 +2965,21 @@ COHR position: no single competitor replicates full InP stack. OCS (Optical Circ
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**Update (2026-07-27, batch 7) — Groundbreaking of first 6-inch InP wafer line (with Jensen Huang, June 19); China InP export-control angle named as the direct cause of NVIDIA's repeated CPO delays** [ANALYST VIEW]
+- **Jensen Huang personally attended the groundbreaking of the world's first 6-inch indium phosphide (InP) wafer production line in Texas alongside Coherent CEO Jim Anderson (June 19, 2026)** — a named industry source (Episil-Precision Chairman Jian-Hua Syu) states NVIDIA's $2B Coherent investment (already logged on this card, spring 2026) was **specifically earmarked to fund this facility**, confirming the equity stake was purpose-built supply-chain capacity, not a generic strategic investment (Beyond 800VDC — Tech Taiwan, Jun 19, 2026). This is likely the same Sherman, TX 6-inch line already logged as "already online, yield surpassing the 3-inch line" — the groundbreaking event narrative and the "already yielding" narrative may refer to different phases/lines; flag for reconciliation next batch if a conflict surfaces.
+- **New geopolitical detail:** China controls **~60% of global InP substrate production capacity**; Beijing imposed export controls on InP in February 2025, "putting a chokehold on the CPO supply chain." **Only after Coherent's CEO traveled to Beijing alongside Trump for negotiations did China approve a new batch of export licenses** — a specific, dateable easing event not previously on this card.
+- **Direct causal claim (new):** the source explicitly attributes Jensen Huang's own repeated delays to large-scale CPO deployment timelines to "the tightening supply of indium phosphide" — i.e., an industry insider is naming InP scarcity, not technology readiness, as the actual CPO-timeline gating factor. This is consistent with (and adds a named mechanism to) the CPO-delay-to-2028-2029 evidence already tracked in Optical-Interconnect.md, but is the most direct sourcing yet linking the delay specifically to China's InP export-control policy rather than generic "supply chain not ready" language (e.g. Vertiv's CTO comment logged elsewhere).
+- **Read for COHR:** net positive for centrality — NVIDIA needs COHR's specific in-house InP capability to de-risk a chokepoint it cannot solve any other way (dual-sourcing with Lumentum notwithstanding). Net cautionary for CPO-adoption timing broadly — this is one more independent source confirming the CPO ramp is later than the original "2026 commercialization" narrative, though COHR's near-term revenue (pluggable/EML) is unaffected either way, consistent with the existing "timing risk, not earnings risk" framing below.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — reinforces and adds a specific causal narrative to the existing InP-moat thesis; no WAF/score change.
+
+**Update (2026-07-26, batch 4) — NVIDIA's $2B dual-source investment + InP moat reframed as broader than "weak CPO position"** [ANALYST VIEW]
+- **NVIDIA invested $2B in Coherent on March 2, 2026, the same day as its $2B Lumentum investment** — with a multi-year purchase commitment and access rights to future capacity (AI Optics Explained, Jun 2026). Choosing to dual-source rather than pick a single winner is itself a signal: NVIDIA judged light-source (InP) supply too critical a chokepoint to depend on one vendor.
+- **Coherent's 6-inch InP lines (Sherman, TX + Järfälla, Sweden) are already online, and yield on the new 6-inch line has surpassed the existing 3-inch line** — an unusually fast yield ramp for a brand-new wafer size; company pulled its internal capacity-doubling goal forward by a quarter.
+- **Portfolio breadth is Coherent's differentiator, not CPO-laser share:** unlike Lumentum (which leads specifically in high-power CW lasers for CPO), Coherent carries InP + GaAs devices, silicon photonics, short-reach VCSELs, and optical materials/connectors simultaneously — "if the market goes to EML, it has something to sell; if it goes to silicon photonics, it supplies high-power CW and SiPho modules." This nuances (does not replace) the earlier framing on this card and in Optical-Interconnect.md that positioned Coherent as behind Lumentum in CPO — that remains true specifically for high-power CPO lasers, but Coherent's underlying InP/light-source moat is broader than a "CPO laggard" label implies.
+- ⚠️ **[CLAIMS CONFLICT]** An earlier source (Jason's Chips, referenced in Optical-Interconnect.md Evidence) argued "I really don't think Coherent will get much volume from CPO at all" and modeled Coherent's CPO revenue as minimal (300 units CY27 → 1,000 CY28). AI Optics Explained does not directly dispute the CPO-unit number but frames Coherent's InP-substrate/light-source position as structurally safer than that framing suggests, since InP demand persists "whether it's EML or CW for SiPho — the starting point of the light is the same InP." Flagging for Warren to reconcile at next \`/warren watchlist\` (see Optical-Interconnect.md Competitive Claims Matrix — this card's "Watchlist Stocks Benefiting" conviction for COHR was upgraded LOW→MED-HIGH there pending WAF/tier confirmation).
+- **Sector-wide context (independent research, Jul 2026):** Chinese laser-vendor competitive threat assessed as "overdone" — 1-2 generations behind, unqualified with global hyperscalers, no 6-inch/high-power CW capability yet. Also: the June 9, 2026 note that pushed large-scale CPO volume out to 2028-2029 triggered a sector sell-off, but pluggable/EML revenue (Coherent's actual current business) was explicitly unaffected — timing risk, not an earnings risk.
 
 **Sector context (2026-07):**
 - Coherent fell ~25% from its ATH ($426.89, June 2, 2026) alongside a broader AI-photonics sector pullback — Lumentum fell ~10% and Applied Optoelectronics fell ~17% in the same session, with no COHR-specific negative catalyst identified
@@ -3009,229 +3073,6 @@ Co-packaged optics (CPO) adoption เร็วกว่าคาดจนทำ�
 | 2026Q1 - COHR - 10Q.pdf | 10Q (Q3 FY2026) | 2026-05-18 |
 | 2026Q1 - COHR - Earnings-Call-Transcript.pdf | Earnings Call Transcript (Q3 FY2026) | 2026-05-18 |
 | 2026Q1 - COHR - Exhibit-99-1.pdf | Exhibit 99-1 (Q3 FY2026) | 2026-05-18 |
-`,
-
-"CRWD": `# CrowdStrike (CRWD) · Software / Cybersecurity
-
-**Last Updated:** 2026-07-24
-**Source:** Primary — Q1 FY2027 Exhibit 99-1 (press release, June 3, 2026) + Q1 FY2027 Earnings Call Transcript + 10-Q (period ended April 30, 2026)
-**Trend Tags:** [[Cyber-Security]]
-
-
-
-
-## News Update — 2026-05-14
-$CRWD — นักลงทุนรายใหญ่ Chris Rokos เพิ่งเปิดตำแหน่งใหม่ในหุ้น CrowdStrike พร้อมมีความเห็นว่าอาจมีการ Explode หลังจากการประกาศผลประกอบการ
-
-## Business Overview
-CrowdStrike เป็น cloud-native cybersecurity platform บน Falcon platform เก็บข้อมูลทุก endpoint ใน AI threat graph ทำเงินจาก SaaS subscription (ARR-based) โดย Falcon platform มี 33 modules ลูกค้า Enterprise ซื้อ module เพิ่มได้
-
-**Revenue Segments (Q1 FY2027, 3 เดือนสิ้นสุด 30 เม.ย. 2026)**
-| Segment | Q1 FY27 | Q1 FY26 | YoY% |
-|---------|---------|---------|------|
-| Subscription Revenue | $1,320.9M | $1,050.8M | +26% |
-| Professional Services | $64.8M | $52.7M | +23% |
-| **รวม** | **$1,385.6M** | **$1,103.4M** | **+26%** |
-
-**ARR Breakdown (ณ 30 เม.ย. 2026)**
-- Total ARR: **$5.51B** (+24% YoY) — accelerating over record Q4
-- Net New ARR ไตรมาส: **$255.8M** (+32% YoY) — record Q1
-- Falcon Flex ARR: **>$1.9B** (added 300+ Flex accounts ในไตรมาส)
-- Dollar-Based Net Retention: "continued to be strong" (บริษัทเลิกเปิดเผยตัวเลขเป๊ะ; เดิม ~115%)
-- Module adoption: 51% (6+ modules), 35% (7+), 25% (8+)
-- Remaining Performance Obligations (RPO): **$8.8B** (~52% รับรู้ใน 12 เดือน)
-
-## Latest Financials
-**Q1 FY2027** (3 เดือนสิ้นสุด 30 เม.ย. 2026 — รายงาน 3 มิ.ย. 2026)
-- Total Revenue: **$1,385.6M** (+26% YoY) — accelerating ไตรมาสที่ 4 ติดต่อกัน
-- ARR: **$5.51B** (+24% YoY) | Net New ARR: **$255.8M** (+32% YoY, record Q1)
-- GAAP Gross Margin: 75% (Subscription 78%) | Non-GAAP Gross Margin: **79%** (Subscription 81%, record Q1)
-- GAAP Loss from Operations: **-$30.6M** (ดีขึ้นมากจาก -$118.7M) | GAAP operating margin -2%
-- Non-GAAP Income from Operations: **$325.7M** (+62% YoY) | Non-GAAP op margin **24%** (จาก 18%)
-- **GAAP Net Income to CRWD: +$27.8M** (พลิกจากขาดทุน -$104.3M) — GAAP EPS diluted **$0.11** (จาก -$0.42)
-  - ⚠️ แต่ GAAP กำไรมาจาก strategic-investment gain +$36.4M (non-operating) เป็นหลัก — core operations (loss from ops) ยัง -$30.6M
-- Non-GAAP Net Income: **$283.4M** (จาก $184.7M) — Non-GAAP EPS diluted **$1.10** (จาก $0.73)
-- Operating Cash Flow: **$590.9M** (record) | Free Cash Flow: **$468.5M** (record, +68% YoY) | FCF margin 34%
-- Cash & Equivalents: **$4.55B** (ลดจาก $5.23B — ใช้เงิน $881M ทำ M&A + $176M ซื้อหุ้นคืน)
-- Shares outstanding: 254.6M (ณ 28 พ.ค. 2026, **ก่อน** 4-for-1 split ที่มีผล 2 ก.ค. 2026)
-
-**Key Metrics:**
-- Non-GAAP tax rate ปรับเป็น 21.0% (จาก 22.5%, ผล One Big Beautiful Bill Act)
-- Deferred revenue รวม $4,722M (ลดเล็กน้อยจาก $4,753M ณ สิ้นปี — seasonal)
-- Charlotte AI = "reasoning engine across Falcon" | FalconShield ARR เกือบ 4 เท่า YoY
-- 33+ modules บน Falcon platform
-
-## Management
-- **CEO:** George Kurtz (Co-Founder)
-- **CFO:** Burt Podbere
-
-**Key Event (July 19 Incident):** July 19, 2024 — Falcon sensor update ทำให้ Windows hosts ทั่วโลก crash (Blue Screen of Death) กระทบ ~8.5M เครื่อง — legal proceedings ที่ยัง active (จาก 10-Q Q1 FY27):
-- **Delta Airlines lawsuit:** motion to dismiss ของ CRWD ได้รับอนุมัติบางส่วน/ปฏิเสธบางส่วน (16 พ.ค. 2025) → **Discovery ongoing** (คดียังเดินต่อ ไม่ถูกยกฟ้อง)
-- **Securities class action + passenger class actions** ยังค้าง; derivative lawsuits หลายคดี consolidated + stayed (บางชุด court สั่ง dismissed เม.ย. 2026)
-- July 19 accrual: ค่าใช้จ่าย net ไตรมาสนี้ $18.1M, balance คงเหลือ $17.1M ณ 30 เม.ย. 2026; settlement offers ลูกค้า offset ด้วย insurance ทั้งหมด
-- ⚠️ **[HIDDEN RISK — 10-Q Note 10]** CRWD ได้รับ **requests for information จาก U.S. DOJ และ SEC** เกี่ยวกับ **การรับรู้รายได้ (revenue recognition) และการรายงาน ARR สำหรับดีลกับลูกค้าบางราย** + July 19 Incident — CRWD กำลัง cooperating. นี่คือ probe เชิงบัญชี/ARR ที่ยังไม่จบ และเป็นความเสี่ยงที่ไม่ปรากฏในตัวเลข earnings
-
-## MOAT & Competitive Advantage
-- **"Power of the Crowd" Network Effect:** ยิ่งมีลูกค้ามาก ยิ่งมี threat intelligence มาก → detect faster, more accurate
-- **AI-native Falcon Platform:** Cloud-native architecture + AI graph = switching cost สูงมาก (ย้ายออกยาก)
-- **Charlotte AI:** Conversational AI security operations = ลด analyst workload
-- **33 modules upsell:** ลูกค้าเริ่มจาก endpoint แล้ว expand → Net Retention 115%
-- **Falcon Flex:** Flexible licensing ทำให้ enterprise ลอง module ใหม่ง่ายขึ้น → accelerate upsell
-
-**ภัยต่อ MOAT:**
-1. July 2024 Outage — ทำลาย trust ระยะยาว โดยเฉพาะกับ Critical Infrastructure
-2. Microsoft Defender (bundle ฟรีกับ Windows) — free competitor สำหรับ SMB
-3. Palo Alto Networks (PANW) aggressive bundling/pricing
-4. SentinelOne ราคาถูกกว่า
-5. GAAP ยังขาดทุน → ถ้าตลาดแย่ premium multiple จะถูก re-rate
-
-## Competitive Landscape
-- **Cybersecurity:** Palo Alto Networks (PANW), SentinelOne (S), Microsoft Defender, Fortinet
-- **AI Security:** PANW Cortex XSIAM, SentinelOne Purple AI
-- **Endpoint Protection:** Traditional AV vendors (Symantec, McAfee)
-
-**ตำแหน่ง:** Leader ใน AI-native endpoint security, กำลัง expand สู่ SIEM + SOC platform
-
-## Growth Catalysts & Future Plans
-**Guidance (จาก Ex-99.1, ขึ้น guidance):**
-- **Q2 FY27:** Revenue $1,436-1,442M (+23%) | ARR ~$5,792M | Net New ARR $284-286M | Non-GAAP op income $346-349M | Non-GAAP EPS $1.16-1.17 | FCF margin ~24.5% (seasonal low)
-- **FY27:** Revenue $5,915-5,959M | ARR $6,532-6,556M | Non-GAAP op income $1,452-1,480M | Non-GAAP EPS $4.88-4.96
-- **ขึ้น FY27 Net New ARR growth guidance +520bps ที่ midpoint → 27.7%** = กลับมา *accelerate* เหนือปีก่อน (management จุดเด่นของ quarter)
-
-**Catalysts:**
-- **AI security inflection ("Mythos moment"):** QuiltWorks coalition (ร่วม OpenAI + Anthropic), Agentic MDR, AIDR (AI Detection & Response); CRWD เป็น cyber รายเดียวที่เป็น launch partner ทั้ง Anthropic Project Glasswing + OpenAI TAC
-- **Falcon Flex momentum:** ARR >$1.9B, added 300+ accounts; ReFlex dynamic (ลูกค้า expand ก่อนหมดสัญญา)
-- **M&A build-out (FY27):** ปิดดีล SGNL ($628M, identity security), Seraphic ($328M, browser runtime security) ในไตรมาส; ก่อนหน้า Onum + Pangea (ปลาย 2025) — ต่อจิ๊กซอว์ platform เร็วขึ้น
-- **Charlotte AI = reasoning engine across Falcon** + AgentWorks Ecosystem (no-code, ร่วม AWS/NVIDIA/OpenAI); FalconShield ARR เกือบ 4 เท่า YoY
-- **Government/Federal:** FedRAMP High (Charlotte AI for Gov, Falcon for XIoT)
-- **Path to GAAP profitability:** พลิกเป็น GAAP net income บวกครั้งแรก (แม้ส่วนหนึ่งมาจาก strategic-investment gain), FCF margin 34%
-
-## Risks & Watch List
-**🔴 SEC + DOJ inquiry (revenue recognition & ARR):** [10-Q Note 10] regulator ขอข้อมูลเรื่องการรับรู้รายได้ + การรายงาน ARR สำหรับดีลลูกค้าบางราย — ความเสี่ยงเชิงบัญชี/คุณภาพตัวเลข ARR (metric หลักที่ตลาดใช้ประเมิน CRWD) ยังไม่จบ = biggest hidden risk รอบนี้
-**2024 Outage reputation:** Delta lawsuit — motion to dismiss ไม่ผ่านทั้งหมด, discovery ongoing; securities/passenger class actions + derivative suits ยังค้าง
-**GAAP quality-of-earnings:** GAAP net income บวกครั้งแรก แต่ได้แรงหนุนจาก strategic-investment gain +$36.4M (non-operating); loss from operations ยัง -$30.6M → GAAP กำไร core ยังไม่มา
-**SBC สูง:** Stock-based comp + payroll tax $317.6M/ไตรมาส (~23% ของ revenue) — dilution ต่อเนื่อง; buyback $1.5B authorization (ใช้ไป $176M) ส่วนหนึ่งเพื่อ offset dilution
-**M&A integration + goodwill:** goodwill พุ่งเป็น $2.27B (จาก $1.36B) จาก SGNL+Seraphic — integration risk + impairment risk ถ้า synergy ไม่มา
-**Microsoft competition:** Defender bundle ฟรี + M365 ecosystem
-**PANW aggressive pricing:** "platformization" ให้ module ฟรีชั่วคราว → เจาะลูกค้า CRWD
-**Valuation premium:** ราคาสูง (Fwd PE สูงมากแม้หลัง split) หาก ARR growth decelerate → multiple compress
-
-**ติดตาม:**
-1. **ผลสรุป SEC/DOJ probe เรื่อง ARR/revenue recognition** — สำคัญสุด
-2. Net New ARR trajectory (Q2 guide $284-286M; FY27 acceleration 27.7% เป็นจริงไหม)
-3. Delta lawsuit discovery + insurance coverage
-4. GAAP operating profitability (จริงจาก core operations เมื่อไหร่ ไม่ใช่ investment gain)
-5. Falcon Flex/DBNRR trend (บริษัทเลิกเปิดตัวเลข DBNRR เป๊ะ — ต้องดู qualitative)
-
----
-## Quarter Log
-| Quarter | Revenue | ARR | NNARR | Notes |
-|---------|---------|-----|-------|-------|
-| Q1 FY2027 | $1,385.6M (+26%) | $5.51B (+24%) | $255.8M (+32%) | **GAAP net income +$27.8M ครั้งแรก** (แต่มาจาก investment gain), FCF $468M record, Non-GAAP EPS $1.10, ราคา guide FY27 +520bps→27.7%; ปิด M&A SGNL+Seraphic; 🔴 SEC/DOJ ARR probe เปิดเผยใน 10-Q; 4-for-1 split ประกาศ (มีผล 2 ก.ค.) |
-| FY2026 | $4,812M | $5,252.8M (+24%) | — | Falcon Flex +120%, Charlotte AI ARR tripled |
-| Q4 FY2026 | ~$1,300M | $5,252.8M | — | GAAP Net Loss -$162.5M total FY |
-
-
-## Analyst Research Notes
-**Last Updated:** 2026-07-25
-
-**Update (2026-07-25) — Fresh Q1 FY2027 confirms growth; new SEC+DOJ inquiry; price -13% but still WATCH** [MARKET NEWS]
-- Q1 FY2027 (Mark 07-24): Rev $1,385.6M +26%, ARR $5.51B +24%, record Q1 NNARR $255.8M +32%, FY27 NNARR guide raised to 27.7% (re-accelerating), FCF margin 34% — fundamentals confirm CRWD is a genuinely strong grower.
-- Price fell -13% ($210.73→**$183.28**, prices_cache.json 07-25) → MoS improves -40.5%→**-22.2%** on unchanged FV $150, but still price>FV. Recomputed: Fwd P/E 149× (183.28 ÷ FY27 EPS $1.23), PEG 5.3 (÷ growth 28.1%), ER 24.2%/yr, WAF 6.60 MEDIUM.
-- ⚠️ **New MATERIAL risk — SEC + DOJ inquiry** into revenue recognition + ARR reporting (10-Q Note 10): an accounting-level risk that hits the exact metric (ARR) the market uses to value CRWD → RA trimmed 5.5→5.0.
-- ⚠️ [CONFLICT-CHECK] No conflict with primary data. **Net effect: WATCH unchanged** — 2 of 4 gates fail (MoS -22.2% ✗, PEG 5.3 ✗ vs Fast Grower 1.0× cap); ER 24.2% ✓ but cannot override a failing MoS. Priced for perfection + new accounting overhang.
-
-**Multiple Sell-Side PT Raises Post-Split (UBS/Benchmark/Stifel, July 2026)** [ANALYST VIEW]
-- Post 4-for-1 split (effective July 2, 2026), sell-side raised targets: UBS $235 (from $198 post-split), Benchmark $230 (from $195), Stifel $220 — citing AI-driven security demand + FCF margin 36% + Rule of 40 ~57%
-- July 13-14 rally +12% driven by joint US/international cyber-agency warning on Russian state-sponsored threats targeting critical infrastructure — a demand-tailwind headline, not new fundamental data
-- Frost & Sullivan 2026 Global Enabling Technology Leader award (Zero Trust Browser Security) — industry recognition, not financial data
-- 🔗 นัยต่อ WAF: analyst PT convergence เฉลี่ย ~$228 (post-split) vs ราคาปัจจุบัน $210.73 = upside เหลือแค่ ~+8% ตามมุมมอง sell-side เอง — แม้แต่ bull case จาก Wall Street ก็ไม่เห็น upside มากแล้วจากราคานี้ ไม่ใช่ signal ให้ไล่ราคา; stock ใกล้ ATH +75% YTD = จุดที่ Marks เตือนว่า "ราคาสูง + optimism สูง = risk สูงสุด"
-
----
-
-**UBS — "Closer to the Pin 1Q, but Significant Raise to Outlook" (UBS, June 3, 2026 — Buy, PT $525→$790)** [ANALYST VIEW]
-- 1Q was an **expectations miss**: NNARR $256M came below investor bogeys, only +2% beat vs the steady 10%+ beat cadence (4 of last 5 Qs); DSOs down 5 days y/y (lowest in 13 quarters) → April was a tough month to close software deals (theme across cyber 1Q earnings)
-- But mgmt **significantly raised** 2Q/FY27 NNARR outlook (~$50M raise on a ~$6M beat) — UBS calls CRWD's updated FY27 outlook "the most positive" in the group
-- AI-driven demand inflection: cyber = critical infrastructure for AI deployment; record 2Q pipeline incl ~$50M AI detection & response; Quiltworks AI-readiness program; Exposure Mgmt + Falcon-for-IT +2x y/y
-- ⚠️ Near-term watch: April CISO workload from Mythos rollout may have reduced near-term resourcing → elongated sales cycles
-- Valuation: PT $790 = **65x CY28 EV/FCF (~23x EV/S)**; trades 54x EV/FCF; premium (1.26x comp avg) justified by 36% FCF margin (vs ~30% peers) + Rule of 40 ~57% (2nd only to **PLTR**); upside/base/down $1000 / $790 / $400
-- 🔗 Cross-stock: validates **Agentic-AI** security tailwind; CRWD/PLTR among Nemotron-supported enterprise platforms (per NVDA Computex keynote)
-
-**UBS Evidence Lab — "Cyber Takeaways from the AI Survey" (6th wave, 139 IT execs, May 11, 2026)** [ANALYST VIEW]
-- **AI security posture (guardrails):** MSFT / CRWD / PANW ทั้งสามครอง mindshare 40%+ current usage. CRWD เป็นรายเดียวใน 3 ที่ **NTM intent ยังเพิ่ม (+4pt)** — tie อันดับ 2 กับ Wiz, รองแค่ Orca (+7pt) → CRWD = momentum เพิ่มเชิง incremental ดีสุดในกลุ่ม incumbent
-- **AI SOC agents:** Charlotte AI (CRWD) เป็นแพลตฟอร์มอันดับ 2 ที่ adopt (รองจาก Security Copilot MSFT, เหนือ Cortex AgentiX PANW) — แต่ ⚠️ **NTM intent ของ Charlotte ลดลง -3pt** (เช่นเดียว MSFT Copilot -7, SentinelOne PurpleAI -3); มีแต่ PANW Cortex ที่ +2pt → DIY (ฝัง Anthropic/OpenAI model เองใน SOC) กำลังแย่ง mindshare จาก packaged solution
-- **นัยต่อ WAF:** ยืนยัน thesis CRWD ดีจริง (posture leader + momentum) แต่ปัจจัยเสี่ยงระยะกลาง = (1) MSFT bundling, (2) DIY agentic SOC = แรงกดดันใหม่นอกเหนือจาก MSFT — สอดกับ Competitive Claims Matrix ใน [[Agentic-AI]] ที่ flag ราคา CRWD extreme + structural threat
-
----
-
-## Story Gate
-**Last Updated:** 2026-07-25  |  **Status:** PASS  |  **Tier:** 🌱 Fast Grower
-
-**Tier Basis:** Fast Grower: growth ~24% ARR (NNARR re-accelerating to 27.7% FY27 guide), switching-cost-Falcon-platform แข็ง — แต่ moat ยังไม่ผ่านวิกฤต (IPO 2019), valuation สูงมาก แม้หลัง split — ไม่มี tier change
-
-**WHAT:** CrowdStrike's Falcon platform is AI-native cloud cybersecurity with 33 modules spanning the kill chain (EDR/XDR/Identity/Cloud/SIEM) — once Falcon Flex committed, switching cost is high because customers consolidate across modules, locked-in via threat graph data accumulation.
-
-**WHY NOW:** Q1 FY2027 (Mark 07-24) ยืนยัน fundamentals แข็ง — Rev +26%, ARR $5.51B +24%, record Q1 NNARR $255.8M +32%, FY27 NNARR guide ยกขึ้นเป็น 27.7% (re-accelerating), FCF margin 34%; ราคาร่วง -13% ($210.73→$183.28) ทำให้ MoS ดีขึ้นเป็น -22.2% แต่ยังแพงกว่า FV; Warren เห็นว่า risk ใหม่ที่สำคัญที่สุดคือ **SEC + DOJ inquiry เรื่อง revenue recognition + การรายงาน ARR** (10-Q Note 10) — เป็นความเสี่ยงเชิงบัญชีที่กระทบ metric หลัก (ARR) ที่ตลาดใช้ประเมิน CRWD โดยตรง; growth story เป็น consensus เต็มตัวแล้ว + valuation ยัง extreme (Fwd PE ~149x, PEG ~5.3) → ไม่ใช่ edge ที่ pay up ได้
-
-**IF WRONG:** Microsoft Defender bundle scale ดึง enterprise customers >20% market share หรือ Falcon Flex churn rate กลับมาเกิน 10% หลัง initial commitment expire, หรือ DIY agentic SOC (จาก UBS AI Survey) แย่ง mindshare จาก Charlotte AI ต่อเนื่อง, หรือ **SEC/DOJ probe พบปัญหาการรับรู้รายได้/ARR จริง = re-rate ครั้งใหญ่**
-
----
-
-## Valuation Range
-**Last Updated:** 2026-07-25  |  **Price:** $183.28 (post-split)  |  **Tier:** 🌱 Fast Grower  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
-
-> ✅ 4-for-1 split completed July 2, 2026 (historical: pre-split FV $500 → post-split $125 baseline)
-> 🔧 **Repair batch #3 (07-25):** ราคา -13% ($210.73→**$183.28**, prices_cache.json 07-25) ดัน MoS -40.5%→-22.2% แต่ยัง price>FV; FV Base คงที่ $150. Story Gate 07-25 อัพเดทไปแล้ว (fresh Q1 FY2027 + SEC/DOJ risk) รอบนี้ sync Valuation Range ให้ตรง (เดิมค้าง 07-15/$210.73).
-
-### Snapshot (Post-Split Basis)
-
-| Metric | Value | Gate |
-|--------|-------|------|
-| Current Price | $183.28 | — |
-| Fair Value Base | $150 | — |
-| **Margin of Safety** | **-22.2%** | ✗ FAIL (Gate 15%) — ดีขึ้นจาก -40.5% แต่ยังแพงกว่า FV |
-| Consensus EPS Growth (used in ER) | 28.1%/yr | Median 5-yr EPS growth forecast (finbox.com methodology) — consistent with near-term consensus FY2027e→FY2028e ~27%/yr |
-| **5-yr Expected Return** | **24.2%/yr** | ✓ PASS (Gate ≥15%) — convergence -3.9% + consensus growth 28.1%. ⚠️ **แต่ ER ไม่ override MoS ที่ FAIL** — MoS -22.2% ยังเป็น gate หลัก ราคายังแพงเกินไปแม้ growth ดี |
-| Forward P/E | 149.0× (183.28 ÷ FY27 EPS $1.23) | — |
-| PEG | 5.3 (Fwd PE 149 ÷ consensus growth 28.1%) | ✗ FAIL Fast Grower cap 1.0× decisively |
-
-### Fair Value Scenarios
-
-| Scenario | Fair Value | vs Price | Basis |
-|----------|-----------|----------|-------|
-| **Bull** | $235 | +28.2% | Top of sell-side PT range (UBS) — premium multiple × AI-security demand acceleration |
-| **Base** | $150 | -18.2% | +20% premium from prior $125 baseline (rule max) — justified by FCF margin 34%, Rule of 40 ~57%, guide raise materialized; still below current price |
-| **Bear** | $100 | -45.4% | Compressed multiple if AI-hype fades / MSFT bundling or DIY agentic SOC erodes share |
-
-### WAF Score Breakdown
-
-| Component | Score | Weight | Contribution | Reasoning |
-|-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 8.5 | 30% | 2.55 | Unchanged — platform moat intact, no red flags from July news (threat-warning tailwind + award are not quality signals) |
-| GP (Growth Potential) | 8.5 | 30% | 2.55 | Unchanged — no new quarter since last gate; cyber-threat headline is demand tailwind, not new revenue evidence |
-| VA (Valuation) | 3.0 | 25% | 0.75 | Up from 2.0 — price fell -13% ($210.73→$183.28) narrowing MoS -40.5%→-22.2%, but still price>FV and PEG 5.3 far over Fast Grower 1.0× cap |
-| RA (Risk Assessment) | 5.0 | 15% | 0.75 | Down from 5.5 — new SEC + DOJ inquiry (revenue recognition + ARR reporting, 10-Q Note 10) hits the core metric the market uses to value CRWD |
-| **WAF Total** | **6.60** | | **MEDIUM** | |
-
-**Investment Idea:** Fresh Q1 FY2027 (Mark 07-24): Rev $1,385.6M +26%, ARR $5.51B +24%, record Q1 NNARR $255.8M +32%, FY27 NNARR guide raised to 27.7% (re-accelerating), FCF margin 34% — fundamentals confirm CRWD is a genuinely strong grower. Price fell -13% ($210.73→$183.28) improving MoS to -22.2% (from -40.5%) but still price>FV. New MATERIAL risk: **SEC + DOJ inquiry into revenue recognition + ARR reporting** (10-Q Note 10) — an accounting-level risk that hits the exact metric (ARR) the market uses to value CRWD. ER 24.2%/yr passes but cannot override a failing MoS; PEG 5.3 fails the Fast Grower 1.0× cap decisively. 2 of 4 gates fail → WATCH not BUY.
-
-**Thesis:** Falcon 33 modules + Falcon Flex ARR +120% + Charlotte AI tripled + NRR 115% + AWS QuiltWorks expansion; post-outage consolidation thesis ทำงานต่อเนื่อง
-
-**Thesis Risk:** SEC + DOJ accounting inquiry (ARR/rev-rec, 10-Q Note 10); valuation extreme even after split (Fwd PE 149×, PEG 5.3); MSFT Defender bundling; DIY agentic SOC (UBS survey flags Charlotte AI NTM intent -3pt); SBC dilution
-
-**Action:** 👀 WATCH — MoS -22.2% ✗ FAIL Gate 15% (improved from -40.5% but still price>FV); ER 24.2%/yr ✓ PASS but does not override failing MoS; PEG 5.3 ✗ FAIL Fast Grower cap 1.0×; new SEC+DOJ inquiry raises risk — 2 of 4 gates fail, action unchanged at WATCH
-
----
-
-## Recent News
-**2026-07-06** — ผ่านแบ่งหุ้น 4 ต่อ 1; ฟื้นตัวจากวิกฤตอัปเดทก่อนหน้า แต่ยังต้องสร้างความเชื่อมั่นใหม่ | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxPd1JWV1Z0QkFpZ3Z2TWFWZEpxWFdKdHF1dnNOUXduM3NvZXFUeEV5ZTFwUkIxakZqMkpRSTJrcFgwU0RsaUdJX0s4alIzOUd0eXhzU3lPRDl5NXB1YUNlR3F5MFhTcGlnZmxza3hoeVU2TDVYLTBPMzk4RkhPQzRfb2pOUmJGQUVPVEdyWWkzLXlNTUFOWHY4UA?oc=5)
-
-## Source Log
-| ไฟล์ | ประเภท | อ่านเมื่อ |
-|------|--------|----------|
-| 2026Q2 - CRWD - Exhibit-99-1.pdf (Q1 FY2027 press release, June 3 2026) | Exhibit 99-1 | 2026-07-24 |
-| 2026Q2 - CRWD - Earnings-Call-Transcript.pdf (Q1 FY2027 call) | Earnings Call | 2026-07-24 |
-| 2026Q2 - CRWD - 10Q.pdf (period ended April 30, 2026) | 10-Q | 2026-07-24 |
 `,
 
 "GOOGL": `# Alphabet Inc. (GOOGL) · Big Tech / Internet Platform
@@ -3575,7 +3416,23 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-15
+**Last Updated:** 2026-07-27
+
+**App Economy Insights — "Why Google is Selling $85B of Itself" (Jun 9, 2026) — capital-structure/financing signal, distinct from the Q2 earnings note below** [ANALYST VIEW]
+- **Alphabet sold $85B of new equity in two days** (upsized from a planned $80B raise on strong demand) — larger than SpaceX's own then-record $75B IPO. **Berkshire Hathaway anchored with a $10B investment at a 6-8% discount** — a rare, disciplined-buyer endorsement (Greg Abel era) of the AI-capex bet.
+- **The paradox flagged by the author**: Alphabet sits on $120B+ cash, generated $165B operating cash flow last year, and can borrow cheaply — companies in that position almost never sell equity (the most expensive capital, permanent dilution) instead of buying back stock. Net genuinely-fresh money for AI after backing out the ATM program (mostly earmarked for employee-stock taxes) is closer to **$45B of the headline $85B**.
+- **Context**: 2026 capex guidance raised to **$190B** (+$5B) at this raise; the four largest hyperscalers combined are on track for **~$725B in AI infrastructure capex in 2026 (+77% YoY)** — combined hyperscaler capex now eats ~94% of operating cash flow after buybacks/dividends, meaning debt and equity issuance are both accelerating industry-wide (Oracle leaning hardest into debt/project-finance SPVs; Meta reportedly studied the same mandatory-convertible-preferred structure Alphabet used, per FT, but has "called the report pure speculation").
+- **Market's differential read is the real signal**: Alphabet's raise barely dented its stock (up ~115% over the past year) and drew a Berkshire endorsement; Meta merely floating the same idea knocked its shares down >5% same week. Difference: Alphabet's buildout feeds a profitable, fast-growing Cloud business that rents capacity back out (own TPU cost edge); Meta's buildout mostly feeds internal apps, and investors remain warier after years of Reality Labs losses.
+- 🔗 [Cross-stock] Directly relevant to Meta's own financing calculus — see META.md's batch-5 UBS note (Meta "weighing sale of excess compute capacity") and this batch's SemiAnalysis Meta Compute deep-dive, both about Meta seeking alternative capital-efficient ways to fund the same scale of buildout Alphabet just equity-funded outright.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is a capital-structure/dilution-risk data point, not an operating update; relevant to VA/RA (share count increase, though ATM-driven dilution from employee taxes is largely already priced into share-count assumptions) — flag for next \`/warren watchlist\` valuation refresh to confirm share count doesn't need adjustment.
+
+**Update (2026-07-26, batch 5) — UBS 2Q26 First Read (Jul 22, 2026): Cloud backlog jumps to $510B (from $462B), Cloud margin improves to 36% (from 32%), YouTube the "standout surprise" beat** [PRIMARY/MARKET NEWS]
+- **Cloud backlog +10.4% q/q to $510B as of 2Q26 close** (was $462B at 1Q26 close) — directly extends the UBS backlog-conversion thesis already on this card (Jun 3 note above); **Google Cloud revenue $24.8B beat consensus $22.4B / UBSe $24.0B**, with 2Q26 Cloud margin improving to ~36% from 32% in 1Q26 — UBS reads this combination as continuing to support the thesis that "EPS will grow into 2H26."
+- **YouTube revenue $11.1B beat consensus $10.8B / UBSe $10.7B** — flagged by UBS as the standout surprise of the quarter, creating room for revenue estimates to move up. Search revenue $63.3B was slightly above consensus $63.2B / slightly below UBSe $63.4B — essentially in line, no change expected to Search estimates.
+- **GAAP diluted EPS $9.11 beat Street $2.88 and UBSe $6.45** — UBS explicitly flags this included a benefit from a one-off unrealized gain in equity securities (i.e., not a clean operating beat of that magnitude — likely mark-to-market gains on GOOGL's external AI-lab equity stakes; treat the EPS print with that caveat, don't take the full beat at face value).
+- **2026 CapEx guidance NOT updated** at this print — still the prior $180-190B range (vs. UBS estimate $196B, consensus $187B); 2Q26 CapEx itself came in at $44.9B, slightly above consensus $44.1B and below UBSe $45.9B.
+- GAAP Operating Income $40.8B was roughly in line with consensus $40.8B and above UBSe $36.1B; 2Q26 EBIT margin 34% was below Street's ~35% but above UBSe's ~30%.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is an earnings-beat/backlog-growth update, thesis-reinforcing (cloud margin expansion + backlog growth were both explicit bull points already on this card). UBS rating unchanged: Neutral, PT $400 (raised from $375 on Jul 13, prior to this print).
 
 **UBS — "Stacking the Backlog from the AI Labs, Meta, and Vertex" (UBS, June 3, 2026 — Neutral, PT $410)** [ANALYST VIEW]
 - UBS refines GCP backlog model by splitting Performance Obligations into: Core non-AI, Vertex, + large contracts with **Anthropic / OpenAI / Meta** → Google Cloud rev revised **+24% / +34% for 2026 / 2027** (backlog conversion, esp. TPU sales, pulled forward from 2028); UBS 2026/27 cloud est ~7%/~16% above Street but ~32% *below* consensus for 2028
@@ -3814,7 +3671,24 @@ No external (third-party) analyst price targets or ratings appear in these prima
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-26
+
+**Update (2026-07-26, batch 5) — CEO's Mizuho conference remarks (Jun 10, 2026): explicit $1B/qtr revenue target, scale-up/NPO framed as potentially LARGER than scale-out, Greensboro fab sized at $5B incremental revenue, gross margin already 33%→47-48%** [ANALYST VIEW]
+- **CEO explicitly targets >$1B quarterly revenue, ~2x the prior ~$500M peak** — framed as a "photonic supercycle within an AI supercycle," with several growth vectors (scale-up, scale-out CPO, optical circuit switches) still not fully reflected in financials yet. Scale-out CPO alone flagged to contribute an incremental $50-100M in Q4.
+- **New framing not previously on this card: scale-up/NPO could be a LARGER opportunity than scale-out CPO**, even in its first instantiation — driven by copper hitting reach/power/bandwidth-density limits at 1.6T/200G-per-lane. Non-NVIDIA ASIC customers have shown a "meaningful increase" in NPO interest over the past two months (independent of the NVIDIA scale-out relationship) — broadens the demand base beyond the single largest customer.
+- **Greensboro fab given an explicit revenue number for the first time: $5B of incremental revenue** (previously only dated ~2028 online, no size); CEO states 100% of CPO-related capacity, including the new Greensboro 6-inch line, is already spoken for — even after this fab, LITE may still fall further behind demand.
+- **Gross margin already improved 33%→47-48%, driven by price/mix, not cost cuts** — CEO says he is "not worried about a pricing reset" and believes the market underestimates pricing durability. This is a materially more specific data point than the general "pricing durable" framing already on this card.
+- **New bottleneck disclosed: substrate supply has tightened** — the CEO says the company is "no longer as well covered" on substrate as after the last earnings call, requiring alternate sourcing. This is an additional supply constraint (distinct from the InP/EML capacity constraint already tracked) — read as more evidence of industry-wide tightness, not a demand problem.
+- **OCS TAM being resized upward** — previously sized ~$10B, CEO now believes it's larger; in-rack OCS for failover/traffic-rerouting/cluster-resilience described as "one of the largest opportunities" LITE is currently seeing (Google's in-house MEMS OCS is not read as a negative — reinforces OCS's architectural importance instead).
+- Competitive-moat framing consistent with what's already on this card (Chinese laser supply concentrated in CW lasers only, not the harder UHP/NPO/EML products) — no new contradiction, additional CEO-level confirmation of the same "overdone" conclusion logged in the prior batch.
+- 🔗 [Cross-stock] Same photonic-supercycle/InP-bottleneck framing as the batch-4 update — this note pre-dates that update chronologically (Jun 10 vs later research) but was read this batch; no thesis conflict, treat as corroborating detail layered onto the existing >30% EML-gap conclusion.
+
+**Update (2026-07-26, batch 4) — NVIDIA's $2B investment funds a new InP fab; EML supply gap independently re-confirmed >30% short; internal CW hoarding is a new (mildly negative for external customers, neutral-to-positive for LITE margin) data point** [ANALYST VIEW]
+- **NVIDIA's $2B investment (March 2, 2026, alongside an identical $2B into Coherent) is explicitly earmarked for building new US capacity** — the acquired Greensboro, NC fab (from Qorvo) is being converted to InP and is targeted to come online around 2028 (AI Optics Explained, Jun 2026). This matches and sources the Greensboro/InP-fab detail already on this card from the prior batch, with the added detail that NVIDIA's money — not just Lumentum's own capex — is what funds the conversion.
+- **Lumentum's own disclosure: EML supply falls more than 30% short of demand** — independently re-confirmed twice more this batch (Weekly research ×2, Jul 2026), separate from the sources already cited on this card. This is the third independent confirmation of the >30% EML gap now logged across this card and Optical-Interconnect.md — increasingly hard evidence, not a single-source claim.
+- **New item: Lumentum has begun putting its own high-power CW lasers into its own cloud transceivers** — described in the source as "internal hoarding": when external light sources are scarce, Lumentum fills its own production line first (AI Optics Explained, Jun 2026). This is mildly negative for any hypothetical external customer buying bare CW lasers from Lumentum, but net positive-to-neutral for Lumentum's own margin capture (keeps more value in-house) — logged as a nuance, not a thesis change.
+- **Sector-wide context (independent research, Jul 2026):** Chinese laser-vendor competitive threat (previously an open risk on this card) assessed as "overdone" for now — 1-2 generations behind on timing, unqualified with global hyperscalers, no 6-inch/high-power CW capability yet. Also: the June 9, 2026 note pushing large-scale CPO volume out to 2028-2029 triggered a sector sell-off in optical names, but per counter-analysis this affects only the CPO-2027 ramp assumption — Lumentum's actual current revenue (pluggable/EML, Scale-Across coherent) was explicitly described as unaffected by that delay.
+- 🔗 [Cross-stock] Also relevant to COHR.md (same NVIDIA dual-investment, same InP-bottleneck evidence) — flagged there too.
 
 **Update (2026-07-25) — Price rebound +4.8% ($728.13→$762.99); price-move re-check only** [MARKET NEWS]
 - Price recovered +4.8%, partially reversing the ~-30% June selloff. No new earnings (Q3 FY26 latest; Q4 FY26 ~early Aug). MoS narrows to 30.6% (from 33.8%) but still comfortably passes. FV Base $1,100 held (~60.5× FY2027E consensus EPS $18.17). Same conclusion as prior batch: MoS/ER/WAF all pass, but PEG (~1.14 on decay-adjusted 37% growth) still fails the Fast Grower cap 1.0 → WATCH. Sensitivity flag still stands (undecayed 54–60.5% growth would flip PEG to pass → BUY; Charlie to scrutinize). Recent News section still empty on card.
@@ -4192,7 +4066,27 @@ Q1 2026: FCF $12.4B แต่ CapEx $19.8B → กำลังลงทุนเ
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**SemiAnalysis — "Meta Compute: Everyone Wants To Be A Neocloud" (SemiAnalysis, Jul 2, 2026) — quantifies and confirms the "selling excess compute" speculation from the batch-5 UBS note with hard capacity numbers** [ANALYST VIEW]
+- **This is the deep-data follow-up to the batch-5 UBS "Meta weighing sale of compute" first read below** — SemiAnalysis reports Meta has **contracted over 5GW of Cloud & Colo capacity in just the first six months of 2026** (their own datacenter model, not speculation), and expects 2027 capex to be "shockingly high" — capacity build is *accelerating*, not slowing, despite Bloomberg-driven neocloud-sector sell-off fears (CoreWeave/Nebius) and "overcapacity" narrative, both of which SemiAnalysis argues are wrong reads.
+- **Four concrete monetization paths identified** (not just the single "sell raw compute" framing in the earlier UBS note): (1) Frontier models — bulk of incremental capacity still goes to Meta Superintelligence Labs; (2) RecSys scale-up >10x in complexity for ads (ties to the GEM/Andromeda/Lattice detail below); (3) **Meta reportedly in final talks with Anthropic for private-instance access to Claude** (Bedrock/Vertex-style token-as-a-service, SemiAnalysis exclusive) — Meta would serve Claude to external customers while using it internally, a genuinely new fact not previously on this card; (4) "SpaceX-type" large-scale on-demand compute deals at a steep premium — SemiAnalysis estimates a ~$10B/yr Anthropic deal could "kick off the flywheel," citing SpaceX's own compute deals (with Anthropic/Google) priced at 2.6-4.0x normal 5-yr neocloud IaaS rates as the template Meta is expected to follow.
+- Only Oracle and Meta are positioned to capitalize on this new high-margin "neocloud" segment per SemiAnalysis (most other hyperscalers have higher-value alternative uses for compute — e.g. MSFT/OpenAI equity swap, AMZN/Bedrock-Trainium); Meta's advantage is optionality — if MSL underperforms, RecSys/TaaS/SpaceX-style compute can be repurposed back to research at any time, making the buildout low-regret regardless of frontier-model outcome.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this materially firms up (with real capacity/deal-structure numbers) what the batch-5 UBS note flagged only as unconfirmed Bloomberg-sourced speculation. Still no confirmed deal/estimate change from Meta itself as of this writing — flag for Q2 earnings (29 Jul) and subsequent quarters for confirmation of an actual Anthropic/external compute deal.
+
+**Jimmy's Investor — "Meta ($META) is Back. Stronger Than You Think" (Apr 20, 2026) — Muse Spark benchmarks, Manus integration, Reality Labs pivot, 5 monetization vectors** [ANALYST VIEW]
+- **Muse Spark** (first model from Meta Superintelligence Labs, shipped Apr 2026) ranks **4th globally** on the Artificial Analysis Intelligence Index (score 52, tied with Claude Sonnet 4.6 Max, behind only Gemini 3.1 Pro/57, GPT-5.4/57, Claude Opus 4.6 Max/53) — native multimodal architecture (not text-first-with-visual-adapter like prior Llama generations) gives it a real edge in **CharXiv Reasoning (86.4, best in the world)** and it **leads all models on HealthBench Hard (42.8, more than 2x nearest competitor's 20.6)** after collaborating with 1,000+ physicians on health training data. Weak spot: **ARC AGI 2 abstract reasoning (42.5 vs. Gemini 76.5/GPT-5.4 76.1)** — a real, acknowledged gap, not spin.
+- **Reality Labs losses framed as peaking**: Q4'25 operating loss $6.021B (cumulative ~$100B since 2019); CFO Susan Li said on the Q4'25 call losses "will likely be the peak," with capital reallocating from VR/Horizon toward wearables — Ray-Ban Meta Display glasses (Meta's first with a screen) sold out within 48 hours of Q3 launch, AI glasses sales tripled YoY. Muse Spark's low-latency native multimodal processing is framed as the first software unlock that could justify Reality Labs' hardware cash burn (real-time visual reasoning without the perceptible lag that broke every AI-glasses product before 2026).
+- **Manus acquisition (Q4'25)** — agentic AI company with an existing enterprise subscriber base (proof enterprises will pay for agentic capability, not just pilot it); Meta keeps the standalone subscription business running while using Manus's tech to power a "Business AI" vision where advertisers give Meta a goal + a budget and the AI builds the campaign end-to-end (Zuckerberg's own framing, Q3'25 call) — directly expands Meta's addressable advertiser base to businesses too small to run sophisticated campaigns themselves.
+- **5 monetization vectors beyond core advertising, several already at scale**: (1) AI-enhanced advertising — Advantage+ crossed a **$60bn annual run-rate** by Q3'25 (14% lower cost/lead vs. manual campaigns); (2) Shopping Mode (Muse Spark-powered, compresses "see post→buy" to a single tap, in-Meta-ecosystem); (3) Business Messaging — WhatsApp paid messaging crossed **$2bn annual run-rate** in Q4'25, click-to-WhatsApp ad revenue +60% YoY; (4) AI subscriptions (Manus-derived, high-value features); (5) Wearables services (thin hardware margin, recurring AI-service monetization layered on top).
+- **Infrastructure**: 2026 capex guided **$115-135bn** (up from $69.7bn in 2025); CoreWeave contract expanded to **$21bn cloud capacity through 2032** (incremental to a prior $14bn Sept-2025 commitment); MTIA custom chip program extending from inference to **training workloads** in 2026; Andromeda architecture (ad-ranking) extended to **AMD chips** in Q4'25 — explicit chip-agnostic diversification away from pure NVIDIA dependence, consistent with existing custom-silicon news already on this card.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is additive detail (AI-model benchmark specifics, Reality Labs pivot narrative, Manus mechanics) not previously captured on this card in this level of granularity; consistent with and supportive of the existing Bull Thesis (network effect + AI flywheel) already logged below. No WAF/score change from this note alone (pre-dates the 07-25 re-value; Q2 earnings 29 Jul remains the next real catalyst).
+
+**Update (2026-07-26, batch 5) — UBS First Read (Jul 1, 2026): Meta weighing sale of "excess" compute capacity / third-party access to internally-hosted AI models — a potential new lever against EPS compression** [ANALYST VIEW]
+- Per Bloomberg (referenced by UBS), Meta is considering either (a) selling "raw" compute capacity to external companies, or (b) offering third-party access to AI models hosted on Meta's own infrastructure. UBS notes CEO Zuckerberg had already floated both options on prior public calls — **May 27, 2026:** "if we get to a point where we feel that we have overbuilt, then that is an option that we have"; **Oct 29, 2025:** "people come to us from outside the company, asking to stand up an API service or ask if we have different compute that they could get from us and we haven't done that yet. But obviously, if you got to a point where you build have that as an option."
+- UBS frames this as incremental, not new-news thematically, but potentially important for the numbers: with META trading at 17x UBS's 2027 GAAP EPS estimate, either development (selling cloud capacity or model access) would pull forward near-term revenue vs. waiting for Meta Business Agents/Meta AI chatbots to scale — directly addressing the "2027 EPS flat-to-compressed vs 2026" concern UBS has flagged (UBS models $32.61/$32.98 EPS for 2026/2027, i.e. roughly flat).
+- No estimate changes made by UBS on this news (unconfirmed by the company) — PT held at $865 (26x FY1Q28E GAAP EPS $33.26, unchanged), rating stays Buy.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is a forward-looking optionality note, not a confirmed fundamental change; relevant context for future EPS-compression concerns already tracked on this card (Reality Labs capex + heavy AI infra buildout), but not yet a scored input into WAF/valuation. Flag for next earnings (Q2, 29 Jul) to see whether management confirms either option.
 
 **Update (2026-07-25) — Price pullback -7.9% → MoS clears full gate; action HOLD (held name, ER in 15-20% band)** [MARKET NEWS]
 - Price fell $646.01(07-18)→**$595.19** (-7.9%, broad pullback, prices_cache.json 07-25). FV Base held $722 (Q2 2026 not reported — 29 Jul). MoS recovers 10.5%→**17.56%, clearing the full 15% gate for the first time** since the early-month runup.
@@ -5238,7 +5132,34 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**UBS — "SemiBytes: 2Q analog update, MU SCAs, AMAT" (UBS, Jun 29, 2026)** [ANALYST VIEW]
+- **Quantifies the SCA (Strategic Customer Agreement) structure for the first time on this card**: UBS interprets management's "gross margins well above prior peak" comment (prior peak ~62% GM in F4Q:18) as meaning MU's SCA gross margins likely sit in the **~70-75% range**. UBS estimates the SCA *ceiling* at **~$10.50/GB** (~20% discount to last quarter's market DDR pricing) — with MU's own guidance already implying market DDR pricing moving to ~$14/GB, i.e. the SCA discount is currently modest, not deep.
+- **Breakage economics**: for a customer to actually want to unwind/exit one of these agreements, DDR pricing would need to fall **75-80% from peak levels** — and even then, walking away risks the customer having to prepay potentially >$10B (scales with customer size) as an effective "break fee." UBS doesn't model DDR/GB falling back below $5 until **August 2029** — i.e. this is treated as a non-issue for the foreseeable modeled horizon, reinforcing (with real numbers) the "SCA revenue floor" thesis already tracked on this card from the 16-SCA (~$100B) disclosure.
+- **2Q Analog Market Update (industrial upcycle) context**: UBS's broader distributor-inventory monitor shows inventories declining modestly this quarter — read as bullish (tightens supply further) across direct customers/distributors, particularly industrial and data-center end markets; corroborating, not new, evidence for the broader memory-tightness thesis.
+- 🔗 [Cross-stock, Semiconductor-Equipment/Advanced-Packaging — not in current watchlist] Same note's **AMAT Master Class** section: DRAM WFE (wafer fab equipment) expected to stay **~2x NAND WFE**, Advanced Packaging growth guided >50% YoY in 2026E to >$2B, driven by panel-level packaging, hybrid bonding, and the 6F²→4F²→3D DRAM node transition (each step raising revenue-per-wafer ~10-15%) — structural confirmation that the memory-equipment capex cycle (which underwrites MU's own capacity/technology roadmap) remains intact. AMAT is not itself in the current watchlist (only ASML holds the Semiconductor-Equipment tag) — logged here as trend-relevant context, not a new stock recommendation.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this sharpens (with real ceiling/floor numbers) the existing SCA-floor thesis already logged from the May 26 UBS LTA note and the Jun 24 FQ3 earnings (16 SCAs, ~$100B) — no WAF/score change from this note alone.
+
+**Update (2026-07-26, batch 4) — Two independent weekly sources reconfirm supercycle continuation; new "memory crowding out others" angle is a downstream-margin risk for non-watchlist hardware names, not a new MU-specific data point** [ANALYST VIEW]
+- Two independent weekly research sources (Jul 2026) both frame MU's memory pricing power/HBM cycle as continuing ("MU Super-Cycle" / "MU Preview") — directionally consistent with, and not adding new hard numbers beyond, the extensive batch-3 update already on this card today (UBS Agentic-AI Teach-In memory hierarchy, HBM 2027E share). Treated as corroboration only.
+- **New angle worth flagging (not previously on this card): "memory crowding out others"** — as DRAM/NAND prices spike on AI-driven demand, downstream hardware buyers (laptop/server OEMs, SSD makers — none of which are in the current watchlist) face margin compression from higher input costs. This is *bullish* for MU's own pricing power (consistent with existing thesis) but is a margin risk for other, non-watchlist hardware names — noted here only as context, no action for MU itself.
+- No WAF/VA/Action change from this note; superseded in detail by the batch-3 update immediately below.
+
+**Update (2026-07-26, batch 3) — UBS agentic-AI teach-in quantifies memory hierarchy; UBS's own paired Korea notes sharpen HBM 2027E share (Samsung edges ahead of MU); independent "quality investor" critique reinforces cyclical-discipline WATCH** [ANALYST VIEW]
+- **UBS FQ3:26 preview (08-Jun-2026, PT $1,625 unchanged, price $864 on note date — now stale vs. card's later prices) — Agentic AI Teach-In detail (new, not previously on this card):** MU quantified the memory hierarchy per GPU: **HBM ~10-100GB, bandwidth 1-20TB/s, residency ms-to-seconds** (hot KV cache) → **DRAM tier ~200-400GB, bandwidth 100-500GB/s, residency seconds-to-minutes** (MU's 192GB SOCAMM already shipping + newly announced 256GB SOCAMM/256GB RDIMM, ~3x higher DRAM capacity per CPU socket vs. prior gen) → **NAND tier: new 245TB SSD, rack-level multi-petabyte** (warm/cold context). MU framed this as "one agentic prompt spawns 4-5 simultaneous agents" — a multiplicative, not additive, driver of memory content per query. This is useful hard-number granularity supporting the existing 4-tier hierarchy thesis already in Memory-Supercycle.md, sourced directly from the company rather than third-party analysts.
+- **UBS's own same-day Korea pair (SK Hynix + Samsung notes, 08-Jun-2026) sharpens — and mildly worsens — the existing "Samsung HBM parity ~40% each by 2027" risk already flagged on this card and in Memory-Supercycle Cross-Stock:** UBS now models 2027E HBM bit share at **Samsung 41% > SK Hynix 39% > Micron 20%** — i.e. Samsung is forecast to *edge ahead* of SK Hynix, and MU is a clear distant third on volume share (even as MU retains a technology/execution edge in HBM4 timing per other sources). Both Korean names got large PT hikes same day (SK Hynix Won2.25m→3.00m Buy; Samsung Won400k→550k Buy), same analyst team, both citing agentic AI demand acceleration — this is a real, coordinated re-rate call, not noise.
+- ⚠️ [CLAIMS CONFLICT] An earlier InvestInsights piece (Jan-2026, now stale/superseded on price but the qualitative claim persists) argued Micron is "ahead of Samsung in the AI memory race... quicker to ramp HBM4." UBS's harder 2027E bit-share math (Micron only 20%, both Koreans >39%) suggests technical/first-mover edge is not translating into volume-share leadership — a reminder to weight quantified analyst share forecasts over qualitative "who's ahead" claims when they conflict. Logged in Memory-Supercycle Competitive Claims Matrix.
+- **Independent "quality investor" critique (Jimmy's Journal, 06-29-2026) — outside check that reinforces, not changes, Warren's existing cyclical-discipline stance:** this Substack author, who screens explicitly for durable moats, concludes pure-play memory makers (MU/SK Hynix/Samsung) still fail the traditional quality bar — thin moat in commodity DRAM ("a bit is still mostly a bit"), extreme capital intensity, and pricing power that is "a function of a shortage, and shortages, by definition, end." He notes **MU trades at 13.6x P/B vs. a 1.8x historical average** (~7.5x re-rate already priced in) and, despite writing extensively about the memory supercycle bull case, chooses **not** to own MU/SK Hynix/Samsung directly — instead positioning in 2nd-derivative equipment/consumables/ecosystem names (AMAT, LRCX, ASML, KLAC, Advantest, TER, ENTG, MKSI, AEIS, AVGO, ALAB, RMBS, APH; none of these are MU/SKHY themselves). This is an independent, non-Warren voice arriving at the same WATCH-not-BUY conclusion on the pure-play memory makers via a different (quality-moat-first, not cyclical-EPS-first) lens — treated as corroboration, not new fundamental data; no WAF/VA/Action change from this note alone.
+- 🔗 [Cross-stock] Also relevant to SKHY.md (Samsung HBM-share-overtake data, same UBS note pair) — flagged there too.
+
+**Update (2026-07-26) — ⚠️ CXMT competitive-threat update: cost gap closed to ~10% (from expected 30-40%), DDR5 mix jumped 15.65%→40.44%, achieved via DUV multi-patterning (no EUV) — this materially sharpens the existing CXMT risk flag** [ANALYST VIEW]
+- **Tech Taiwan (07-24), ahead of CXMT's July-27 Shanghai IPO** (raising RMB 57.9bn, valuation up to US$85B — ~2/3 of SMIC's): CXMT is now the world's **4th-largest DRAM maker by revenue** (7.67% global share, Q4'25 Omdia), Q1'26 revenue RMB 50.8bn (~4x Nanya) at a **70% operating margin** (vs Micron's own 69% same quarter) — this is new and higher-fidelity than the "4th-largest, expanding rapidly" framing already on this card from the prior batch.
+- **The key new data point:** CXMT's manufacturing-cost gap vs. the Big 3 is now estimated at only **~10%** — analysts had expected 30-40% given CXMT relies on DUV multiple-patterning instead of EUV (Micron itself only adopted EUV in 1H2025, after 3 DDR5 process generations on multi-patterning; CXMT is the *second* company after Micron to pull this off). DDR5 revenue mix jumped from **15.65% (2024) to 40.44% (1H2025)** — achieved *before* the current memory shortage even began, i.e. not shortage-inflated numbers.
+- **Regulatory/runway context:** unlike YMTC, CXMT was never placed on the US Entity List, so it faces far fewer equipment-sourcing constraints. Analysts estimate CXMT's current DUV-based roadmap has 2-3 more process generations (~3-4 years) before hitting an unavoidable EUV bottleneck. Plans to expand capacity +30% this year to >300K wafers/month by year-end — approaching Micron's scale and roughly half of Samsung's DRAM capacity; could double again within 2-3 years. Note: talent reportedly recruited from Samsung/Nanya/Inotera (echoes of the 2016 Inotera trade-secret case).
+- **Not a near-term oversupply/"red-supply-chain" trigger per the same analysts** — AI-driven DRAM demand (e.g., Google's Q2 capex doubling YoY) is still growing faster than CXMT's capacity additions. This is a **structural competitive-runway concern for the 2027+ horizon**, not a reason to expect near-term commodity DRAM price relief.
+- ⚠️ [CONFLICT-CHECK] This sharpens, but does not reverse, the existing "CXMT (China) now 4th-largest global DRAM producer" risk item already in this card's Thesis Risk / RA reasoning (added 07-16 batch). The new fact that CXMT closed the cost gap to ~10% via DUV alone — without needing EUV — is more alarming than the prior framing and should be weighed at the next \`/warren watchlist\` RA re-score; no WAF/VA/Action change made in this \`/warren update\` pass per protocol (Analyst Notes only, not a re-value).
+- Also relevant to SKHY (SK Hynix) card — flagged there in brief; CXMT's HBM position is still ~4 years behind the Big 3 per earlier sourcing (this article doesn't update the HBM-specific gap, only commodity DDR5).
 
 **Update (2026-07-25) — Price rebound +5%; MoS eases to 19.9%; oversupply-worry MONITOR; no thesis change** [MARKET NEWS]
 - Price rebounded $876.74 (07-16) → $920.95 (+5.0%) — MoS on unchanged FV $1,150 eases 23.8%→19.9%. No new earnings (FQ4 ~Sept 2026 remains the real test), so FV Base held.
@@ -5881,7 +5802,13 @@ EPS Diluted $1.23 (+86% YoY) สูงกว่า Guidance $0.76 อย่า�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-27
+
+**Independent Substack view — "This 13% Dip Doesn't Make it a Buy" (InvestInsights/Daan, Apr 23, 2026) — Q1 review, Hold/Accumulate <$91, 2028 PT $130 (~14%/yr CAGR)** [ANALYST VIEW]
+- Independent valuation source (pre-dates and is superseded by this card's own Q2 2026 primary-document re-value below, but cross-checks the direction): Q1 2026 revenue $12.25B (+16% YoY) beat consensus/guidance, driven partly by the World Baseball Classic exclusive for Japan (31.4M viewers, most-watched program ever on Netflix Japan) — an early proof point for the live-sports/events growth lever already tracked on this card. Ad tier reached **60% of new sign-ups** in Q1, 4,000+ advertisers (+70% YoY); churn <2%, industry-lowest (vs. Prime ~4%, Peacock ~7%, Disney 3-4%).
+- **Author's own fair value $91** (vs. $94 price at the time, ~3% overvalued) — rates Hold, Accumulate-below-$91, 2028 target $130 (28x 2028E EPS) = ~14%/yr implied CAGR. This lands close to, and directionally consistent with, this card's own Warren FV of $84 (22x FY27 consensus $3.84) — two independent methodologies converging on "slightly above fair value, quality HOLD, not a screaming buy" despite the ~13% post-earnings pullback the article's headline references.
+- Confirms the Warner Bros. deal falling through was viewed as the **better outcome even by outside analysts**: Netflix walked away with the $2.8B termination fee, avoided integration risk/debt load, and freed management to refocus on organic growth + buybacks — same read already on this card from the primary-document Q1 2026 data.
+- ⚠️ [CONFLICT-CHECK] No conflict — this is Q1 data now superseded by the card's Q2 2026 primary-document re-value (below), but the independent Hold/slightly-overvalued conclusion corroborates rather than contradicts Warren's own HOLD stance. No score change.
 
 **Update (2026-07-25) — Post-Q2 full re-value; FV คง $84; MoS 17.9%→16.6% (price refresh); HOLD** [WARREN THESIS]
 - Re-value หลัง Mark อัพการ์ดงบ Q2'26 เต็ม (07-24). Q2 = revenue $12.56B (+13%, in-line) แต่มี 2 จุดลบใหม่: **OM หด YoY ครั้งแรก** (33.4% vs 34.1%, opex T&D +22%/S&M +16% โตเกินรายได้) + FCF −33% YoY ($1.5B) + ลดความถี่เปิดเผย What-We-Watched (candor concern).
@@ -6419,7 +6346,19 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-23
+**Last Updated:** 2026-07-27
+
+**Update (2026-07-27, batch 7) — Vera Rubin confirmed in full production; content/GW keeps rising every generation; $124bn purchase commitments; GPU useful life > depreciable life** [ANALYST VIEW]
+- **BofA (Vivek Arya, June 11-12, 2026):** Following NVDA CFO Colette Kress + IR Stewart Stecker meetings, key confirmations: (1) Vera CPU opportunity ~50/50 split between head-node (compute rack) and standalone agentic AI sockets, ~$20bn sales expected F2H27; (2) NVDA's own **~$200bn CPU TAM framing only counts agentic/RL workloads**, excluding general-purpose traditional CPU — a narrower, more defensible number than the industry's broader $170-200bn+ framing (see CPU-Renaissance.md); (3) **content/GW rising materially each gen**: ~$40bn/GW (Blackwell Ultra) → $60-80bn/GW (Vera Rubin/Rubin Ultra) → potentially ~$100bn/GW (Feynman, 2028), as NVDA's system spans more chips/racks each cycle (Vera Rubin = 7 chips/5 racks vs. Blackwell's 1 compute rack); (4) **GPU useful life may exceed depreciable life** — 3-4 year old Hoppers are reportedly still fully utilized, a data point directly rebutting the bear-case "depreciation cliff" argument; (5) **$124bn purchase commitment** cited as evidence of robust supply/demand visibility for AI infra ahead.
+- **Vera Rubin now confirmed in full production** (not just samples): 5-rack system spanning NVL72 compute + Vera CPU + Groq 3 LPX + Spectrum-6 SPX Ethernet + BlueField-4 STX storage. Per NVDA: up to 10x higher inference perf/watt, 10x lower cost/token, up to 35x higher throughput/watt for trillion-parameter models. Supply chain for Vera Rubin is "2x as large as Grace Blackwell's," with hundreds of ecosystem partners scaling it (BofA, Jun 11).
+- **UBS Computex/GTC Taipei takeaways (June 8, 2026):** Confirms Blackwell dominates C2026 shipments with Rubin Ultra layering in by 4Q26 (timeline consistent with existing card); China Hopper demand "minimal" and "near-0" per NVDA IR — consistent with existing whitelist-tightening context already logged (2026-07-15 entry below).
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this deepens (does not contradict) the existing Vera CPU $200B TAM framing and Vera Rubin ramp thesis already on this card; the "GPU useful life > depreciable life" data point is new and directly useful as a rebuttal data point if a depreciation-bear-case argument arises in future WAF reviews.
+
+**Update (2026-07-26, batch 4) — Optical supply-chain lock-in confirmed at ~$6.5B; proprietary-vs-open standards war; open-source model proliferation is a demand tailwind, not a threat** [ANALYST VIEW]
+- **NVIDIA's optical/connectivity vertical lock-in totals ~$6.5B across four deals in spring 2026** (not just the ~$4-6B figure previously on this card): $2B Coherent + $2B Lumentum (light source, dual-sourced) + ~$2B Marvell (NVLink Fusion ecosystem) + $0.5-3.2B Corning warrants (fiber, 10x US capacity commitment) (AI Optics Explained, Jun 2026). Reading this as "buying capacity, not parts" — equity/warrants rather than purchase orders — reinforces the existing thesis that optical is now mandatory, structurally scarce infrastructure for NVIDIA's roadmap, not a discretionary supplier relationship.
+- **Standards war framing (new):** NVIDIA's proprietary stack (NVLink for scale-up, InfiniBand for scale-out) faces an open coalition (UALink backed by AMD/Google/Meta/Microsoft/Intel/Cisco — NVIDIA notably absent; Ultra Ethernet vs. InfiniBand). NVIDIA sells a closed full-stack bundle (fast deployment, hard to swap out = lock-in moat); Broadcom leads the open camp (design freedom for hyperscalers with their own silicon teams). Whether the open camp actually ships switches in volume in 2026-2027 is flagged as the real test of this competitive dynamic.
+- **Rack war (Computex 2026):** in-rack (scale-up) connectivity still favors copper for 2-3 more years via a new "Copper 2.0" midplane-connector architecture (VR200); NVIDIA's own Kyber (NVL144, end-2027) is designed as the first fully cable-free scale-up rack. Confirms — does not change — the existing view that scale-up optical is a 2028+ story while scale-out is already optical today.
+- **Open-source/Chinese model proliferation (Kimi K3, GLM 5.2) is a demand tailwind for NVIDIA, not a competitive threat:** a broadening ecosystem of independent open-source model builders fine-tuning/self-hosting favors NVIDIA's general-purpose CUDA stack over closed-API consumption or ASIC alternatives — more independent training/serving = more merchant GPU demand. See AI-Infrastructure.md trend file for full reasoning (Jevons Paradox re-confirmed at the model layer).
 
 **Update (2026-07-23) — Paper #3.1 FV Recalibration (เคสกลับ: FV_TOO_LOW)** [WARREN THESIS]
 - FV Base แก้ **ขึ้น $233 → $292** — เคสกลับทางกับตัวอื่นในพอร์ต. root cause: FV เดิมใช้ FY27 EPS $9.34 ซึ่ง **ผิดปี fiscal** (NVDA FYE ม.ค. — ปีที่ควรใช้เป็น valuation base = forward year FY28) และเฟ้อเทียบ FY27 consensus จริง $8.79. ฐานที่ถูก = **forward-year FY28 consensus EPS $12.15** × 24x (PEG 0.63 บน growth 38%, premium เล็กน้อยเหนือ forward 23.4x) → FV $292.
@@ -6508,47 +6447,47 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-23  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-07-27  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
-**Tier Basis:** Pre-Inevitable: 5/5 Crystallization Signals — pricing✓ (CUDA premium ~18ppt GM over AMD) · switching-cost✓ (7.5M devs, 1.5M models) · margin-expansion✓ (75% GM sustained through hypergrowth) · reinvestment-ROIC✓ (>50%) · crisis✓ (survived 2022 crypto crash + 2025 DeepSeek scare). **TIER CORRECTED this batch (was 🏛️ Inevitable):** prior "Huang CEO transition proven" claim was factually wrong — Jensen Huang is founder-CEO, has never transitioned, no successor tested. WARREN.md's Inevitable criteria explicitly disqualify founder-led companies without a proven successor and name Jensen/NVDA directly — downgrading label to Pre-Inevitable to fix this documentation error (quality unchanged).
+**Tier Basis:** Pre-Inevitable: 5/5 Crystallization Signals — pricing✓ (CUDA premium ~18ppt GM over AMD) · switching-cost✓ (7.5M devs, 1.5M models) · margin-expansion✓ (75% GM sustained through hypergrowth) · reinvestment-ROIC✓ (>50%) · crisis✓ (survived 2022 crypto crash + 2025 DeepSeek scare). **TIER CORRECTED 07-23 (was 🏛️ Inevitable):** prior "Huang CEO transition proven" claim was factually wrong — Jensen Huang is founder-CEO, has never transitioned, no successor tested. WARREN.md's Inevitable criteria explicitly disqualify founder-led companies without a proven successor and name Jensen/NVDA directly — label fixed to Pre-Inevitable (quality unchanged). No tier change this batch (07-27).
 
 **WHAT:** NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).
 
-**WHY NOW:** Consensus is treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren sees NVDA's Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction — Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) are unchanged and MoS at $211.80 is still 31%+; market is repricing the AI-semi basket without differentiating NVDA's contracted backlog visibility from names with genuine demand questions (SK Hynix).
+**WHY NOW:** Consensus was treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren saw NVDA's Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction. **2026-07-27 update:** the exact fear cited above — SK Hynix-linked HBM tightness threatening NVDA's Vera Rubin ramp — just resolved in NVDA's favor: NVDA signed a **$500B multi-year preferential-supply agreement with SK Hynix** (HBM3E now + HBM4 for Vera Rubin), including a dedicated 2GW SK Telecom AI-cloud build on NVDA's DSX architecture. This is second-level confirmation, not just defense — the same memory-scarcity narrative markets used to discount NVDA is the mechanism by which NVDA is now locking exclusive long-run allocation ahead of ASIC/hyperscaler competitors who lack equivalent commitments. Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) remain unchanged; MoS at $206.84 is still ~29%.
 
-**IF WRONG:** Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven).
+**IF WRONG:** Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven) — none of these fired this batch; the SK Hynix deal is incremental supply-side confirmation, not a thesis change.
 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-23  |  **Price:** $202.81  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Paper #3.1 FV Recalibration — Base 24x × forward-year FY28 consensus EPS
+**Last Updated:** 2026-07-27  |  **Price:** $206.84  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Paper #3.1 FV base carried — Base 24x × forward-year FY28 consensus EPS (price + RA refresh only, no earnings/multiple change)
 
-### Snapshot (Paper #3.1 — FV Recalibration, reverse case FV_TOO_LOW)
+### Snapshot (2026-07-27 watchlist re-check — SK Hynix $500B supply deal)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $202.81 | — |
-| Fair Value Base | **$292** (แก้ขึ้นจาก $233) | — |
-| **Margin of Safety** | **30.5%** | ✓ PASS (Gate 15%) |
-| EPS ที่ใช้ | $12.15 (FY28 forward-year consensus) | เดิม $9.34 = ผิดปี fiscal (ใช้ FY27 + เฟ้อเทียบ FY27 จริง $8.79) |
-| Multiple | 24× (independent; Charlie 23.4×) | premium +2.6% เหนือ forward, PEG 0.63 บน growth 38% |
-| **5-yr Expected Return** | **34.6%/yr** | ✓ PASS (Gate ≥15%) |
-| Forward P/E (FY28) | 16.7× | — |
-| **PEG** | **0.63** | ✓ PASS (Effective Cap 1.5) |
+| Current Price | $206.84 | — |
+| Fair Value Base | **$292** (unchanged from 07-23) | — |
+| **Margin of Safety** | **29.2%** | ✓ PASS (Gate 15%) |
+| EPS ที่ใช้ | $12.15 (FY28 forward-year consensus) | unchanged — no new EPS data this batch |
+| Multiple | 24× (independent; Charlie 23.4×) | unchanged |
+| **5-yr Expected Return** | **33.6%/yr** | ✓ PASS (Gate ≥15%) |
+| Forward P/E (FY28) | 17.0× | — |
+| **PEG** | **0.64** | ✓ PASS (Effective Cap 1.5) |
 
-> ⚠️ **FV Recalibration 2026-07-23 (เคสกลับ — FV_TOO_LOW):** FV เดิม $233 = 25x × FY27 EPS $9.34 ใช้ **EPS ผิดปี fiscal** — NVDA FYE ม.ค. ปีที่ควรใช้เป็น valuation base = **forward year FY28** (consensus $12.15) ไม่ใช่ FY27 (เกือบจบแล้ว, consensus จริง $8.79). แก้เป็น FY28 forward × 24x → FV **$292** (สูงขึ้น). scorecard 07-17 ที่อ่านเป็น FV_TOO_HIGH = ผิดทาง.
+> ⚠️ **2026-07-27 re-check (price + risk refresh only, FV unchanged):** No new earnings data this batch — FV base carried at $292 (Paper #3.1, 07-23). Price moved $202.81→$206.84 (+2.0%), MoS eases slightly 30.5%→29.2%, still comfortably above gate. **New primary catalyst:** NVDA signed a $500B multi-year preferential-supply agreement with SK Hynix (HBM3E + HBM4 for Vera Rubin) — directly de-risks the memory-bottleneck bear case; RA bumped 6.0→6.3 accordingly (see WAF below).
 >
-> Action ยัง **HOLD** — Paper #3.1 เป็น FV recalibration ล้วน ไม่ execute. MoS 30.5% ผ่าน gate → พิจารณา ADD รอบ /warren ถัดไป (flag ให้โอ๊ต).
+> Action ยัง **HOLD** — MoS 29.2% ผ่าน gate → ADD candidate ยัง flag ให้โอ๊ตพิจารณารอบ \`/warren\` ถัดไป (เดิม flag จาก 07-23 ยังไม่ execute).
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $365 | +80.0% | 30x × FY28 consensus EPS $12.15 (Vera CPU TAM realize) |
-| **Base** | $292 | +44.0% | 24x × FY28 forward-year consensus EPS $12.15 (PEG 0.63) |
-| **Bear** | $207 | +2.1% | 17x × FY28 EPS $12.15 (Charlie floor / low-end estimate) |
+| **Bull** | $365 | +76.5% | 30x × FY28 consensus EPS $12.15 (Vera CPU TAM realize) |
+| **Base** | $292 | +41.2% | 24x × FY28 forward-year consensus EPS $12.15 (PEG 0.64) |
+| **Bear** | $207 | +0.1% | 17x × FY28 EPS $12.15 (Charlie floor / low-end estimate) |
 
-> Prior (superseded) figures: FV $308 (07-15) → $233 (07-17, FY27 $9.34 ผิดปี) → **$292 (07-23, FY28 $12.15 forward-year)**.
+> Prior (superseded) figures: FV $308 (07-15) → $233 (07-17, FY27 $9.34 ผิดปี) → **$292 (07-23→07-27, FY28 $12.15 forward-year, carried unchanged)**.
 
 ### WAF Score Breakdown
 
@@ -6556,20 +6495,21 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 9.5 | 30% | 2.85 | 7 Powers ครบ; ROIC>50%; FCF $96.6B; 5/5 Crystallization Signals ผ่าน |
 | GP (Growth Potential) | 9.5 | 30% | 2.85 | Revenue FY2026 +65%; Vera CPU $200B TAM; Blackwell ramp; EPS FY27→FY28 +38% |
-| VA (Valuation) | 7.8 | 25% | 1.95 | FV recalibrated ขึ้น $233→$292 (EPS ผิดปี fiscal แก้เป็น forward FY28 $12.15); MoS 30.5% ผ่าน gate; PEG 0.63 |
-| RA (Risk Assessment) | 6.0 | 15% | 0.90 | China AI-chip share ร่วง 66%→~8% (Bernstein) structural; Musk chip watch; FY28 EPS range กว้าง ($9.27-14.23) |
-| **WAF Total** | **8.40** | | **VERY HIGH** | |
+| VA (Valuation) | 7.8 | 25% | 1.95 | FV carried $292; MoS 29.2% ผ่าน gate สบาย; PEG 0.64 |
+| RA (Risk Assessment) | 6.3 | 15% | 0.945 | **07-27: +0.3 จาก SK Hynix $500B preferential HBM3E/HBM4 supply deal** — de-risks memory-bottleneck bear case for Vera Rubin ramp; ส่วนอื่นไม่เปลี่ยน: China AI-chip share ร่วง 66%→~8% (Bernstein) structural; Musk chip watch; FY28 EPS range กว้าง ($9.27-14.23) |
+| **WAF Total** | **8.60** | | **VERY HIGH** | |
 
-**Investment Idea:** AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM (bet เดิม). FV recalibrated ขึ้น $233→$292 หลังแก้ EPS ผิดปี fiscal (FY27→forward FY28) — MoS ฟื้นเป็น ~30% ที่ราคาปัจจุบัน; เคสกลับ FV_TOO_LOW.
+**Investment Idea:** AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM (bet เดิม). FV carried $292 (Paper #3.1, EPS ผิดปี fiscal แก้แล้ว); 07-27 SK Hynix $500B supply deal เสริม RA — MoS ยัง ~29% ที่ราคาปัจจุบัน.
 
-**Thesis:** ธุรกิจไม่เปลี่ยน (5/5 signals). FV เดิม $233 ตั้งต่ำไปเพราะ EPS ผิดปี fiscal — แก้เป็น forward-year FY28 consensus $12.15 × 24x = $292; MoS 30.5% ผ่าน gate แต่ action คง HOLD (Paper #3.1 ไม่ execute)
+**Thesis:** ธุรกิจไม่เปลี่ยน (5/5 signals). FV $292 = forward-year FY28 consensus $12.15 × 24x (carried, ไม่มีข้อมูลกำไรใหม่); MoS 29.2% ผ่าน gate แต่ action คง HOLD (ADD ยัง flag รอ /warren ตัดสิน)
 
-**Thesis Risk:** Musk/xAI chip ทำลาย perf-per-dollar ≥50%; hyperscaler CapEx cut >30%; China structural loss (66%→8%) กด growth; FY28 consensus EPS range กว้าง — low-end $9.27 → FV~$217
+**Thesis Risk:** Musk/xAI chip ทำลาย perf-per-dollar ≥50%; hyperscaler CapEx cut >30%; China structural loss (66%→8%) กด growth; FY28 consensus EPS range กว้าง — low-end $9.27 → FV~$217. (SK Hynix supply deal ลดความเสี่ยง memory-bottleneck ลงบางส่วน — ไม่ได้ตัดความเสี่ยงอื่นทิ้ง)
 
-**Action:** 🟢 HOLD (Paper #3.1 = FV recalibration, ไม่ execute; MoS 30.5% ผ่าน gate → พิจารณา ADD รอบ /warren ถัดไป — flag ให้โอ๊ต)
+**Action:** 🟢 HOLD (MoS 29.2% ผ่าน gate สบาย → ADD candidate — flag ให้โอ๊ตพิจารณารอบ \`/warren\` ถัดไป; position เดิม $60 total invested)
 
 ---
 ## Recent News
+**2026-07-27** — NVDA ล็อกซัพพลายหน่วยความจำจาก SK Hynix ในสัญญา AI มูลค่า 500 พันล้านดอลลาร์ เพื่อรับประกันการจัดหาโลจิสติกส์ระยะยาว | [src](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbXdIVGF2aEhFZkd2RUt4cWJPYnRleXU3VVAwQmdzeFhkVFVLSTduM0FuUFhrR052VGNpLVAzLXo4cHo0NTM0NUR3bG94RGowSDFwZ2E2SjZHTG1SM3M1TVU4bkVJSTZteUc5U3JGZ0ZNTGpfamo2UEpfbk9Jdk9hbHVrMC0zUU9ITmdyNTY3VWtvejRRX282N0packdXaDRKeVRjOGhiTUR5d9IBrwFBVV95cUxQMlAtRUpKdjI3MjdkS0JIckxFdGY2MzVxSVN1eWVPMFFHLXVNUF9teGt1SXZPWG9XU24xZTdpUFk2V283UXdUSXE2SnUyR2NfbXBLX0dlOF96VE8wRXd6ekg3QkVJajlPcEE5Z18teXJ4dko3MktYelZmb1BlbGJjRU5ueTlkZ19CbUlMRnJaWVdXd2NjZ2l1VnVsenNJYng3bVVxdkp0bEV6LXg0ZnNz?oc=5) | 🔴MATERIAL
 **2026-07-20** — สถาปัตยกรรมใหม่ Kimi K3 ของคู่แข่งขึ้นตัวสร้างแรงดันต่อความต้องการ GPU ทั่วโลก; ยืนยัน moat ผลิตภัณฑ์แม้ท่ามกลางการแข่งขัน | [src](https://news.google.com/rss/articles/CBMisAFBVV95cUxNRDFhdTMwOG16VDYwYUZ6T3VLWi1MZFo3TjBiOXBIeUFYMHVQZXhnVno2dDFRMDMycE5ZSjFtS1VCZTIxbGlYNkthSHJJZGdPYXMxVXpsZFlQYTRvUlktQ1RtMnUzYmV0bkV5cmVtWEJ5V3BteVp2Z3B5NGpRQV83UTNBbnRBN1ZGbnp2RVFXSHNjRUpjTFpSQmIwT19mNXl6cTdVcXlsTEhMMHpxd20xaw?oc=5) | 🟡MONITOR
 **2026-07-17** — NVDA ที่มั่นใจในอนาคตจากการสนับสนุน TSMC และ Supply Chain AI ทั่วโลก; Moat คู่แข่งขายหลักอยู่ตามที่ | [src](https://news.google.com/rss/articles/CBMijgFBVV95cUxQQV8ybElNaUstWWNabmlQR2RQMjl2NXV6M2tQMXJ5QUpEWTNCb01PRXBVOElTcjB0cHZCb293ZUNmMkczTG1CdUdrZE1qUVNtVVhST1MybjFaM0tPc1FFbXhLanIxM1RnWHNqUWltZFRPTmJkbzF4OXpLOWsxOURaUFNBYy1qazZkS0NtR1BR?oc=5) | 🟡MONITOR
 **2026-07-14** — ลดรายชื่อผู้ซื้อเอเชีย 50% สะท้อนความเข้มงวดของมาตรการควบคุมการส่งออกไปจีน | [src](https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ042c2NBTzI2SnhBeFZzMC03WndWMmFTRG1KbXI4V2hacnh2SWZUZ29nbkRvcUNVRi1NVEhWd19hSmNNNzh0QzNLVjhZcjFLWXhGdjFhLXIxcDRnUEQ0X0RRaXRVckJRd2Q1bmNpTklSbW5NUnNJUTdNejllLTVpTzF2QkI5V1YwUHVCWVgyREVXZG1QVS1fYWNGRVFweUlVQlpJSVhWNDF6WDd2TGc?oc=5) | 🔴MATERIAL
@@ -6583,7 +6523,6 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 **2026-05-29** — 🤖 $NVDA — NVIDIA วางแผนลงทุนในบลอคเทคโนโลยี $200 พันล้านดอลลาร์เพื่อขยายอินฟราสตรัคชั่ร์ AI นอกเหนือ GPU | [src](https://news.google.com/rss/articles/CBMigAJBVV95cUxNNHl4UFlQUkMySnJtTVhMTEE2Vmt1ZjE1VHI3eVQ2UGdpaHEwdkxYSmJCY1pER0V1SjJKRXZId3FIdTk3cTBhNEZwREs5WFBUalBwaEU2UWItQllDcHRweUN0eEdiR3pkOXdIU2FuWTFtWHp4ZjdaZUpQd05vS0hyendnNXRtSW84X1RCd0tGdUdveUdEZXplVzNITUcyaU4zQktfLVNERGlRM295VTBPVUNMclR2eDlBV25lR01oYnN5NEdiTUpuakM3X0k1WnBfUVdlM210UnRrN1VqWHJtTmU2THpGVjgyTDBSTXFRUFZSRzhEMWxFRlpDeEl3aG1C?oc=5)
 **2026-05-28** — 🤖 $NVDA — NVIDIA วางแผนใช้จ่าย 150 พันล้านดอลลาร์ต่อปีในไต้หวัน โดยมองไต้หวันว่าเป็น "ศูนย์กลาง" ของปฏิวัติ AI | [src](https://news.google.com/rss/articles/CBMiowFBVV95cUxNdEVpcmhXcUs3Y25zTXlDTzlXVkdhTzRPeFVLdl9uVExvX19NalJpR25PaE9sZ3VWWlJadXJqdDRUSTc2dUtTTldZSURDa2g5RGJfN1VpeXBWalJndXVBODVnYjh2bUhUbThMVjM4aXFrdXN5WjdVWl94N3N4eWVfei1GUVc0ZXF5QjJJcGtQeUlxLV95MXU4M3RfVVlIZUw4a1dZ)
 **2026-05-27** — ⚠️ $NVDA — การจัดส่ง H200 ไปยังจีนชะลอตัวจากการเก็บแปลง 25% ของสหรัฐฯ ส่งผลกระทบต่อรายได้ | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxQOHlTRm8yZ1BBVE1GSk5QYmJwb3lkY2F4OG9adURNamZ3U3BtWXgzcFVGVmt1TE01Y2hmc2txOGtXa1N1ajhnamxvQ2gtRE9jbF9UNDNIWHhQbGZPNDl5NHMxYmNIOG1GMGJoNlhxeU1GbkxsNC1vOXh0d3FPR1hrMkJoQXo4d2ItNXhjNC1Vck5HSENJTmc?oc=5)
-**2026-05-23** — 🤖 $NVDA — Cerebras Systems เปิดตัว chip ที่อ้างว่าเร็วกว่าบาง Blackwell models ของ Nvidia ถึง 15 เท่า แต่ Nvidia ยังมีข้อได้เปรียบด้าน ecosystem และ supply chain | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxOLUhTWDl0N1A3UGpaajBHTUQ4aDVWVTZmMm9ySy1PbmlIRWMxMHducXNyWkFHMmtkRmpBVV8yQTVFX1FyeERQUHFKQ2ZXVVJHblN1QUpJOVhBTkFxUUdqS014X3pIV1JvbUc4X1lCTGhGZkNzcDktdHdSR1JtNVJqbThETnFjVmV5Q3N5VFo2R0w0U3lSQWpsYXVWOGJvLTBu?oc=5)
 
 ## Source Log
 | ไฟล์ | ประเภท | อ่านเมื่อ |
@@ -6780,7 +6719,25 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 ## Analyst Research Notes
 
-**Last Updated:** 2026-07-25 (Warren)
+**Last Updated:** 2026-07-26 (Warren)
+
+**Update (2026-07-26, batch 3) — UBS raises SK Hynix PT sharply (Won2.25m→3.00m, Buy) but its own paired Samsung note shows Samsung edging ahead in 2027E HBM bit share** [ANALYST VIEW]
+- **UBS "Set to benefit from HBM price hikes in 2027E" (08-Jun-2026):** PT raised **Won2.25m → Won3.00m** (price on note date Won2,070,000; +45% base-case upside per UBS's own spectrum: bull Won4.1m/+98%, base Won3.0m/+45%, bear Won1.2m/-42%). Thesis driven by (1) agentic AI broadening demand beyond HBM into conventional DDR5/LPDDR5 for CPU head-nodes + NAND for KV-cache, (2) 2Q26E DRAM blended ASP +43% QoQ, contract (ex-LTA) DDR/NAND pricing seen +17% QoQ in 3Q26 and +12% in 4Q26, (3) HBM4E pricing negotiations approaching **$3.5/Gb** (2027, HBM4 ~$3.0/Gb) — SK Hynix blended HBM ASP forecast raised to **+62% YoY in 2027** (was +56%).
+- ⚠️ **2027E HBM bit-share update — sharpens the existing "Samsung parity ~40% each" risk already on this card:** UBS's own same-day, same-team Samsung note now models **Samsung 41% > SK Hynix 39% > Micron 20%** for 2027E HBM bit share — i.e. Samsung is forecast to **edge ahead** of SK Hynix, not merely reach parity. Driven by Samsung's HBM4 yield/performance improvement + more available new-capacity floor space (P4 fab open space, P5 clean-room pull-in to 3Q27) per the same analysts. This is a genuine, if modest, downgrade to the "SK Hynix stays #1" framing vs. the prior batch's "parity" language — does not change WAF/Action (still 🔁 Cyclical, still WATCH on cyclical-discipline grounds) but should be weighed at next tier/RA review.
+- SK Hynix capex raised: 2027E Won54tn (was 49tn, +52% YoY WFE to $17bn est.), 2028E Won60tn (was 53tn); targeting **DRAM capacity doubling by 2030 (~900k wpm)**; NAND Dalian targeting 90k wpm by end-2027 (from 75k now).
+- ⚠️ **China fab risk (new, not previously scored on this card):** UBS flags SK Hynix "may have to ramp down DRAM capacity in China over time" because it cannot secure EUV lithography tools for the 1b-nm node there — Dalian fab likely converts to NAND (230L); new domestic Yongin complex (4 fabs × 360-370k wpm planned) is the intended replacement, but this is a multi-year transition risk, not a settled fact.
+- Context: SK Hynix shares +218% YTD (vs. KOSPI +94% YTD) — UBS itself flags "affordability" as the main risk to the whole thesis, noting memory industry revenue is approaching **US$1.6 trillion by 2027E**. Near-term catalysts cited: upcoming US ADR listing + associated buyback, and continued agentic-AI demand uplift.
+- 🔗 [Cross-stock] Same UBS note pair also revises Micron's 2027E HBM share down to a distant-third 20% (see MU.md batch-3 note) — no change to SKHY's own WAF/Action from this alone; filed as sharper Cross-Stock evidence for the existing Samsung-competition risk.
+
+**Update (2026-07-26) — Historical context: TSMC's CoWoS "cooperation" with SK Hynix vs. arms-length treatment of Samsung (Tech Taiwan, 2026-07-10)** [ANALYST VIEW]
+- Long-form retrospective on how SK Hynix overtook Samsung in HBM/market-cap: traces to TSMC's CoWoS packaging decisions since the 2016 Nvidia GTC (Tesla P100) launch, when **Samsung** (not SK Hynix) was TSMC's default HBM2 co-packaging partner — SK Hynix's own first HBM2 development attempt had failed at the time.
+- Since HBM2e, TSMC's relationship with SK Hynix has been described (by an R&D executive close to the situation) as "cooperation" — TSMC actively adjusted CoWoS process recipes to fit SK Hynix's memory. TSMC's relationship with Samsung, by contrast, was arms-length: "we won't teach them" — TSMC works through mutual customers rather than direct technical collaboration with Samsung, reportedly because "if Samsung does a good job, what benefit does that bring TSMC?" (Samsung is TSMC's fiercest foundry rival).
+- The piece attributes Samsung's real HBM stumble mainly to a **2019 management misjudgment** — Samsung disbanded its HBM team believing the market had weak growth prospects, then was caught flat-footed when ChatGPT/AI demand exploded, "effectively handing the market to SK Hynix." Packaging-technology differences (SK Hynix's MR-MUF vs. Samsung's TC-NCF, which had worse heat/warpage at 8+ layer HBM3 stacks) are named as a secondary factor.
+- **Relevance to SKHY thesis:** this is directly supportive of the bull point already in this card ("qualification barrier high, switching supplier hard") — it shows TSMC (the packaging gatekeeper for Nvidia-bound HBM) has a demonstrated multi-year working relationship and technical accommodation specifically with SK Hynix, which is a soft but real structural advantage over Samsung re-entering competitively. Does not change VA/WAF or the underlying bear case (ADR froth, cyclicality, management "no longer cyclical" hype) — filed as supporting color for the bull thesis only.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data. Historical/qualitative source (Substack newsletter, not sell-side research) — treat as directional color, not a quantitative input.
+
+**Update (2026-07-26, batch 2) — CXMT DRAM catch-up: brief cross-reference only, commodity DDR5 not HBM** [ANALYST VIEW]
+- Tech Taiwan (07-24) reports China's CXMT closed the manufacturing-cost gap on commodity **DDR5** to ~10% (vs. expected 30-40%) via DUV multi-patterning, no EUV needed — full detail distilled onto the MU.md card (direct commodity-DRAM competitor). Per the same and prior sourcing, **CXMT's HBM position remains ~4 years behind the Big 3** (still blocked by EUV restriction + yield gap) — this update does not change SKHY's own HBM-leadership thesis or its bear case (ADR froth/cyclicality). Filed for completeness only; no VA/WAF impact.
 
 **Update (2026-07-25) — Regular-way SKHY (live quote); ADR froth deflates -20%; MoS corrects -93.9%→-54.6%** [MARKET NEWS]
 - Now trading regular-way as **SKHY** — this is a genuine live quote, so the 07-15 "⚠️ manual prior-day close" price-source flag is resolved.
@@ -7166,10 +7123,17 @@ Space Exploration Technologies Corp. (SpaceX) founded 2002 by Elon Musk, incorpo
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-26
 
-> **Source:** FundaAI Deep Dive Series (Parts 1–3, Jan–Apr 2026) + Damnang Semiconductor Insight (May 2026) + FundaAI Global Space Launch Report (2026) + FundaAI Space Breakout (Jan 2026) + **FundaAI S-1 Analysis (May 21, 2026 — reads the actual S-1 filing)** + Morningstar (Nicolas Owens, probability-weighted DCF, FV $62, June 2026) + bond market coverage (Bloomberg/Axios, June 22-23, 2026) + CNBC/Motley Fool/Investing.com lockup coverage (July 7-14, 2026)
+> **Source:** FundaAI Deep Dive Series (Parts 1–3, Jan–Apr 2026) + Damnang Semiconductor Insight (May 2026) + FundaAI Global Space Launch Report (2026) + FundaAI Space Breakout (Jan 2026) + **FundaAI S-1 Analysis (May 21, 2026 — reads the actual S-1 filing)** + Morningstar (Nicolas Owens, probability-weighted DCF, FV $62, June 2026) + bond market coverage (Bloomberg/Axios, June 22-23, 2026) + CNBC/Motley Fool/Investing.com lockup coverage (July 7-14, 2026) + **UBS initiation "Starship Flight 13" (Buy, PT $210, Jul 14, 2026)** + **UBS "SpaceX's Terafab — Putting Things in Perspective" (Jul 7, 2026)**
 > ทุก insight ในส่วนนี้มาจาก Secondary Research (Analyst Reports + Web Search) — ยกเว้นส่วน "S-1 Filing Analysis" ที่ดึงจากตัว S-1 จริง
+
+**Update (2026-07-26, batch 5) — UBS initiates Buy $210 PT on Starship cadence; separate UBS semi-equipment note sizes Terafab as a >$50B/yr WFE spender by 2030-31** [ANALYST VIEW]
+- **UBS initiated SPCX with a Buy rating and $210 PT** (14 Jul 2026, price then $141.22) — SOTP/multiples-based. UBS models revenue scaling from $45.8B (2026E) to $401.8B (2030E) and forecasts Starship launch cadence rising from 4 in 2026 to as many as 1,558 by 2031, with Falcon 9 sunsetting as Starship ramps. This is the first formal sell-side Buy+PT combination logged on this card (prior sources were Morningstar DCF $62 and FundaAI SOTP — both non-bank secondary research); disclosed forecast excess return 39.4%.
+- **Flight 13 status (targeted Jul 16, 2026, 6:45pm ET):** FAA closed its Flight 12 mishap investigation on Jul 13, clearing Flight 13 to proceed. Unlike Flight 12, neither stage will attempt a catch — both booster and ship target controlled splashdowns — with the flight's primary purpose being engine-reliability validation (relight test skipped on Flight 12) and the **first-ever Starship deployment of actual Starlink V3 satellites** (20 sats, solar array/antenna deployment test, laser-link connection attempt). UBS frames this as a deliberate de-risking step, not a setback — Booster 21/Ship 41 (for Flight 14) are already in advanced production.
+- **🔗 [Cross-stock] Separate UBS semiconductor-equipment note (Jul 7, 2026) sizes "Terafab" — Musk's plan for a fully vertically-integrated semiconductor complex (mask shop + foundry/logic + memory + packaging + test, Grimes County, TX)** — as a major new WFE (wafer-fab-equipment) demand source: UBS forecasts SpaceX's AI compute capex alone at ~$1.1T over 5 years (ex-Connectivity/Launch), ~20% (~$225B) earmarked for Terafab, implying ~$135B of WFE spend over 5 years — growing from a ~$5B pilot line in 2027 to ~$10B in 2028 and potentially >$50B/yr by 2030-2031 (comparable to TSMC's current annual WFE spend). UBS ties this to an initial $55B semiconductor fab filing (potential to expand to $119B) — plans reportedly ~80k wsm memory fab + two ~20k wsm foundry/logic fabs. Read-through: reinforces industry WFE could approach ~$300B by 2029 (UBS's standing forecast) — relevant to Semiconductor-Equipment.md (ASML) as a new, non-hyperscaler demand vector, and to Memory-Supercycle.md (potential Korean-supplier licensing angle, per note below).
+- **Memory/Intel angle (same Terafab note):** Musk has confirmed memory is part of the Terafab scope, though UBS flags SpaceX has no obvious existing IP/licensing path for memory design — could eventually prompt Samsung/SK Hynix to invest in US front-end manufacturing (Samsung has land available in Taylor, TX). UBS also frames INTC's existing engagement with SpaceX as a potential "knowledge owner"/IP-licensing role (IBM-AMD-style transfer) or a JV site (e.g., an "Ohio One" campus), with a scenario where SpaceX invests directly in INTC if Terafab underdelivers. Flagged as evidence-still-thin (a lot remains unconfirmed) — logged for future tracking, not treated as a firm catalyst for SPCX's own thesis.
+- No conflict with the existing lockup/valuation discussion below — this batch's sources are launch-cadence/execution and semi-equipment capex framing, separate from the float/valuation debate.
 
 ### ⚖️ Warren's View — Lockup Unlock Countdown Confirmed (2026-07-15)
 
@@ -7735,7 +7699,17 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-26
+
+**Update (2026-07-26, batch 5) — UBS 2Q26 review (Jul 22): the "resolved only at July 22 earnings" swing factor flagged on 07-25 resolved BEARISH — auto gross margin ex-credits fell to 16.3%, GAAP operating margin collapsed to 1.4%; UBS cuts PT $442→$385 and 26/27/28 EPS ~42-53%** [PRIMARY/MARKET NEWS]
+- **This directly answers the open question already on this card** ("resolved only at July 22 earnings," logged 07-25): 2Q26 automotive gross margin ex-credits came in at **16.3%**, down from 19.2% in 1Q26 (and 39.5%/30.3% in 1Q26/2Q25 including credits) — UBS's bear-case zone (18-20%) was breached to the downside, not defended.
+- **2Q26 GAAP operating profit was $398M for a 1.4% margin** — vs UBS estimate $1.8bn/6.5% and consensus $1.5bn/5.4% — a large miss on profitability despite revenue of $28.2bn (+26% y/y, +26% q/q) landing 1-2% ABOVE consensus/UBS. Adj EPS $0.33 missed both UBS ($0.67) and consensus ($0.55). Free cash flow was a use of $1.1bn (narrower than consensus -$3.3bn use, but still a burn).
+- **UBS cut 26/27/28 EPS to $1.37/$1.74/$2.87 (from $2.34/$2.95/$3.77)** — a 42-53% cut across the forecast window — citing lower auto/energy gross profit assumptions and higher R&D spend going forward. **PT cut to $385 (from $442)**, now based on 150x applied to the rolled-forward 2028 EPS estimate (discounted back a year at 12%) rather than 2027 — UBS frames this explicitly as "heavy investment period and payoff further out."
+- **Robotaxi: management struck a "somewhat cautious tone,"** per UBS — need to manage safety concerns while scaling unsupervised miles. UBS models ~10%/week growth in unsupervised-mile fleet driving for the balance of the year, implying cumulative unsupervised miles could reach ~3.2mm by year-end (from ~380k currently) — a 15.6mm annualized run-rate. FSD v15 is running on Robotaxis; autonomous semi (trucking) is "not a current focus but maybe in 6+ months."
+- **Optimus: management explicitly said it's "very complex" and doesn't want the robot to "go haywire"** — a lot of scale-up work remains because "everything is new, no existing supply chain," so the initial ramp curve will be "flat and long." Also working on "Digital Optimus" (an AI designed to operate computers visually). AMD is designing power electronics/circuit boards for now, with plans to vertically integrate PCBs in-house for V4.
+- **Terafab (🔗 cross-stock, ties to SPCX's Terafab semiconductor-fab plan already logged on SPCX.md this batch):** Tesla says an announcement is coming "soon" with "a lot more details" — project is explicitly framed as "high risk, high payoff"; equipment orders for a development fab in Austin have already been placed.
+- Other items: exited 2Q26 with the largest order backlog since 2023 (demand encouraging); 55% of NA deliveries had FSD subscription at time of delivery (attach rate improving, "becoming a selling point," 1.5mm subscribers); Energy segment — Megapack demand framed as "very high," driven by grid balancing + peak shaving AND now AI demand too, though ASPs are coming down from more competition (Energy GM% normalizing to low-to-mid 20s); Solar — plans to multiply US manufacturing "by an order of magnitude"; 2026 CapEx >$25bn reiterated, expected to keep growing over the next 2-3 years, with a $30bn debt facility being pursued to help fund it. On SpaceX: Musk wouldn't confirm any formal merger, but flagged overlapping collaboration (Terafab, Grok-in-car, Starlink integration into Cybercab and eventually all vehicles); SpaceX is also described as a large buyer of Tesla Energy Megapacks.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is the actual earnings print resolving the open question flagged last batch. **Net effect: bearish resolution of the "Key Concerns" item below** (automotive-margin swing factor) — Bull Thesis items (Optimus optionality, FSD flywheel, Robotaxi 2027 revenue) are reiterated by management but pushed further out in time ("payoff further out"), not invalidated. Flag for Kim: this is a rating-relevant valuation input (PT -12.9%, EPS cuts 42-53%) that the next /warren watchlist or /warren pass on TSLA should incorporate.
 
 **Sentiment: Mixed | Conviction: Medium**
 
@@ -8201,7 +8175,36 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-25
+**Last Updated:** 2026-07-26
+
+**Update (2026-07-26, batch 4) — COUPE confirmed as the only full-stack optical-packaging chokepoint; Broadcom's flagship CPO switch runs on it** [ANALYST VIEW]
+- **Broadcom's Tomahawk 6 (Davisson) 102.4Tbps CPO switch — the most advanced CPO product currently sampling — is built on TSMC's COUPE platform**, which builds the optical chip and the high-speed electronic chip separately then joins them via advanced packaging (AI Optics Explained, Jun 2026). TSMC is described as "almost the only place with all three in one house: the advanced electronic chip, the mature-node optical chip, and the advanced packaging that joins them" — a direct, named-customer confirmation of TSMC's chokepoint role already tracked on this card (CoWoS/advanced-packaging thesis) but extended specifically to optical/CPO packaging.
+- TSMC's roadmap maps 1.6-terabit pluggable → 6.4-terabit CPO → 12.8-terabit Optical I/O, all under the same COUPE umbrella — reinforces the view that TSM benefits regardless of whether CPO or pluggable/LPO ends up winning the near-term volume race (both still require TSMC packaging).
+- ⚠️ Per the June 9, 2026 note (Advanced-Packaging.md / Optical-Interconnect.md), large-scale CPO volume broadly is now expected 2028-2029 rather than 2026 — a timing recalibration for the CPO-specific revenue stream, not the core CoWoS/advanced-packaging demand this card already prices in.
+
+**Update (2026-07-26, batch 3) — Minor: TSMC's GaN foundry exit confirms resource reallocation toward advanced packaging (Tech Taiwan, 06-26)** [ANALYST VIEW]
+- Tech Taiwan reports TSMC informed customers last year it will **fully exit the GaN foundry business by July 2027**, converting the affected line (Fab 5) into **advanced-packaging capacity** — cited reason: "too many high-demand products competing for limited manpower and fab space," i.e. strategic reallocation, not a signal of weak power-semiconductor demand (GlobalFoundries picked up the licensed GaN process instead, partnering with onsemi).
+- Context: this sits inside a broader Nvidia-driven **800VDC power-architecture** story for AI datacenters — a new demand vector for SiC/GaN power semiconductors (Wolfspeed post-bankruptcy comeback, Rohm's ¥193.6bn SiC impairment + pivot to 8-inch wafers, Episil/Vanguard — a TSMC subsidiary — building an 8-inch SiC foundry line). None of the named power-semi names (Wolfspeed, Rohm, Episil, Vanguard) are in the watchlist; filed as a small confirmatory data point that TSMC keeps prioritizing CoWoS/advanced-packaging capacity over adjacent lower-margin lines — consistent with, not contradicting, the CapEx/CoWoS-capacity theme already on this card. No WAF/VA/Action change.
+- 🔗 [Cross-stock] Logged in Power-Infrastructure.md (dormant trend, no watchlist stock currently) for future reference should VRT/ETN-type names re-enter the watchlist.
+
+**Update (2026-07-26) — Sell-side deep dives confirm Q2 beat-and-raise + surface new capacity/geopolitical detail (FUNDA + Tech Taiwan, 07-08→07-19)** [ANALYST VIEW]
+- **CapEx raised twice this year:** FY26 guide now $60-64B (+~15% from prior raise) — Tech Taiwan reports Wei attributes it to structural demand incl. emerging **agentic AI** workload, not just inflation. FUNDA's pre-earnings preview (07-08) had modeled $56B/$76-80bn for 2026/27 — actual guide came in above even that.
+- **CoWoS capacity raised again:** FUNDA now models year-end 2027 CoWoS capacity at **200-220K wpm** (up from its own prior 170-180K estimate) — AI accelerator packaging demand still running ahead of TSMC's original plan; TSMC may scale back SoIC to redirect clean-room space to CoWoS.
+- **Largest-ever Taiwan expansion confirmed:** Tech Taiwan (07-17) reports TSMC's Shalun site (STSP Tainan Phase 4) = 507 hectares, 12 new fabs targeted at 1.4nm/1nm, NT$2.2tn annual output, 35,000 jobs, 2.7GW power draw (~7% of Taiwan's total). President Lai personally backing the project ("if this goes wrong, TSMC becomes American TSMC" — official's words) — signals this is now a national-strategic priority, reducing (not eliminating) the "Taiwan capacity all going to Arizona" bear case.
+- **Pricing power stance more conservative than assumed:** Wei, when pressed on price hikes, said TSMC "envies" Micron's ~86% gross margin but repeatedly stressed "customers must succeed first — prices cannot be raised to levels customers cannot afford." Bernstein (via Tech Taiwan) reads this as confirmation TSMC does NOT plan near-term price hikes as an earnings lever — consistent with Warren's existing FV (no price-hike upside baked in) but worth noting as a real signal from management, not just an estimate.
+- **Advanced-packaging "moat" reframed by Wei himself:** Wei said he "welcomes" competitors like Intel EMIB into advanced packaging while TSMC's own CoWoS capacity stays constrained — "that also helps my front-end wafer business." Bernstein interprets this as TSMC not viewing CoWoS as a defensible moat, monetizing instead via front-end wafers. Minor read-through: rumored 14-reticle CoWoS may let TSMC win back Google's next-gen TPU packaging from MediaTek — watch for confirmation.
+- **2Q26 actual results (FUNDA Review, 07-16) reconcile with the 07-16 update above:** revenue $40.2bn in-line; GM 67.7% (below FUNDA's own 68.4% estimate); 3Q26 GM guide 65-67% (below FUNDA's 69.9% estimate) — culprit = faster-than-expected 2nm ramp diluting margin 3-4pp in 2H26, not a demand problem. FUNDA raised its own 2026/27/28 EPS to NT$113.7/152.9/194.6.
+- **SK Hynix/Samsung competitive intelligence (Tech Taiwan, 07-10):** TSMC actively adjusts CoWoS process recipes to accommodate SK Hynix but works "through customers, not directly" with Samsung ("if Samsung does a good job, what benefit does that bring TSMC?"). This is a structural, if soft, preferential-treatment dynamic for TSMC's #2 HBM customer relationship (relevant to SKHY card, cross-referenced there) — does not change TSM's own thesis but adds color to TSMC's customer-leverage practice.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data or the 07-25 Warren re-value ($412→$420) — all of this is confirmatory/supplementary detail from secondary sell-side sources, layered under the same beat-and-raise thesis already priced into the FV update. No tier change (🏛️ Inevitable).
+
+**Update (2026-07-26, batch 2) — Independent long-only analysts (Jimmy's Journal, UBS, InvestInsights) converge on Buy/bullish with PTs $530-$555; Google TPU packaging battle adds real (not just rhetorical) execution risk to the CoWoS moat** [ANALYST VIEW]
+- **Jimmy's Journal DCF (07-20):** independent DCF (9% WACC, 3.5% perpetual growth) lands at **$530/ADR fair value** (+33% upside from $398 at time of writing) — a different methodology from Warren's multiple-based FV ($420) but directionally consistent (both see meaningful upside, not overvaluation). Confirms 17x 2027E P/E "highly attractive given visibility." Roadmap detail: N2 capacity → 240-250K wpm by 2029-30; A14 pre-production 2027/mass production 2028 (10-15% speed, 25-30% power, 20-23% density gain vs N2); CoWoS scaling to ~2M wafers/year by 2027 (+60%); SoW (System-on-Wafer) already live via Cerebras, memory-integrated version post-2029; COUPE (silicon photonics/CPO) platform addressing packaged optical I/O.
+- **Wei's gross-margin philosophy quote (same source):** "I'm really jealous about the memory companies, 86% gross margin... but we are a very trustable company with our customers. We don't suddenly increase our price by 4x or 5x." — direct management confirmation TSMC will NOT chase memory-style margin expansion via pricing, consistent with the "no price-hike lever" read already in the 07-26 (batch 1) note above. Two independent sources now converge on this.
+- **UBS Q2 preview (29-Jun, pre-actual-print):** raised PT to NT$3,400 (from NT$3,000), modeled 2026/27 sales growth 37%/38% (above TSMC's own >30% guide at the time) and capex $60/80/95bn for 2026/27/28E — UBS's own capacity build was already ahead of what TSMC later confirmed, i.e. sell-side was correctly anticipating the beat-and-raise seen in the actual Q2 print. N3 capacity model: ~120kwpm end-2025 → ~220kwpm by 2028E (combined scale of Intel+Samsung Foundry's *entire* combined node capacity, per UBS).
+- **Taiwan Semiconductor Q1 Review (InvestInsights, 21-Apr):** independent long-only PT $555 (Buy, accumulate below $375), implied ~18% CAGR. Key data point: TSMC's **pure foundry share hit 72%** (Q4'25, up from 63% Q1'24) and **>95% share in sub-3nm advanced nodes** — a near-monopoly at the leading edge. 2nm yield stable 60-70% vs Samsung's ~55% (effective ~40% after packaging/binning losses) — Samsung 2-3 years behind, Intel 3-5 years behind (18A yields not commercially viable until end-2026, industry-standard not until 2027). TSM's own PEG (0.99x) is well below ASML/AVGO (>2x) on this analyst's numbers — supports Warren's existing pay-up-allowance rationale.
+- **⚠️ Real execution risk to the CoWoS/Advanced-Packaging moat narrative (Tech Taiwan, 12-Jun):** Google's 9th-gen TPU reportedly chose **Intel EMIB-T over TSMC CoWoS** — described by an industry source as a political as well as technical decision (Intel ≈10% US-government-owned "national champion"; Vance's "AI chips designed and manufactured in America" framing). Intel's own CFO (Apr 23 call) said the packaging-foundry opportunity moved from "hundreds of millions" to "billions of dollars/year" — implying the TPU9 program could be several million units (2025 TPU shipments ~2-3M units). TSMC introduced a 14-reticle CoWoS-L (up from 9.5-reticle max) at its May Symposium specifically trying to win the business back. **Key unresolved risk:** EMIB-T yields reported ~90% (vs TSMC's in-house hybrid-bonding precision, bump pitch 6μm pushing to 3μm vs Intel's ~10μm) — for AI-grade packages needing 98-99% yield, 90% may be commercially unacceptable. **Q3 2026 = the checkpoint** (first engineering samples); if EMIB-T disappoints, the business could flow back to TSMC. This is the single most concrete evidence yet that TSMC's packaging "moat" (already reframed as non-defensible by Wei himself per the 07-26 batch-1 note) can lose real, large-dollar sockets — not just overflow — to a credible alternative.
+- **CoPoS reality check (Tech Taiwan, 03-Jul) — "glass revolution" hype is overstated near-term:** TSMC's next-gen panel-level packaging (CoPoS) targets 1H2029 volume production, but a source close to TSMC says the **first generation will likely be "zero-glass"** — the glass-core substrate hype circulating in the market (driving Innolux +2.7x in 6 months) stems from a *tangential* TSMC Japan R&D-center paper, not the mainstream roadmap. Three technical hurdles (TGV drilling/cracking, yield-at-scale, multi-layer outsourcing risk) plus cost (one Taiwan substrate maker quoted Broadcom 10x the price of a conventional substrate; Broadcom would only accept 2x) make glass "technically attractive but commercially uncompetitive" for now. TSMC/ASE have standardized on a 310mm×310mm panel spec. Minor negative read-through for glass-substrate-linked suppliers hyped on this trend; no impact on TSM's own card.
+- ⚠️ [CONFLICT-CHECK] No conflict with the 07-25 Warren FV ($412→$420) or the batch-1 (07-26) notes above — all four independent-analyst PTs ($530, $555, NT$3,400≈$620/ADR-equiv at UBS's own EPS, InvestInsights $555) sit **above** Warren's $420 base FV, which if anything argues Warren's FV is conservative, not inflated (useful context given TSM's MoS is currently the lowest in the portfolio at 3.95%). The one genuine new risk item is the Google TPU EMIB win — flag as a **Thesis Risk watch item** (packaging-socket loss risk, not thesis-breaking; TSMC monetizes via front-end wafers either way per Wei's own framing) — re-check after Q3 2026 EMIB-T engineering-sample results.
 
 **Update (2026-07-25) — Post-Q2 beat-and-raise re-value; FV $412→$420; ER de-inflated 27.7%→20.8%** [WARREN THESIS]
 - Re-value จริงจังหลัง Mark อัพการ์ดงบ Q2'26 (07-24). Q2 = record ($40.20B, +33.7% USD, GM 67.7%, net +77.4% YoY) + **FY26 growth guide ขึ้นครั้งที่สอง** (>30%→"slightly above 40%") + CapEx $60-64B + Arizona +$100B + supply ตึงถึง 2029-30.
@@ -8266,6 +8269,7 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Recent News
+**2026-07-27** — TSMC รายงาน Q2 EPS NT$27.25 และประกาศปรับเพิ่มราคาบริการการผลิตปีหน้า สะท้อนความต้องการ Data Center ที่แข็งแกร่ง | [src](https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zcklOeFlyOThxTGM2S1p6UTBOSDl5TG5SLVBGSmpiaHVuT1pZS2gwOWZJZlpJUFpjcTZ0V3NWR0tNT0FUMmJ1S28tOC1qQQ?oc=5) | 🔴MATERIAL
 **2026-07-21** — ประกาศเพิ่มราคา Chipmaking สูงสุด 10% ตั้งแต่ 2027 ยืนยันสถานะผู้นำและกำลังการผลิตขณะความต้องการ Data Center ยังแข็งแกร่ง | [src](https://news.google.com/rss/articles/CBMilwFBVV95cUxOYnN3SmdhMTFYUlZ2cy10MTdlVTdwVmt1OWR4cGZEVmdidGhPdlk0TllMcjBzYkUxTEU2VzJaUTFsbHpwSVU5b1M1X09nNHY0S1dqMUZVbzVYTzVfbmVXclZqemRmSktPeGxfZFU3SmdpRENMZHhJZ0s3QUFqRUR0SmZNbXJ1bFIwQl9rMlVKemlhcjFlcTFz?oc=5) | 🔴MATERIAL
 **2026-07-20** — กำไร Q2 พุ่ง 77% เกินความคาดหวัง และเพิ่ม Capex ตัวเลขใหญ่; ยืนยันความต้องการ Data Center ที่แข็งแกร่งและแผนขยายในสหรัฐ | [src](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcE1rQndoaGVuNFNiTjktTHlSbDVTN2kwMzlFQUtMOEVNTUFMMU5zR3A3a3BGdi11UVNFSmlTY0Rqd0Z5WUJNbmQ3Mjl6dnpXNlVWQk9BeVhpQXYteHVldVhfX19hQjdVRURuRG9Rd2lkd2oxWW9jdmdjODlIM014bDJkUmV4WVo5?oc=5) | 🔴MATERIAL
 **2026-07-17** — กำไร Q2 โดดเด่น 77% เกินคาดการณ์; TSM เพิ่ม Capex และปรับปรุงประมาณการรายได้ 2026 ด้วยความต้องการชิป AI แรง | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxNajE0SHpFdFpWYkktdHp5dkNIN2Ytb3VDWEZwTUs1NU5pSEZHN0RxWGwwUTNnNnNjbXVsRS1wdXNmV0hvSWp6RFA4V1RnNk5Ra09ZZUdvX0QxZlRSeXNOcVo4bTFmWUpuelo2QTBGUHd6Q2Z5bjM5S3VtZ1RWU0theWQySVFPZW5ydzVPTHRQa2hJZw?oc=5) | 🔴MATERIAL
@@ -8279,7 +8283,6 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 **2026-06-17** — TSMC ลงนามความร่วมมือยาวนาดด้าน Advanced Packaging กับ Amkor Technology ในสหรัฐฯ เพื่อเร่งการพัฒนาเทคโนโลยีการบรรจุหลังแคบที่มี Advanced | [src](https://news.google.com/rss/articles/CBMi-wFBVV95cUxNb1NWNG9RQjBueWVReDg5b0ZOMjAxMWluSnhyLTF3bEgtV01JbFh3a2YzMnAycEZWU2FfWUcxc0tDRmNfWG9idXQtcVFjNXlhS2hVNGtMdkxXaUoyeUFfWTV6d1J0V0VjQ25WTnRoYVAyb0Z2WWFiVjB3NW1DdFMwQ0YwY0tnQmhQVkx5b1RNRW43UVVyV3FuLVZjZ3AwaU1wZUQ3SEFybkxteTVkUU5BNFYyLUxRTnhmOEtqbm55ODB2VVpYVDBnWmViLTl4WU5ZMnpDUTZMejhNRV9UYk8weE9XbkVyRXhxa2Yyal9WSGx6U2lDZmNISXZrYw?oc=5)
 **2026-06-12** — TSMC เพิ่มราคาผลิตภัณฑ์โดยอ้างถึงความต้องการ AI สูงและข้อจำกัดความจุ 3nm ยืนยันอำนาจการกำหนดราคาที่แข็งแกร่ง | [src](https://news.google.com/rss/articles/CBMisAFBVV95cUxQMW1XRFRSRzk3cHJEX3B6SzRqSmNGUWdPQjBDM0Zmd0oxc0loWlB5VW5iOWRTYjY4YW1hUWFBRzFxZmxkYk5fV0o3RWhsMGgtR0JjVHdBZHdhRjVMRXVrQk5Pb0ZOQzZBSk5HWllqcGljX1NUamQwMVoyTktOUHhseXE5dzMtTmpfR1dWbUk4U1p6X2xRS29xUWVmbmNjYWpaRXI1akd6ZHRTTlplTG1QeA?oc=5)
 **2026-06-11** — TSMC May 2026 revenue rises 30% YoY; sustained AI chip demand supports foundry leadership position. | [src](https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3SWxLeU1fb0Jwd0tnY0VyVzdqN2IxUUtRdmptdGZiamlvTHFYY3dLeGdGcmJSNW1jNks4U0tYajVYQzNiTHNWOG51V0o1UQ?oc=5)
-**2026-06-08** — TSMC–NVIDIA partnership focuses factory efficiency through AI; TSMC reaffirms sustained AI chip demand forecasts underpinning valuation. | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxPYXlzNmowRjM0aW1wOG13eWJfR3VUUVBfNUpTYzQ2MEM2Xy1qVXB2SGQwalA0UFZvd0NVUmZvdHJZVENYQTN0UDhLeHhRQk5GeEpVZlpiUW1aWndoak9yT1lubVVfOE1Gcmt4cmwtZTFtZm5BSDBReHplNHc0bVM0S1ljam9GZGdQdUZlbG5CNzRaV2hHMEViUnR0QVo?oc=5)
 
 ## Source Log
 | ไฟล์ | ประเภท | อ่านเมื่อ |
@@ -8297,22 +8300,24 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-25  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-07-27  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
 
-**Tier Basis:** Inevitable: ✓moat foundry 35ปี ✓C.C. Wei leadership proven (non-founder, succeeded Morris Chang) ✓N2/A16 moat ขยาย ✓ROIC>25% ต่อเนื่อง; Taiwan geopolitical ยังอยู่แต่ไม่เปลี่ยน tier — ไม่มี tier change; 2026-07-25 re-value หลังงบ Q2 (beat-and-raise) — FV ขยับ $412→$420 (ทะลุฐาน Paper #3.1 เล็กน้อย)
+**Tier Basis:** Inevitable: ✓moat foundry 35ปี ✓C.C. Wei leadership proven (non-founder, succeeded Morris Chang) ✓N2/A16 moat ขยาย ✓ROIC>25% ต่อเนื่อง; Taiwan geopolitical ยังอยู่แต่ไม่เปลี่ยน tier — ไม่มี tier change; 2026-07-25 re-value หลังงบ Q2 (beat-and-raise) — FV ขยับ $412→$420 (ทะลุฐาน Paper #3.1 เล็กน้อย). 2026-07-27: re-checked, ไม่มี tier change.
 
 **WHAT:** TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.
 
 **WHY NOW:** Consensus อ่าน Q2 print ว่า "ดีแต่ priced-in, จับตา margin/capex" — Warren เห็น second-level signal ที่ FY2026 growth guidance ขึ้นเป็น **ครั้งที่สองของปี** (>30%→"slightly above 40%") + CapEx ขึ้นเป็น $60–64B + Arizona +$100B + demand "stronger and stronger" และ supply ตึงถึง 2029–2030 = demand เร่งจริง ไม่ใช่แค่ทรงตัว. แต่หลัง FV recalibration ใช้ consensus EPS (ไม่ใช้ peak-year) FV base ขยับเป็น ~$420 และราคา $403.41 → **MoS เหลือ ~4% เท่านั้น** = ซื้อเกือบเต็มมูลค่า. edge จึงไม่ใช่ "ราคาถูก" แต่คือ "คุณภาพหายากระดับ Inevitable ที่ควรถือ ไม่เติมจนกว่าจะมี buffer".
+
+**2026-07-27 re-check:** ข่าว 🔴MATERIAL วันนี้ ("TSMC รายงาน Q2 EPS NT$27.25 + ปรับราคาบริการปีหน้า") = **re-report ของ Q2 print เดิมที่วิเคราะห์ไปแล้วเมื่อ 07-25** (EPS NT$27.25, revenue $40.20B, GM 67.7%, FY26 guide >40% — ตัวเลขเดียวกันทุกจุด) — ไม่มีข้อมูลใหม่เพิ่มเติมนอกเหนือจากที่ FV $420 ราคา 07-25 ได้สะท้อนไปแล้ว. ราคา re-verify วันนี้ $403.41 (ตรงกับ 07-25 เป๊ะ — ไม่ขยับ) → FV/MoS/WAF คงเดิมทั้งหมด ไม่มีการเปลี่ยนแปลง
 
 **IF WRONG:** US-Taiwan geopolitical escalates to military action, OR Apple+NVIDIA shift >30% of volume to Samsung/Intel Foundry simultaneously, OR the guided H2 margin compression (N2 ramp −3–4pp GM) proves deeper/longer than management indicated.
 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-25  |  **Price:** $403.41  |  **Tier:** 🏛️ Inevitable  |  **Method:** Q2 2026 beat-and-raise re-value — Base 20x × FY27 consensus EPS (ปรับขึ้นเล็กน้อยหลัง guide raise)
+**Last Updated:** 2026-07-27  |  **Price:** $403.41  |  **Tier:** 🏛️ Inevitable  |  **Method:** Q2 2026 beat-and-raise re-value (07-25, carried unchanged 07-27) — Base 20x × FY27 consensus EPS
 
-### Snapshot (2026-07-25 re-value — watchlist, no execution)
+### Snapshot (2026-07-27 re-check — no change vs 07-25, duplicate Q2 news)
 
 | Metric | Value | Gate |
 |--------|-------|------|
@@ -8326,6 +8331,8 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 | PEG | 0.96 | ✓ PASS (Effective Cap 1.5) |
 
 > ⚠️ **FV re-value 2026-07-25 (post-Q2 beat-and-raise):** Q2'26 record + FY26 growth guide raised ครั้งที่สอง (>30%→"slightly above 40%") + CapEx $60–64B + Arizona +$100B. FV base ขยับ $412→**$420** ด้วยการปรับ FY27 consensus EPS ขึ้นเล็กน้อย $20.61→$21.0 (คง 20x conservative — ไม่ดัน multiple). **ทะลุฐาน Paper #3.1 $412 ตามที่ flag แต่เพียงเล็กน้อย** — MoS ยัง **3.95%** = ซื้อเกือบเต็มมูลค่า, ต่ำสุดในพอร์ต. N2 margin dilution 3-4pp confirmed (Q3 GM guide 65-67% < Q2 67.7%). ER ปรับลงจาก 27.7% (Paper #3.1, growth term เฟ้อ) → **20.8%** ด้วย consensus growth ~20% ที่ conservative กว่า. **ไม่ execute** — HOLD, position เดิม $30.
+>
+> **2026-07-27 re-check:** ข่าว MATERIAL วันนี้เป็น re-report ของ Q2 print เดิม (EPS NT$27.25 ตัวเดียวกัน) — ไม่มีข้อมูลใหม่ ราคา re-verify ตรงกับ 07-25 เป๊ะ ($403.41) → FV/MoS/ER/WAF ทั้งหมดคงเดิม ไม่มีการเปลี่ยนแปลง
 
 ### Fair Value Scenarios
 

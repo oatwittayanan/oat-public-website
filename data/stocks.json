@@ -1,4 +1,76 @@
 {
+  "NVDA": {
+    "symbol": "NVDA",
+    "display": "NVDA",
+    "category": "ai_semiconductor",
+    "name": "NVIDIA Corporation",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "AI Infrastructure"
+    ],
+    "bull": [
+      "CUDA ecosystem 7.5M developers = switching cost ที่แทบเป็นไปไม่ได้จะ migrate",
+      "Blackwell architecture รัน majority ของ Data Center revenue แล้ว",
+      "FY2026 Revenue $215.9B +65% YoY, FCF $96.6B = cash machine",
+      "Q1 FY2027 guidance $78B = growth ยังไม่หยุด",
+      "Full-stack AI factory: GPU + Networking + Software (CUDA/NIM)"
+    ],
+    "risk": [
+      "Valuation สูง — ต้องการ execution perfect หลายปีต่อเนื่อง",
+      "US export restrictions ต่อ China H20 chips กระทบ revenue ทันที",
+      "Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด",
+      "AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน",
+      "Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 3,
+    "waf": 8.6,
+    "wafBadge": "waf-mid",
+    "wafComposite": "waf-composite-blue",
+    "price": 206.84,
+    "fv": 292,
+    "mos": 29.2,
+    "fpe": 17.02,
+    "peg": 0.64,
+    "scores": {
+      "bq": [
+        9.5,
+        "green",
+        95
+      ],
+      "gp": [
+        9.5,
+        "green",
+        95
+      ],
+      "va": [
+        7.8,
+        "amber",
+        78
+      ],
+      "ra": [
+        6.3,
+        "orange",
+        63
+      ]
+    },
+    "idea": "AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM (bet เดิม). FV carried $292 (Paper #3.1). 07-27: NVDA signed $500B multi-year preferential-supply deal with SK Hynix (HBM3E + HBM4 for Vera Rubin) — directly de-risks the memory-bottleneck bear case that market used to discount NVDA in the July selloff; RA bumped 6.0→6.3, WAF 8.40→8.60 (now correctly VERY HIGH band).",
+    "updated": "2026-07-27",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-07-27",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).",
+      "why": "Consensus was treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren saw NVDA's Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction. **2026-07-27 update:** the exact fear cited above — SK Hynix-linked HBM tightness threatening NVDA's Vera Rubin ramp — just resolved in NVDA's favor: NVDA signed a **$500B multi-year preferential-supply agreement with SK Hynix** (HBM3E now + HBM4 for Vera Rubin), including a dedicated 2GW SK Telecom AI-cloud build on NVDA's DSX architecture. This is second-level confirmation, not just defense — the same memory-scarcity narrative markets used to discount NVDA is the mechanism by which NVDA is now locking exclusive long-run allocation ahead of ASIC/hyperscaler competitors who lack equivalent commitments. Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) remain unchanged; MoS at $206.84 is still ~29%.",
+      "risk": "Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven) — none of these fired this batch; the SK Hynix deal is incremental supply-side confirmation, not a thesis change."
+    },
+    "tier": "🚀 Pre-Inevitable"
+  },
   "MSFT": {
     "symbol": "MSFT",
     "display": "MSFT",
@@ -79,78 +151,6 @@
       "date": "2026-07-25"
     }
   },
-  "NVDA": {
-    "symbol": "NVDA",
-    "display": "NVDA",
-    "category": "ai_semiconductor",
-    "name": "NVIDIA Corporation",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "AI Infrastructure"
-    ],
-    "bull": [
-      "CUDA ecosystem 7.5M developers = switching cost ที่แทบเป็นไปไม่ได้จะ migrate",
-      "Blackwell architecture รัน majority ของ Data Center revenue แล้ว",
-      "FY2026 Revenue $215.9B +65% YoY, FCF $96.6B = cash machine",
-      "Q1 FY2027 guidance $78B = growth ยังไม่หยุด",
-      "Full-stack AI factory: GPU + Networking + Software (CUDA/NIM)"
-    ],
-    "risk": [
-      "Valuation สูง — ต้องการ execution perfect หลายปีต่อเนื่อง",
-      "US export restrictions ต่อ China H20 chips กระทบ revenue ทันที",
-      "Customer concentration: 2 ลูกค้าแรก = 36% ของ revenue ทั้งหมด",
-      "AMD MI455X competition ใน memory bandwidth — ROCm กำลังตามทัน",
-      "Antitrust สอบสวนจากหลายประเทศเรื่อง GPU supply allocation"
-    ],
-    "action": "hold",
-    "actionLabel": "Hold",
-    "conviction": 3,
-    "waf": 8.4,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "price": 202.81,
-    "fv": 292,
-    "mos": 30.5,
-    "fpe": 16.69,
-    "peg": 0.89,
-    "scores": {
-      "bq": [
-        9.5,
-        "green",
-        95
-      ],
-      "gp": [
-        9.5,
-        "green",
-        95
-      ],
-      "va": [
-        7.8,
-        "amber",
-        78
-      ],
-      "ra": [
-        6.0,
-        "orange",
-        60
-      ]
-    },
-    "idea": "AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM ใหม่ (bet เดิม) — FV recalibrated Paper #3.1: แก้ EPS ผิดปี fiscal (FY27 $9.34 → forward-year FY28 consensus $12.15) ยก FV $233→$292, MoS ~30% ที่ราคาปัจจุบัน (เคสกลับ: FV_TOO_LOW ไม่ใช่ TOO_HIGH)",
-    "updated": "2026-07-23",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-07-23",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).",
-      "why": "Consensus is treating the July 2026 AI/semiconductor selloff (SK Hynix HBM deceleration reports, Fed hawkish under new Chair Kevin Warsh, AI-capex-ROI doubt) as a sector-wide re-rating that should hit NVDA equally; Warren sees NVDA's Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction — Q1 FY27 fundamentals (Vera CPU $20B revenue visibility, $145B total supply, $25B bond 3.4x oversubscribed) are unchanged and MoS at $211.80 is still 31%+; market is repricing the AI-semi basket without differentiating NVDA's contracted backlog visibility from names with genuine demand questions (SK Hynix).",
-      "risk": "Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale (Musk/xAI claim still unproven)."
-    },
-    "tier": "🚀 Pre-Inevitable"
-  },
   "TSM": {
     "symbol": "TSM",
     "display": "TSMC",
@@ -209,12 +209,12 @@
         55
       ]
     },
-    "idea": "Q2'26 beat-and-raise ยืนยัน demand เร่งจริง: record rev $40.20B (+33.7% USD), GM 67.7%, net +77.4% YoY + FY26 growth guide ขึ้นครั้งที่สอง (>30%→'slightly above 40%') + CapEx $60-64B + Arizona +$100B + supply ตึงถึง 2029-30. FV base ขยับ $412→$420 (FY27 consensus EPS $20.61→$21.0, คง 20x conservative) — ทะลุฐาน Paper #3.1 ตามที่ flag แต่เพียงเล็กน้อย. MoS ที่ $403.41 = 3.95% ยัง FAIL 15% gate = ต่ำสุดในพอร์ต, ซื้อเกือบเต็มมูลค่า → HOLD ไม่เติม (held name, ไม่ forced sell Fisher). ER de-inflated 27.7%→20.8% (convergence 0.8% + consensus growth ~20%, conservative กว่า Paper #3.1).",
-    "updated": "2026-07-25",
+    "idea": "Q2'26 beat-and-raise ยืนยัน demand เร่งจริง: record rev $40.20B (+33.7% USD), GM 67.7%, net +77.4% YoY + FY26 growth guide ขึ้นครั้งที่สอง (>30%→'slightly above 40%') + CapEx $60-64B + Arizona +$100B + supply ตึงถึง 2029-30. FV base $420 (carried, 07-25). MoS ที่ $403.41 = 3.95% ยัง FAIL 15% gate = ต่ำสุดในพอร์ต, ซื้อเกือบเต็มมูลค่า → HOLD ไม่เติม.",
+    "updated": "2026-07-27",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-07-25",
+      "updated": "2026-07-27",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.",
