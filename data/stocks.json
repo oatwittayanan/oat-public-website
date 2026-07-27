@@ -776,7 +776,7 @@
       ]
     },
     "idea": "ราคาเด้งจาก $277.60 (07-18) → $282.39 (+1.7%) ทำให้ MoS 15.9%→14.43% ย่อลงใต้ full gate 15% (ขาด 0.57pt) → BUY→WATCH. FV Base คงที่ $330 (Q4 FY2026 ~ส.ค.). PEG 0.83 / ER 40.2%/yr ยังผ่านสบาย แต่ MoS เป็นด่านบังคับ + Fast Grower ห้าม STARTER → WATCH. razor-thin: ราคาย่อ ~1% กลับเข้า BUY.",
-    "updated": "2026-07-25",
+    "updated": "2026-07-27",
     "story_gate": {
       "passed": true,
       "status": "PASS",
@@ -922,7 +922,7 @@
       ]
     },
     "idea": "Price rebounded +5% ($876.74→$920.95) → MoS eases 23.8%→19.9% on unchanged FV $1,150 (no new earnings; FQ4 ~Sept 2026 คือ real test). New item เดียว: 🟡MONITOR memory-oversupply worry (07-24). WATCH ไม่ใช่ STARTER/BUY: (1) 🔁 Cyclical ถูก STARTER-excluded เชิงกลไก; (2) ER ยัง fail หนัก (-5.9%/yr = conv +4.5% + consensus growth -10.4%); (3) Lynch Peak signals ยังครบ + CXMT (China 4th-largest DRAM) competitive-supply risk. ไม่มี tier change.",
-    "updated": "2026-07-25",
+    "updated": "2026-07-27",
     "risk": [
       "Memory highly cyclical; SK Hynix/Samsung HBM parity race; CXMT (China) import-substitution/price risk; CapEx heavy ($25B FY26); Netlist/YMTC litigation; large short (Burry ~$1,051); peak-cycle EPS ห้าม extrapolate เป็น base."
     ],
@@ -1234,7 +1234,7 @@
       ]
     },
     "idea": "Franchise ระดับโลก (HBM #1, 56.4% share) แต่แม้ราคาร่วง -20.3% ($193.92→$154.57 regular-way SKHY, froth deflate เข้าหาหุ้นแม่ KOSPI ตาม bear thesis) ก็ยัง price peak-cycle earnings. บน normalized mid-cycle net $52B ($7.13/ADS × 14x) หุ้นยังแพงเกิน ~55% (MoS -54.6%). ER +27.7%/yr ผ่านเชิงตัวเลข แต่ MoS Gate เป็น floor และ fail หนัก → WATCH; Cyclical ที่ peak ไม่ไล่ซื้อ, ไม่ STARTER (Cyclical ถูก exclude). รอ cycle ย่อ / de-cycling พิสูจน์ข้าม down-leg.",
-    "updated": "2026-07-25",
+    "updated": "2026-07-27",
     "risk": [
       "ถ้า de-cycling เป็นจริง (LTA floors ยืน + operating margin >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ ramp) → normalized earnings ใกล้ peak → FV base $100 ผิด, ราคา justified; upside ถ้า HBM4E premium สูงกว่าคาด. Downside: Samsung/CXMT HBM parity บีบ margin + cycle down-leg."
     ],
