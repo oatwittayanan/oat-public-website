@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260729215846"></script>
+  <script src="knowledge.js?v=20260730115733"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -144,19 +144,6 @@ let STOCKS = {};
 
 // ─── Legacy inline data (fallback if stocks.json fails to load) ────────────
 const STOCKS_INLINE = {
-  MSFT: {
-    name: 'Microsoft', sector: 'Big Tech', sectorSlug: 'bigtech',
-    chips: ['Big Tech', 'Cloud + AI + Productivity'],
-    action: 'hold', actionLabel: 'Hold', conviction: 3,
-    waf: 8.7, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 381.7, fv: 459, mos: 16.84, fpe: 19.94, peg: 1.53,
-    scores: { bq: [9.5,'green',95], gp: [8.5,'green',85], va: [8.4,'green',84], ra: [8.0,'green',80] },
-    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Microsoft monetizes enterprise AI through Azure (+29% YoY, capacity-constrained), GitHub Copilot (15M+ paid seats), and M365 Copilot ($30/seat across 300M+ enterprise users) — the most deeply embedded enterprise software ecosystem globally.', why: 'Consensus เห็นข่าว layoff 4,800 ตำแหน่ง (2.1-2.9% ของพนักงาน, ประกาศ 07-06 ยังถูกรายงาน/วิเคราะห์ต่อเนื่องถึง 07-16) เป็นสัญญาณลบ — cost pressure จาก AI capex ที่พุ่งสูง; Warren เห็นต่างว่านี่คือ **Fisher-style rational capital allocation** ตัวอย่างชัด: การตัดที่ Xbox/Windows sales/consulting (ธุรกิจโตช้า) พร้อมย้ำว่า "ไม่มีตำแหน่งไหนถูกแทนที่ด้วย AI โดยตรง"; ล่าสุด (07-16) MSFT ปรับโครงสร้าง Cybersecurity unit เพื่อรองรับภัยคุกคาม AI ใหม่ + เพิ่มผลิตภัณฑ์ที่เก็บเงินได้ — เป็นหลักฐานเพิ่มเติมว่า capital/headcount กำลังไหลเข้า high-growth adjacent categories ไม่ใช่แค่ cost-cutting เฉยๆ วินัยด้านต้นทุนขณะที่ AI ARR โต 123% YoY คือสัญญาณบวกของ management quality ไม่ใช่ความเสื่อม', risk: 'หาก Azure growth ชะลอ <15% เป็น 2 quarters ติดต่อกัน หรือ OpenAI พัฒนา platform ของตัวเองและลด exclusivity จนกระทบ Copilot ecosystem จริง', updated: '2026-07-27' },
-    idea: 'Enterprise AI Stack — Azure + Copilot + RPO $627B (bet เดิมไม่เปลี่ยน). ราคาย่อ $393.82→$381.70 (-3.1%, ไม่มีข่าว MATERIAL ใหม่หลัง gate 07-23 — เจอแค่ 🟡MONITOR Mistral partnership 07-24) ทำให้ MoS ขยับดีขึ้น 14.2%→16.84% (พ้น gate 15% แล้ว), ER 16.1%→16.76%.',
-    bull: ['Azure +29% YoY Q3 FY2026, AI revenue accelerating — RPO backlog $627B+', 'GitHub Copilot 15M+ paid seats = AI productivity เข้าสู่ enterprise mainstream', 'M365 Copilot adoption inflect — per-seat $30/mo licensing scalable', 'Cloud Margins expanding = operating leverage แข็งแกร่ง', 'OpenAI partnership = first-mover ใน enterprise AI tooling'],
-    risk: ['Valuation P/E 32x เริ่มเกิน fair value ถ้า Azure growth ชะลอ', 'OpenAI dependency — ถ้า OpenAI เปลี่ยน strategy กระทบ MSFT', 'Gaming segment อ่อนแอ Activision integration cost สูง', 'EU antitrust investigation Teams bundling ยังดำเนินอยู่', 'CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027'],
-    updated: '2026-07-27'
-  },
   NVDA: {
     name: 'NVIDIA Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'AI Infrastructure'],
@@ -209,6 +196,19 @@ const STOCKS_INLINE = {
     risk: ['Taiwan Strait geopolitical risk — ความเสี่ยงหลักที่ตลาดให้ discount ใหญ่', 'US tariff + trade policy uncertainty กระทบ supply chain', 'Customer concentration: Apple + NVIDIA + AMD = top 3', 'Intel Foundry 18A ถ้าสำเร็จ capture market share บางส่วน', 'Arizona/Japan fab ramp cost กด margin ระยะกลาง 2026-2028'],
     updated: '2026-07-27'
   },
+  MSFT: {
+    name: 'Microsoft', sector: 'Big Tech', sectorSlug: 'bigtech',
+    chips: ['Big Tech', 'Cloud + AI + Productivity'],
+    action: 'hold', actionLabel: 'Hold', conviction: 4,
+    waf: 8.2, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
+    price: 420.8, fv: 459, mos: 8.32, fpe: 21.99, peg: 1.69,
+    scores: { bq: [9.5,'green',95], gp: [9.0,'green',90], va: [6.5,'amber',65], ra: [7.0,'amber',70] },
+    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Microsoft monetizes enterprise AI through Azure (+43% YoY Q4 FY2026, FY Azure surpassed $100B first time), GitHub Copilot (50M users), and M365 Copilot (30M+ paid seats across enterprise) — the most deeply embedded enterprise software ecosystem globally.', why: 'Consensus เห็นข่าว layoff 4,800 ตำแหน่ง + CapEx surge เป็นสัญญาณ cost pressure ต่อเนื่องมาตั้งแต่ก่อนงบ — Warren เห็นต่างว่า Q4 FY2026 คือหลักฐานชัดเจนว่า CapEx กำลังแปลงเป็นรายได้จริง ไม่ใช่ capex เปล่าไร้ผลตอบแทน: Azure เร่งตัว (39%→43%→guided ~45%), RPO +84%, Copilot net seat adds 2x QoQ — ราคาตอบรับทันที +7.24% after-hours สะท้อนว่าตลาดเริ่ม price-in edge นี้แล้วบางส่วน (MoS หดจาก 16.84%→8.32% จากราคาที่วิ่งไปก่อน FV) แต่ consensus FY27 EPS ยังไม่ตามทันตัวเลขจริง — ช่องว่างนี้ยังไม่ถูก price-in เต็มที่', risk: 'หาก Azure growth ชะลอ <15% เป็น 2 quarters ติดต่อกัน หรือ OpenAI พัฒนา platform ของตัวเองและลด exclusivity จนกระทบ Copilot ecosystem จริง หรือ contractual obligations $743.8B เริ่มกด FCF ต่อเนื่องเกิน 3 ไตรมาสโดยไม่มีสัญญาณ ROIC ตามทัน', updated: '2026-07-30' },
+    idea: 'Enterprise AI Stack thesis confirmed stronger by actual Q4 FY2026 results (Azure accelerating, Copilot 30M+ seats, RPO $678B +84%) -- not just projection anymore. But price ran up +7.24% after-hours on the beat before analyst FY27 EPS consensus had a chance to catch up, pushing MoS below the 15% gate (8.32%) and ER into the 10-15% Flag band (14.75%). Holdings Return Recheck governs existing holdings: ER 14.75%/yr = HOLD + Flag (re-estimate Fair Value next round), not SELL -- per Return Decay rule, price rose because of genuine earnings growth (not sentiment), so Fair Value likely needs to rise too once FY27 consensus updates post-earnings.',
+    bull: ['Azure +29% YoY Q3 FY2026, AI revenue accelerating — RPO backlog $627B+', 'GitHub Copilot 15M+ paid seats = AI productivity เข้าสู่ enterprise mainstream', 'M365 Copilot adoption inflect — per-seat $30/mo licensing scalable', 'Cloud Margins expanding = operating leverage แข็งแกร่ง', 'OpenAI partnership = first-mover ใน enterprise AI tooling'],
+    risk: ['Valuation P/E 32x เริ่มเกิน fair value ถ้า Azure growth ชะลอ', 'OpenAI dependency — ถ้า OpenAI เปลี่ยน strategy กระทบ MSFT', 'Gaming segment อ่อนแอ Activision integration cost สูง', 'EU antitrust investigation Teams bundling ยังดำเนินอยู่', 'CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027'],
+    updated: '2026-07-30'
+  },
   AVGO: {
     name: 'Broadcom Inc.', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'Custom AI Chips + Networking'],
@@ -238,15 +238,15 @@ const STOCKS_INLINE = {
   META: {
     name: 'Meta Platforms', sector: 'Big Tech', sectorSlug: 'bigtech',
     chips: ['Big Tech', 'Social Media + AI'],
-    action: 'hold', actionLabel: 'Hold', conviction: 3,
-    waf: 7.82, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 595.19, fv: 722, mos: 17.56, fpe: 18.63, peg: 1.35,
-    scores: { bq: [9.0,'green',90], gp: [9.0,'green',90], va: [6.5,'amber',65], ra: [5.3,'orange',53] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Meta monetizes 3.56B daily active people through AI-enhanced advertising (impressions +19% + price +12% simultaneously), creating an irreplaceable network effect flywheel no competitor can replicate at scale.', why: 'Consensus เห็น META expensive จาก legal + regulatory overhang (FTC appeal + IRS + DSA + Llama copyright suit + Tennessee youth-addiction suit 07-21 + AI safety-review standoff) เป็นความเสี่ยงสูง; Warren เห็นต่างว่าข่าว 07-17..07-23 ($50B data-center bet, own AI chips เพื่อลด NVDA dependence, Anthropic sellability review) เป็นการ restate ของ Samsung $6.5B / custom-silicon / Meta Compute diversification เดิม (07-06/07-10) ไม่ใช่ thesis change ใหม่; **อัพเดท 07-25:** ราคาย่อจาก $646.01 (07-18) → **$595.19** = **-7.9%** โดย FV Base คงที่ $722 (Q2 2026 ยังไม่ประกาศ—รอ 29 ก.ค.) → MoS ฟื้นจาก 10.5%→**17.6% ทะลุ full gate 15% เป็นครั้งแรก** ตั้งแต่ราคาวิ่งขึ้นแรงต้นเดือน; entry เข้ามาในโซนที่ margin of safety กลับมาจริง (ราคาย่อ ไม่ใช่ FV ขึ้น)', risk: 'FTC appeals court forces Instagram/WhatsApp divestiture (thesis collapse), or IRS $15.89B + EU DSA $12B simultaneously drain FCF and force CapEx cuts — หรือ Llama copyright class action ขยายเป็น liability ระดับ billions ที่กระทบ AI roadmap — หรือ Tennessee/youth-litigation aggregate exposure ลุกลาม — หรือ Q2 earnings 29 ก.ค. ไม่ยืนยัน growth momentum ที่ราคา price-in ทำให้ FV Base $722 ต้องปรับลง', updated: '2026-07-25' },
-    idea: 'ราคาย่อ $646.01(07-18)→$595.19 (-7.9%) ดัน MoS 10.5%→17.56% ทะลุ full gate 15% ครั้งแรกตั้งแต่ราคาวิ่งขึ้นแรงต้นเดือน; FV Base คงที่ $722 (Q2 2026 รอ 29 ก.ค.). ทั้ง 4 ด่านผ่านเชิงกลไก — แต่ META เป็น holding ที่ถืออยู่ → Holdings Return Recheck คุม: ER 17.74% อยู่ใน band 15-20% = HOLD ไม่ใช่ >20% ADD. ไม่มีข้อมูลใหม่รอบนี้ (batch นี้ = TQR sync เท่านั้น, ราคา/scores carry จาก 07-25 authoritative repair batch #3 ตรงตัว)',
+    action: 'hold', actionLabel: 'Hold', conviction: 4,
+    waf: 8.0, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
+    price: 544.9, fv: 722, mos: 24.53, fpe: 17.06, peg: 1.24,
+    scores: { bq: [9.0,'green',90], gp: [9.0,'green',90], va: [7.5,'amber',75], ra: [4.8,'orange',48] },
+    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Meta monetizes 3.6B daily active people through AI-enhanced advertising (Q2 2026: ad clicks +8.3%, conversion +15.7% on Facebook via GEM/user-understanding models), creating an irreplaceable network effect flywheel no competitor can replicate at scale.', why: 'Consensus โฟกัสที่ headline ลบของ Q2 2026 print — FCF ร่วง -91% เหลือ $784M, Op Margin หด 43%→31% YoY, GAAP EPS -13% YoY — ราคาตอบรับทันที -7.17% after-hours สู่ $544.90; Warren เห็นต่างว่า headline เหล่านี้ส่วนใหญ่เป็น **one-time/timing ไม่ใช่ deterioration เชิงโครงสร้าง**: (1) margin compression มาจาก $2.40B legal charges + $1.18B severance เป็นหลัก — ex-items operating income โต **+9% YoY** ตามที่ Susan Li ระบุเอง ไม่ใช่ -8% ตามตัวเลขที่รายงานดิบ (2) FCF crash มาจาก CapEx timing ($31.08B ในไตรมาสเดียว, +83% YoY) ไม่ใช่ operating cash flow อ่อนแอ — revenue ยังโต **+28%** เร่งขึ้นจาก +27% cc รอบก่อน และ ad-AI metrics (clicks/conversion) ดีขึ้นกว่าทุกรอบที่ผ่านมาจริง ไม่ใช่แค่ story (3) ตลาดยังไม่ price-in ว่าราคาที่ร่วงลงมาพร้อม FV Base ที่ยังไม่เปลี่ยน ดัน MoS จาก 17.6%→**24.5%** — จุดเข้าที่ดีที่สุดตั้งแต่กลางปี 2026', risk: 'ถ้า Q3/Q4 2026 operating margin ไม่ฟื้นกลับสู่ 40%+ ตามที่ guidance บอก ("expect operating income this year above 2025") → พิสูจน์ว่า cost inflation ไม่ใช่แค่ one-time; หรือ EU less-personalized-ads เริ่มกัดกร่อน revenue ต่อเนื่องหลายไตรมาส (Q3 guide $61-64B เป็นสัญญาณแรก ไม่ใช่แค่ lapping effect); หรือ legal charges ระดับ $2B+ เกิดซ้ำใน Q3 (พิสูจน์ว่าไม่ใช่ one-time); หรือ FTC appeals court บังคับขาย Instagram/WhatsApp, หรือ youth-litigation ภาษา "material loss" ที่ CFO เริ่มใช้ (07-30 guidance) กลายเป็นคำตัดสินจริงระดับหลักสิบ billion — thesis พัง', updated: '2026-07-30' },
+    idea: 'Q2 2026 print showed clear negative headlines (FCF -91%, Op Margin 43%->31%, EPS -13%) that dropped price -7.17% after-hours to $544.90 — but underlying revenue (+28%) and ad-AI metrics improved, and management quantified margin compression as overwhelmingly one-time (legal $2.4B + severance $1.18B), not earnings-power deterioration. MoS widened 17.56%->24.53% with FV Base unchanged -- best entry since mid-2026. Held name -> Holdings Return Recheck governs: ER 19.59%/yr sits at the top of the 15-20% HOLD band (just under 20% ADD threshold) -> HOLD, strongest conviction entry point this year for this holding.',
     bull: ['DAP 3.56B คนทุกวัน = data flywheel ที่ทรงพลังที่สุดสำหรับ Social AI', 'Revenue Q1 2026 $56.31B +33% YoY, Operating Margin 41% record-high', 'PEG 0.9 — cheap relative to growth rate ในบริษัทขนาดนี้', 'Llama open-source strategy สร้าง developer ecosystem ขนาดใหญ่', 'FCF $12.39B ใน Q1 เดียว = พิสูจน์ว่าธุรกิจสร้างเงินสดได้จริง'],
     risk: ['CapEx FY2026 $125-145B เพิ่ม 2x+ YoY = commitment ใหญ่สุดในประวัติ META', 'Reality Labs ขาดทุน ~$19B FY2025 ไม่มีทิศทาง breakeven ชัดเจน', 'FTC antitrust case (Instagram/WhatsApp) — ถ้าถูกบังคับขาย = thesis change ทันที', 'Revenue 99%+ จาก advertising = cyclical risk สูงถ้า macro อ่อนแอ', 'EU Digital Markets Act ลด targeting effectiveness'],
-    updated: '2026-07-27'
+    updated: '2026-07-30'
   },
   COHR: {
     name: 'Coherent Corp.', sector: 'Semiconductor', sectorSlug: 'semi',

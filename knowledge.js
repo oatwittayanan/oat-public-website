@@ -416,6 +416,7 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Recent News
+**2026-07-30** — การประกาศผลประกอบการไตรมาส 3 ที่สำคัญด้วยการเปลี่ยนซีอีโอ; นัยหมายความคาดหวังอาจขยับหลักแสนล้านดอลลาร์ตามทิศทาง AI และผลการดำเนินงาน | [src](https://news.google.com/rss/articles/CBMiogFBVV95cUxQMXhGU05CbnhQN0RVNFBHS3M3ZE9Tdm9MR3BocTMwMFlNOHVZSnczcEUyNWRlblpqbk9mMlhJZjBMTEdYajZxZl90aWcxeTFNNlZ3NWxtVUNMajdWbDAxb1pFV21mZk9NMW9NaW1YREpfTnV0NDh2N19hRGxPR1ducTdfNHB6eEJrTXowVXZuOUxXRGpYcmE0d3labnViajZsMEE) | 🔴MATERIAL
 **2026-07-23** — AAPL วางแผนปรับปรุง MacBook และ iMac ครั้งใหญ่เพื่อตอบสนองความต้องการอุปกรณ์ประสิทธิภาพสูง AI | [src](https://news.google.com/rss/articles/CBMilAFBVV95cUxOSE5ScmpPbDlDWUdxeHp4NEtRaDFtYndSV1MtRDBLNmZPVk90aXBQVlVqRW1fS0lsQ01KVWVGcWYxdFVIZ2ZGVVJpNDM3aFJXUVExbVJLRERhUzltdTB4aFFZdGszbnRZMVRObjNVRG5POHAzZUtyZk9SUzFraHBKOWFUeVF3LWJDVXQ0NU5GRUJyMi00?oc=5) | 🟡MONITOR
 **2026-07-16** — AAPL แสวงหาการเข้าซื้อธุรกิจชิป AI ของตัวเอง โดยมีเป้าหมายลดการพึ่งพาซัพพลายเยอร์บุคคลที่สามและเข้าสู่ตลาด AI Infrastructure ที่กำลังเติบโต | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEpnb1RTN1BPbXFtbG5kOGY4cjMzY2M4dDhVeFFTaGFXRDVuQnFmTFlVVXV6VlowY0ZIa3FObzl3ZDhBRFZmOGZPbExFT3VKd28xU1FIeUNWNFBITHRabHJmQlZiWklmZWhRSGxFbUx5eGhkSXFOQkt0ZW1tVk5PTTNLUTgyeFhCY1lTdFBGQ0xCU2tnT1hRVA?oc=5) | 🔴MATERIAL
 **2026-07-13** — ฟ้องร้อง OpenAI เรื่องการขโมยความลับทางการค้าในฮาร์ดแวร์ AI; เปิดแนวทางดุนต่อการขัดแย้งเทคโนโลยี | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxPb1lFemNab0VwLVJveDdwQ3RqX1hZTDdPYlZCUWNoeHV2d2N2anV5WjF0NVBXN25pb2Q2OTB4WFFlMFRFZmd6Vkh0WFBfMkhKM0stVHhiQ2RlM1dMTTExSl9yRHQwV0FLdmg5b093YVlFdFFiXzZpY29GZERIbDZRWmwwQy1ZV1A1XzY3eThaNEE5WUZNUkE?oc=5) | 🔴MATERIAL
@@ -429,7 +430,6 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 **2026-06-29** — แอปเปิล เปลี่ยนแผนพัฒนาชิปแม็กตัวเองไปสู่ M7 เน้นความสามารถ AI; ตำแหน่งการประมวลผล AI บนอุปกรณ์ส่วนตัว | [src](https://news.google.com/rss/articles/CBMikwFBVV95cUxPcFpZZldqMXdvZVV3MGd2YndXUGsyaGpLS2VwbXh1VHQ2d2thbFhsYWFQZ0MxN0NZRTVybVVQSzJQRTQ5YTIzNDFmWFNqUElZbktOU2pxQ052NHdwalJjSklyWnZNMlVNdnFabXpONTM2Y2JDLWFERTFwdjFmSzlkWVlwY3RPUlJtZkMyZlJxWTVNLXM?oc=5)
 **2026-06-24** — แอปเปิลประกาศความร่วมมือใหม่กับอินเทลในการผลิตชิปในสหรัฐอเมริกา เป็นขั้นตอนสร้างความเป็นอิสระด้านห่วงโซ่อุปทานระยะยาว | [src](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdG9od1A0c0hTeEtwLVVudEhJRUZHcnlXZlR3VHJ1WG9vMHNGTGh1V0h3d2g5dDM0dWItQUE0azV4YzRHMW9DZTB1U0pFRUFHVGh5MEdfd0tmTTU5WWFiT1RuaWJ5Um9aMVBHT2JWSS1IZ1pkMWsxT0NzVU1wOG1teTd4Ymg4MHRQd3pxYnoyeEdJX0dqRk05SDRNUXY2NzY0ZDNYTW8xR1lyaVBmc2RfRW1PNnhwcTl5ZlJoRmxQT1FEdVFkWHZTZg)
 **2026-06-24** — ทิม คุก เตือนว่าราคาผลิตภัณฑ์แอปเปิลต้องปรับขึ้นเนื่องจากค่าชิปและต้นทุนการผลิตสูงขึ้น ส่งสัญญาณความกดดันต่อระยะขอบกำไร | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxPc0g0RmU4Y1NBd0oxNXF2bS15TVg4dHg0OTUydDNfWlFLSDRYaTQ5Rkp4THBoTkkxbmxOd1dwRHl6YV9WV0pvY2F6eGRONVR0WHBQcGRlRzA4S3IzcGxxY0l5eGxrN2t1VEdYYUtYMHdFZTlZN0RJSWQ0dGFrOElGV0tTdU5fZ2tCOEY0MmNENzZWUzRsM2d6Zw)
-**2026-06-23** — แอปเปิล ประกาศเพิ่มราคา iPhone 18; สัญญาณเชิงบวกต่อความสามารถในการยกราคาผลิตภัณฑ์ท่ามกลางความต้องการ AI ที่แข็งแกร่ง | [src](https://news.google.com/rss/articles/CBMihgFBVV95cUxPbGcxZl9halFodk9wN0lyeEJIRDVZc1JsQm9iMDdYRWpzRzB3QngycXpMemZJQVRwWE9mNjRBU09ZUFVKWlQyWjNQaDlUOURqLTltUEtsaGM2RnhsV29BQWwwNGYwSE9mdDlQRmNvVXl6a0dFNzJheTJtelBZa2FmNGx5OWtjQQ)
 
 ## Source Log
 
@@ -834,6 +834,7 @@ AMD เป็น fabless semiconductor company สัญชาติอเมร
 ---
 
 ## Recent News
+**2026-07-30** — ความสนใจเพิ่มขึ้นในเซิร์ฟเวอร์ CPU รุ่นใหม่ที่มุ่งเน้น Agentic AI; ตำแหน่งแข่งขันเปิดกว้างต่อกำลังการผลิตและสถาปัตยกรรมซอฟต์แวร์ใหม่ | [src](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVUdPNHprM1ZJTzZhUmliTFFTS0lsTkVFalAzNlJRV0dpTkdTblFVQ3Y5YmNwQ0p4cjc5WV9BYjJKc1V3S1RoZDRDcGlQOGVvdVMtaW9TRktZSWVFTUdZQmF6YW9yX01IRHYzMjhlbXV3NldOak5VSEFMZzV6UUdhN3YyR1Iwa2dJWWdONDdrZGtzWFRvdUpMV3ZHWEZCdzFBdUprT05UeWdkQ1BibW1LRkZhVzR3VmR2UDh4cDFNSlNRUXhHT2dxVFQwWDhoTExWdE9JczFMVnBkV0dLa1cw0gHkAUFVX3lxTE1MM0IyRW0wZU50NHFpQ2Z4TlpBUUJNS1E5OUlwWmk5UVJEQWlUVUVubjZvQWRNbTU2YzI0cnVLNjlMRWh4OVhmOS1xYnR4clNCbUJ6QVBLbWNYZ1VsZW1JTmZ4VWZSa2pLcEpyNUF4dTJkYWdoalJmZWFTX18wd3c0allILUt3OUdYX3pIcjhZU09hNGxWdC1PVUFyQnIxNU5CelJ1LXY0UjJKLUxtZ2h4NVV1X1A1X0E2Q1RKcGg2ZFBZMmNjRXV1Tk5JZ3JDdGxENGNaWlJLak5WY2FsMEItNmlnNA) | 🟡MONITOR
 **2026-07-29** — แสดงแรงผลักดันจากเซิร์ฟเวอร์ CPU สำหรับ Agentic AI โดยข้อบ่งชี้นี้เห็นชัดในการประชุมผลประกอบการ | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxNMlRtYWc5cVdqbV9ORkpDZ2VOM3JWOGpGanMzbk5RN3RKR0RiVlhvaTVQUlpEWTBYREF2ekx2c2F0X0RKbDFmbjR0XzhGaEhPWUVpX2liSjAtS0NtUTRNMy1WR0JxMmEzYmt1eVN3RHJyTGNndFpuQ3J5TDJVM2hNSUVmdHpYUWstUzhLNjNMTlJYZTdOMUY0MWFGWWlFdw) | 🔴MATERIAL
 **2026-07-23** — AMD ลงนามสัญญา 5 พันล้านดอลลาร์กับ Anthropic สำหรับการจัดหา GPU; ขยายการแข่งขันกับ NVDA ในตลาด AI infrastructure | [src](https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYzJmUlBHaUZKMmtOaW9BUmdkTFRXLVRzR1RfRVZYMXFoZXVKOXBiNkt1OHpZaUpRU1o5MHRrNVg1NnlYSUNNMGtYZmdXaWlMeEhiZW81TlBNaDVCbnlocWl6ZC1vVHB2TWxjNGdSanEyYnJxby0zZDU3eGZNQnd0ZGprNE1aN1BmNVJGWTdSbkl6R1BYVDlIS0FMNGVuVjc3TTRCT0Q2Rk10ek5wc2NRdVVGWk5ETGdua21GcWkyZzRhbW1BMUVRcTk0WGswVkw3MUdWMkp0d0wzamZVckFHRTVkYlM=) | 🔴MATERIAL
 **2026-07-21** — ลงนามสัญญาสำคัญกับ Microsoft สำหรับ AI Infrastructure ขยายการเสริมความแข็งแกร่งตำแหน่ง GPU สำหรับ Data Center หลังจากแสดง AI Breakthrough ของจีน | [src](https://news.google.com/rss/articles/CBMijgFBVV95cUxOWXZmMGV3aGV2Y3k0UHEycHhTMUpfbTZrUF9sTGhSeGxyOFV4RDdEazF1Si1yRDlJQjY1WEQweW1FVTdRd1FqM2JEZWFRemRQR0Q5ZzZBTE1WWUxJcy1ZdEtrNDduT0F6N255ZjdqSXVMa29JUVRPNGlaUmZUZFp4UXotS1QtZFJmRlNoUnJn?oc=5) | 🔴MATERIAL
@@ -1185,6 +1186,7 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Recent News
+**2026-07-30** — ผลประกอบการไตรมาส 2 เน้นย้ำการเติบโตเซิร์ฟเวอร์เว็บ AWS ท่ามกลางการใช้จ่ายบุคลากร AI ต่อเนื่อง; การแข่งขันด้าน Capex และการประเมินมูลค่ายังมีความเสี่ยง | [src](https://news.google.com/rss/articles/CBMisgFBVV95cUxPOERtWm9pQzAwZ3U3SGZwVVVIdXBIOG5SNnBlSEhoWDdWSnYzZkd5dnJzdGFLUGVzczZZa0YzYmlkeXotNkFVbktwOHpFTS1MVmp1Vm5hdjJGNUN3VXl4OFU1Rm1hSWQtMUtQQk0tY3ZybDMtNGxBU3VVMHFjVGlHODFDZE9OWDg5VmdhQko0U0RGNHZSb05aSVZtTVJTYUlvOHBtTDVqcm9aQlAtZm5WUkNB) | 🔴MATERIAL
 **2026-07-09** — แอมาซอน จัดหาเงินผ่านพันธบัตรมูลค่า 25 พันล้านดอลลาร์เพื่อการพัฒนาโครงสร้าง AI พร้อมเร่งธุรกิจคลาวด์ | [src](https://news.google.com/rss/articles/CBMitwFBVV95cUxOLVloUUtxWGIxNi00a0RXTU54YjY2Zjl0TmpvZEwwZHFxTmhMT1JEQWZpajlLSGpERXZXMW5NekZNRnRtaElYdUxQZVlHX0pkREs4blF6WmhiV3dDRXpNc29OMnM3bUVaVFVTZ1RYMUFmeHNxeWZEeHZYYklONnZQOVRMYUE1Y3N1YUktb05WWlVjRzRseHAzdUVPTE5VMXNxQUtWTEtTMmxvSVhvNUpSb1BIM0t0UEk)
 **2026-07-08** — ออกพันธบัตรรอบหลายชั้นมูลค่าอย่างน้อย 25 พันล้านดอลลาร์; ยืนยันไม่ออกหนี้เพิ่มเติมในปี 2026 | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxOVC1vMXhCYlRJYnpsUDlBbmpnZ0NOOVk5YVlpZktwb2JTaGU5YU01TlQ4aWZVbjNTUEhPenhOTFRNMkFBSkFybmNmRDV3cGExSkU3UUtyTlhfTFdYX21CMEVfTWs4OGloYWl5eWxvaHg2Y25ObFNvdmc2b1dEQW5sMG9vMnpnNjhjYUVfUTU2M3otY2pvV1lYMmxYdFdjOHBq)
 **2026-07-02** — Prime Day เดือนมิถุนายน ขยายตัว 9% เป็น 26.4 พันล้านดอลลาร์ AI ขยายมูลค่าเฉพาะตัวขาย | [src](https://news.google.com/rss/articles/CBMijwFBVV95cUxON0otaUF0M3k4QlhhSmFneGlMUkE5ZXh3MTdfcXBqc29aR1gwQVlOOE1jU1g1aVc4TXN6U0xBMWdPZm5ycVhoUFpPZFBOTFQwclBJdzRhcjBkNTUtcVJMOU4wNlh3Mkh0OTFmanNJUnh1LTB3MHlaVzFVOWtyZ0VPeGdqZTB1UU1DOVFXcFBNUQ?oc=5)
@@ -1694,6 +1696,7 @@ FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉ�
 ---
 
 ## Recent News
+**2026-07-30** — สะสมออร์เดอร์ที่ค้างคืนรวม 2 พันล้านดอลลาร์ แต่จำกัดความจุการผลิต; โอกาสโตร่วใหญ่แม้ตัวชี้วัดการขายสูงกว่าคาดหวัง | [src](https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3g5ZldnMEFjVU51UnJJbC0zTnp4Z2NUTUNabFFiUThXODhmRVpUSFpock9lTHRyc19EYUdEQXFxWjRpNGRVdHFmelJvOHhIbEdkVEhjUDRsY243ZUhDaWs3Ylc5YXMyMzZxcHNWX0lZdFBRRFA5SkkzTzI5b0ctRzluQlQ3M1AyT1kzZFI2aGs3MjA2eENmMUdiLVZtbzlWT0ZaZFJkNzRyaEU3aUllY2xrTlNWRS1PcHQtMDNBZlBLYzZwVmZzNUVn) | 🔴MATERIAL
 **2026-07-27** — ARM ประกาศมีออร์เดอร์ที่ค้างไว้รอจัดส่งมูลค่า 2 พันล้านดอลลาร์ บ่งบอกความต้องการสูงแต่จำกัดด้วยความจุการผลิตและการตรวจสอบ | [src](https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYWRlbDZIQjFLbDNweWhaMGJRV3JCTG1kcGl6WnE5Yk1EZVR2U3dNQmpGR2NIYmxuV196dDV1cDFENk1vWVJFUFdOd2FNT3cyLWppckRNNnlRbDBmbkVDSjVGZjJYZUJWVnJoNnZzWmpWbEJlMEpEZ0dkbUwzYVltVHBtSThsWEpvX0lzUGp6NDlxYkJZVDQ3VTM3Y09jTlRfWWU2RVBCaU9DS2pnNmlCdzI0YnIxZERCd0RkaDZ3SkN5VU1LbEMxQkJlNC05dUlxRWhnVkFrdmVBTjM2OVllVE05SWJGTkFEYk10enNnV2dUcUE?oc=5) | 🟡MONITOR
 **2026-07-14** — ซีอีโอกล่าวว่าสหรัฐยากต่อการห้ามส่งออกชิป AI ไปจีน ส่งสัญญาณต่อนโยบายส่งออก | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxQdVdvTzI4aXR6bkN1WTlseTZadVlINHR5S2dZRjJPVkprV01jejd1SDR6dmtIUmkwMmUwbWFLMDBrczV2bUZic096YXlzRUlHVmt1b2F3elZRM0tsR2MtOUpMcjByZlBwY2pXQmF1aVhBQXNyazNQQXl4cTM5QjZpaG1fMU9LeHF3MXMwcmhiQll3Zw?oc=5) | 🟡MONITOR
 **2026-07-02** — ขยายระบบ CPU สำหรับ AI บริหารตัวแทน (agentic AI) ร่วมกับ Oracle Cloud Infrastructure | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxPVmMyN2x0dGZDS0lDSE93Zl81dGdVc3ppVTM2NGVTenZKX3FtQ1E0Sm16NUJySlFmeUZEaW13Mno5aTBHY0hQRHJaeTZBamJnSmFxblhhQ09fZkFMRFlFYzBPN0c4eXo4eEtsS1pseWNWbmItZjRCOHdTWmF2a3hwemNUTHFwdHBVRWNpYkdnYzRkb3A2Y3NRcDIwWS0?oc=5)
@@ -3818,9 +3821,11 @@ No external (third-party) analyst price targets or ratings appear in these prima
 
 "META": `# Meta Platforms (META) · Big Tech / Social Media + Advertising + AI
 
-**Last Updated:** 2026-05-24
-**Source:** Primary Documents — 10K FY2025, 10Q Q1 2026, Earnings Call Q4 2025 & Q1 2026, Exhibit 99-1, Left for Dead on AI (UncoverAlpha, April 17, 2026)
-**Trend Tags:** [[AI-Infrastructure]] [[Cloud-Acceleration]] [[Agentic-AI]] [[Digital-Advertising]] [[AR-VR]] [[Custom-Silicon]]
+**Last Updated:** 2026-07-30
+**Source:** Primary Documents — 10K FY2025, 10Q Q1 2026, Earnings Call Q4 2025/Q1 2026/Q2 2026, Follow-Up Call Q2 2026, Exhibit 99-1 Q2 2026, Earnings Presentation Q2 2026 (10-Q for Q2 2026 not yet filed as of 2026-07-30 — will re-run when available)
+**Trend Tags:** [[Agentic-AI]] [[AI-Infrastructure]] [[Cloud-Acceleration]] [[Digital-Advertising]]
+
+> ⚠️ **Trend Tags corrected 2026-07-30** — เดิมมี [[AR-VR]] [[Custom-Silicon]] ที่ไม่ตรงกับ TREND_MAP.md ปัจจุบัน (META ไม่อยู่ใน Key Stocks ของทั้งสอง trend นี้แล้ว) แก้ให้ตรง 4 tag ที่ TREND_MAP ระบุจริง
 
 ---
 
@@ -3832,46 +3837,53 @@ Meta Platforms ดำเนินธุรกิจภายใต้พัน�
 **Reality Labs (RL):** Meta Quest, Ray-Ban AI Glasses, Orion AR — ขาดทุนสะสม ~$19B/ปี เพื่อ long-term bet บน next computing platform
 
 **Revenue by Segment**
-| Segment | Q1 2026 | % | YoY% |
+| Segment | Q2 2026 | % | YoY% |
 |---------|---------|---|------|
-| Family of Apps | $55.91B | 99.3% | +33% |
-| Reality Labs | $0.40B | 0.7% | -2% |
-| **Total** | **$56.31B** | 100% | **+33%** |
+| Family of Apps (Advertising) | $59.36B | 97.6% | +27% |
+| Family of Apps (Other) | $1.01B | 1.7% | +73% |
+| Reality Labs | $0.43B | 0.7% | +16% |
+| **Total** | **$60.80B** | 100% | **+28%** (27% constant currency) |
 
 FY2025 Total Revenue: $200.97B (+22% YoY) — ปีแรกที่ผ่าน $200B
+FoA Other Revenue ทะลุ $1B เป็นครั้งแรก (+73% YoY) — ขับเคลื่อนจาก WhatsApp paid messaging + subscriptions
 
 ---
 
 ## Latest Financials
 
-**Q1 2026 (ended Mar 31, 2026)**
-| Metric | Q1 2026 | Q4 2025 | YoY% |
+**Q2 2026 (ended Jun 30, 2026)**
+| Metric | Q2 2026 | Q1 2026 | YoY% |
 |--------|---------|---------|------|
-| Revenue | $56.31B | $59.89B | +33% |
-| Operating Income | $22.87B | $24.75B | +30% |
-| Operating Margin | 41% | 41% | flat |
-| Net Income (GAAP) | $26.77B* | $22.77B | +116%* |
-| Net Income (Adjusted) | $18.74B | $22.77B | +52% |
-| EPS GAAP (Diluted) | $10.44* | $8.88 | — |
-| EPS Adjusted | $7.31 | $8.88 | +55% |
-| Free Cash Flow | $12.39B | $14.08B | +20% |
-| CapEx | $19.84B | — | +45% |
-| Family DAP | 3.56B | 3.58B | +4% |
-| ARPP | $15.66 | $16.56 | +27% |
-| Ad Impressions Growth | +19% YoY | +18% YoY | accel. |
-| Avg Price Per Ad | +12% YoY | +6% YoY | accel. |
+| Revenue | $60.80B | $56.31B | +28% (27% cc) |
+| Operating Income | $18.78B | $22.87B | -8% |
+| Operating Margin | **31%** | 41% | -12pp (compressed) |
+| Net Income (GAAP) | $15.85B | $26.77B* | -14% |
+| EPS GAAP (Diluted) | $6.18 | $10.44* | -13% |
+| Free Cash Flow | $0.78B | $12.39B | -91% |
+| CapEx (incl. finance lease) | $31.08B | $19.84B | +83% |
+| Family DAP | 3.60B | 3.56B | +3% |
+| ARPP | $16.86 | $15.66 | +17% |
+| Ad Impressions Growth | +14% YoY | +19% YoY | decel. |
+| Avg Price Per Ad | +12% YoY | +12% YoY | flat |
+| Effective Tax Rate | 16% | 16%* | +5pp |
+| Headcount | 75,472 | — | -1% YoY, -3% QoQ |
 
-*GAAP net income รวม $8.03B one-time tax benefit (OBBBA reversal) — ตัวเลข normalized คือ $18.74B
+*Q1 2026 GAAP net income รวม $8.03B one-time tax benefit (OBBBA/CAMT transitional relief) — normalized net income $18.74B / EPS $7.31 / tax rate 14%
 
-**Balance Sheet (Mar 31, 2026)**
-- Cash + Marketable Securities: $81.18B (หมายเหตุ: $5B ถูก restrict ไว้ใน purchase agreement — ใช้ได้จริง ~$76B)
-- Long-Term Debt: $58.75B
-- Total Assets: $395.25B
-- Total Equity: $243.68B
+**⚠️ Op Margin Compression Drivers (Q2 2026):** Total expenses +55% YoY ($42.03B) รวม **$2.40B legal-proceedings charges** (in G&A) + **$1.18B severance** (จาก May 2026 headcount reduction ~8,000 คน) + higher AI-talent compensation + infra depreciation/opex + third-party AI token costs. Excluding legal charges + severance, operating income would have grown **+9% YoY** (management framing) — ไม่ใช่ -8% ตามที่รายงาน
 
-**Q2 2026 Guidance:** Revenue $58.0–61.0B (+28–34% YoY)
-**FY2026 Guidance:** OpEx $162–169B | CapEx $125–145B (raised จาก $115–135B)
-**Effective Tax Rate (Q2-Q4 2026):** 13–16%
+**⚠️ FCF Near-Zero:** FCF ร่วงจาก $12.39B (Q1'26) / $8.55B (Q2'25 YoY) เหลือเพียง **$784M** — CapEx purchases $30.1B ในไตรมาสเดียวสูงกว่า OCF growth; นี่คือไตรมาสแรกที่ FCF ใกล้ศูนย์นับตั้งแต่เริ่มเห็นเทรนด์ CapEx เร่งตัว
+
+**Balance Sheet (Jun 30, 2026)**
+- Cash + Marketable Securities: $90.26B (เพิ่มจาก $81.18B Q1 — ส่วนหนึ่งจาก proceeds ออกหุ้นกู้ใหม่ $24.91B สุทธิใน Q2)
+- Long-Term Debt: $83.66B (เพิ่มจาก $58.75B Q1, +$24.91B จาก debt issuance ใหม่)
+- Total Assets: $449.96B
+- Total Equity: $261.22B
+- No share buyback ใน Q2 2026 (เหมือน Q1 — ลงทุน AI ก่อน)
+
+**Q3 2026 Guidance:** Revenue $61.0–64.0B (~1% FX headwind assumed) — Susan Li ระบุปัจจัยชะลอตัว (constant-currency): lapping quarter ที่ impression growth เร่งตัวแรง, less-personalized-ads ใน EU เริ่มมีผลเต็มไตรมาส, continued integrity enforcement
+**FY2026 Guidance:** Total Expenses $165–169B (ปรับขึ้น lower-end จาก $162–169B เพื่อรวม legal charges) | CapEx $130–145B (ปรับแคบจาก $125–145B)
+**Effective Tax Rate (Q3-Q4 2026):** 15–17% (ปรับขึ้นจาก 13–16% เดิม — ไม่ได้ระบุเหตุผลชัดเจนนอกจาก "absent any changes to tax landscape")
 
 ---
 
@@ -3891,6 +3903,14 @@ FY2025 Total Revenue: $200.97B (+22% YoY) — ปีแรกที่ผ่า�
 
 > "I think that AI is going to amplify people's ability to do what you want." — Q1 2026 Earnings Call
 
+> "AI is accelerating our core business today, powering our next generation of products, and opening the door to entirely new enterprise opportunities. The results are already showing, and I'm optimistic about the potential ahead." — Zuckerberg, Q2 2026 Earnings Press Release
+
+> "On a dollar basis, our ads business is reporting faster year-over-year revenue growth than any other company's reported ad business — so these AI investments are paying off." — Zuckerberg, Q2 2026 Earnings Call
+
+> "I also think it would be foolish to basically just sell all of the compute and take a short-term profit. But when you have the opportunity to build intelligence on top of it which will be a multiple and that compounds the value of the compute." — Zuckerberg, Q2 2026 Earnings Call (ตอบคำถามเรื่อง sell vs. build compute)
+
+> "We generally believe near-term capacity is more valuable than long-term capacity." — Susan Li, Q2 2026 Earnings Call (ตอบคำถามเรื่อง 2027 CapEx philosophy)
+
 ---
 
 ## MOAT & Competitive Advantage
@@ -3903,14 +3923,19 @@ FY2025 Total Revenue: $200.97B (+22% YoY) — ปีแรกที่ผ่า�
 - GEM + sequence learning: +3.5% ad clicks (Facebook), +1%+ conversions (Instagram)
 - Lattice + GEM: +6%+ conversion rate สำหรับ landing page view ads
 - Adaptive Ranking Model (LLM-scale): +1.6% conversion rates
-- Value Optimization suite: $20B+ annual run-rate (2x+ YoY)
-- Partnership ads: $10B+ annual run-rate (2x+ YoY)
-- 8M+ advertisers ใช้ Gen AI ad creative tools
+- **Q2 2026 ใหม่:** User-understanding models + GEM ads ranking/sequence learning = **+8.3% ad clicks + 15.7% conversion uplift on Facebook**; early Meta Generative Recommender pilots (LLM reasons about ad + user preference together) = **+1% app-event conversions on Instagram**
+- **Q2 2026:** Reels ranking upgrade (deeper user-history architecture) = **+15bps sessions on Instagram**, bringing to Feed next
+- Advantage+ (end-to-end AI ad solution): annual run-rate ทะลุ **$75B** (Q2 2026, ขึ้นจาก $60B ที่รายงานใน analyst note เม.ย.) — 8-9M+ advertisers ใช้ Gen AI ad creative tools
+- Value Optimization suite: $20B+ annual run-rate (2x+ YoY, as of Q1 2026)
+- Partnership ads: $10B+ annual run-rate (2x+ YoY, as of Q1 2026)
 
 **Engagement Acceleration**
-- Instagram Reels watch time: +30%+ YoY (US)
-- Facebook total video time: +8%+ globally (Q1 2026) — largest QoQ gain in 4 years
+- Instagram Reels watch time: +30%+ YoY (US, Q1 2026 basis)
+- Instagram global time spent: double-digit YoY growth (Q2 2026)
+- Facebook video time: +9% globally / +10%+ US&Canada YoY (Q2 2026)
+- Instagram crossed **2 billion DAU**; Threads crossed **500 million MAU** (fastest-growing conversation app ever, per Zuckerberg); WhatsApp all-time record **30M messages/sec** during World Cup Final (Q2 2026)
 - Business AI weekly conversations: 1M (Jan 2026) → 10M (Q1 2026) = 10x ใน quarter เดียว
+- Meta Business Agent: >1M active businesses/week (June 2026), global rollout WhatsApp+Messenger complete, expanding to Instagram Direct; effective Aug 1 2026 เริ่มคิดค่าบริการ per-token (จากเดิม freemium ผ่าน Meta One)
 
 **Vertical Integration (Meta Compute)**
 - Custom Silicon ร่วมกับ Broadcom — 1GW+ planned deployment
@@ -3939,13 +3964,28 @@ FY2025 Total Revenue: $200.97B (+22% YoY) — ปีแรกที่ผ่า�
 
 **AI as Revenue Engine (มีตัวเลขจริง)**
 - Ad AI systems delivering compounding % lift ทุก quarter
-- Business AI ผ่าน WhatsApp: 10M weekly conversations (10x in one quarter)
-- WhatsApp paid messaging: $2B+ annual run-rate
+- Business AI ผ่าน WhatsApp: 10M weekly conversations (10x in one quarter, Q1 2026)
+- WhatsApp paid messaging: $2B+ annual run-rate (Q1 2026 basis); FoA Other Revenue ทะลุ $1B ครั้งแรกใน Q2 2026 (+73% YoY) ขับเคลื่อนจาก paid messaging + subscriptions
+- **Meta Business Agent Platform** (เปิดตัว ก.ค. 2026) — ให้ enterprise clients build/customize/deploy business agent เอง เชื่อมต่อ catalog/CRM/inventory; เริ่มคิดเงินจริง (subscription ผ่าน Meta One + per-token volume pricing effective Aug 1 2026)
+- **Meta One** — subscription ใหม่รวม tools + AI features ข้ามแอป เปิดตัว Q2 2026
+
+**Muse Image & Muse Video (ใหม่ — Q2 2026)**
+- Muse Image: media-generation model แรกจาก MSL ใช้ agentic visual reasoning + self-refinement; เริ่ม roll out ก.ค. 2026 ใน Advantage+ Creative Tool Suite — ให้ advertiser สร้าง ad creative คุณภาพสูงต้นทุนต่ำลง
+- New "restyle" shopping experience ใน Meta AI (visualize สินค้าใน catalog ในพื้นที่จริงของผู้ใช้)
+- Susan Li: ยังระยะแรก คาดทั้ง Muse Image/Video จะ capable ขึ้นเรื่อยๆ
+
+**Compute Monetization — เริ่มเป็นรูปเป็นร่างขึ้น**
+- BlackRock JV ใหม่ (ประกาศ 28 ก.ค. 2026, หนึ่งวันก่อน earnings) — 1GW data center ที่ El Paso, Texas ภายใต้ Meta Compute effort
+- Zuckerberg ยืนยันมี "offers ซื้อ compute ที่ premium มากกว่าที่จ่ายไป" แต่เลือกไม่ขาย compute ดิบเป็นหลัก — ให้เหตุผลว่า "selling intelligence" ทำ margin ได้สูงกว่า selling compute โดยตรง
+- Susan Li: near-term capacity ("26-'27) มีค่ามากกว่า long-term; '28+ วางเป็น flexibility play ไม่ผูกมัด
+- ยังไม่มี confirmed deal กับ Anthropic (ตามที่ SemiAnalysis/UBS คาดการณ์ใน analyst notes) — ผู้บริหารไม่ยืนยัน/ปฏิเสธในทั้ง 2 calls
 
 **AR/VR Hardware**
-- Ray-Ban glasses: sales 3x+ YoY ใน FY2025, DAU tripling YoY
+- Ray-Ban glasses: sales 3x+ YoY ใน FY2025, DAU tripling YoY (ข้อมูล FY2025)
+- ออก Meta Glasses line ใหม่ร่วมกับ EssilorLuxottica + สไตล์ที่ออกแบบกับ Kylie Jenner — first glasses ที่มี Muse Spark built-in; early sales "exceeding expectations" (Q2 2026)
 - Zuckerberg: "some of the fastest growing consumer electronics in history"
-- Reality Labs FY2026 losses "likely the peak" — เริ่มลด gradually
+- Reality Labs Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B) — ยังไม่เห็นหลักฐาน "peak" ชัดเจนในตัวเลขจริงไตรมาสนี้ แม้ narrative เดิมจาก analyst notes จะบอกว่า losses กำลังถึงจุดสูงสุด
+- Connect conference กำหนด 23 ก.ย. 2026 — คาดมีประกาศ glasses line-up เพิ่ม
 
 **Meta Superintelligence Labs (MSL) — Muse Spark (April 2026)**
 - First release: **Muse Spark** — ครั้งแรกในประวัติ Meta ที่ release closed-source frontier model (break จาก Llama open-weights strategy)
@@ -3983,20 +4023,21 @@ FY2025 Total Revenue: $200.97B (+22% YoY) — ปีแรกที่ผ่า�
 | Class A | 2,196M | 1 | Equal to B |
 | Class B | 342M | 10 | Equal to A |
 
-**Long-Term Debt ($59.0B face value)**
+**Long-Term Debt (~$83.7B ตาม balance sheet Jun 30, 2026 — เพิ่มจาก $58.75B Q1)**
 | Issuance | Amount | Maturities | Coupon Range |
 |---|---|---|---|
 | Aug 2022 | $10.0B | 2027–2062 | 3.50–4.65% |
 | May 2023 | $8.5B | 2028–2063 | 4.60–5.75% |
 | Aug 2024 | $10.5B | 2029–2064 | 4.30–5.55% |
 | Nov 2025 | $30.0B | 2030–2065 | 4.20–5.75% |
+| **Q2 2026 (ใหม่)** | **$24.91B net proceeds** | รายละเอียดยังไม่เปิดเผยในเอกสารที่มี — รอ 10-Q | — |
 
-Principal maturity 2026: $0 / 2027: $2.75B / 2028: $1.50B / ถัดไป: $48.75B
+Principal maturity breakdown (2026: $0 / 2027: $2.75B / 2028: $1.50B / ถัดไป: $48.75B) เป็นข้อมูลก่อน Q2 debt issuance — ต้องอัพเดทเมื่อ 10-Q Q2 2026 ออก (ยังไม่ได้ยื่น ณ วันนี้)
 
 **Share Buyback**
 - FY2025: ซื้อคืน 40M shares ใช้ $26.26B
 - Remaining authorization (Mar 31, 2026): $25.03B
-- Q1 2026: ไม่มีการซื้อคืน (ลงทุน AI ก่อน)
+- Q1 2026 และ Q2 2026: ไม่มีการซื้อคืนทั้งสองไตรมาส (ลงทุน AI ก่อน ต่อเนื่อง 2 ไตรมาส)
 
 **Dividend:** $0.525/share/quarter ($2.10/year annualized) — เพิ่ม 5% จาก FY2024
 
@@ -4009,37 +4050,37 @@ Principal maturity 2026: $0 / 2027: $2.75B / 2028: $1.50B / ถัดไป: $48
 
 ## CapEx & Infrastructure
 
-**CapEx Trend**
+**CapEx Trend (incl. principal payments on finance leases)**
 | Period | CapEx |
 |---|---|
-| Q1 2025 | $13.69B |
-| Q1 2026 | $19.84B (+45% YoY) |
+| Q2 2025 | $17.01B |
+| Q1 2026 | $19.84B |
+| Q2 2026 | **$31.08B (+83% YoY)** |
+| H1 2025 (YTD) | $30.70B |
+| H1 2026 (YTD) | **$50.92B (+66% YoY)** |
 | FY2025 | $72.22B |
-| FY2026 Guidance | $125–145B |
+| FY2026 Guidance | $130–145B (narrowed from $125–145B) |
 
-**PP&E (Mar 31, 2026)**
-| Asset Type | Value |
-|---|---|
-| Servers & Network | $105.99B |
-| Construction in Progress | $61.02B |
-| Buildings | $58.84B |
-| Finance Lease ROU | $8.84B |
-| Leasehold Improvements | $8.21B |
-| Equipment & Other | $9.70B |
-| Land | $3.68B |
-| **Net PP&E** | **$194.78B** |
+**PP&E (Jun 30, 2026)** — breakdown by asset type ยังไม่มีในเอกสารชุดนี้ (Exhibit 99-1/presentation ไม่แจก breakdown ละเอียดแบบ 10-Q); ตัวเลขรวมจาก balance sheet:
+| Metric | Q1 2026 | Q2 2026 |
+|---|---|---|
+| Net PP&E | $194.78B | **$225.72B** |
 
-**หมายเหตุสำคัญ — Server Life Extension**
+⚠️ Breakdown ราย asset-type (Servers, Construction-in-Progress, Buildings ฯลฯ) รอ 10-Q Q2 2026 ที่ยังไม่ยื่น — จะอัพเดทรอบหน้า
+
+**หมายเหตุสำคัญ — Server Life Extension (จากรอบก่อน ยังมีผลต่อเนื่อง)**
 Meta ยืดอายุ server จาก 4 → 5.5 ปี ตั้งแต่ 1 ม.ค. 2025
 → ลด FY2025 depreciation $2.92B → เพิ่ม net income $2.59B (+$1.00/diluted share)
-→ Operating margin ที่เห็นสูงขึ้นบางส่วนมาจาก accounting change นี้
+→ Operating margin ที่เห็นสูงขึ้นบางส่วนมาจาก accounting change นี้ (สวนทางกับ Q2 2026 ที่ margin กลับลดฮวบ 41%→31% จาก legal charges + severance เป็นหลัก ไม่ใช่ depreciation)
 
-**Operating Lease Future Payments**
+**Operating Lease Future Payments** (ข้อมูล Q1 2026 — รอ 10-Q Q2 อัพเดท)
 2026: $3.2B | 2027: $3.2B | 2028: $3.1B | 2029: $3.0B | 2030: $2.6B | ถัดไป: $18.4B
 
-**Uncommenced Leases (off-balance-sheet):** $182.88B (Mar 31, 2026) — เพิ่ม $79B ในไตรมาสเดียว
+**Uncommenced Leases (off-balance-sheet):** $182.88B (Mar 31, 2026) — เพิ่ม $79B ในไตรมาสเดียว; ตัวเลข Q2 2026 รอ 10-Q
 
-**Non-Cancelable Contractual Commitments:** $237.67B (Mar 31, 2026) + $24B เพิ่มเติมใน April 2026
+**Non-Cancelable Contractual Commitments:** $237.67B (Mar 31, 2026) + $24B เพิ่มเติมใน April 2026; ตัวเลข Q2 2026 รอ 10-Q
+
+**New Compute Partnership (Q2 2026):** BlackRock JV ประกาศ 28 ก.ค. 2026 — 1GW data center ที่ El Paso, Texas ภายใต้ Meta Compute effort (เพิ่มเติมจาก Blue Owl, Hyperion JVs เดิม); Susan Li ระบุ backstop value ของ partnership เหล่านี้ "ลดลงตามเวลา" และให้ flexibility ประเมินความต้องการ compute ใหม่ทุก 4 ปี
 
 **Louisiana Data Center VIE**
 - JV พัฒนา data center campus — Meta ถือ 20%
@@ -4052,6 +4093,21 @@ Meta ยืดอายุ server จาก 4 → 5.5 ปี ตั้งแต�
 
 ## Risks & Watch List
 
+**[HIGH] Q2 2026 Legal Charges + Severance — $3.58B combined, one-time but recurring pattern**
+Total expenses Q2 2026 รวม **$2.40B legal-proceedings charges** (booked ใน G&A) + **$1.18B severance** จาก May 2026 headcount reduction (~8,000 คน, ส่วนใหญ่จะออกจาก headcount ภายในสิ้น Q3 2026) — primary document (Exhibit 99-1/call) ไม่ระบุรายละเอียดว่า legal charge $2.4B มาจากคดีไหนเจาะจง (อาจเกี่ยวกับ youth litigation/IRS/DSA ที่มีอยู่ หรือคดีใหม่) — **ต้องติดตาม 10-Q Q2 2026 เพื่อดู breakdown**
+
+**[HIGH] Free Cash Flow ใกล้ศูนย์ — $784M (Q2 2026), -91% YoY**
+CapEx purchases $30.1B ในไตรมาสเดียว (จากปกติ Servers/Data Center/Network) แซง operating cash flow growth; นี่คือระดับ FCF ต่ำสุดนับตั้งแต่เริ่มเทรนด์ CapEx เร่งตัวปี 2025 — ถ้า CapEx ยังโตเร็วกว่า OCF ต่อเนื่อง อาจต้องพึ่ง debt/JV financing มากขึ้น (ตอกย้ำจาก debt issuance ใหม่ $24.91B ใน Q2)
+
+**[MEDIUM] Operating Margin Compression — 43%→31% YoY**
+Op margin หดจาก 43% (Q2 2025) เหลือ 31% (Q2 2026) — ส่วนใหญ่จาก legal charges + severance (one-time, management framing) แต่ total expenses ก็โต +55% YoY เร็วกว่า revenue +28% แม้ไม่รวมรายการพิเศษ — ต้องติดตามว่า Q3/Q4 margin ฟื้นกลับสู่ 40%+ ตามที่ guidance บอกไหม ("expect operating income this year above 2025")
+
+**[MEDIUM] Tax Rate ปรับขึ้น 13-16%→15-17% โดยไม่มีเหตุผลชัดเจน**
+Guidance ใหม่ยกเว้นแต่พูดว่า "absent any changes to our tax landscape" — ไม่มีรายละเอียดเพิ่มใน 2 calls นี้ ว่าอะไรเปลี่ยนไป ต้องรอ 10-Q
+
+**[HIGH] Revenue Deceleration Signal ใน Q3 Guidance**
+Q3 2026 guide $61-64B บ่งชี้ YoY growth ชะลอจาก Q2 (+28%) — Susan Li ระบุสาเหตุ constant-currency: (1) lapping quarter ที่ impression growth เร่งตัวแรงจาก ranking improvements, (2) less-personalized-ads ใน EU rollout เต็มไตรมาสแรก (regulatory-driven headwind), (3) continued integrity enforcement efforts — เป็นครั้งแรกที่ EU regulatory เริ่มกระทบ ad monetization โดยตรง ไม่ใช่แค่ค่าปรับ
+
 **[CRITICAL] IRS Transfer Pricing — $15.89B**
 IRS ออก Notice เรียกเก็บภาษีเพิ่ม $15.89B สำหรับปี 2017–2019 (ไม่รวม interest + penalties)
 Meta ยื่น Tax Court petition ธันวาคม 2025 — ยังอยู่ในกระบวนการ ไม่มีใน earnings call
@@ -4063,18 +4119,19 @@ Meta ยื่น Tax Court petition ธันวาคม 2025 — ยังอ
 ชนะคดีระดับ district court (18 พ.ย. 2025) แต่ FTC ยื่นอุทธรณ์ (20 ม.ค. 2026)
 ถ้าแพ้อุทธรณ์ → อาจต้องขาย Instagram + WhatsApp
 
-**[HIGH] Youth Litigation — Aggregate Exposure "หลักสิบ Billion"**
+**[HIGH] Youth Litigation — Aggregate Exposure "หลักสิบ Billion" — ภาษาเข้มขึ้นใน Q2 2026 guidance**
 - NM AG civil penalty: $375M verdict + AG ขอ $3.7B abatement + $62.85B แยก
 - Flo Health (CIPA): สูงสุด ~$8B potential (1.6M class members × $5,000)
 - 100,000+ mass arbitration demands
 - Bellwether trials ตลอดปี 2026 (มิ.ย., ก.ค., ส.ค.)
+- **Q2 2026 CFO outlook ใช้ถ้อยคำเข้มขึ้นกว่าเดิม:** "a number of youth-related trials scheduled for this year in the U.S., **which may ultimately result in a material loss**" — เป็นครั้งแรกที่ guidance ระบุความเสี่ยง "material loss" ชัดเจนขนาดนี้ (ไม่ใช่แค่ boilerplate เดิม); ในทั้ง 2 calls ผู้บริหารปฏิเสธให้รายละเอียดเพิ่มเติม ("premature to comment... untested legal theories... defend vigorously")
 
-**[HIGH] CapEx Risk**
-$125–145B ในปีเดียว — ถ้า AI ROI ไม่ตามคาด FCF กดดันหนัก
-Q1 2026: FCF $12.4B แต่ CapEx $19.8B → กำลังลงทุนเกิน generate ในระยะสั้น
+**[HIGH] CapEx Risk — ทวีความรุนแรงขึ้น**
+$130–145B ในปีเดียว (narrowed จาก $125-145B — บ่งชี้ high-end มีโอกาสเกิดจริงมากขึ้น) — ถ้า AI ROI ไม่ตามคาด FCF กดดันหนัก
+Q2 2026: FCF เหลือเพียง **$784M** ขณะที่ CapEx ไตรมาสเดียว **$31.1B** → ส่วนต่างกว้างที่สุดเท่าที่เคยเห็น; Zuckerberg เองยอมรับว่า "there is a lead time where we're investing... you obviously are not getting value out of them until they're online" — ยืนยันว่าการันตี ROI ยังไม่เกิดขึ้นจริงในช่วงนี้
 
-**[MEDIUM] Reality Labs Losses**
-~$19B/ปี — FY2026 คาดว่าจะเท่าเดิม ("likely the peak" per Zuckerberg)
+**[MEDIUM] Reality Labs Losses — ยังไม่เห็นหลักฐาน "peak" จากตัวเลขจริง**
+Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B Q2 2025) — เพิ่มขึ้นไม่ใช่ลดลง แม้ analyst narrative (เม.ย. 2026) จะบอกว่า losses "จะถึงจุดสูงสุดแล้ว"; primary documents รอบนี้ (Q2 call) ไม่มีผู้บริหารพูดถึง Reality Labs โดยตรงเลย — ต้องติดตามต่อว่าเมื่อไหร่จะเห็น loss หดตัวจริง
 
 **[MEDIUM] EU Regulatory (DMA/GDPR)**
 - DMA fine €200M (เมษายน 2025) — อยู่ระหว่างอุทธรณ์
@@ -4092,7 +4149,14 @@ Q1 2026: FCF $12.4B แต่ CapEx $19.8B → กำลังลงทุนเ
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-27
+**Last Updated:** 2026-07-30
+
+**Update (2026-07-30) — Q2 2026 earnings reaction: price -7.17% AH to $544.90, MoS widens 17.56%→24.53%, WAF 7.82→8.00 HIGH** [PRIMARY/MARKET NEWS — Warren single-stock deep dive]
+- Q2 2026 actuals: Revenue $60.80B (+28% YoY, accelerated from +27% cc prior), GAAP EPS $6.18 (-13% YoY), Op Margin 31% (from 43%), FCF $784M (-91% YoY), CapEx $31.08B in-quarter (+83% YoY). Market reaction: price fell -7.17% after-hours to **$544.90** (VERIFIED MANUAL price from Oat's After Hours screenshot — automated price feeds not yet reflecting post-earnings reaction as of 07-30).
+- **Warren's read:** headline deterioration is overwhelmingly one-time, not structural. Management quantified it directly — ex-$2.40B legal charges and ex-$1.18B severance (May 2026 layoffs), operating income would have grown **+9% YoY**, not -8%. FCF crash is CapEx-timing (single-quarter $31.1B purchase), not weak operating cash generation. Ad-AI flywheel metrics (clicks +8.3%, conversion +15.7% on Facebook) are the best readings yet on this card, not a deceleration signal.
+- **FV Base held at $722** (unchanged from 07-25 batch) — no fundamental reason to mark down normalized earnings power for charges management itself frames as one-time; will re-verify once 10-Q Q2 2026 breaks down the $2.4B legal charge and consensus EPS estimates get a post-earnings revision (none available yet as of 07-30, growth input still the 07-15 consensus figure 13.8%/yr).
+- **New risk evidence this quarter (RA 5.3→4.8):** debt +$24.91B in a single quarter (total LT debt $58.75B→$83.66B), FCF near-zero for the first time, tax rate guide raised 13-16%→15-17% without clear explanation, EU less-personalized-ads now cited as a direct Q3 revenue headwind (first time EU regulatory action bites monetization rather than just fines), and CFO language on youth litigation escalated to "may ultimately result in a material loss" — a step up in tone from prior boilerplate.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is a full re-score incorporating the actual Q2 print (not a price-only refresh). **Net effect:** MoS 24.53% / PEG 1.24 / ER 19.59%/yr — all improved vs 07-25, ER sits at the top edge of the 15-20% HOLD band (just under the 20% ADD threshold). Action stays **HOLD** per Holdings Return Recheck (held name), but conviction and entry quality are the strongest they've been since mid-2026. Flag for Kim: 10-Q Q2 2026 not yet filed — legal-charge breakdown, debt issuance terms, and PP&E detail all pending; re-run once filed.
 
 **SemiAnalysis — "Meta Compute: Everyone Wants To Be A Neocloud" (SemiAnalysis, Jul 2, 2026) — quantifies and confirms the "selling excess compute" speculation from the batch-5 UBS note with hard capacity numbers** [ANALYST VIEW]
 - **This is the deep-data follow-up to the batch-5 UBS "Meta weighing sale of compute" first read below** — SemiAnalysis reports Meta has **contracted over 5GW of Cloud & Colo capacity in just the first six months of 2026** (their own datacenter model, not speculation), and expects 2027 capex to be "shockingly high" — capacity build is *accelerating*, not slowing, despite Bloomberg-driven neocloud-sector sell-off fears (CoreWeave/Nebius) and "overcapacity" narrative, both of which SemiAnalysis argues are wrong reads.
@@ -4149,16 +4213,18 @@ Q1 2026: FCF $12.4B แต่ CapEx $19.8B → กำลังลงทุนเ
 
 ## Quarter Log
 
-| Quarter | Revenue | YoY% | EPS Adj. | Op Margin | Notes |
+| Quarter | Revenue | YoY% | EPS (Diluted GAAP) | Op Margin | Notes |
 |---------|---------|------|----------|-----------|-------|
-| Q2 2026 (est.) | $58–61B | +28–34% | — | — | Guidance range |
-| Q1 2026 | $56.31B | +33% | $7.31 | 41% | DAP 3.56B, CapEx $19.84B, tax benefit $8.03B |
+| Q3 2026 (guide) | $61–64B | — | — | — | Guidance range; Susan Li flags cc deceleration (lapping, EU less-personalized-ads, integrity enforcement) |
+| **Q2 2026** | **$60.80B** | **+28%** | **$6.18** | **31%** | Legal charges $2.4B + severance $1.18B (May headcount cut ~8K) crushed margin; FCF $784M (-91% YoY); CapEx $31.1B; debt +$24.91B; BlackRock JV 1GW; Muse Image/Video launched |
+| Q1 2026 | $56.31B | +33% | $10.44* | 41% | DAP 3.56B, CapEx $19.84B, tax benefit $8.03B (*normalized EPS $7.31) |
 | Q4 2025 | $59.89B | +24% | $8.88 | 41% | FY2025 revenue $200.97B milestone |
 | FY2025 | $200.97B | +22% | $23.49 | 41% | First $200B year, RL loss ~$19B |
 
 ---
 
 ## Recent News
+**2026-07-30** — ประกาศผลประกอบการไตรมาส 2 ปีงบ 2569 พร้อมข้อมูลรายละเอียดเกี่ยวกับการลงทุน AI Infrastructure ต่อเนื่อง | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxPQURLRXRNY0F0YS1VWHpBa3NOUVRjbmVGVklHbkdLUXRRUUVlUmItVFEyaEhUQzlScV82QVBlbXNTbXgwXzdxN3BndHRLc01SN2h6TkxxbXVQTHNJQzZIdUptRS1ISF9fZThjWFV5aWhGTE9UajFRSWNUNFF4d3pMN3pFV1VKQW1fUEQ2S1BjOUhTYUg3WDFPdW5kMzg) | 🔴MATERIAL
 **2026-07-23** — META พิจารณาความสามารถจำหน่ายของ Anthropic เพื่อลดความพึ่งพา NVDA; สะท้อนการแข่งขันเพิ่มขึ้นในการสร้างวิธี AI | [src](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUzNBTkhXakNuQnR3aHhOd3NWbWhRZnlkVEcwc2lEQm0ybFJ4U0NQaS1wMG9JODBtbi1XdEw4T0VlRF9oTEcwYzJIMlBCTW0zV0FMdTQwQWVXbTF6QzJQS043UXNTWTVzTm5sejA4S2dZTnBQNnVKOVNSOFBHZUl5REhwMWZIWm1CR0RfTFEyZ3U2Vlh4ZTdEcWtaaHAxSTVEbExpZnJxMkJzTWNyZml3?oc=5) | 🔴MATERIAL
 **2026-07-21** — เผชิญการฟ้องร้องจากรัฐเทนเนสซี เกี่ยวกับการออกแบบ Instagram เพื่อให้เด็กติดใจ ความเสี่ยงต่อการเรียกเก็บเบี้ยประกันภัยและความเสียหายต่อชื่อเสียง | [src](https://news.google.com/rss/articles/CBMiygFBVV95cUxPeVhnd21LSE5EeUpmS1VzYWhmaUFPUFE4MERyOEJzUFo1eDBXaHMyQW5BNDMtTm5pQXRteklmZE42NmZ3bGRiU0hqQ3dQQW5jTFNxcmFBenJsbFhHbFMyd1lLbkNNNnphZTNZZTZOcFVnazlISjc1MVdJZnI3VE1wVVptVlJPdnVlZmlrZ3FuVnZienBSdHFGNUlxNmtVVzV6SXlOSmRrd2FWdHRiWXpvSHN4YTczN2FDcnl1WUIwZGV3eFU0Sk92MEh30gHPAUFVX3lxTE5xa0lBNW1Cb3BQei14dnBfTXdoZ21waDZUanFhM0tlanRtWGktRnpQYnM3QTRlTHJpcTdXUVUzN3RPcjZzZERlbkJDUnBKeC1mSGVJbDhzVV9rRjdUbnhSUWNCZHM2QmhCaWlHeGExTEZGaEdZbTRLTWh5WTMzWTdabkoyZXlScTZ2TVFyZG5qaHFwNGZONk1yc0NFTG5ZX0lJN2dMYmZqWnhqaTlnT3JLaTRQdEhTLWhRemJHV21RbldxR2dMMk9zMlJEUGVqTQ?oc=5) | 🔴MATERIAL
 **2026-07-21** — อยู่ระหว่างพิจารณาความสามารถจำหน่ายของ Anthropic เพื่อสนับสนุนอุปสงค์ AI Capacity สะท้อนการแข่งขันเพิ่มขึ้นและการขยายตัวด้านเทคโนโลยี | [src](https://news.google.com/rss/articles/CBMipAFBVV95cUxNZC1CSWxXbzl0UUFPZ0pkRHFUOEM3bDRfX0w0M3pOaWoxcEpHYXU5Q0YtRkpFdzBRYmJ5OHNXaWQxaHU2enJWbzJxc0VieDBWRi1XSjdfdzU5NkJRV0MtMzM0VHhWalRjdElFUjFlbms0QVBMd29CZXJWLXJUT0tWMndfTmstVFZXZUFna1J4OG9fXzN5X3JfenN4SzA0TU81aWN6Qg?oc=5) | 🟡MONITOR
@@ -4172,7 +4238,6 @@ Q1 2026: FCF $12.4B แต่ CapEx $19.8B → กำลังลงทุนเ
 **2026-07-02** — ประกาศแผนธุรกิจคลาวด์เพื่อขายพลังคำนวณ AI เสริมรายได้นอกเหนือจากโฆษณา | [src](https://news.google.com/rss/articles/CBMirwFBVV95cUxQLXhTQlFXWHNNdmlsTENPd2tXSkZzXy1mbEF1VXVxZHdPRTZfYjVrSjd0STNZOGYtVnBCMzVBOGZtM0tacEtHcE1JY1ZuOU9KazlZLUtyMXNxYjlWV1dNTE9ERlJtM0JXUQA2SmxFTHRWRlA5OTVHelNyc2dKdWZuaTYwTUtnZWthWUk0NEl2TU5WME16TDZzTjZLZVVuN21YMWE3TGhmX2h2dVdybFhr?oc=5)
 **2026-07-01** — META สูญเสียการร้องขออายัดคำฟ้องของรัฐในกรณีการติดใจเด็กจาก Facebook/Instagram; ความเสี่ยงด้านกฎหมายยังคงมีสำคัญแต่ลดจากการยกเลิก | [src](https://news.google.com/rss/articles/CBMizAFBVV95cUxQTW1oX1plcXNSQ1ZoOXBJanVnUlhSbjZ3WEcwQ1NrUHUyMDFZa1ZzR2o0VERfX1JYdjdkRXIzVmVSMEthblRwOFJqRGZfalA5bE1Yd0QxeGxfNGltaGZJdnhYeHo1M1NkM0xsamRuY0xVWkk0VGxfZnhna083enVoQkhzdWlhdEZhZXRNVUNPQ0djaDhPSDg5YnVDZmx6YkZxVGtVaU0wNHluMUVSaFREejBMOU4zbVRzMWtuNHVCRWJETHJ4ZWRIWEdlRUI)
 **2026-06-24** — สหรัฐอเมริกากดดันให้เมตากรีดตั้งปลูกตรวจสอบด้านเทคโนโลยีปัญญาประดิษฐ์ เมื่อความกังวลด้านความปลอดภัยสูงขึ้น | [src](https://news.google.com/rss/articles/CBMisgFBVV95cUxQX1BkQ0VuVVRQS1dyNXlUd19NMEtTTTNhYVoxT2ZGUm9CMmx6NVIwVVp4d1RKQ2pJclpJM3E5aXVPQm5jMVNJSG5mYWNuRU5ZNU5fTEV4Z2h0T3Q1MGZYbW9ZemRRZ0hTblpwOVJaRnpMNWdoa3QwMlpYVmFHQjEzQ055dk90Q0VmZmEwckJGa09DRnlYR1NqTU9zZjVNS29fRlVwMXlPV1NTNFlLOENpSzRR)
-**2026-06-19** — Meta ลงนามสัญญาการคำนวณใหม่กับ Crusoe สำหรับการบริหารจัดการพลังงาน AI computing | [src](https://news.google.com/rss/articles/CBMivwFBVV95cUxNY2hGMmJVYWZybndVbUpRZWtXdzlOdlpWQmZWTjd1Z1RIT3JLZEc5aFJSLXNjR0xVeXlybzFrTGpDclZOV043cEtkR1RaOGtDYzhrNWVaQmdTeFctUmtsV2NDcnBNNDZiLVJITHF2RDg0V0RTQlc4dGIxMEJrdUlUb0Ztd0RVeF9NWXJyVEZmMy05UkF5QVpzTTBqbVJKSVIwaXNFbnpsMGNtS3FzdVRnWEFnYWVlQjZpR1Vrc1pEZw)
 
 ## Source Log
 
@@ -4186,72 +4251,78 @@ Q1 2026: FCF $12.4B แต่ CapEx $19.8B → กำลังลงทุนเ
 | 2026Q1 - META - Earnings-Call-Transcript.pdf | Earnings Call Transcript | 2026-05-16 |
 | 2026Q1 - META - Earnings-Presentation.pdf | Earnings Presentation | 2026-05-16 |
 | 2026Q1 - META - 10Q.pdf | 10Q Q1 2026 | 2026-05-16 |
+| 2026Q2 - META - Exhibit-99-1.pdf | Exhibit 99-1 | 2026-07-30 |
+| 2026Q2 - META - Earnings-Call-Transcript.pdf | Earnings Call Transcript | 2026-07-30 |
+| 2026Q2 - META - Follow-Up-Call-Transcript.pdf | Follow-Up Call Transcript (Analyst Q&A) | 2026-07-30 |
+| 2026Q2 - META - Earnings-Presentation.pdf | Earnings Presentation | 2026-07-30 |
+
+⚠️ **10-Q Q2 2026 ยังไม่ยื่นกับ SEC ณ วันที่ 2026-07-30** — จะกลับมาอ่านเพิ่มเมื่อไฟล์พร้อม (มี detail เพิ่ม: PP&E breakdown, debt issuance terms, legal charges breakdown, lease commitments)
 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-25  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-07-30  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
-**Tier Basis:** Pre-Inevitable: 5/5 crystallization signals — แต่ Zuckerberg founder-led + voting control (Class B 10 votes/share) + ยังไม่มี tested successor → ตกเกณฑ์ Inevitable ข้อ "ผ่าน CEO transition แล้วยัง great, ไม่พึ่ง founder/key-man" ตาม WARREN.md กฎเหล็ก (เช่นเดียวกับ NVDA/Jensen, AVGO/Hock Tan) → cap สูงสุดที่ 🚀 Pre-Inevitable — ยืนยันอีกครั้งรอบนี้ (07-25), ไม่มี tier change
+**Tier Basis:** Pre-Inevitable: 5/5 crystallization signals — แต่ Zuckerberg founder-led + voting control (Class B 10 votes/share) + ยังไม่มี tested successor → ตกเกณฑ์ Inevitable ข้อ "ผ่าน CEO transition แล้วยัง great, ไม่พึ่ง founder/key-man" ตาม WARREN.md กฎเหล็ก (เช่นเดียวกับ NVDA/Jensen, AVGO/Hock Tan) → cap สูงสุดที่ 🚀 Pre-Inevitable — ยืนยันอีกครั้งรอบนี้ (07-30, หลัง Q2 2026 earnings), ไม่มี tier change
 
-**WHAT:** Meta monetizes 3.56B daily active people through AI-enhanced advertising (impressions +19% + price +12% simultaneously), creating an irreplaceable network effect flywheel no competitor can replicate at scale.
+**WHAT:** Meta monetizes 3.6B daily active people through AI-enhanced advertising (Q2 2026: ad clicks +8.3%, conversion +15.7% on Facebook via GEM/user-understanding models), creating an irreplaceable network effect flywheel no competitor can replicate at scale.
 
-**WHY NOW (Second-Level):** Consensus เห็น META expensive จาก legal + regulatory overhang (FTC appeal + IRS + DSA + Llama copyright suit + Tennessee youth-addiction suit 07-21 + AI safety-review standoff) เป็นความเสี่ยงสูง; Warren เห็นต่างว่าข่าว 07-17..07-23 ($50B data-center bet, own AI chips เพื่อลด NVDA dependence, Anthropic sellability review) เป็นการ restate ของ Samsung $6.5B / custom-silicon / Meta Compute diversification เดิม (07-06/07-10) ไม่ใช่ thesis change ใหม่; **อัพเดท 07-25:** ราคาย่อจาก $646.01 (07-18) → **$595.19** = **-7.9%** โดย FV Base คงที่ $722 (Q2 2026 ยังไม่ประกาศ—รอ 29 ก.ค.) → MoS ฟื้นจาก 10.5%→**17.6% ทะลุ full gate 15% เป็นครั้งแรก** ตั้งแต่ราคาวิ่งขึ้นแรงต้นเดือน; entry เข้ามาในโซนที่ margin of safety กลับมาจริง (ราคาย่อ ไม่ใช่ FV ขึ้น)
+**WHY NOW (Second-Level):** Consensus โฟกัสที่ headline ลบของ Q2 2026 print — FCF ร่วง -91% เหลือ $784M, Op Margin หด 43%→31% YoY, GAAP EPS -13% YoY — ราคาตอบรับทันที -7.17% after-hours สู่ $544.90; Warren เห็นต่างว่า headline เหล่านี้ส่วนใหญ่เป็น **one-time/timing ไม่ใช่ deterioration เชิงโครงสร้าง**: (1) margin compression มาจาก $2.40B legal charges + $1.18B severance เป็นหลัก — ex-items operating income โต **+9% YoY** ตามที่ Susan Li ระบุเอง ไม่ใช่ -8% ตามตัวเลขที่รายงานดิบ (2) FCF crash มาจาก CapEx timing ($31.08B ในไตรมาสเดียว, +83% YoY) ไม่ใช่ operating cash flow อ่อนแอ — revenue ยังโต **+28%** เร่งขึ้นจาก +27% cc รอบก่อน และ ad-AI metrics (clicks/conversion) ดีขึ้นกว่าทุกรอบที่ผ่านมาจริง ไม่ใช่แค่ story (3) ตลาดยังไม่ price-in ว่าราคาที่ร่วงลงมาพร้อม FV Base ที่ยังไม่เปลี่ยน ดัน MoS จาก 17.6%→**24.5%** — จุดเข้าที่ดีที่สุดตั้งแต่กลางปี 2026
 
-**IF WRONG:** FTC appeals court forces Instagram/WhatsApp divestiture (thesis collapse), or IRS $15.89B + EU DSA $12B simultaneously drain FCF and force CapEx cuts — หรือ Llama copyright class action ขยายเป็น liability ระดับ billions ที่กระทบ AI roadmap — หรือ Tennessee/youth-litigation aggregate exposure ลุกลาม — หรือ Q2 earnings 29 ก.ค. ไม่ยืนยัน growth momentum ที่ราคา price-in ทำให้ FV Base $722 ต้องปรับลง
+**IF WRONG:** ถ้า Q3/Q4 2026 operating margin ไม่ฟื้นกลับสู่ 40%+ ตามที่ guidance บอก ("expect operating income this year above 2025") → พิสูจน์ว่า cost inflation ไม่ใช่แค่ one-time; หรือ EU less-personalized-ads เริ่มกัดกร่อน revenue ต่อเนื่องหลายไตรมาส (Q3 guide $61-64B เป็นสัญญาณแรก ไม่ใช่แค่ lapping effect); หรือ legal charges ระดับ $2B+ เกิดซ้ำใน Q3 (พิสูจน์ว่าไม่ใช่ one-time); หรือ FTC appeals court บังคับขาย Instagram/WhatsApp, หรือ youth-litigation ภาษา "material loss" ที่ CFO เริ่มใช้ (07-30 guidance) กลายเป็นคำตัดสินจริงระดับหลักสิบ billion — thesis พัง
 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-25  |  **Price:** $595.19  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
+**Last Updated:** 2026-07-30  |  **Price:** $544.90  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Single-Stock Deep Dive (post-Q2 2026 earnings reaction)
 
-> 🔧 **Repair batch #3 (07-25):** ราคาย่อ $646.01(07-18)→**$595.19** (-7.9%, prices_cache.json 07-25, ไม่ fetch ซ้ำ) ดัน MoS 10.5%→**17.56% ทะลุ full gate 15% ครั้งแรก**; FV Base คงที่ $722. Story Gate 07-25 ถูกอัพเดทไปแล้ว รอบนี้ sync Valuation Range ให้ตรงกัน (เดิมค้าง 07-15/$661.04).
+> 🔧 **Post-earnings repricing (07-30):** ราคาตอบรับ Q2 2026 print ร่วง **-7.17% after-hours** จาก pre-earnings level สู่ **$544.90** (VERIFIED MANUAL price — ยืนยันจาก After Hours screenshot ของโอ๊ต, แหล่งราคาอัตโนมัติวันนี้ยังไม่อัพเดท). FV Base คงที่ $722 (ไม่ปรับ — ดูเหตุผลใน WAF breakdown ด้านล่าง: management ระบุชัดว่า margin compression ส่วนใหญ่เป็น one-time legal+severance ไม่ใช่ earnings-power reset) → MoS ขยายจาก 17.56%→**24.53%**, ดีที่สุดตั้งแต่กลางปี 2026. ⚠️ 10-Q Q2 2026 ยังไม่ยื่น — FV Base นี้ยังอิง consensus EPS จาก 07-15 (pre-Q2) จะ re-verify เมื่อ analyst estimates อัพเดทหลัง 10-Q ออก.
 
-### Snapshot (Watchlist Refresh)
+### Snapshot (Single-Stock Deep Dive)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $595.19 | — |
-| Fair Value Base | $722 | — |
-| **Margin of Safety** | **17.56%** | ✓ PASS (Gate 15%) — ทะลุ full gate ครั้งแรกตั้งแต่ราคาวิ่งขึ้นต้นเดือน |
-| Consensus EPS Growth (used in ER) | 13.8%/yr | FY26E EPS $31.94 → FY27E $36.33 = +13.74% (stockanalysis.com, 59 analysts); corroborated by Simply Wall St ~13.3%/yr |
-| **5-yr Expected Return** | **17.74%/yr** | ✓ PASS (Gate ≥15%) — convergence 3.94% + consensus growth 13.8%; อยู่ใน 15-20% HOLD band ของ Holdings Return Recheck (ไม่ใช่ >20% ADD) |
-| Forward P/E | 18.63× (595.19 ÷ consensus EPS $31.94) | — |
-| PEG | 1.35 | ✓ PASS (Effective Cap 1.5) — margin คืนมาจาก 1.50 พอดี-cap รอบก่อน หลังราคาย่อ |
+| Current Price | $544.90 | VERIFIED MANUAL (post-earnings AH, -7.17%) |
+| Fair Value Base | $722 | Unchanged from 07-25 batch — ดู rationale ด้านล่าง |
+| **Margin of Safety** | **24.53%** | ✓ PASS (Gate 15%) — ขยายจาก 17.56%, best entry point since mid-2026 |
+| Consensus EPS Growth (used in ER) | 13.8%/yr | FY26E EPS $31.94 → FY27E $36.33 = +13.74% (stockanalysis.com, 59 analysts, ณ 07-15 — ยังไม่มี post-Q2 revision ให้ตรวจ) |
+| **5-yr Expected Return** | **19.59%/yr** | ✓ PASS (Gate ≥15%) — convergence 5.79% + consensus growth 13.8%; ใกล้ขอบบนของ 15-20% HOLD band (เกือบเข้า >20% ADD) |
+| Forward P/E | 17.06× (544.90 ÷ consensus EPS $31.94) | — |
+| PEG | 1.24 | ✓ PASS (Effective Cap 1.5) — คลายลงจาก 1.35 จากราคาที่ย่อ |
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $850 | +42.8% | Premium multiple × growth acceleration |
-| **Base** | $722 | +21.3% | Base multiple × consensus EPS (unchanged) |
-| **Bear** | $560 | -5.9% | Compressed multiple × thesis break (FTC divestiture / Llama liability) |
+| **Bull** | $850 | +56.0% | Premium multiple × growth acceleration — Q2 ad-AI metrics (clicks +8.3%/conv +15.7%) support this case กว่ารอบก่อน |
+| **Base** | $722 | +32.5% | Base multiple × consensus EPS (unchanged) — Q2 revenue +28% confirms trajectory; one-time charges excluded from normalized earnings power per management framing |
+| **Bear** | $560 | -2.7% | Compressed multiple × thesis break (FTC divestiture / Llama liability / EU monetization drag becoming structural) — probability of this path rose slightly this quarter (EU regs now hitting revenue directly, not just fines; youth-litigation language escalated to "material loss") though the number itself unchanged |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 9.0 | 30% | 2.70 | Unchanged — 3.56B DAP network effect + ad flywheel intact; no new fundamental evidence this round (Q2 2026 earnings pending) |
-| GP (Growth Potential) | 9.0 | 30% | 2.70 | Unchanged — no new quarter data since last gate; Q1 2026 OM 41% record still the latest evidence |
-| VA (Valuation) | 6.5 | 25% | 1.625 | ขึ้นจาก 5.5 — ราคาย่อ -7.9% ดัน MoS 8.4%→17.56% ทะลุ full gate; PEG คลายเป็น 1.35 (จาก 1.50 พอดี-cap), ER 17.74%/yr margin ดีขึ้น |
-| RA (Risk Assessment) | 5.3 | 15% | 0.80 | Unchanged — legal/regulatory overhang (FTC/IRS/DSA/Llama/Tennessee) ยังอยู่, ไม่มีข้อมูลใหม่เปลี่ยน risk profile |
-| **WAF Total** | **7.82** | | **HIGH** | |
+| BQ (Business Quality) | 9.0 | 30% | 2.70 | Unchanged — 3.6B DAP network effect + ad flywheel intact; Q2 actually strengthens evidence (ad clicks +8.3%/conversion +15.7%, best flywheel numbers yet). One-time legal/severance charges don't touch moat quality. |
+| GP (Growth Potential) | 9.0 | 30% | 2.70 | Unchanged — revenue growth +28% (accelerated from +27% cc), FoA Other +73% new $1B milestone, Advantage+ $75B run-rate (up from $60B); Q3 guide implies deceleration but absolute growth trajectory still very strong |
+| VA (Valuation) | 7.5 | 25% | 1.875 | ขึ้นจาก 6.5 — ราคาร่วง -7.17% post-earnings ดัน MoS 17.56%→24.53% ทะลุ gate ชัดเจนกว่าเดิม; PEG คลายเป็น 1.24; ER 19.59%/yr เกือบแตะ 20% ADD threshold |
+| RA (Risk Assessment) | 4.8 | 15% | 0.72 | ลงจาก 5.3 — FCF ใกล้ศูนย์ ($784M, -91%) ครั้งแรก + debt เพิ่ม $24.91B ในไตรมาสเดียว (ลด financial flexibility) + tax rate guide ขึ้น 13-16%→15-17% ไม่มีคำอธิบายชัดเจน + EU less-personalized-ads เริ่มกระทบ revenue โดยตรงเป็นครั้งแรก (ไม่ใช่แค่ค่าปรับ) + youth-litigation language เข้มขึ้นเป็น "material loss" + legal charge $2.4B ไม่ระบุที่มาเจาะจง (รอ 10-Q) |
+| **WAF Total** | **8.00** | | **HIGH** | ขึ้นจาก 7.82 — คุณภาพ/growth คงเดิม, valuation ดีขึ้นชัดเจนจากราคาที่ย่อ, ชดเชยบางส่วนด้วย risk ที่เพิ่มขึ้นจาก FCF crash + debt + regulatory bite เริ่มเป็นจริง |
 
-**Investment Idea:** ราคาย่อ $646.01(07-18)→$595.19 (-7.9%, broad pullback) ทำให้ MoS ฟื้น 10.5%→**17.56% ทะลุ full gate 15% ครั้งแรก** ตั้งแต่ราคาวิ่งขึ้นแรงต้นเดือน โดย FV Base คงที่ $722 (Q2 2026 รอ 29 ก.ค.) — margin of safety กลับมาจริงจากราคาย่อ ไม่ใช่ FV ขึ้น. ทั้ง 4 ด่านผ่านเชิงกลไก: MoS 17.56% / PEG 1.35 / ER 17.74%/yr (convergence 3.94% + consensus growth 13.8%) / WAF 7.82 HIGH. **แต่ META เป็น holding ที่ถืออยู่** → Holdings Return Recheck คุม: ER 17.74% อยู่ใน band 15-20% = **HOLD** (ยังชนะ QQQM) ไม่ใช่ >20% ADD → ถือต่อ ไม่เติมไม้ใหม่; ถ้าจะเติมไม้เล็ก STARTER-style ก็พอทำได้ตามกฎ (Tier🚀 + MoS ผ่าน full gate) แต่ default = HOLD รอ Q2 29 ก.ค. ยืนยัน momentum ก่อน.
+**Investment Idea:** Q2 2026 print มี headline ลบชัดเจน (FCF -91%, Op Margin 43%→31%, EPS -13%) ที่กดราคาลง -7.17% after-hours สู่ $544.90 — แต่ตัวเลข underlying (revenue +28%, ad-AI metrics ดีขึ้น, ex-one-time op income +9% YoY ตาม management) ยืนยันว่า thesis หลักยังไม่พัง ส่วนใหญ่เป็น one-time charges (legal $2.4B + severance $1.18B) และ CapEx-timing (ไม่ใช่ earnings-power deterioration). MoS ขยายจาก 17.56%→**24.53%** ทั้งที่ FV Base ไม่เปลี่ยน — นี่คือราคาเข้าที่ดีที่สุดตั้งแต่กลางปี 2026. ทั้ง 4 ด่านผ่านเชิงกลไก: MoS 24.53% / PEG 1.24 / ER 19.59%/yr / WAF 8.00 HIGH. **META เป็น holding ที่ถืออยู่** → Holdings Return Recheck คุม: ER 19.59% อยู่ที่ขอบบนสุดของ band 15-20% เกือบแตะ 20% ADD threshold → **HOLD ที่แข็งแกร่งกว่ารอบก่อนมาก**, การเติมไม้เพิ่มมีเหตุผลรองรับดีกว่ารอบ 07-25 หากโอ๊ตต้องการ (ไม่ใช่ default action แต่ไม่ใช่ WATCH หรือ AVOID เช่นกัน).
 
-**Thesis:** DAP 3.56B + Q1 rev +33% OpMargin 41% record + FCF $12.4B/ไตรมาส + Crusoe 1.6GW compute diversification + Samsung AI chip deal $6.5B; MoS กลับเข้า full gate หลังราคาย่อ — ถือต่อในฐานะ core holding
+**Thesis:** DAP 3.6B + Q2 revenue $60.8B (+28%) + ad-AI flywheel เร่งตัว (clicks +8.3%/conversion +15.7%) + Advantage+ $75B run-rate + Muse Image/Video ใหม่ + BlackRock JV compute diversification; ราคาร่วงจาก one-time earnings noise ไม่ใช่ thesis break — MoS ดีที่สุดในรอบหลายเดือน ถือต่อในฐานะ core holding
 
-**Thesis Risk:** CapEx $125-145B 2x YoY; Reality Labs ขาดทุน $19B; FTC antitrust Instagram/WhatsApp; Llama copyright class action; Tennessee youth-addiction suit (07-21); IRS $15.89B + EU DSA overhang; Q2 earnings 29 ก.ค. ไม่ยืนยัน momentum ที่ราคา price-in → FV $722 ต้องปรับลง
+**Thesis Risk:** CapEx $130-145B narrowed upward; FCF ใกล้ศูนย์ ($784M) + debt +$24.91B ในไตรมาสเดียว — ถ้า CapEx ยังโตเร็วกว่า OCF อาจต้องพึ่ง debt เพิ่มต่อเนื่อง; Reality Labs ขาดทุน $4.62B/ไตรมาส ยังไม่เห็น peak; FTC antitrust appeal; Llama copyright class action; youth-litigation "material loss" language ใหม่; IRS $15.89B + EU DSA $12B overhang; EU less-personalized-ads เริ่มกระทบ revenue จริงใน Q3 guide — ถ้าลุกลามหลายไตรมาส FV Base $722 ต้องปรับลง; legal charges $2.4B ไม่ระบุที่มา รอ 10-Q ยืนยัน one-time จริงหรือไม่
 
-**Action:** ⏸️ **HOLD** — held name, MoS 17.56% ผ่าน full gate ✓, PEG 1.35 ✓, ER 17.74%/yr ✓, WAF 7.82 HIGH; แต่ ER อยู่ใน 15-20% HOLD band ของ Holdings Return Recheck → ถือต่อ ไม่เติมไม้ใหม่ (แก้จาก racy 07-25 ที่ mark BUY — held name ใช้ ER-based recheck ไม่ใช่ BUY gate); Q2 29 ก.ค. เป็น catalyst ระยะสั้น. ⚠️ ถ้าราคาวิ่งกลับขึ้นโดยไม่มี earnings รองรับ ER จะหลุด <15% เข้าเขต "HOLD + Flag" เร็ว
+**Action:** ⏸️ **HOLD** (แข็งแกร่งขึ้น) — held name, MoS 24.53% ผ่าน full gate ชัดเจน ✓, PEG 1.24 ✓, ER 19.59%/yr ✓ (เกือบแตะ 20% ADD), WAF 8.00 HIGH; Holdings Return Recheck ยังจัดอยู่ใน 15-20% HOLD band (ไม่ใช่ >20% ADD อย่างเป็นทางการ) → ถือต่อเป็น default, แต่นี่คือรอบที่ metrics แข็งแกร่งที่สุดตั้งแต่กลางปี — ถ้าโอ๊ตต้องการเติมไม้เพิ่มก็มีเหตุผลรองรับดีกว่ารอบก่อนมาก. ⚠️ รอ 10-Q Q2 2026 ยืนยัน breakdown ของ legal charges + debt terms ก่อน re-verify FV Base เต็มรูปแบบ
 
 ---
 `,
 
 "MSFT": `# Microsoft (MSFT) · Big Tech / Cloud + Enterprise Software + AI
 
-**Last Updated:** 2026-05-17
-**Source:** Primary Documents — 10K FY2025, 10Q Q1–Q3 FY2026, Earnings Call Q4 FY2025 / Q1–Q3 FY2026, Earnings Presentations Q4 FY2025 / Q1–Q3 FY2026, Analyst Event Mar 2026, Shareholder Meeting Dec 2025
+**Last Updated:** 2026-07-30
+**Source:** Primary Documents — 10K FY2026 (annual, filed with Q4), 10K FY2025, 10Q Q1–Q3 FY2026, Earnings Call Q4 FY2025–Q4 FY2026, Earnings Presentations Q4 FY2025–Q4 FY2026, Outlook Deck FY27Q1, Analyst Event Mar 2026, Shareholder Meeting Dec 2025
 **Trend Tags:** [[AI-Infrastructure]] [[Cloud-Acceleration]] [[Agentic-AI]]
 
 ---
@@ -4266,94 +4337,125 @@ Microsoft เป็น "AI-powered platform company" ที่มีธุรก
 
 Fiscal Year MSFT สิ้นสุด 30 มิถุนายน ทุกปี (ไม่ตรงกับ Calendar Year)
 
-**Revenue by Segment — Q3 FY2026 (Calendar Q1 2026, Jan–Mar 2026)**
+**Revenue by Segment — Q4 FY2026 (Calendar Q2 2026, Apr–Jun 2026) — Most Recent**
 | Segment | Revenue | % of Total | YoY |
 |---------|---------|------------|-----|
-| Productivity & Business Processes | $35.0B | 42% | +17% |
-| Intelligent Cloud | $34.7B | 42% | +30% |
-| More Personal Computing | $13.2B | 16% | −1% |
-| **Total** | **$82.9B** | | **+18%** |
+| Productivity & Business Processes | $37.8B | 42% | +14% |
+| Intelligent Cloud | $39.3B | 44% | +32% |
+| More Personal Computing | $12.9B | 14% | −4% |
+| **Total** | **$90.0B** | | **+18%** |
 
-**Microsoft Cloud Revenue** (รวม M365 Commercial cloud, Azure, LinkedIn commercial, Dynamics 365): **$54.5B** (+29% YoY) — Gross Margin 66% (ลด YoY จาก AI infra investment)
+**Microsoft Cloud Revenue** (รวม M365 Commercial cloud, Azure, LinkedIn commercial, Dynamics 365): **$59.3B** (+27% YoY) — Gross Margin 65% (ลด YoY จาก AI infra investment, ชดเชยบางส่วนด้วย efficiency gains ใน Azure/M365)
+
+FY2026 full year Microsoft Cloud revenue: **$214.4B** (+27%), Azure full year surpassed **$100B** for the first time (+41% full year)
 
 ---
 
 ## Latest Financials
 
-### Q3 FY2026 — Most Recent (สิ้นสุด 31 มีนาคม 2026)
+### Q4 FY2026 — Most Recent (สิ้นสุด 30 มิถุนายน 2026)
 
-| Metric | Q3 FY2026 | YoY |
+| Metric | Q4 FY2026 | YoY |
 |--------|-----------|-----|
-| Revenue | $82,886M | +18% (+15% CC) |
-| Cost of Revenue | $26,828M | +22% |
-| Gross Margin | $56,058M | +16% |
-| Gross Margin % | 68% | −1 pt |
-| Operating Expenses | $17,660M | +9% |
-| Operating Income | $38,398M | +20% |
-| Operating Margin | 46% | +1 pt |
-| Other Income/Expense | $942M | — |
-| Net Income | $31,778M | +23% |
-| EPS Diluted (GAAP) | $4.27 | +23% |
-| EPS Diluted (non-GAAP, ex-OpenAI) | $4.27 | +21% |
-| Cash from Operations | $46,679M | +26% |
-| Free Cash Flow | $15,803M | −22% |
-| CapEx (incl. finance leases) | $31,900M | +49% |
-| Cash Paid for PP&E | $30,876M | +84% |
+| Revenue | $90,007M | +18% (+17% CC) |
+| Cost of Revenue | $29,525M | +23% |
+| Gross Margin | $60,482M | +15% |
+| Gross Margin % | 67% | −1 pt |
+| Operating Expenses | $19,879M | +10% |
+| Operating Income | $40,603M | +18% |
+| Operating Margin | 45% | 0 pt |
+| Other Income/Expense | $3,444M | — (รวม gain $3.2B จากการลงทุนใน Anthropic) |
+| Net Income (GAAP) | $35,766M | +31% |
+| Net Income (non-GAAP, ex-OpenAI) | $35,286M | +22% |
+| EPS Diluted (GAAP) | $4.81 | +32% |
+| EPS Diluted (non-GAAP, ex-OpenAI) | $4.74 | +23% |
+| Cash from Operations | $55,441M | +30% |
+| Free Cash Flow | $19,600M | −23% |
+| CapEx (incl. finance leases) | $41,000M | +70% |
+| Cash Paid for PP&E | $35,802M | +110% |
+| Effective Tax Rate | 19% | +2 pt |
 
-**Returned to Shareholders Q3 FY2026:**
+**Discrete Items vs Guidance (Q4 FY2026):** Beat guidance by **+$0.27 EPS** — เกิดจาก gain $3.2B จากการลงทุนใน **Anthropic** (+$0.33 EPS) หักลบด้วย severance expense + XBOX impairment charges (−$0.06 EPS, offset บางส่วนด้วย lower-than-expected Voluntary Retirement Program cost)
+
+**Returned to Shareholders Q4 FY2026:**
 - Dividends: $6.8B
 - Share Repurchases: $3.4B
-- Total: $10.2B
+- Total: $10.2B (FY2026 full year total: **$43B+**)
 
-**Segment Operating Income Q3 FY2026:**
+**Segment Operating Income Q4 FY2026:**
 | Segment | Op Income | Margin | YoY |
 |---------|-----------|--------|-----|
-| Productivity & Business Processes | $21.0B | 60% | +21% |
-| Intelligent Cloud | $13.8B | 40% | +24% |
-| More Personal Computing | $3.7B | 28% | +4% |
+| Productivity & Business Processes | $21.9B | 58% | +15% (+14% CC) |
+| Intelligent Cloud | $16.0B | 41% | +31% |
+| More Personal Computing | $2.7B | 21% | −14% (−15% CC) |
 
-### FY2025 Full Year (สิ้นสุด 30 มิถุนายน 2025)
+### FY2026 Full Year (สิ้นสุด 30 มิถุนายน 2026)
+
+| Metric | FY2026 | YoY |
+|--------|--------|-----|
+| Revenue | $331,839M | +18% (+16% CC) |
+| Gross Margin | $225,465M | +16% |
+| Gross Margin % | 67.9% | −0.9 pt |
+| Operating Income | $155,237M | +21% (+19% CC) |
+| Operating Margin | 46.8% | +1 pt |
+| Net Income (GAAP) | $133,749M | +31% |
+| Net Income (non-GAAP, ex-OpenAI) | $128,786M | +22% |
+| EPS Diluted (GAAP) | $17.95 | +32% |
+| EPS Diluted (non-GAAP, ex-OpenAI) | $17.28 | +22% |
+| Cash from Operations | $182,935M | +34% |
+| Cash CapEx (PP&E additions) | $115,948M | +80% |
+| Effective Tax Rate | 19% | +1 pt (จาก mix ของกำไร US vs ต่างประเทศ) |
+| U.S. Income Before Tax | $103.6B | — |
+| Foreign Income Before Tax | $62.3B | — |
+| Headcount (full-time) | ~223,000 | −2% YoY |
+
+**FY2026 Segment Revenue & Op Income:**
+| Segment | Revenue | Op Income | Margin |
+|---------|---------|-----------|--------|
+| PBP | $139,996M (+16%) | $83,879M | 60% (+20%) |
+| Intelligent Cloud | $137,791M (+30%) | $56,972M | 41% (+28%) |
+| More Personal Computing | $54,052M (−1%) | $14,386M | 27% (+2%) |
+
+### FY2025 Full Year (สิ้นสุด 30 มิถุนายน 2025) — เปรียบเทียบ
 
 | Metric | FY2025 | YoY |
 |--------|--------|-----|
 | Revenue | $281,724M | +15% |
-| Gross Margin | $193,893M | +13% |
-| Gross Margin % | 68.8% | −1 pt |
-| Operating Income | $128,528M | +17% |
-| Operating Margin | 45.6% | +1 pt |
 | Net Income | $101,832M | +16% |
 | EPS Diluted | $13.64 | +16% |
-| Cash from Operations | $136,162M | +15% |
 | Cash CapEx (PP&E additions) | $64,551M | +45% |
-| FCF (cash-basis) | ~$71.6B | −11% |
 
-**FY2025 Segment Revenue & Op Income:**
-| Segment | Revenue | Op Income | Margin |
-|---------|---------|-----------|--------|
-| PBP | $120,810M (+13%) | $69,773M | 58% |
-| Intelligent Cloud | $106,265M (+21%) | $44,589M | 42% |
-| More Personal Computing | $54,649M (+7%) | $14,166M | 26% |
+### Q1 FY2027 Guidance (ไตรมาสถัดไป Jul–Sep 2026)
 
-### Q4 FY2026 Guidance (ไตรมาสถัดไป Jul–Sep 2026 หมายเหตุ: Q4 FY = Apr–Jun 2026)
-
-*ประกาศวันที่ 29 เมษายน 2026 บน Earnings Call Q3 FY2026*
+*ประกาศวันที่ 29 กรกฎาคม 2026 บน Earnings Call Q4 FY2026 + Outlook Deck FY27Q1*
 
 | Segment | Guidance | YoY Growth |
 |---------|----------|------------|
-| Productivity & Business Processes | $37.0–$37.3B | +12%–13% |
-| Intelligent Cloud | $37.95–$38.25B | +27%–28% |
-| More Personal Computing | $11.75–$12.25B | — |
-| **Total (implied)** | **~$86.7–$87.8B** | **~+13–15%** |
+| Productivity and Business Processes | $36.7–$37.0B | +11%–12% |
+| Intelligent Cloud | $40.95–$41.25B | +33%–34% |
+| More Personal Computing | $12.2–$12.7B | — |
+| **Total** | **$89.85–$90.95B** | **+16%–17%** |
 
-- Azure: +39%–40% CC
-- Microsoft Cloud gross margin: ~64% (ลด YoY จาก AI infra + GitHub Copilot usage-based model)
-- COGS guidance: $29.4–$29.6B (+22%–23%) — รวม ~$350M one-time voluntary retirement program
-- OpEx guidance: $19.3–$19.4B (+7%) — รวม ~$550M one-time voluntary retirement program
-- **Q4 Total one-time retirement costs: ~$900M**
-- CapEx Q4: >$40B (รวม ~$5B จาก higher component pricing + finance leases)
-- **CY2026 CapEx target: ~$190B** (รวม ~$25B จาก higher component pricing)
-- Full-year FY2026 operating margin: คาดว่าจะ +~1 pt YoY
-- Effective tax rate Q4: ~19%
+- Azure: ~45% CC growth (accelerating from Q4's 43%); H1 FY27 Azure growth คาดเร่งขึ้นเทียบ H2 FY26
+- M365 Commercial cloud: ~16% CC (adjusted) / ~15% CC (reported)
+- Windows OEM & Devices: decline low-twenties (PC market demand อ่อน + component cost สูง + inventory levels)
+- Server products: decline low-to-mid-single digits
+- Search advertising ex-TAC: mid-single digit growth
+- COGS guidance: $29.6–$29.8B (+23%–24%)
+- OpEx guidance: $16.8–$16.9B (+7%–8%)
+- Other income/expense (ex-OpenAI impact): ~−$100M
+- **CapEx Q1 FY2027: over $50B** (รวม lease reclassification impact จาก useful-life change)
+- Effective tax rate: ~20% (ทั้ง Q1 และ full FY2027)
+
+**FY2027 Full Year Outlook:**
+- Revenue + Operating Income: double-digit growth ต่อเนื่อง
+- OpEx growth: mid-to-high-single digits
+- Operating margin: ลดลง <1 pt YoY (แม้ลงทุน AI หนัก)
+- FCF: คาดเป็นบวกต่อเนื่องตลอดปี
+- CapEx: คาดโตขึ้น YoY (demand signal ทั่วพอร์ต)
+- **CY2026 CapEx target: ~$175B** (ปรับจาก ~$190B — investment level เดิม แต่ reclassify จาก finance lease → operating lease เพราะ useful-life extension, ไม่ใช่การลดลงทุนจริง)
+
+**⚠️ Accounting Change (มีผล FY27):** เริ่ม FY2027 MSFT ขยาย estimated useful life ของ datacenter/office buildings จาก **15 ปี → 25 ปี** — ผลคือ (1) ลด depreciation ในอนาคต (minimal benefit ต่อ FY27 operating income ตามที่บริษัทระบุ) (2) datacenter lease ใหม่จำนวนมากจะ shift จาก finance lease → operating lease (ไม่นับใน CapEx) ทำให้ headline CapEx ดูลดลงทั้งที่ investment level จริงไม่เปลี่ยน — ต้องระวังเปรียบเทียบ CapEx ข้ามปีหลัง FY27
 
 ---
 
@@ -4362,17 +4464,24 @@ Fiscal Year MSFT สิ้นสุด 30 มิถุนายน ทุกป�
 | Role | Name |
 |------|------|
 | Chairman & CEO | Satya Nadella |
+| CEO, Microsoft Commercial Business | Judson B. Althoff (แต่งตั้ง ต.ค. 2025 — เดิม Chief Commercial Officer) |
 | CFO | Amy E. Hood |
-| Chief Accounting Officer | Jonathan Neilson |
+| EVP & Chief HR Officer | Amy L. Coleman (แต่งตั้ง มี.ค. 2025) |
+| EVP & Chief Marketing Officer | Takeshi Numoto |
+| Vice Chair & President | Bradford L. Smith |
+| Chief Accounting Officer | Alice Jolla |
 
-**Satya Nadella's Core Vision Q3 FY2026:**
-- "Every layer of the tech stack is being reinvented" — AI เข้าสู่ทุก product
-- Transition จาก AI assistant → **AI coworkers (Agentic AI)** ที่ทำงานซับซ้อนได้เอง
-- Copilot + Azure AI Foundry เป็น backbone ของ "AI platform era"
+**Satya Nadella's Core Vision Q4 FY2026:**
+- "We are advancing the frontier on the cost-to-outcome curve, ensuring every customer can turn tokens into business results. This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million paid seats" — Earnings Call 29 ก.ค. 2026
+- Model choice + IP protection คือ 2 เป้าหมายหลัก: "the goal is to have the firm be in control of their own destiny... they need their own learning machine" — ตอบคำถามเรื่อง open/custom models
+- Product architecture ใหม่: harness/context/memory แยกออกจาก model family → ทุก model "substitutable" (resilience + cost control)
+- XBOX: "we believe we can bring these strengths together and expect to return the business to growth in fiscal 2027"
 
-**Amy Hood (CFO):**
-- Disciplined on CapEx ROI: แยก 2/3 short-lived assets (GPUs/CPUs) vs 1/3 long-lived
-- Guidance cadence strict — beat Q3 guidance ทุก metric
+**Amy Hood (CFO) — Q4 FY2026 Highlights:**
+- "We delivered a strong quarter to close out the fiscal year, highlighted by Microsoft Cloud revenue of $59.3 billion, up 27% year-over-year"
+- Efficiency gains (CPU/GPU fleet + faster capacity delivery) ถูก "quickly monetized" เมื่อ demand > supply — driver หลักของ Azure acceleration 39%→43%
+- ยืนยันวินัย CapEx: ~2/3 short-lived assets (CPU/GPU) ยังคง flexible ปรับลดได้เร็วถ้า demand เปลี่ยน; ~1/3 long-lived (ที่ดิน/อาคาร) ก็ปรับ timing ได้เช่นกัน
+- ประกาศเปลี่ยน useful life datacenter/office 15→25 ปี มีผล FY27 (ดู Latest Financials)
 
 ---
 
@@ -4387,15 +4496,16 @@ Windows + Office + Azure + Teams + GitHub + LinkedIn
 → **Enterprise lock-in ระดับสูงมาก** — switching cost ทั้งด้าน data, skill, และ workflow
 
 ### 3. Developer Ecosystem
-- **GitHub**: 180M+ developers (Q1 FY2026) — fastest growth in GitHub history, adding a developer every second
-- GitHub Copilot: 4.7M paid subscribers (+75% YoY), 90% of Fortune 100 use it
-- GitHub Agent HQ: organizing layer สำหรับ coding agents จากทุก vendor (Anthropic, OpenAI, Google, xAI)
-- GitHub Copilot usage-based model เปลี่ยนเป็น usage pricing มิถุนายน 2026
+- **GitHub**: 225M users (Q4 FY2026, จาก 180M ใน Q1 FY2026) — every major coding agent runs on GitHub, 1 ใน 3 pull requests ตอนนี้มี agent เกี่ยวข้อง
+- **GitHub Copilot**: 50M users (Q4 FY2026) — Copilot revenue accelerated >60% QoQ หลังเปลี่ยนเป็น usage-based billing มิ.ย. 2026
+- 90%+ ของ Fortune 500 เลือก GitHub สำหรับ AI-powered development
+- MAI-Code-1-Flash (in-house model) ให้ code acceptance สูงขึ้น + token usage ลดลง 10% บน GitHub Copilot — ลด dependency ต่อ 3rd-party model providers
 
 ### 4. Custom Silicon (Maia + Cobalt)
-- **Maia 200**: 10+ petaFLOPS @ FP4, 30%+ better TCO vs latest-gen fleet hardware — brought online Q2 FY2026, scaling inferencing + synthetic data gen
-- **Cobalt 200**: 50%+ higher performance vs first-gen Cobalt — deployed across ~half of DC regions
-- ลด NVIDIA dependency → improve gross margin และ supply flexibility
+- **Maia 200**: กำลัง scale ต่อเนื่อง — 30% better performance-per-dollar vs latest-gen fleet hardware, รองรับทั้ง OpenAI และ MAI models; 40% better perf/watt เมื่อรัน MAI models บน Maia 200
+- **Cobalt 200**: จะมี racks ใน 25+ datacenters ทั่วโลกภายในสิ้นเดือน ก.ค. 2026 — กำลังขยาย capacity เร็ว
+- Silicon co-design กับ in-house models (MAI family) → efficiency gains ที่ 3rd-party chip ให้ไม่ได้
+- ลด NVIDIA/AMD dependency → improve gross margin และ supply flexibility (แต่ยังคงใช้ NVIDIA Vera Rubin + AMD Helios รุ่นถัดไปควบคู่)
 
 ### 5.5 Work IQ (Enterprise Data Lock-In ชั้นใหม่)
 - Work IQ คือ "database ใต้ M365" — รวม emails, meetings, docs, chats, calendar ขององค์กรทั้งหมด
@@ -4404,17 +4514,19 @@ Windows + Office + Azure + Teams + GitHub + LinkedIn
 - Satya (Mar 2026): "the next Office, which is bigger than all prior Office, may be headless" — AI agents as new TAM expansion
 
 ### 5. OpenAI Partnership & IP Rights
-- ~**27% equity stake** ใน OpenAI (equity method, Oct 2025 extended + Apr 2026 extended)
-- Revenue share + API exclusivity for Azure: ต่อเนื่องจนถึง AGI หรือ 2030
-- **Model & product IP rights: ขยายถึง 2032** (ประกาศ Oct 2025)
-- OpenAI contracted incremental **$250B Azure services** → RPO jump
-- "ลงทุน 10x แล้ว" จาก initial investment ตาม Satya Nadella (Oct 2025)
-- OpenAI ต้องซื้อ compute บน Azure → **captive demand**
+- **~25% equity interest** ใน OpenAI (as-converted basis, ลดจาก ~27% เพราะ dilution จาก OpenAI Recapitalization ต.ค. 2025 + funding activity เพิ่มเติม) — equity method investment, OpenAI เป็น related party
+- FY2026: revenue จาก commercial arrangements กับ OpenAI (รวม revenue-sharing) = **$24.1B**; accounts receivable จาก OpenAI ณ 30 มิ.ย. 2026 = **$6.0B**
+- Total funding to OpenAI to date: มากกว่า commitment เดิม (ตัวเลขไม่ระบุเจาะจงใน 10K แต่ยืนยันยังคง fund ต่อเนื่อง)
+- **Model & product IP rights: ขยายถึง 2032** (ประกาศ Oct 2025); ต่อสัญญาเพิ่มอีกครั้ง เม.ย. 2026
+- OpenAI ต้องซื้อ compute บน Azure → **captive demand** (แม้ signal ว่า OpenAI เริ่มใช้ multi-cloud มากขึ้น)
+- **⚠️ แยกจาก Anthropic:** Q4 FY2026 มี gain $3.2B แยกต่างหากจากการลงทุนใน **Anthropic** (competitor ของ OpenAI) — สะท้อนกลยุทธ์ multi-model ของ MSFT เอง ไม่ผูกกับ OpenAI เพียงรายเดียว
 
-### 6. Commercial RPO $627B
+### 6. Commercial RPO $678B
 - Backlog มหาศาล (รวม OpenAI commitments) → **revenue visibility สูงสุดในอุตสาหกรรม**
-- +99% YoY (excl. OpenAI: +26%) — weighted avg duration 2.5 ปี
-- ~25% จะรับรู้ revenue ใน 12 เดือนหน้า (+39%); ส่วนที่เหลือ +138% YoY
+- +84% YoY (excl. OpenAI: +25%) — weighted avg duration 2.3 ปี
+- All sequential RPO growth ไตรมาสนี้มาจาก customers **นอกกลุ่ม frontier model companies** — สัญญาณว่า demand กว้างขึ้นไม่ได้พึ่ง OpenAI อย่างเดียว
+- ~30% จะรับรู้ revenue ใน 12 เดือนหน้า (+37% YoY); ส่วนที่เหลือ +112% YoY
+- Commercial bookings: +18% YoY (excl. OpenAI impact) จาก core annuity sales motions; +10%/+11% CC รวม OpenAI Azure commitments
 
 ---
 
@@ -4435,156 +4547,156 @@ Windows + Office + Azure + Teams + GitHub + LinkedIn
 
 ## Growth Catalysts
 
-### 1. AI ARR Compounding
-- AI ARR: **$37B (+123% YoY)** ณ Q3 FY2026
-- ARR นี้รวม frontier model companies (OpenAI) + first-party AI apps/services บน Azure
-- GPU/CPU/storage/networking ที่ AI customers ใช้เพิ่มเติม **ไม่รวมอยู่ใน $37B** → upside ใหญ่มาก
+### 1. AI ARR / Foundry Compounding
+- **Foundry**: 100,000 customers (Q4 FY2026), revenue **more than doubled YoY**; customers at 1-trillion-token annualized run rate เพิ่ม 4X YoY
+- PostgreSQL revenue +55% (เร่งขึ้นเป็นไตรมาสที่ 3 ติดต่อกัน); customers ที่ใช้ PostgreSQL ร่วมกับ Foundry เพิ่ม 80%
+- Nearly 90% ของ Fortune 500 ใช้ Foundry/Fabric/Work IQ grounding agents ใน enterprise context แล้ว
+- **Agent 365**: เปิดตัวมาแค่ 2 เดือน มี agents ลงทะเบียนแล้ว ~40 ล้าน agent ทั่วหลายหมื่นบริษัท
 
 ### 2. M365 Copilot Seat Expansion
-- **20M+ paid seats** (+250% YoY) — fastest-growing enterprise product in MSFT history
-- Deal ใหญ่สุด: Accenture 740,000 seats
-- Revenue model กำลัง shift จาก seat-based → usage/consumption-based → TAM expansion มหาศาล
-- M365 Commercial cloud growth: +19% (+15% CC) Q3 FY2026
+- **30M+ paid seats** (Q4 FY2026, net seat adds เพิ่มขึ้น 2 เท่าตัว QoQ) — fastest-growing enterprise product in MSFT history
+- Customers with 50,000+ seats เพิ่มขึ้น >7X YoY; enterprise ที่ deploy Copilot ให้ majority ของ information workers โต ~75% QoQ
+- E7 suite ใหม่ (Copilot+E5+Entra+Agent 365) — EY deploy 400,000 seats (largest win to date), หลาย enterprise ซื้อ millions of seats ภายใน 2 เดือนหลังเปิดตัว
+- Business model กำลัง evolve จาก per-seat → **per-seat-plus-consumption** — usage-based billing เพิ่มเข้า Cowork แล้ว
+- M365 Commercial cloud growth: +16% adjusted CC / +14% reported Q4 FY2026
 
 ### 3. Azure AI Capacity Unlock
-- Demand เกิน supply มา 6+ quarters → กำลังเร่ง delivery ของ capacity ใหม่
-- บน-track "double footprint ใน 2 ปี" — added 1GW capacity ใน Q3 FY2026
-- Q4 guidance Azure +39%–40% CC — strong demand signal ยังคงอยู่
+- Demand ยังคงเกิน supply ต่อเนื่องหลายไตรมาส — efficiency gains (CPU/GPU fleet) + faster capacity delivery ถูก "monetized ทันที" ในไตรมาส
+- เพิ่ม 31 datacenters ใหม่ใน 5 ทวีป (รวม 88 แห่งในปีนี้); เพิ่ม capacity อีก 1 gigawatt ในไตรมาสนี้ — on track double footprint ใน 2 ปี
+- Q1 FY2027 guidance Azure ~45% CC — เร่งขึ้นจาก Q4's 43%; H1 FY27 คาดเร่งต่อเนื่องเทียบ H2 FY26
 
-### 4. Agentic AI + Copilot Studio
-- Copilot Studio + Agent Builder: 80% Fortune 500 มี active agents แล้ว
-- LinkedIn Talent Solutions agentic ARR: >$450M
-- Pricing model กำลัง evolve: subscription + meter ไม่แยก human vs agent → TAM expansion
-- Transition จาก "assist" → "automate" → **autonomous work** กำลัง expand TAM
+### 4. Agentic AI + Copilot Evolution
+- Copilot วิวัฒนาการ: chat → **Cowork** (GA เดือนก่อน) → **Autopilots** (autonomous long-running agents, เปิดตัวไตรมาสนี้ รวม always-on personal agent บน OpenClaw)
+- User satisfaction เพิ่มขึ้น 2 เท่าใน 3 ไตรมาสที่ผ่านมา (all-time high); latency ลด 25% ในไตรมาสนี้; time-to-high-usage ลดจากหลายเดือนเหลือไม่กี่วัน
+- Dynamics 365: usage-based consumption ในหมวด customer service โต 4X QoQ; MCP actions >650,000 รายการเปิดให้ agent เข้าถึงได้
+- Purview audit >50 billion Copilot interactions (+~360% YoY) — governance stack รองรับ scale
 
 ### 5. Bing + Search Advertising
-- Bing MAU ถึง **1 billion** เป็นครั้งแรก (Q3 FY2026)
-- Search advertising ex-TAC: +12% (+9% CC) Q3 FY2026
-- AI-powered search ช่วยเพิ่ม revenue per search
+- Search advertising ex-TAC: +10% (+9% CC) Q4 FY2026; Bing+Edge share เพิ่มขึ้นต่อเนื่อง 5 ปีติดต่อกัน
+- LinkedIn: double-digit member growth ปีที่ 5 ติดต่อกัน; recruiter seats +140% QoQ (20,000+ companies ใช้ AI-powered hiring tools)
 
-### 5.5 Fabric & Data Platform
-- **Microsoft Fabric**: $2B+ annual revenue run rate (Q2 FY2026), 31,000+ customers, revenue +60% YoY
-- Fastest-growing analytics platform in the market (surpassed all competitors)
-- Fabric + Foundry Knowledge = unified IQ layer สำหรับ enterprise data grounding
-- SQL DB Hyperscale: +75% revenue; Cosmos DB: +50%
-
-### 6. CY2026 Infrastructure Platform
-- CapEx CY2026: ~$190B → build out capacity สำหรับ 2027+ demand
-- Finance leases ที่ยังไม่เริ่ม: **$196.6B** (commence FY2026–FY2031)
-- 70+ regions, 400+ datacenters
+### 6. CY2026-27 Infrastructure Platform
+- CY2026 CapEx target: ~$175B (ปรับจาก useful-life/lease reclassification, investment level เดิม); FY27 CapEx คาดโตต่อ YoY
+- Uncommenced datacenter leases เพิ่มขึ้นมากเป็น **$329.1B** (commence FY2027–FY2033) — จาก $196.6B ไตรมาสก่อน สะท้อน pipeline การขยายที่ใหญ่ขึ้นมาก
+- Microsoft Frontier Co. เปิดตัวเดือนนี้ — 6,000 industry/engineering experts embed กับลูกค้า, ทดสอบมาแล้ว 330+ projects กับ 164 customers (Novo Nordisk, LSEG ฯลฯ)
 
 ---
 
 ## Capital Structure
 
-### Balance Sheet (31 มีนาคม 2026)
+### Balance Sheet (30 มิถุนายน 2026 — 10-K FY2026)
 | Item | Amount |
 |------|--------|
-| Cash + Short-term Investments | $78.3B |
-| Equity & Other Investments | $33.7B (primarily OpenAI ~27%) |
-| Total Assets | $694.2B |
-| Total Current Liabilities | $136.7B |
-| Long-term Debt (carrying value) | $31.4B |
-| Current Portion LT Debt | $8.8B |
-| **Total Debt (face value)** | **$46.2B** |
-| Long-term Income Taxes | $27.9B |
-| Total Liabilities | $279.9B |
-| Stockholders' Equity | ~$414.4B |
+| Cash + Short-term Investments | $76.8B |
+| Equity & Other Investments | $36.3B (primarily OpenAI ~25% as-converted) |
+| Property & Equipment, net | $313.1B (จาก $205.0B ปีก่อน — AI infra buildout) |
+| Goodwill | $119.7B |
+| Total Assets | $758.4B |
+| Total Current Liabilities | $168.8B |
+| Long-term Debt (carrying value) | $31.1B |
+| Current Portion LT Debt | $9.2B |
+| **Total Debt (face value, principal)** | **$46.1B** |
+| Long-term Income Taxes | $28.6B |
+| Total Liabilities | $316.0B |
+| Stockholders' Equity | $442.4B |
 
-### Long-term Debt Maturity Profile
-| Year Ending June 30 | Amount |
-|--------------------|--------|
-| 2027 | $9,250M |
-| 2028 | $0 |
-| 2029 | $2,016M |
-| 2030 | $0 |
-| After 2030 | $34,890M |
-| **Total** | **$46,156M** |
+### Contractual Obligations (as of June 30, 2026)
+| Category | FY2027 | Thereafter | Total |
+|--------|-------------------|----------|----------------------|
+| Long-term debt principal | $9,250M | $36,886M | $46,136M |
+| Long-term debt interest | $1,405M | $24,148M | $25,553M |
+| Construction commitments | $29,848M | $4,718M | $34,566M |
+| Operating & finance leases (incl. imputed interest) | $32,411M | $411,095M | $443,506M |
+| Purchase commitments (primarily datacenters) | $169,008M | $25,052M | $194,060M |
+| **Total** | **$241,922M** | **$501,899M** | **$743,821M** |
 
-Debt ทั้งหมดเป็น senior unsecured obligations — fair value ประมาณ $36.6B (March 31, 2026)
+รวมภาระผูกพันตามสัญญาทั้งหมด (contractual obligations): **$743.8B** (ปีก่อน $397.0B — เกือบเท่าตัว จาก datacenter lease/purchase commitments ที่พุ่งขึ้นมาก สะท้อน AI capacity buildout ขนาดใหญ่ที่ผูกพันไปแล้ว)
+
+Debt ทั้งหมดเป็น senior unsecured obligations
 
 ### Share Repurchase Program
-- Program ปัจจุบัน: $60B (อนุมัติ September 2024, commenced April 2025)
-- **คงเหลือ: $44.0B** ณ 31 มีนาคม 2026
-- FY2026 9 months: repurchased 27M shares for $13.3B
-- Quarterly dividends: ~$6.8B/quarter (9M FY2026 dividends = $20.3B)
+- Program ปัจจุบัน: $60B (อนุมัติ September 2024, commenced April 2025 หลัง program เดิม $60B ปี 2021 เสร็จสิ้น)
+- **คงเหลือ: $40.6B** ณ 30 มิถุนายน 2026
+- FY2026 full year: repurchased 36M shares for $16.7B (FY2025: 31M shares/$13.0B)
+- FY2026 dividends declared: $27.0B (FY2025: $24.7B)
 
 ---
 
 ## CapEx & Infrastructure
 
-### CapEx Trend (รายไตรมาส)
-| Quarter | Total CapEx | Cash Paid |
+### CapEx Trend (รายไตรมาส, incl. finance leases)
+| Quarter | Total CapEx | Cash Paid for PP&E |
 |---------|------------|-----------|
-| Q3 FY2025 (Jan-Mar 2025) | $21.4B | $16.7B |
 | Q4 FY2025 (Apr-Jun 2025) | $24.2B | $17.1B |
 | Q1 FY2026 (Jul-Sep 2025) | $34.9B | $19.4B |
 | Q2 FY2026 (Oct-Dec 2025) | $37.5B | $29.9B |
 | Q3 FY2026 (Jan-Mar 2026) | $31.9B | $30.9B |
+| Q4 FY2026 (Apr-Jun 2026) | $41.0B | $35.8B |
 
-FY2025 full year cash CapEx (PP&E additions): **$64.6B** (+45% YoY)
-9M FY2026 cash CapEx: **~$80.2B**
-**CY2026 CapEx guidance: ~$190B** (รวม ~$25B higher component pricing)
+FY2026 full year cash CapEx (PP&E additions): **$115.9B** (+80% YoY)
+~2/3 ของ CapEx เป็น short-lived assets (CPUs/GPUs) → depreciation เร็ว, flexible ปรับลดได้เร็วถ้า demand เปลี่ยน
+~1/3 เป็น long-lived assets (datacenters ขนาดใหญ่) — useful life ขยายจาก 15→25 ปี มีผล FY27
 
-~2/3 ของ CapEx เป็น short-lived assets (GPUs/CPUs) → depreciation เร็ว
-~1/3 เป็น long-lived assets (datacenters ขนาดใหญ่) → เพื่อ monetize ใน 15 ปี+
+Finance leases (primarily large datacenter sites): $5.6B ใน Q4 FY2026 (FY2026 เฉลี่ย ~$7B/ไตรมาส)
+**Uncommenced datacenter leases: $329.1B** (commence FY2027–FY2033, เพิ่มขึ้นมากจาก $196.6B ไตรมาสก่อน)
 
-Finance leases (primarily datacenters): $4.7B ใน Q3 FY2026
-Uncommenced datacenter leases: **$196.6B** (commence FY2026–FY2031)
+**CY2026 CapEx target: ~$175B** (ปรับจาก ~$190B — investment level เดิม แต่ reclassify จาก finance→operating lease ตาม useful-life change, ดู Latest Financials); **FY27 CapEx คาดโตต่อ YoY**
 
-### FY2025 Contractual Obligations (as of June 30, 2025)
-| Category | Total |
-|----------|-------|
-| Long-term debt (principal + interest) | $76.2B |
-| Construction commitments | $32.1B |
-| Operating + finance leases | $178.7B |
-| Purchase commitments | $109.9B |
-| **Total** | **$397.0B** |
+### Contractual Obligations — YoY Comparison (Total column)
+| Category | FY2025 (June 30, 2025) | FY2026 (June 30, 2026) |
+|----------|------------------------|--------------------------|
+| Long-term debt (principal + interest) | $76.2B | $71.7B |
+| Construction commitments | $32.1B | $34.6B |
+| Operating + finance leases (incl. imputed interest) | $178.7B | $443.5B |
+| Purchase commitments | $109.9B | $194.1B |
+| **Total** | **$397.0B** | **$743.8B** |
 
 ---
 
 ## Risks & Watch List
 
 **[CRITICAL] IRS Tax Dispute — $28.9B+**
-IRS ออก Notices of Proposed Adjustment (NOPAs) เดือน September 2023 สำหรับปีภาษี 2004–2013 เรื่อง intercompany transfer pricing ขอเงินเพิ่ม **$28.9B plus penalties and interest** MSFT ยังอยู่ under audit ปีภาษี 2014–2017 ด้วย ปัจจุบัน contest ผ่าน IRS administrative appeals office ไม่คาดว่าจะมี resolution ใน 12 เดือนข้างหน้า Unrecognized tax benefits ณ 31 มีนาคม 2026: **$29.3B** (ใน long-term income taxes)
+IRS ออก Notices of Proposed Adjustment (NOPAs) เดือน September 2023 สำหรับปีภาษี 2004–2013 เรื่อง intercompany transfer pricing ขอเงินเพิ่ม **$28.9B plus penalties and interest** MSFT ยังอยู่ under audit ปีภาษี 2014–2017 ด้วย (10K FY2026 ยืนยันสถานะเดิม) ปัจจุบัน contest ผ่าน IRS administrative appeals office ไม่คาดว่าจะมี resolution ใน 12 เดือนข้างหน้า
 
-**[CRITICAL] CapEx ROI Risk — CY2026 $190B**
-CapEx ใน 9M FY2026 สูงถึง $80.2B (cash) + finance leases → FCF Q3 FY2026 ลง −22% YoY กำลัง invest ล่วงหน้าอย่างหนักสำหรับ AI demand ที่คาดว่าจะมา ถ้า demand ชะลอตัวจากเศรษฐกิจมหภาคหรือ AI hype เจือจาง จะกระทบ FCF อย่างหนัก
+**[CRITICAL] CapEx / Contractual Commitments Risk — FY27 CapEx โตต่อ + ภาระผูกพัน $743.8B**
+Cash CapEx FY2026 พุ่งเป็น $115.9B (+80% YoY) และ FY27 ประกาศชัดว่า "CapEx will grow year-over-year" — ยังไม่เห็นจุด peak. Total contractual obligations (debt+lease+purchase commitments) เพิ่มจาก $397.0B → **$743.8B** (เกือบเท่าตัวใน 1 ปี) ส่วนใหญ่จาก uncommenced datacenter leases ที่พุ่งจาก $196.6B → **$329.1B**. FCF Q4 FY2026 ยังคงลง −23% YoY แม้ operating income โตแรง — ถ้า AI demand ชะลอตัวหรือ ROIC ไม่ตามทันการลงทุนขนาดนี้ risk ต่อ balance sheet จะสูงขึ้นมาก
+
+**[HIGH] Datacenter Useful-Life Accounting Change (ผลบังคับใช้ FY27)**
+MSFT ขยาย estimated useful life ของ datacenter/office buildings จาก 15→25 ปี เริ่ม FY2027 — ลด depreciation ในอนาคตและ shift lease ใหม่จำนวนมากจาก finance lease (นับใน CapEx) ไปเป็น operating lease (ไม่นับใน CapEx) ทำให้ headline CapEx (CY2026 target ปรับจาก $190B→$175B) ดูลดลงทั้งที่ investment level จริงไม่เปลี่ยน — เป็น judgment call ทางบัญชีที่นักลงทุนควรตรวจสอบเทียบกับ hyperscaler อื่นที่ทำคล้ายกัน (earnings quality concern ที่เคยเกิดกับ Amazon/Google ก่อนหน้านี้)
 
 **[HIGH] Datacenter Capacity Constraints**
-Demand เกิน supply มาตลอด → Azure growth ถูก cap ไว้โดยความสามารถ supply ยังไม่ใช่แค่ demand issue แต่เป็น execution risk ด้าน permitting, power, และ hardware lead times
+Demand เกิน supply ต่อเนื่องมาหลายไตรมาส (Amy Hood ย้ำอีกครั้งใน Q4 call) → Azure growth ยังถูก cap ไว้โดยความสามารถ supply ไม่ใช่แค่ demand issue แต่เป็น execution risk ด้าน permitting, power, และ hardware lead times — spot market pricing สำหรับ assets เริ่มสะท้อนภาวะตึงตัวนี้ตามที่ Amy Hood ระบุ
 
 **[HIGH] LinkedIn GDPR Fine — IDPC (Ireland)**
-Irish Data Protection Commission (IDPC) ออก final decision ต่อ LinkedIn เดือน October 2024 เรื่อง targeted advertising ฝ่าฝืน GDPR LinkedIn อุทธรณ์ต่อศาล Irish เดือน November 2024 Preliminary hearing จัดขึ้นแล้วในเดือน December 2025 ยังอยู่ระหว่างอุทธรณ์ ยังไม่มีคำตัดสิน (จำนวนเงิน fine ยังไม่เปิดเผยใน 10Q)
+Irish Data Protection Commission (IDPC) ออก final decision ต่อ LinkedIn เดือน October 2024 เรื่อง targeted advertising ฝ่าฝืน GDPR — LinkedIn อุทธรณ์เดือน November 2024 ศาลจัด preliminary hearing ธันวาคม 2025 และออกคำตัดสินเรื่อง **standard of appeal** แล้ว (IDPC อาจอุทธรณ์คำตัดสินนี้ต่อ) — ยังไม่จบ, จำนวนเงิน fine ยังไม่เปิดเผยใน 10K
 
 **[HIGH] OpenAI Partnership Risk**
-~27% equity stake แต่ ownership diluted จาก OpenAI Recapitalization (October 2025)
-OpenAI สามารถใช้ compute นอก Azure ได้มากขึ้น (ประกาศ deal กับ AWS) → Azure dependency ลดลงในระยะยาว Revenue-sharing structure ยังไม่ชัดเจนสู่สาธารณะ
+~25% equity interest (as-converted, ลดจาก ~27% จาก OpenAI Recapitalization ต.ค. 2025 + funding เพิ่มเติม — dilution ต่อเนื่อง) FY2026 revenue จาก OpenAI (รวม revenue-sharing) = $24.1B, AR $6.0B — concentration risk ต่อ customer รายเดียวที่มีนัยสำคัญต่อ RPO ($678B) OpenAI สามารถใช้ compute นอก Azure ได้มากขึ้น → Azure dependency ลดลงในระยะยาว
 
 **[MEDIUM] EU AI Act + Antitrust Scrutiny**
-EU AI Act อาจเพิ่ม compliance costs สำหรับ AI models ใน EU market
-ถูก scrutinize เรื่อง Teams bundling ใน EU (เคยแยก Teams ออกจาก M365 ใน EU)
-Competition law enforcement ทั้งใน US และ foreign jurisdictions
+EU AI Act อาจเพิ่ม compliance costs สำหรับ AI models ใน EU market; Teams bundling scrutiny และ competition law enforcement ทั้งใน US และ foreign jurisdictions ยังดำเนินต่อ
 
-**[MEDIUM] Gaming Business Weakness**
-Xbox content & services: −5% (−7% CC) Q3 FY2026; Xbox hardware: −33% (−34% CC)
-MPC segment declining — mix shift ไป software/search ที่ margin สูงกว่า แต่ gaming revenue shrinkage ยังเป็นภาระ
+**[MEDIUM] Gaming (XBOX) Business Weakness**
+XBOX content & services: −10% (−11% CC) Q4 FY2026; hardware revenue −13% (−14% CC); operating margin ลดเหลือ 21% (จาก impairment charges + severance) — management เองยอมรับว่าต้อง "reset the business" และคาดหวัง XBOX กลับมาโตใน FY2027 เท่านั้น (ยังไม่เกิดขึ้นจริง)
 
 **[MEDIUM] Other Legal Liabilities**
-Accrued aggregate legal liabilities: $647M ณ 31 มีนาคม 2026
-Possible additional adverse outcomes: ~$400M beyond recorded amounts
-
-**[WATCH] Q4 FY2026 One-time Costs**
-Voluntary retirement program: ~$900M ($350M COGS + $550M OpEx) ใน Q4 FY2026
-อาจมี restructuring costs เพิ่มเติม เพื่อ right-size headcount ก่อนเพิ่ม AI capacity
+Accrued aggregate legal liabilities: $553M ณ 30 มิถุนายน 2026 (ลดจาก $647M ไตรมาสก่อน) Possible additional adverse outcomes: ~$400M beyond recorded amounts
 
 **[WATCH] AI Model Commoditization**
-GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้า frontier model ราคา = $0 ต่อ token Azure AI revenue จาก OpenAI usage จะ compress margin; แต่ infrastructure play (compute, storage, networking) ยังคงอยู่
+Frontier model pricing ลดลงเร็ว (Satya เองยอมรับว่า MAI-Code-1-Flash ให้ quality เทียบเท่า GPT-5.6 ที่ cost ต่ำกว่ามาก) → ถ้า token price → $0 revenue จาก AI usage-based billing อาจ compress; แต่ MSFT วางกลยุทธ์ multi-model + infrastructure play (compute/storage/networking) ให้ยังมีมูลค่าไม่ว่า model ไหนชนะ
 
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-27
+**Last Updated:** 2026-07-30
+
+**Update (2026-07-30) — Q4 FY2026 Earnings Full Re-score + VERIFIED MANUAL price** [WARREN THESIS]
+- Full re-score (ไม่ใช่แค่ price refresh): **BQ unchanged 9.5** — RPO $678B (+84% YoY) ใหญ่สุดในธีม, Copilot 30M+ paid seats (net seat adds 2x QoQ, fastest-growing enterprise product ในประวัติศาสตร์บริษัท), GitHub 225M users — ecosystem moat evidence แข็งขึ้นอีกชั้น. **GP ขึ้น 8.5→9.0** — Azure เร่งจริง 39%→43%→guided ~45% Q1 FY27 (acceleration ไม่ใช่แค่ reiterate), FY Azure ข้าม $100B ครั้งแรก (+41% full year), Foundry revenue >2x YoY (100K customers), 1-trillion-token customers 4x YoY.
+- **VA ลง 8.4→6.5**: ราคา VERIFIED MANUAL $420.80 (+7.24% after-hours รับงบ Q4 FY2026, automated feeds ยังไม่อัพเดท) ดัน MoS 16.84%→**8.32% หลุด gate 15%**, ER 16.76%→**14.75%/yr เข้า Flag band (10-15%)** — เกิดจากราคาขึ้นล้วนๆ **ไม่ใช่ FV ลง**: FV Base คงที่ $459 (EPS FY27 consensus $19.14 ไม่เปลี่ยน — ยังไม่มี consensus revision หลังงบ ตามกฎ Consensus-as-Base; เช็ค WebSearch 07-30 เจอตัวเลข FY27 EPS ขัดแย้งกันเอง $16.71–19.40 จากหลายแหล่ง ไม่น่าเชื่อถือพอจะใช้แทนค่าเดิม).
+- ⚠️ **[Return Decay Check]** ราคาขึ้นเพราะ earnings โตจริง (Azure/Copilot/RPO accelerate) ไม่ใช่ sentiment เฉยๆ → ตามกฎ "ราคาขึ้นเพราะ earnings โต → FV อาจขึ้นด้วย ต้อง re-estimate ก่อนตัดสินใจ" — FY26 actual EPS $17.95 GAAP สูงกว่า FY27 consensus เดิม $19.14 แค่ +6.6% ซึ่งดูต่ำเกินไปเทียบ guidance "double-digit revenue+operating income growth ต่อเนื่อง FY27" → **FV_TOO_LOW candidate** รอ verify รอบหน้าเมื่อ analyst ปรับ FY27 consensus ขึ้นจริงหลังงบ 07-29 (ไม่ปรับตอนนี้เพราะยังไม่มีหลักฐาน consensus primary ที่เชื่อถือได้).
+- **RA ลง 8.0→7.0**: Total contractual obligations เกือบเท่าตัวใน 1 ปี $397.0B→$743.8B, uncommenced datacenter leases $196.6B→$329.1B (+67%), useful-life accounting change (15→25yr มีผล FY27) ลด earnings transparency เทียบ peer hyperscaler (ประเด็นคล้ายที่เคยเกิดกับ AMZN/GOOGL), FCF Q4 FY2026 -23% YoY แม้ operating income โตแรง — ยังไม่เห็น peak ชัดเจน.
+- **WAF 8.70→8.20 (VERY HIGH→HIGH)** — ธุรกิจดีขึ้นจริงจากงบ แต่ valuation ตึงขึ้นเพราะราคาวิ่งไปก่อน FV + balance sheet risk เพิ่มขึ้นชัดเจน.
+- **Action: 🟡 HOLD + Flag ⚠️** — ER 14.75%/yr อยู่ใน band 10-15% ตาม Holdings Return Recheck ("HOLD + Flag ต้อง re-estimate Fair Value") ไม่ใช่ SELL เพราะราคาขึ้นจาก earnings โตจริงตามกฎ Return Decay ไม่ใช่ sentiment — รอ FY27 consensus EPS อัพเดทหลังงบก่อน re-estimate FV รอบหน้า (คาดว่า FV จะขึ้นตาม ไม่ใช่ MoS หายจริง).
 
 **Update (2026-07-27) — TQR backfill batch 1/5 + price refresh (no new secondary research)** [WARREN THESIS]
 - Reconfirmed: no new analyst research in inbox since 07-23. Only change this batch: price refresh ($393.82→$381.70, -3.1%, no MATERIAL news since gate) + Theme Playbook TQR sync (8.65, 🥇 Core — see Valuation Range).
@@ -4623,7 +4735,8 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 
 | Quarter (Fiscal) | Calendar Period | Revenue | YoY% | EPS (GAAP) | Op Margin | Azure | Notes |
 |-----------------|----------------|---------|------|------------|-----------|-------|-------|
-| **Q3 FY2026** | Jan–Mar 2026 | $82.9B | +18% | $4.27 | 46% | +40% | AI ARR $37B (+123%); Copilot 20M+; Bing 1B MAU; RPO $627B |
+| **Q4 FY2026** | Apr–Jun 2026 | $90.0B | +18% | $4.81* | 45% | +43% | *รวม gain $3.2B จาก Anthropic (+$0.33 EPS); non-GAAP EPS $4.74 (+23%); Copilot 30M+ seats; RPO $678B (+84%); FY26 full-year Azure surpassed $100B (+41%); Microsoft Cloud FY26 $214.4B |
+| Q3 FY2026 | Jan–Mar 2026 | $82.9B | +18% | $4.27 | 46% | +40% | AI ARR $37B (+123%); Copilot 20M+; Bing 1B MAU; RPO $627B |
 | Q2 FY2026 | Oct–Dec 2025 | $81.3B | +17% | $5.16* | 47% | +39% | *OpenAI recap ~$10B gain; non-GAAP EPS $4.14 (+24%); Copilot 15M seats; RPO $625B |
 | Q1 FY2026 | Jul–Sep 2025 | $77.7B | +18% | $3.72 | 49% | +40% | non-GAAP EPS $4.13 (+23%); OpenAI new deal Oct 2025 ($250B Azure + IP to 2032) |
 | Q4 FY2025 | Apr–Jun 2025 | $76.4B | +18% | $3.65 | 45% | +39% | End of FY2025; FY full-year EPS $13.64; Azure full-year $75B+ (+34%) |
@@ -4632,6 +4745,7 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 ---
 
 ## Recent News
+**2026-07-30** — ผลกำไรไตรมาส 4 ปีงบ 2569 เพิ่มขึ้น 31%; ยอด Azure ข้ามเกิน 100 พันล้านดอลลาร์ และบริษัทเพิ่มแผนการใช้จ่ายทุนพร้อมเหตุผลจากความต้องการอัฒจันทร์ AI | [src](https://news.google.com/rss/articles/CBMigAFBVV95cUxNaDkyU1ptM2xGN2M5QUJtclpSMFJtQVd4VlZJeTJKbXJPb2Q4cW1VUlZubjVoQ291MnB3T3AwT1RQcENGTmtEVHB3bUNsTzBRRjlHTjQ0dGpabWpZM3pZTGlIcjNGcGRTdDlDc2tCc01QYUxtaXpHREFvSWV6VC1Nbw) | 🔴MATERIAL
 **2026-07-29** — รายงานผลประกอบการ Q4 ที่จะเข้ามาเร็วๆ โดยตลาดมองหาผลตอบแทนจากการลงทุน AI | [src](https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdThraGE0cFkyaW9ETGJJUW1iU01ZdVVKU1h4V0ttYzJ6Z3RabjJDVHl5V21aaEl0QjVUVF8yTmEtbHIyNXJSNkY0V3VLQUJ3d3VBTmVFSGZ5NlBkYVN2RzNobEVuTjc4eWZyN2RpOXNUekx5aWJzTUthQlNNMUFCaHlNS19FSXBQcVlsTTdROHY4cl9fREh4RTNnZWxkQmN4amtGcXFlUS1kWXBjQy1pUWRKS0Zqa2xEMmdyM1U3QWY4T1IxWnNSOTJxb01MS3kzLUVKNA) | 🟡MONITOR
 **2026-07-24** — ขยายพันธมิตรกับ Mistral เพื่อให้องค์กร/อุตสาหกรรมที่ควบคุมได้สามารถ deploy AI model ตามต้องการ; เสริมความแข็งแกร่งตำแหน่งใน enterprise AI | [src](https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA) | 🟡MONITOR
 **2026-07-16** — MSFT ประกาศปลดคนจำนวน 4,800 ตำแหน่ง (ประมาณ 2.9% ของกำลังแรงงาน) เพื่อปรับใช้ทรัพยากรเข้าสู่ AI, Cloud และฟังก์ชันยุทธศาสตร์อื่นๆ | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxQMks1cUdIYlBpd0lNNEd6MWI3UkhsNnVVXzY1SW5hYnhVUnd4ZWd1d3lRVzEzZy1nbW81U3Q1Z1VCX3FEc3A5MkF3OXFTS09ITzM4U21TZHZrSnp5YllxWkVodGNkN2dvMmxiUkVvVFdPTDlkZ0YzV2plRFFmUEJYTjBmQ2d3Y1FZRGhvaG94aDRHXzdRMmR0X3VnSGJLdw?oc=5) | 🔴MATERIAL
@@ -4645,7 +4759,6 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 **2026-06-09** — Microsoft ประกาศเป้าหมายเข้าร่วมกลุ่มสถาบันวิจัย AI ชั้นแนวหน้าของโลก | [src](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSVJwSUl4eDNDRDJtaXp4YXZObDY4TGl0M3BobHVPY1pxOTFtUUtMZmJ5UFh5cmpyX3dEOGRaTi1VX29uU3hZSU80TDMwVUF1bkdKVmpYbXVvNTdEN3hNMmZBdlNscWlLT3RIOU5rUDluZFpjWVRYekFUN2J0dFc1R3FjUXBIOS1kZXQzdldRRFhqSU92TGNMbWtkUDdldUlmYW1BRzhOcmswUQ)
 **2026-06-03** — 🚀 Microsoft — เปิดตัว Scout personal agent และ AI-driven devices สำหรับยุค next-gen computing | [src](https://news.google.com/rss/articles/CBMivAFBVV95cUxPV05vaTgybEpsRVBhZGFEai12SHFkYWZiZjRSR1VaMXFJckxYRnU5MHc2Q3QzTVFqVklRb21qck80M0I0VEZQQjBKS2tuQ2l6bURRQ2NhYkwwTnQya3d5OGsyMTU1V3gtd3ZtZ2F4b3JFTXdoY0N1YXJ4eUthalkyTUg3N2RaR3NzYVZyNEZlRkRMUUROMmV3c1ctN3htRklTdmdTeTVLOFQxNmhwOVNJU2k5WFNfbFNJWWhVSQ)
 **2026-06-02** — 🤖 $MSFT — Microsoft ปรับปรุง Microsoft 365 Copilot design เน้น outcome-based adoption | [src](https://news.google.com/rss/articles/CBMipAFBVV95cUxQb250Y3Z2WnBxbW44QzFRdzZ0RC1EcFFmc3JBbFFRUkluemQwQUUwcHRBMHJCUVFEcjJRVklMQkdFT1l0NEw4Q010aGhNakdhOFBSZmo4RWZJTXJUcTJ5NVd6QXJ3YnFtMWJSaUxfSDk1d1lUZXlFZXIzdDJMOGZtaWxCZ1ZtcUw2VUZIVm5mWUxsQjdhN21MT09FVml6cGgtakdFZQ)
-**2026-05-23** — 🏗️ $MSFT — Microsoft เตรียมเปิด data center ที่ใหญ่ที่สุดในอินเดียอยู่ในระหว่างการสร้าง คาดจะ operational ไตรมาส 3 ปี 2026 รองรับ AI capex expansion | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxNTlVHTHZYOWVhb0xpbEk2SElTUFNEaDBkUHgtMWFPc0VqRm1rNFB5QkhuOTEtNkdqaFJ6UFZoT21Xd3RId3ZUckNBeG56bTZfSHBsMlBJMHQ2bmljUnlVYVhpM21BT2RhWlRGaGtZdE50d1lvT2VRYlptUC1nLXl0R1pidW1iV3AwWm5JMVk3elRkWWhYLUhST3JEby0tOU0w?oc=5)
 
 ## Source Log
 
@@ -4665,66 +4778,71 @@ GPT-4o, Gemini, LLaMA ราคาลดลงเร็วมาก → ถ้�
 | 2026Q1 - MSFT - 10Q.pdf | 10Q Q3 FY2026 | 2026-05-17 |
 | 2026Q1 - MSFT - Earnings-Call-Transcript.pdf | Earnings Call Transcript Q3 FY2026 | 2026-05-17 |
 | 2026Q1 - MSFT - Earnings-Presentation.pdf | Earnings Presentation Q3 FY2026 | 2026-05-17 |
+| 2026Q2 - MSFT - Exhibit-99-1.pdf | Earnings Press Release Q4 FY2026 | 2026-07-30 |
+| 2026Q2 - MSFT - Earnings-Call-Transcript.pdf | Earnings Call Transcript Q4 FY2026 | 2026-07-30 |
+| 2026Q2 - MSFT - Earnings-Presentation.pdf | Earnings Presentation Q4 FY2026 | 2026-07-30 |
+| 2026Q2 - MSFT - 10K.pdf | 10K FY2026 (Annual) | 2026-07-30 |
+| 2026Q2 - MSFT - Outlook-Deck-FY27Q1.pdf | Outlook Deck FY2027 Q1 Guidance | 2026-07-30 |
 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-27  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-07-30  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
 
-**Tier Basis:** Inevitable: ✓moat 30+ปี/3วิกฤต ✓Gates→Ballmer→Nadella transition ✓cloud+AI ขยาย ✓ROIC>25% 10ปี — ไม่มี tier change; 07-27 = TQR backfill + price refresh เท่านั้น (thesis เดิมยังยืน ไม่มีข่าว MATERIAL ใหม่หลัง 07-23)
+**Tier Basis:** Inevitable: ✓moat 30+ปี/3วิกฤต ✓Gates→Ballmer→Nadella transition ✓cloud+AI ขยาย ✓ROIC>25% 10ปี — ไม่มี tier change; 07-30 Q4 FY2026 earnings ยืนยันหลักฐานเพิ่มเติม (Azure ข้าม $100B FY แรก +41%, RPO $678B +84%, Copilot 30M+ seats) แต่ contractual obligations พุ่งเกือบเท่าตัว ($397.0B→$743.8B) + useful-life accounting change (15→25yr) เป็นจุดต้องจับตา — ไม่กระทบ tier classification
 
-**WHAT:** Microsoft monetizes enterprise AI through Azure (+29% YoY, capacity-constrained), GitHub Copilot (15M+ paid seats), and M365 Copilot ($30/seat across 300M+ enterprise users) — the most deeply embedded enterprise software ecosystem globally.
+**WHAT:** Microsoft monetizes enterprise AI through Azure (+43% YoY Q4 FY2026, FY Azure surpassed $100B first time), GitHub Copilot (50M users), and M365 Copilot (30M+ paid seats across enterprise) — the most deeply embedded enterprise software ecosystem globally.
 
-**WHY NOW:** Consensus เห็นข่าว layoff 4,800 ตำแหน่ง (2.1-2.9% ของพนักงาน, ประกาศ 07-06 ยังถูกรายงาน/วิเคราะห์ต่อเนื่องถึง 07-16) เป็นสัญญาณลบ — cost pressure จาก AI capex ที่พุ่งสูง; Warren เห็นต่างว่านี่คือ **Fisher-style rational capital allocation** ตัวอย่างชัด: การตัดที่ Xbox/Windows sales/consulting (ธุรกิจโตช้า) พร้อมย้ำว่า "ไม่มีตำแหน่งไหนถูกแทนที่ด้วย AI โดยตรง"; ล่าสุด (07-16) MSFT ปรับโครงสร้าง Cybersecurity unit เพื่อรองรับภัยคุกคาม AI ใหม่ + เพิ่มผลิตภัณฑ์ที่เก็บเงินได้ — เป็นหลักฐานเพิ่มเติมว่า capital/headcount กำลังไหลเข้า high-growth adjacent categories ไม่ใช่แค่ cost-cutting เฉยๆ วินัยด้านต้นทุนขณะที่ AI ARR โต 123% YoY คือสัญญาณบวกของ management quality ไม่ใช่ความเสื่อม
+**WHY NOW:** Consensus เห็นข่าว layoff 4,800 ตำแหน่ง + CapEx surge เป็นสัญญาณ cost pressure ต่อเนื่องมาตั้งแต่ก่อนงบ — Warren เห็นต่างว่า Q4 FY2026 คือหลักฐานชัดเจนว่า CapEx กำลังแปลงเป็นรายได้จริง ไม่ใช่ capex เปล่าไร้ผลตอบแทน: Azure เร่งตัว (39%→43%→guided ~45%), RPO +84%, Copilot net seat adds 2x QoQ — ราคาตอบรับทันที +7.24% after-hours สะท้อนว่าตลาดเริ่ม price-in edge นี้แล้วบางส่วน (MoS หดจาก 16.84%→8.32% จากราคาที่วิ่งไปก่อน FV) แต่ consensus FY27 EPS ยังไม่ตามทันตัวเลขจริง — ช่องว่างนี้ยังไม่ถูก price-in เต็มที่
 
-**IF WRONG:** หาก Azure growth ชะลอ <15% เป็น 2 quarters ติดต่อกัน หรือ OpenAI พัฒนา platform ของตัวเองและลด exclusivity จนกระทบ Copilot ecosystem จริง
+**IF WRONG:** หาก Azure growth ชะลอ <15% เป็น 2 quarters ติดต่อกัน หรือ OpenAI พัฒนา platform ของตัวเองและลด exclusivity จนกระทบ Copilot ecosystem จริง หรือ contractual obligations $743.8B เริ่มกด FCF ต่อเนื่องเกิน 3 ไตรมาสโดยไม่มีสัญญาณ ROIC ตามทัน
 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-27  |  **Price:** $381.70  |  **Tier:** 🏛️ Inevitable  |  **Method:** Price refresh on unchanged Paper #3.1 FV (Consensus EPS × median-anchored multiple) — TQR backfill batch 1/5
+**Last Updated:** 2026-07-30  |  **Price:** $420.80 (VERIFIED MANUAL)  |  **Tier:** 🏛️ Inevitable  |  **Method:** Full re-score post Q4 FY2026 earnings — Consensus EPS × historical multiple, FV carried forward pending FY27 consensus revision
 
-### Snapshot (Price Refresh — FV/EPS/Multiple unchanged, no new earnings)
+### Snapshot (Q4 FY2026 Earnings Reaction — VERIFIED MANUAL price override)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $381.70 (was $393.82, -3.1%) | — |
-| Fair Value Base | **$459** (unchanged) | — |
-| **Margin of Safety** | **16.84%** (was 14.2%) | ✓ PASS (Gate 15%) |
-| EPS ที่ใช้ | $19.14 (FY27 consensus, unchanged) | — |
+| Current Price | $420.80 (VERIFIED MANUAL — post-earnings, +7.24% after-hours; automated feeds not yet updated as of 07-30) | — |
+| Fair Value Base | **$459** (unchanged — consensus EPS not yet revised post-earnings) | — |
+| **Margin of Safety** | **8.32%** (was 16.84%) | ❌ FAIL (Gate 15%) |
+| EPS ที่ใช้ | $19.14 (FY27 consensus, carried forward — no post-Q4-earnings consensus revision available yet) | — |
 | Multiple | 24× (unchanged) | premium +13% เหนือ forward, ต่ำกว่า median 32× |
 | Consensus EPS Growth (used in ER) | 13%/yr (unchanged) | consensus FY27 blend |
-| **5-yr Expected Return** | **16.76%/yr** (was 16.1%) | ✓ PASS (Gate ≥15%) |
-| Forward P/E | 19.94× | — |
-| PEG | 1.53 | — |
+| **5-yr Expected Return** | **14.75%/yr** (was 16.76%) | ⚠️ FLAG (band 10-15%, Gate ≥15%) |
+| Forward P/E | 21.99× | — |
+| PEG | 1.69 | — |
 
-> **Price Refresh only (2026-07-27):** ราคาย่อ $393.82→$381.70 (-3.1%) ไม่มีข่าว 🔴MATERIAL ใหม่หลัง gate 07-23 (เจอแค่ 🟡MONITOR Mistral partnership 07-24) — FV/EPS/multiple คงเดิมทั้งหมด. MoS ดีขึ้นจนพ้น gate 15% แล้ว (14.2%→16.84%), ER 16.76%. **ไม่ execute** — HOLD position เดิม $70 (add decision อยู่ที่ /warren Paper).
+> **Q4 FY2026 Earnings Reaction (2026-07-30):** ราคาพุ่งขึ้น $381.70→$420.80 (+10.3% เทียบราคา batch ก่อน, +7.24% after-hours ตอบรับงบ — VERIFIED MANUAL per Oat screenshot, automated feeds ยังไม่อัพเดท) ขณะที่ FV Base คงที่ $459 เพราะ FY27 consensus EPS ยังไม่ปรับหลังงบ 07-29 (WebSearch เจอตัวเลขขัดแย้งกัน $16.71–19.40 ไม่น่าเชื่อถือพอใช้แทน). ผลคือ MoS หลุด gate 15% เหลือ 8.32% และ ER เข้า Flag band 14.75%. **สำคัญ:** นี่คือราคาวิ่งไปก่อน FV จาก earnings ที่โตจริง (Azure/Copilot/RPO accelerate) ไม่ใช่ sentiment/hype ล้วนๆ — ตามกฎ Return Decay ต้อง re-estimate FV รอบหน้าเมื่อ FY27 consensus ปรับขึ้นตามงบจริง (มีโอกาสสูงที่ FV จะขึ้นตาม ไม่ใช่ MoS หายจริงถาวร). **ไม่ execute เพิ่ม** — HOLD + Flag position เดิม $70.
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $574 | +50.4% | 30× × consensus EPS $19.14 |
-| **Base** | $459 | +20.3% | 24× (historical) × FY27 consensus EPS $19.14 |
-| **Bear** | $345 | −9.6% | 18× × EPS $19.14 (Azure decel) |
+| **Bull** | $574 | +36.4% | 30× × consensus EPS $19.14 |
+| **Base** | $459 | +9.1% | 24× (historical) × FY27 consensus EPS $19.14 |
+| **Bear** | $345 | −18.0% | 18× × EPS $19.14 (Azure decel) |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 9.5 | 30% | 2.85 | Unchanged — enterprise ecosystem moat intact |
-| GP (Growth Potential) | 8.5 | 30% | 2.55 | Unchanged — Azure +40% capacity-constrained |
-| VA (Valuation) | 8.4 | 25% | 2.10 | ขึ้นจาก 8.1 — MoS 14.2%→16.84% (พ้น gate แล้ว), ER 16.1%→16.76%, จากราคาย่อลงเท่านั้น (FV ไม่เปลี่ยน) |
-| RA (Risk Assessment) | 8.0 | 15% | 1.20 | Unchanged — near-term FCF headwind จาก capex component-inflation (~$25B ใน $190B) |
-| **WAF Total** | **8.70** | | **VERY HIGH** | (ขึ้นจาก 8.60) |
+| BQ (Business Quality) | 9.5 | 30% | 2.85 | Unchanged — RPO $678B (+84%) ใหญ่สุดในธีม, Copilot 30M+ seats (fastest-growing enterprise product ในประวัติศาสตร์บริษัท), GitHub 225M users — ecosystem moat evidence แข็งขึ้นอีกชั้นจากงบ Q4 |
+| GP (Growth Potential) | 9.0 | 30% | 2.70 | ขึ้นจาก 8.5 — Azure เร่งจริง 39%→43%→guided ~45% Q1 FY27 (acceleration ไม่ใช่แค่ reiterate), FY Azure ข้าม $100B ครั้งแรก, Foundry revenue >2x YoY, Copilot net seat adds 2x QoQ |
+| VA (Valuation) | 6.5 | 25% | 1.625 | ลงจาก 8.4 — ราคา VERIFIED MANUAL $420.80 ดัน MoS 16.84%→8.32% (หลุด gate 15%), ER 16.76%→14.75% (เข้า Flag band); เกิดจากราคาขึ้นล้วนๆ ไม่ใช่ FV ลง (FV carried forward รอ consensus update) |
+| RA (Risk Assessment) | 7.0 | 15% | 1.05 | ลงจาก 8.0 — contractual obligations $397.0B→$743.8B (เกือบเท่าตัว), uncommenced datacenter leases $196.6B→$329.1B (+67%), useful-life accounting change (15→25yr) ลด earnings transparency, FCF Q4 -23% YoY |
+| **WAF Total** | **8.20** | | **HIGH** | ลงจาก 8.70 (VERY HIGH→HIGH) — ธุรกิจดีขึ้นจริงจากงบ แต่ valuation ตึงขึ้นเพราะราคาวิ่งไปก่อน FV + balance sheet risk เพิ่มขึ้นชัดเจน |
 
-**Investment Idea:** Enterprise AI Stack — Azure + Copilot + RPO $627B (bet เดิมไม่เปลี่ยน). ราคาย่อ -3.1% โดยไม่มีข่าว MATERIAL ใหม่ ทำให้ MoS/ER ขยับดีขึ้นล้วนจากราคา ไม่ใช่ fundamental เปลี่ยน — theme TQR 8.65 (🥇 Core, ไม่มีเพดานน้ำหนัก, อ้างอิง AI-Revolution.md playbook v1).
+**Investment Idea:** Enterprise AI Stack — Azure + Copilot + RPO $678B thesis ยืนยันแรงขึ้นจากงบ Q4 FY2026 จริง (ไม่ใช่แค่คาดการณ์) แต่ราคาวิ่งรับข่าวไปมากแล้ว (+7.24% AH) ก่อนที่ analyst consensus จะปรับ FY27 EPS ขึ้นตาม — ทำให้ MoS/ER หลุด gate ชั่วคราว ไม่ใช่สัญญาณ sell แต่เป็นสัญญาณ "รอ consensus ตามทัน" — theme TQR 8.65 (🥇 Core, ไม่มีเพดานน้ำหนัก, อ้างอิง AI-Revolution.md playbook v1).
 
-**Thesis:** Azure +40% + Copilot + RPO $627B intact; FV คงเดิม $459 — quality hold, MoS ตอนนี้ผ่าน gate แล้วที่ราคานี้
+**Thesis:** Azure accelerating (43%→guided 45%) + Copilot 30M+ seats + RPO $678B (+84%) ยืนยัน thesis เดิมแข็งขึ้น — คุณภาพสูงสุดในธีมร่วมกับ NVDA; ธุรกิจดีขึ้นจริง ราคาสะท้อนไปก่อน FV ชั่วคราว
 
-**Thesis Risk:** Azure ชะลอ <15% 2Q ติด; OpenAI exclusivity erosion; CapEx $190B (~$25B component-inflation) กด FCF
+**Thesis Risk:** Contractual obligations $743.8B (เกือบเท่าตัวใน 1 ปี) + uncommenced leases $329.1B risk ต่อ balance sheet ถ้า AI demand ชะลอ; useful-life accounting change (15→25yr) เป็น earnings-quality concern ต้องเทียบ peer hyperscaler; FCF -23% YoY ต่อเนื่อง; Azure ยังโดน supply-constrained
 
-**Action:** 🟢 HOLD (position เดิม $70 total invested; MoS 16.84% + ER 16.76% ผ่าน gate ทั้งคู่แล้ว — เติมหรือไม่ตัดสินใจใน /warren Paper ไม่ใช่ watchlist)
+**Action:** 🟡 HOLD + Flag ⚠️ (position เดิม $70 total invested — ER 14.75%/yr อยู่ใน band 10-15% ตาม Holdings Return Recheck = "HOLD + Flag ต้อง re-estimate Fair Value" ไม่ใช่ SELL เพราะราคาขึ้นจาก earnings โตจริงตามกฎ Return Decay; รอ FY27 consensus EPS อัพเดทหลังงบก่อน re-estimate FV รอบหน้า)
 
 ---
 `,
@@ -6824,11 +6942,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Recent News
-
+**2026-07-30** — กำไร Q2 พุ่ง 557% จากความต้องการชิป AI แต่ยอดขายต่ำกว่าคาดการณ์; สัญญาณความต้องการแข็งแกร่งแต่มีความเสี่ยงจากอำนาจต่อรองและ margin ตลาด | [src](https://news.google.com/rss/articles/CBMie0FVX3lxTE1obU9nR3lLLXNMM2N2RGVzb1djQzNDWk9TSmZJaG11VXQ5UWJwX1RmZTQ0bVl4S2dVMGR1cXFJWlcwLXNhcmdJQkJidEhMY2I0elhVX0pCaDJKNkFsNmE3RkxLOEZGQlRzdUdXT1NRZ2lDRHdkY2kydnAzUQ) | 🔴MATERIAL
 **2026-07-29** — 🤖 $SKHY — Q2 FY2026 (Apr–Jun) actual results, first quarterly print since IPO: Revenue W79.32T (+51% QoQ/+257% YoY), operating profit W60.54T (op margin 76%, record), net profit W93.92T (net margin 118% — but ~W63.27T is one-off Kioxia stake-sale gain, not organic). Concluded LTAs with ~10 customers (~5yr terms). Q3 guidance: DRAM bit shipments +~10% QoQ. 2026 CapEx raised to high-W40T range. Cash +W33.6T QoQ to W87.96T. | [src] SEC Form 6-K, Commission File 001-43391, filed 2026-07-29 | 🔴MATERIAL
-
 **2026-07-29** — [Market reaction] กำไร Q2 พุ่ง 557% YoY จากความต้องการชิป AI แต่**ต่ำกว่าที่ตลาดคาดการณ์** — สอดคล้องกับ semiconductor sell-off ที่ลากยาว 4 วัน (SKHY ราคาร่วง -15% จาก gate $154.57→$131.41) ทั้งกลุ่มถูก repriced เรื่อง AI monetization timeline ไม่ใช่แค่ SKHY ตัวเดียว | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxQaERjLTFuTEZYSXYzNzBaRWdNenA0YmlzX0VlcklvY2twbnBkNFVyR2RXMWFWdjRMa2xUTjM1X0N3VVAzM1VjSEo3Nm5OdjZ5NTVaSWxwZExCTmRjX1pUcDBMR3JzX0c4ZEdnUlhXbXlpclpCenh3Vk1DZW9fdjBLeWVTVVJURFQxVWlHdlpzV2N4QQ) | 🔴MATERIAL
-
 **2026-07-09** — 🆕 $SKHY — IPO priced US$149.00/ADS บน Nasdaq Global Select Market (177.9M ADSs, gross ~US$26.5B, net ~US$26.2B); Cornerstone: Baillie Gifford/Coatue/Situational Awareness สูงสุด $7B; หุ้น common ยังเทรด KOSPI "000660" | [src](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm) | 🔴MATERIAL
 
 ## Analyst Research Notes
