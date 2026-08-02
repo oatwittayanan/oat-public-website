@@ -2834,7 +2834,10 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-27
+**Last Updated:** 2026-08-02
+
+**Update (2026-08-02) — Price refresh only (watchlist batch), no new analyst view** [MARKET NEWS]
+- Price drifted $381.92→$389.28 (+1.9%) with no new company-specific or analyst news since the 07-25 gate — MoS/PEG/ER recalculated at current price (see Valuation Range above), thesis unchanged.
 
 **Independent Substack view — Buy/Accumulate <$350, 2028 PT $525 (~17%/yr CAGR), PEG 0.9x (Rijnberk InvestInsights, ~Mar 2026)** [ANALYST VIEW]
 - Third independent valuation source (distinct from UBS and BofA/Citi/Goldman views already logged): rates AVGO Buy, Accumulate-below $350, 2028 price target $525 = implied ~17%/yr CAGR, framed around a sub-1x PEG (0.9x) on the AI-semi growth rate. Underlying data cited (Q1 FY2026 rev $19.3B +29% YoY, AI semi rev $8.4B +106% YoY, XPU rev +140% YoY) matches figures already on this card's Quarter Log — no new fundamental data, but a useful third-party valuation cross-check landing directionally bullish, consistent with this card's own STARTER-with-margin stance.
@@ -2931,7 +2934,7 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-25  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-02  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
 **Tier Basis:** Pre-Inevitable: XPU+networking moat แกร่งมาก (pricing✓ switching-cost✓ margin-expansion✓ crisis-survival✓) — แต่ **พึ่ง Hock Tan = key-man (อายุ 74, ไม่มี employment contract, ไม่มี key-person insurance ตาม 10K), ยังไม่ผ่าน CEO transition/succession** → ตกข้อ 2 ของ Inevitable (ตรรกะเดียวกับ Jensen/NVDA, Zuck/META) — re-verified 2026-06-18, ไม่มีการเปลี่ยนแปลง
 
@@ -2944,8 +2947,10 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-25  |  **Price:** $381.92  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Relative Multiple (P/E on FY2026 consensus EPS)
+**Last Updated:** 2026-08-02  |  **Price:** $389.28  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Relative Multiple (P/E on FY2026 consensus EPS)
 
+> **Price refresh 2026-08-02 (watchlist batch, time-triggered ANALYZE):** $381.92 → $389.28 (+1.93%) pulls MoS 15.13% → **13.49%**, still inside the STARTER near-miss band [8,15) so action stays STARTER unchanged (no tranche add, no drop to WATCH). PEG 1.42→1.45 (still under 1.5 cap), ER 36.24%→35.84%/yr. FV_base ($450) unchanged — no earnings since Q2 FY2026 (Q3 due ~Sept). No new MATERIAL/MONITOR news since 07-25 gate.
+>
 > **Price refresh 2026-07-25:** $389.11 → $381.92 (-1.85%) lifts MoS 13.53% → **15.13%**, now AT the 15% gate (razor-thin, 0.13pt over). All 4 gates pass but STARTER is retained (staged entry, not full BUY) — improvement is price-driven + margins razor-thin + not currently held → Opportunity Cost Gate (Rule #11) still unrun. FV_base ($450) unchanged (no earnings since Q2 FY2026). Card sync with authoritative repair batch 2026-07-25.
 
 ### Earnings Basis — ตัวเลขกำไรที่ใช้มาจากไหน?
@@ -2975,9 +2980,11 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 
 **Weighted Fair Value:** $450 (unchanged — Q2 results confirmed thesis, no re-estimate needed)
 **ราคาปัจจุบัน:** $381.92
-**Margin of Safety:** (450 − 381.92) ÷ 450 = **+15.13%** ✓ AT the 15% gate (razor-thin, 0.13pt over)
-**PEG:** Forward P/E ~46.7× (381.92/8.18) ÷ Growth 32.9% (analyst consensus) = **~1.42** (ผ่าน Effective PEG Cap 1.5 สำหรับ Pre-Inevitable — บาง margin)
-**5-yr Expected Return:** convergence (450/381.92)^(1/5) − 1 = 3.34% + consensus growth 32.9% = **36.24%/yr** ✓ PASS (Gate ≥15%)
+**Margin of Safety (2026-08-02, price $389.28):** (450 − 389.28) ÷ 450 = **+13.49%** — inside STARTER near-miss band (Gate−7pt to Gate = 8-15%)
+**PEG (2026-08-02):** Forward P/E ~47.6× (389.28/8.18) ÷ Growth 32.9% (analyst consensus) = **~1.45** (ผ่าน Effective PEG Cap 1.5 สำหรับ Pre-Inevitable — บาง margin)
+**5-yr Expected Return (2026-08-02):** convergence (450/389.28)^(1/5) − 1 = 2.94% + consensus growth 32.9% = **35.84%/yr** ✓ PASS (Gate ≥15%)
+
+*(2026-07-25 prior read: MoS +15.13% at gate, PEG ~1.42, ER 36.24%/yr — superseded by 08-02 price refresh above, no thesis change)*
 
 > ✅ **Formula Correction Applied (2026-07-15):** Step 5.5 fixed today — ER = convergence + consensus growth. Prior batch reported ER=+2.75%/yr (convergence-only) and withheld STARTER despite MoS being in-band, citing the ER quality bar. Recomputed with the corrected formula (convergence 2.95% + analyst consensus growth 32.9%) = **35.85%/yr**, clearing the gate decisively. **This flips the call: AVGO now passes all 4 gates (MoS in-band + PEG pass + ER pass + WAF≥6.5) → STARTER-eligible.** Note: AVGO is a pure watchlist name (not currently held) — Opportunity Cost Gate (Rule #11, comparing vs. best existing holding) has not been evaluated here and should be checked before execution, especially since NVDA (existing holding) also now shows ER 26.5%/yr under the same corrected formula.
 
@@ -2993,17 +3000,17 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 8.5 | 30% | 2.55 | XPU co-design moat (switching cost near-zero substitutability) + Tomahawk 100T sole-supplier + VMware 93% software margin; unchanged — Q2 results confirmed quality, no new red flags |
 | GP (Growth Potential) | 9.5 | 30% | 2.85 | AI rev $10.8B (+143% YoY) actual matched guide exactly; Q3 guide $29.4B (+84%, above consensus); FY26 $56B + FY27 >$100B reaffirmed; Anthropic 3.5GW deal extends visibility to 2027 — unchanged, growth thesis intact and confirmed by actual results |
-| VA (Valuation) | 7.5 | 25% | 1.875 | All 4 gates pass: MoS now AT the gate (15.13% after price refresh $389.11→$381.92), PEG passes (1.42, thin margin), ER passes decisively (36.24%/yr) |
+| VA (Valuation) | 7.3 | 25% | 1.825 | Price drifted up to $389.28 (08-02): MoS 15.13%→13.49% (still in STARTER near-miss band), PEG 1.42→1.45 (still under 1.5 cap, thinner), ER 36.24%→35.84%/yr (still decisive pass) |
 | RA (Risk Assessment) | 6.0 | 15% | 0.90 | Key-man risk (Hock Tan, 74, no contract) unchanged; $68B debt unchanged; COT/share risk (GCP ramping MediaTek/MRVL per Computex channel checks) is a real emerging watch item but not yet confirmed in hard numbers — unchanged from last batch |
-| **WAF Total** | **8.18** | | | **HIGH** (up from 7.83 — VA correction from the ER formula fix + consensus growth refresh) |
+| **WAF Total** | **8.13** | | | **HIGH** (down slightly from 8.18 — price-only VA drift, no fundamental change) |
 
-**Investment Idea:** STARTER — price refresh ($389.11→$381.92) lifts MoS to 15.13%, now AT the 15% gate; PEG (1.42) passes (thin margin under the 1.5 cap), and ER (36.24%/yr, convergence 3.34% + analyst consensus growth 32.9%) clears the quality bar decisively. Q2 FY26 actual results already confirmed thesis durability (rev $22.2B, AI $10.8B matched guide) — no fundamental change this batch, pure price refresh. STARTER (not full BUY) retained for prudence: the gate-clear is razor-thin + margins thin + AVGO is not currently held — flag for Kim to run the Opportunity Cost Gate (Rule #11) vs. best existing holding before executing.
+**Investment Idea:** STARTER — price drifted $381.92→$389.28 (+1.9%, watchlist batch 2026-08-02, time-triggered ANALYZE), pulling MoS 15.13%→13.49%, still inside the STARTER near-miss band [8,15) so no action change. PEG (1.45) still passes (thin margin under the 1.5 cap), and ER (35.84%/yr) still clears the quality bar decisively. No new news since 07-25 gate — pure price refresh. STARTER (not full BUY) retained for prudence: not currently held — flag for Kim to run the Opportunity Cost Gate (Rule #11) vs. best existing holding before executing.
 
 **Thesis:** XPU near-monopoly 6 hyperscalers (Google/Anthropic/OpenAI/Meta + 2 unnamed) + Tomahawk 100T networking sole-supplier; AI semi $56B FY26 → >$100B FY27 line-of-sight unchanged; Anthropic-Google-Broadcom 3.5GW TPU partnership (2027 online) ยืนยัน XPU engagement durability ข้ามปี
 
 **Thesis Risk:** Google/Meta develop in-house XPU ลด AVGO dependency — GCP ramping MediaTek/MRVL vendors (Computex channel signal) เป็น early-stage COT/share risk ที่ต้องติดตามใกล้ชิดขึ้น; $68B VMware debt; Global Minimum Tax headwind to EPS; PEG passes only by a thin margin (1.45 vs 1.5 cap)
 
-**Action:** 🌓 STARTER (MoS 15.13% AT the gate (razor-thin) + PEG 1.42 pass (thin) + ER 36.24%/yr pass + WAF 8.18 HIGH; staged not full BUY — not currently held, Opportunity Cost Gate not yet run)
+**Action:** 🌓 STARTER (MoS 13.49% inside near-miss STARTER band [8,15) + PEG 1.45 pass (thin) + ER 35.84%/yr pass + WAF 8.13 HIGH; staged not full BUY — not currently held, Opportunity Cost Gate not yet run)
 
 ---
 `,
@@ -3192,7 +3199,10 @@ COHR position: no single competitor replicates full InP stack. OCS (Optical Circ
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-29
+**Last Updated:** 2026-08-02
+
+**Update (2026-08-02) — Price refresh only (watchlist batch), no new analyst view** [MARKET NEWS]
+- Price partially recovered from the sector selloff $234.43→$262.89 (+12.1%), no COHR-specific news since 07-29 — MoS/PEG/ER recalculated at current price (see Valuation Range above), all gates still pass, thesis unchanged, FV Base $330 unchanged.
 
 **Update (2026-07-29, batch 8) — Sector-wide selloff (-17.0% since 07-27 gate, same Corning-linked read-through as LITE) clears the MoS gate with room to spare — the "razor-thin, ~1% pullback needed" flag from 07-25 has now resolved decisively** [MARKET NEWS]
 - Price fell $282.39 (07-27 gate) → $234.43 (2026-07-29, -17.0%), part of the same 4-day sector-wide semiconductor selloff hitting ASML/AMD/MU/LITE/SKHY (SMH -12% from peak) — same Corning-forecast-linked negative read-through flagged on LITE's card, not COHR-specific.
@@ -3225,7 +3235,7 @@ COHR position: no single competitor replicates full InP stack. OCS (Optical Circ
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-29  |  **Status:** PASS  |  **Tier:** 🌱 Fast Grower
+**Last Updated:** 2026-08-02  |  **Status:** PASS  |  **Tier:** 🌱 Fast Grower
 
 **Tier Basis:** Fast Grower (unchanged): โตจริงจาก AI optical (transceiver 800G/1.6T) แต่ moat ยังไม่พิสูจน์ — II-VI legacy debt + margin บางในอดีต + SiC cyclical (~2/5 signals) → ยังไม่ถึง Pre-Inevitable; ไม่มี tier change รอบนี้ (sector selloff เป็น sentiment ไม่ใช่ signal เปลี่ยน moat)
 
@@ -3244,22 +3254,28 @@ Co-packaged optics (CPO) adoption เร็วกว่าคาดจนทำ�
 
 **Update (2026-07-29):** ราคาร่วง -17.0% ($282.39→$234.43) จาก sector-wide semiconductor selloff (เดียวกับ LITE, Corning-linked read-through, ไม่ใช่ COHR-specific) → MoS กระโดดข้าม gate 15% ไปที่ 28.96% (จากที่ขาดแค่ 0.57pt กลายเป็นผ่านกว้างขึ้นมาก) → WATCH→BUY. FV Base คงที่ $330 (รอ Q4 FY2026 ~ส.ค.). "razor-thin ~1% pullback" flag จากรอบก่อนได้รับคำตอบแล้ว — ราคาร่วงเกินกว่านั้นมาก.
 
+**Watchlist batch update (2026-08-02):** ราคาฟื้นตัวบางส่วนจาก selloff $234.43→$262.89 (+12.1%), ไม่มีข่าวเฉพาะบริษัทใหม่ (price-triggered ANALYZE, >10% เทียบ gate 07-29). MoS ลดจาก 28.96%→20.34% แต่ยังผ่าน gate 15% สบายๆ — BUY คงเดิม.
+
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-29  |  **Price:** $234.43  |  **Tier:** 🌱 Fast Grower  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
+**Last Updated:** 2026-08-02  |  **Price:** $262.89  |  **Tier:** 🌱 Fast Grower  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
 
-### Snapshot (Watchlist Refresh)
+> **Price refresh 2026-08-02 (watchlist batch, price-triggered ANALYZE, +12.1% since 07-29 gate):** $234.43 → $262.89, partial recovery from the sector selloff, no COHR-specific news. MoS compresses 28.96%→**20.34%** (still well clear of the 15% gate), PEG 0.69→0.77 (still under 1.0 Fast Grower cap), ER 44.08%→41.65%/yr (still well above 20%). All 4 gates still pass decisively — **BUY unchanged**.
+
+### Snapshot (2026-08-02 price refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $234.43 | — |
+| Current Price | $262.89 | — |
 | Fair Value Base | $330 (= FY2027E consensus EPS $9.22 × 35.79×) | — |
-| **Margin of Safety** | **28.96%** | ✓ PASS (Gate 15%) |
-| Consensus EPS Growth (used in ER/PEG) | 37%/yr | 3-yr forward consensus EPS CAGR (WallStreetZen/Simply Wall St analyst consensus aggregation) — unchanged assumption |
-| **5-yr Expected Return** | **44.08%/yr** | ✓ PASS (Gate ≥15%) — convergence 7.08% + consensus growth 37% |
-| Forward P/E | ~25.43× ($234.43 ÷ EPS $9.22) | — |
-| PEG | ~0.69 (Fwd PE 25.43 ÷ consensus growth 37%) | ✓ PASS (Fast Grower cap 1.0×) |
+| **Margin of Safety** | **20.34%** | ✓ PASS (Gate 15%) |
+| Consensus EPS Growth (used in ER/PEG) | 37%/yr | unchanged assumption |
+| **5-yr Expected Return** | **41.65%/yr** | ✓ PASS (Gate ≥15%) — convergence 4.65% + consensus growth 37% |
+| Forward P/E | ~28.51× ($262.89 ÷ EPS $9.22) | — |
+| PEG | ~0.77 (Fwd PE 28.51 ÷ consensus growth 37%) | ✓ PASS (Fast Grower cap 1.0×) |
+
+*(2026-07-29 read at $234.43: MoS 28.96%, ER 44.08%/yr, PEG 0.69 — superseded by 08-02 price refresh above, FV unchanged)*
 
 ### Fair Value Scenarios
 
@@ -3275,17 +3291,17 @@ Co-packaged optics (CPO) adoption เร็วกว่าคาดจนทำ�
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 7.5 | 30% | 2.25 | Unchanged — NVIDIA $2B equity + multi-year purchase commitment confirms vertical-integration moat |
 | GP (Growth Potential) | 8.0 | 30% | 2.40 | Unchanged — InP capacity ramp/Texas fab still executing known plan; no company-specific catalyst this round |
-| VA (Valuation) | 8.7 | 25% | 2.175 | Up from 7.3 — sector-wide selloff (-17.0%) moves MoS from a 0.57pt near-miss to a 28.96% clear pass; PEG (0.69) and ER (44.08%/yr) both comfortably pass alongside it |
-| RA (Risk Assessment) | 6.0 | 15% | 0.90 | Unchanged — CapEx/debt load + CPO transition risk persist; sector-wide de-rate is sentiment/macro, not a new fundamental risk |
-| **WAF Total** | **7.725** | | **HIGH** | *(up from 7.38 MEDIUM)* |
+| VA (Valuation) | 8.3 | 25% | 2.075 | Down slightly from 8.7 — partial recovery from selloff ($234.43→$262.89) compresses MoS to 20.34% (still comfortable pass); PEG (0.77) and ER (41.65%/yr) still comfortably pass |
+| RA (Risk Assessment) | 6.0 | 15% | 0.90 | Unchanged — CapEx/debt load + CPO transition risk persist |
+| **WAF Total** | **7.63** | | **HIGH** | *(down slightly from 7.725 — price-only refresh)* |
 
-**Investment Idea:** Sector-wide semiconductor selloff (-17.0%, same Corning-linked read-through as LITE, not COHR-specific) drops price to $234.43 while FV Base holds at $330 — MoS jumps from a 0.57pt near-miss to a clear **28.96%** pass, PEG improves to 0.69, ER to 44.08%/yr. The "razor-thin, ~1% pullback needed" flag from the 07-25 batch is resolved (price fell far more than that) → **BUY**.
+**Investment Idea:** Watchlist batch 2026-08-02 (price-triggered ANALYZE, +12.1% since 07-29 gate). Price partially recovered from the sector-wide selloff ($234.43→$262.89), no COHR-specific news. FV Base holds $330. MoS compresses from 28.96% to a still-comfortable **20.34%**, PEG 0.77, ER 41.65%/yr — all 4 gates still pass decisively → **BUY unchanged**.
 
-**Thesis:** NVIDIA $2B equity + CPO supply lock-in + demand booked through 2028 + InP vertical integration + Texas fab execution proof; sector-wide (not company-specific) selloff now offers a clear entry point, not a razor-thin one.
+**Thesis:** NVIDIA $2B equity + CPO supply lock-in + demand booked through 2028 + InP vertical integration + Texas fab execution proof; sector-wide (not company-specific) selloff offered a clear entry point, now partially retraced but still well inside the gate.
 
 **Thesis Risk:** Heavy CapEx pressures FCF; hyperscaler concentration ~75%; CPO adoption-speed/execution risk; concurrent multi-site fab buildout risk; FV $330 relies on aggressive ~37%/yr growth (Charlie 07-18 flag: conflicts with backward DCF $67-84); must confirm selloff was profit-taking (not demand air-pocket) at Q4 FY2026 earnings (~Aug 2026).
 
-**Action:** 🟢 BUY (MoS 28.96% ✓ clears the 15% gate with room to spare; PEG 0.69 ✓ and ER 44.08%/yr ✓ both pass on the same unchanged growth assumption; WAF 7.725 HIGH — all 4 BUY Decision Flow gates clear; Fast Grower tier has no STARTER mechanism so this is a full BUY, not staged entry. Flag for Charlie: confirm this is sector rotation not a COHR-specific demand signal ahead of Q4 FY2026 earnings)
+**Action:** 🟢 BUY (MoS 20.34% ✓ clears the 15% gate with room to spare; PEG 0.77 ✓ and ER 41.65%/yr ✓ both pass; WAF 7.63 HIGH — all 4 BUY Decision Flow gates clear; Fast Grower tier has no STARTER mechanism so this is a full BUY, not staged entry. Flag for Charlie: confirm the 07-29 selloff was profit-taking not a COHR-specific demand signal ahead of Q4 FY2026 earnings)
 
 ---
 
@@ -3651,7 +3667,10 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-27
+**Last Updated:** 2026-08-02
+
+**Update (2026-08-02) — Price refresh only (watchlist batch), no new analyst view** [MARKET NEWS]
+- Price ran up $319.74→$356.13 (+11.4%) with no new company-specific or analyst news since the 07-27 gate (broad AI/mega-cap rally read-through) — MoS/PEG/ER recalculated at current price (see Valuation Range above), thesis unchanged, FV Base $311 unchanged.
 
 **App Economy Insights — "Why Google is Selling $85B of Itself" (Jun 9, 2026) — capital-structure/financing signal, distinct from the Q2 earnings note below** [ANALYST VIEW]
 - **Alphabet sold $85B of new equity in two days** (upsized from a planned $80B raise on strong demand) — larger than SpaceX's own then-record $75B IPO. **Berkshire Hathaway anchored with a $10B investment at a 6-8% discount** — a rare, disciplined-buyer endorsement (Greg Abel era) of the AI-capex bet.
@@ -3734,7 +3753,7 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-25  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-08-02  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
 
 **Tier Basis:** Inevitable: ✓moat 25ปี/GFC+COVID ✓Page/Brin→Pichai transition ✓search+cloud+AI ขยาย ✓ROIC>20% 10ปี — **ไม่มี tier change** (FCF ติดลบ Q2 = capex-cycle choice ไม่ใช่ structural break; moat ยังครบ)
 
@@ -3749,21 +3768,25 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-25  |  **Price:** $319.74  |  **Tier:** 🏛️ Inevitable  |  **Method:** Relative Multiple on clean (ex-equity-gains) forward consensus EPS
+**Last Updated:** 2026-08-02  |  **Price:** $356.13  |  **Tier:** 🏛️ Inevitable  |  **Method:** Relative Multiple on clean (ex-equity-gains) forward consensus EPS
 
+> **Price refresh 2026-08-02 (watchlist batch, price-triggered ANALYZE +11.4% since 07-27 gate):** $319.74 → $356.13, no new company-specific news (broad AI/mega-cap rally read-through) — FV Base held at $311 (no fundamental basis to move it on a price-only rally). MoS deteriorates -2.81% → **-14.51%** (deeper FAIL), PEG 2.52→2.81 (further above 1.5 cap), ER falls to **8.33%/yr** (below the 10% floor — clearly loses to QQQM). WATCH unchanged, deeper conviction against a new buy.
+>
 > ⚠️ **FV re-estimate (2026-07-25, post Q2 FY2026):** FV Base **$376 → $311**. เหตุผล: FV เดิมสร้างบน GAAP EPS ~$13.9 ที่ **พองจาก one-time equity gains** (การ์ดเคย flag CONFLICT ไว้ว่าต้อง revisit) — รอบนี้ rebase บน **clean FY27 consensus EPS $11.53 × 27×** (ex-equity-gains). Q2 (07-22) ยืนยัน operating แกร่ง (rev +24%, Cloud +82%) แต่ capital-intensity shock (FCF ติดลบ, CapEx $195-205B, $811B commitments, dilution) → ราคา -11%. ที่ $319.74 = ~fair value, MoS หายหมด.
 
 ### Snapshot (Watchlist Refresh)
 
-| Metric | Value | Gate |
+| Metric | Value (08-02) | Gate |
 |--------|-------|------|
-| Current Price | $319.74 | — |
+| Current Price | $356.13 | — |
 | Fair Value Base | $311 | — |
-| **Margin of Safety** | **-2.8%** | ✗ FAIL (Gate 15%) — ราคาสูงกว่า FV Base เล็กน้อย |
-| Consensus EPS Growth (used in ER) | 11%/yr | analyst consensus post-Q2 (stockanalysis / Simply Wall St 2026-07-24: EPS growth ~10.6-11.2%/yr) — **แก้ CONFLICT เดิม:** ตัวเลข 8.94% รอบก่อนต่ำเกิน, PEG-implied 27.6% พองจาก equity gains; 11% เป็น clean consensus บน operating EPS |
-| **5-yr Expected Return** | **10.45%/yr** | ✗ FAIL (Gate ≥15%) — convergence -0.55% + growth 11% |
-| Forward P/E | ~27.7× ($319.74 / FY27 EPS $11.53) | — |
-| PEG | ~2.52 (27.7× ÷ 11% growth) | ✗ เกิน 1.5 — ไม่กระทบ action เพราะ MoS fail อยู่แล้ว |
+| **Margin of Safety** | **-14.51%** | ✗ FAIL (Gate 15%) — deeper FAIL, price ran further from FV |
+| Consensus EPS Growth (used in ER) | 11%/yr | analyst consensus post-Q2 (unchanged input) |
+| **5-yr Expected Return** | **8.33%/yr** | ✗ FAIL (Gate ≥15%) — convergence -2.67% + growth 11% |
+| Forward P/E | ~30.9× ($356.13 / FY27 EPS $11.53) | — |
+| PEG | ~2.81 (30.9× ÷ 11% growth) | ✗ เกิน 1.5 มากขึ้น — ไม่กระทบ action เพราะ MoS fail อยู่แล้ว |
+
+*(2026-07-25 read at $319.74: MoS -2.8%, ER 10.45%/yr, PEG 2.52 — superseded by 08-02 price refresh above, FV unchanged)*
 
 ### Fair Value Scenarios
 
@@ -3779,17 +3802,17 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 9.5 | 30% | 2.85 | Unchanged — search 90% + Cloud +82% (backlog $514B) + TPU full-stack moat intact; Q2 ยืนยันคุณภาพ core |
 | GP (Growth Potential) | 8.5 | 30% | 2.55 | Unchanged — Cloud acceleration + backlog +$50B QoQ แกร่งมาก; หักล้างด้วย EPS growth ที่ถูก D&A จาก capex กด (consensus FY27 ~flat-to-+11%) |
-| VA (Valuation) | 4.5 | 25% | 1.125 | ลงจาก 5.2 — FV rebased ลงบน clean EPS ($376→$311) พร้อมราคาที่ยังสูงกว่า FV → MoS พลิกเป็น -2.8%, ER ~10.5% ต่ำกว่า gate |
-| RA (Risk Assessment) | 5.8 | 15% | 0.87 | ลงจาก 6.2 — Q2 ยืนยันความเสี่ยง capital-intensity ใหม่: FCF ติดลบครั้งแรก, CapEx >$200B, $811B commitments (ยกเลิกยาก), dilution + buyback หยุด; DOJ/EU overhang เดิมยังอยู่ |
-| **WAF Total** | **7.40** | | **MEDIUM** (ลงจาก 7.63) | |
+| VA (Valuation) | 3.0 | 25% | 0.75 | ลงจาก 4.5 — ราคาวิ่งขึ้น $319.74→$356.13 (+11.4%) ไม่มีข่าวใหม่ FV ยังคง $311 → MoS ทรุดเป็น -14.51%, ER เหลือ 8.33% (ต่ำกว่า 10% floor) |
+| RA (Risk Assessment) | 5.8 | 15% | 0.87 | Unchanged — Q2 ยืนยันความเสี่ยง capital-intensity: FCF ติดลบครั้งแรก, CapEx >$200B, $811B commitments (ยกเลิกยาก), dilution + buyback หยุด; DOJ/EU overhang เดิมยังอยู่ |
+| **WAF Total** | **7.02** | | **MEDIUM** (ลงจาก 7.40 — price-only drift, no fundamental change) | |
 
-**Investment Idea:** Full re-analysis หลัง Q2 FY2026 (07-22): operating engine แกร่งจริง (rev +24%, Cloud +82%, backlog $514B) แต่ตลาด reprice หุ้น -11% รับ capital-intensity shock (FCF ติดลบ -$5.9B, CapEx $195-205B, $811B commitments, equity raise $49.6B). **FV rebased $376→$311** โดยแก้ที่ต้นตอ: EPS เดิมพองจาก equity gains → ใช้ clean FY27 consensus $11.53 × 27×. ที่ $319.74 GOOGL ~fairly valued, MoS -2.8%, ER 10.5% ต่ำกว่า gate → **WATCH**. รอ pullback หรือหลักฐาน capex-ROI/FCF ฟื้น ก่อนพิจารณาไม้ใหม่
+**Investment Idea:** Watchlist batch 2026-08-02 (price-triggered ANALYZE, +11.4% since 07-27 gate, no new company-specific news — broad AI/mega-cap rally read-through). FV Base held at $311 (unchanged, no fundamental basis to move it on a pure price move). MoS deteriorates -2.81%→-14.51% (deeper FAIL), PEG 2.52→2.81 (further above cap), ER collapses to 8.33%/yr (below 10% — clearly loses to QQQM). Not held, so this stays a clean WATCH — good business, price simply ran further from fair value.
 
 **Thesis:** Search 90% + Cloud fastest-growing (+82%, backlog $514B) + full-stack AI (TPU+Gemini+Vertex) + Waymo free option; คุณภาพสูงสุด แต่กำลังอยู่ในช่วง heavy-capex ที่ FCF ติดลบและ dilution — ตลาดต้องการเห็น ROI ก่อนจ่าย premium
 
-**Thesis Risk:** DOJ Search remedy (Apple TAC ~$18-20B) + Ad-Tech divestiture; FCF ติดลบยืดเยื้อจาก CapEx >$200B + $811B commitments ถ้า AI monetization ไม่ทัน; equity-raise dilution + buyback หยุด; AI-search disruption; GAAP EPS พองจาก volatile equity gains (กลับทิศได้)
+**Thesis Risk:** DOJ Search remedy (Apple TAC ~$18-20B) + Ad-Tech divestiture; FCF ติดลบยืดเยื้อจาก CapEx >$200B + $811B commitments ถ้า AI monetization ไม่ทัน; equity-raise dilution + buyback หยุด; AI-search disruption; GAAP EPS พองจาก volatile equity gains (กลับทิศได้); PEG/ER ตอนนี้ fail gate ชัดเจนจากราคาล้วนๆ
 
-**Action:** 👀 WATCH — MoS -2.8% (ราคาสูงกว่า FV Base ใหม่ $311), ER 10.5% ต่ำกว่า gate 15%; **ไม่ใช่ tier change** (Inevitable moat intact — FCF ติดลบ = capex-cycle choice ไม่ใช่ structural break). REVISE จากรอบ 07-15: FV $376→$311, WAF 7.63→7.40 หลัง Q2 re-analysis
+**Action:** 👀 WATCH — MoS -14.51% (ราคา $356.13 วิ่งขึ้นไกลกว่า FV Base $311), ER 8.33% ต่ำกว่า gate 15% (และต่ำกว่า floor 10%); **ไม่ใช่ tier change** (Inevitable moat intact — เป็น price-only drift). Carried จาก 07-25/07-27: FV $311 ไม่เปลี่ยน, WAF 7.40→7.02 (ยัง MEDIUM ไม่ flip)
 
 ---
 `,
@@ -4909,7 +4932,10 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-30
+**Last Updated:** 2026-08-02
+
+**Update (2026-08-02) — Price refresh only (watchlist batch), no new analyst view** [MARKET NEWS]
+- Price continued running $420.80→$464.72 (+10.4%) in 3 days with no new news since the 07-30 earnings deep dive. WebSearch 08-02 for updated FY27 consensus EPS found Scotiabank actually *lowered* its estimate to $19.05 (from $19.49) — close to the $19.14 already in use, not a clean upward revision. FV Base $459 held unchanged per Consensus-as-Base rule; MoS/PEG/ER recalculated at current price (see Valuation Range above) — MoS flips negative, still HOLD+Flag (not SELL) per Return Decay rule.
 
 **Update (2026-07-30) — Q4 FY2026 Earnings Full Re-score + VERIFIED MANUAL price** [WARREN THESIS]
 - Full re-score (ไม่ใช่แค่ price refresh): **BQ unchanged 9.5** — RPO $678B (+84% YoY) ใหญ่สุดในธีม, Copilot 30M+ paid seats (net seat adds 2x QoQ, fastest-growing enterprise product ในประวัติศาสตร์บริษัท), GitHub 225M users — ecosystem moat evidence แข็งขึ้นอีกชั้น. **GP ขึ้น 8.5→9.0** — Azure เร่งจริง 39%→43%→guided ~45% Q1 FY27 (acceleration ไม่ใช่แค่ reiterate), FY Azure ข้าม $100B ครั้งแรก (+41% full year), Foundry revenue >2x YoY (100K customers), 1-trillion-token customers 4x YoY.
@@ -5008,7 +5034,7 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-30  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-08-02  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
 
 **Tier Basis:** Inevitable: ✓moat 30+ปี/3วิกฤต ✓Gates→Ballmer→Nadella transition ✓cloud+AI ขยาย ✓ROIC>25% 10ปี — ไม่มี tier change; 07-30 Q4 FY2026 earnings ยืนยันหลักฐานเพิ่มเติม (Azure ข้าม $100B FY แรก +41%, RPO $678B +84%, Copilot 30M+ seats) แต่ contractual obligations พุ่งเกือบเท่าตัว ($397.0B→$743.8B) + useful-life accounting change (15→25yr) เป็นจุดต้องจับตา — ไม่กระทบ tier classification
 
@@ -5021,23 +5047,25 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-30  |  **Price:** $420.80 (VERIFIED MANUAL)  |  **Tier:** 🏛️ Inevitable  |  **Method:** Full re-score post Q4 FY2026 earnings — Consensus EPS × historical multiple, FV carried forward pending FY27 consensus revision
+**Last Updated:** 2026-08-02  |  **Price:** $464.72  |  **Tier:** 🏛️ Inevitable  |  **Method:** Consensus EPS × historical multiple, FV carried forward pending FY27 consensus revision
 
-### Snapshot (Q4 FY2026 Earnings Reaction — VERIFIED MANUAL price override)
+### Snapshot (Watchlist batch 2026-08-02 — price-triggered ANALYZE, +10.4% since 07-30 gate)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $420.80 (VERIFIED MANUAL — post-earnings, +7.24% after-hours; automated feeds not yet updated as of 07-30) | — |
-| Fair Value Base | **$459** (unchanged — consensus EPS not yet revised post-earnings) | — |
-| **Margin of Safety** | **8.32%** (was 16.84%) | ❌ FAIL (Gate 15%) |
-| EPS ที่ใช้ | $19.14 (FY27 consensus, carried forward — no post-Q4-earnings consensus revision available yet) | — |
-| Multiple | 24× (unchanged) | premium +13% เหนือ forward, ต่ำกว่า median 32× |
+| Current Price | $464.72 (prices_cache 08-02, cross-checked CNBC quote feed — matches exactly) | — |
+| Fair Value Base | **$459** (unchanged — reliable FY27 consensus revision still not available, see note below) | — |
+| **Margin of Safety** | **-1.25%** (was 8.32%) | ❌ FAIL (Gate 15%) — flipped negative |
+| EPS ที่ใช้ | $19.14 (FY27 consensus, carried forward) | — |
+| Multiple | 24× (unchanged) | — |
 | Consensus EPS Growth (used in ER) | 13%/yr (unchanged) | consensus FY27 blend |
-| **5-yr Expected Return** | **14.75%/yr** (was 16.76%) | ⚠️ FLAG (band 10-15%, Gate ≥15%) |
-| Forward P/E | 21.99× | — |
-| PEG | 1.69 | — |
+| **5-yr Expected Return** | **12.75%/yr** (was 14.75%) | ⚠️ FLAG (band 10-15%, Gate ≥15%) |
+| Forward P/E | 24.28× | — |
+| PEG | 1.87 | — |
 
-> **Q4 FY2026 Earnings Reaction (2026-07-30):** ราคาพุ่งขึ้น $381.70→$420.80 (+10.3% เทียบราคา batch ก่อน, +7.24% after-hours ตอบรับงบ — VERIFIED MANUAL per Oat screenshot, automated feeds ยังไม่อัพเดท) ขณะที่ FV Base คงที่ $459 เพราะ FY27 consensus EPS ยังไม่ปรับหลังงบ 07-29 (WebSearch เจอตัวเลขขัดแย้งกัน $16.71–19.40 ไม่น่าเชื่อถือพอใช้แทน). ผลคือ MoS หลุด gate 15% เหลือ 8.32% และ ER เข้า Flag band 14.75%. **สำคัญ:** นี่คือราคาวิ่งไปก่อน FV จาก earnings ที่โตจริง (Azure/Copilot/RPO accelerate) ไม่ใช่ sentiment/hype ล้วนๆ — ตามกฎ Return Decay ต้อง re-estimate FV รอบหน้าเมื่อ FY27 consensus ปรับขึ้นตามงบจริง (มีโอกาสสูงที่ FV จะขึ้นตาม ไม่ใช่ MoS หายจริงถาวร). **ไม่ execute เพิ่ม** — HOLD + Flag position เดิม $70.
+> **Watchlist batch 2026-08-02 (price-triggered ANALYZE, +10.4% since 07-30 gate):** ราคาวิ่งต่อ $420.80→$464.72 ใน 3 วัน ไม่มีข่าวใหม่นับจาก Q4 FY2026 earnings deep dive (07-30) — pure post-earnings momentum. FV Base ยังคง $459 เพราะ FY27 consensus ยังไม่ปรับชัดเจน: WebSearch 08-02 พบ Scotiabank **ปรับลง** เป็น $19.05 (จาก $19.49) ซึ่งใกล้เคียง $19.14 ที่ใช้อยู่ ไม่ใช่ upward revision ที่ชัดพอจะยก FV ตามกฎ Consensus-as-Base. MoS พลิกเป็นลบ (-1.25%), PEG ขยับสูงกว่าเพดาน (1.87 vs 1.5), ER ลดลงเหลือ 12.75%/yr แต่ยังอยู่ใน Flag band (10-15%) ไม่ใช่ Sell band (<10%). ตามกฎ Holdings Return Recheck + Return Decay: ราคาขึ้นจาก earnings โตจริง ไม่ใช่ sentiment → คง **HOLD + Flag** ไม่ใช่ SELL — รอ consensus ตามทันจริงก่อน re-estimate FV รอบหน้า.
+>
+> **Q4 FY2026 Earnings Reaction (2026-07-30, prior read):** ราคาพุ่งขึ้น $381.70→$420.80 (+7.24% after-hours ตอบรับงบ), MoS 16.84%→8.32%, ER 16.76%→14.75% — superseded by 08-02 price refresh above, FV/EPS/multiple ไม่เปลี่ยน.
 
 ### Fair Value Scenarios
 
@@ -5053,17 +5081,17 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 9.5 | 30% | 2.85 | Unchanged — RPO $678B (+84%) ใหญ่สุดในธีม, Copilot 30M+ seats (fastest-growing enterprise product ในประวัติศาสตร์บริษัท), GitHub 225M users — ecosystem moat evidence แข็งขึ้นอีกชั้นจากงบ Q4 |
 | GP (Growth Potential) | 9.0 | 30% | 2.70 | ขึ้นจาก 8.5 — Azure เร่งจริง 39%→43%→guided ~45% Q1 FY27 (acceleration ไม่ใช่แค่ reiterate), FY Azure ข้าม $100B ครั้งแรก, Foundry revenue >2x YoY, Copilot net seat adds 2x QoQ |
-| VA (Valuation) | 6.5 | 25% | 1.625 | ลงจาก 8.4 — ราคา VERIFIED MANUAL $420.80 ดัน MoS 16.84%→8.32% (หลุด gate 15%), ER 16.76%→14.75% (เข้า Flag band); เกิดจากราคาขึ้นล้วนๆ ไม่ใช่ FV ลง (FV carried forward รอ consensus update) |
-| RA (Risk Assessment) | 7.0 | 15% | 1.05 | ลงจาก 8.0 — contractual obligations $397.0B→$743.8B (เกือบเท่าตัว), uncommenced datacenter leases $196.6B→$329.1B (+67%), useful-life accounting change (15→25yr) ลด earnings transparency, FCF Q4 -23% YoY |
-| **WAF Total** | **8.20** | | **HIGH** | ลงจาก 8.70 (VERY HIGH→HIGH) — ธุรกิจดีขึ้นจริงจากงบ แต่ valuation ตึงขึ้นเพราะราคาวิ่งไปก่อน FV + balance sheet risk เพิ่มขึ้นชัดเจน |
+| VA (Valuation) | 5.3 | 25% | 1.325 | ลงจาก 6.5 — ราคาวิ่งต่อถึง $464.72 ดัน MoS 8.32%→**-1.25%** (พลิกลบ), PEG 1.69→1.87 (เกินเพดานมากขึ้น), ER 14.75%→12.75% (ยังอยู่ใน Flag band); เกิดจากราคาขึ้นล้วนๆ ไม่ใช่ FV ลง (FV carried forward รอ consensus update) |
+| RA (Risk Assessment) | 7.0 | 15% | 1.05 | Unchanged — contractual obligations $397.0B→$743.8B (เกือบเท่าตัว), uncommenced datacenter leases $196.6B→$329.1B (+67%), useful-life accounting change (15→25yr) ลด earnings transparency, FCF Q4 -23% YoY |
+| **WAF Total** | **7.93** | | **HIGH** | ลงจาก 8.20 — price-only drift ต่อ (ไม่มีข่าวใหม่), valuation ตึงขึ้นอีกชั้นเพราะราคาวิ่งไปก่อน FV มากขึ้น |
 
-**Investment Idea:** Enterprise AI Stack — Azure + Copilot + RPO $678B thesis ยืนยันแรงขึ้นจากงบ Q4 FY2026 จริง (ไม่ใช่แค่คาดการณ์) แต่ราคาวิ่งรับข่าวไปมากแล้ว (+7.24% AH) ก่อนที่ analyst consensus จะปรับ FY27 EPS ขึ้นตาม — ทำให้ MoS/ER หลุด gate ชั่วคราว ไม่ใช่สัญญาณ sell แต่เป็นสัญญาณ "รอ consensus ตามทัน" — theme TQR 8.65 (🥇 Core, ไม่มีเพดานน้ำหนัก, อ้างอิง AI-Revolution.md playbook v1).
+**Investment Idea:** Watchlist batch 2026-08-02 (price-triggered ANALYZE, +10.4% since 07-30 gate). Enterprise AI Stack thesis ไม่เปลี่ยน (Azure + Copilot + RPO $678B) — ราคาวิ่งต่อรับข่าวเดิมไปอีก 3 วันโดยไม่มีข่าวใหม่ ก่อนที่ analyst consensus จะปรับ FY27 EPS ตาม (WebSearch 08-02: Scotiabank ปรับ FY27 estimate ลงเล็กน้อยเป็น $19.05 — ใกล้เคียงตัวเลขที่ใช้อยู่ ไม่ใช่หลักฐานปรับ FV ขึ้น) — ทำให้ MoS/PEG หลุด gate ลึกขึ้น, ER ยังอยู่ Flag band ไม่ใช่ Sell band — theme TQR sync เป็น 8.75 (🥇 Core, ไม่มีเพดานน้ำหนัก, GP component synced กับ WAF GP 9.0 — ดู tqr block ใน watchlist_valuations.json).
 
-**Thesis:** Azure accelerating (43%→guided 45%) + Copilot 30M+ seats + RPO $678B (+84%) ยืนยัน thesis เดิมแข็งขึ้น — คุณภาพสูงสุดในธีมร่วมกับ NVDA; ธุรกิจดีขึ้นจริง ราคาสะท้อนไปก่อน FV ชั่วคราว
+**Thesis:** Azure accelerating (43%→guided 45%) + Copilot 30M+ seats + RPO $678B (+84%) ยืนยัน thesis เดิมแข็งขึ้น — คุณภาพสูงสุดในธีมร่วมกับ NVDA; ธุรกิจดีขึ้นจริง ราคาสะท้อนไปก่อน FV มากขึ้นเรื่อยๆ
 
-**Thesis Risk:** Contractual obligations $743.8B (เกือบเท่าตัวใน 1 ปี) + uncommenced leases $329.1B risk ต่อ balance sheet ถ้า AI demand ชะลอ; useful-life accounting change (15→25yr) เป็น earnings-quality concern ต้องเทียบ peer hyperscaler; FCF -23% YoY ต่อเนื่อง; Azure ยังโดน supply-constrained
+**Thesis Risk:** Contractual obligations $743.8B (เกือบเท่าตัวใน 1 ปี) + uncommenced leases $329.1B risk ต่อ balance sheet ถ้า AI demand ชะลอ; useful-life accounting change (15→25yr) เป็น earnings-quality concern ต้องเทียบ peer hyperscaler; FCF -23% YoY ต่อเนื่อง; Azure ยังโดน supply-constrained; ราคาวิ่งไกลกว่า FV มากขึ้นทุกวันที่ consensus ยังไม่ตามทัน
 
-**Action:** 🟡 HOLD + Flag ⚠️ (position เดิม $70 total invested — ER 14.75%/yr อยู่ใน band 10-15% ตาม Holdings Return Recheck = "HOLD + Flag ต้อง re-estimate Fair Value" ไม่ใช่ SELL เพราะราคาขึ้นจาก earnings โตจริงตามกฎ Return Decay; รอ FY27 consensus EPS อัพเดทหลังงบก่อน re-estimate FV รอบหน้า)
+**Action:** 🟡 HOLD + Flag ⚠️ (position เดิม $70 total invested — ER 12.75%/yr ยังอยู่ใน band 10-15% ตาม Holdings Return Recheck = "HOLD + Flag ต้อง re-estimate Fair Value" ไม่ใช่ SELL เพราะราคาขึ้นจาก earnings โตจริงตามกฎ Return Decay; รอ FY27 consensus EPS อัพเดทจริงก่อน re-estimate FV รอบหน้า — ถ้า consensus ยังไม่ตามทันอีก 1-2 รอบ ต้อง re-evaluate ว่า Return Decay ยังใช้ได้ไหม)
 
 ---
 `,
@@ -6183,7 +6211,10 @@ EPS Diluted $1.23 (+86% YoY) สูงกว่า Guidance $0.76 อย่า�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-27
+**Last Updated:** 2026-08-02
+
+**Update (2026-08-02) — Price refresh only (watchlist batch), no new analyst view** [MARKET NEWS]
+- Price ticked up $70.09→$71.71 (+2.3%), no new news since the 07-25 gate — MoS/PEG/ER recalculated at current price (see Valuation Range above), thesis unchanged, FV Base $84 unchanged.
 
 **Independent Substack view — "This 13% Dip Doesn't Make it a Buy" (InvestInsights/Daan, Apr 23, 2026) — Q1 review, Hold/Accumulate <$91, 2028 PT $130 (~14%/yr CAGR)** [ANALYST VIEW]
 - Independent valuation source (pre-dates and is superseded by this card's own Q2 2026 primary-document re-value below, but cross-checks the direction): Q1 2026 revenue $12.25B (+16% YoY) beat consensus/guidance, driven partly by the World Baseball Classic exclusive for Japan (31.4M viewers, most-watched program ever on Netflix Japan) — an early proof point for the live-sports/events growth lever already tracked on this card. Ad tier reached **60% of new sign-ups** in Q1, 4,000+ advertisers (+70% YoY); churn <2%, industry-lowest (vs. Prime ~4%, Peacock ~7%, Disney 3-4%).
@@ -6232,7 +6263,7 @@ EPS Diluted $1.23 (+86% YoY) สูงกว่า Guidance $0.76 อย่า�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-25  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-02  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
 **Tier Basis:** Pre-Inevitable (unchanged): 4/5 signals (pricing✓ switching✓ margin-expansion✓ crisis-Qwikster/COVID✓) — content-cost intensive, ROIC ปรับขึ้น; ไม่มี tier change; 2026-07-25 re-value ยืนยัน Paper #3.1 basis (22x × FY27 consensus) หลังย่อยงบ Q2 เต็ม
 
@@ -6250,21 +6281,25 @@ OM contraction พิสูจน์ว่า **structural** (opex โตเก�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-25  |  **Price:** $70.09  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Q2 2026 re-value — Base 22x × FY27 consensus EPS $3.84 (Paper #3.1 basis ยืนยันหลังย่อยงบ Q2 เต็ม)
+**Last Updated:** 2026-08-02  |  **Price:** $71.71  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Q2 2026 re-value — Base 22x × FY27 consensus EPS $3.84 (Paper #3.1 basis ยืนยันหลังย่อยงบ Q2 เต็ม)
 
-### Snapshot (2026-07-25 re-value — watchlist, no execution)
+> **Price refresh 2026-08-02 (watchlist batch, time-triggered ANALYZE, gate 07-25 >7d):** $70.09 → $71.71 (+2.3%), no new news. MoS 16.6%→**14.63%** — technically a hair under the new-buy 15% gate now, but NFLX is a **held position**: Holdings Return Recheck governs (not the new-money MoS gate), and ER stays **18.17%/yr** (still 15-20% HOLD band), WAF still MEDIUM. No action change.
+
+### Snapshot (2026-08-02 price refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $70.09 | — |
+| Current Price | $71.71 | — |
 | Fair Value Base | **$84** (คงจาก Paper #3.1) | — |
-| **Margin of Safety** | **16.6%** | ✓ PASS (Gate 15%) |
+| **Margin of Safety** | **14.63%** | new-buy gate: FAIL by a hair (15%) — held-name governance (ER+WAF) applies instead |
 | EPS ที่ใช้ | $3.84 (FY27 consensus post-split) | ⚠️ down-rev 6/2 หลัง Q2 decel |
-| Multiple | 22× | premium +15% เหนือ forward 18.25× (OM ขยายทั้งปี 29.5%→31.5% + buyback + moat) |
-| Consensus EPS Growth (used in ER) | 15%/yr | conservative, สะท้อน deceleration + OM contraction |
-| **5-yr Expected Return** | **18.7%/yr** | ✓ PASS (Gate ≥15%) — convergence 3.7% + growth 15% |
-| Forward P/E | 18.25× | — |
-| PEG | 1.22 | ✓ PASS (Effective Cap 1.5) |
+| Multiple | 22× | premium +15% เหนือ forward 18.67× |
+| Consensus EPS Growth (used in ER) | 14.96%/yr | conservative, สะท้อน deceleration + OM contraction |
+| **5-yr Expected Return** | **18.17%/yr** | ✓ PASS (Gate ≥15%, held-name 15-20% HOLD band) — convergence 3.21% + growth 14.96% |
+| Forward P/E | 18.67× | — |
+| PEG | 1.248 | ✓ PASS (Effective Cap 1.5) |
+
+*(2026-07-25 read at $70.09: MoS 16.6%, ER 18.7%/yr, PEG 1.22 — superseded by 08-02 price refresh above, FV unchanged)*
 
 > **2026-07-25 re-value (post-Q2 full digest):** Q2'26 in-line ด้าน revenue แต่ **OM หด YoY ครั้งแรก** (33.4% vs 34.1%) + FCF −33% + disclosure cut (What-We-Watched → ปีละครั้ง). ตรวจ multiple premium 22x อีกครั้ง: OM หดเป็น **quarterly timing** (opex/content-amort H1>H2) — **full-year OM guide 31.5% ยัง > FY25 29.5%** = ขยายทั้งปี → premium +15% ยังมีเหตุผล. FV **คง $84** (22x × consensus FY27 $3.84). ราคาขึ้นเล็กน้อย $68.95→$70.09 → MoS 17.9%→**16.6%** (ยังผ่าน gate). **ไม่ execute** — HOLD, held name.
 
@@ -6282,17 +6317,17 @@ OM contraction พิสูจน์ว่า **structural** (opex โตเก�
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 8.2 | 30% | 2.46 | content/algorithm moat แข็งแรง; ตัด candor เล็กน้อย (ลดความถี่เปิดเผย What-We-Watched ยืนยันใน Q2) |
 | GP (Growth Potential) | 6.8 | 30% | 2.04 | deceleration ยืนยัน: Q2 +13% → Q3 guide +12%; consensus FY27 down-rev 6/2 |
-| VA (Valuation) | 7.3 | 25% | 1.825 | FV คง $84 (22x × $3.84); MoS 16.6% ยังผ่าน gate (ลดจาก 17.9% เพราะราคาขึ้นเล็กน้อย) |
-| RA (Risk Assessment) | 6.5 | 15% | 0.975 | Q2 ยืนยัน OM หด YoY ครั้งแรก + FCF −33% + disclosure cut; engagement erosion narrative; content cost inflation |
-| **WAF Total** | **7.30** | | **MEDIUM** | |
+| VA (Valuation) | 7.0 | 25% | 1.75 | ลงเล็กน้อยจาก 7.3 — FV คง $84 (22x × $3.84); ราคาขึ้นเล็กน้อยดัน MoS 16.6%→14.63% (หลุด new-buy gate เล็กน้อย แต่ ER ยังผ่าน 15-20% band) |
+| RA (Risk Assessment) | 6.5 | 15% | 0.975 | Unchanged — Q2 ยืนยัน OM หด YoY ครั้งแรก + FCF −33% + disclosure cut; engagement erosion narrative; content cost inflation |
+| **WAF Total** | **7.23** | | **MEDIUM** (ลงเล็กน้อยจาก 7.30 — price-only drift) | |
 
-**Investment Idea:** Q2'26 in-line revenue แต่ OM หด/FCF ลด/disclosure cut = negatives ใหม่ยืนยัน deceleration; ตรวจแล้ว premium 22x ยังมีเหตุผล (full-year OM ยังขยาย). FV คง $84, MoS 16.6% ยังผ่าน gate — quality HOLD, ไม่เติม.
+**Investment Idea:** Watchlist batch 2026-08-02 (time-triggered ANALYZE, gate 07-25 >7d). Pure price refresh (+2.3%), no new news. FV คง $84 (22x × consensus FY27 $3.84). MoS dips to 14.63% (a hair under the 15% new-buy gate) but NFLX is held — Holdings Return Recheck (ER 18.17%/yr, 15-20% band) governs, not the new-buy MoS gate. No action change — quality HOLD, ไม่เติม.
 
-**Thesis:** Content + algorithm moat + ad tier scale ยังจริง; multiple premium 22x justified ด้วย OM expansion ระดับปี + buyback — MoS 16.6% ผ่าน gate ที่ราคานี้; conviction MEDIUM
+**Thesis:** Content + algorithm moat + ad tier scale ยังจริง; multiple premium 22x justified ด้วย OM expansion ระดับปี + buyback — conviction MEDIUM
 
 **Thesis Risk:** OM contraction กลายเป็น structural (opex โตเกินรายได้ต่อเนื่อง); Q3 guide decel (+12%) ต่อเนื่อง; consensus FY27 $3.84 down-rev 6/2 + one-off FY26 contamination; engagement erosion; content cost inflation
 
-**Action:** 🟢 HOLD (2026-07-25 re-value = watchlist, ไม่ execute; MoS 16.6% ผ่าน gate; held name, ER 18.7% อยู่ใน band 15-20% = HOLD ไม่เติม — position เดิม $30 total invested)
+**Action:** 🟢 HOLD (watchlist batch 2026-08-02; MoS 14.63% a hair under new-buy 15% gate, but held name — ER 18.17%/yr อยู่ใน band 15-20% = HOLD ไม่เติม — position เดิม $30 total invested)
 
 ---
 
@@ -6754,7 +6789,7 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 - Action ยัง **HOLD** (Paper #3.1 = FV recalibration ล้วน, ไม่ execute); การกลับเข้า ADD เป็นเรื่องรอบ /warren ถัดไป — flag ให้โอ๊ต.
 
 **Update (2026-07-17) — FV re-derivation (EPS basis correction, Paper #3)** [VALUATION]
-- ตอบ Charlie DISAGREE: EPS ที่ใช้คำนวณ FV เดิม "~$18+" เป็น FY29/CY2028 mislabeled เป็น FY27 — แก้เป็น FY27 consensus $9.34 (single-variable correction), FV Base $308→$233 (25x), MoS 31.6%→11.0% → ถอน BUY เป็น HOLD. Charlie independent FV $194; ภายใต้ FV-Gap Conservative Rule (gap 16.7%) MoS บน min(FV)=$194 ติดลบ → NO-BUY ยืนยัน. ธุรกิจ/bull thesis ไม่เปลี่ยน — เป็น valuation correction ล้วน. ดู \`## Valuation Range\` สำหรับรายละเอียดเต็ม.
+- ตอบ Charlie DISAGREE: EPS ที่ใช้คำนวณ FV เดิม "~$18+" เป็น FY29/CY2028 mislabeled เป็น FY27 — แก้เป็น FY27 consensus $9.34 (single-variable correction), FV Base $308→$233 (25x), MoS 31.6%→11.0% → ถอน BUY เป็น HOLD. Charlie independent FV $194; ภายใต้ FV-Gap Conservative Rule (gap 16.7%) MoS บน min(FV)=$194 ติดลบ → NO-BUY ยืนยัน. ธุรกิจ/bull thesis ไม่เปลี่ยน — เป็น valuation correction ล้วน. ดูส่วน "Valuation Range" ด้านล่างสำหรับรายละเอียดเต็ม.
 
 **Update (2026-07-15) — Asia buyer whitelist tightening + broad AI/semi selloff + Tier correction** [PRIMARY/MARKET NEWS]
 - 2026-07-14: NVDA more than halved its approved Asia AI-chip buyer list (Singapore/Malaysia/Japan neo-clouds) after introducing stricter "whitelist" compliance checks (data-center visits, contract verification, end-user interviews) — response to US Commerce Dept May 2026 guidance targeting indirect China re-export via SE Asia entities. Incremental tightening of an already-known/priced China-export risk category — no new risk category, reinforces RA caution slightly.
@@ -7329,7 +7364,7 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-25 | **Status:** PASS | **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-08-02 | **Status:** PASS | **Tier:** ⚠️ Speculative
 
 **Tier Basis:** Speculative: IPO เมื่อ June 12, 2026 (**pre-IPO rule ไม่ใช้แล้ว**) แต่ยังใช้ spin-off/track-record rule — standalone public company < 2 ปี (ปัจจุบัน ~1 เดือน) → max Speculative จนกว่าจะมีงบ standalone 2 ปี + ผ่านวิกฤต; valuation อิง Starship/AI/orbital-compute ที่ยังไม่ commercialize + ARPU ร่วง $99→$66 + Musk key-man (voting 82.4%) + comp package ผูกกับ Mars colony/100TW data center. ไม่มี tier change รอบนี้ — ราคาร่วงต่อเนื่องไม่เปลี่ยน tier (Speculative คือธรรมชาติธุรกิจ ไม่ใช่ price-based) แต่ WAF/conviction ปรับขึ้นตาม MoS ที่ดีขึ้น
 
@@ -7346,10 +7381,14 @@ AI segment เผาเงิน $(6.4B) operating loss ใน 2025 + $12.7B Cap
 
 **Update (2026-07-25):** ราคาไหลต่อ -15.4% ($136.08→$115.07) — ตอนนี้ **ต่ำกว่า IPO price ($135) และแทบชน Base FV ($114)**; MoS เทียบ Base ดีขึ้นมาก (-19.4%→**-0.9%**) แต่ยัง FAIL gate 15% (ต้อง ≤~$97); lockup wave แรกกำลัง play out (first ~20% tranche ปลด ปลาย ก.ค.). ไม่มี fundamental deterioration (Starlink 63% EBITDA + Anthropic deal ยังอยู่). Speculative tier → no pay-up/no STARTER regardless of MoS → คง WATCH. WAF 6.78→7.03 (VA 5.5→6.5).
 
+**Watchlist batch update (2026-08-02):** ราคาไหลต่อเนื่อง -5.8% ($115.07→$108.37) จาก lockup unlock overhang ที่ยังดำเนินต่อ (time-triggered ANALYZE, gate 07-25 >7d). ราคาตอนนี้**ต่ำกว่า Base FV ($114) จริงแล้ว** เป็นครั้งแรก — MoS พลิกเป็นบวก (-0.9%→**+4.94%**) แต่ยังห่างจาก gate 15% มาก. ไม่มี fundamental deterioration ใหม่. Speculative tier → คง WATCH เหมือนเดิม, ไม่ pay-up/ไม่ STARTER.
+
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-25 | **Price:** $115.07 (post-IPO, -49% จาก ATH $225.64, **ต่ำกว่า IPO price $135**, แทบชน Base FV $114) | **IPO price:** $135 (June 12, 2026)
+**Last Updated:** 2026-08-02 | **Price:** $108.37 (post-IPO, -52% จาก ATH $225.64, ต่ำกว่า IPO price $135 และตอนนี้ **ต่ำกว่า Base FV $114 จริง**) | **IPO price:** $135 (June 12, 2026)
+
+> **Price refresh 2026-08-02 (watchlist batch, time-triggered ANALYZE, gate 07-25 >7d):** $115.07 → $108.37 (-5.8%), lockup unlock overhang continuing, no fundamental news. MoS vs Base FV improves -0.9%→**+4.94%** (price genuinely below FV for the first time) but still well short of the 15% gate. ER (Base) ≈ 21.02%/yr (convergence 1.02% + capped growth 20%) — passes numerically but Speculative tier forbids pay-up/STARTER regardless. Action WATCH unchanged.
 
 **IPO Terms (ยืนยันจาก S-1/A Amendment #2, filed SEC 2026-06-03 — Primary Document):**
 - Initial public offering price: **$135.00/share** (expected)
@@ -7380,15 +7419,15 @@ AI segment เผาเงิน $(6.4B) operating loss ใน 2025 + $12.7B Cap
 
 > 🆕 **2026-07-15 Update — ราคาไหลต่อเนื่องใกล้ IPO price:** ร่วงต่อจาก $158.50 (06-25) → **$136.08 ปัจจุบัน** (-38% จาก ATH $225.64, ใกล้ IPO price $135 มาก) — CNBC (07-13) รายงานว่าราคาร่วงติดต่อกัน 2 วัน "nearing $135 IPO price"; สาเหตุหลักยังเป็น **lockup unlock countdown ที่ยืนยัน timeline ชัดแล้ว**: first tranche (~20% ของหุ้นล็อก) ปล่อยหลังประกาศงบ Q2 (ปลาย ก.ค. 2026) ตามด้วย ~7% tranches ที่ 70/90/105/120/135 วันหลัง IPO ผ่าน ส.ค.-ต.ค. → float ขยายเป็น 3B+ หุ้นภายในปลาย ต.ค. (จากปัจจุบัน <5%); 24/7 Wall St มองว่า **$130 คือแนวจิตวิทยาที่ selling อาจท่วม demand**; ไม่มี fundamental deterioration ใหม่ (Starlink cash machine + Anthropic deal ยังอยู่) — เป็นแรงกด technical/mechanical ล้วนๆ
 
-**WAF Score: 7.03** (MEDIUM, ขึ้นจาก 6.78)
+**WAF Score: 7.10** (MEDIUM, ขึ้นจาก 7.03 — watchlist batch 2026-08-02)
 | Component | Score | เหตุผล |
 |-----------|-------|--------|
 | BQ (Business Quality) | 7.5 | Unchanged — Starlink 63% EBITDA margin + launch monopoly 82% global = moat ระดับโลกจริง; consolidated net loss + AI drag ยังหนักเหมือนเดิม |
 | GP (Growth Potential) | 9.0 | Unchanged — TAM มหาศาล; ไม่มี evidence ใหม่เปลี่ยน growth case |
-| VA (Valuation) | 6.5 | Up from 5.5 — ราคาไหลต่อ -15.4% ($136.08→$115.07) ต่ำกว่า IPO price แล้ว ทำให้ MoS เทียบ Bull case ($191) กว้างขึ้นเป็น +39.8% และ MoS เทียบ Base FV ($114, anchor หลัก) ดีขึ้นจาก -19.4%→**-0.9%** (แทบชน Base FV) — ดีขึ้นมากแต่ยังไม่ผ่าน Gate 15% บน Base case |
-| RA (Risk) | 3.0 | Unchanged — lockup wave แรกกำลัง play out (first ~20% tranche ปลาย ก.ค., ทยอยผ่าน ส.ค.-ต.ค.) = supply-overhang risk ที่นับถอยหลังได้, near-term downside pressure ยังสูง |
+| VA (Valuation) | 6.8 | Up from 6.5 — ราคาไหลต่อ -5.8% ($115.07→$108.37) ตอนนี้ต่ำกว่า Base FV ($114) จริงแล้ว ทำให้ MoS เทียบ Base พลิกเป็นบวก (-0.9%→**+4.94%**) และ MoS เทียบ Bull ($191) กว้างขึ้นเป็น +43.3% — ดีขึ้นแต่ยังห่าง Gate 15% มาก |
+| RA (Risk) | 3.0 | Unchanged — lockup wave แรกกำลัง play out ต่อเนื่องผ่าน ส.ค.-ต.ค. = supply-overhang risk ที่นับถอยหลังได้, near-term downside pressure ยังสูง |
 
-**Conviction:** MEDIUM | **MoS:** +39.8% เทียบ Bull case ($191) แต่ **-0.9% เทียบ Base FV ($114)** ที่ Warren ใช้เป็น primary anchor | **ER (เทียบ Base, corrected formula):** **+19.8%/yr** (convergence -0.2% + consensus growth +20%, capped — ดูหมายเหตุด้านล่าง) — ✓ ผ่าน gate 15% ทางตัวเลข แต่ **MoS ยังไม่ผ่าน** จึงยัง WATCH | **Action:** **👀 WATCH** (คงเดิม — ราคาแทบชน Base FV แล้ว แต่ MoS -0.9% ยังไม่ผ่าน Gate 15% (ต้อง ≤~$97); Speculative tier ไม่ pay up + ไม่ใช้ STARTER regardless of MoS — รอ entry <$97 หรือรอผ่าน lockup wave แรก (ปลาย ก.ค.) ก่อนประเมินใหม่)
+**Conviction:** MEDIUM | **MoS:** +43.3% เทียบ Bull case ($191) และ **+4.94% เทียบ Base FV ($114)** ที่ Warren ใช้เป็น primary anchor (พลิกเป็นบวกครั้งแรก) | **ER (เทียบ Base, corrected formula):** **+21.02%/yr** (convergence +1.02% + consensus growth +20%, capped) — ✓ ผ่าน gate 15% ทางตัวเลข แต่ **MoS ยังไม่ผ่าน Gate 15%** จึงยัง WATCH | **Action:** **👀 WATCH** (คงเดิม — ราคาต่ำกว่า Base FV แล้วจริง แต่ MoS +4.94% ยังไม่ผ่าน Gate 15% (ต้อง ≤~$97); Speculative tier ไม่ pay up + ไม่ใช้ STARTER regardless of MoS — รอ entry <$97 หรือรอผ่าน lockup waves ต่อไป ก่อนประเมินใหม่)
 
 > **🔧 ER Formula Correction (2026-07-15):** Prior batch reported ER as convergence-only (-3.5%/yr). Corrected Step 5.5 = convergence + consensus EPS growth. **Growth rate used: capped at 20%/yr** (Warren judgment call, source: [stockanalysis.com/stocks/spcx/forecast](https://stockanalysis.com/stocks/spcx/forecast/), accessed 2026-07-15 — raw consensus shows FY2026→FY2027 EPS growth +342% ($0.20→$0.87) and FY2026 revenue growth +108% ($18.7B→$38.9B), both severely distorted by a near-zero/loss-making earnings base and one-off M&A step-changes (Cursor acquisition, Anthropic $45B compute deal) — not usable raw without wildly overstating ER. Warren applies a conservative 20%/yr cap, well **below** both raw consensus figures (satisfies Consensus-as-Base rule — capping down never requires variant_view, only exceeding consensus does), as a rough proxy for durable Starlink/Space revenue growth excluding one-off AI step-changes. Even with this generous-but-capped growth, MoS (-19.4%) still fails the 15% gate on its own, so the corrected ER does **not** change the Action — Speculative tier + MoS fail = WATCH regardless of ER.
 
@@ -7607,7 +7646,10 @@ Space Exploration Technologies Corp. (SpaceX) founded 2002 by Elon Musk, incorpo
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-26
+**Last Updated:** 2026-08-02
+
+**Update (2026-08-02) — Price refresh only (watchlist batch), no new analyst view** [MARKET NEWS]
+- Price continued sliding $115.07→$108.37 (-5.8%), lockup unlock overhang continuing per the previously-flagged timeline, no new fundamental news — MoS/ER recalculated at current price (see Valuation Range above), price now genuinely below Base FV for the first time, thesis unchanged.
 
 > **Source:** FundaAI Deep Dive Series (Parts 1–3, Jan–Apr 2026) + Damnang Semiconductor Insight (May 2026) + FundaAI Global Space Launch Report (2026) + FundaAI Space Breakout (Jan 2026) + **FundaAI S-1 Analysis (May 21, 2026 — reads the actual S-1 filing)** + Morningstar (Nicolas Owens, probability-weighted DCF, FV $62, June 2026) + bond market coverage (Bloomberg/Axios, June 22-23, 2026) + CNBC/Motley Fool/Investing.com lockup coverage (July 7-14, 2026) + **UBS initiation "Starship Flight 13" (Buy, PT $210, Jul 14, 2026)** + **UBS "SpaceX's Terafab — Putting Things in Perspective" (Jul 7, 2026)**
 > ทุก insight ในส่วนนี้มาจาก Secondary Research (Analyst Reports + Web Search) — ยกเว้นส่วน "S-1 Filing Analysis" ที่ดึงจากตัว S-1 จริง
@@ -8183,7 +8225,10 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-26
+**Last Updated:** 2026-08-02
+
+**Update (2026-08-02) — Price refresh only (watchlist batch), no new analyst view** [MARKET NEWS]
+- Price essentially flat $313.03→$311.21 (-0.6%), no new news since 07-25/07-26 — MoS/ER recalculated at current price (see Valuation Range above), thesis unchanged.
 
 **Update (2026-07-26, batch 5) — UBS 2Q26 review (Jul 22): the "resolved only at July 22 earnings" swing factor flagged on 07-25 resolved BEARISH — auto gross margin ex-credits fell to 16.3%, GAAP operating margin collapsed to 1.4%; UBS cuts PT $442→$385 and 26/27/28 EPS ~42-53%** [PRIMARY/MARKET NEWS]
 - **This directly answers the open question already on this card** ("resolved only at July 22 earnings," logged 07-25): 2Q26 automotive gross margin ex-credits came in at **16.3%**, down from 19.2% in 1Q26 (and 39.5%/30.3% in 1Q26/2Q25 including credits) — UBS's bear-case zone (18-20%) was breached to the downside, not defended.
@@ -8216,7 +8261,7 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Story Gate
-**Last Updated:** 2026-07-25  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-08-02  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
 
 **Tier Basis:** Speculative (unchanged): auto business จริงและกำลังโต แต่ valuation ยังพึ่ง robotaxi/FSD/Optimus optionality ที่ยังไม่พิสูจน์ (ไม่อยู่ในงบ) + Musk key-man risk — ไม่มี crystallization evidence ใหม่รอบนี้ที่มากพอจะเปลี่ยน tier
 
@@ -8233,10 +8278,14 @@ July 22 earnings เผย automotive gross margin ex-credits ต่ำกว่
 
 **Post-Q2 update (2026-07-25):** IF WRONG **fired** — Q2 2026 earnings (22 ก.ค.) ยืนยัน margin miss: op income -57% YoY เหลือ $398M (op margin 1.4%), auto GM ex-credit 19.2%→16.3% (ต่ำกว่าโซน 18-20% ที่ตลาดจับตา), GAAP NI $1.1B อุ้มด้วย SpaceX related-party unrealized gain $1.0B (หักออก pretax ~ศูนย์), reg credits -67% YoY, FCF -$1.1B, CapEx >$25B + guidance กู้เพิ่มถึง $30B. ราคาร่วง $396.18→$313.03 (-21%). คุณภาพกำไรตกยืนยัน bear thesis → BQ 6.0→5.5, RA 4.5→4.0. Story ยัง PASS (falsifiable + auto business จริง) แต่ conviction ต่ำลง.
 
+**Watchlist batch update (2026-08-02):** ราคาเกือบทรงตัว $313.03→$311.21 (-0.6%) ไม่มีข่าวใหม่นับจาก 07-25 (time-triggered ANALYZE, >7 วัน) — ไม่มีอะไรเปลี่ยนใน thesis, PASS คงเดิม.
+
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-07-25  |  **Price:** $313.03  |  **Tier:** ⚠️ Speculative  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER, corrected convergence+growth formula per Step 5.5 ratify 2026-07-13)
+**Last Updated:** 2026-08-02  |  **Price:** $311.21  |  **Tier:** ⚠️ Speculative  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER, corrected convergence+growth formula per Step 5.5 ratify 2026-07-13)
+
+> **Price refresh 2026-08-02 (watchlist batch, time-triggered ANALYZE, gate 07-25 >7d):** $313.03 → $311.21 (-0.6%), essentially flat, no new news. MoS -84.14%→**-83.06%** (still deep FAIL), ER recomputed **17.51%/yr** (convergence -11.39% + consensus growth 28.9%, mechanically passes but still unreliable/overridden by MoS FAIL per Step 5.5). WAF unchanged 4.73. Action WATCH unchanged.
 
 ### Snapshot (Watchlist Refresh)
 
