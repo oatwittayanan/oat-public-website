@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260805182014"></script>
+  <script src="knowledge.js?v=20260805183216"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -248,6 +248,19 @@ const STOCKS_INLINE = {
     risk: ['Valuation P/E 32x เริ่มเกิน fair value ถ้า Azure growth ชะลอ', 'OpenAI dependency — ถ้า OpenAI เปลี่ยน strategy กระทบ MSFT', 'Gaming segment อ่อนแอ Activision integration cost สูง', 'EU antitrust investigation Teams bundling ยังดำเนินอยู่', 'CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027'],
     updated: '2026-08-04'
   },
+  AMD: {
+    name: 'AMD', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Semiconductor', 'CPU + GPU AI'],
+    action: 'watch', actionLabel: 'Watch', conviction: 3,
+    waf: 7.415, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 472.94, fv: 467, mos: -1.27, fpe: 25.29, peg: 0.72,
+    scores: { bq: [8.5,'green',85], gp: [9.3,'green',93], va: [5.0,'orange',50], ra: [5.5,'orange',55] },
+    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'AMD เป็น sole credible #2 ใน AI accelerator (Instinct MI series) + ครอง >40% server CPU share (EPYC) + เป็นบริษัทเดียวที่มี x86 CPU + AI GPU + rack-scale Helios platform ครบในมือ', why: 'Consensus (BofA, Wells Fargo, Mizuho) ตอนนี้เห็นด้วยกับ "agentic AI CPU" thesis แล้ว — raise TAM เป็น $170B และเรียก AMD "top CPU pick". Warren เห็นว่านี่คือสัญญาณว่า edge เดิม (rerating จาก \'laggard\' → \'second source\') กำลังกลายเป็น consensus — second-level thinking บอกว่าต้องระวังไม่ chase ราคาที่วิ่งขึ้นจาก sentiment เดียวกันกับที่ตลาดเพิ่งรู้. **2026-08-05 update (post-Q2 earnings):** Q2 FY2026 (Aug 4 after close) beat ทั้งรายได้ ($11.5B +50% YoY, เหนือ guide $11.2B±$300M) และ Non-GAAP EPS ($1.66 vs consensus $1.61) — Data Center revenue $6.7B **+107% YoY** (58% ของรายได้รวม ขึ้นจาก 42% ปีก่อน). Management **raise TAM ครั้งใหญ่**: DC AI accelerator TAM → ~$1.4T by 2030 (>45% CAGR), server CPU TAM → **~$220B by 2030 (ขึ้นจาก $120B ที่ guide แค่ไตรมาสก่อน)**. Anthropic เข้ามาเป็น anchor customer รายที่ 3 (up to 2GW MI450, AMD ลงทุนตรง $5B — ไม่ใช่ warrant structure). Q3 guide $13.0B±$300M (+41% YoY) แข็งแรง. **แต่ตลาดตอบสนองแบบ "sell the news"**: หุ้นวิ่งขึ้น +7% ระหว่างวัน 08-04 ปิดที่ $518.58 (ราคาที่ปรากฏใน prices_cache.json รอบนี้ — **แต่เป็นราคาปิดตลาดปกติก่อนงบออกหลังตลาดปิด ไม่ใช่ราคาล่าสุด**), แล้วร่วง after-hours -8.8% เหลือ **~$472.94** และ pre-market ต่อเนื่องแถว **$474-475** เช้า 08-05 (ยืนยันจาก yfinance fast_info previousClose $472.85 + WebSearch หลายแหล่ง — finbold/tradingkey) — expectations ที่ baked-in ไปแล้ว (avg analyst PT ~$582 ก่อนงบ) สูงกว่าที่ผลจริงจะ satisfy ได้ แม้ผลจะ beat ตัวเลขที่ประกาศไว้ก็ตาม. Second-level read: TAM raise เป็นของจริง (management เอง ไม่ใช่แค่ analyst) แต่ตลาดกำลัง price-in ว่า "ดีมากแล้ว ดีกว่านี้ยาก" ระยะสั้น — MoS ยังคง fail gate ต่อเนื่อง แม้ที่ราคาที่ถูกกว่าที่ cache แสดง', risk: 'MI450 ramp slip หรือ ROCm ตาม CUDA ไม่ทัน ทำให้ hyperscalers ไม่ adopt จริงจัง — หรือ ถ้า "agentic CPU" consensus narrative พิสูจน์ว่า overhype (TAM ไม่ materialize ตามที่ BofA/management project) ราคาจะ de-rate เร็ว — เพิ่มเติมรอบนี้: forward commitments ($30.3B unconditional + subsequent $5.0B investment + $9.5B new DC leases) พุ่งเร็วกว่ารายได้ ถ้า AI demand ชะลอกว่าที่ผูกพันไว้ = balance-sheet stress risk ใหม่', updated: '2026-08-05' },
+    idea: 'Q2 FY2026 beat on revenue ($11.5B +50% YoY) and EPS ($1.66 vs $1.61 consensus); DC revenue +107% YoY, 58% of mix; Q3 guide $13B +41% YoY; management raised server CPU TAM $120B->$220B by 2030 and DC AI accelerator TAM to $1.4T by 2030; Anthropic confirmed as 3rd anchor AI customer (2GW MI450, $5B direct investment). Market reaction was \'sell the news\' -- stock ran +7% intraday 08-04 ahead of the print then fell -8.8% after-hours to ~$472.94 (continuing to ~$474-475 pre-market). STALE PRICE CAUGHT: prices_cache.json showed $518.58, the pre-earnings regular-session close, not the post-earnings price -- used verified $472.94 instead (yfinance fast_info + WebSearch cross-check). MoS improves sharply -3.78%->-1.27% (best in 4 batches) but still fails the 15% gate -- stays WATCH.',
+    bull: ['MI455X HBM bandwidth สูงกว่า NVIDIA H200 ใน bandwidth-bound workloads', 'EPYC market share ใน x86 server CPU expanding ต่อเนื่อง', 'Lisa Su execution track record = among best in semiconductor', 'ROCm ecosystem improving — Meta/Microsoft กำลัง adopt', 'Ryzen AI กำลัง capture NPU market สำหรับ AI PC'],
+    risk: ['ROCm ecosystem ตาม CUDA มากกว่า 5 ปี — switching cost ของ CUDA สูงมาก', 'MoS เพียง 3.1% ต่ำเกินไป — ราคาใกล้ Fair Value แล้ว', 'AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก', 'Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ', 'CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด'],
+    updated: '2026-08-05'
+  },
   MU: {
     name: 'Micron Technology', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Memory', 'HBM'],
@@ -259,19 +272,6 @@ const STOCKS_INLINE = {
     idea: 'Price pulled back -5.2% ($874.66->$829.50), no MU-specific news (08-04 headline is generic \'memory demand recovery + analyst upgrades\'). Sell-side turned notably more bullish (Seeking Alpha Buy upgrade, 45-analyst consensus avg PT $1,507 = +83% upside, buyback framing) -- per WARREN.md discipline Warren does not chase analyst PT, own normalized-mid-cycle FV $1,150 stays unchanged. Price pullback widens MoS to 27.87%, ER improves slightly to -3.64% but still fails gate. Cyclical + failing ER keeps WATCH regardless.',
     bull: ['HBM sole-US-supplier margin สูง + AI memory demand จริง structural (KV-cache, agentic AI) + $22B SCA confirmation adds to the ~$100B floor — sell-side sentiment turning bullish this batch, but Warren\'s own normalized-mid-cycle framework stays disciplined and unchanged; cyclical peak EPS ยังห้าม extrapolate เป็น base.'],
     risk: ['Highly cyclical memory; SK Hynix/Samsung HBM parity race; CXMT (China) DRAM competition; heavy capex; Netlist/YMTC litigation; large short position (Burry).'],
-    updated: '2026-08-04'
-  },
-  AMD: {
-    name: 'AMD', sector: 'Semiconductor', sectorSlug: 'semi',
-    chips: ['Semiconductor', 'CPU + GPU AI'],
-    action: 'watch', actionLabel: 'Watch', conviction: 3,
-    waf: 7.275, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 484.64, fv: 467, mos: -3.78, fpe: 25.92, peg: 0.74,
-    scores: { bq: [8.5,'green',85], gp: [9.0,'green',90], va: [4.5,'orange',45], ra: [6.0,'orange',60] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'AMD เป็น sole credible #2 ใน AI accelerator (Instinct MI series) + ครอง >40% server CPU share (EPYC) + เป็นบริษัทเดียวที่มี x86 CPU + AI GPU + rack-scale Helios platform ครบในมือ', why: 'Consensus (BofA, Wells Fargo, Mizuho) ตอนนี้เห็นด้วยกับ "agentic AI CPU" thesis แล้ว — raise TAM เป็น $170B และเรียก AMD "top CPU pick". Warren เห็นว่านี่คือสัญญาณว่า edge เดิม (rerating จาก \'laggard\' → \'second source\') กำลังกลายเป็น consensus — second-level thinking บอกว่าต้องระวังไม่ chase ราคาที่วิ่งขึ้นจาก sentiment เดียวกันกับที่ตลาดเพิ่งรู้. **2026-07-31 update:** ราคาสลับทิศอีกครั้ง — หลังร่วง -16.0% (07-29, sector selloff, MoS แตะ +6.1% เกือบเข้า STARTER) ราคากลับ **rebound +10.7%** ($438.52→$485.39) บน sector-wide semiconductor rally 07-30 (MSFT Azure/Samsung earnings คลายกังวล AI-capex-cut — SOXX +8% วันเดียว, AMD +12.7%) ไม่ใช่ AMD-specific fundamental ใหม่. ผลคือ **MoS พลิกกลับเป็นลบอีกครั้ง (-3.9%)** — AMD แกว่งผ่าน/ใต้ fair value ตาม sector sentiment มาตลอดโดยไม่เคยยืนผ่าน gate ได้จริงจัง ไม่มีข้อมูลกำไรใหม่ (earnings ยัง Aug 4, 2026). **2026-08-04 update:** ราคาแทบไม่ขยับ ($485.39→$484.64, -0.15%) — Q2 2026 earnings จะประกาศ**วันนี้หลังตลาดปิด** (Aug 4, 5pm ET; guide revenue $11.2B±$300M, consensus EPS $1.61) — นี่คือ pre-earnings lull, ยังไม่มีข้อมูลกำไรใหม่ก่อนงบจริง ต้อง re-check ทันทีรอบหน้า', risk: 'MI450 ramp slip หรือ ROCm ตาม CUDA ไม่ทัน ทำให้ hyperscalers ไม่ adopt จริงจัง — หรือ ถ้า "agentic CPU" consensus narrative พิสูจน์ว่า overhype (TAM ไม่ materialize ตามที่ BofA project) ราคาจะ de-rate เร็ว', updated: '2026-08-04' },
-    idea: 'Pre-earnings lull -- price essentially flat ($485.39->$484.64, -0.15%) ahead of Q2 FY2026 report TONIGHT after close (Aug 4, 5pm ET; guide revenue $11.2B+/-$300M, consensus EPS $1.61). No new AMD-specific data this batch (08-03 headline is a generic architecture recap). MoS -3.78% still fails gate (essentially unchanged from -3.94%). Must re-check immediately next batch once the print lands.',
-    bull: ['MI455X HBM bandwidth สูงกว่า NVIDIA H200 ใน bandwidth-bound workloads', 'EPYC market share ใน x86 server CPU expanding ต่อเนื่อง', 'Lisa Su execution track record = among best in semiconductor', 'ROCm ecosystem improving — Meta/Microsoft กำลัง adopt', 'Ryzen AI กำลัง capture NPU market สำหรับ AI PC'],
-    risk: ['ROCm ecosystem ตาม CUDA มากกว่า 5 ปี — switching cost ของ CUDA สูงมาก', 'MoS เพียง 3.1% ต่ำเกินไป — ราคาใกล้ Fair Value แล้ว', 'AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก', 'Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ', 'CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด'],
     updated: '2026-08-04'
   },
   NFLX: {

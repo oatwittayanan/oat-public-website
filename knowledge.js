@@ -549,61 +549,63 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-04  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
-**Tier Basis:** Pre-Inevitable: 3/5 (switching-x86✓ margin✓ crisis-2015-survival✓) — pricing borderline vs NVDA, cyclical semi, ROIC ปรับขึ้น; ไม่มี tier change รอบนี้ — 07-23 Anthropic $5B GPU deal + 07-21 Microsoft Azure Helios deals = customer diversification (AI customer #3 หลัง OpenAI/Meta) ตอกย้ำ second-source thesis แต่ยังไม่พอ upgrade เป็น Inevitable (ยังไม่ผ่าน CEO-transition test, Lisa Su ยังเป็น key driver)
+**Tier Basis:** Pre-Inevitable: 3/5 (switching-x86✓ margin✓ crisis-2015-survival✓) — pricing borderline vs NVDA, cyclical semi, ROIC ปรับขึ้น; ไม่มี tier change รอบนี้ — Q2 2026 earnings (Aug 4) ยืนยัน Anthropic เป็น anchor AI customer รายที่ 3 (up to 2GW MI450, $5B direct investment) หลัง OpenAI/Meta + TAM raise ใหญ่ (DC AI accelerator $1.4T by 2030, server CPU $220B by 2030) ตอกย้ำ second-source thesis แข็งแรงขึ้นชัดเจน แต่ยังไม่พอ upgrade เป็น Inevitable (ยังไม่ผ่าน CEO-transition test, Lisa Su ยังเป็น key driver; ROCm ยังตามหลัง CUDA)
 
 **WHAT:** AMD เป็น sole credible #2 ใน AI accelerator (Instinct MI series) + ครอง >40% server CPU share (EPYC) + เป็นบริษัทเดียวที่มี x86 CPU + AI GPU + rack-scale Helios platform ครบในมือ
 
-**WHY NOW:** Consensus (BofA, Wells Fargo, Mizuho) ตอนนี้เห็นด้วยกับ "agentic AI CPU" thesis แล้ว — raise TAM เป็น $170B และเรียก AMD "top CPU pick". Warren เห็นว่านี่คือสัญญาณว่า edge เดิม (rerating จาก 'laggard' → 'second source') กำลังกลายเป็น consensus — second-level thinking บอกว่าต้องระวังไม่ chase ราคาที่วิ่งขึ้นจาก sentiment เดียวกันกับที่ตลาดเพิ่งรู้. **2026-07-31 update:** ราคาสลับทิศอีกครั้ง — หลังร่วง -16.0% (07-29, sector selloff, MoS แตะ +6.1% เกือบเข้า STARTER) ราคากลับ **rebound +10.7%** ($438.52→$485.39) บน sector-wide semiconductor rally 07-30 (MSFT Azure/Samsung earnings คลายกังวล AI-capex-cut — SOXX +8% วันเดียว, AMD +12.7%) ไม่ใช่ AMD-specific fundamental ใหม่. ผลคือ **MoS พลิกกลับเป็นลบอีกครั้ง (-3.9%)** — AMD แกว่งผ่าน/ใต้ fair value ตาม sector sentiment มาตลอดโดยไม่เคยยืนผ่าน gate ได้จริงจัง ไม่มีข้อมูลกำไรใหม่ (earnings ยัง Aug 4, 2026). **2026-08-04 update:** ราคาแทบไม่ขยับ ($485.39→$484.64, -0.15%) — Q2 2026 earnings จะประกาศ**วันนี้หลังตลาดปิด** (Aug 4, 5pm ET; guide revenue $11.2B±$300M, consensus EPS $1.61) — นี่คือ pre-earnings lull, ยังไม่มีข้อมูลกำไรใหม่ก่อนงบจริง ต้อง re-check ทันทีรอบหน้า
+**WHY NOW:** Consensus (BofA, Wells Fargo, Mizuho) ตอนนี้เห็นด้วยกับ "agentic AI CPU" thesis แล้ว — raise TAM เป็น $170B และเรียก AMD "top CPU pick". Warren เห็นว่านี่คือสัญญาณว่า edge เดิม (rerating จาก 'laggard' → 'second source') กำลังกลายเป็น consensus — second-level thinking บอกว่าต้องระวังไม่ chase ราคาที่วิ่งขึ้นจาก sentiment เดียวกันกับที่ตลาดเพิ่งรู้. **2026-08-05 update (post-Q2 earnings):** Q2 FY2026 (Aug 4 after close) beat ทั้งรายได้ ($11.5B +50% YoY, เหนือ guide $11.2B±$300M) และ Non-GAAP EPS ($1.66 vs consensus $1.61) — Data Center revenue $6.7B **+107% YoY** (58% ของรายได้รวม ขึ้นจาก 42% ปีก่อน). Management **raise TAM ครั้งใหญ่**: DC AI accelerator TAM → ~$1.4T by 2030 (>45% CAGR), server CPU TAM → **~$220B by 2030 (ขึ้นจาก $120B ที่ guide แค่ไตรมาสก่อน)**. Anthropic เข้ามาเป็น anchor customer รายที่ 3 (up to 2GW MI450, AMD ลงทุนตรง $5B — ไม่ใช่ warrant structure). Q3 guide $13.0B±$300M (+41% YoY) แข็งแรง. **แต่ตลาดตอบสนองแบบ "sell the news"**: หุ้นวิ่งขึ้น +7% ระหว่างวัน 08-04 ปิดที่ $518.58 (ราคาที่ปรากฏใน prices_cache.json รอบนี้ — **แต่เป็นราคาปิดตลาดปกติก่อนงบออกหลังตลาดปิด ไม่ใช่ราคาล่าสุด**), แล้วร่วง after-hours -8.8% เหลือ **~$472.94** และ pre-market ต่อเนื่องแถว **$474-475** เช้า 08-05 (ยืนยันจาก yfinance fast_info previousClose $472.85 + WebSearch หลายแหล่ง — finbold/tradingkey) — expectations ที่ baked-in ไปแล้ว (avg analyst PT ~$582 ก่อนงบ) สูงกว่าที่ผลจริงจะ satisfy ได้ แม้ผลจะ beat ตัวเลขที่ประกาศไว้ก็ตาม. Second-level read: TAM raise เป็นของจริง (management เอง ไม่ใช่แค่ analyst) แต่ตลาดกำลัง price-in ว่า "ดีมากแล้ว ดีกว่านี้ยาก" ระยะสั้น — MoS ยังคง fail gate ต่อเนื่อง แม้ที่ราคาที่ถูกกว่าที่ cache แสดง
 
-**IF WRONG:** MI450 ramp slip หรือ ROCm ตาม CUDA ไม่ทัน ทำให้ hyperscalers ไม่ adopt จริงจัง — หรือ ถ้า "agentic CPU" consensus narrative พิสูจน์ว่า overhype (TAM ไม่ materialize ตามที่ BofA project) ราคาจะ de-rate เร็ว
+**IF WRONG:** MI450 ramp slip หรือ ROCm ตาม CUDA ไม่ทัน ทำให้ hyperscalers ไม่ adopt จริงจัง — หรือ ถ้า "agentic CPU" consensus narrative พิสูจน์ว่า overhype (TAM ไม่ materialize ตามที่ BofA/management project) ราคาจะ de-rate เร็ว — เพิ่มเติมรอบนี้: forward commitments ($30.3B unconditional + subsequent $5.0B investment + $9.5B new DC leases) พุ่งเร็วกว่ารายได้ ถ้า AI demand ชะลอกว่าที่ผูกพันไว้ = balance-sheet stress risk ใหม่
 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-04  |  **Price:** $484.64  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
+**Last Updated:** 2026-08-05  |  **Price:** $472.94  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
 
-> ⚠️ **Price update (2026-08-04):** Verified price $484.64 (prices_cache.json), essentially flat vs $485.39 last batch (-0.15%) — pure pre-earnings lull. **Q2 FY2026 earnings report TODAY after market close** (Aug 4, 5pm ET; company guided revenue $11.2B±$300M/+46% YoY, consensus EPS $1.61) — the real catalyst has not landed yet inside this batch's data window. FV_base ($467) carried forward unchanged. No new AMD-specific data this batch (08-03 news is a generic CPU/GPU-architecture recap, low information content).
+> ⚠️⚠️ **STALE PRICE FLAG — prices_cache.json ($518.58) ไม่ใช่ราคาปัจจุบัน:** ตัวเลข $518.58 ที่ Kim ส่งมาคือราคาปิดตลาดปกติวันที่ 08-04 (**ก่อน** Q2 earnings ประกาศหลังตลาดปิดวันเดียวกัน 5pm ET) — ไม่ได้จับ after-hours move ทันทีหลังงบ (bug pattern เดิมที่เคยเจอ — ดู memory \`feedback_price_fetch_stale_after_earnings.md\`). Warren verify ราคาจริงผ่าน **yfinance fast_info** (previousClose $472.85) + **WebSearch cross-check** (finbold: AH -8.80% → $472.94; tradingkey: pre-market -9% → ~$474.51) — ทั้ง 3 แหล่งคลัสเตอร์ที่ **$472-475**. ใช้ **$472.94** เป็นราคาบันทึกรอบนี้ (AH print ที่มีตัวเลขชัดเจนที่สุด, ใกล้เคียง fast_info previousClose $472.85 มาก) — **⚠️ ยังเป็นช่วง pre-market ณ เวลาวิเคราะห์ (07:26 ET, ก่อนตลาดเปิด) ราคาอาจขยับต่อที่ open 9:30am ET — แนะนำ Kim/โอ๊ต re-verify ราคาจริงถ้าจะใช้ตัดสินใจซื้อขายทันที** (ไม่กระทบ action รอบนี้ เพราะ WATCH เหมือนกันไม่ว่าใช้ราคาไหนใน 2 ราคานี้)
+>
+> **FV_base ($467) carried forward unchanged** รอบนี้ — Q2 earnings beat + TAM raise ใหญ่ (server CPU $120B→$220B by 2030, DC AI accelerator →$1.4T by 2030) น่าจะทำให้ analyst consensus EPS (CY2027E) ปรับขึ้นในไม่กี่วันข้างหน้า แต่ยังไม่มีตัวเลข consensus ใหม่ที่ verify ได้ ณ ตอนเขียนนี้ (earnings เพิ่งจบ <24 ชม.) — **flag: ต้อง reconcile EPS basis รอบหน้าเมื่อ analyst PT/estimates update ออกมาแล้ว** อย่าคง $18.7 CY2027E ไว้เกิน 1-2 batch โดยไม่เช็ค
 
 ### Snapshot (Watchlist Refresh)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $484.64 | — |
-| Fair Value Base | $467 | — |
-| **Margin of Safety** | **-3.78%** | ✗ FAIL (Gate 15%) — essentially unchanged from -3.94% last batch, still failing |
-| **5-yr Expected Return** | **34.3%/yr** | ✓ PASS (Gate ≥15%) — convergence -0.74% + consensus EPS growth ~35%/yr (unchanged assumption) |
-| Forward P/E | ~25.92× (CY2027E EPS $18.7) | — |
-| PEG | ~0.74 (CY2027 basis — optically low; see note) | — |
+| Current Price | $472.94 (verified — see stale-price flag above) | — |
+| Fair Value Base | $467 (carried forward, pending EPS reconciliation) | — |
+| **Margin of Safety** | **-1.27%** | ✗ FAIL (Gate 15%) — improved sharply from -3.78% last batch (price fell post-earnings toward FV) but still negative |
+| **5-yr Expected Return** | **34.8%/yr** | ✓ PASS (Gate ≥15%) — convergence -0.25% + consensus EPS growth ~35.1%/yr (unchanged assumption, pending reconciliation) |
+| Forward P/E | ~25.29× (CY2027E EPS $18.7) | — |
+| PEG | ~0.72 (CY2027 basis — optically low; see note) | — |
 
-> ✅ **EPS basis note (unchanged methodology):** FV method = 25× CY2027E EPS $18.7 = $467 (Base; 30× Bull = $560, 15× Bear = $380). PEG is optically low because CY2027 EPS already embeds the MI450/Helios ramp growth — **do not read as "cheap."** The gating factor is **MoS -3.78% (FAIL)** — price still sits just above fair value with zero new AMD-specific data. Per WARREN.md (MoS = ด่านซื้อ, ER = ตัวจัดอันดับ) a passing ER/PEG cannot substitute for a failing MoS → stays **WATCH**. Earnings TONIGHT (after close) is the real catalyst that could move FV_base itself — re-check required next batch regardless of price move.
+> ✅ **EPS basis note (unchanged methodology, flagged for reconciliation):** FV method = 25× CY2027E EPS $18.7 = $467 (Base; 30× Bull = $560, 15× Bear = $380). PEG optically low because CY2027 EPS already embeds MI450/Helios ramp — **do not read as "cheap."** Gating factor stays **MoS -1.27% (FAIL)** — price now sits almost exactly at fair value (best alignment in 4 batches) after the post-earnings pullback, but still hasn't cleared the 15% gate. Per WARREN.md (MoS = ด่านซื้อ, ER = ตัวจัดอันดับ) a passing ER/PEG cannot substitute for a failing MoS → stays **WATCH**. Not in STARTER band either (band requires MoS positive within [8%,15%) — this is negative).
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $560 | +15.6% | Premium multiple × growth acceleration (BofA PT also $560 — convergent) |
-| **Base** | $467 | -3.6% | Base multiple × consensus EPS |
-| **Bear** | $380 | -21.6% | Compressed multiple × thesis break |
+| **Bull** | $560 | +18.4% | Premium multiple × growth acceleration (BofA PT also $560 — convergent; TAM raise supports upside case) |
+| **Base** | $467 | -1.3% | Base multiple × consensus EPS (pending post-earnings reconciliation) |
+| **Bear** | $380 | -19.6% | Compressed multiple × thesis break |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 8.5 | 30% | 2.55 | Unchanged — EPYC >40% server share, FCF margin 25% Q1 2026, no Red Flags major; warrant dilution overhang unchanged |
-| GP (Growth Potential) | 9.0 | 30% | 2.70 | Unchanged — Server CPU revenue +50%+ YoY, BofA TAM $170B, no new earnings yet (report tonight after close) |
-| VA (Valuation) | 4.5 | 25% | 1.125 | Unchanged — MoS -3.78% still fails gate (essentially flat vs -3.94%); PEG (0.74) and ER (34.3%/yr) still pass comfortably on paper but don't override MoS |
-| RA (Risk Assessment) | 6.0 | 15% | 0.90 | Unchanged — earnings TODAY after close is the near-term catalyst; RA holds at 6.0 pending result |
-| **WAF Total** | **7.275** | | **MEDIUM** | *(unchanged — pre-earnings lull, no new data either direction)* |
+| BQ (Business Quality) | 8.5 | 30% | 2.55 | Unchanged — DC op margin 31% strong, record cash $13.1B, net cash ~$9.9B; FCF margin dipped 25%→14% QoQ (CapEx $389M→$808M + inventory/AR build) but explained by growth investment not deterioration |
+| GP (Growth Potential) | 9.3 ⬆ (was 9.0) | 30% | 2.79 | **Upgraded** — DC revenue actually delivered +107% YoY (beat guide), Q3 guide $13B +41% YoY; management raised server CPU TAM $120B→$220B by 2030 (+83%) and DC AI accelerator TAM to $1.4T by 2030 — real delivered results + company-sourced (not just analyst) TAM raise, not double-counting trend tags |
+| VA (Valuation) | 5.0 ⬆ (was 4.5) | 25% | 1.25 | MoS improved -3.78%→-1.27% (price fell post-earnings toward FV); still fails 15% gate but price now nearly at fair value — most attractive VA reading in 4 batches |
+| RA (Risk Assessment) | 5.5 ⬇ (was 6.0) | 15% | 0.825 | **Downgraded** — unconditional commitments jumped $25.7B→$30.3B in one quarter (+$4.6B) plus subsequent-event $5.0B investment + $9.5B new 16-yr DC leases not yet on balance sheet; inventory (+5% QoQ)/AR (+21% QoQ) growing faster than revenue; new China "anti-foreign sanctions" law risk factor added to 10-Q — offset partially by strong net-cash position and no near-term debt stress |
+| **WAF Total** | **7.415** | | **MEDIUM** | *(up slightly from 7.275 — GP upgrade + VA improvement outweigh RA downgrade; stays MEDIUM, just below HIGH threshold 7.5)* |
 
-**Investment Idea:** Price essentially flat ($485.39→$484.64) in the pre-earnings lull ahead of tonight's Q2 FY2026 report (guide $11.2B±$300M revenue, consensus EPS $1.61). MoS -3.78% still fails gate, ER 34.3%/yr and PEG 0.74 still pass on paper but per WARREN.md discipline don't override a failing MoS → stays WATCH. Tonight's print is the real catalyst that can move FV_base itself — must re-check immediately next batch.
+**Investment Idea:** Q2 FY2026 beat on revenue ($11.5B +50% YoY) and EPS ($1.66 vs $1.61 consensus), DC revenue +107% YoY now 58% of mix, Q3 guide $13B +41% YoY, and a major management-sourced TAM raise (server CPU $120B→$220B by 2030, DC AI accelerator →$1.4T by 2030) plus a confirmed 3rd anchor AI customer (Anthropic, up to 2GW MI450 + direct $5B investment). Market reaction was "sell the news" — stock ran up +7% intraday 08-04 ahead of the print, then fell -8.8% after-hours and continued lower pre-market to ~$472-475 (expectations baked in exceeded even a clean beat). At the verified real price (~$472.94, not the stale $518.58 cache), MoS improves sharply to -1.27% — closest to clearing the gate in 4 batches — but still fails. Action stays WATCH; re-check EPS/FV basis next batch once analyst consensus resets post-earnings.
 
-**Thesis:** EPYC share gain + MI455X bandwidth lead; Venice production ramp + BofA TAM validation ($170B) ตอกย้ำ DC roadmap; Anthropic $5B + Microsoft Azure Helios = second-source thesis เป็นจริงขึ้น; ราคานิ่งรอ earnings คืนนี้ ไม่ใช่สัญญาณ fundamental
+**Thesis:** EPYC share gain + MI455X bandwidth lead; Venice production ramp + management's own TAM raise (not just analyst) validates DC roadmap acceleration; Anthropic $5B direct investment (lower-dilution structure vs OpenAI/Meta warrants) + Microsoft Azure Helios = second-source thesis increasingly proven in delivered numbers, not just guidance
 
-**Thesis Risk:** ROCm ตาม CUDA ~5 ปี; AI GPU rev gap vs NVDA ยังใหญ่; MoS ยัง fail (-3.78%) ต่อเนื่องจากรอบก่อน; "agentic CPU" thesis กลายเป็น consensus แล้ว → edge หด; **earnings คืนนี้ (Aug 4 after close)** = catalyst ทันที (FV จะ re-estimate ทันทีหลังงบ — อาจขยับทั้ง 2 ทิศ); PEG 0.74 optically ต่ำเพราะ EPS basis = CY2027E ที่ ramp-heavy — ห้ามอ่านเป็น cheap
+**Thesis Risk:** ROCm ตาม CUDA ~5 ปี; AI GPU rev gap vs NVDA ยังใหญ่; MoS ยัง fail (-1.27%) ต่อเนื่องเป็น batch ที่ 4 แม้ปรับดีขึ้นมาก; "agentic CPU" thesis กลายเป็น consensus แล้ว → edge หด; **[NEW] forward commitments พุ่งเร็ว** ($25.7B→$30.3B unconditional ในไตรมาสเดียว + subsequent $5.0B+$9.5B ยังไม่เข้างบ) + inventory/AR โตเร็วกว่ารายได้ — ต้องติดตามว่าเป็น healthy build-ahead หรือ overextension; **[NEW]** China "anti-foreign sanctions" กฎหมายใหม่ risk factor; PEG 0.72 optically ต่ำเพราะ EPS basis = CY2027E ที่ ramp-heavy — ห้ามอ่านเป็น cheap; **⚠️ price data quality:** ราคาที่ verify แล้ว ($472.94) ต่างจาก stale cache ($518.58) เกิน 8% — ถ้าใช้ตัดสินใจซื้อขายจริงต้อง re-verify ราคาสดอีกครั้งหลังตลาดเปิด
 
-**Action:** 👀 WATCH (MoS -3.78% FAIL, essentially unchanged from -3.94%; ER 34.3%/yr + PEG 0.74 pass cleanly but don't override a failing MoS; **earnings tonight after close — re-check immediately after**)
+**Action:** 👀 WATCH (MoS -1.27% FAIL ที่ราคา verified $472.94 — ปรับดีขึ้นมากจาก -3.78% แต่ยังไม่ผ่าน gate 15% และไม่เข้า STARTER band เพราะติดลบ; ER 34.8%/yr + PEG 0.72 pass cleanly แต่ไม่ override MoS ที่ fail; **ต้อง reconcile EPS/FV basis รอบหน้าเมื่อ consensus estimates update หลังงบ**)
 
 ---
 ## Business Overview
@@ -917,7 +919,19 @@ Data Center revenue = 58% ของรายได้รวม (ขึ้นจ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-04
+**Last Updated:** 2026-08-05
+
+**Update (2026-08-05, batch 11) — Q2 FY2026 beat + major TAM raise + Anthropic anchor confirmed; "sell the news" reaction; stale-price cache caught and corrected** [PRIMARY/MARKET NEWS]
+- Q2 FY2026 (reported Aug 4 after close): Revenue $11.536B (+50% YoY, above $11.2B±$300M guide); Non-GAAP EPS $1.66 (vs consensus $1.61); Data Center revenue $6.718B **+107% YoY**, now 58% of total revenue (up from 42% a year ago), DC op margin 31%. Q3 guide $13.0B±$300M (+41% YoY, +13% QoQ) — strong.
+- **Management raised TAM twice within 2 quarters:** server CPU TAM $120B (Q1 guide) → **$220B by 2030** (+83%); DC AI accelerator TAM → **~$1.4T by 2030** (>45% CAGR); combined HPC+AI compute TAM ~$2T by 2030. Company-sourced, not analyst speculation — "materially ahead" of Financial Analyst Day (Nov 2025) model; EPS to "significantly exceed" prior $20 long-term target.
+- **Anthropic confirmed as 3rd anchor AI customer** — up to 2GW MI450 in Helios racks (first GW starts 1H27), AMD investing **$5B directly** (lower-dilution structure vs OpenAI/Meta warrant-based deals) + joint engineering to optimize Claude on ROCm.
+- **New risk flags this quarter:** unconditional commitments $25.7B→$30.3B (+$4.6B in one quarter) plus subsequent-event $5.0B investment (through FY2028) + $9.5B new 16-yr DC leases not yet on balance sheet; inventory (+5% QoQ)/AR (+21% QoQ) growing faster than revenue; new China "anti-foreign sanctions" law risk factor added to 10-Q risk factors.
+- **⚠️ [STALE-PRICE CATCH]** Kim's briefing carried prices_cache.json = $518.58 — this is the **regular-session close from 08-04, captured before the after-hours earnings reaction** (stock ran +7% intraday ahead of the print, then fell -8.8% AH to ~$472.94 once results landed, continuing to ~$474-475 pre-market 08-05). Cross-verified via yfinance fast_info (previousClose $472.85) + WebSearch (finbold, tradingkey) — all cluster at $472-475. **Used $472.94 as the recorded price this batch, not the stale $518.58** (matches known bug pattern in \`feedback_price_fetch_stale_after_earnings.md\`). Does not change today's action (WATCH either way — MoS fails at both prices) but materially changes the recorded MoS/WAF precision. Flagged to Kim; recommend re-verify at/after 9:30am ET open if used for an actual trade decision.
+- WAF: BQ 8.5 (unch) · GP 9.0→**9.3** (delivered DC growth + real TAM raise) · VA 4.5→**5.0** (MoS -3.78%→-1.27%, price now near FV) · RA 6.0→**5.5** (escalating commitments + new China risk factor) → **WAF 7.415 MEDIUM** (was 7.275).
+- TQR: carried forward unchanged from AI-Revolution.md playbook v1 (calculated 2026-07-27, 9 days old — within 90-day window, no clear shift in AMD's relative theme position; still #2 behind NVDA on CUDA-equivalent ecosystem maturity despite the TAM raise benefiting the whole CPU-Renaissance layer, not AMD specifically) — TQR 7.30, 🥈 Strong, ceiling 25%.
+- FV_base ($467, 25× CY2027E EPS $18.7) carried forward unchanged — **flag: reconcile against fresh analyst consensus EPS next batch** once post-earnings estimate revisions publish (typically a few days after the print; too early to have reliable new numbers <24h post-earnings).
+- Missed-it log (\`missed_it_log.json\`): AMD entry updated — verdict remains \`correct_avoid\` (WATCH discipline still correct; even the sharply-improved post-earnings MoS didn't clear the gate).
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is a genuine fundamental upgrade (GP, VA) partially offset by a genuine fundamental risk increase (RA); net WAF direction is up, action unchanged at WATCH because MoS still fails.
 
 **Update (2026-08-04, batch 10) — Pre-earnings lull; price flat; Q2 FY2026 report tonight after close** [MARKET NEWS]
 - Price $485.39→$484.64 (-0.15%), essentially flat. Q2 FY2026 earnings confirmed for today, Aug 4, 5pm ET (guide revenue $11.2B±$300M/+46% YoY, consensus EPS $1.61) — this batch's news window closes before the print lands. 08-03 🔴MATERIAL headline is a generic CPU/GPU architecture recap, no new quantifiable data.
