@@ -507,6 +507,7 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Recent News
+**2026-08-06** — ยื่นคำสั่งห้ามชั่วคราวต่อ OpenAI เกี่ยวกับการละเมิดลับการค้า; ความขัดแย้งสิทธิปัญญาปัญญาประดิษฐ์ที่ขัดแตะคำเตือน | [src](https://news.google.com/rss/articles/CBMisAFBVV95cUxOZmZEYXhjZjhCdzdEdHFmUVFZVlJZaUc2R1QxSGVvVGJmbnpwTW9hdlhnTS15TUlmejd4ZG1jcFZNY2tKZEl5MVF1eWRhbWVuSDZLTFNmYXh4RVlrOWI0eGFKNkcwRHVKT2cxbHhpd3BGYUljUjdhT180cGJaNkF6dVF3bTQ4MWRiUHU2Q3p6NG5uRHp5VGkxWlJBbEpqTjVQUFRxTUw3Y1YyRU10VFJsUQ?oc=5) | 🔴MATERIAL
 **2026-07-31** — AAPL กำไร Q2 เกินคาด ผลจากการคืนเงินภาษีศุลกากร แต่ประกาศว่าคาดการณ์ยอดขายชะลอและห่วงโซ่จัดหาประสบปัญหา | [src](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXkwcFhMQnEyUjhWdnFFallUTU5tTktyQVZxMzNUQnhMOVEzZ25iM3VhLUxTQkZrZDF1M28wLXZPUDZfcFMzdTFpMXY5QzJPenNTTnkyS0xJam9SNjdRZUwxYUFaaEpnUXRMbzhWU01hMjE1NjBzeWlEOVNxRzJhZUNYMUk2dlBaSmtRS1FTSlR3Ym4tZzcyeVBLQ2ltSlRyQmkxQWdoQUNjRW8) | 🔴MATERIAL
 **2026-07-30** — การประกาศผลประกอบการไตรมาส 3 ที่สำคัญด้วยการเปลี่ยนซีอีโอ; นัยหมายความคาดหวังอาจขยับหลักแสนล้านดอลลาร์ตามทิศทาง AI และผลการดำเนินงาน | [src](https://news.google.com/rss/articles/CBMiogFBVV95cUxQMXhGU05CbnhQN0RVNFBHS3M3ZE9Tdm9MR3BocTMwMFlNOHVZSnczcEUyNWRlblpqbk9mMlhJZjBMTEdYajZxZl90aWcxeTFNNlZ3NWxtVUNMajdWbDAxb1pFV21mZk9NMW9NaW1YREpfTnV0NDh2N19hRGxPR1ducTdfNHB6eEJrTXowVXZuOUxXRGpYcmE0d3labnViajZsMEE) | 🔴MATERIAL
 **2026-07-23** — AAPL วางแผนปรับปรุง MacBook และ iMac ครั้งใหญ่เพื่อตอบสนองความต้องการอุปกรณ์ประสิทธิภาพสูง AI | [src](https://news.google.com/rss/articles/CBMilAFBVV95cUxOSE5ScmpPbDlDWUdxeHp4NEtRaDFtYndSV1MtRDBLNmZPVk90aXBQVlVqRW1fS0lsQ01KVWVGcWYxdFVIZ2ZGVVJpNDM3aFJXUVExbVJLRERhUzltdTB4aFFZdGszbnRZMVRObjNVRG5POHAzZUtyZk9SUzFraHBKOWFUeVF3LWJDVXQ0NU5GRUJyMi00?oc=5) | 🟡MONITOR
@@ -520,7 +521,6 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 **2026-07-02** — ขออนุมัติชิปจีนที่ถูกระงับ เผชิญกำลังดันด้านห่วงโซ่อุปทาน | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxPckxlbGNibW1iUFlPM1B4RE5fZjdKUXg4WXV4MVNGLW5Wd3F3ZVFnd1ZoMnRWeHNvOXlPelJrbmhFWnkxM1lPa2t1Wk90SDV4TXd5THEydW9KRXZjVXpEY2xVd0c2Q09xYkV0dWQwazlDREVKZ1BVbzN6Q3dXaC1MRGFuVGN0aS1NTTZaZm9selBpUndWZzNLWGJZWHdLcC1X?oc=5)
 **2026-06-30** — ปฏิเสธข้อกล่าวหาของอินเดียในการสอบสวนการผูกขาด | [src](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNk0zb1ljbnJ0dnlMYUp0LWJPRGRTNHFaMFRvQkIwNHY2c1lPeXl5QTBfdG5PTzRmY2xUeW02ckE2YXhRV3lPQnl5RmJVTVlDSE5weFpHclJBNmI2ZF9HQ3ZhMFZLUEhPbjVUOUJpeVFvSm5PaTVtMTBUWFRVeVJ4eWR5bUtMN2tXeXlDaW0xUTlMQnVndGlwNHVZU3lVTmJjMFhhWi1vMzZQUWt0elRHcmRkZW9SUUszY1lV)
 **2026-06-29** — แอปเปิล เปลี่ยนแผนพัฒนาชิปแม็กตัวเองไปสู่ M7 เน้นความสามารถ AI; ตำแหน่งการประมวลผล AI บนอุปกรณ์ส่วนตัว | [src](https://news.google.com/rss/articles/CBMikwFBVV95cUxPcFpZZldqMXdvZVV3MGd2YndXUGsyaGpLS2VwbXh1VHQ2d2thbFhsYWFQZ0MxN0NZRTVybVVQSzJQRTQ5YTIzNDFmWFNqUElZbktOU2pxQ052NHdwalJjSklyWnZNMlVNdnFabXpONTM2Y2JDLWFERTFwdjFmSzlkWVlwY3RPUlJtZkMyZlJxWTVNLXM?oc=5)
-**2026-06-24** — แอปเปิลประกาศความร่วมมือใหม่กับอินเทลในการผลิตชิปในสหรัฐอเมริกา เป็นขั้นตอนสร้างความเป็นอิสระด้านห่วงโซ่อุปทานระยะยาว | [src](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdG9od1A0c0hTeEtwLVVudEhJRUZHcnlXZlR3VHJ1WG9vMHNGTGh1V0h3d2g5dDM0dWItQUE0azV4YzRHMW9DZTB1U0pFRUFHVGh5MEdfd0tmTTU5WWFiT1RuaWJ5Um9aMVBHT2JWSS1IZ1pkMWsxT0NzVU1wOG1teTd4Ymg4MHRQd3pxYnoyeEdJX0dqRk05SDRNUXY2NzY0ZDNYTW8xR1lyaVBmc2RfRW1PNnhwcTl5ZlJoRmxQT1FEdVFkWHZTZg)
 
 ## Source Log
 
@@ -542,14 +542,14 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 
 "AMD": `# Advanced Micro Devices (AMD) · Semiconductor / AI Accelerators & CPUs
 
-**Last Updated:** 2026-08-05
+**Last Updated:** 2026-08-07
 **Source:** Primary Documents — 10K FY2025, 10Q Q1 2026, 10Q Q2 2026, Earnings Call Q1 2026, Earnings Call Q2 2026, Earnings Presentation Q1 2026, Earnings Presentation Q2 2026, Exhibit 99-1 Q1 2026, Exhibit 99-1 Q2 2026
 **Trend Tags:** [[AI-Infrastructure]] [[Memory-Supercycle]] [[CPU-Renaissance]] [[Agentic-AI]] [[Custom-Silicon]]
 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-07  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
 **Tier Basis:** Pre-Inevitable: 3/5 (switching-x86✓ margin✓ crisis-2015-survival✓) — pricing borderline vs NVDA, cyclical semi, ROIC ปรับขึ้น; ไม่มี tier change รอบนี้ — Q2 2026 earnings (Aug 4) ยืนยัน Anthropic เป็น anchor AI customer รายที่ 3 (up to 2GW MI450, $5B direct investment) หลัง OpenAI/Meta + TAM raise ใหญ่ (DC AI accelerator $1.4T by 2030, server CPU $220B by 2030) ตอกย้ำ second-source thesis แข็งแรงขึ้นชัดเจน แต่ยังไม่พอ upgrade เป็น Inevitable (ยังไม่ผ่าน CEO-transition test, Lisa Su ยังเป็น key driver; ROCm ยังตามหลัง CUDA)
 
@@ -562,50 +562,54 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-05  |  **Price:** $472.94  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Watchlist Refresh (terminal-value 5yr ER)
+**Last Updated:** 2026-08-07  |  **Price:** $503.35  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF Single-Ticker Deep Dive (EPS basis reconciliation)
 
-> ⚠️⚠️ **STALE PRICE FLAG — prices_cache.json ($518.58) ไม่ใช่ราคาปัจจุบัน:** ตัวเลข $518.58 ที่ Kim ส่งมาคือราคาปิดตลาดปกติวันที่ 08-04 (**ก่อน** Q2 earnings ประกาศหลังตลาดปิดวันเดียวกัน 5pm ET) — ไม่ได้จับ after-hours move ทันทีหลังงบ (bug pattern เดิมที่เคยเจอ — ดู memory \`feedback_price_fetch_stale_after_earnings.md\`). Warren verify ราคาจริงผ่าน **yfinance fast_info** (previousClose $472.85) + **WebSearch cross-check** (finbold: AH -8.80% → $472.94; tradingkey: pre-market -9% → ~$474.51) — ทั้ง 3 แหล่งคลัสเตอร์ที่ **$472-475**. ใช้ **$472.94** เป็นราคาบันทึกรอบนี้ (AH print ที่มีตัวเลขชัดเจนที่สุด, ใกล้เคียง fast_info previousClose $472.85 มาก) — **⚠️ ยังเป็นช่วง pre-market ณ เวลาวิเคราะห์ (07:26 ET, ก่อนตลาดเปิด) ราคาอาจขยับต่อที่ open 9:30am ET — แนะนำ Kim/โอ๊ต re-verify ราคาจริงถ้าจะใช้ตัดสินใจซื้อขายทันที** (ไม่กระทบ action รอบนี้ เพราะ WATCH เหมือนกันไม่ว่าใช้ราคาไหนใน 2 ราคานี้)
->
-> **FV_base ($467) carried forward unchanged** รอบนี้ — Q2 earnings beat + TAM raise ใหญ่ (server CPU $120B→$220B by 2030, DC AI accelerator →$1.4T by 2030) น่าจะทำให้ analyst consensus EPS (CY2027E) ปรับขึ้นในไม่กี่วันข้างหน้า แต่ยังไม่มีตัวเลข consensus ใหม่ที่ verify ได้ ณ ตอนเขียนนี้ (earnings เพิ่งจบ <24 ชม.) — **flag: ต้อง reconcile EPS basis รอบหน้าเมื่อ analyst PT/estimates update ออกมาแล้ว** อย่าคง $18.7 CY2027E ไว้เกิน 1-2 batch โดยไม่เช็ค
+> 🚨🚨 **EPS BASIS CORRECTION (2026-08-07) — $18.70 CY2027E was NOT real consensus, root cause found:**
+> Every batch since 2026-06 (through 2026-08-05, 6+ consecutive batches) used **EPS $18.70 (CY2027E)** in the FV formula, labeled \`eps_basis_type: "consensus_forward"\`. Charlie's independent review flagged this repeatedly (07-27 → 08-05) — his own live pull of the **Nasdaq earnings-forecast API** (\`yearlyForecast\`, Dec2027 row) showed consensus EPS of only **$11.85** (18 analysts), a **57.8% gap**, and noted the figure was "above even the $16.81 high estimate" of the real analyst panel.
+> **Traced the origin:** $18.70 came from a single secondary report — **"FundaAI Deep|AMD" (May 11, 2026)**, tagged \`[ANALYST VIEW]\` in this card's Analyst Research Notes — which itself states "CY27E $18.7, CY28E $24.5." This is **not** a Nasdaq/FactSet-style aggregated analyst consensus; it is one third-party report's own projection, and it was carried into the card's \`eps_basis_type\` field as if it were sourced consensus. No independent cross-check against a live consensus API was ever run before 2026-08-07 — the number was simply carried forward batch-to-batch ("carried unchanged pending reconciliation") without anyone re-pulling the real panel.
+> **Verified fresh 2026-08-07:** Nasdaq earnings-forecast API \`yearlyForecast\`, Dec 2027 row → **consensus EPS $12.59** (18 analysts, high $16.81 / low $6.95, 8 up / 0 down revisions last 4 weeks) — up from Charlie's $11.85 pull on 08-05, consistent with Street estimates catching up 2-3 days post-earnings as expected. **Independent corroboration this is the right number, not $18.70:** UBS's own named-analyst estimate (already logged on this card, 07-26 entry) put **C2027E EPS at $14.63** — in the same $12-16 neighborhood as the real consensus panel, nowhere near $18.70. UBS's C2027 estimate is 22% above the panel consensus (a normal single-bullish-analyst premium) but 3× closer to reality than the figure this card had been using.
+> **FV recomputed on $12.59 (Dec 2027 / CY2027E consensus, Nasdaq, 18 analysts, pulled 2026-08-07):** Base = 25× → **$315** (was $467, **-32.5%**). This is a full re-rating of the valuation conclusion, not a minor tweak — MoS goes from a near-miss **-1.27%** to a deep **-59.8% FAIL**. Action stays **WATCH** either way (MoS was already failing), but the *degree* of overvaluation was being understated by ~59 points for 6+ batches.
 
-### Snapshot (Watchlist Refresh)
+### Snapshot (Single-Ticker Deep Dive)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $472.94 (verified — see stale-price flag above) | — |
-| Fair Value Base | $467 (carried forward, pending EPS reconciliation) | — |
-| **Margin of Safety** | **-1.27%** | ✗ FAIL (Gate 15%) — improved sharply from -3.78% last batch (price fell post-earnings toward FV) but still negative |
-| **5-yr Expected Return** | **34.8%/yr** | ✓ PASS (Gate ≥15%) — convergence -0.25% + consensus EPS growth ~35.1%/yr (unchanged assumption, pending reconciliation) |
-| Forward P/E | ~25.29× (CY2027E EPS $18.7) | — |
-| PEG | ~0.72 (CY2027 basis — optically low; see note) | — |
+| Current Price | $503.35 (verified — Nasdaq primaryData + CNBC ExtendedMktQuote, pre-market 8:53am ET 2026-08-07, 0.08% drift between sources) | — |
+| Fair Value Base | $315 (**corrected** — was $467 using mislabeled $18.70 EPS) | — |
+| **Margin of Safety** | **-59.8%** | ✗ FAIL (Gate 15%) — deeply negative once EPS basis is corrected (was showing near-miss -1.27% under the erroneous $18.70 input) |
+| **5-yr Expected Return** | **~26.1%/yr** | ✓ Passes on paper (convergence -8.96% + consensus EPS growth ~35.1%/yr — growth-rate figure itself is 3+ weeks old, sourced pre-earnings 07-15, flagged for refresh next batch) — **does not override failing MoS** (WARREN.md: MoS gates, ER ranks) |
+| Forward P/E | ~40.0× (price $503.35 ÷ corrected consensus EPS $12.59) | — |
+| PEG | ~1.14 (on the 35.1%/yr growth assumption — optically passable but MoS is the binding constraint, not PEG) | — |
 
-> ✅ **EPS basis note (unchanged methodology, flagged for reconciliation):** FV method = 25× CY2027E EPS $18.7 = $467 (Base; 30× Bull = $560, 15× Bear = $380). PEG optically low because CY2027 EPS already embeds MI450/Helios ramp — **do not read as "cheap."** Gating factor stays **MoS -1.27% (FAIL)** — price now sits almost exactly at fair value (best alignment in 4 batches) after the post-earnings pullback, but still hasn't cleared the 15% gate. Per WARREN.md (MoS = ด่านซื้อ, ER = ตัวจัดอันดับ) a passing ER/PEG cannot substitute for a failing MoS → stays **WATCH**. Not in STARTER band either (band requires MoS positive within [8%,15%) — this is negative).
+> ✅ **EPS basis (corrected, 2026-08-07):** \`eps_used = 12.59\` · \`eps_fiscal_year = "CY2027E (Dec 2027)"\` · \`eps_basis_type = "consensus_forward"\` · \`eps_source = "Nasdaq earnings-forecast API, yearlyForecast, 18 analysts, high $16.81/low $6.95, 8up/0down last 4wk, pulled 2026-08-07"\`. FV method unchanged (25× Base / 30× Bull / 15× Bear multiple framework) — only the EPS input changed. Gating factor: **MoS -59.8% (FAIL, badly)** — price is running far ahead of what the real analyst panel's forward earnings can support today. Not in STARTER band (requires MoS within 7pts of the 15% gate; this misses by ~45pts).
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $560 | +18.4% | Premium multiple × growth acceleration (BofA PT also $560 — convergent; TAM raise supports upside case) |
-| **Base** | $467 | -1.3% | Base multiple × consensus EPS (pending post-earnings reconciliation) |
-| **Bear** | $380 | -19.6% | Compressed multiple × thesis break |
+| **Bull** | $378 | -24.9% | 30× × consensus EPS $12.59 (multiple-expansion scenario — re-rating case, not an EPS-beat case) |
+| **Base** | $315 | -37.4% | 25× × consensus EPS $12.59 (**corrected** — was $467 on the mislabeled $18.70 figure) |
+| **Bear** | $189 | -62.5% | 15× × consensus EPS $12.59 (thesis-break / multiple compression) |
+
+> Note: even the Bull case ($378, built on the *same* multiple-expansion logic used for months) sits 25% below today's price — the prior card's Bull anchor (BofA PT $560, "convergent") was never actually an EPS×multiple calculation in the first place; it was an analyst price target used as a sanity-check, not a like-for-like comparison to this card's own methodology. Keeping this card's Bull/Base/Bear internally consistent (same EPS input, varying multiple only) going forward.
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 8.5 | 30% | 2.55 | Unchanged — DC op margin 31% strong, record cash $13.1B, net cash ~$9.9B; FCF margin dipped 25%→14% QoQ (CapEx $389M→$808M + inventory/AR build) but explained by growth investment not deterioration |
-| GP (Growth Potential) | 9.3 ⬆ (was 9.0) | 30% | 2.79 | **Upgraded** — DC revenue actually delivered +107% YoY (beat guide), Q3 guide $13B +41% YoY; management raised server CPU TAM $120B→$220B by 2030 (+83%) and DC AI accelerator TAM to $1.4T by 2030 — real delivered results + company-sourced (not just analyst) TAM raise, not double-counting trend tags |
-| VA (Valuation) | 5.0 ⬆ (was 4.5) | 25% | 1.25 | MoS improved -3.78%→-1.27% (price fell post-earnings toward FV); still fails 15% gate but price now nearly at fair value — most attractive VA reading in 4 batches |
-| RA (Risk Assessment) | 5.5 ⬇ (was 6.0) | 15% | 0.825 | **Downgraded** — unconditional commitments jumped $25.7B→$30.3B in one quarter (+$4.6B) plus subsequent-event $5.0B investment + $9.5B new 16-yr DC leases not yet on balance sheet; inventory (+5% QoQ)/AR (+21% QoQ) growing faster than revenue; new China "anti-foreign sanctions" law risk factor added to 10-Q — offset partially by strong net-cash position and no near-term debt stress |
-| **WAF Total** | **7.415** | | **MEDIUM** | *(up slightly from 7.275 — GP upgrade + VA improvement outweigh RA downgrade; stays MEDIUM, just below HIGH threshold 7.5)* |
+| BQ (Business Quality) | 8.5 | 30% | 2.55 | Unchanged — this is a valuation-input correction, not a new business-quality data point. DC op margin 31%, record cash $13.1B, net cash ~$9.9B still stand from Q2 |
+| GP (Growth Potential) | 9.3 | 30% | 2.79 | Unchanged — Q2 delivered DC +107% YoY, Q3 guide $13B +41% YoY, management TAM raise ($220B server CPU / $1.4T DC AI accelerator by 2030) all still valid; this correction is about the *price paid* for that growth, not the growth itself |
+| VA (Valuation) | 1.5 ⬇⬇ (was 5.0) | 25% | 0.375 | **Corrected down sharply** — MoS -1.27%→**-59.8%** once EPS basis is fixed; this is the single largest score change on this card in its history. Calibrated against precedent (PLTR MoS -61.05%→VA 1.2; DDOG MoS -44.8%→VA 2.0) — AMD sits between them. PEG (1.14) still technically passable but does not offset a MoS failure of this magnitude |
+| RA (Risk Assessment) | 5.5 | 15% | 0.825 | Unchanged from 08-05 batch. New item reviewed but not scored: Charlie flagged (08-05) that SpaceX announced (on its own 08-04/05 earnings call) it will build exclusively on NVIDIA's Vera Rubin architecture going forward — a real competitive data point for the "second-source AI accelerator" thesis, but SpaceX is not a disclosed top AMD DC customer and this is one data point, not yet a pattern (added to Thesis Risk below) |
+| **WAF Total** | **6.54** | | **MEDIUM (bottom of band)** | *(down sharply from 7.415 — the VA correction alone drops WAF by ~0.87 points; BQ/GP unchanged, RA unchanged. This is the WAF the card should have been carrying for 6+ batches)* |
 
-**Investment Idea:** Q2 FY2026 beat on revenue ($11.5B +50% YoY) and EPS ($1.66 vs $1.61 consensus), DC revenue +107% YoY now 58% of mix, Q3 guide $13B +41% YoY, and a major management-sourced TAM raise (server CPU $120B→$220B by 2030, DC AI accelerator →$1.4T by 2030) plus a confirmed 3rd anchor AI customer (Anthropic, up to 2GW MI450 + direct $5B investment). Market reaction was "sell the news" — stock ran up +7% intraday 08-04 ahead of the print, then fell -8.8% after-hours and continued lower pre-market to ~$472-475 (expectations baked in exceeded even a clean beat). At the verified real price (~$472.94, not the stale $518.58 cache), MoS improves sharply to -1.27% — closest to clearing the gate in 4 batches — but still fails. Action stays WATCH; re-check EPS/FV basis next batch once analyst consensus resets post-earnings.
+**Investment Idea:** Business fundamentals unchanged from the 08-05 read — Q2 FY2026 beat (revenue $11.5B +50% YoY, DC +107% YoY = 58% of mix), Q3 guide $13B +41% YoY, major TAM raise, Anthropic confirmed as 3rd anchor AI customer. What changed today is **only the valuation math**: the $18.70 CY2027E EPS this card had been using since 2026-06 was never real analyst consensus — it came from a single secondary report ("FundaAI Deep|AMD," May 2026) and was mislabeled as \`consensus_forward\`. The real Nasdaq consensus panel (18 analysts) puts CY2027E EPS at $12.59, corroborated independently by UBS's own $14.63 estimate for the same period (both in the $12-16 range, nowhere near $18.70). Recomputing FV on the real number: Base $315 (was $467), MoS -59.8% (was -1.27%). Action stays WATCH — it was never going to be a BUY this batch either way — but the *conviction gap* between "near the buy zone" and "very expensive" is the real finding here.
 
-**Thesis:** EPYC share gain + MI455X bandwidth lead; Venice production ramp + management's own TAM raise (not just analyst) validates DC roadmap acceleration; Anthropic $5B direct investment (lower-dilution structure vs OpenAI/Meta warrants) + Microsoft Azure Helios = second-source thesis increasingly proven in delivered numbers, not just guidance
+**Thesis:** EPYC share gain + MI455X bandwidth lead; Venice production ramp + management's own TAM raise validates DC roadmap acceleration; Anthropic $5B direct investment + Microsoft Azure Helios = second-source thesis increasingly proven in delivered numbers, not just guidance. Business thesis is intact and getting stronger — the issue this batch is entirely about what the market is charging for it.
 
-**Thesis Risk:** ROCm ตาม CUDA ~5 ปี; AI GPU rev gap vs NVDA ยังใหญ่; MoS ยัง fail (-1.27%) ต่อเนื่องเป็น batch ที่ 4 แม้ปรับดีขึ้นมาก; "agentic CPU" thesis กลายเป็น consensus แล้ว → edge หด; **[NEW] forward commitments พุ่งเร็ว** ($25.7B→$30.3B unconditional ในไตรมาสเดียว + subsequent $5.0B+$9.5B ยังไม่เข้างบ) + inventory/AR โตเร็วกว่ารายได้ — ต้องติดตามว่าเป็น healthy build-ahead หรือ overextension; **[NEW]** China "anti-foreign sanctions" กฎหมายใหม่ risk factor; PEG 0.72 optically ต่ำเพราะ EPS basis = CY2027E ที่ ramp-heavy — ห้ามอ่านเป็น cheap; **⚠️ price data quality:** ราคาที่ verify แล้ว ($472.94) ต่างจาก stale cache ($518.58) เกิน 8% — ถ้าใช้ตัดสินใจซื้อขายจริงต้อง re-verify ราคาสดอีกครั้งหลังตลาดเปิด
+**Thesis Risk:** ROCm ~5yr behind CUDA; AI GPU rev gap vs NVDA still large; **[MAJOR]** stock now trades at ~40x the *real* CY2027E consensus EPS (was reading as ~25x under the erroneous input) — a materially richer valuation than previously understood, MoS -59.8% is the worst reading this card has shown; forward commitments jumped $25.7B→$30.3B in one quarter + subsequent $5.0B+$9.5B not yet on balance sheet; inventory/AR growing faster than revenue; China "anti-foreign sanctions" law risk factor; **[NEW]** SpaceX announced (08-04/05) it will build exclusively on NVIDIA's Vera Rubin going forward — one concrete data point reinforcing that AMD's second-source AI-accelerator position is still being actively contested for major AI-infra buyers (not thesis-breaking, SpaceX not a disclosed top AMD customer, but worth tracking for a pattern); PEG (1.14, on a growth-rate assumption last verified 07-15/pre-earnings) needs a fresh consensus-growth pull next batch.
 
-**Action:** 👀 WATCH (MoS -1.27% FAIL ที่ราคา verified $472.94 — ปรับดีขึ้นมากจาก -3.78% แต่ยังไม่ผ่าน gate 15% และไม่เข้า STARTER band เพราะติดลบ; ER 34.8%/yr + PEG 0.72 pass cleanly แต่ไม่ override MoS ที่ fail; **ต้อง reconcile EPS/FV basis รอบหน้าเมื่อ consensus estimates update หลังงบ**)
+**Action:** 👀 WATCH (MoS -59.8% FAIL, badly, at verified price $503.35 using the corrected EPS basis — this is a much larger gap to the 15% gate than the -1.27% this card previously showed, though the action conclusion doesn't change since -1.27% was already failing; ER ~26.1%/yr technically clears its own gate but per WARREN.md cannot override a failing MoS; **eps_basis_type now correctly sourced and documented — no outstanding reconciliation flag**)
 
 ---
 ## Business Overview
@@ -919,7 +923,19 @@ Data Center revenue = 58% ของรายได้รวม (ขึ้นจ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-05
+**Last Updated:** 2026-08-07
+
+**Update (2026-08-07, batch 12) — EPS basis reconciliation: $18.70 CY2027E traced and corrected to real Nasdaq consensus $12.59; FV re-rated $467→$315; MoS -1.27%→-59.8%** [PRIMARY/VALUATION CORRECTION]
+- **Root-cause investigation (per Kim/Oat request, triggered by Charlie's repeated CAUTION flags 07-27 through 08-05):** Traced $18.70 (used as \`eps_basis_type: "consensus_forward"\` in every batch since 2026-06) back to its source — **"FundaAI Deep|AMD" (May 11, 2026)**, a single secondary/thematic report already logged in this card's Analyst Research Notes, which states "CY27E $18.7, CY28E $24.5." This is one report's own internal projection, **not** an aggregated analyst consensus panel figure. It was carried into the card's structured \`eps_basis_type\` field as if sourced consensus, and then carried forward unchanged batch-to-batch for 6+ batches without ever being cross-checked against a live consensus API.
+- **Fresh consensus pull (2026-08-07):** Nasdaq earnings-forecast API, \`yearlyForecast\`, Dec 2027 row → **consensus EPS $12.59** (18 analysts, high $16.81 / low $6.95, 8 up / 0 down revisions in the last 4 weeks). This is up from Charlie's $11.85 pull on 2026-08-05 — consistent with the Street updating estimates 2-3 trading days post-earnings, exactly as Charlie predicted in his \`verify_further\` note.
+- **Independent corroboration:** UBS's own named-analyst estimate for the same period — already logged on this card in the 2026-07-26 entry — was **C2027E EPS $14.63**, not $18.70. UBS is a single bullish analyst (22% above the panel consensus, a normal premium for one bank), but its number sits in the same $12-16 neighborhood as the real Nasdaq panel, confirming $18.70 was an outlier not supported by any other analyst-sourced figure on this card.
+- **FV recomputed:** Base = 25× × $12.59 = **$315** (was $467, -32.5%). Bull = 30× × $12.59 = **$378** (was $560). Bear = 15× × $12.59 = **$189** (was $380). Method (25×/30×/15× multiple framework) unchanged — only the EPS input changed.
+- **Price verification:** $503.35, cross-checked 2-source (Nasdaq \`primaryData\` pre-market $503.35 vs CNBC \`ExtendedMktQuote\` PRE_MKT $503.77, both timestamped 8:53am ET 08-07, 0.08% drift). yfinance rate-limited this run — used the documented CNBC/Nasdaq API fallback (\`feedback_yfinance_rate_limit.md\`). Regular close 08-06 was $489.28 (both sources agree); pre-market continuing the post-earnings recovery rally on sector-wide sentiment (Goldman AMD PT raised to $640, William Blair initiated coverage, MSFT/Palantir results lifting AI-infra sentiment broadly) — not AMD-specific fundamental news. No stock split (confirmed via WebSearch — company has stated $600+ price would be the threshold to reconsider one).
+- **MoS re-rates from -1.27% (near-miss) to -59.8% (deep FAIL).** Action stays WATCH either way (MoS was already failing before this correction), but the *degree* of overvaluation understatement was material — the card had been implying AMD was "closest to a buy in 4 batches" when the real gap was closer to 60 points.
+- **WAF re-scored:** BQ 8.5 (unchanged) · GP 9.3 (unchanged — correction is a pricing-input fix, not a new business-quality/growth data point) · VA **5.0→1.5** (largest single-component change on this card's history, calibrated against PLTR MoS -61.05%→VA 1.2 and DDOG MoS -44.8%→VA 2.0 precedent) · RA 5.5 (unchanged; reviewed but did not score Charlie's 08-05 SpaceX-exclusive-NVIDIA flag as a scoring change — one data point, not yet a pattern, added to Thesis Risk instead) → **WAF 7.415→6.54 MEDIUM (bottom of band)**.
+- **eps_basis fields now fully documented per Kim's request** to prevent recurrence: \`eps_used=12.59\`, \`eps_fiscal_year="CY2027E (Dec 2027)"\`, \`eps_basis_type="consensus_forward"\`, \`eps_source="Nasdaq earnings-forecast API, yearlyForecast, 18 analysts, pulled 2026-08-07"\` — all four fields now point to a live, re-pullable, cited source rather than an unlabeled carried-forward number.
+- ⚠️ [CONFLICT-CHECK] This is a valuation/EPS-input correction, not a new fundamental development — resolves the conflict Charlie flagged across 07-27→08-05 (his \`charlie_fv\` $320 and this card's new Base $315 are now within 2.3% of each other, using the same real consensus EPS, different multiple: Charlie 27.0x vs Warren 25.0x — both anchored to the correct $12-13 EPS range, the prior 31.5% gap is closed).
+- **Missed-it log:** no update needed this batch — AMD's \`correct_avoid\`/WATCH verdict stands, now on a more accurate valuation basis.
 
 **Update (2026-08-05, batch 11) — Q2 FY2026 beat + major TAM raise + Anthropic anchor confirmed; "sell the news" reaction; stale-price cache caught and corrected** [PRIMARY/MARKET NEWS]
 - Q2 FY2026 (reported Aug 4 after close): Revenue $11.536B (+50% YoY, above $11.2B±$300M guide); Non-GAAP EPS $1.66 (vs consensus $1.61); Data Center revenue $6.718B **+107% YoY**, now 58% of total revenue (up from 42% a year ago), DC op margin 31%. Q3 guide $13.0B±$300M (+41% YoY, +13% QoQ) — strong.
@@ -2281,7 +2297,15 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-04
+**Last Updated:** 2026-08-07
+
+**Update (2026-08-07) — Forced deep-dive recheck: EPS-basis bug found and fixed, FV Base $2,100→$1,800, Action BUY→WATCH** [VALUATION CORRECTION]
+- **Trigger:** Kim flagged that Warren's FV Base (EPS $70 × 30×) did not reconcile with FY2026 guidance-derived EPS (~$44), separately from Charlie's already-open FV-verify flag (EPS $58.96, gap 15.8%, CAUTION verdict, 2026-08-04).
+- **Full bottom-up rebuild (see Valuation Range reconciliation note above for detail):** Confirmed via 3 independent methods (guidance bottom-up math, live yfinance \`epsCurrentYear\`, WebSearch consensus from stockanalysis.com/Erste Group) that **FY2026 consensus EPS ≈ $42-44** — Kim's flag was correct. Separately confirmed via live yfinance \`forwardEps\` ($59.43), Erste Group's explicit FY2027 estimate ($61.40), and Charlie's own independent build ($58.96) that these all cluster at **~$59-61 = FY2027 consensus**. Extrapolating FY2027 by consensus "double-digit gains into 2028" lands at **~$70-74 = FY2028 consensus** — i.e., **the old $70 EPS was a FY2028 number mislabeled as "FY2026 consensus EPS"** in the Method header, inherited unchanged through the 07-16→08-04 chain of pure proportional-scaling price updates without ever being re-derived from fresh consensus.
+- **Fix:** Base FV rebuilt on FY2027 EPS (~$59.9, NTM basis — matches how the 30-32× "historical average forward P/E" benchmark is itself computed) × unchanged 30× multiple = **$1,800** (down from $2,100, -14%). Bull/Bear rebuilt on the same corrected fiscal-year-explicit basis (see table above).
+- **Net effect on gates (live price $1,704.37, 2026-08-07):** MoS collapses from 21.78% → **5.28%** (fails 15% gate by 9.7pts, too wide for STARTER); PEG moves from 1.23 → **1.50** (now sits exactly at the Effective PEG Cap with zero cushion, was comfortably under before); ER moves from 24.1%/yr → **~20.1%/yr** (still passes ≥15% but cannot override the failed MoS gate per WAF rule — "ห้ามใช้ ER สูงแทน MoS ที่ไม่ผ่าน"). WAF drops from 8.38 (HIGH) → **7.50** (MEDIUM, VA cut 8.1→4.5 is the entire driver — BQ/GP/RA all unchanged).
+- **Action: BUY → WATCH.** This closes Charlie's outstanding FV-verify flag (open since 07-16) — Charlie's independent EPS estimate ($58.96) turns out to have been the methodologically correct one (FY2027/NTM basis), while Warren's $70 was silently drifting toward a FY2028-level number. The underlying business thesis (EUV monopoly, FY26 guidance raised twice, memory supercycle, Tier 🏛️ Inevitable 4/4) is **not** affected — this is purely a valuation-multiple EPS-basis correction. Re-evaluate for BUY if price pulls back toward/below ~$1,530 (15% MoS off the corrected $1,800 Base) or FY2027 consensus EPS revises materially higher.
+- ⚠️ [CONFLICT-CHECK] This *resolves* a standing conflict rather than creating one: Charlie's 08-04 CAUTION verdict (gap 15.8%, EPS $58.96) is now understood to have been closer to correct than Warren's own prior BUY call. No conflict with primary business/earnings data — Q2 actuals and FY26 guidance are unchanged and unquestioned; only the forward-multiple EPS basis was wrong.
 
 **Update (2026-08-04, batch 9) — 08-04 China-DUV headline is recirculated (not new); Bernstein/Goldman turn more positive; price +6.08%** [MARKET NEWS / ANALYST VIEW]
 - 08-04 🔴MATERIAL headline ("ASML influence declining as new competing tech absorbs share") WebSearched in full: this is the same China-domestic-DUV narrative from 07-28/07-29, not a new escalation. Independent 08-04 coverage (Morningstar-cited) confirms ASML still >80% of total lithography revenue, 100% of EUV; frames China DUV as "real in the long run but overstated for 2026-2027" (~20 units vs. an order book measured in hundreds; Intel already 2-3 generations ahead using ASML's High-NA EUV in Panther Lake production).
@@ -2402,9 +2426,9 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-04  |  **Status:** PASS
+**Last Updated:** 2026-08-07  |  **Status:** PASS
 
-**Tier Basis:** Inevitable: ✓EUV monopoly 30+ปี ผ่าน dot-com/GFC/COVID (3+ crisis) ✓ผ่าน CEO transition non-founder (Wennink→Fouquet April 2024, ไม่มี key-man dependency) ✓Power ขยายตามเวลา (IBM recurring +24% YoY, High-NA ramp) ✓ROIC>40% ต่อเนื่อง 10+ปี ทั้งบริษัท — ผ่านครบ 4/4 เกณฑ์ Inevitable ยืนยันอีกครั้ง; ไม่มี tier change รอบนี้ — 08-04 China DUV/"declining influence" headline reviewed (see below), still does not touch any of the 4 criteria (all rest on EUV, not DUV)
+**Tier Basis:** Inevitable: ✓EUV monopoly 30+ปี ผ่าน dot-com/GFC/COVID (3+ crisis) ✓ผ่าน CEO transition non-founder (Wennink→Fouquet April 2024, ไม่มี key-man dependency) ✓Power ขยายตามเวลา (IBM recurring +24% YoY, High-NA ramp) ✓ROIC>40% ต่อเนื่อง 10+ปี ทั้งบริษัท — ผ่านครบ 4/4 เกณฑ์ Inevitable ยืนยันอีกครั้ง; ไม่มี tier change รอบนี้ — 08-04 China DUV/"declining influence" headline reviewed (see below), still does not touch any of the 4 criteria (all rest on EUV, not DUV). **2026-08-07 deep-dive recheck:** the EPS-basis bug found in Valuation Range below (see reconciliation note) is a valuation-methodology error, not a business-quality/moat issue — Tier unaffected, still 🏛️ Inevitable 4/4.
 
 **WHAT:** ASML is the sole global producer of EUV lithography systems—the only machines capable of patterning leading-edge transistors—beating competitors via a multi-decade ecosystem moat (Zeiss optics, TRUMPF light sources) that cannot be replicated.
 
@@ -2413,62 +2437,70 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 **IF WRONG:** A major customer (TSMC or Samsung) delays leading-edge node ramp by 12+ months, or US/EU export restrictions expand to broader DUV categories (MATCH Act risks cutting ~19-20% of revenue from China) — **or** China's domestic DUV tooling (07-28/07-29 news) scales fast enough to materially displace ASML DUV unit sales into China (watch for shipment/share data, not just "started production" headlines) — breaking the order book; or H2 2026 execution falls short of the newly-raised guide.
 
 ## Valuation Range
-**Last Updated:** 2026-08-04  |  **Price:** $1642.52  |  **Method:** Relative Multiple (P/E on FY2026 consensus EPS)  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-08-07  |  **Price:** $1704.37  |  **Method:** Relative Multiple (P/E on NTM/FY2027 consensus EPS — see reconciliation note, corrected from mislabeled "FY2026" basis)  |  **Tier:** 🏛️ Inevitable
 
-> **Price refresh 2026-08-04:** $1548.44 (07-29 gate) → $1642.52 (+6.08%), on Bernstein "Top Q3 Pick" + Goldman European Conviction List add (08-03) plus backlog-still-strong reassurance — not offset by the recirculated China-DUV "declining influence" headline (08-04), which independent research confirms is overstated for 2026-2027 (see Story Gate above). No new fundamentals since Q2 beat-and-raise; FV Base $2,100 unchanged (still a proportional estimate — Charlie FV-verify flag persists, unresolved this batch too). Net: MoS narrows to 21.78%, still comfortably clear of the 15% gate.
+> **⚠️ BOTTOM-UP RECONCILIATION (2026-08-07, forced recheck) — closes the long-standing Charlie FV-verify flag (open since 07-16):**
+> Kim flagged that the prior FV Base ($2,100 = 30× **$70** EPS) implied an EPS far above what FY2026 guidance supports bottom-up (~$44). Rebuilt from scratch:
+> 1. **Bottom-up FY2026 EPS from guidance:** FY26 revenue guide €43-45B (mid €44B) × implied net margin ~30-31% (derived from Q1/Q2 2026 actuals: op margin 36.0%→37.1% trending up with GM guide 54-56%, net/op-income ratio ~0.84x from actuals, effective tax ~17.5%) ÷ ~384M shares (Q2 2026 basic share count, matches live float) → **FY2026 EPS ≈ €35-37 ≈ $41-42**. This matches independently: stockanalysis.com consensus FY26 EPS **$43.60**, Erste Group **$44.50**, yfinance \`epsCurrentYear\` **$38.03** — all in the **$38-45** band, confirming Kim's ~$44 flag was correct.
+> 2. **Where did $70 come from?** Live yfinance \`forwardEps\` (NTM/next-FY) = **$59.43**; Erste Group's explicit **FY2027** estimate = **$61.40**; Charlie's independent FV ($1,769) was built on EPS **$58.96** — all three cluster at **~$59-61 = FY2027 consensus**, not FY2026. Consensus explicitly projects "53% jump in 2026 EPS, then double-digit gains in 2027/2028" — extrapolating FY2027 ($59-61) by another ~15-18% lands at **~$70-74 = FY2028 consensus**. **Conclusion: the prior $70 EPS was a FY2028 (≈2-year-forward) number, mislabeled as "FY2026 consensus EPS" in the Method header.** This was not a deliberate forward-year call — it was inherited unchanged through several rounds of pure price/proportional-scaling updates (07-16 → 08-04) without ever being re-derived from consensus, so the label silently went stale while the number drifted from the original 07-16 basis (~€38≈$43, correctly FY26 at the time) up to $70 with no documented re-basis.
+> 3. **Growth double-counting:** the old Base FV also applied a 19%/yr growth rate on top of that already-FY2028-level EPS inside the 5-yr Expected Return formula — i.e., growth was counted twice (once by using a 2-years-out EPS as "today's" base, again by compounding 19%/yr forward from it).
+> 4. **Fix applied:** Base case now uses **FY2027 consensus EPS (~$59.9, average of yfinance $59.43 / Erste $61.40 / Charlie $58.96)** at the unchanged 30× historical-average multiple — this NTM/next-FY basis is also what the "~30-32× historical average forward P/E" benchmark itself is computed against (data-vendor forward P/E convention = NTM, not trailing/current-FY), so this is the internally consistent choice, not an arbitrary swap. Bull/Bear rebuilt on the same corrected basis below.
+> **Net effect: this is a genuine, material downward correction — not a price-refresh.** Base FV moves $2,100 → **$1,800** (-14%). At today's live price $1,704.37, MoS collapses to **~5.3%**, far short of the 15% gate (gap 9.7pts, exceeds the 7pt STARTER band) → **Action flips BUY → WATCH.**
 
-### Earnings Basis — ตัวเลขกำไรที่ใช้มาจากไหน?
-- **Q2 2026 actual:** EPS €7.59 (≈$8.69), revenue €9.3B, GM 54.0% — beat consensus
-- **FY2026 guidance:** raised to **€43-45B** revenue (midpoint €44B, +15.8% vs prior €36-40B midpoint €38B), GM guide **54-56%** (was 51-53%) — 2nd raise this year
-- **ทำไมถึงใช้ตัวเลขนี้:** first primary confirmation since the earnings blocker; FV Base scaled proportionally to the revenue+margin guide raise (see below)
+### Earnings Basis — ตัวเลขกำไรที่ใช้มาจากไหน? (rebuilt bottom-up 2026-08-07)
+- **FY2026 consensus/guidance-derived EPS:** **~$42** (blend: stockanalysis.com consensus $43.60, Erste Group $44.50, yfinance \`epsCurrentYear\` $38.03, Warren's own bottom-up build from guidance ~$41-42) — this is the "current fiscal year" figure, confirms Kim's ~$44 flag
+- **FY2027 consensus EPS (NTM basis, used for Base FV):** **~$59.9** (yfinance \`forwardEps\` $59.43, Erste Group explicit FY2027 $61.40, Charlie's independent FV build $58.96 — tight cluster)
+- **FY2028 consensus EPS (extrapolated, used for Bull):** **~$70-71** (FY2027 $59.9 × ~18% further consensus growth, per "double-digit gains in 2027/2028" search commentary) — **this is what the old Base case was actually using, mislabeled as FY2026**
+- **Q2 2026 actual (unchanged):** EPS €7.59 (≈$8.69), revenue €9.3B, GM 54.0% — beat consensus; H1 2026 actual EPS €14.74
+- **Source:** live yfinance \`Ticker('ASML').info\` (2026-08-07) + WebSearch (stockanalysis.com/stocks/asml/forecast, chartmill.com, themarketsdaily.com Erste Group coverage) + Charlie's 2026-08-04 independent review (watchlist batch)
 
 ### Growth Rate — ใช้เท่าไหร่ และทำไม?
-- **Growth Rate ที่ใช้:** ~19% ต่อปี (up from 15% — reflects the confirmed FY26 guidance acceleration, second raise this year)
-- **ระยะเวลา:** 5 ปี เป็น base case compounding ผ่าน 2030 long-term opportunity (€44-60B)
-- **ที่มาของ Growth Rate:** Management guidance (raised FY26 midpoint +15.8%) + margin expansion (+3pp GM guide) — conservative vs analyst PT moves implying more
+- **Growth Rate ที่ใช้:** ~19%/yr (unchanged — this was not the source of the error; kept for ER calc since it reflects reasonable structural deceleration from the FY26→27 consensus jump (~$42→$60, +42%) toward the 2030 long-term opportunity CAGR)
+- **ระยะเวลา:** 5 ปี
+- **ที่มาของ Growth Rate:** Consensus EPS growth path ($42 FY26 → $60 FY27 → $70 FY28) tapering toward the 2030 revenue opportunity (€44-60B, implies high-single-digit-to-low-teens revenue CAGR with margin/buyback lift on top)
 
 ### Valuation Multiple — ใช้ Multiple อะไร และทำไม?
-- **Multiple ที่ใช้:** ~30× (Base, unchanged methodology) applied to the higher post-raise earnings base
-- **Historical Average:** ASML 5-yr average forward P/E ~30-32× ในช่วง non-bubble periods
+- **Multiple ที่ใช้:** 30× (Base, unchanged) — now correctly applied to **NTM/FY2027 EPS** instead of a FY2028-level number
+- **Historical Average:** ASML 5-yr average **forward** P/E ~30-32× — confirmed this is an NTM-basis figure: live forward P/E from stockanalysis.com (31.47×) and yfinance (28.68× on \`forwardEps\`) both sit inside this exact 30-32× band today, validating that "forward P/E" here means NTM, not current-FY or 2-years-out
 - **Peer Range:** TSMC ~19-22×, semicap peers (KLA/LRCX/AMAT) 22-28×
-- **Warren เลือก 30× (Base) เพราะ:** unchanged rationale — EUV monopoly deserves premium over cyclical semicap peers but capped by China/export risk that peers don't carry to the same degree
+- **Warren เลือก 30× (Base) เพราะ:** unchanged rationale — EUV monopoly premium over cyclical semicap peers, capped by China/export risk
 
-### Fair Value Calculation
+### Fair Value Calculation (rebuilt bottom-up)
 
-| Scenario | Multiple | Fair Value | Probability |
-|----------|---------|-----------|------------|
-| **Bull** | 35× on 2027 step-up (in line w/ analyst PTs $2,510-2,623) | $2550 | 25% |
-| **Base** | 30× on raised FY2026 guide (scaled +20% vs prior $1,750) | $2100 | 50% |
-| **Bear** | 24× compressed (China/export risk fires) | $1300 | 25% |
+| Scenario | Multiple | EPS Basis | Fair Value | Probability |
+|----------|---------|-----------|-----------|------------|
+| **Bull** | 33× | FY2028 consensus (extrapolated ~$70.7) | $2,330 | 25% |
+| **Base** | 30× | FY2027 consensus (~$59.9) | $1,800 | 50% |
+| **Bear** | 22× | FY2026 consensus (~$42, near-term only, no forward credit) | $920 | 25% |
 
-**Weighted Fair Value:** ~$2,020
-**ราคาปัจจุบัน:** $1642.52
-**Margin of Safety:** (2100 − 1642.52) ÷ 2100 = **21.78%** — clears full 15% gate with a wide margin (BUY)
-**PEG:** Forward P/E ~23.46× ($1642.52 ÷ $70) ÷ Growth ~19% = **1.23** ✓ PASS (Effective PEG Cap 1.5 for Inevitable in Normal market)
-**5-yr Expected Return:** convergence (2100/1642.52)^(1/5) − 1 = 5.0% + consensus growth ~19% = **24.1%/yr** ✓ PASS (≥15%)
+**Weighted Fair Value:** 0.25×2330 + 0.5×1800 + 0.25×920 = **~$1,713** (note: this lands almost exactly at today's live price $1,704.37 — after the correction, ASML now reads as roughly **fairly valued**, not a 21% discount)
+**ราคาปัจจุบัน:** $1704.37 (live yfinance, 2026-08-07)
+**Margin of Safety:** (1800 − 1704.37) ÷ 1800 = **5.28%** — **FAILS** the 15% gate (Normal market: S&P fwd P/E ~19.5-20.6× per MacroMicro/live check 2026-08-07, VIX ~15.3-16.6 → Normal mode, 15% MoS gate / 1.5 PEG cap unchanged) — gap to gate = 9.7pts, **exceeds** the 7pt STARTER-band threshold → not STARTER-eligible either
+**PEG:** Forward P/E 1704.37 ÷ 59.9 = 28.45× ÷ Growth 19% = **1.50** — marginal PASS at the Effective PEG Cap ceiling (min(1.5, 2.0)=1.5 for Inevitable/Normal), no cushion
+**5-yr Expected Return:** convergence (1800/1704.37)^(1/5) − 1 ≈ 1.1% + consensus growth 19% = **~20.1%/yr** — passes the ≥15% bar on its own, but **per WAF rule this cannot substitute for a failed MoS gate** (MoS = safety gate, ER = ranking tool only)
 
 ### Data Sources
-- **Earnings Data:** ASML Q2 2026 press release + 6-K (2026-07-15): €9.3B sales, EPS €7.59, FY26 guidance €43-45B/GM 54-56%
-- **Analyst Estimates:** Wells Fargo PT $1,750→$2,200; BofA $2,345; one analyst $2,510-2,623 (2026 EPS ~€38); Bernstein "Top Q3 Pick" (08-03); Goldman European Conviction List add (08-03)
+- **Live Price/EPS:** yfinance \`Ticker('ASML').info\` 2026-08-07 — price $1704.37, \`forwardEps\` $59.43, \`epsCurrentYear\` $38.03, \`trailingEps\` $29.66, \`sharesOutstanding\` 384.1M
+- **Analyst Estimates:** stockanalysis.com/stocks/asml/forecast (FY26 consensus EPS $43.60, avg PT $2,117-2,122); Erste Group (FY26 $44.50, FY27 $61.40); Charlie's 2026-08-04 independent FV build (EPS $58.96 × 30× = $1,769)
+- **Market Context (live, 2026-08-07):** S&P 500 forward P/E ~19.5-20.6× (MacroMicro/search) → Normal band (18-22×) → MoS Gate 15%, Market PEG Cap 1.5; VIX ~15.3-16.6 (yfinance ^VIX, past 5 sessions) → Normal mode (15-30 band), no MoS adjustment
 - **Industry/Peer Data:** TSMC Fwd P/E ~19-22×, semicap peer range 22-28× (KLA/LRCX/AMAT)
-- **Price Verification:** prices_cache.json 2026-08-04 ($1642.52); no stock split found
 
 **WAF Score Breakdown:**
 | Component | Score | Weight | Weighted | Reasoning |
 |-----------|-------|--------|---------|-----------|
-| BQ (Business Quality) | 9.5 | 30% | 2.85 | EUV monopoly with Benefit+Barrier; ROIC >40%; no red flags; unchanged |
-| GP (Growth Potential) | 8.5 | 30% | 2.55 | Unchanged — no new earnings this batch |
-| VA (Valuation) | 8.1 | 25% | 2.025 | Down slightly from 8.3 — price +6.08% narrows MoS to 21.78% (from 26.27%), PEG 1.23, ER 24.1%/yr — all gates still pass with a comfortable cushion |
-| RA (Risk Assessment) | 6.5 | 15% | 0.975 | Unchanged — 08-04 China-DUV/"declining influence" headline is the same story already reviewed 07-28/07-29, independent research (08-04) confirms overstated for 2026-2027; no new risk category |
-| **WAF Total** | **8.38** | | | **HIGH** *(7.5–8.5 band, near top)* |
+| BQ (Business Quality) | 9.5 | 30% | 2.85 | Unchanged — EUV monopoly, ROIC >40%, no red flags; this recheck found a valuation-methodology bug, not a business-quality issue |
+| GP (Growth Potential) | 8.5 | 30% | 2.55 | Unchanged — underlying guidance/growth trajectory (FY26 raised twice, memory >75%, EUV >45%) is real and confirmed; only the multiple's EPS basis was wrong, not the growth story itself |
+| VA (Valuation) | 4.5 | 25% | 1.125 | **Down sharply from 8.1** — corrected MoS 5.28% fails the 15% gate by a wide margin (was 21.78%), PEG 1.50 sits right at the cap with no cushion (was 1.23), ER still passes at ~20.1% but cannot override a failed MoS gate per WAF rule |
+| RA (Risk Assessment) | 6.5 | 15% | 0.975 | Unchanged — no new risk category this batch (China-DUV story already assessed 07-28/07-29/08-04) |
+| **WAF Total** | **7.50** | | | **MEDIUM** *(sits exactly on the 7.5 MEDIUM/HIGH boundary — VA correction is what pulled this down from the prior 8.38 HIGH)* |
 
-**Investment Idea:** Price +6.08% since the 07-29 gate on Bernstein Top Pick + Goldman Conviction List adds, partially offset by a recirculated (not new) China-DUV headline — Q2 beat-and-raise thesis intact, FV Base $2,100 unchanged. MoS narrows to 21.78%, PEG 1.23, ER 24.1%/yr — all still comfortably clear their gates → **BUY** continues. FV Base ($2,100) is still a same-day proportional estimate pending full consensus EPS convergence — flag for Charlie to verify against updated sell-side numbers before full deploy.
+**Investment Idea:** This recheck was triggered by a Kim/Charlie flag that the FV Base's EPS ($70) didn't reconcile with FY2026 guidance-derived EPS (~$44). Full bottom-up rebuild confirms the flag was correct: $70 was actually a FY2028-level consensus number silently inherited through several batches of pure proportional-scaling FV updates (since 07-16) without ever being re-derived from fresh consensus — a fiscal-year mislabeling bug, not a fresh judgment call. Corrected Base FV (FY2027 NTM EPS ~$59.9 × 30×) = $1,800, only 5.3% above today's live price $1,704.37 — the stock now reads as **roughly fairly valued**, not a 21%+ discount. MoS fails the 15% gate by a wide margin (9.7pt gap, too wide for STARTER). **Action changes BUY → WATCH.** The underlying business/growth thesis (EUV monopoly, FY26 guide raised twice, memory supercycle) is untouched and remains strong — this is purely a "price no longer offers enough margin of safety once the EPS basis is fixed" call, not a thesis breakdown.
 
-**Thesis:** ASML remains a confirmed Inevitable monopoly (4/4 hard criteria). Q2 beat + 2nd FY26 guidance raise (€36-40B→€43-45B, margin 51-53%→54-56%) confirms AI/memory-driven demand is structurally accelerating, not just backlog chatter. Analyst sentiment (Bernstein/Goldman) turning more positive this batch.
+**Thesis:** ASML remains a confirmed Inevitable monopoly (4/4 hard criteria). Q2 beat + 2nd FY26 guidance raise (€36-40B→€43-45B, margin 51-53%→54-56%) confirms AI/memory-driven demand is structurally accelerating. This recheck does not touch the business thesis — it corrects a valuation-multiple EPS-basis error that had inflated FV Base ~17% above what the corrected NTM-consensus basis supports.
 
-**Thesis Risk:** Export controls expanding to DUV, or a leading-edge node delay at TSMC/Samsung, would compress orders and multiple simultaneously; MATCH Act passage would remove ~19-20% of revenue; China domestic-DUV tooling remains an early-stage watch item (independent 08-04 research: ~20 units vs. order book in the hundreds, 2-3 year gradual substitution) — re-cut RA if it scales to material unit-share displacement; FV Base revision remains a proportional estimate — needs re-verification against full sell-side EPS consensus next batch.
+**Thesis Risk:** Export controls expanding to DUV, or a leading-edge node delay at TSMC/Samsung, would compress orders and multiple simultaneously; MATCH Act passage would remove ~19-20% of revenue; China domestic-DUV tooling remains an early-stage watch item (independent 08-04 research: ~20 units vs. order book in the hundreds, 2-3 year gradual substitution) — re-cut RA if it scales to material unit-share displacement. **New watch item from this recheck:** re-verify FY2027/28 consensus EPS drift each batch going forward (don't let the FV basis silently roll forward again without re-deriving from fresh consensus — this is what caused the $70 mislabel).
 
-**Action:** BUY (MoS 21.78% clears full 15% gate with wide margin, PEG 1.23 ✓, ER 24.1%/yr ✓, WAF 8.38 HIGH — China DUV headline reviewed again and still does not change thesis/TQR; FV estimate still flagged for Charlie verification before full deploy)
+**Action:** WATCH (MoS 5.28% fails the 15% gate by 9.7pts — too wide for STARTER band; PEG 1.50 at cap with no cushion; ER 20.1% passes but cannot override a failed MoS gate per WAF rule; WAF 7.50 MEDIUM. Business thesis/Tier unaffected — this is a valuation-basis correction, re-evaluate for BUY if price pulls back toward/below $1,530 (15% MoS off corrected $1,800 Base) or if FY2027 consensus EPS moves materially higher.)
 `,
 
 "AVGO": `# Broadcom (AVGO) · Semiconductor / Custom Silicon & Networking
@@ -3830,6 +3862,7 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Recent News
+**2026-08-07** — Google ปรับเปลี่ยนบทบาทผู้นำฝ่าย DeepMind ขณะขยายการลงทุน AI frontier model; เสี่ยงการสูญเสียบุคลากรหลัก | [src](https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaWYzT056UVhPQURYS2lfZzFSa2QxUUVCTHQ3MHB1aUM5VmhnVEl0c25NYWI0ZVFXcjNkeTk5Ty1BUkc1QnJkQ1NkWkRhSHVxM2xkdEtMUGl6QWdOUGQ3VEl3eG9mYnE1eWZVd1V3TG1VUGswWlhWRGRSOEFIZ09jWVNsWTE2YlhLVVF6bWR5cDBIU0w2djA4dDJSeTF6bWh6dU1QWEhvYnLSAa4BQVVfeXFMUHh5V1RXLUl0OFdUdkNoOE1MLVJwNGF5VVRBQi1yYy1PMzAzWUtxTk9MQTh0T2VOWm4ySWhzdHo1YTNmVllQWWpwVjAyc0swRGdBdlNDNEdYRU9wVUJJaUVtNTVONXlUQlBCRERFV0RMbmh2UjBWaDdlUFJsaXpILVE4WFVkVVNxRFRkMnpHM3VHNXVnTVBYTXd5cGtJWGlYZWh5X1NfMklwZGxRWnlB) | 🟡MONITOR
 **2026-08-05** — สนับสนุนโครงการศูนย์ข้อมูล Anthropic มูลค่า 15 พันล้านดอลลาร์ที่เทกซัส ลึกเข้าในการแข่งขัน frontier AI model และยืนยันกลยุทธ์ AI ระยะยาว | [src](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ18tbXVCREJZSTdIUU1adV8wVU1DOV9oOW1QRGcxRHJmMm9TbmxRNlkyazQ3bWtYTXF1LVAyTkF0Y0FnaFlsT2QtS0FWajR0T0JmU29sYnRpeFdOYWgtQjRrdW04WDRpM0VyRDk2QXpaYWxCY1FmZWNrdkNOYkJPS29JNmlTYWtfdVNlaUdPOFNLZkxPeTdWeGs1bFdrSVVmczdFWVZUcERlYVFpOXBDNlcyMmdkY3RxQjNuNVJPcnMxSm43YnJ0cXZJU1k1Z0J0ZmpOUVI2cw?oc=5) | 🟡MONITOR
 **2026-07-24** — รายได้ Q2 ปี 2026 เกินคาดการณ์แต่ประกาศเพิ่ม Capex ปี 2026 สูงกว่าคาดการณ์; ลดความเชื่อมั่นนักลงทุนเกี่ยวกับอัตรากำไรระยะยาวท่ามกลาง AI spending | [src](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOGQwMmdvVGt5dFJfd1A0cXpERUlDRGZ0WXVIYzRxZEo2M1JvMUZ3VDNzVjB5TjBnZGg1YW4ydDBBRHdWX1BURklqd2p5ek9vS0dBazNzQ2g3UVZrdTJCbGt4NXZrYkRsN1NJTllLbVZRSXdKQjZRT1VZMk9vQTFqM1UzaVZLeVVrQVJ5U00zeEJWWjJlRU1BMkQwaEZLTzdtYnYyNk9Bd0dhbDBiZDgxalVQaHRqdS1zRVlsbXQtYWdLeERRSmFnbm9UeFpUMTh0R1g0) | 🔴MATERIAL
 **2026-07-21** — Alphabet พัฒนาชิป AI ที่มีประสิทธิภาพสูงขึ้นพร้อมเทคโนโลยี Gemini ในตัว เพื่อลดการพึ่งพา NVIDIA | [src](https://news.google.com/rss/articles/CBMifEFVX3lxTE1fa3ptelhSNFRhNjR1dmVVMFFLcEduanlBWjNMQWdiSDlNVWRGSmp5RzhMcERtazdIbVJXRm1zS1kzVEpDRWtwNF9ZX2xjaWRMLUFYY1pGOExYbUJ1d2xxSDZCZWVpYVNsNm1CbTQtSnpfbVBZMk5aMEc4TzDSAYIBQVVfeXFMUDl6b19kQzlTZ2hxb2F4eDBWU0JPb0hDeTVPQVc1SWE4bVpuck40OHpEVV9mTWVld3dsR1RZamp2NE50UjFPOVZVSldUdm9DdHAzeGVDd3NGZGdMOVUyMWZvQXNKUnlONV9WNk52UHhSLUZvMENaQkpKMXBEanU0b0hqZw?oc=5) | 🔴MATERIAL
@@ -4586,6 +4619,7 @@ Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B Q2 2025) — เพิ่มข
 ---
 
 ## Recent News
+**2026-08-07** — ศาลบังคับให้ Meta จ่ายค่าปรับ 567 ล้านดอลลาร์เพื่อกองทุนสุขภาพจิตวัยรุ่นของนิวเม็กซิโก; เพิ่มความเสี่ยงคดีอื่นๆ | [src](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ25adU40RDVWeVlvNTZDdmNqdHZpOERIODV6XzhBRmY3bFdPYmlYN2liNTloRWRkaEVNaDRpSXRXdEh5RVN2SFZGSTZRdXFsaGRyNENpMkRnTDBNdm5EX0trbWJQS3FFcmNMMzZabGRCb2VaZW5LYVExdVp2Zy1uWkFQTU54cC0xbTZKaU1FbDBKVW5TeGdFUDVZLXVjbGd3eW5JNl9mYlNodw) | 🔴MATERIAL
 **2026-08-04** — ผลประกอบการไตรมาส 2 ปี 2026 ตรงตามคาดหรือเกินคาด ลงนามสัญญาใหญ่ลูกค้า AI ตัวใหญ่ โครงการลงทุน capex ขนาดใหญ่ | [src](https://news.google.com/rss/articles/CBMivwFBVV95cUxPdng4QXNhRWdnc3ZqNjNLZFBoZFFZS0Q4MTA0ZEZoYUpPYnFNT1J1REQzRDlJVkdZZERQVjk5TkNDcmh5SElKdmpQUndFc3dpc0o2NFNtWjBhODROdlc0UzVfQTY3UjUxeVQtQTVNRHRtb3BsZklzUkJWdDUwcF9sdHdtRkxHT1RScnFxa2x2elRYcUZ4ZFN2EUw3UkhaNERnNGdxdjllOEVWVFBONzU1TUZfVldWYnQ5OS1hSTF0WQ?oc=5) | 🔴MATERIAL
 **2026-07-31** — META ปักหมุดว่าการใช้จ่ายศูนย์ข้อมูล AI ยังแข็งแกร่งแม้บวกผลมหาศาล แต่กำไรอาจประสบความเครียดจากต้นทุนอินฟราเพิ่มเติม | [src](https://news.google.com/rss/articles/CBMimgFBVV95cUxOanlGalh0NUNNazdBSmZva1R4YWQtQUd5aEJIN1FIX0ZJdUhqVXBzcUFfLW40MFNCMjFoSWNBNDNQeEZ5aGh2Q2ZyajlQLU8ya280NU9VWjUzUTFjTThrSUNya0JaUUwxbmJsOEs2YzdGaWNhYXdvY3QwRGtnWHI5c09HZVlfLVE5VGVXLWxkLUJhTkpMWlFsSWNR) | 🔴MATERIAL
 **2026-07-30** — ประกาศผลประกอบการไตรมาส 2 ปีงบ 2569 พร้อมข้อมูลรายละเอียดเกี่ยวกับการลงทุน AI Infrastructure ต่อเนื่อง | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxPQURLRXRNY0F0YS1VWHpBa3NOUVRjbmVGVklHbkdLUXRRUUVlUmItVFEyaEhUQzlScV82QVBlbXNTbXgwXzdxN3BndHRLc01SN2h6TkxxbXVQTHNJQzZIdUptRS1ISF9fZThjWFV5aWhGTE9UajFRSWNUNFF4d3pMN3pFV1VKQW1fUEQ2S1BjOUhTYUg3WDFPdW5kMzg) | 🔴MATERIAL
@@ -4599,7 +4633,6 @@ Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B Q2 2025) — เพิ่มข
 **2026-07-10** — เมตา เตรียมนำชิป AI แบบกำหนดเองเข้าสายการผลิตในเดือนกันยายนพร้อมการขยายศูนย์ข้อมูลเพื่อเพิ่มความจุคำนวณเป็นสองเท่า | [src](https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmJUcmlIQzJ4M0Vmd1QxQno5ajZPWnFqRHMtQkNMSzVRMHlnOXBqZDN4cjVuRU1XR3IyajdHekZJRkNpeXA2UjRBaXdiaDlnbkxVa1VXb1hwY3BDMUA1am9uX0o3OUxYTWVkeUMyemFUQ0JkMlVpX1RWSTBLVzI3bC1uaTVGelVXd1pSdEY4RHpreUQySmhOUjZMemVGQ3k4YTREY3VxN3k5alhELVdJa1hGeGYxbUltMV9mVUtHZWM4SmQ1eGNqRkk0RUk?oc=5)
 **2026-07-09** — เมตา ประกาศสร้าง Data Center แห่งแรกในแคนาดา ขยายความสามารถคำนวณทั่วโลกเพื่อรองรับการตัดสินใจด้าน AI | [src](https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3AxYmZnVDVUWUQ3U1VPX2pVdGU4Z0ZKNWpIdUF4eVJULWFDYzZXa21Ia0YzcTEzTW5maktsUXdtWjV6WklsenNaU0MzdTRSWXhSNjI2bjJEQXFJUWpEV1oxSVJGTDQxSWgwb0tCVFBvOFBCWGxxWmVBX1hPdHY1N2ZNS3RNRmRyeEVnbWdObzQ2MXRacGhoS0FBZzZreWVyaVhnOWNJUGM3NFBjYWUxcThkSGlTUQ)
 **2026-07-06** — เสมอสัญญาซื้อชิป AI จาก Samsung มูลค่า 6.5 พันล้านดอลลาร์ พร้อมเปิดแพลตฟอร์ม Meta Compute เพื่อแข่งชิป NVIDIA | [src](https://news.google.com/rss/articles/CBMiygFBVV95cUxQMWpwNHdOREtfNnBoRWNRX1hIZnpKVHpnSUhJRE9Db1p1a1EtbF9HY1J0T1Y3T2dtNXNhaDdwVExjbHQzOTVWYzhwc1Z6bUswVk4zZXdEdnBrSG1ISHAwNWJKN2lkdlZsbERielB1N1J6MHh5aGJwb2dRN2g4dzNETVpwUGVkdERrRDd0U3FXSk5TSnp3MGRqUWFEaVJ3aGpHZWllSGZ5T2NwemE4XzROczlLMmQ4VGViemdBb29KRk9VRS1JSjNva05n0gHPAUFVX3lxTE1Zd2JEcDB2T0xCLVpFWmVoamJWNnVBdzJ5QzBjVVBuYjA3NmxjcGQ5cHdNS2JPUXg3MGVmYVFJN2s4Ni1oWGRhOHIzQ2phbUlfcTZ2cEdDYlY1djRLZDVuNEthY0pxa1UwNkJ1cVVsQTVmaGs1V0dFbnR1RWNVdF9wODRrWFNXakZ1NU9lZ2ZGaER2eFk3blpoVnBiUUVzMG5uYWpYNmJuUnBkbEZ6RVJHUHRPY2RGdjBSM1lvWjh6YkJ0bDdLeWdORlNQSUJUaw?oc=5)
-**2026-07-02** — ประกาศแผนธุรกิจคลาวด์เพื่อขายพลังคำนวณ AI เสริมรายได้นอกเหนือจากโฆษณา | [src](https://news.google.com/rss/articles/CBMirwFBVV95cUxQLXhTQlFXWHNNdmlsTENPd2tXSkZzXy1mbEF1VXVxZHdPRTZfYjVrSjd0STNZOGYtVnBCMzVBOGZtM0tacEtHcE1JY1ZuOU9KazlZLUtyMXNxYjlWV1dNTE9ERlJtM0JXUQA2SmxFTHRWRlA5OTVHelNyc2dKdWZuaTYwTUtnZWthWUk0NEl2TU5WME16TDZzTjZLZVVuN21YMWE3TGhmX2h2dVdybFhr?oc=5)
 
 ## Source Log
 
@@ -5119,6 +5152,7 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 ---
 
 ## Recent News
+**2026-08-07** — Microsoft เปิด Data Center ขนาดใหญ่สุดในประเทศอินเดีย; เสริมศักยภาพการแข่งขันในตลาด AI infrastructure | [src](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaUo5NlhpTTZRVFpvaklBc1FSd3VGR19LREpWMW81OEFmOUUtNWFiY3EzZmE5Y2hnenItMlBZVGtSakVDLUhxLUNsZmEtU2IydWlRWmdjdW5PczEzVTFrcTg0YWhUMl9TVXBqd2MzczBsV0VjZVd1UloybTFKWnNDSEhfOUI0OFBkS0RxQ1dVUHRjcmR1VDNtVHd4QWRHVkpYcms5ZFV6S1Jpdw) | 🟡MONITOR
 **2026-08-04** — ผลประกอบการเกินคาด Cloud Services และ AI assistant ขยายตัว partnership ด้วย OpenAI ก่อให้เกิด Sticky revenue growth | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxNMWR6UndlZ0hmRGlxbHBqdzIwcEJxVHBZSHRRRURqOVI2cEJBeWh1UW5CM0dyQmo3ZFRucmpOaDV4aERDRURIakFoRXd1SmNZZS1YWEV1OWJmMFlaWjJDZ2k4MlFZZUI3dWlScW1kSFJvblpYclQ1ZkFVZDBnV1ZTNVNXNEpHaXJuUGFGZXRFSGdYQnp0UnZyclk1TXMtdw?oc=5) | 🔴MATERIAL
 **2026-08-03** — มีโซลูชั่นคลาวด์ AI ขนาดใหญ่ ช่วยให้บริษัทเพิ่มการลงทุนโครงสร้างพื้นฐานอย่างก้าวใหญ่และความสามารถในการแข่งขันกับ AWS-Google | [src](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY1d4clZGd29SUlVkemdZNzFwbm5nVUM2WFhjVXQwZWNqb25tMzVnQ0dvcXhYek92M3ZxODE1R2NjNjJrQXBCRzdVMjNOWkV3Sk9oX3RUTmtDbVdPV2tKMGd4TUFFcGFzYTBkYlA4ZVlrN3hneUx5LUY4SWRfRUhLaXZHMEFJcFJBUkJmNGZid0xLdkFCMkhxVUFPRDhHUmpwaktCNVRhWnlGZ0d4b3lHVU1WMVNicFFUNTZ1cXR3MFhKZnpYcEZEaWpjTGUxYWpRTVE) | 🔴MATERIAL
 **2026-07-30** — ผลกำไรไตรมาส 4 ปีงบ 2569 เพิ่มขึ้น 31%; ยอด Azure ข้ามเกิน 100 พันล้านดอลลาร์ และบริษัทเพิ่มแผนการใช้จ่ายทุนพร้อมเหตุผลจากความต้องการอัฒจันทร์ AI | [src](https://news.google.com/rss/articles/CBMigAFBVV95cUxNaDkyU1ptM2xGN2M5QUJtclpSMFJtQVd4VlZJeTJKbXJPb2Q4cW1VUlZubjVoQ291MnB3T3AwT1RQcENGTmtEVHB3bUNsTzBRRjlHTjQ0dGpabWpZM3pZTGlIcjNGcGRTdDlDc2tCc01QYUxtaXpHREFvSWV6VC1Nbw) | 🔴MATERIAL
@@ -5132,7 +5166,6 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 **2026-07-03** — MSFT ประกาศลดจำนวนพนักงาน 2.5% ของบัญชีบัญชีทั่วโลกขณะที่ยังคงเพิ่มการใช้จ่าย AI อย่างมหาศาล สะท้อนการปรับสมดุลระหว่างการลงทุนเทคโนโลยีและประสิทธิภาพต้นทุน | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxOa2FobTdCREt3dDJwZE5SYWo1QkJOb2lpRWtBcUt2dGZsX0I1ZGdnN0pDSE1oVGJIaGJ5UjhXYkg1SVl6S1czck9ZbWxmUlBVa0tBbUlTajNQV290dU0yb1FVcXF1cHBxQlBnN1d3X2VDM3g2QWkxRUxJRGptYW9lTkVLOHNVbVdPd2VTeUgxUnhNRklZOHN2Qll1d0Nfdw)
 **2026-06-23** — มัครอฟต์ลงนามสัญญาจ่ายไฟระยะยาวกับเชฟรอน สำหรับ data center AI ในเทกซัส; รักษาความเสถียรด้านพลังงานสำหรับระบบศูนย์กลางข้อมูล | [src](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWFNWZEJsNUZ0aEx2SXN0WEdxcXJ3U0xrOTRYTVc3a1p0VHJiS0lVS2l6VzFIUENxQmR4X09LUDBaRDBtWlJiM2M4bDVCTjNjbUdTZG1tdWpEcl9FTjJQei1Ld0V1cG9ha3RXOXRWVGREX0pMUUVYeVhhTklENzU5dVJDWURVZ2hqNnE0TWJDOGRsUkNuRTFfNjRfUzlLazAtZkFod2VwSjhvVXNEb09GaGV0U3RKVDZW)
 **2026-06-10** — NHS rolls out Microsoft 365 Copilot to 500K+ staff. Validates enterprise AI adoption and productivity software integration. | [src](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ2dvekJVM05nd1NHTE1FTUdYX0E4N2hxX0piN1g4M0FSS1JwTVU0emdGX0ZPbk9zS3pDbGFoczdBZmQtbXkwVzBPdUIzUjgwMnktMTZETmp1cnBKOGpUWlk1cm0tOTM0UVlYVU53WVZ5cnp5U1VmZUY1RmtfelhaT2FLVllVNnI3YlJGUFV3RWEtdjUtNkFQYVowcGM2OTBNMnUwYi1aMXpDdEF0OGg0VFdVb3VOamc0VDRn?oc=5)
-**2026-06-09** — Microsoft ประกาศเป้าหมายเข้าร่วมกลุ่มสถาบันวิจัย AI ชั้นแนวหน้าของโลก | [src](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSVJwSUl4eDNDRDJtaXp4YXZObDY4TGl0M3BobHVPY1pxOTFtUUtMZmJ5UFh5cmpyX3dEOGRaTi1VX29uU3hZSU80TDMwVUF1bkdKVmpYbXVvNTdEN3hNMmZBdlNscWlLT3RIOU5rUDluZFpjWVRYekFUN2J0dFc1R3FjUXBIOS1kZXQzdldRRFhqSU92TGNMbWtkUDdldUlmYW1BRzhOcmswUQ)
 
 ## Source Log
 
@@ -7470,6 +7503,8 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Recent News
+**2026-08-07** — รายได้เชิงพาณิชย์ของ Palantir โต 150% ในไตรมาส 2 ปี 2026; บริษัทยกระดับคำแนะนำรายได้และกำไรประจำปีหลังผลประกอบการเกินคาด | [src](https://news.google.com/rss/articles/CBMidkFVX3lxTE52OERCNE9wbUxaWThFYXNFaFNSeGladF9kcVVuenFDX3BmU1U0ZHBURHp1S3VuSVl2ZHVLblU0TzVwWS1HR2RQand0NXFDdnpiNVk3eDBQdGpOQ2FsQWp0WHJiNHU0ckJCZmgtdjQxdlNfTEdqRVHSAXtBVV95cUxPZ3Q1WkJUaW05ZFpkZmhiS3RLSklUZm10SG5HZm42VlJscTdsT3FEVEJlMktrWEFYY3l2YzBNY1RqbzJId0N2NzA4WWpKSzBVbUxIU2hKN1c2TFo1SzNhSy1tMXFrQzdlWjczOWVVLUNSY3ppZmwyenFud2s) | 🔴MATERIAL
+**2026-08-06** — ยกระดับคำแนะนำประจำปี 2026 หลังจากรายได้เติบโต 93% และรายได้เชิงพาณิชย์โต 150% ในไตรมาส 2; บ่งชี้ความสามารถในการปรับขนาดเชิงพาณิชย์ที่เร่งตัวขึ้น | [src](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnVpWUsxUENEcjEteXhtMzl5RmRqUXFTWXUyMTczQ1RuTlRVcm5WV3QwZmwzS2lFSlhoTW9RQ2E1UUlTWHdKWk9NbHR4ckNzcHlVcFBrRWpTRHMwNUFRblNyVXVYOWNmajAwd3d1X3U4RERzY196ckp6WTNkSHZxZEFYSUVTc1I2OTJBaDIyMl9YcmNGTWhXdVo5eHdTcF9fSnRLWTQ4YzlzUjg?oc=5) | 🔴MATERIAL
 **2026-07-20** — ประกาศความร่วมมือกับ NVDA พัฒนาโซลูชัน Sovereign AI สำหรับรัฐบาล; ขยายการประยุกต์ AI ในภาครัฐกว่าห้าสิบประเทศ | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxPUDA1T0V3UEd5UW1pbHB2WnRYYlM0UUtxNGhsWkVMOEM2NW5KSjZLYjU1eVQzeVkwZGhCTUJmdHUtMjN0cjZkN0dmMHBGeWFBel9mbTdTZ1o2aFdQYnFybS1Vd2ktVlk0NXR2YWtiY3dyMVdNUldHVWl3Z1FUMUhEUEFDeFdYZnJPbWRsdnZ6bnJ1cDNCUmhKakctSHJNNWlM?oc=5) | 🟡MONITOR
 **2026-07-08** — ซีอีโอแนะนำว่า OpenAI และ Anthropic เสี่ยงต่อปัญหาหลักการ; บริษัทเพิ่มสัญญา Sovereign AI ใหม่ | [src](https://news.google.com/rss/articles/CBMiugFBVV95cUxQVUZkbGszNF83RWNtT09kcEhLYzlsVml2MXVMVWVsUGVGQW1VYm8zcjJ0anZFNFp6UlNtWDFBTzRhMnVmVnNpMHZWeTNnUVNYb0JEbGF5Rm1aR083cWNmYWVlQmhuNEZUcWxINTFUOTRZSzFoM09YUFJzb01HUy1ZX1p0YlB1LTFLaTBfelBKUWM5RmVHOVE0TGFTdHkyQnlNbTFUWG1IRjFqZzJwOVUzV3B4bEp5blRTV0E)
 **2026-07-06** — ขยายช่องทางปรับใช้ AI ในภาครัฐและองค์กรธุรกิจ พร้อมประกาศสัญญา Sovereign AI ใหม่เสริมการเจริญเติบโต | [src](https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2pRNldfOHM0eklwcERudmU2MUh6MGNOUS1mZlJuVzJoZTdMWUZCV2Q2TXotTGoyaU1RWU54TjFRLV9Mbm0wV2MzbXpPelFsZGd0WE5OcVg0blhydXUwOWtCY3k3eXNGd2lvaWc3LUZsbFJVWWtscFNWZ0lnR1lvVjZaZXlZb0JjM2RKNEhHdy1VY1JBY0dvUlVxbnkwNDJ4bVU5QkV3RQ?oc=5)
@@ -7745,6 +7780,7 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Recent News
+**2026-08-06** — เปิดตัว NAND 375 ชั้นพร้อมประสิทธิภาพต่อวัตต์เพิ่มขึ้น 2.5 เท่า; เสริมความสามารถแข่งขันหน่วยความจำเซิร์ฟเวอร์กับคู่แข่ง | [src](https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDFoTWtTLW42LTlnU1doZUl3T2ZFUk5oN3VCdnJhU29Wd0c1by1QNm94V2VKemMxS0g4QkJKVXRKcEVTUW5hX3V2ek5RUnltUVU1ekVqdEZmWS04aTVfbENOZHRxMHpONnhVUkVoam1HRVdPbTJlRTVLQ3FUX3pycDVENlJnNDQ4cjZsdkhNSm84QVNYQ2cwZFZ1UHVWdlJsbUhkR29kUHBwUVMyY1hyZWxSdFVVeUlPRWc?oc=5) | 🔴MATERIAL
 **2026-07-31** — SK Hynix กำไร Q2 พุ่ง 557% จากความต้องการชิป AI แต่ยอดขายต่ำกว่าคาด; สัญญาณหนึ่งเดียวไม่เพียงพอเพื่อความมั่นใจต่อแนวโน้ม | [src](https://news.google.com/rss/articles/CBMihgFBVV95cUxPZzdxS05CMEpkaXRTd0VfLVZldkd4Q0FGVk5DUVJaZWhaODVaaDhyelZUTjQya2QzcnVyX2dQTjFNVXdqb05nNm9KbFVRNGNqdV93aF81cVlfNXlwbHhaZU1lcFloQWx6N2hUYnEwbjMweU04Tkd5RHZzb0VPa1RPMUF4dFVYUQ) | 🔴MATERIAL
 **2026-07-30** — กำไร Q2 พุ่ง 557% จากความต้องการชิป AI แต่ยอดขายต่ำกว่าคาดการณ์; สัญญาณความต้องการแข็งแกร่งแต่มีความเสี่ยงจากอำนาจต่อรองและ margin ตลาด | [src](https://news.google.com/rss/articles/CBMie0FVX3lxTE1obU9nR3lLLXNMM2N2RGVzb1djQzNDWk9TSmZJaG11VXQ5UWJwX1RmZTQ0bVl4S2dVMGR1cXFJWlcwLXNhcmdJQkJidEhMY2I0elhVX0pCaDJKNkFsNmE3RkxLOEZGQlRzdUdXT1NRZ2lDRHdkY2kydnAzUQ) | 🔴MATERIAL
 **2026-07-29** — 🤖 $SKHY — Q2 FY2026 (Apr–Jun) actual results, first quarterly print since IPO: Revenue W79.32T (+51% QoQ/+257% YoY), operating profit W60.54T (op margin 76%, record), net profit W93.92T (net margin 118% — but ~W63.27T is one-off Kioxia stake-sale gain, not organic). Concluded LTAs with ~10 customers (~5yr terms). Q3 guidance: DRAM bit shipments +~10% QoQ. 2026 CapEx raised to high-W40T range. Cash +W33.6T QoQ to W87.96T. | [src] SEC Form 6-K, Commission File 001-43391, filed 2026-07-29 | 🔴MATERIAL
@@ -8885,6 +8921,7 @@ July 22 earnings เผย automotive gross margin ex-credits ต่ำกว่
 ---
 
 ## Recent News
+**2026-08-07** — Tesla วางแผนผลิตหุ่นยนต์ Optimus 1 ล้านหน่วยต่อปี และสร้าง Terafab (โรงงานชิป) ขนาดมหาศาล | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxNUi1RWmJvMXZCY0pJWUl6RjU2cWN4amhNSjlkT2xNN2RIcTIyenBJenhZTTEyXzl4Q3NfVkw1Y1RJVW1DV1BzaWg3QmwwRHBXaDF5YXctSVFmRC1wNXBMN0U1MW1jaFhNZEx2YWVYeTBjOEZhM3J2QWJtQVhuZTF5SFlzVEhHN2Vja3REdzZ1eEFtc0lXMElLNg) | 🔴MATERIAL
 **2026-08-05** — วิศวกรลดเป้าหมายการคาดการณ์ปี 2026 เนื่องจากความท้าทายการแข่งขันและความยืดหยุ่นมาร์จิน เพิ่มความกังวลต่อมูลค่าหุ้นระยะกลาง | [src](https://news.google.com/rss/articles/CBMihwFBVV95cUxOSVpiYkFKMlhKdldnRS04Qk5QRUN1V25xX1N0d0dCeDE0X3ZBTnpHUGNVelZvalR0M1pZSlN6OE14UU1MQ09iaHJrak9JbTdnWDdxWXFFUDJEMm5GSUhlTkZuQkdsS29LMDZ4X2JPLUUyQkVvQ1F1QkdoQWYtN05hX2ZfVTRNMTg?oc=5) | 🔴MATERIAL
 **2026-08-04** — นักวิเคราะห์ลดเป้าหมายการขยายตัวปี 2026 เนื่องจากแข่งขันรุนแรง ปัญหาต้นทุน และความท้าทายสายการประกอบ Margin ชะงัก | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxNeFIzQkFxUXRGWlpaWE9GSFpTWFZ1Y3g5Vk90WE1aUjh4V09XN0E3Y1czUE1yOTBFZmo3NGx1SkNUNFNlcjZTMHBWV09VdDJzWDZ4aC1oVlRxV0Q0VzBpdndOLVlyU05tNFpuTTl0cmFHTDlXMUhVQ09IcnA5cUtMSjBnU0Q5b2MxaFQ0dmNlOGw4Zw?oc=5) | 🔴MATERIAL
 **2026-07-24** — Q2 2026 รายได้สูงสุด แต่กำไรพลาดคาดการณ์ พร้อมเตือน Capex เพิ่มสูง 2-3 ปีข้างหน้า; ลดความเชื่อมั่นนักลงทุนต่อประสิทธิภาพทุน | [src](https://news.google.com/rss/articles/CBMie0FVX3lxTE01YUI4bnRzTWNFcFNkV0t4aXZpV1NiSkpkb2RDa0FPaE10cHd2anViVTY1azdqQVNPN2N1eWJoalhZSjd6MmxCSTVmNHpUZTRjZ2ozSG5DR0o4Wkc0VzdhcDhFeEtCbTc1bUU3UnE1em9CNURubDFpQkJfONIBgAFBVV95cUxNWG5oWG9wRWpjZERicThsN1dIQUZTSlo2bE5qQlZMcXpLY2VZNXRRWmhDdnFObm5RdmF3c2hRN1lmUmlSWFF6WnFHWW9sc1VoM3lfcUJwWjNIaU55RU9ycy1iTm9zWmtIUTZEY0dpT1pkLTVEMnhrUWpGQ1I5NkZHXw) | 🔴MATERIAL
@@ -9371,6 +9408,8 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Recent News
+**2026-08-07** — TSMC คาดปลดปล่อยกำลังการผลิต 3nm เร็วกว่าตามแผนการเรียกสมัคร ตอบสนองความต้องการเซิร์ฟเวอร์ AI | [src](https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmdNMHlUbnhnamlZSlZ2MWtlSnZrNkZtbFJCWU5Kdzc4Tk1ic3N1cERsWkY4eE9IN3l0amZ2X3FoT0N3ZmlqcURBNzR3VDJyQ0Nodjg5cTkxRE5NRVk4eFBVVV9FUU9BQ0FtdEc1MTBsWG1HV2xmd3pOSlRwd1p2Zkt4WFF1aEt4UGZXVHVudHE0endGUjJlYk04aHFEaWM) | 🟡MONITOR
+**2026-08-07** — TSMC เพิ่มคำแนะนำปี 2026 หลังความต้องการชิป AI ขยายตัวแรง; กำลังการผลิต 3nm คาดขยายก่อนกำหนด | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxORlZSQ0FjdUVzV2IyNm02THBFSURfQ3BWcTE1VlJFUjliMVIwaGxXUXN4YVpTSGpWcTJBNGxVTXU0SDRJWDN3MnVKeU1aODJGQWVia0MzcDhnQzJiV3ZlVGQyeG54M050Z20tazBvMDI2YlZvYkYxYUxYM0k1Uk5sa3gwZXB1MUNIaHlJeWJjS1NCR3RrbVh1ag) | 🔴MATERIAL
 **2026-08-05** — ประกาศการลงทุน 100 พันล้านดอลลาร์ในแอริโซนาเพื่อขยายการผลิตชิปขั้นสูง ลดความเสี่ยงจากข้อจำกัดส่งออกจากไต้หวันและเสริมความมั่นคงห่วงโซ่อุปทาน | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxNNTktS2NWcWo2c1FmYWI4Y0JnTDJWSm5sX01kbWliRENycU9hNXFBWlVYRzhqRGlPQVFYQWVKaEdTWWU4Nm0yU09HU2JHeklka0k4aVhkT1FnZFNnVFB4bGZVdjZIN1R1YzhxNkJwdHMyNlFNQmpNOVBXdENTaGU1aml6ckRrOGthMWU5ei1nVE80ODlTTWREYw?oc=5) | 🔴MATERIAL
 **2026-07-29** — ยืนยันความปลอดภัยของโรงงาน Kumamoto ในญี่ปุ่นหลังการเกิดแผ่นดินไหว โดยไม่มีผลกระทบต่อการผลิตชิป | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxQcHlrS214UjNmYUJlR2JhUkFLMlU5WGRGU1dFa0djVWdpZXQtOF90Y1JuZEFVdm9kZ2Rkc0YyUUdsdG10YlZUTVRSeFFZQndlZlBJOGVnTGJOTjg2NlU5d01qZEZQS09obmlidUtwSWROanI3WUlMRmdYY2RPTGQwcnhRZER5SXREY2hkel9ZaUlZUk1QUGtaSmNiRHZOSzEwcVBj) | 🟡MONITOR
 **2026-07-28** — ปรับลดมาร์จิ้นการผลิตจากเพิ่มขึ้นเสริมความจุสำหรับ AI; ความต้องการศูนย์ข้อมูลยังมีความแนบเนียน | [src](https://news.google.com/rss/articles/CBMivAFBVV95cUxQT0N0aEFDZjEzM2ptMjhwTTNXS3pPSXZQaG9peHdMdGlmQTFtQmlhdnpyRHkwaVgzYms5eFhOWWdHZl96dmN4NVh2NXZNQ3BJaHBDbS1kS1NoZjZUbkVGUzBZMXVUSlhfanN5UzlOUWNsV2h5c3pfYmttVzAzNUhVamlPMHBrQkIwYVNiWGlOSHpraFkwbHF6TFRocWdhWmFRbjBzcXd0RmlNVnRWNU11LW9DcGFDNjl2YW16MA) | 🔴MATERIAL
@@ -9383,8 +9422,6 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 **2026-07-14** — ประกาศนำเสนอผลลัพธ์ Q2 2026 ด้วยความมุ่งหมายการเติบโต Data Center | [src](https://news.google.com/rss/articles/CBMimgFBVV95cUxNVGtKZjEwTXBnYlY2SWpOQ29XQ3hxNWxfME1jX09waVh1YWVNWFVPdXpkYm1JblZDMWgyM2J5R3k0T3RaTmVrQXBzUFdsYWsySk9SQkNiOVNkM2F6RTZWcHFOUEdzT083M0MxZmZ6cDVPTXVzT0ZrWFhJTHA2dkM0VWpjb3pDeUgyLWdMWHVKNldtOExQMHBGS053?oc=5) | 🟡MONITOR
 **2026-07-13** — ประกาศรายงาน Q2 ในวันที่ 16 ก.ค. ท่ามกลางความเป็นห่วง AI Chip Demand; ประสิทธิภาพของเมโมรีและการประมวลผลเป็นกุญแจสำคัญ | [src](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc2JWaFFDLVFOemVkSXdVWUdFYldpYUNYb3A1eTBILV9pZUZzcmVFUU05NVdUUmtERFNUd3I5NUQxaXNYLTdZMzRrMDkwc3hPaGk4SDdRVF9sYXdoeFkwU1FHYTFJTnVZU2E5SjFOSzUzM3EyWHFHZ2NIUm5CZmNuaWpldTNKdFFmenUxZnM0dWMwZXA3eld0UWdVZHRSeHpTaXpkSXFvM2VOM2pzZG01TlJ3Q253dmticXctZzdMRHRMdzA) | 🔴MATERIAL
 **2026-07-07** — ไทหวั่น เซมิคอนดักเตอร์ ยืนยันแผนเพิ่มกำลังการผลิตชิป 3nm ทั่วไต้หวัน อริโซนา และญี่ปุ่น เพื่อตอบสนองความต้องการโลกจากการขยายตัวของตลาด AI | [src](https://news.google.com/rss/articles/CBMijwFBVV95cUxOcmk3TDBsekMwc1BzZEtRelQwYy1vVVVMbUVsRk83blMxUHJCejREQk5KcUdGT0tXVHhFdnFCTXZKNGxzYTdWWjFwc0p5RlFyRUd0OFpfeDVQdjNMcnFGT3BRRGcwN2FSZjFHM1Mxd25GeHFLS2ZDWGxiUTlhRXMzemFXVS1uRzFBbkRVVHRuVQ)
-**2026-07-06** — ขยายกำลังการผลิต 3 nanometer ทั่วไต้หวัน อริโซนา และญี่ปุ่น; ยืนยันว่าความต้องการชิป AI จะเกินอุปทานหลายปี | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxOMjl0WW9MT25EdHMyWjN5QkxoVzk2OVJkcEhUa3dQZFJIU3hsZDdrUjAwZ0E1MWtnNC1GWjJwUGd1NGthMnB5aGlScHVtdjdUV3k3TkY3QndzeExZbklMUnBQdUsyNmljSFFUUFZCUkNmSFlvN1NyWjBJM3N5X2ZDYXV4bUdhc2FHUTNNVnpKMFc2Zw?oc=5)
-**2026-06-25** — TSMC ขยาย CoWoS และพัฒนาทรานซิสเตอร์ 2 มิติสำหรับอนาคต AI; ตำแหน่งหลักในห่วงโซ่ HBM ถูกรักษาไว้ | [src](https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYllxczJaNDF4eWs4Q1NsNlZaRVRjM25pVWY2T0RZcW41VUN0VTVKbWRBSVo1RG41UldjTmFHOVJMTy0zQmZGQ0ZhcmpONmpnS0NSSjJYV3VrbEREMlNiaFJiLXl0OFhaRXppVE5zMlNrVmVUTXJxUjZtRGFCUllGbWh5RmMtNm5URmVia1QwWW4tQ3FvMWhhUDRUOVBzM0FuZTdsN01GUDBoYklvMDI2WWdYUHNmVWE5Qzd3ZWY0LVhkbjlRS3BCSmJUNFNSY2RGNFM0V0FlaTRNZ1J0TFJlN3p1N3JobEs2VF9rdtIB8gFBVV95cUxPRmtvLTN2dWNmQk02NmV6QS1nSzh6a3dhVjRYYTB0cEtNa2NDN0xYbVBxQXJaRWVuMnRlWTRFeGJ6ekVrRDh3LXl0MHlUaHo2aUMxSkNHRWhiakxhM09UUkFYRTVBLU1lVkNhSlBMaFhPUmFXUmtacVlNc1pnZzFkSi1WSm1xYmFlcml5WGNSZDJQODBQSEMzQ3lyUEFFTW90TC1hZVNORHdMYXVGSUxZNjZ0V2l6eDdFVGV0bHU3R3lGeUFkRjl5bnpFa0lMZlJjU2pEYk0zSE11clNQY1A/oc=5)
 
 ## Source Log
 | ไฟล์ | ประเภท | อ่านเมื่อ |
