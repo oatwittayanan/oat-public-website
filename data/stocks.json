@@ -156,7 +156,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "TSM": {
@@ -236,7 +236,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "AMZN": {
@@ -316,7 +316,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "META": {
@@ -396,7 +396,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "MSFT": {
@@ -476,7 +476,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "LITE": {
@@ -554,7 +554,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "ASML": {
@@ -634,7 +634,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "MU": {
@@ -706,7 +706,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "NFLX": {
@@ -786,7 +786,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "GOOGL": {
@@ -866,7 +866,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "SPCX": {
@@ -1026,7 +1026,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "AMD": {
@@ -1106,7 +1106,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "SKHY": {
@@ -1178,7 +1178,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-07-31"
+      "date": "2026-08-08"
     }
   },
   "AAPL": {
@@ -1258,7 +1258,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "COHR": {
@@ -1338,7 +1338,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "ARM": {
@@ -1418,7 +1418,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   },
   "TSLA": {
@@ -1498,7 +1498,7 @@
       "risks": [],
       "yf_price": null,
       "warren_fv": null,
-      "date": "2026-08-07"
+      "date": "2026-08-08"
     }
   }
 }
