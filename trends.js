@@ -79,14 +79,14 @@ AI Infrastructure คือ secular trend ที่แข็งแกร่ง�
     title: "วงจร Memory ที่เปลี่ยนไปตลอดกาล",
     subtitle: "จากสินค้าโภคภัณฑ์ที่ขึ้นๆ ลงๆ สู่ส่วนประกอบที่ขาดไม่ได้ของ AI",
     conviction: "HIGH",
-    last_updated: "2026-07-26",
+    last_updated: "2026-08-11",
     summary: "มีคำถามที่นักลงทุนถามมานานหลายทศวรรษว่า \"หุ้น memory ควรซื้อตอนไหน?\" คำตอบดั้งเดิมคือ \"ซื้อตอน down cycle ขายตอน up cycle\" เพราะ memory คือสินค้าโภคภัณฑ์ที่ราคาวนเวียนขึ้นลงตามกำลังการผลิตและ demand ของ consumer electronics",
     tickers: ["NVDA", "AMD", "MU", "SKHY"],
     content: `# วงจร Memory ที่เปลี่ยนไปตลอดกาล
 *จากสินค้าโภคภัณฑ์ที่ขึ้นๆ ลงๆ สู่ส่วนประกอบที่ขาดไม่ได้ของ AI*
 
 **Warren's Conviction:** HIGH
-**Last Updated:** 2026-07-26
+**Last Updated:** 2026-08-11
 
 ---
 
@@ -109,6 +109,12 @@ HBM (High Bandwidth Memory) คือหน่วยความจำรุ่�
 นอกจาก HBM ยังมี NAND ที่กำลังกลายเป็น demand vector ใหม่ที่ไม่มีใครคาดคิด ในระบบ agentic AI ที่ AI ต้องจำบทสนทนายาวหลายร้อย turns AI ต้องการที่เก็บ KV cache ขนาดใหญ่ LLM model ขนาด 70B parameter ที่ทำงานด้วย context 128K token ต้องการ KV cache มากถึง 150GB+ ซึ่งมากกว่า VRAM ของ H100 ที่มีเพียง 80GB ทางออกคือ spill cache ลงไปใน SSD (NAND) DeepSeek พิสูจน์แล้วว่าทำได้ด้วย cache hit rate 95%+ ซึ่งแปลว่า NAND SSD กำลังกลายเป็น tier ใหม่ของ memory ใน AI stack — โมเดลจีนอีกตัว (Kimi K3, ก.ค. 2026) ก็ยืนยันแนวโน้มเดียวกัน: แม้บีบอัด KV cache ได้ถึง 75% แต่ความต้องการ NAND/DRAM ในระดับ cluster กลับเพิ่มขึ้นสุทธิ เพราะการบีบอัดทำให้ระบบรองรับ concurrency และเก็บ session ได้นานขึ้น (Jevons Paradox)
 
 Demand ของ memory ก็กว้างขึ้นเรื่อยๆ เกินกว่าแค่ HBM — agentic AI ต้องการ CPU มาช่วย orchestrate งานมากขึ้น สัดส่วน GPU ต่อ CPU กำลังลดจาก 5.4:1 (2023) เหลือ 2.4:1 (คาดการณ์ปี 2028) ตาม estimate ของ JPMorgan ซึ่งหมายความว่าทุก CPU ที่เพิ่มเข้ามาต้องการ DRAM มาตรฐานเพิ่มด้วย — เป็น demand leg ใหม่ที่ไม่ได้อยู่ใน thesis เดิมที่โฟกัสแค่ HBM
+
+หลักฐานใหม่จากฤดูงบไตรมาส 2 ปี 2026 น่าสนใจตรงที่มันไม่ได้มาจากผู้ผลิต memory เอง แต่มาจาก**ผู้ซื้อ** ราคา memory ที่แพงขึ้นไปโผล่ในงบของบริษัทสามกลุ่มที่ไม่เกี่ยวข้องกันเลย — (1) Amazon ปรับงบลงทุนปี 2026 ขึ้นจาก $200B เป็น $220B โดยระบุเหตุผลว่าเป็นต้นทุน memory ที่สูงขึ้น (ปรับขึ้นเป็นครั้งที่สอง) ส่วน Microsoft ก็รวมงบราว $25B ไว้สำหรับส่วนต่างราคา memory โดยเฉพาะ (2) Apple มี gross margin ฝั่งสินค้าลดลง 1.4 จุดในไตรมาสเดียวจากต้นทุน memory และ UBS คาดว่า margin ไตรมาสธันวาคมจะลงไปถึง 45.9% เพราะราคา DRAM/NAND น่าจะขึ้นอีก **30% ในไตรมาสเดียว** (3) ผู้บริโภคเริ่มจ่ายจริง — Apple ขึ้นราคา iPad/Mac และเตรียมขึ้นราคา iPhone พร้อมเปิดบริการผ่อนกับ Klarna เพื่อลดแรงกระแทก โดย Tim Cook เรียกสถานการณ์ราคา memory ว่าเป็น "น้ำท่วมรอบร้อยปี"
+
+เมื่อผู้ซื้อรายใหญ่ที่สุดสามกลุ่มยอมเพิ่มงบ ยอมให้ margin ลดลง และขึ้นราคาสินค้าปลายทางพร้อมกัน แปลว่าอำนาจต่อรองอยู่ฝั่งผู้ผลิต memory จริง ไม่ใช่แค่ราคาตลาดจรที่ผันผวนชั่วคราว UBS มองว่าภาวะ undersupply จะยาวไปถึงปี 2028 เพราะกำลังการผลิต DRAM ส่วนที่เพิ่มเกือบทั้งหมดถูกดูดไปทำ HBM ขณะที่ NAND แทบไม่มีการเพิ่มกำลังการผลิตใหม่นอกประเทศจีนเลย
+
+อย่างไรก็ตามมีปัจจัยถ่วงที่ต้องบันทึกไว้ด้วย UBS ประเมินว่า Samsung อาจนำกำลังการผลิต 60-70% ไปผูกกับสัญญาระยะยาว (LTA) ภายในสิ้นปีนี้ ซึ่งจะทำให้ราคาขาขึ้นแบนลง — สัญญาระยะยาวคือการแลกกำไรส่วนเพิ่มจากราคาตลาดจร กับความแน่นอนของปริมาณ นั่นเป็นเหตุผลเชิงโครงสร้าง (ไม่ใช่แค่ความระมัดระวัง) ที่การประเมินมูลค่าหุ้น memory ควรใช้ราคาขายเฉลี่ยระดับกลางวัฏจักร ไม่ใช่ราคาที่จุดสูงสุด
 
 ## หุ้นที่ได้ประโยชน์
 
@@ -230,6 +236,10 @@ Broadcom Tomahawk 5 CPO อยู่ใน volume production แล้ว NVIDIA
 
 AWS AI revenue run-rate เกิน $15B ใน Q1 2026 และยังอยู่ในสถานะ "capacity-constrained" หมายความว่ายังมี demand ที่รอ supply อยู่อีก AWS Bedrock ที่ให้บริการ AI model สำเร็จรูปมีรายได้เพิ่ม +170% QoQ โดย 80% ของ Fortune 100 ใช้งาน Bedrock แล้ว
 
+ผลประกอบการไตรมาส 2 ปี 2026 (รายงาน 30 ก.ค.) ปิดภาพนี้ให้ครบ AWS โต **+37% YoY** เร็วที่สุดใน 18 ไตรมาส และเป็นการเร่งตัวติดต่อกันเป็นไตรมาสที่ 5 backlog กระโดดจาก $364B เป็น **$496B** ในไตรมาสเดียว ส่วนรายได้ AI ของ AWS เพิ่มจาก run-rate $10B เป็น **$25B** หรือมากกว่าเท่าตัวใน 3 เดือน ที่สำคัญกว่าตัวเลขการเติบโตคือ **margin ของธุรกิจ cloud ขยายขึ้นพร้อมกันทั้งกลุ่ม** — AWS 39.4% (+1.7 จุดจากไตรมาสก่อน), Google Cloud 35.6% (+2.7 จุด), Azure 40.6% (+0.9 จุด) ซึ่งหักล้างข้อกังวลที่ว่างาน AI ที่ใช้ทุนสูงจะกินกำไรของธุรกิจ cloud
+
+เมื่อรวมทั้ง 5 ยักษ์ใหญ่ (Microsoft, Google, Amazon, Meta, Oracle) งบลงทุนไตรมาส 2 อยู่ที่ $186.7B เพิ่มขึ้น 79% จากปีก่อน และ backlog รวมกันแตะ **$2.43 ล้านล้านดอลลาร์** เพิ่มขึ้น 175% จากปีก่อน
+
 AWS Trainium ซึ่งเป็น custom chip ที่ Amazon ออกแบบเองสำหรับ AI มี committed revenue $225B+ ถ้าคำนวณเป็น standalone บริษัท มันจะเป็น top-3 datacenter chip franchise ของโลก ตัวเลขนี้ถูก underpriced อย่างมากใน valuation ของ Amazon ในปัจจุบัน
 
 META และ Amazon ซึ่งครั้งหนึ่งถูกมองว่าเป็น "AI laggard" ตอนนี้กลายมาเป็นสองบริษัทที่ leverage สูงที่สุดสำหรับ phase ถัดไปของ agentic AI
@@ -240,7 +250,7 @@ META และ Amazon ซึ่งครั้งหนึ่งถูกมอ�
 
 **[[MSFT]]** ได้ประโยชน์จาก Azure ที่เร่งตัวต่อเนื่อง (+43% YoY ไตรมาสล่าสุด, guided +45% ไตรมาสหน้า) และ Copilot enterprise monetization ที่ ramp ชัดเจน (30M+ paid seats) การเป็น exclusive partner ของ OpenAI ทำให้ทุก AI wave ใหม่ที่ OpenAI ออกมาแปลงเป็น Azure revenue โดยตรง (OpenAI สร้างรายได้ให้ MSFT $24B ใน FY2026 หรือ 7% ของรายได้รวม) ที่น่าสนใจคือ MSFT เป็น hyperscaler รายเดียวที่ยืนยันงบลงทุนเดิม ($190B CY2026) โดยไม่ปรับขึ้น ขณะที่ AWS และ META ต่างปรับงบลงทุนขึ้นในไตรมาสเดียวกัน — ตลาดตอบรับเชิงบวกเพราะ MSFT ให้ตัวเลข ROI ที่จับต้องได้ชัดเจนกว่า
 
-**[[AMZN]]** มี asymmetric upside ที่ดีที่สุดใน hyperscalers ทั้งสาม AWS custom silicon (Trainium) ที่ annualized >$20B โตด้วย triple-digit YoY rates ยังไม่ถูก price in อย่างเต็มที่ใน valuation ปัจจุบัน นอกจากนี้ AWS architecture ที่รวม CPU+storage+networking เป็นโครงสร้างที่เหมาะสมที่สุดสำหรับ agentic workloads
+**[[AMZN]]** มี asymmetric upside ที่ดีที่สุดใน hyperscalers ทั้งสาม AWS custom silicon (Trainium) ที่ annualized >$20B โตด้วย triple-digit YoY rates ยังไม่ถูก price in อย่างเต็มที่ใน valuation ปัจจุบัน นอกจากนี้ AWS architecture ที่รวม CPU+storage+networking เป็นโครงสร้างที่เหมาะสมที่สุดสำหรับ agentic workloads ชิป Trainium รุ่นที่ 3 เริ่มผลิตจริงตั้งแต่เดือนมิถุนายน 2026 และจะทยอยเพิ่มกำลังผลิตต่อเนื่องอีกราว 6 ไตรมาส โดยมีสัญญาระดับหลาย gigawatt จาก OpenAI และ Anthropic รองรับอยู่แล้ว ส่วนชิป CPU Graviton ปัจจุบันมีลูกค้ารายใหญ่ 1,000 อันดับแรกของ AWS ใช้งานถึง 98%
 
 **[[META]]** ได้ประโยชน์จาก AI-enhanced ad monetization และการสร้าง Llama open-source ecosystem ที่ทำให้นักพัฒนาทั่วโลก build บน Meta infrastructure รายได้โฆษณาที่ดีขึ้นจาก AI targeting ทำให้ ROI สำหรับผู้โฆษณาดีขึ้น ซึ่ง reinforce ให้พวกเขาใช้จ่ายมากขึ้น
 
@@ -254,6 +264,8 @@ META และ Amazon ซึ่งครั้งหนึ่งถูกมอ�
 
 Cloud acceleration ไม่ใช่ one-year event แต่เป็น multi-year structural shift ที่ driven โดย agentic AI backlog ที่เซ็นสัญญาแล้วนั้น extend ไปถึง 2027-2028 ซึ่งแปลว่า revenue visibility ของ hyperscalers ดีกว่าบริษัทอื่นๆ ส่วนใหญ่ในตลาด
 
+สิ่งที่เปลี่ยนไปในไตรมาสล่าสุดคือ **ลักษณะของความเสี่ยง** คำถามเดิมคือ "จะมี demand จริงไหม" ซึ่งตอบไปแล้วว่ามี แต่คำถามใหม่คือ "เงินจะมาจากไหน" เพราะกระแสเงินสดอิสระ (free cash flow) รวมของ 5 ยักษ์ใหญ่เหลือเพียงประมาณ $2.1B ในไตรมาสเดียว ทั้งที่กระแสเงินสดจากการดำเนินงานยังโต 46% — แปลว่างบลงทุนส่วนที่เพิ่มขึ้นจากนี้ต้องอาศัยการกู้หรือออกหุ้นเป็นหลัก ถ้าตลาดตราสารหนี้ตึงตัวขึ้น วงจรการลงทุนอาจสะดุดได้แม้ demand ยังแข็งแรง สิ่งที่ควรจับตาคือการออกหุ้นกู้ของกลุ่มนี้ และสัญญาณแรกที่ยักษ์ใหญ่รายใดรายหนึ่งเริ่ม *ลด* งบลงทุน
+
 สิ่งที่จะทำให้ thesis นี้ช้าลงมากที่สุดคือ enterprise adoption ของ AI ที่ช้ากว่าที่คาด ในขณะที่ consumer AI adoption เร็วมาก enterprise มักมีอุปสรรคด้าน compliance และ security ที่ทำให้ deployment ช้ากว่า 1-2 ไตรมาส แต่ direction ยังชัดเจน hyperscalers จะเป็นผู้ชนะที่ใหญ่ที่สุดจาก AI transition ไม่ว่าจะเกิดขึ้นเร็วหรือช้าแค่ไหน
 `
   },
@@ -262,14 +274,14 @@ Cloud acceleration ไม่ใช่ one-year event แต่เป็น multi
     title: "Custom Silicon: เมื่อยักษ์ใหญ่ออกแบบชิปเอง",
     subtitle: "NVIDIA ไม่ได้จะหายไป แต่ตลาดชิป AI กำลังใหญ่พอที่จะมีผู้ชนะหลายคน",
     conviction: "HIGH",
-    last_updated: "2026-05-16",
+    last_updated: "2026-08-11",
     summary: "ในโลกของ semiconductor มีกฎที่คนทั่วไปมักเข้าใจผิดว่า \"ถ้า Google หรือ Amazon ออกแบบชิปเอง นั่นหมายความว่า NVIDIA แพ้\" ความเข้าใจนี้ไม่ถูก และการเข้าใจว่าทำไมจึงไม่ถูกคือกุญแจสู่การเข้าใจ custom silicon trend นี้",
     tickers: ["AVGO", "GOOGL", "AMZN", "AMD", "ARM"],
     content: `# Custom Silicon: เมื่อยักษ์ใหญ่ออกแบบชิปเอง
 *NVIDIA ไม่ได้จะหายไป แต่ตลาดชิป AI กำลังใหญ่พอที่จะมีผู้ชนะหลายคน*
 
 **Warren's Conviction:** HIGH
-**Last Updated:** 2026-05-16
+**Last Updated:** 2026-08-11
 
 ---
 
@@ -299,7 +311,9 @@ NVIDIA เองประกาศ NVLink Fusion platform ที่ GTC 2026 ซ
 
 **[[GOOGL]]** TPU 8th generation เริ่มขาย externally ให้ลูกค้า GCP แล้ว ซึ่ง validate ว่า custom silicon ของ Google ดีพอที่จะ compete กับ NVIDIA ในหลาย workload Axion CPU ประกอบกับ TPU ทำให้ cost per AI workload ดีกว่า NVIDIA 2x+
 
-**[[AMZN]]** Graviton CPU ที่ ARM-based ได้รับความไว้วางใจจาก 98% ของ top 1,000 EC2 customers แม้แต่ Meta ก็ commit tens of millions ของ Graviton cores นี่คือ market validation ที่ทรงพลัง
+**[[AMZN]]** Graviton CPU ที่ ARM-based ได้รับความไว้วางใจจาก 98% ของ top 1,000 EC2 customers แม้แต่ Meta ก็ commit tens of millions ของ Graviton cores นี่คือ market validation ที่ทรงพลัง รุ่นล่าสุด Graviton 5 อ้างประสิทธิภาพเหนือคู่แข่ง 30-40% และเหนือรุ่นก่อนหน้า 25% ส่วนฝั่งชิป AI ชิป Trainium รุ่นที่ 3 เริ่มผลิตจริงตั้งแต่มิถุนายน 2026 และจะทยอยเพิ่มกำลังผลิตต่ออีกราว 6 ไตรมาสจนถึงรุ่นที่ 4 โดยมีสัญญาระดับหลาย gigawatt จาก OpenAI และ Anthropic รองรับ บวกกับลูกค้า AI รุ่นใหม่อย่าง Uber และ Pinterest — UBS ถึงกับใช้สมมติฐานว่า OpenAI จะเริ่มใช้ Trainium ต้นปี 2027 เป็นเหตุผลหลักที่คาดว่า AWS จะโตเกิน 40% ในปีนั้น
+
+สิ่งที่ต้องจับตาเป็นพิเศษคือ Amazon ยังคงเจรจาเรื่อง**ขายตู้ Trainium ให้ลูกค้าภายนอก** ถ้าเกิดขึ้นจริง Amazon จะเปลี่ยนสถานะจากผู้ออกแบบชิปใช้เอง มาเป็นผู้ขายชิปที่แข่งขันโดยตรงกับ NVIDIA และ Broadcom ซึ่งจะเป็นการเปลี่ยนโครงสร้างตลาด ไม่ใช่แค่การแย่งส่วนแบ่ง — แต่ตอนนี้ยังอยู่แค่ขั้น "กำลังคุย" เท่านั้น ที่น่าสนใจอีกอย่างคือ Trainium 3 ยังต้องพึ่งพาพันธมิตรภายนอกในการออกแบบและผลิต (Alchip เป็นคู่หลัก Marvell ยังร่วมด้วย และ TSMC เป็นผู้ผลิต) ซึ่งยืนยันว่า hyperscaler ที่ออกแบบชิปเองไม่ได้แปลว่าบริษัทออกแบบชิปภายนอกจะแพ้
 
 **[[AMD]]** มี EPYC server CPU ที่กำลังได้ market share และ MI300X ที่เป็น competitive option สำหรับ AI inference แต่ AMD ใช้ Broadcom/Marvell custom silicon platforms ไม่ใช่สร้างเองทั้งหมด ดังนั้น AMD ได้ประโยชน์บางส่วนจาก trend นี้ แต่ไม่เต็มเม็ดเต็มหน่วย
 
@@ -388,14 +402,14 @@ Timeline ที่ควรติดตาม: enterprise agentic deployment ก
     title: "Advanced Packaging: ศิลปะแห่งการประกอบชิปในยุค AI",
     subtitle: "เมื่อ Moore's Law ชะลอตัว วิธีที่ชิปถูก \"แพ็ค\" เข้าด้วยกันกลายเป็น competitive advantage ใหม่",
     conviction: "HIGH",
-    last_updated: "2026-07-26",
+    last_updated: "2026-08-11",
     summary: "หลายทศวรรษที่ผ่านมา อุตสาหกรรม semiconductor พัฒนาด้วยการทำ transistor ให้เล็กลงทุกสองปีตาม Moore's Law แต่ขณะนี้การทำ transistor ให้เล็กกว่า 2nm กำลังเข้าสู่ข้อจำกัดทางฟิสิกส์ที่แก้ยากมากขึ้นเรื่อยๆ",
     tickers: ["NVDA", "AVGO", "ASML", "TSM", "LITE"],
     content: `# Advanced Packaging: ศิลปะแห่งการประกอบชิปในยุค AI
 *เมื่อ Moore's Law ชะลอตัว วิธีที่ชิปถูก "แพ็ค" เข้าด้วยกันกลายเป็น competitive advantage ใหม่*
 
 **Warren's Conviction:** HIGH
-**Last Updated:** 2026-07-26
+**Last Updated:** 2026-08-11
 
 ---
 
@@ -424,6 +438,8 @@ OSAT (Outsourced Semiconductor Assembly and Test) ซึ่งคือบริ
 **[[AVGO]]** (Broadcom) custom ASICs ทั้งหมดใช้ CoWoS และ Tomahawk 5 CPO ต้องใช้ advanced co-packaging ในการรวม optics กับ chip ในแพ็คเกจเดียว การขยาย packaging capacity โดยรวมจึงเป็นประโยชน์โดยตรง
 
 **[[ASML]]** EUV lithography ที่ ASML ผลิตเป็นพื้นฐานของ leading-edge node ที่ advanced packaging นำมาเชื่อมต่อ การขยาย N2/A14 ของ TSMC ที่ขับเคลื่อนโดย packaging demand ต้องใช้ EUV tools เพิ่มขึ้น
+
+ในไตรมาสล่าสุดมีหลักฐานยืนยันความตึงตัวนี้จากฝั่ง "ผู้ซื้อ" ซึ่งมีน้ำหนักกว่าคำพูดของผู้ขาย — Apple บอกนักลงทุนตรงๆ ว่าข้อจำกัดกำลังการผลิตชิประดับ advanced node ทำให้ส่งสินค้าได้ไม่พอในไตรมาสมิถุนายน (กระทบ Mac เป็นหลัก) และจะรุนแรงขึ้นมากในไตรมาสกันยายนจนกระทบทั้ง iPhone, Mac และ iPad เมื่อลูกค้ารายใหญ่ที่สุดและมีลำดับความสำคัญสูงสุดของ TSMC ยังบอกว่าหาของไม่พอ นั่นคือการยืนยันว่าคอขวดนี้เป็นของจริง นอกจากนี้ Apple ยังย้ายสินค้าระดับพรีเมียมไปใช้เทคโนโลยี 2nm ในปีนี้ พร้อมขยายแพ็กเกจ InFO ให้เป็นโมดูลหลายชิปที่วางหน่วยความจำไว้ข้างๆ ตัว SoC ตั้งแต่ปี 2026 ซึ่งแปลว่ามูลค่างานแพ็กเกจต่อเครื่องเพิ่มขึ้น และทำให้สินค้าระดับผู้บริโภคจำนวนมหาศาลเข้ามาแย่งกำลังการผลิต advanced packaging ที่เดิมเป็นเรื่องของชิป AI เป็นหลัก
 
 **[[TSM]]** (TSMC) คือเจ้าของเทคโนโลยี CoWoS (Chip-on-Wafer-on-Substrate) ซึ่งเป็นคอขวดหลักของ AI GPU assembly ในปัจจุบัน — GPU ทุกตัวของ NVIDIA, accelerator ของ AMD, และ ASIC ของ Broadcom ล้วนต้องพึ่ง CoWoS ของ TSMC รายได้ advanced packaging เพิ่มจาก ~8% ของรายได้รวม FY2024 เป็น low-teens% ที่ guide ไว้สำหรับ FY2026 และ TSMC กำลังลงทุนสร้างโรงงาน advanced packaging เพิ่มอีก 13 แห่งในไต้หวันรวมถึงที่ Arizona เพื่อขยาย capacity ที่ยัง "ตึงมาก" ถึงปี 2027
 
