@@ -205,14 +205,14 @@ Broadcom Tomahawk 5 CPO อยู่ใน volume production แล้ว NVIDIA
     title: "Cloud CapEx Acceleration: เมื่อยักษ์ใหญ่ทุ่มพร้อมกัน",
     subtitle: "สามยักษ์ Cloud เพิ่มงบลงทุนพร้อมกันในขณะที่รายได้เร่งตัวขึ้น — นี่คือสัญญาณที่ดีที่สุดที่จะเห็นได้",
     conviction: "HIGH",
-    last_updated: "2026-05-16",
+    last_updated: "2026-08-11",
     summary: "มีความเข้าใจผิดที่พบบ่อยในการวิเคราะห์หุ้นเทคโนโลยีว่า \"ถ้าบริษัทเพิ่มงบ CapEx มาก หมายความว่ากำไรจะลดลง\" ความเข้าใจนี้อาจถูกสำหรับบริษัททั่วไป แต่ผิดอย่างมีนัยสำคัญสำหรับ hyperscalers ในปี 2026",
     tickers: ["GOOGL", "MSFT", "AMZN", "META", "LITE"],
     content: `# Cloud CapEx Acceleration: เมื่อยักษ์ใหญ่ทุ่มพร้อมกัน
 *สามยักษ์ Cloud เพิ่มงบลงทุนพร้อมกันในขณะที่รายได้เร่งตัวขึ้น — นี่คือสัญญาณที่ดีที่สุดที่จะเห็นได้*
 
 **Warren's Conviction:** HIGH
-**Last Updated:** 2026-05-16
+**Last Updated:** 2026-08-11
 
 ---
 
@@ -238,7 +238,7 @@ META และ Amazon ซึ่งครั้งหนึ่งถูกมอ�
 
 **[[GOOGL]]** คือบริษัทที่มี AI monetization story ที่ครบเครื่องที่สุด ทั้ง GCP ที่โต +63%, backlog $460B, TPU 8th gen ที่เริ่มขาย externally, Gemini Enterprise ที่มี MAU เพิ่ม +40% QoQ และ compute-constrained ซึ่งหมายถึง demand มีมากกว่า capacity ที่มี
 
-**[[MSFT]]** ได้ประโยชน์จาก Azure +39% YoY และ Copilot enterprise monetization ที่กำลัง ramp ขึ้น การเป็น exclusive partner ของ OpenAI ทำให้ทุก AI wave ใหม่ที่ OpenAI ออกมาแปลงเป็น Azure revenue โดยตรง
+**[[MSFT]]** ได้ประโยชน์จาก Azure ที่เร่งตัวต่อเนื่อง (+43% YoY ไตรมาสล่าสุด, guided +45% ไตรมาสหน้า) และ Copilot enterprise monetization ที่ ramp ชัดเจน (30M+ paid seats) การเป็น exclusive partner ของ OpenAI ทำให้ทุก AI wave ใหม่ที่ OpenAI ออกมาแปลงเป็น Azure revenue โดยตรง (OpenAI สร้างรายได้ให้ MSFT $24B ใน FY2026 หรือ 7% ของรายได้รวม) ที่น่าสนใจคือ MSFT เป็น hyperscaler รายเดียวที่ยืนยันงบลงทุนเดิม ($190B CY2026) โดยไม่ปรับขึ้น ขณะที่ AWS และ META ต่างปรับงบลงทุนขึ้นในไตรมาสเดียวกัน — ตลาดตอบรับเชิงบวกเพราะ MSFT ให้ตัวเลข ROI ที่จับต้องได้ชัดเจนกว่า
 
 **[[AMZN]]** มี asymmetric upside ที่ดีที่สุดใน hyperscalers ทั้งสาม AWS custom silicon (Trainium) ที่ annualized >$20B โตด้วย triple-digit YoY rates ยังไม่ถูก price in อย่างเต็มที่ใน valuation ปัจจุบัน นอกจากนี้ AWS architecture ที่รวม CPU+storage+networking เป็นโครงสร้างที่เหมาะสมที่สุดสำหรับ agentic workloads
 
