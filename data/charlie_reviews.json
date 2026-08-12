@@ -1630,5 +1630,390 @@
       "FTC.gov: \"FTC Appeals Ruling in Meta Monopolization Case\" 2026-01",
       "WebSearch — NVDA China export control status (no new material change), 2026-07-27"
     ]
+  },
+  {
+    "id": "review-2026-08-08",
+    "date": "2026-08-08",
+    "paper_id": "2026-08-08",
+    "paper_date": "2026-08-08",
+    "title": "Charlie Review — Paper #3.4 (No-Deposit Review: Broad Price Rally Compresses MoS)",
+    "overall_verdict": "CAUTION",
+    "overall_summary": "No BUY/ADD this round (no-deposit mode, ทุกตัว HOLD $0) — ไม่มีอะไรต้อง freeze จริง แต่ independent FV rebuild (near/far-year rolled-forward method, price cross-checked 0% diff ผ่าน Nasdaq) พบ 2 ประเด็นสำคัญ: (1) MSFT ใช้ EPS basis year 'ใกล้' (FY27 in-progress) ต่างจากอีก 4 ตัว (NVDA/AMZN/NFLX/TSM) ที่ใช้ปี 'ไกล' (ปีถัดไปที่ยังไม่เริ่ม) — ถ้าใช้ปีไกลแบบเดียวกัน (FY28) Charlie FV ได้ $593 ไม่ใช่ $459 ทำให้ MoS พลิกจาก -8.93% เป็น +15.7% — แปลว่า 'MoS ติดลบ' ส่วนหนึ่งเป็น artifact ของการเลือกปีฐาน ไม่ใช่หลักฐานว่าแพงเทียบ historical multiple ของตัวเอง (forward PE 25.55x ยังต่ำกว่า median 32.18x) แต่ momentum-risk จากราคาที่วิ่ง +31% ใน 12 วันยังจริงและน่ากังวลอยู่ (2) META EPS label ผิดปีซ้ำเป็นรอบที่ 2+ ($31.94 ไม่ตรง Dec2026 consensus สด $28.84 แต่ใกล้ Dec2027 $34.54 มากกว่า) — FV จริงยังใกล้เคียง Warren ($709 vs $722, gap 1.8%) ไม่ได้เฟ้อ แต่ระบบ labeling ต้องแก้ก่อนจะกลายเป็นความเสี่ยงจริงตอน BUY. AMZN ใช้ consensus เก่ากว่าตลาดจริง (FV conservative $360 vs Warren $287, gap 25%) → อาจพลาด ADD-band โดยไม่จำเป็น + TTM EPS ($12.44) เฟ้อจาก one-off Anthropic mark-to-market gain $53.4B (ต้อง normalize เป็น ~$7.54 ก่อนใช้เป็น floor). NVDA/TSM ผ่านสบาย ธุรกิจยืนยันจริงทุกข่าว (SpaceX exclusivity, TSM re-syndication ไม่มีข่าวใหม่จริง).",
+    "frozen_tickers": [],
+    "ticker_reviews": [
+      {
+        "ticker": "NVDA",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "warren_fv": 292,
+        "charlie_fv": 309,
+        "charlie_fv_floor": 340,
+        "charlie_fv_method": "pe_multiple_rolled_forward",
+        "price_used": 223.96,
+        "price_cross_check": {
+          "nasdaq_api": 223.96,
+          "cnbc_api": null,
+          "diff_pct": 0.0,
+          "chosen": 223.96,
+          "chosen_why": "Nasdaq quote API ตรงกับ cache เป๊ะ (0.0% diff) — ไม่มี staleness"
+        },
+        "warren_fv_gap_pct": 5.8,
+        "charlie_verdict": "AGREE",
+        "disagree_type": null,
+        "charlie_fv_work": {
+          "eps_used": 12.13,
+          "eps_fiscal_year": "FY2028 (FYE Jan 2028)",
+          "eps_tier": 3,
+          "eps_source": "Nasdaq earnings-forecast API FY28 consensus 12.13 (13 est, 3 up/0 down) ดึงสด 2026-08-08 — Warren 12.15 ตรงเกือบเป๊ะ (Δ0.16%)",
+          "eps_basis": "non-GAAP diluted",
+          "ttm_actual_eps": 6.53,
+          "ttm_actual_source": "stockanalysis.com (cross-check ตรงกับ 07-27 batch เป๊ะ — ยังไม่มี earnings ใหม่, รายงานถัดไป 26 ส.ค.)",
+          "multiple_used": 25.48,
+          "multiple_options": {
+            "5yr_median_pe": 52.08,
+            "current_forward_pe": 25.48
+          },
+          "multiple_chosen_why": "Rolled-forward method: near-year FY27 consensus EPS $8.79 (unchanged จาก 07-27) ใช้คำนวณ current forward PE = 223.96/8.79 = 25.48; min(52.08, 25.48) = 25.48 แล้วคูณ far-year FY28 EPS ($12.13) — วิธีเดียวกับที่ระบบใช้ตลอดมา",
+          "calculation": "12.13 × 25.48 = 309.1 → 309",
+          "floor_calculation": "6.53 × 52.08 = 340.1 → 340",
+          "mos_at_charlie_fv": "(309 − 223.96) ÷ 309 = +27.5%",
+          "implied_growth_pct": -4.1,
+          "implied_growth_assessment": "ใช้สูตร (price÷(TTM×median))^(1/10)-1 = -4.1%/ปี ก็ถูกอยู่แล้วเทียบ historical multiple ของตัวเอง (เทรดต่ำกว่า median 52x มาก ที่ 25.5x) — consensus growth จริง (~27%/ปี implied จาก FY27→FY28) ให้ cushion มหาศาลเกินความจำเป็นเชิงโครงสร้าง",
+          "known_weakness": "FY28 consensus ช่วงกว้าง $9.27-14.23 (13 est); China AI-chip share หลุดโครงสร้าง — WebSearch อิสระพบตัวเลขคนละกรอบกับ Warren (แหล่งข้าง Charlie ว่า ~95%→~0% บน H200 shipments กลาง 2026 ไม่ใช่ 66%→8% ตามที่ Warren อ้าง — อาจวัดคนละ metric ต้องขอ source ของ Warren)"
+        },
+        "verified_claims": [
+          "ราคา $223.96 ตรงกับ Nasdaq live quote เป๊ะ (0% diff)",
+          "SpaceX Q2 2026 earnings call (รายงาน 3-4 ส.ค.) ยืนยันจริงผ่าน Forbes/InsiderFinance/TheValueist — SpaceX ประกาศ exclusive บน Nvidia Vera Rubin architecture, AI capex $15.83B ใน Q2 (2x จาก Q1), เป็น reinforcing demand signal จริงตามที่ Warren อ้าง ไม่ใช่ bet ใหม่",
+          "EPS FY28 consensus สด $12.13 ตรงกับ Warren $12.15 (Δ0.16%) — ไม่เฟ้อ"
+        ],
+        "concerns": [
+          "China AI-chip share loss ตัวเลขที่ Warren อ้าง (66%→8%) ต่างจากกรอบที่ Charlie เจอระหว่าง search (~95%→~0% เฉพาะ H200 shipments) — ไม่ขัดแย้งเชิงทิศทาง (structural loss จริงทั้งคู่) แต่ตัวเลขต่างกันมาก ควรระบุ source/metric ให้ชัดเจนกว่านี้",
+          "ราคาห่างจาก 52W High เพียง 5.3% ($236.54) — upside ระยะสั้นจำกัดกว่าที่ MoS 23.3-27.5% บ่งบอก แม้ยังผ่าน gate สบาย"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "ขอ source ตัวเลข China AI-chip share (66%→8%) จาก Warren ให้ตรงกับที่ใช้ในการ์ด",
+          "FY28 consensus ช่วงกว้าง — รอ earnings 26 ส.ค. ให้แคบลง"
+        ],
+        "tier_verdict": "AGREE",
+        "variant_view_verdict": "NO_VARIANT",
+        "tqr_verdict": "CLEAN"
+      },
+      {
+        "ticker": "MSFT",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "warren_fv": 459,
+        "charlie_fv": 593,
+        "charlie_fv_floor": 578,
+        "charlie_fv_method": "pe_multiple_rolled_forward",
+        "price_used": 499.99,
+        "price_cross_check": {
+          "nasdaq_api": 499.99,
+          "cnbc_api": null,
+          "diff_pct": 0.0,
+          "chosen": 499.99,
+          "chosen_why": "Nasdaq quote API ตรงกับ cache เป๊ะ (0.0% diff)"
+        },
+        "warren_fv_gap_pct": 29.2,
+        "charlie_verdict": "CAUTION",
+        "disagree_type": "numeric",
+        "charlie_fv_work": {
+          "eps_used": 23.21,
+          "eps_fiscal_year": "FY2028 (FYE Jun 2028) — far-year, roll-forward จาก near-year FY27",
+          "eps_tier": 3,
+          "eps_source": "Nasdaq earnings-forecast API FY28 consensus 23.21 (14 est, 7 up/1 down) ดึงสด 2026-08-08; near-year FY27 consensus 19.57 (21 est, 12 up/5 down) — ขึ้นจาก 19.28 เมื่อ 07-27 (+1.5%, revision ขึ้นจริงหลังงบ 07-30 แต่ยังตามราคาไม่ทัน)",
+          "eps_basis": "GAAP diluted",
+          "ttm_actual_eps": 17.95,
+          "ttm_actual_source": "stockanalysis.com, สะท้อน Q4 FY26 actual แล้ว (EPS $4.81 GAAP, +32% YoY — ยืนยันผ่าน CNBC/Microsoft IR)",
+          "multiple_used": 25.55,
+          "multiple_options": {
+            "5yr_median_pe": 32.18,
+            "current_forward_pe": 25.55
+          },
+          "multiple_chosen_why": "🔴 METHODOLOGY FLAG: Warren ใช้ FY27 (ปีปัจจุบันที่กำลังดำเนินอยู่) เป็น basis year ให้ MSFT — ต่างจาก NVDA/AMZN/NFLX/TSM ที่ใช้ปี 'ไกล' (ปีถัดไปที่ยังไม่เริ่ม) เป็น basis ทั้งหมด. Charlie ใช้ rolled-forward แบบเดียวกับ 4 ตัวนั้นเพื่อความสม่ำเสมอ: near=FY27 (in-progress) → current forward PE = 499.99/19.57 = 25.55; min(32.18, 25.55)=25.55 คูณ far=FY28 EPS 23.21",
+          "calculation": "23.21 × 25.55 = 593.0 → 593",
+          "floor_calculation": "17.95 × 32.18 = 577.6 → 578",
+          "mos_at_charlie_fv": "(593 − 499.99) ÷ 593 = +15.7%",
+          "implied_growth_pct": -1.4,
+          "implied_growth_assessment": "(price÷(TTM×median))^(1/10)-1 = -1.4%/ปี — ต่ำ/ติดลบเล็กน้อยแปลว่าราคาปัจจุบันไม่ต้องพึ่งการเติบโตเกินจริงเทียบ historical multiple ของตัวเองเลย (forward PE 25.55x < median 32.18x)",
+          "known_weakness": "🔴 นี่คือประเด็นหลักของรอบนี้: ถ้าใช้ far-year (FY28) แบบเดียวกับตัวอื่นในพอร์ต Charlie FV=$593 (ไม่ใช่ $459 ของ Warren) → MoS พลิกจาก -8.93% (Warren, ใช้ near-year FY27) เป็น +15.7% (Charlie, far-year FY28) — ส่วนต่างใหญ่มาจาก 'เลือกปีฐานคนละปี' ไม่ใช่ multiple ต่างกัน (24x Warren vs 25.55x Charlie ใกล้กันมาก). ไม่ได้แปลว่า Warren ผิด — MSFT อาจตั้งใจ conservative กว่าเพราะ Azure risk แต่ต้อง reconcile ว่าทำไม basis-year เลือกไม่เหมือน 4 ตัวอื่นในพอร์ต ก่อนจะสรุปว่า MoS ติดลบจริง"
+        },
+        "verified_claims": [
+          "Azure +43% ยืนยันผ่าน CNBC/Yahoo/Microsoft IR (07-29/30) ตรงกับที่ Warren อ้าง, Azure ทะลุ $100B FY แรกจริง, forward guide Azure ~45% constant-currency",
+          "Copilot 30M+ seats ยืนยันตรง (จาก 20M เม.ย.)",
+          "🟢 Capex CY2026 guide ที่แท้จริงหลังงบ = ~$175B (ลงจาก $190B เดิม เม.ย.) ไม่ใช่ '~$190B บวก component-inflation $25B' ตามที่ paper thesis_risk อ้าง — เป็นข่าวดีต่อ FCF ที่ paper ไม่ได้กล่าวถึง"
+        ],
+        "concerns": [
+          "🔴 EPS basis-year เลือกไม่สม่ำเสมอกับตัวอื่นในพอร์ต (near-year แทนที่จะเป็น far-year) — เป็นตัวขับหลักของ 'MoS ติดลบครั้งแรก' ไม่ใช่แค่ราคาวิ่งเร็ว",
+          "ราคา +31% ใน 12 วันเทียบ consensus EPS revision เพียง +1.5% (19.28→19.57) — momentum/re-rating risk จริง ไม่ว่าจะใช้ FV framework ไหน แยกจากประเด็น valuation เดิม",
+          "ราคาห่างจาก 52W High เพียง 9.7% ($553.72)"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "Warren ต้อง /warren MSFT deep-dive เปรียบเทียบ near-year vs far-year basis ให้ตรงกับตัวอื่นในพอร์ต ก่อนสรุป MoS จริง"
+        ],
+        "tier_verdict": "AGREE",
+        "variant_view_verdict": "NO_VARIANT",
+        "tqr_verdict": "CLEAN"
+      },
+      {
+        "ticker": "META",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "warren_fv": 722,
+        "charlie_fv": 709,
+        "charlie_fv_floor": 597,
+        "charlie_fv_method": "pe_multiple_rolled_forward",
+        "price_used": 592.1,
+        "price_cross_check": {
+          "nasdaq_api": 592.1,
+          "cnbc_api": null,
+          "diff_pct": 0.0,
+          "chosen": 592.1,
+          "chosen_why": "Nasdaq quote API ตรงกับ cache เป๊ะ (0.0% diff)"
+        },
+        "warren_fv_gap_pct": 1.8,
+        "charlie_verdict": "CAUTION",
+        "disagree_type": null,
+        "charlie_fv_work": {
+          "eps_used": 34.54,
+          "eps_fiscal_year": "FY2027 (Dec 2027) — far-year, roll-forward จาก near-year Dec2026",
+          "eps_tier": 3,
+          "eps_source": "Nasdaq earnings-forecast API Dec2027 consensus 34.54 (18 est, 4 up/10 down) ดึงสด 2026-08-08; near-year Dec2026 consensus 28.84 (12 est, 3 up/7 down)",
+          "eps_basis": "GAAP diluted",
+          "ttm_actual_eps": 26.54,
+          "ttm_actual_source": "stockanalysis.com — รวม Q2 2026 actual แล้ว",
+          "multiple_used": 20.53,
+          "multiple_options": {
+            "5yr_median_pe": 22.5,
+            "current_forward_pe": 20.53
+          },
+          "multiple_chosen_why": "near=Dec2026 consensus 28.84 → current forward PE = 592.10/28.84=20.53; min(22.5,20.53)=20.53 คูณ far=Dec2027 EPS 34.54",
+          "calculation": "34.54 × 20.53 = 709.1 → 709",
+          "floor_calculation": "26.54 × 22.5 = 597.2 → 597",
+          "mos_at_charlie_fv": "(709 − 592.10) ÷ 709 = +16.5%",
+          "implied_growth_pct": 1.8,
+          "implied_growth_assessment": "modest positive, สมเหตุสมผลเทียบ historical multiple",
+          "known_weakness": "🔴 นี่คือรอบที่ 3+ ติดที่ EPS label ของ META ไม่ตรง consensus สดของปีที่ label ไว้: Warren ใช้ $31.94 label 'FY2026E' แต่ Dec2026 consensus สดวันนี้ = $28.84 (ต่าง 10.75%) ในขณะที่ Dec2027 consensus = $34.54 — ใกล้เคียง (แม้ไม่เป๊ะ) กับที่ Warren ใช้มากกว่า FY2026 เยอะ ชี้ว่า label น่าจะพลาดปีอีกครั้ง (pattern เดิมที่เคยพบ 07-27 และ NVDA 07-16). FV จริงไม่ได้เฟ้อมาก (gap 1.8% ถ้าใช้ far-year แบบเดียวกับตัวอื่น) แต่ระบบยัง label ผิดซ้ำ — เป็นความเสี่ยง data-integrity สะสมที่จะสำคัญขึ้นทันทีที่ META กลับมาเป็น BUY candidate"
+        },
+        "verified_claims": [
+          "$567M New Mexico court order (06/08 ส.ค.) ยืนยันจริงผ่าน ABC News/CNN/TechCrunch/PBS/Al Jazeera/CNBC — เป็นค่าปรับเพิ่มเติมจาก $375M ที่สั่งไปแล้วเดือนมี.ค. รวมทั้งหมด $942M ระบุการใช้เงินและ platform-change orders ชัดเจน (remove Like counts, curfew notifications เด็ก ฯลฯ)",
+          "ราคานิ่งจริง (-0.5% ตั้งแต่ 07-27) ตรงกับที่ Warren รายงาน"
+        ],
+        "concerns": [
+          "🔴 EPS fiscal-year label ผิดซ้ำเป็นรอบที่ 3+ (07-27 ก็เจอ) — ต้อง fix แหล่งข้อมูลไม่ใช่ carry gap ต่อไปเรื่อยๆ (memory: EPS Basis Carry-Forward Drift — gap ค้าง>3 batch ต้อง trace source)",
+          "$942M รวมค่าปรับ 2 รอบใน 5 เดือน (มี.ค.+ส.ค.) — ยังเล็กเทียบ FCF Meta แต่ pattern การแพ้คดีต่อเนื่องเปิดช่องคดีอื่นตามมาได้ (Warren เองก็ flag ไว้แล้ว)",
+          "ราคาห่างจาก 52W High ถึง 25.6% ($796.25) — ไกลกว่าตัวอื่นในพอร์ตมาก ทั้งที่ BQ/GP เพิ่งถูก rescore ขึ้น ควรถามว่าทำไมตลาดยังไม่ reward"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "Reconcile EPS label ของ META ให้ตรง fiscal year จริงก่อนใช้ FV นี้ตัดสิน BUY ใดๆ ในอนาคต"
+        ],
+        "tier_verdict": "AGREE",
+        "variant_view_verdict": "NO_VARIANT",
+        "tqr_verdict": "CLEAN"
+      },
+      {
+        "ticker": "AMZN",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "warren_fv": 287,
+        "charlie_fv": 360,
+        "charlie_fv_floor": 325,
+        "charlie_fv_method": "pe_multiple_rolled_forward",
+        "price_used": 274.48,
+        "price_cross_check": {
+          "nasdaq_api": 274.48,
+          "cnbc_api": null,
+          "diff_pct": 0.0,
+          "chosen": 274.48,
+          "chosen_why": "Nasdaq quote API ตรงกับ cache เป๊ะ (0.0% diff)"
+        },
+        "warren_fv_gap_pct": 25.4,
+        "warren_fv_gap_note": "(287 − 360) ÷ 287 = -25.4% — Warren ต่ำกว่า Charlie (conservative) ไม่ใช่เฟ้อ — แต่ magnitude ใหญ่พอที่อาจพลาด ADD-band โดยไม่จำเป็น",
+        "charlie_verdict": "CAUTION",
+        "disagree_type": null,
+        "charlie_fv_work": {
+          "eps_used": 10.57,
+          "eps_fiscal_year": "Dec 2027 — far-year, roll-forward จาก near-year Dec2026",
+          "eps_tier": 3,
+          "eps_source": "Nasdaq earnings-forecast API Dec2027 consensus 10.57 (17 est, 15 up/0 down) ดึงสด 2026-08-08 — ขึ้นจาก 10.11 เมื่อ 07-27 (+4.5%, revision ขึ้นต่อเนื่องหลังงบ Q2 beat 07-30); Warren ใช้ 9.91 (carry, ต่ำกว่าล่าสุด 6.2%)",
+          "eps_basis": "GAAP diluted",
+          "ttm_actual_eps": 12.44,
+          "ttm_actual_eps_adjusted": 7.54,
+          "ttm_adjustment_note": "🔴 TTM GAAP EPS $12.44 (stockanalysis.com) ปนเปื้อนด้วย one-off ที่ไม่ใช่เงินสด: Q2 2026 net income $62.647B รวม 'Other income, net' $53.415B ซึ่ง Amazon ระบุเองว่ามาจากการ mark-to-market หุ้น Anthropic เป็นหลัก (ไม่ใช่กำไรจากธุรกิจ) — per-share impact ≈ 53.415B÷10.895B shares ≈ $4.90 → TTM ที่ normalize แล้ว ≈ 12.44−4.90 = $7.54 ใช้ตัวนี้คำนวณ floor แทน raw TTM เพื่อไม่ให้ floor เฟ้อเทียม",
+          "multiple_used": 34.1,
+          "multiple_options": {
+            "5yr_median_pe": 43.07,
+            "current_forward_pe": 34.1
+          },
+          "multiple_chosen_why": "near=Dec2026 consensus 8.05 → current forward PE = 274.48/8.05=34.10; min(43.07,34.10)=34.10 คูณ far=Dec2027 EPS 10.57",
+          "calculation": "10.57 × 34.10 = 360.4 → 360",
+          "floor_calculation": "7.54 (adjusted TTM) × 43.07 = 324.8 → 325",
+          "mos_at_charlie_fv": "(360 − 274.48) ÷ 360 = +23.8%",
+          "implied_growth_pct": -1.7,
+          "implied_growth_assessment": "ติดลบเล็กน้อยเทียบ historical multiple ของตัวเอง — ราคาปัจจุบันไม่ต้องพึ่งการเติบโตเกินจริงเลย",
+          "known_weakness": "AWS margin (39.4%) และ FCF ที่แท้จริง (ไม่รวม Anthropic gain) ยังต้องติดตาม — headline net income/EPS ไตรมาสนี้ทำให้ตัวเลข 'กำไรจริง' เข้าใจผิดได้ง่ายถ้าไม่ normalize"
+        },
+        "verified_claims": [
+          "Q2 2026: revenue $200.6B (+20% YoY), AWS $42.2B (+36.7%, เร็วสุดใน 18 ไตรมาส, margin 39.4%), operating income +43% to $27.5B — ยืนยันตรงกับที่ Warren อ้างผ่าน CNBC/Yahoo/aboutamazon.com",
+          "Capex FY2026 guide ยกเป็น $220B (จาก $200B) ยืนยันจริง — ตรงกับ thesis_risk ที่ Warren ระบุ",
+          "FTC ad-pricing case ยังอยู่ขั้น 'preparing lawsuit' ไม่ใช่ formal filing (ณ มิ.ย. 2026) — ยังไม่ escalate เป็น structural remedy ตรงกับที่ Warren ประเมิน"
+        ],
+        "concerns": [
+          "🔴 Warren ใช้ EPS Dec2027 = 9.91 ต่ำกว่า consensus สดล่าสุด 10.57 อยู่ 6.6% — ถ้าอัพเดท Warren MoS จะขยับจาก 4.36% ขึ้นไปใกล้เกณฑ์ ADD-band (15%) มากขึ้น — Warren อาจ conservative เกินจำเป็นจนพลาดโอกาส ADD",
+          "🔴 headline TTM EPS/net income เฟ้อจาก one-off Anthropic MTM gain $53.4B — ห้ามใช้ raw TTM EPS ($12.44) เป็น floor โดยไม่ normalize",
+          "ราคาห่างจาก 52W High เพียง 4.4% ($287.20) — ใกล้ high มาก แม้ MoS จะยังดูมี room ตามสูตร"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "Warren ควร re-run AMZN valuation ด้วย consensus EPS สด (10.57) ก่อนตัดสิน ADD-band รอบหน้า — อาจพลาดโอกาสถ้าไม่อัพเดท"
+        ],
+        "tier_verdict": "AGREE",
+        "variant_view_verdict": "NO_VARIANT",
+        "tqr_verdict": "CLEAN"
+      },
+      {
+        "ticker": "NFLX",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "warren_fv": 84,
+        "charlie_fv": 79,
+        "charlie_fv_floor": 141,
+        "charlie_fv_method": "pe_multiple_rolled_forward",
+        "carried_from": null,
+        "price_used": 74.14,
+        "price_cross_check": {
+          "nasdaq_api": 74.14,
+          "cnbc_api": null,
+          "diff_pct": 0.0,
+          "chosen": 74.14,
+          "chosen_why": "Nasdaq quote API ตรงกับ cache เป๊ะ (0.0% diff)"
+        },
+        "warren_fv_gap_pct": 6.0,
+        "charlie_verdict": "CAUTION",
+        "disagree_type": null,
+        "charlie_fv_work": {
+          "eps_used": 3.83,
+          "eps_fiscal_year": "Dec 2027 — far-year, roll-forward จาก near-year Dec2026",
+          "eps_tier": 3,
+          "eps_source": "Nasdaq earnings-forecast API Dec2027 consensus 3.83 (14 est, 4 up/8 down) ดึงสด 2026-08-08 — ตรง Warren 3.84 (Δ0.26%); near-year Dec2026 consensus 3.59 (14 est, 5 up/8 down)",
+          "eps_basis": "GAAP diluted",
+          "ttm_actual_eps": 3.17,
+          "ttm_actual_eps_caveat": "🔴 carried caveat จาก 07-27: TTM GAAP EPS อ้างอิงได้จริงอาจเฟ้อ ~20% จาก one-off ไตรมาสเดียว — floor ($141) ควรตีความอย่างระวัง",
+          "multiple_used": 20.65,
+          "multiple_options": {
+            "5yr_median_pe": 44.34,
+            "current_forward_pe": 20.65
+          },
+          "multiple_chosen_why": "near=Dec2026 consensus 3.59 → current forward PE = 74.14/3.59=20.65; min(44.34,20.65)=20.65 คูณ far=Dec2027 EPS 3.83",
+          "calculation": "3.83 × 20.65 = 79.1 → 79",
+          "floor_calculation": "3.17 × 44.34 = 140.5 → 141 (ตีความระวัง ดู caveat)",
+          "mos_at_charlie_fv": "(79 − 74.14) ÷ 79 = +6.2%",
+          "known_weakness": "MoS ทั้งสองฝั่ง (Warren 11.7%, Charlie 6.2%) ต่ำกว่า new-buy gate 15% ทั้งคู่ — สอดคล้องกันว่า NFLX ไม่ควรเป็น ADD candidate รอบนี้แม้เป็น held-name governance"
+        },
+        "verified_claims": [
+          "Q2 2026 (16 ก.ค. shareholder letter): revenue $12.56B (+13% YoY), operating margin 33.4% ลงจาก 34.1% ปีก่อน (OM หด YoY ยืนยันจริงตรงกับที่ Warren อ้าง) — ยืนยันผ่าน TradingView/Variety/S&P Global",
+          "Q3 guide revenue +11.7% ($12.86B), OM 33.2% — deceleration ยืนยันจริง (Q2→Q3 guide ชะลอ ตรงกับ thesis)",
+          "FY2026 guide OM 31.5% (narrowed) ตรงกับที่ Warren อ้าง"
+        ],
+        "concerns": [
+          "22x ของ Warren ยังสูงกว่า Charlie forward PE จริง 20.65x (premium เล็กน้อย)",
+          "ราคาห่างจาก 52W High ถึง 41.5% ($126.71) — ไกลจาก high มากที่สุดในพอร์ต ยืนยัน quality-softening narrative",
+          "OM หด YoY + Q3 guide ชะลอต่อเนื่อง — ยังไม่มีสัญญาณกลับตัว"
+        ],
+        "red_flags": [
+          "TTM GAAP EPS ที่ใช้อ้างอิงได้ ($3.17-3.18) ยังมี one-off caveat ค้างจาก 07-23/07-27 — ยังไม่ได้ normalize ให้เสร็จ"
+        ],
+        "verify_further": [
+          "รอ earnings ไตรมาสถัดไปยืนยัน OM/FCF ว่าฟื้นหรือแย่ลงต่อ"
+        ],
+        "tier_verdict": "SUGGEST_DOWNGRADE",
+        "variant_view_verdict": "NO_VARIANT",
+        "tqr_verdict": "NO_TQR"
+      },
+      {
+        "ticker": "TSM",
+        "warren_action": "HOLD",
+        "warren_amount": 0,
+        "warren_fv": 420,
+        "charlie_fv": 490,
+        "charlie_fv_floor": 316,
+        "charlie_fv_method": "pe_multiple_rolled_forward",
+        "price_used": 420.04,
+        "price_cross_check": {
+          "nasdaq_api": 420.04,
+          "cnbc_api": null,
+          "diff_pct": 0.0,
+          "chosen": 420.04,
+          "chosen_why": "Nasdaq quote API ตรงกับ cache เป๊ะ (0.0% diff) — ต่างจาก 07-27 ที่เคยเจอ staleness 2.11%"
+        },
+        "warren_fv_gap_pct": 16.7,
+        "warren_fv_gap_note": "(420 − 490) ÷ 420 = -16.7% — Warren ต่ำกว่า Charlie (conservative) ไม่ใช่เฟ้อ — pattern เดิมซ้ำจาก 07-27 (Warren $420 vs Charlie $463 ตอนนั้น)",
+        "charlie_verdict": "AGREE",
+        "disagree_type": null,
+        "charlie_fv_work": {
+          "eps_used": 20.83,
+          "eps_fiscal_year": "Dec 2027 — far-year, roll-forward จาก near-year Dec2026",
+          "eps_tier": 3,
+          "eps_source": "Nasdaq earnings-forecast API Dec2027 consensus 20.83 (8 est, 7 up/0 down) ดึงสด 2026-08-08 — ใกล้ Warren 21.0 (Δ0.8%); near-year Dec2026 consensus 16.44 (8 est, 7 up/0 down)",
+          "eps_basis": "GAAP diluted",
+          "ttm_actual_eps": 13.44,
+          "ttm_actual_source": "stockanalysis.com",
+          "multiple_used": 23.52,
+          "multiple_options": {
+            "5yr_median_pe": 23.52,
+            "current_forward_pe": 25.55
+          },
+          "multiple_chosen_why": "near=Dec2026 consensus 16.44 → current forward PE = 420.04/16.44=25.55 > median 23.52 → ใช้ median (23.52) แทนตามกฎ min() คูณ far=Dec2027 EPS 20.83",
+          "calculation": "20.83 × 23.52 = 490.0 → 490",
+          "floor_calculation": "13.44 × 23.52 = 316.1 → 316",
+          "mos_at_charlie_fv": "(490 − 420.04) ÷ 490 = +14.3%",
+          "implied_growth_pct": 2.9,
+          "implied_growth_assessment": "ต่ำมากเทียบ consensus growth จริง (~20%/ปี implied จาก PEG 1.0 ของ Warren) — cushion กว้างมาก",
+          "known_weakness": "current forward PE (25.55x) ทะลุ 5yr median (23.52x) ไปแล้ว — เป็นครั้งแรกที่ multiple ปัจจุบันแพงกว่าประวัติศาสตร์ตัวเอง แม้ FV ยัง comfortable เพราะ far-year EPS โตเร็ว"
+        },
+        "verified_claims": [
+          "WebSearch 08-07 ยืนยันไม่พบข่าวใหม่ material ของ TSM วันนั้น — สอดคล้องกับที่ Warren ระบุว่าเป็น re-syndication รอบที่ 5 ของ guidance เดิม ไม่ใช่ข้อมูลใหม่",
+          "Q2 beat-and-raise + N2 margin dilution 3-4pp (Q3 GM guide 65-67%) ยังเป็นข้อมูลที่ยืนยันแล้วจากรอบก่อน ไม่มีอะไรเปลี่ยน",
+          "TSM WAF label bug (VERY HIGH ควรเป็น HIGH) ที่ Warren self-flag ไว้ใน proposed_improvements — Charlie ยืนยันตรงตามตาราง conviction (7.5-8.5=HIGH) เป็นบั๊ก label จริง ควรแก้"
+        ],
+        "concerns": [
+          "current forward PE (25.55x) เกิน 5yr median (23.52x) เป็นครั้งแรกในหลายรอบที่ผ่านมา — สัญญาณ multiple เริ่มตึงแม้ FV ยังคอมฟอร์ต",
+          "ราคาห่างจาก 52W High 12.3% ($479.00) — ยังมีระยะ แต่ margin of safety ที่ Warren รายงานเอง (~0%) แปลว่าไม่มี cushion รับความเสี่ยงระยะสั้นถ้าตลาดปรับฐาน"
+        ],
+        "red_flags": [],
+        "verify_further": [
+          "Refresh TTM actual EPS ด้วย Q2'26 actual เต็มรูปแบบ (ยังใช้ stockanalysis ล่าสุด แต่ Warren ควร cross-check กับการ์ดตัวเอง)"
+        ],
+        "tier_verdict": "AGREE",
+        "variant_view_verdict": "NO_VARIANT",
+        "tqr_verdict": "CLEAN"
+      }
+    ],
+    "points_to_verify": [
+      "MSFT: Warren เลือก near-year (FY27) เป็น FV basis แต่ NVDA/AMZN/NFLX/TSM เลือก far-year — ความไม่สม่ำเสมอนี้เป็นตัวขับหลักของ 'MoS ติดลบครั้งแรก' ไม่ใช่แค่ราคาวิ่งเร็วอย่างเดียว ต้อง reconcile ก่อนใช้ MoS -8.93% ตัดสินใจอะไรจริงจัง",
+      "META: EPS fiscal-year label ผิดซ้ำเป็นรอบที่ 3+ ($31.94 ไม่ตรง Dec2026 หรือ Dec2027 เป๊ะ) — data-integrity issue สะสมยังไม่ถูกแก้จริง",
+      "AMZN: Warren ใช้ EPS ต่ำกว่า consensus สดล่าสุด 6.6% — อาจพลาดโอกาส ADD-band โดยไม่จำเป็น ควร re-run ก่อนรอบหน้า + TTM EPS เฟ้อจาก Anthropic one-off ต้อง normalize ก่อนใช้"
+    ],
+    "watch_out": [
+      "Return Decay กระจายทั่วพอร์ต: MSFT+31%/AMZN+18%/NVDA+8%/TSM+4% ใน 12 วัน เร็วกว่า consensus EPS revision มาก — เป็น momentum/re-rating risk ที่แยกจาก valuation risk แบบเดิม (แม้ FV framework จะบอกว่ายัง 'ไม่แพง' เทียบ historical multiple หลายตัว ราคาที่วิ่งเร็วขนาดนี้ก็มีความเสี่ยง mean-reversion ของตัวเองถ้า momentum พลิก)",
+      "5/6 holdings อยู่ใน AI-Revolution theme เดียวกัน (~77% ของพอร์ต) — correlated drawdown risk เดิมยังอยู่ ไม่เปลี่ยน",
+      "NFLX ห่างจาก 52W High ถึง 41.5% (ไกลสุดในพอร์ต) ขณะที่ตัวอื่นห่างแค่ 4-26% — ยืนยัน NFLX เป็นตัวคุณภาพอ่อนสุดและตลาดกำลังลงโทษจริง ไม่ใช่แค่ WAF MEDIUM บนกระดาษ"
+    ],
+    "data_sources": [
+      "Nasdaq quote API (api.nasdaq.com/api/quote/{TICKER}/info) — price cross-check ทุก ticker, 2026-08-08, diff 0.0% ทุกตัว",
+      "Nasdaq earnings-forecast API (api.nasdaq.com/api/analyst/{TICKER}/earnings-forecast) — consensus EPS ทุก fiscal year, 2026-08-08",
+      "stockanalysis.com — trailing/forward P/E, TTM EPS cross-check (แหล่งที่ 3), 2026-08-08",
+      "yfinance — NVDA/MSFT forwardPE/trailingEps cross-check, 2026-08-08 (rate-limited บางส่วน ใช้ stockanalysis.com แทนสำหรับ META/AMZN/NFLX/TSM)",
+      "CNBC/Yahoo Finance/Microsoft IR: Microsoft FY2026 Q4 earnings (Azure $100B+, +43%, capex guide ลงเหลือ $175B) 2026-07-29/30",
+      "ABC News/CNN/TechCrunch/PBS/Al Jazeera/CNBC: New Mexico court orders Meta to pay additional $567M child-safety fine (รวม $942M) 2026-08-06/07",
+      "Forbes/InsiderFinance/TheValueist: SpaceX Q2 2026 earnings call — exclusive Nvidia Vera Rubin partnership, AI capex $15.83B 2026-08-03/04/07",
+      "Investing.com/Yahoo/CNBC/aboutamazon.com: Amazon Q2 2026 earnings — AWS +36.7% $42.2B, capex guide $220B, EPS $5.75 (รวม $53.4B Anthropic MTM gain) 2026-07-30",
+      "TradingView/Variety/S&P Global: Netflix Q2 2026 shareholder letter — OM 33.4% (ลงจาก 34.1% YoY), Q3 guide OM 33.2% 2026-07-16",
+      "WebSearch — TSMC 2026-08-07 (ไม่พบข่าวใหม่ material, ยืนยัน re-syndication claim)",
+      "WebSearch — Nvidia China export control status 2026-08 (H200 framework, share loss confirmed แต่ตัวเลขต่างจาก Warren)"
+    ]
   }
 ]

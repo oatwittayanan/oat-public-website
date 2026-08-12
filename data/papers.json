@@ -3678,5 +3678,617 @@
       }
     ],
     "lessons_summary": "[carry] FV inflation 2026-07: FV หลายตัวเฟ้อเพราะ (ก) EPS สูงกว่า consensus ไม่ประกาศ variant_view (ข) multiple สมมติ re-rate เหนือ forward จริง (ค) scorecard เก่าเทียบ Street PT ผิด → กฎใหม่: EPS=consensus, ห้าม PT, scorecard เทียบ consensus EPS. EPS ผิดปี fiscal ทำได้ 2 ทาง (สูงไป/ต่ำไป) → กำกับ FYE + forward year เสมอ | [07-26] EPS reconciliation ปิดจบ: holdings 6 ตัว = consensus_forward ครบ. inflation รอบสอง = MULTIPLE ของ watchlist candidates (ASML 30x/AVGO 55x) → ห้าม initiate ก่อน Charlie verify bottom-up. UBER = top new-buy candidate (สะอาด+diversify) แต่ ER<NVDA → defer | [07-27] No-deposit review: WAF/TQR backfill sync เข้า papers.json (NVDA 8.4→8.6 จาก SK Hynix $500B supply de-risk; MSFT 8.6→8.7 & AMZN 7.9→8.13 จากราคาย่อ ไม่ใช่ fundamentals เปลี่ยน). Cash $40.10 ยังไม่ deploy ตามกฎ no-deposit-mode (Cash Available=$0) แม้มี ADD-band ชัดเจน 2 ตัว (NVDA/AMZN) — รอเงินใหม่ ~15 ส.ค. ASML/AVGO NO-BUY carried unchanged (Charlie CAUTION gap 18-20%, ยังไม่ bottom-up verify)."
+  },
+  {
+    "id": "2026-08-08",
+    "date": "2026-08-08",
+    "title": "Paper #3.4 — No-Deposit Review: Broad Price Rally Compresses MoS Across Book (MSFT +31% MoS turns negative, AMZN +18% drops out of ADD-band, TSM MoS→~0%) — NVDA remains sole ADD-band candidate (MoS 23.3%, ER 32.2%); War Chest Cost-Benefit favors waiting ~1 week for scheduled Aug deposit over ad-hoc deploy",
+    "market_outlook": "ตลาดยังปกติ (S&P fwd P/E 20.38x Normal, VIX 15.48 Normal/boundary-Calm) → MoS Gate 15%, PEG cap 1.5, ไม่มี VIX adjust (ล็อกจาก /warren watchlist batch 08-08). ราคาหุ้นทุกตัวในพอร์ตวิ่งขึ้นตั้งแต่ Paper #3.3 (07-27) โดยเฉพาะ MSFT (+31%, หลังงบ Q4 FY26 beat 07-30) และ AMZN (+18%, ไม่มี catalyst เดี่ยว วิ่งต่อเนื่อง) — ทั้งคู่วิ่งเร็วกว่า consensus EPS revision ทำให้ MoS หดแรง (MSFT ติดลบครั้งแรก, AMZN หลุด ADD-band). TSM MoS บีบเหลือ ~0% จาก re-syndication ข่าวเดิมซ้ำ 5 รอบ. META ราคานิ่ง แต่ RA ขยับจากคดี $567M ที่ materialize จริง. NVDA ยังเป็นตัวเดียวที่ผ่านเกณฑ์ ADD เต็มรูปแบบ (MoS 23.3%, PEG 0.69, ER 32.2%, WAF 8.45 HIGH — ลงจาก VERY HIGH เพราะราคาขยับ ไม่ใช่คุณภาพ). ไม่มี deposit ใหม่รอบนี้ (ล่าสุด 16 ก.ค., ครั้งถัดไป ~15 ส.ค.) → no-deposit mode, ไม่ execute อะไร แต่ flag ชัดว่า MSFT ต้อง re-estimate FV เป็นลำดับแรกเมื่อมีเวลา (3 batch ติดกันที่ ER ลดลงจากราคาล้วนๆ, ใกล้เกณฑ์ trigger บังคับ >10% overage แล้ว).",
+    "market_context": {
+      "sp500_fwd_pe": 20.38,
+      "sp500_fwd_pe_band": "18-22x (Normal)",
+      "vix": 15.48,
+      "vix_mode": "Normal (15-30, boundary vs Calm)",
+      "market_temp": "Normal",
+      "mos_gate_pct": 15,
+      "vix_mos_adjust_pct": 0,
+      "peg_ceiling": 1.5,
+      "starter_band_pct": "8-15 (gate -7 จุด, Inevitable/Pre-Inevitable only)",
+      "regime_shift_from_prev": false,
+      "note": "Locked from /warren watchlist batch 2026-08-08 (SPX fwd P/E 20.38x, VIX 15.48, no regime shift vs Paper #3.3's 07-27 lock of 20.4x/18.58)."
+    },
+    "portfolio_snapshot": {
+      "total_deposited_usd": 300.0,
+      "cash_before": 40.1,
+      "cash_after": 40.1,
+      "deployed": 0.0,
+      "deployed_this_paper": 0.0,
+      "total_invested_after": 260.0,
+      "total_portfolio_value_usd": 323.7,
+      "note": "NO-DEPOSIT MODE — Cash Available รอบนี้ = $0 (ไม่มี deposit ใหม่ตั้งแต่ 16 ก.ค., ไม่มี SELL proceeds) ตามกฎ Step 5 ของ WARREN.md — cash $40.10 ยัง 'รอ' ไม่ใช่ 'พร้อมใช้รอบนี้'. Total portfolio value เป็นค่าประมาณ: scale มูลค่า holdings ของ Paper #3.3 (07-27, $248.79) ตามอัตราส่วนราคาปัจจุบัน/ราคาตอนนั้นต่อ ticker (ไม่มี share-level ledger ให้คำนวณตรง) = NVDA $64.08 + MSFT $85.85 + META $28.86 + AMZN $44.90 + NFLX $28.70 + TSM $31.21 = $283.60 holdings + cash $40.10 = $323.70. Unrealized return ตั้งแต่ deposit แรก: (323.70-300)/300 = +7.9% (ประมาณการ, ไม่ผ่าน share-level reconciliation กับ Sheets)."
+    },
+    "position_sizing_rule": {
+      "increment_usd": 10,
+      "minimum_position_usd": 10,
+      "note": "ไม่มีการซื้อรอบนี้ (no-deposit mode, Cash Available=$0) — review + WAF/ER/MoS refresh only"
+    },
+    "tier_changes": [],
+    "recommendations": [
+      {
+        "ticker": "NVDA",
+        "action": "HOLD",
+        "status": "REVISED",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 7,
+        "last_reviewed": "2026-08-08",
+        "amount_usd": 0.0,
+        "total_invested_usd": 60.0,
+        "conviction": "HIGH",
+        "tier": "🚀 Pre-Inevitable",
+        "waf": 8.45,
+        "tqr": 8.0,
+        "tqr_band": "Strong",
+        "position_ceiling_pct": 25,
+        "theme_layer": "Compute",
+        "investment_idea": "AI Factory Platform — CUDA monopoly + Blackwell/Vera Rubin roadmap + $200B CPU TAM (bet เดิมไม่เปลี่ยน). FV carry $292 (24x × FY28 consensus EPS $12.15). 08-04/08-07: SpaceX Q2 earnings call quantifies AI capex เป็น hyperscaler-class demand vector ใหม่ (reinforcing data, ไม่ใช่ score driver ใหม่) — ไม่เปลี่ยน bet หลัก.",
+        "thesis": "คุณภาพยังสูงสุดในธีม (BQ 9.5, GP 9.5) แต่ VA ลงจาก 7.7→7.5 เพราะราคาวิ่ง +8.3% ตั้งแต่ 07-27 ($206.84→$223.96) โดยไม่มีข่าว fundamentals ใหม่ (SK Hynix deal เป็นข่าวรอบก่อนแล้ว) — MoS หด 29.2%→23.3% แต่ยังผ่าน gate สบาย (effective gate 15%). ผ่านทั้ง 4 ด่าน (MoS/PEG/ER/WAF) เต็มรูปแบบ — เป็นตัวเดียวที่ผ่านเกณฑ์ ADD/BUY ครบรอบนี้.",
+        "thesis_risk": "Musk/xAI chip ปิด gap perf-per-dollar ≤50%; hyperscaler CapEx cut >30%; China AI-chip share หลุดเชิงโครงสร้าง (66%→~8%); FY28 consensus EPS ช่วงกว้าง ($9.27-14.23, low-end→FV~$217); circular-financing overhang (talks-stage) ยังไม่คลี่คลาย.",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "Unchanged — 7 Powers ครบ (CUDA network-effect/switching cost), ROIC>50%, FCF $96.6B, 5/5 Crystallization Signals ผ่าน; ยังไม่ผ่าน founder-transition test (Jensen) → Pre-Inevitable ไม่ใช่ Inevitable"
+          },
+          "gp": {
+            "score": 9.5,
+            "detail": "Unchanged (near-max) — Revenue FY2026 +65%, Vera CPU $200B TAM, Blackwell ramp, EPS FY27→FY28 +38%; + SpaceX Q2 earnings call (08-04) เพิ่มหลักฐาน demand เชิง reinforcing (ไม่ใช่ driver คะแนนใหม่)"
+          },
+          "ra": {
+            "score": 5.8,
+            "detail": "Unchanged — circular-financing overhang (talks-stage) ไม่ escalate รอบนี้; SK Hynix $500B supply deal ยัง de-risk memory-bottleneck; China AI-chip share structural loss; FY28 EPS range กว้าง; SpaceX exclusivity ข่าวช่วยหักล้าง narrative 'Musk คู่แข่ง' เล็กน้อย (ไม่ได้ให้คะแนนแยก)"
+          },
+          "va": {
+            "score": 7.5,
+            "detail": "ลงจาก 7.7 — ราคา +8.3% ($206.84→$223.96) บีบ MoS 29.2%→23.3%, PEG 0.64→0.69, ER 33.6%→32.2% (ยังผ่าน gate สบาย แต่ cushion บางลงกว่ารอบก่อนๆ ต่อเนื่อง)",
+            "price": 223.96,
+            "fair_value_base": 292,
+            "fair_value_bull": 365,
+            "fair_value_bear": 207,
+            "mos_pct": 23.3,
+            "forward_pe": 18.43,
+            "peg": 0.69,
+            "expected_return_5yr_pct": 32.2,
+            "eps_used": 12.15,
+            "multiple_used": 24.0,
+            "eps_basis_type": "consensus_forward",
+            "eps_fiscal_year": "FY28 (FYE Jan 2028)",
+            "valuation_assumptions": {
+              "fair_value_method": "24x × FY28 forward-year consensus EPS $12.15 = FV Base $292",
+              "pe_multiple_rationale": "24x carried from Paper #3.1 fiscal-year fix (independent cross-check; Charlie ราคา 23.4x) — ไม่เปลี่ยนรอบนี้ ไม่มีเหตุผล re-rate ทั้งขึ้นและลง",
+              "eps_basis": "FY28 (FYE Jan 2028) consensus forward EPS $12.15 — carried unchanged, ไม่มี earnings ใหม่ (report ถัดไป 26 ส.ค.)",
+              "growth_rate": "~26.8%/ปี (ย้อนคำนวณจาก ER ที่การ์ด NVDA รายงานไว้ 08-07 ที่ราคาใกล้เคียงกัน — ไม่มี growth_rate ระบุแยกไว้ก่อนหน้า, ใช้ implied)",
+              "consensus_growth": "เท่ากับ growth_rate ด้านบน (consensus FY27→FY28 EPS growth) — ไม่มี variant_view",
+              "variant_view": null,
+              "mos_formula": "(Fair Value $292 − Price $223.96) ÷ $292 = 23.30%",
+              "data_source": "prices_cache.json (2026-08-08) + NVDA.md Valuation Range (Last Updated 2026-08-07, single-ticker deep dive)"
+            }
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-08-08",
+            "event": "REVISED → v7",
+            "note": "WAF 8.6→8.45 (VERY HIGH→HIGH, ข้าม threshold 8.5 เพราะราคา ไม่ใช่คุณภาพ) — ราคา +8.3% ตั้งแต่ 07-27 บีบ VA (MoS 29.2%→23.3%, ER 33.6%→32.2%). SpaceX Q2 earnings (08-04) เพิ่มเป็น reinforcing demand-signal ไม่ใช่ bet ใหม่. No-deposit round — no execute. NVDA ยังเป็น ADD candidate อันดับ 1 สำหรับเงินใหม่ (~15 ส.ค.)."
+          }
+        ]
+      },
+      {
+        "ticker": "MSFT",
+        "action": "HOLD",
+        "status": "REVISED",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 4,
+        "last_reviewed": "2026-08-08",
+        "amount_usd": 0.0,
+        "total_invested_usd": 70.0,
+        "conviction": "HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 7.55,
+        "tqr": 8.65,
+        "tqr_band": "Core",
+        "position_ceiling_pct": null,
+        "theme_layer": "Cloud",
+        "investment_idea": "Enterprise AI Stack — Azure + Copilot + RPO $678B (bet เดิมไม่เปลี่ยน). FV carry $459 (24x × FY27 consensus EPS $19.14). ราคาวิ่งแรง +31% ตั้งแต่ 07-27 ($381.70→$499.99) ตอบรับงบ Q4 FY26 beat (07-30, Azure ข้าม $100B FY แรก +43%) แต่วิ่งเร็วกว่า consensus EPS revision — ช่องว่างนี้เริ่มเป็นความเสี่ยง valuation มากกว่าโอกาส.",
+        "thesis": "ธุรกิจยังแข็งแกร่งที่สุดในธีม (BQ 9.5) แต่ MoS พลิกติดลบเป็นครั้งแรก (-8.93%) เพราะราคาวิ่งนำ FV ไปไกลโดยไม่มี consensus revision รองรับ — Return Decay ชัดเจนขึ้นเป็น batch ที่ 3 ติดต่อกัน (ER 16.76%→14.75%→11.79%→~11.3%). ยังไม่ SELL (ธุรกิจพื้นฐานไม่ได้แย่ลง — Azure เร่งตัวจริง) แต่ priority สูงสุดสำหรับ FV re-estimate รอบหน้า.",
+        "thesis_risk": "Azure growth ชะลอ <15% 2 ไตรมาสติด; OpenAI ลด exclusivity กระทบ Copilot ecosystem จริง; contractual obligations $743.8B กด FCF ต่อเนื่อง >3 ไตรมาสโดยไม่มี ROIC ตามทัน; ราคาวิ่งไกลจาก FV ต่อเนื่อง 3 batch โดยไม่มี consensus revision รองรับ (Return Decay risk ใกล้ threshold <10% Sell-consideration).",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "Unchanged — moat 30+ปี ผ่าน 3 วิกฤต, Gates→Ballmer→Nadella transition สำเร็จ, RPO $678B (+84%, แต่ +25% ถ้าตัด OpenAI), Copilot 30M+ seats, ROIC>25% ต่อเนื่อง 10ปี"
+          },
+          "gp": {
+            "score": 9.0,
+            "detail": "Unchanged — Azure เร่งตัว 39%→43%→guided ~45%, FY Azure ข้าม $100B ครั้งแรก, Foundry revenue >2x YoY, Copilot net seat adds 2x QoQ"
+          },
+          "ra": {
+            "score": 7.0,
+            "detail": "Unchanged — contractual obligations $743.8B, uncommenced datacenter leases $329.1B, useful-life accounting change (15→25yr), FCF Q4 -23% YoY, backlog concentration (ex-OpenAI growth เพียง +25% vs headline +84%)"
+          },
+          "va": {
+            "score": 3.8,
+            "detail": "ลงต่อเนื่องจาก 4.3 (08-04) — ราคาวิ่งต่อ $487.65→$499.99 ดัน MoS จาก -6.24%→-8.93% (ติดลบลึกขึ้น), PEG 1.96→2.01 (เกิน Effective Cap 1.5), ER 11.79%→11.3% (ยังอยู่ HOLD+Flag band 10-15% แต่ใกล้ threshold <10% Sell-consideration มากขึ้นอีก) — เกิดจากราคาขึ้นล้วนๆ ไม่ใช่ FV ลง; VA ประเมินแบบ extrapolate จาก trend การ์ด (5.3→4.3→3.8) ยังไม่ได้ recalibrate เต็มรูปแบบ — ต้องทำ /warren MSFT deep-dive รอบหน้า",
+            "price": 499.99,
+            "fair_value_base": 459,
+            "fair_value_bull": 574,
+            "fair_value_bear": 345,
+            "mos_pct": -8.93,
+            "forward_pe": 26.12,
+            "peg": 2.01,
+            "expected_return_5yr_pct": 11.3,
+            "eps_used": 19.14,
+            "multiple_used": 24.0,
+            "eps_basis_type": "consensus_forward",
+            "eps_fiscal_year": "FY27 (FYE Jun 2027)",
+            "valuation_assumptions": {
+              "fair_value_method": "24x × FY27 forward-year consensus EPS $19.14 = FV Base $459 (unchanged since 07-23 recalibration)",
+              "pe_multiple_rationale": "24x historical average — carried unchanged, ราคาที่วิ่งไม่ใช่เหตุผลให้ re-rate multiple ขึ้น",
+              "eps_basis": "FY27 (FYE Jun 2027) consensus forward EPS $19.14 — ยังไม่มี reliable FY27 consensus revision ใหม่หลังงบ 07-30 แม้ราคาวิ่งไปมากแล้ว (ตาม Consensus-as-Base rule ห้าม self-generate ตัวเลขสูงขึ้นโดยไม่มีแหล่งอ้างอิง)",
+              "growth_rate": "13%/ปี (unchanged, consensus FY27 blend — ระบุชัดในการ์ด 08-04)",
+              "consensus_growth": "13%/ปี — เท่ากับ growth_rate, ไม่มี variant_view",
+              "variant_view": null,
+              "mos_formula": "(Fair Value $459 − Price $499.99) ÷ $459 = -8.93% (ราคาสูงกว่า FV)",
+              "data_source": "prices_cache.json (2026-08-08) + MSFT.md Valuation Range (Last Updated 2026-08-04, watchlist batch)"
+            }
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-08-08",
+            "event": "REVISED → v4",
+            "note": "MoS พลิกติดลบลึกขึ้น (-6.24%→-8.93%) — ราคา +31% ตั้งแต่ 07-27 ($381.70→$499.99) จากงบ Q4 FY26 beat (07-30) + ข่าว AI-cloud ต่อเนื่อง โดยไม่มี FY27 consensus EPS revision รองรับ. ER decay batch ที่ 3 ติดกัน (16.76%→14.75%→11.79%→11.3%). WAF ~7.68→~7.55 (ยัง HIGH). Priority flag สูงสุด: re-estimate FV / /warren MSFT deep-dive รอบหน้า. No-deposit round — no execute, ห้าม ADD."
+          }
+        ]
+      },
+      {
+        "ticker": "META",
+        "action": "HOLD",
+        "status": "REVISED",
+        "thesis_date": "2026-05-28",
+        "thesis_version": 4,
+        "last_reviewed": "2026-08-08",
+        "amount_usd": 0.0,
+        "total_invested_usd": 30.0,
+        "conviction": "HIGH",
+        "tier": "🚀 Pre-Inevitable",
+        "waf": 7.72,
+        "tqr": 7.93,
+        "tqr_band": "Strong",
+        "position_ceiling_pct": 25,
+        "theme_layer": "Cloud",
+        "investment_idea": "AI-driven Ad Engine + Reels monetization (bet เดิมไม่เปลี่ยน). FV carry $722 (22.6x × FY26E consensus EPS $31.94). ราคานิ่ง ($595.19→$592.10 ตั้งแต่ 07-27) หลังวิ่งแรง +9.5% ช่วงก่อนหน้า.",
+        "thesis": "BQ/GP rescore ขึ้น 8.5/8.5→9.0/9.0 (theme playbook backfill 07-27 — ad engine moat + AI targeting แข็งกว่าที่เคยให้คะแนน) แต่ RA ลง 6.5→4.6 เพราะ 08-07 ศาลสั่งจ่าย $567M ให้กองทุนสุขภาพจิตวัยรุ่นนิวเม็กซิโก — เป็นครั้งแรกที่ youth-litigation risk (เคย flag ใน thesis_risk) กลายเป็นคำตัดสินจริง (scale เล็ก แต่ยืนยันทิศทางเสี่ยง + เปิดช่องคดีอื่น). MoS 17.99% ยังผ่าน gate ด้วย margin แคบ — Return Decay flag ยังอยู่ (ราคาวิ่งนำ consensus ที่ไม่อัพเดทตั้งแต่ 07-15).",
+        "thesis_risk": "CapEx $130-145B (narrowed ขึ้น); FCF เกือบศูนย์ ($784M); Reality Labs losses ต่อเนื่อง; FTC antitrust appeal; Llama copyright class action; EU less-personalized-ads กระทบรายได้ตรง; $567M NM court fine (08-07, materialized) — คดีอื่นอาจตามมา; ราคาวิ่งนำ consensus EPS ที่ไม่ปรับตั้งแต่ 07-15.",
+        "scores": {
+          "bq": {
+            "score": 9.0,
+            "detail": "ขึ้นจาก 8.5 (theme playbook backfill 07-27) — Ad engine moat + WhatsApp/Instagram network effect แข็งกว่าที่เคยให้คะแนน; Zuck key-man risk ยังกัน Inevitable"
+          },
+          "gp": {
+            "score": 9.0,
+            "detail": "ขึ้นจาก 8.5 (theme playbook backfill) — AI-driven ad targeting + Reels monetization ต่อเนื่องแข็งแรงกว่าประเมินเดิม"
+          },
+          "ra": {
+            "score": 4.6,
+            "detail": "ลงจาก 6.5 (ผ่านจุดกลาง 4.8 ใน batch ก่อน) — 08-07 court-ordered $567M fine ให้กองทุนสุขภาพจิตวัยรุ่น NM เป็นการ materialize จริงของ youth-litigation risk (scale เล็กกว่า threshold IF WRONG หลักสิบ billion มาก แต่เป็นคำตัดสินจริงครั้งแรก + เปิดช่องคดีตามมา) รวมกับ Reality Labs burn + FTC appeal + EU ads headwind เดิม"
+          },
+          "va": {
+            "score": 6.5,
+            "detail": "ทรงตัวใกล้เดิม — ราคานิ่ง ($595.19→$592.10, -0.5%) หลังวิ่งแรงรอบก่อน, FV คงที่ $722, MoS 17.56%→17.99%, ER 17.85% ยังอยู่ HOLD band (15-20%)",
+            "price": 592.1,
+            "fair_value_base": 722,
+            "fair_value_bull": 850,
+            "fair_value_bear": 560,
+            "mos_pct": 17.99,
+            "forward_pe": 18.54,
+            "peg": 1.343,
+            "expected_return_5yr_pct": 17.85,
+            "eps_used": 31.94,
+            "multiple_used": 22.6,
+            "eps_basis_type": "consensus_forward",
+            "eps_fiscal_year": "FY26E",
+            "valuation_assumptions": {
+              "fair_value_method": "22.6x × FY26E consensus EPS $31.94 = FV Base $722 (unchanged)",
+              "pe_multiple_rationale": "22.6x carried unchanged — ไม่มีเหตุผล re-rate",
+              "eps_basis": "FY26E consensus forward EPS $31.94 — ยังไม่อัพเดทตั้งแต่ 07-15 (ราคาวิ่งนำหน้า)",
+              "growth_rate": "ไม่ระบุแยก — ใช้ implied จาก ER ที่รายงานในการ์ด",
+              "consensus_growth": "เท่ากับ growth_rate ด้านบน ไม่มี variant_view",
+              "variant_view": null,
+              "mos_formula": "(Fair Value $722 − Price $592.10) ÷ $722 = 17.99%",
+              "data_source": "prices_cache.json (2026-08-08) + META.md Valuation Range (Last Updated 2026-08-08, watchlist batch วันนี้)"
+            }
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-08-08",
+            "event": "REVISED → v4",
+            "note": "BQ/GP rescore 8.5/8.5→9.0/9.0 (theme playbook backfill), RA 6.5→4.6 (08-07: $567M court fine — youth-litigation risk materialize ครั้งแรก, scale เล็ก). WAF 7.82→7.72 (ยัง HIGH). FV/price แทบไม่ขยับ. No-deposit round — no execute."
+          }
+        ]
+      },
+      {
+        "ticker": "AMZN",
+        "action": "HOLD",
+        "status": "REVISED",
+        "thesis_date": "2026-06-10",
+        "thesis_version": 4,
+        "last_reviewed": "2026-08-08",
+        "amount_usd": 0.0,
+        "total_invested_usd": 40.0,
+        "conviction": "HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 7.77,
+        "tqr": 8.25,
+        "tqr_band": "Strong",
+        "position_ceiling_pct": 25,
+        "theme_layer": "Cloud",
+        "investment_idea": "Cloud + Retail + Ads Trifecta — AWS scale + Trainium/Anthropic AI compute hedge (bet เดิมไม่เปลี่ยน, ยิ่งยืนยันด้วยผลจริง). FV carry $287 (29x × FY2027 consensus EPS $9.91).",
+        "thesis": "ธุรกิจยังแข็งแรง (AWS +36.7% เร็วสุดใน 18 ไตรมาส) แต่ราคาวิ่งต่อเนื่อง +18.2% ตั้งแต่ 07-27 ($232.11→$274.48) โดยไม่มี catalyst เดี่ยว — ต่อจาก +11.8% รอบก่อน — โดยที่ FV ยังไม่ re-confirm จาก consensus หลังงบ ทำให้ MoS ยุบจาก 19.13%→4.36% และ PEG เริ่ม FAIL (1.54>1.5 cap) — **AMZN หลุดออกจาก ADD-band รอบนี้** (เคยเป็น candidate อันดับ 2 ร่วมกับ NVDA เมื่อ 07-27) เพราะ MoS ไม่ผ่าน gate 15% แล้ว แม้ ER ยังอยู่ HOLD band (18.9%).",
+        "thesis_risk": "FTC ad-pricing case อาจบังคับ structural remedy; FCF (TTM) ติดลบครั้งแรก (-$7.6B); CapEx guide ยกครั้งที่ 2 ปีนี้ ($200B→$220B); long-term debt เพิ่มเกือบเท่าตัวใน 6 เดือน; AWS deceleration risk ถ้า Azure/GCP แย่ง AI workload มากขึ้น; ราคาวิ่งนำ FV ต่อเนื่อง 2 รอบโดยไม่มี consensus revision รองรับ.",
+        "scores": {
+          "bq": {
+            "score": 9.0,
+            "detail": "Unchanged — AWS scale economies + Trainium custom silicon + retail logistics moat"
+          },
+          "gp": {
+            "score": 8.5,
+            "detail": "Unchanged — AWS +36% เร็วสุดใน 15 ไตรมาส, Trainium $225B+ committed"
+          },
+          "ra": {
+            "score": 5.8,
+            "detail": "ลงจาก 6.5 — FCF TTM ติดลบ (-$7.6B) เป็นครั้งแรก, CapEx guide $220B (ยกครั้งที่ 2), long-term debt เพิ่มเกือบเท่าตัวใน 6 เดือน (ไม่มีข่าวใหม่รอบนี้ แต่สะสมจากหลาย batch)"
+          },
+          "va": {
+            "score": 6.0,
+            "detail": "ลงต่อเนื่องจาก 6.8 (07-27) — ราคาวิ่งต่อ +18.2% ($232.11→$274.48, time-triggered re-check ไม่มีข่าวใหม่) ดัน MoS 19.13%→4.36% (หลุด new-buy gate 15%), PEG เริ่ม FAIL (1.30→1.54), ER 22.3%→18.9% (ยังอยู่ 15-20% HOLD band แต่ไม่ใช่ ADD-band แล้ว)",
+            "price": 274.48,
+            "fair_value_base": 287,
+            "fair_value_bull": 337,
+            "fair_value_bear": 218,
+            "mos_pct": 4.36,
+            "forward_pe": 27.7,
+            "peg": 1.539,
+            "expected_return_5yr_pct": 18.9,
+            "eps_used": 9.91,
+            "multiple_used": 29.0,
+            "eps_basis_type": "consensus_forward",
+            "eps_fiscal_year": "FY2027",
+            "valuation_assumptions": {
+              "fair_value_method": "29x × FY2027 consensus EPS $9.91 = FV Base $287 (unchanged since 07-23 recalibration)",
+              "pe_multiple_rationale": "29x carried unchanged — ราคาวิ่งไม่ใช่เหตุผล re-rate multiple",
+              "eps_basis": "FY2027 consensus forward EPS $9.91 — ยังไม่มี revision ใหม่ที่ยืนยันได้หลังงบ",
+              "growth_rate": "ไม่ระบุแยก — implied จาก ER ที่รายงานในการ์ด/watchlist",
+              "consensus_growth": "เท่ากับ growth_rate ด้านบน ไม่มี variant_view",
+              "variant_view": null,
+              "mos_formula": "(Fair Value $287 − Price $274.48) ÷ $287 = 4.36%",
+              "data_source": "prices_cache.json (2026-08-08) + AMZN.md Valuation Range (Last Updated 2026-08-08, watchlist batch วันนี้)"
+            }
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-08-08",
+            "event": "REVISED → v4",
+            "note": "ราคา +18.2% ตั้งแต่ 07-27 ($232.11→$274.48, ไม่มี catalyst เดี่ยว) → MoS 19.13%→4.36% หลุด new-buy gate 15%, PEG เริ่ม FAIL — AMZN หลุดจาก ADD-band รอบนี้ (เคยเป็น candidate อันดับ 2). RA 6.5→5.8. WAF 8.13→7.77 (ยัง HIGH). No-deposit round — no execute, ห้าม ADD จนกว่า MoS จะกลับเข้า gate หรือ FV re-confirm ขึ้น."
+          }
+        ]
+      },
+      {
+        "ticker": "NFLX",
+        "action": "HOLD",
+        "status": "ACTIVE",
+        "thesis_date": "2026-06-10",
+        "thesis_version": 2,
+        "last_reviewed": "2026-08-08",
+        "amount_usd": 0.0,
+        "total_invested_usd": 30.0,
+        "conviction": "MEDIUM",
+        "tier": "🚀 Pre-Inevitable",
+        "waf": 7.15,
+        "tqr": null,
+        "tqr_band": "OUT_OF_THEME",
+        "position_ceiling_pct": 10,
+        "theme_layer": null,
+        "investment_idea": "Content/algorithm moat + ads-tier monetization + live-sports optionality (bet เดิมไม่เปลี่ยน, นอกธีม AI-Revolution). FV carry $84 (22x × FY27 consensus EPS $3.84).",
+        "thesis": "ราคาวิ่งต่อ +5.8% ตั้งแต่ 07-27 ($70.09→$74.14) ไม่มีข่าวใหม่ — MoS หด 16.6%→11.7% (หลุด new-buy gate 15% แล้ว แต่ NFLX เป็น held position ใช้ Holdings Return Recheck governance ไม่ใช่ new-buy gate) ER ยังอยู่ 15-20% HOLD band. Quality-softening flag ยังอยู่ (deceleration Q2→Q3 guide, OM หด YoY ครั้งแรก Q2).",
+        "thesis_risk": "Deceleration ต่อเนื่อง (Q2 +13%→Q3 guide +12%); OM หด YoY ครั้งแรก + FCF -33%; disclosure cut (What-We-Watched → ปีละครั้ง); engagement erosion narrative; content cost inflation.",
+        "scores": {
+          "bq": {
+            "score": 8.2,
+            "detail": "Unchanged — content/algorithm moat แข็งแรง; candor ลดเล็กน้อยจากการลดความถี่เปิดเผย What-We-Watched"
+          },
+          "gp": {
+            "score": 6.8,
+            "detail": "Unchanged — deceleration ยืนยัน Q2 +13%→Q3 guide +12%, consensus FY27 down-rev ตั้งแต่ 6/2"
+          },
+          "ra": {
+            "score": 6.5,
+            "detail": "Unchanged — OM หด YoY ครั้งแรก + FCF -33% + disclosure cut + engagement erosion + content cost inflation"
+          },
+          "va": {
+            "score": 6.7,
+            "detail": "ลงเล็กน้อยจาก 7.0 — ราคา +5.8% ตั้งแต่ 07-27 ดัน MoS 16.6%→11.74% (หลุด new-buy gate แต่ held-name governance ใช้ ER แทน), ER 18.7%→17.5% ยัง HOLD band",
+            "price": 74.14,
+            "fair_value_base": 84,
+            "fair_value_bull": 100,
+            "fair_value_bear": 69,
+            "mos_pct": 11.74,
+            "forward_pe": 19.31,
+            "peg": 1.291,
+            "expected_return_5yr_pct": 17.49,
+            "eps_used": 3.84,
+            "multiple_used": 22.0,
+            "eps_basis_type": "consensus_forward",
+            "eps_fiscal_year": "FY27",
+            "valuation_assumptions": {
+              "fair_value_method": "22x × FY27 consensus EPS $3.84 = FV Base $84 (unchanged since Paper #3.1 recalibration 07-23)",
+              "pe_multiple_rationale": "22x = premium +15% เหนือ forward 18.67x — justify ด้วย full-year OM guide 31.5% (> FY25 29.5%) แม้ Q2 OM หด YoY เป็น quarterly timing (opex/content-amort H1>H2)",
+              "eps_basis": "FY27 consensus EPS $3.84 (post-split, down-rev 6/2 หลัง Q2 decel)",
+              "growth_rate": "14.96%/ปี (conservative, สะท้อน deceleration + OM contraction — ระบุชัดในการ์ด 08-02)",
+              "consensus_growth": "14.96%/ปี — เท่ากับ growth_rate, ไม่มี variant_view",
+              "variant_view": null,
+              "mos_formula": "(Fair Value $84 − Price $74.14) ÷ $84 = 11.74%",
+              "data_source": "prices_cache.json (2026-08-08) + NFLX.md Valuation Range (Last Updated 2026-08-02, watchlist batch)"
+            }
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-08-08",
+            "event": "RECHECK",
+            "note": "ราคา +5.8% ตั้งแต่ 07-27 ($70.09→$74.14), ไม่มีข่าวใหม่. MoS 16.6%→11.7% (held-name governance, ไม่ใช่ new-buy gate). ER 18.7%→17.5% (ยัง HOLD band). WAF ~7.23→~7.15 (ยัง MEDIUM). FV/thesis ไม่เปลี่ยน."
+          }
+        ]
+      },
+      {
+        "ticker": "TSM",
+        "action": "HOLD",
+        "status": "ACTIVE",
+        "thesis_date": "2026-06-10",
+        "thesis_version": 2,
+        "last_reviewed": "2026-08-08",
+        "amount_usd": 0.0,
+        "total_invested_usd": 30.0,
+        "conviction": "HIGH",
+        "tier": "🏛️ Inevitable",
+        "waf": 8.05,
+        "tqr": 8.38,
+        "tqr_band": "Strong",
+        "position_ceiling_pct": 25,
+        "theme_layer": "Foundry/Packaging",
+        "investment_idea": "Foundry monopoly N3/N2/CoWoS — ทุกชิป AI ชั้นนำ (NVDA/AMD/AVGO/hyperscaler ASIC) ต้องผ่าน TSM (bet เดิมไม่เปลี่ยน). FV carry $420 (20x × FY27 consensus EPS $21.0).",
+        "thesis": "Q2'26 beat-and-raise ยืนยัน demand เร่งจริง (guide raise ครั้งที่ 2 >40%) แต่ราคาวิ่งตาม +4.1% ตั้งแต่ 07-27 ($403.41→$420.04) จนชนกับ FV base พอดี — MoS เหลือ ~0% (-0.01%). ข่าว 08-07 เป็นการ re-syndication รอบที่ 5 ของ guidance เดิม (WebSearch ยืนยัน ไม่มีตัวเลขใหม่กระทบ EPS/FV) — HOLD ห้ามเติมที่ราคานี้.",
+        "thesis_risk": "Taiwan geopolitics; N2 margin dilution ยืนยันแล้ว 3-4pp (Q3 GM guide 65-67%<Q2 67.7%); capex $60-64B กด near-term FCF; customer concentration Apple+NVIDIA 36%; ที่ MoS ~0% แทบไม่มี cushion รับความเสี่ยงใดๆ.",
+        "scores": {
+          "bq": {
+            "score": 9.5,
+            "detail": "Unchanged — Foundry monopoly 3nm/2nm สูงสุดในธีมร่วมกับ ASML แต่มี socket-loss precedent (Google TPU9→Intel) ให้จับตา"
+          },
+          "gp": {
+            "score": 9.5,
+            "detail": "Unchanged — Supply ตึงถึง 2029-30, FY26 guide ขึ้น 2 รอบติด, Arizona +$100B"
+          },
+          "ra": {
+            "score": 5.5,
+            "detail": "Unchanged — N2 margin dilution 3-4pp confirmed (Q3 GM guide 65-67%<Q2 67.7%), capex $60-64B กด FCF, Taiwan geopolitics, customer concentration 36%"
+          },
+          "va": {
+            "score": 6.0,
+            "detail": "ลงต่อเนื่องจาก 6.1 — ราคา +4.1% ตั้งแต่ 07-27 ($403.41→$420.04) ชนกับ FV base พอดี, MoS 3.95%→-0.01%, ER 19.98%",
+            "price": 420.04,
+            "fair_value_base": 420,
+            "fair_value_bull": 504,
+            "fair_value_bear": 315,
+            "mos_pct": -0.01,
+            "forward_pe": 20.0,
+            "peg": 1.0,
+            "expected_return_5yr_pct": 19.98,
+            "eps_used": 21.0,
+            "multiple_used": 20.0,
+            "eps_basis_type": "consensus_forward",
+            "eps_fiscal_year": "FY27 (consensus)",
+            "valuation_assumptions": {
+              "fair_value_method": "20x × FY27 consensus EPS $21.0 = FV Base $420 (unchanged since 07-25 EPS update)",
+              "pe_multiple_rationale": "20x carried unchanged จาก Paper #3.1 recalibration (ลดจาก peak-ish multiple เดิม)",
+              "eps_basis": "FY27 consensus EPS $21.0 (Q2 beat-and-raise confirm)",
+              "growth_rate": "implied จาก PEG 1.0 (~20%/ปี) — ไม่ระบุแยกไว้ในการ์ด",
+              "consensus_growth": "เท่ากับ growth_rate ด้านบน ไม่มี variant_view",
+              "variant_view": null,
+              "mos_formula": "(Fair Value $420 − Price $420.04) ÷ $420 = -0.01%",
+              "data_source": "prices_cache.json (2026-08-08) + TSM.md Valuation Range (Last Updated 2026-08-08, watchlist batch วันนี้)"
+            }
+          }
+        },
+        "thesis_log": [
+          {
+            "date": "2026-08-08",
+            "event": "RECHECK",
+            "note": "ราคา +4.1% ตั้งแต่ 07-27 ($403.41→$420.04) จากข่าว re-syndication รอบที่ 5 ของ guidance เดิม (08-07, WebSearch ยืนยันไม่มีข้อมูลใหม่). MoS บีบเหลือ ~0% (-0.01%). WAF 8.4→8.05 (ยัง HIGH — ⚠️ หมายเหตุ: การ์ด TSM label WAF band เป็น 'VERY HIGH' ผิด ที่ถูกต้องคือ HIGH ตามตาราง conviction 7.5-8.5, flag เป็น data error ให้แก้ครั้งหน้า). HOLD ห้ามเติมที่ราคานี้ (MoS ไม่พอ). FV/thesis ไม่เปลี่ยน."
+          }
+        ]
+      },
+      {
+        "ticker": "CASH",
+        "action": "HOLD",
+        "status": "ACTIVE",
+        "amount_usd": 40.1,
+        "total_invested_usd": null,
+        "conviction": null,
+        "tier": null,
+        "waf": null,
+        "tqr": null,
+        "tqr_band": null,
+        "position_ceiling_pct": null,
+        "theme_layer": null,
+        "scores": null,
+        "thesis": "SGOV, รอเงินฝากใหม่ ~15 ส.ค. ตามกฎ no-deposit-mode (Cash Available=$0 รอบนี้). War Chest Cost-Benefit Analysis (ดู summary): deploy trivial ($40.10 × 32%/yr × 7 วัน ≈ $0.25 opportunity cost ของการรอ) เทียบกับผลประโยชน์ deploy ทันที — ต่างกันน้อยมาก แนะนำรอรวมกับเงินฝากใหม่แล้ว deploy พร้อมกัน (~$140-150) เข้า NVDA (candidate เดียวที่ผ่านเกณฑ์ ADD เต็มรูปแบบรอบนี้)."
+      }
+    ],
+    "retrospective": {
+      "papers_reviewed": 1,
+      "thesis_outcomes": [
+        {
+          "paper_id": "2026-08-08",
+          "ticker": "NVDA",
+          "action": "HOLD",
+          "price_then": 206.84,
+          "price_now": 223.96,
+          "actual_return_pct": 8.28,
+          "expected_return_pct_annualized": 33.6,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "PLAYING OUT — SK Hynix supply deal + SpaceX demand vector reinforce thesis, ไม่มีสัญญาณ IF WRONG",
+          "notes": "WAF ลง 8.6→8.45 (VERY HIGH→HIGH) จากราคาล้วนๆ ไม่ใช่คุณภาพเสื่อม — ปกติของ price-driven VA compression"
+        },
+        {
+          "paper_id": "2026-08-08",
+          "ticker": "MSFT",
+          "action": "HOLD",
+          "price_then": 381.7,
+          "price_now": 499.99,
+          "actual_return_pct": 31.0,
+          "expected_return_pct_annualized": 16.76,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "PARTIALLY PLAYING OUT — Azure เร่งตัวจริงตามคาด แต่ราคาวิ่งนำ consensus EPS revision ไปไกลเกินคาด ทำให้ MoS พลิกติดลบ — ธุรกิจไม่ผิด แต่ valuation ตึงเกินคาด",
+          "notes": "Return Decay pattern ชัดเจนที่สุดในพอร์ต — 3 batch ติดกันที่ ER ลดลงจากราคาล้วนๆ ต้อง re-estimate FV เป็นลำดับแรก"
+        },
+        {
+          "paper_id": "2026-08-08",
+          "ticker": "META",
+          "action": "HOLD",
+          "price_then": 595.19,
+          "price_now": 592.1,
+          "actual_return_pct": -0.52,
+          "expected_return_pct_annualized": 17.85,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "PLAYING OUT — Ad engine + AI targeting ยืนยันด้วย BQ/GP rescore ขึ้น; youth-litigation risk เริ่ม materialize จริง (scale เล็ก) แต่ไม่ถึงระดับ IF WRONG",
+          "notes": "RA ลง 6.5→4.6 จากคดี $567M ครั้งแรก — เป็น early warning ให้จับตาคดีตามมา"
+        },
+        {
+          "paper_id": "2026-08-08",
+          "ticker": "AMZN",
+          "action": "HOLD",
+          "price_then": 232.11,
+          "price_now": 274.48,
+          "actual_return_pct": 18.25,
+          "expected_return_pct_annualized": 22.34,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "PLAYING OUT ด้าน fundamentals (AWS +36.7%) แต่ราคาวิ่งนำ FV เร็วกว่าที่ Warren คาด 2 รอบติด — MoS ยุบจาก 19.13%→4.36%, หลุด ADD-band",
+          "notes": "เคยเป็น candidate ADD อันดับ 2 เมื่อ 07-27 ตอนนี้หลุดจาก ADD-band แล้วเพราะราคาล้วนๆ — บทเรียน: ธุรกิจดีไม่พอ ต้องรอ entry point ที่เหมาะสมด้วย"
+        },
+        {
+          "paper_id": "2026-08-08",
+          "ticker": "NFLX",
+          "action": "HOLD",
+          "price_then": 70.09,
+          "price_now": 74.14,
+          "actual_return_pct": 5.78,
+          "expected_return_pct_annualized": 18.7,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "UNCERTAIN — deceleration ยืนยันตามคาด (Q2→Q3 guide ชะลอ) แต่ยังไม่ถึงระดับ IF WRONG, quality-softening flag ยังอยู่ต่อเนื่องหลาย batch",
+          "notes": "WAF ยัง MEDIUM ต่อเนื่อง — ตัวที่คุณภาพอ่อนสุดในกลุ่ม 6 holdings, ยังไม่ถึงเกณฑ์ Fisher Rule ขาย"
+        },
+        {
+          "paper_id": "2026-08-08",
+          "ticker": "TSM",
+          "action": "HOLD",
+          "price_then": 403.41,
+          "price_now": 420.04,
+          "actual_return_pct": 4.12,
+          "expected_return_pct_annualized": 19.98,
+          "thesis_status": "THESIS_HELD",
+          "if_wrong_fired": false,
+          "why_now_verdict": "PLAYING OUT — Q2 beat-and-raise ยืนยัน demand เร่งจริง แต่ราคาวิ่งตามจนชนกับ FV base พอดี (MoS ~0%) — ธุรกิจไม่ผิด แต่ไม่มี cushion เหลือรับความเสี่ยงใดๆ",
+          "notes": "ข่าว 08-07 เป็น re-syndication รอบที่ 5 ของข่าวเดิม — สัญญาณว่าตลาดกำลัง overreact ต่อข่าวซ้ำมากกว่าข้อมูลใหม่จริง"
+        }
+      ],
+      "fv_scorecard": [
+        {
+          "ticker": "NVDA",
+          "fv_date": "2026-07-23",
+          "fv_base_then": 292,
+          "price_then": 202.94,
+          "price_now": 223.96,
+          "price_progress_pct": 10.36,
+          "verdict": "TOO_EARLY"
+        },
+        {
+          "ticker": "MSFT",
+          "fv_date": "2026-07-23",
+          "fv_base_then": 459,
+          "price_then": 393.82,
+          "price_now": 499.99,
+          "price_progress_pct": 26.98,
+          "verdict": "TOO_EARLY",
+          "note": "ราคาทะลุ FV base ไปแล้ว 8.9% ภายใน 16 วัน — เร็วผิดปกติ, จับตา FV_TOO_HIGH รอบหน้าถ้าไม่มี consensus revision รองรับ"
+        },
+        {
+          "ticker": "META",
+          "fv_date": "2026-07-23 (carry, ไม่มี rebuild)",
+          "fv_base_then": 722,
+          "price_then": 595.19,
+          "price_now": 592.1,
+          "price_progress_pct": -0.52,
+          "verdict": "TOO_EARLY"
+        },
+        {
+          "ticker": "AMZN",
+          "fv_date": "2026-07-23",
+          "fv_base_then": 287,
+          "price_then": 246.44,
+          "price_now": 274.48,
+          "price_progress_pct": 11.38,
+          "verdict": "TOO_EARLY",
+          "note": "ราคาวิ่งเข้าหา FV เร็วกว่าคาด 2 รอบติด — MoS ยุบไว, จับตา FV_TOO_HIGH เช่นกัน"
+        },
+        {
+          "ticker": "NFLX",
+          "fv_date": "2026-07-23",
+          "fv_base_then": 84,
+          "price_then": 72.0,
+          "price_now": 74.14,
+          "price_progress_pct": 2.97,
+          "verdict": "TOO_EARLY"
+        },
+        {
+          "ticker": "TSM",
+          "fv_date": "2026-07-25",
+          "fv_base_then": 420,
+          "price_then": 403.41,
+          "price_now": 420.04,
+          "price_progress_pct": 4.12,
+          "verdict": "TOO_EARLY",
+          "note": "ราคาชนกับ FV base พอดีภายใน 14 วัน — ถ้าราคาทะลุต่อโดยไม่มี EPS ใหม่รอบหน้า ต้องพิจารณา FV_TOO_LOW"
+        }
+      ],
+      "bias_patterns": "Return Decay ชัดเจนขึ้นทั่วพอร์ต (ไม่ใช่แค่ MSFT/AMZN ที่เคย flag) — ราคาวิ่งเร็วกว่า consensus EPS revision อย่างเป็นระบบใน 12 วันที่ผ่านมา (MSFT+31%, AMZN+18%, NVDA+8%, TSM+4%) ขณะที่ FV แทบไม่ขยับเลย เพราะไม่มี fresh consensus data รองรับ — คำถามคือ Warren ระมัดระวังเกินไปในการ re-estimate FV โดยไม่มี primary source ใหม่ (ตามกฎ Consensus-as-Base) หรือราคาตลาดกำลัง overreact ทั้งพอร์ต — ยังสรุปไม่ได้ชัดจนกว่าจะเห็น consensus revision รอบหน้า",
+      "portfolio_health": "6/6 thesis ยังคง THESIS_HELD ไม่มี IF WRONG fired — แต่ MoS หดตัวพร้อมกันเกือบทุกตัว (NVDA 23.3%/META 18.0%/NFLX 11.7%/AMZN 4.4%/TSM ~0%/MSFT -8.9%) มีแค่ NVDA ที่ผ่านเกณฑ์ ADD เต็มรูปแบบ. Portfolio value โดยประมาณ $323.70 (+7.9% unrealized ตั้งแต่เริ่ม $300) ขับเคลื่อนหลักจาก MSFT rally. ต้อง priority re-estimate MSFT FV รอบหน้า."
+    },
+    "proposed_improvements": [
+      {
+        "observation": "3 ใน 6 holdings (MSFT/AMZN/TSM) ราคาวิ่งนำ FV ไปไกลภายใน 12 วันโดยไม่มี consensus EPS revision ตามทัน — เกิดจากกฎ Consensus-as-Base ที่ห้าม self-generate ตัวเลขใหม่โดยไม่มีแหล่งอ้างอิง (ถูกต้องแล้วในหลักการ) แต่ผลคือ FV 'แข็ง' ขณะราคา 'วิ่ง' ต่อเนื่องหลาย batch",
+        "suggested_fix": "พิจารณาเพิ่มกฎ: ถ้าราคาวิ่งนำ FV base เกิน 5% ภายใน <14 วันติดต่อกัน 2 รอบ (ไม่ใช่แค่ >10% ครั้งเดียว) → บังคับ flag เป็น 'Consensus Revision Watch' และให้ Kim spawn /mark-research เจาะจงหา consensus EPS revision ล่าสุดแทนที่จะรอ full watchlist cycle",
+        "target": "WARREN.md → Fair Value Re-estimate Trigger section"
+      },
+      {
+        "observation": "TSM stock card (oat-investment-knowledge/knowledge/stocks/TSM.md) label WAF 8.05 เป็น 'VERY HIGH' ทั้งที่ตามตาราง conviction (8.5-10 VERY HIGH, 7.5-8.5 HIGH) ควรเป็น HIGH — data/label mismatch เล็กน้อยแต่ทำให้สับสนถ้าไม่ตรวจ",
+        "suggested_fix": "แก้ label ใน TSM.md WAF Score Breakdown ให้ตรงตาราง conviction ทุกครั้งที่เขียนการ์ด — ควรมี validator check ว่า WAF number ↔ conviction label ตรงกันเสมอ",
+        "target": "investment-system/scripts/validate_valuations.py (เพิ่ม check ใหม่) / TSM.md (แก้ label)"
+      }
+    ],
+    "lessons_summary": "[carry] FV inflation 2026-07: FV หลายตัวเฟ้อเพราะ (ก) EPS สูงกว่า consensus ไม่ประกาศ variant_view (ข) multiple สมมติ re-rate เหนือ forward จริง (ค) scorecard เก่าเทียบ Street PT ผิด → กฎใหม่: EPS=consensus, ห้าม PT, scorecard เทียบ consensus EPS. | [07-26] EPS reconciliation ปิดจบ: holdings 6 ตัว = consensus_forward ครบ. inflation รอบสอง = MULTIPLE ของ watchlist candidates → ห้าม initiate ก่อน Charlie verify bottom-up. | [07-27] No-deposit review: Cash $40.10 ยังไม่ deploy ตามกฎ no-deposit-mode แม้มี ADD-band ชัดเจน (NVDA/AMZN) — รอเงินใหม่. | [08-08] Return Decay กระจายทั่วพอร์ต ไม่ใช่แค่ MSFT/AMZN เดี่ยวๆ อีกต่อไป — ราคาวิ่งเร็วกว่า consensus revision ใน 12 วัน (MSFT+31%/AMZN+18%/NVDA+8%/TSM+4%) ทำให้ MoS หดพร้อมกันเกือบทุกตัว มีแค่ NVDA ผ่านเกณฑ์ ADD เต็มรูปแบบ. MSFT MoS พลิกติดลบครั้งแรก (-8.93%) — priority re-estimate FV สูงสุดรอบหน้า. War Chest Cost-Benefit (Rule #4.5) ทำแล้ว: deploy-now vs wait-1-week ต่างกันเพียง ~$0.25 (trivial) เพราะเงินฝากรอบหน้าใกล้มาก (~15 ส.ค.) — สรุปรอรวมดีกว่าเพื่อความสม่ำเสมอของ process ไม่ใช่เพราะ crash-timing logic. พบ data-label bug เล็กน้อยใน TSM.md (WAF 8.05 label ผิดเป็น VERY HIGH ควรเป็น HIGH)."
   }
 ]
