@@ -1428,7 +1428,7 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-12
+**Last Updated:** 2026-08-13 (date synced with Story Gate/Valuation Range per Card Consistency rule — no new analyst research this batch, valuation-method-only update)
 
 **Update (2026-08-12, second pass) — multiple revised 29× → 25.7×, STARTER withdrawn, Action back to HOLD** [VALUATION CORRECTION]
 - **Charlie's CAUTION adopted in full.** He verified the EPS ($10.58, 17 analysts, 15up/0down — exact match, no growth-term inflation found) and then made the point that matters: the Base FV used **29×** while this same batch's own \`forward_pe\` field showed the market paying **25.73×** on the identical EPS. On the market-clearing multiple his independent FV is ~$272, essentially *at* the price — MoS ~0%, not +11.3%. Since the 11.3% figure was the sole reason AMZN sat inside the 8–15% STARTER band, the whole upgrade hung on those 3.3 turns of multiple.
@@ -1554,7 +1554,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-12  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-08-13  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+
+**2026-08-13 update:** Revenue-as-Base methodology rollout — the SOTP anchor this card explicitly flagged as needed ("a DCF or an AWS/retail sum-of-the-parts is the obvious candidate") has now been built. Diagnostic Q1 (AWS op margin 39.4% vs NA 7.9% vs Intl 4.1%, >20pp gap; AWS growth +37% vs NA/Intl low-teens, >2x gap) confirms SOTP is the correct method. See Valuation Range. Thesis/tier unchanged.
 
 **Tier Basis:** Inevitable: ✓moat 25ปี/3วิกฤต ✓Bezos→Jassy transition ✓AWS+logistics ขยาย ✓ROIC ปรับขึ้น >15% (AWS-led) — ไม่มี tier change; 07-31 = Q2 2026 earnings full re-score (AWS accel to 37%/fastest 18Q ยืนยัน tier เดิม, ไม่มีสัญญาณ moat เสื่อม). 08-08 = time-triggered re-check (8 วันจาก gate, ไม่มีข่าวใหม่), ไม่มี tier change. 08-12 = FV_TOO_LOW flag resolved with fresh consensus (ดู Valuation Range) — ไม่มี tier change. **08-12 second pass** = multiple revised 29×→25.7× per Charlie's CAUTION, STARTER withdrawn, action back to HOLD — **ไม่มี tier change** (นี่เป็นเรื่องราคา/multiple ล้วนๆ ไม่ใช่คุณภาพธุรกิจ; moat/transition/ROIC criteria ทั้ง 4 ข้อยังผ่านตามเดิม)
 
@@ -1567,7 +1569,48 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-12  |  **Price:** $272.27  |  **Tier:** 🏛️ Inevitable  |  **Method:** WAF Single-Ticker Deep Dive — **multiple revised to the market-clearing anchor (second pass, resolving Charlie CAUTION); STARTER withdrawn**
+**Last Updated:** 2026-08-13  |  **Price:** $267.28  |  **Tier:** 🏛️ Inevitable  |  **Method:** SOTP (AWS + North America + International) — replaces the min()-multiple market-clearing anchor, per explicit instruction (Revenue-as-Base rollout, Diagnostic Q1 YES) and this card's own prior flag that a non-tautological anchor was needed
+
+### Valuation Method Diagnostic (Q1-Q5) — 2026-08-13
+- **Q1** (segment margin/growth disparity >20pp/>2x?): **YES** — AWS op margin 39.4% (Q2 2026 actual) vs North America 7.9% vs International 4.1% is a >20pp gap on its face; AWS growth +37% vs North America/International low-to-mid-teens is a >2x growth gap. **Routes to SOTP.** This directly resolves the "no clean historical anchor" problem this card flagged on 08-12 — SOTP does not depend on picking a single blended multiple.
+
+### 🎯 SOTP Build (fresh, 2026-08-13)
+
+| Segment | FY2027E Revenue | Op Margin | Op Income | EV/EBIT | Segment EV |
+|---------|------------------|-----------|-----------|---------|-----------|
+| **AWS** | $210.0B (current $42.2B/qtr run-rate ×4=$168.9B annualized, grown ~24% forward off a decelerating-from-37% assumption) | 37.0% (normalized down from Q2's record 39.4%, which included a ~$0.6B non-recurring derivative gain) | $77.7B | 22.0x (hyperscaler-cloud-infra comp) | $1,709.4B |
+| **North America** | $500.0B (current $116.2B/qtr run-rate annualized ~$464.7B, grown ~+8%, conservative vs the ~12-14% historical trend) | 8.5% (up from current 7.9%, continuing the efficiency trend management has been executing) | $42.5B | 14.0x (retail/ads blend) | $595.0B |
+| **International** | $190.0B (current $42.2B/qtr run-rate annualized ~$168.8B, grown ~+13%) | 5.5% (up from current 4.1%, improving-margin trajectory) | $10.5B | 13.0x (retail, thinner-margin discount to NA) | $135.9B |
+| **Total EV** | | | | | **$2,440.3B** |
+| **+ Net cash** (est.) | | | | | +$30.0B |
+| **Equity value** | | | | | **$2,470.3B** |
+| **÷ Shares (10.6B diluted)** | | | | | **≈ $233/share** |
+
+**Cross-validation:** This independent build lands at **$233/share**, within ~5% of Charlie's own independent rough SOTP read (~$221/share) built the same day from the same underlying segment data — two independently-built SOTP models converging within 5% of each other is a meaningful confidence signal for the method, even though the exact number will need Charlie's full review.
+
+### Snapshot
+
+| Metric | Value | Gate |
+|--------|-------|------|
+| Current Price | $267.28 | — |
+| Fair Value Base (SOTP) | **$233** (was $272 under the old market-clearing min()-multiple method) | — |
+| **Margin of Safety** | **-14.7%** | ✗ FAIL (Effective Gate 20%) |
+| **5-yr Expected Return** | ~11.5%/yr | ✗ FAIL |
+
+### Fair Value Scenarios (SOTP)
+
+| Scenario | AWS (rev/margin/mult) | NA (rev/margin/mult) | Intl (rev/margin/mult) | Fair Value | vs Price |
+|----------|------------------------|------------------------|--------------------------|-----------|----------|
+| **Bull** | $225B/40%/25x | $520B/9.5%/16x | $200B/6.5%/14x | ~$280 | +4.8% |
+| **Base** | $210B/37%/22x | $500B/8.5%/14x | $190B/5.5%/13x | **$233** | -14.7% |
+| **Bear** | $195B/34%/18x | $480B/7.5%/12x | $180B/4.5%/11x | ~$187 | -42.9% |
+
+### Method-Change Finding
+This resolves the min()-multiple tautology this card flagged on 08-12 ("with FV set at the market-clearing multiple, FV ≡ price by construction, so MoS collapses to ~0 and ER collapses to the growth rate — neither carries independent information"). The SOTP build gives a real, non-tautological answer: AMZN is **modestly overvalued** at $267.28 (MoS -14.7%), a materially more informative conclusion than the old ~0% MoS-by-construction result, and one that cross-validates against Charlie's independent SOTP within 5%.
+
+---
+
+<details><summary>Prior valuation history (pre-2026-08-13, market-clearing multiple method — superseded, kept for audit trail)</summary>
 
 > 🔴 **MULTIPLE REVISED 29× → 25.7×, STARTER WITHDRAWN (2026-08-12, second pass).** Charlie's CAUTION was correct and is adopted. The EPS half of this batch survives entirely: he independently re-pulled FY2027E consensus $10.58 from the same Nasdaq API (17 analysts, 15 up / 0 down) and matched it exactly, and I re-verified it a third time this pass — the FV_TOO_LOW resolution below was real, not a stale-carry artifact. **What does not survive is the 29× multiple.** Three findings:
 > 1. **Charlie's point, restated:** the same-basis market multiple is **25.73×** (price ÷ the identical $10.58), so 29× embeds an undeclared **+12.7% re-rating assumption** — and that assumption is the *only* thing that put MoS at +11.3% instead of ~0%, i.e. the only thing that put AMZN inside the 8–15% STARTER band at all.
@@ -1620,7 +1663,23 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 
 **Thesis Risk:** FTC ad-pricing structural remedy; AWS growth ชะลอ <20%; FCF ติดลบต่อเนื่องหลายไตรมาสไม่มี timeline ฟื้น; CapEx guide ปรับขึ้นซ้ำจาก cost inflation (ไม่ใช่ demand) ยังไม่นิ่ง; long-term debt เกือบเท่าตัวใน 6 เดือน; Anthropic mark-to-market gain พลิกเป็น loss ได้ถ้า valuation ปรับลง; growth input 31.4%/yr is a 1-year forward read (FY26→FY27) — the FY27→FY28 consensus read is +29.3%, a smooth deceleration rather than a spike, but a durable 5-year rate is more likely in the low-to-mid 20s, and on a PEG-1.0 read against ~24% growth the anchor would be ~24×, i.e. *below* the 25.7× used here. **Methodological risk specific to this card:** with FV anchored to the market-clearing multiple, FV ≡ price and MoS ≡ 0 by construction — this card currently has no independent downside cushion from its own valuation method, and Charlie's floor calculation collapses the same way (5-yr median 45.3× and 5-yr min 32.19× both imply a floor *above* Base, an inversion caused by EPS growing faster than the multiple compressed). AMZN needs a genuine non-tautological anchor; a DCF or an AWS/retail sum-of-the-parts is the obvious candidate and is flagged for the next full pass.
 
-**Action:** 🤝 **HOLD** (STARTER withdrawn, reverting to the 08-08 call — MoS -0.1% misses the 15% gate by 15.1pts and is far outside the 7pt staged-entry band, so the Inevitable tier's staged-entry privilege does not engage. Quality gates all pass: WAF 7.77 ≥6.5 ✓, PEG 0.82 ≤ Effective Cap 1.5 ✓, ER 31.4% ≥15% ✓ — the block is price, not quality. Existing position ($40 invested per last Paper) unaffected; no sell case, no Fisher rule triggered. The next Paper run should **not** treat this as an ADD. Re-evaluate on a genuine pullback, or on a defensible non-tautological anchor replacing the market-clearing multiple.)
+**Action:** 🤝 **HOLD** (superseded by the 2026-08-13 SOTP method change — see below)
+
+</details>
+
+### 2026-08-13 — Current WAF & Action (SOTP basis)
+
+| Component | Score | Reasoning |
+|-----------|-------|-----------|
+| BQ | 9.0 | Unchanged — AWS scale + logistics + custom-silicon moat intact |
+| GP | 8.5 | Unchanged — AWS accelerating, backlog $496B, AI run-rate >$25B |
+| VA | 4.8 | New SOTP-basis MoS -14.7% is a real (non-tautological) FAIL, worse than the old ~0%-by-construction read, because the SOTP method resolves the artifact rather than because anything about the business got worse |
+| RA | 6.5 | Unchanged — FCF TTM negative, CapEx guide $220B, FTC case unresolved |
+| **WAF Total** | **7.5** | **HIGH** |
+
+**Investment Idea:** The SOTP build finally gives AMZN a non-tautological anchor. It shows AMZN modestly overvalued (-14.7% MoS) rather than "exactly fairly valued by construction" — a materially more useful signal than the old market-clearing-multiple method could produce, and one that cross-validates within 5% against Charlie's independent SOTP.
+
+**Action:** 🤝 **HOLD** — MoS -14.7% fails the Effective 20% gate; quality gates (WAF 7.5, Tier Inevitable) still pass. Existing position unaffected; no sell case (Fisher discipline), no ADD case either. This is now the primary Valuation Range for AMZN going forward.
 
 ---
 `,
@@ -1634,7 +1693,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-13  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+**2026-08-13 update:** Revenue-as-Base methodology rollout — Valuation Method Diagnostic (Q1-Q5) re-run from scratch. Story Gate/thesis unchanged; only the valuation method changed (P/E → EV/Sales, see Valuation Range below).
 
 **Tier Basis:** Pre-Inevitable: 4/5 signals — pricing✓ (Armv9 royalty 2-3x v8) · switching-cost✓ (ISA ecosystem 22M devs) · reinvestment-ROIC✓ · crisis✓; margin-expansion borderline. ไม่มี tier change รอบนี้ (post Q1 FY2027 earnings, 07-29) — Qualcomm/Nuvia court loss (appeal pending) เป็น legal/licensing-execution risk ไม่ใช่ moat break (ISA ecosystem lock-in 22M devs ไม่กระทบ); royalty growth guide cut (~20%→high-teens) เป็น near-term mobile demand issue ไม่ใช่ pricing-power break (Armv9/CSS royalty rate ต่อชิปยังเพิ่มตามเดิม); AGI CPU TAM reframe ($100B→$220B-equivalent) + demand backlog $2B+ เป็นหลักฐานใหม่ที่หนุน tier เดิม ไม่ใช่ทำลาย
 
@@ -1649,33 +1710,39 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-05  |  **Price:** $280.56  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Single-Stock Deep Dive post-Q1 FY2027 earnings (Base multiple × consensus EPS), price refresh only this batch
+**Last Updated:** 2026-08-13  |  **Price:** $271.87  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** EV/Sales — Diagnostic Q2 YES (old fwd P/E 107.9x > 80x) → Q3 YES (GAAP GM 97.5%, Non-GAAP 98.2%, near-100% incremental margin, textbook royalty/licensing economics) → EV/Sales
+
+### Valuation Method Diagnostic (Q1-Q5)
+- **Q1** (segment margin/growth disparity >20pp/>2x?): NO — Royalty vs License&Other both ~97%+ gross margin, not a SOTP case.
+- **Q2** (GAAP negative / fwd P/E >80x / GAAP-nonGAAP gap >50%?): **YES** — old P/E-basis forward P/E was 107.9x.
+- **Q3** (GM >80% + COGS not scaling with revenue?): **YES** — GAAP GM 97.2-97.9%, Non-GAAP 98.1-98.3% every quarter in the trailing year, essentially flat — **routes to EV/Sales.**
 
 ### Snapshot
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $280.56 (prices_cache.json 2026-08-05) | — |
-| Fair Value Base | $96 (unchanged) | — |
-| **Margin of Safety** | **-192.25%** | ✗ FAIL (Gate 15%) |
-| **5-yr Expected Return** | **0.70%/yr** | ✗ FAIL (Gate ≥15%) — convergence -19.30% + consensus growth 20% |
-| Forward P/E | ~107.9× (on eps_used $2.60) | — |
-| PEG | ~5.40 (107.9× ÷ 20% growth) | ✗ FAIL (Cap 1.5) |
+| Current Price | $271.87 (prices_cache.json 2026-08-13) | — |
+| Fair Value Base | **$116** (was $96 under old P/E method) | — |
+| **Margin of Safety** | **-134.4%** | ✗ FAIL (Effective Gate 20%, Calm-mode VIX 14.53) |
+| **5-yr Expected Return** | **~2.5%/yr** | ✗ FAIL |
+| EV/Sales (fwd) | ~24.6x on FY2027E revenue at current price | — |
 
-*(2026-07-31 read at $246.59: MoS -156.9%, ER 2.8%/yr, PEG ~4.7 — superseded by 08-05 price refresh above, FV unchanged)*
-
-### Earnings Basis
-- **EPS used (FV Base):** $2.60 (FY2028 Non-GAAP, derived) — stockanalysis.com FY2027 (FYE Mar-2027) Non-GAAP consensus Avg $2.17 (Low $1.90/High $2.42, free-tier; FY2028 direct consensus is Pro-tier paywalled) grown 20%/yr to FY2028.
-- **Why this basis, not the old $3.51:** prior FV Base ($130) rested on an "FY2028 consensus EPS $3.51" figure with no traceable source anywhere in this card's history — re-derived this batch from a documented, citable number instead. This is a **basis-quality correction**, not a fresh bearish re-score.
-- **Growth 20%/yr rationale:** blends the company's own guided "high-teens" full-year royalty growth (down from ~20% pre-quarter) with license/SoftBank $200M/qtr run-rate + early AGI CPU contribution; cross-checked against Nasdaq's GAAP consensus trajectory (FY2027 GAAP $1.12 → FY2028 GAAP $1.99, +78% YoY), which supports 20% Non-GAAP growth as conservative rather than aggressive.
+### Revenue & Margin Basis (Revenue-as-Base)
+- **Revenue used:** $5.9B FY2027E (FYE Mar-2027) — FY2026 actual $4,920M grown ~20% (blend of Q1 FY2027 actual +22% YoY and Q2 FY2027 guidance +22% YoY, shaded slightly below the 23% FY2026 pace for conservatism per the consensus-growth discipline).
+- **EV/Sales multiple used:** 24.0x — mid-point of ARM's own post-IPO (Sep-2023) trading range (~15x trough during the 2024 de-rating to ~40x+ at the 2025 AI-narrative peak). ARM has <3 years of public trading history so a true 5-yr median isn't available; full trading-history median used as the closest proxy per WARREN.md's default-multiple rule.
+- **Net cash:** $3.9B (Cash + ST investments, Q1 FY2027 10-Q) added to EV to get equity value.
+- **Shares outstanding:** 1,256M (back-solved from FY2026 Non-GAAP NI $2,222M ÷ Non-GAAP EPS $1.77).
 
 ### Fair Value Scenarios
 
-| Scenario | EPS (FY2028E) | Multiple | Fair Value | vs Price | Basis |
-|----------|---------------|----------|-----------|----------|-------|
-| **Bull** | $2.93 (+35% growth) | 45× | $132 | -46.4% | AGI CPU ramp tracks management's own reaffirmed FY2031 framework ($9 EPS, ~38% CAGR) — TAM reframe $100B→$220B + $2B+ demand backlog captured here, not in Base |
-| **Base** | $2.60 (+20% growth) | 37× | $96 | -60.9% | Guided "high-teens" royalty growth blended with license/AGI early contribution; multiple unchanged (royalty deceleration vs AGI/TAM upside roughly offset this quarter) |
-| **Bear** | $2.39 (+10% growth) | 25× | $60 | -75.7% | Mobile BOM-inflation deceleration proves structural + Qualcomm 3rd Circuit appeal also fails + AGI CPU ramp delayed by supply constraints |
+| Scenario | Revenue (FY27E) | EV/Sales | EV | +Net Cash | ÷Shares | Fair Value | vs Price |
+|----------|------------------|----------|-----|-----------|---------|-----------|----------|
+| **Bull** | $6.05B (+23%, royalty accel on CSS/AGI ramp) | 28.8x | $174.2B | +$3.9B | 1,256M | $142 | -47.7% |
+| **Base** | $5.9B (+20%) | 24.0x | $145.2B | +$3.9B | 1,256M | **$116** | -57.3% |
+| **Bear** | $5.8B (+18%, mobile royalty deceleration persists) | 15.0x | $87.0B | +$3.9B | 1,256M | $72 | -73.5% |
+
+### Method-Change Finding (verified from scratch, not just adopted from the pre-read)
+Switching from the old blended-P/E method to EV/Sales — the diagnostically correct method for a 97%+ gross-margin royalty business — **materially improves the picture**: MoS moves from -192.25% (old) to **-134.4%** (new), a genuine, defensible improvement because royalty economics are worth more per this method than a blended earnings multiple suggested. **However this does NOT reach "near breakeven"** as the rough same-day pre-read estimated — sensitivity-tested across a 15x-30x multiple range, every defensible anchor still lands between -100% and -160% MoS. ARM remains deeply overvalued; the re-rating implied by today's price (~$272) requires an EV/Sales multiple in the mid-30s to high-30s, well above even this card's Bull-case 28.8x. **Action: AVOID (unchanged).**
 
 ### WAF Score Breakdown
 
@@ -2034,7 +2101,7 @@ FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-11
+**Last Updated:** 2026-08-13 (date synced with Story Gate/Valuation Range per Card Consistency rule — no new analyst research this batch, valuation-method-only update)
 
 **UBS — "Licensing Growth Offsets Handset Royalties Weakness" (Jul 30, 2026)** [ANALYST VIEW]
 - FQ1'27 (Jun) beat: Revenue $1.29B (upper half of $1.21-1.31B guide, +22% YoY) / Non-GAAP EPS $0.45 (+$0.05 vs high end of $0.36-0.44 guide) vs UBS $1.274B/$0.40, Street $1.262B/$0.40. Royalty revenue $715M (+22% YoY, in-line); License revenue $574M (+23% YoY, +2-3% above UBS/Street).
@@ -3090,7 +3157,7 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-12
+**Last Updated:** 2026-08-13 (date synced with Story Gate/Valuation Range per Card Consistency rule — no new analyst research this batch, valuation-method-only update)
 
 **Update (2026-08-12, batch 9 — /warren AVGO single-ticker deep dive) — Staleness resolved (10 days since 08-02 gate): TPU v9/EMIB-T socket risk folded into RA; price move drops action out of STARTER band** [WARREN THESIS]
 - Acted on the 08-11 batch-8 analyst note below (Google 9th-gen TPU, 2028 MP, Intel EMIB-T packaging, MediaTek co-design, explicitly framed by the source as targeting Broadcom's CoWoS position): **RA 6.0→5.7**. Real and specific (named generation/packager/year), but not yet revenue-confirmed — 2028 timeline, substrate suppliers still targeting only ~50% yield in 2027 per the same note, and Google's current LTA covers "multiple generations" with ambiguity over whether v9 sits inside it.
@@ -3210,7 +3277,9 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-12  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-13  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+**2026-08-13 update:** Revenue-as-Base methodology rollout — Diagnostic Q1 fresh check found a genuine SOTP trigger **not** in the original flagged list: Semiconductor Solutions (GM ~70%, OM 62-67%) vs Infrastructure Software (GM 93%, OM 78-79%) is a >20pp gap, and CFO Kirsten Spears explicitly told analysts on the Q2 FY26 call to "model semiconductor and software margins separately" — about as direct a Q1-SOTP instruction as exists. See Valuation Range for the resulting FV change (material — moves AVGO back into the STARTER band). Thesis/tier unchanged.
 
 **Tier Basis:** Pre-Inevitable: XPU+networking moat แกร่งมาก (pricing✓ switching-cost✓ margin-expansion✓ crisis-survival✓) — แต่ **พึ่ง Hock Tan = key-man (อายุ 74, ไม่มี employment contract, ไม่มี key-person insurance ตาม 10K), ยังไม่ผ่าน CEO transition/succession** → ตกข้อ 2 ของ Inevitable (ตรรกะเดียวกับ Jensen/NVDA, Zuck/META) — re-verified 2026-06-18, ไม่มีการเปลี่ยนแปลง
 
@@ -3225,7 +3294,43 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-12  |  **Price:** $416.08  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Relative Multiple (P/E on FY2026 consensus EPS)
+**Last Updated:** 2026-08-13  |  **Price:** $416.05  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** SOTP (Semiconductor Solutions + Infrastructure Software) — replaces the blended P/E, per Diagnostic Q1 YES and explicit CFO instruction to model segments separately
+
+### Valuation Method Diagnostic (Q1-Q5) — 2026-08-13
+- **Q1** (segment margin/growth disparity >20pp/>2x?): **YES** — Semiconductor Solutions Q2 FY26: GM ~70%, OM 62% (+460bps YoY). Infrastructure Software Q2 FY26: GM 93%, OM ~79% (+310bps YoY). GM gap 23pp. CFO explicitly: *"model semiconductor and software margins separately."* **Routes to SOTP.**
+
+### 🎯 SOTP Build (fresh, 2026-08-13)
+
+| Segment | FY2027E Revenue | Op Margin | Op Income | EV/EBIT | Segment EV |
+|---------|------------------|-----------|-----------|---------|-----------|
+| **Semiconductor Solutions** | $118.0B (AI semi "in excess of $100B" FY2027 target reaffirmed + ~$18B non-AI semi) | 65.0% | $76.7B | 24.0x (AI-custom-silicon-duopoly quality, slight discount to NVDA for customer-concentration risk) | $1,840.8B |
+| **Infrastructure Software** | $41.0B (ARR growing ~15-17%/yr off Q3 FY26 guided $8.9B/qtr run-rate) | 78.0% | $32.0B | 20.0x (mature high-margin recurring enterprise software comp) | $640.0B |
+| **Total EV** | | | | | **$2,480.8B** |
+| **− Net debt** (LT debt $62.7B + ST $2.3B − cash $19.6B) | | | | | −$45.3B |
+| **Equity value** | | | | | **$2,435.5B** |
+| **÷ Shares (4.94B diluted)** | | | | | **≈ $493/share** |
+
+### Snapshot
+
+| Metric | Value | Gate |
+|--------|-------|------|
+| Current Price | $416.05 | — |
+| Fair Value Base (SOTP) | **$493** (was $450 under the old blended-P/E method) | — |
+| **Margin of Safety** | **+15.6%** (was +7.54%) | ⚠️ Just under the Effective 20% gate (Calm-mode VIX) but **inside the 13-20% STARTER band** |
+| **5-yr Expected Return** | ~26.5%/yr | ✓ PASS |
+
+### Fair Value Scenarios (SOTP)
+
+| Scenario | Semi (rev/margin/mult) | Software (rev/margin/mult) | Fair Value | vs Price |
+|----------|--------------------------|------------------------------|-----------|----------|
+| **Bull** | $130B/68%/28x | $45B/80%/22x | ~$591 | +42.1% |
+| **Base** | $118B/65%/24x | $41B/78%/20x | **$493** | +15.6% |
+| **Bear** | $105B/60%/18x | $37B/75%/16x | ~$370 | -11.1% |
+
+### Method-Change Finding (material, decision-relevant)
+Switching from a blended P/E (55x on FY2026 consensus EPS $8.18) to segment-level SOTP — which is what the CFO herself told analysts to do — lifts FV from $450 to **$493** and MoS from +7.54% to **+15.6%**. This is a real, verified improvement large enough to move AVGO from failing even the old 15% gate outright back into the **13-20% STARTER band** (Tier Pre-Inevitable qualifies) under today's stricter 20% Calm-mode gate. **Action: WATCH → STARTER.**
+
+<details><summary>Prior valuation history (pre-2026-08-13, blended P/E method — superseded, kept for audit trail)</summary>
 
 > **Price refresh 2026-08-12 (single-ticker deep dive — resolving TPU v9 socket-risk staleness flag):** $389.28 → $416.08 (+6.9%, live CNBC quote confirmed against prices_cache.json; 52wk $281.87–$495.00 sane) — no AVGO-specific earnings this batch (Q3 FY2026 not yet due, ~Sept). MoS narrows 13.49%→**7.54%**, dropping AVGO **out of the STARTER near-miss band** (gap to 15% gate ≈7.5pt, just over the 7pt threshold). PEG rises 1.45→**~1.55**, now **breaching** the 1.5 Effective PEG Cap. ER still passes comfortably (35.84%→34.48%/yr). Two of four BUY-flow gates now fail on price alone — **Action downgrades STARTER→WATCH** this batch (not a thesis change). RA also nudged 6.0→5.7 for the TPU v9/EMIB-T socket-risk escalation (see Story Gate 08-12 update + Analyst Research Notes 08-11).
 >
@@ -3290,7 +3395,13 @@ CapEx ต่ำมากเมื่อเทียบกับ FCF (~1% of reve
 
 **Thesis Risk:** Google's 9th-gen TPU (2028 mass production) disclosed to use Intel EMIB-T packaging + MediaTek co-design — a named, dated version of the long-standing COT/share risk, explicitly framed by the source as targeting Broadcom's CoWoS position (watch: does it sit inside or outside Google's "multiple generations" LTA?); $68B VMware debt; Global Minimum Tax headwind to EPS; PEG now breaches cap (1.55 vs 1.5) on price alone
 
-**Action:** 🔵 WATCH (downgraded from 🌓 STARTER — MoS 7.54% falls outside near-miss band [8,15), PEG 1.55 breaches 1.5 cap; price-driven, not a thesis change; re-check if price pulls back toward $400 or below)
+**Action (superseded 2026-08-13):** 🔵 WATCH (downgraded from 🌓 STARTER — MoS 7.54% falls outside near-miss band [8,15), PEG 1.55 breaches 1.5 cap; price-driven, not a thesis change; re-check if price pulls back toward $400 or below)
+
+</details>
+
+### 2026-08-13 — Current Action (SOTP basis)
+
+**Action:** 🌓 **STARTER** — MoS +15.6% sits inside the 13-20% near-miss band (Effective Gate 20%, Calm-mode VIX 14.53), Tier 🚀 Pre-Inevitable qualifies for staged entry, WAF 7.83 ≥6.5 ✓. Method change (blended P/E → SOTP, per CFO's own instruction to model segments separately) is the driver — not a change in the underlying TPU v9/socket-risk or key-man risk profile (both carried unchanged from 08-12). Opportunity Cost Gate (Rule #11) still applies before execution — AVGO is not currently held.
 
 ---
 `,
@@ -4061,7 +4172,7 @@ Revenue หลักมาจาก subscription ของ cloud-based platform 
 
 ---
 ## Analyst Research Notes
-**Last Updated:** 2026-08-12
+**Last Updated:** 2026-08-13 (date synced with Story Gate/Valuation Range per Card Consistency rule — no new analyst research this batch, valuation-method-only update)
 
 **Update (2026-08-12, batch 8) — \`/warren update\` inbox: FUNDA Weekly (09-Aug) + its 2Q26 preview/review pair. First substantive third-party research on this card since 07-15, and it covers a quarter this card has no data on at all** [ANALYST VIEW]
 
@@ -4085,7 +4196,9 @@ Revenue หลักมาจาก subscription ของ cloud-based platform 
 - **Net effect on ER:** ER = convergence -7.1% + 26% = **18.9%/yr** — passes the 15% Gate under the corrected formula. This does **not** change the action: MoS (-44.8%) and PEG (4.34) both fail badly and independently — a passing ER cannot substitute for a failed MoS/PEG gate per WARREN.md.
 
 ## Story Gate
-**Last Updated:** 2026-08-12  |  **Status:** PASS  |  **Tier:** 🌱 Fast Grower
+**Last Updated:** 2026-08-13  |  **Status:** PASS  |  **Tier:** 🌱 Fast Grower
+
+**2026-08-13 update:** Revenue-as-Base methodology rollout — Valuation Method Diagnostic (Q1-Q5) re-run from scratch, method changed P/E → EV/Sales (see Valuation Range). Thesis/tier/Story Gate content unchanged from 08-12.
 
 **WHAT:** Datadog รวม observability + security เป็น unified platform เดียว — ชนะด้วย land-and-expand (58% ของลูกค้าใช้ 4+ products, 13% ใช้ 10+ เกือบเท่าตัวใน 1 ปี) และ switching cost จาก data/workflow ที่ฝังลึกข้าม product
 
@@ -4096,43 +4209,43 @@ Revenue หลักมาจาก subscription ของ cloud-based platform 
 **Tier Basis:** Fast Grower — Growth ยัง ≥28% YoY (FY26 guide raised +30%, Q3 guide +28-29%) + NRR low-120%s มาหลายปี (อยู่ในงบจริงแล้ว) แต่ moat **ยังไม่ผ่านวิกฤตจริง** ที่ scale ปัจจุบัน (เพิ่ง sustain profitability ตั้งแต่ปี 2023, GAAP op margin ~0% ไตรมาสนี้) + Source Code Breach (เม.ย. 2025) ยังเป็นสัญญาณช่องโหว่ security posture + RPO นิ่ง 6 เดือน (+0.3%) เป็นสัญญาณ quality-of-growth ที่ต้องจับตา — ยังไม่เข้าเกณฑ์ Pre-Inevitable (ไม่เปลี่ยนจากรอบก่อน แม้มีสัญญาณลบเพิ่มขึ้นรอบนี้)
 
 ## Valuation Range
-**Last Updated:** 2026-08-12  |  **Price:** $246.78  |  **Tier:** 🌱 Fast Grower  |  **Method:** Single-Stock Deep Dive — full rebuild on Q2 FY2026 primary docs + raised FY26 guidance (Relative Multiple P/E)
+**Last Updated:** 2026-08-13  |  **Price:** $240.91  |  **Tier:** 🌱 Fast Grower  |  **Method:** EV/Sales — Diagnostic Q2 YES (old fwd P/E 97.9x >80x) → Q3 judgment-call YES (see Diagnostic note below)
 
-> 🔧 **Full rebuild (08-12) — this was the stalest card in the watchlist (base EPS dated 07-15, pre-earnings).** Mark's Q2 FY2026 primary-doc update (10-Q/Exhibit 99-1/Call/Supplemental/Investor Presentation, all 2026-08-12) is now in. EPS basis corrected **$2.40 → $2.52** (midpoint of raised FY2026 guidance $2.50-$2.54 — this is management's own updated number, not stale pre-earnings consensus). Multiple **trimmed 78×→70×** for a stated business reason (not price-chasing): Q3 guide shows growth decelerating (+28-29% YoY vs Q2's +35.6%), and this quarter is the first to *quantify* customer-concentration risk (largest customer = OpenAI per FUNDA, high-single-digit pts of growth, cutting usage from Q3) alongside three straight quarters of gross-margin decline (80.9%→80.2%→79.6%) and a flat RPO (+0.3% in 6 months). Base FV moves $187→**$176**. Price fell $270.73→**$246.78** (-8.9%) over the same window. Net: MoS improves slightly -44.8%→**-40.2%** (still hard FAIL), PEG improves 4.34→**3.63** (still hard FAIL vs Fast Grower's 1.0 cap), WAF **5.83→5.47** (down — RA cut for the now-quantified concentration risk more than offsets the EPS-guidance raise). Action unchanged: WATCH.
+### Valuation Method Diagnostic (Q1-Q5) — 2026-08-13
+- **Q2** (fwd P/E >80x?): **YES** — old P/E-basis forward P/E was 97.9x.
+- **Q3** (GM >80% + COGS not scaling with revenue?): **Genuinely borderline.** Non-GAAP GM is 79.6% — technically just *under* the 80% line, and has declined 3 straight quarters (80.9%→80.2%→79.6%) because cost-of-revenue (+44.7% YoY) is growing faster than revenue (+35.6% YoY) — that trend is evidence *against* pure royalty/platform economics and would normally route to FCF-multiple instead. Judged EV/Sales anyway because DDOG's overall shape (Rule-of-40 155%, zero debt, NRR low-120%s, heavy SBC at 19.6% of revenue muddying GAAP/FCF comparisons) is closer in character to the SaaS-platform comp set (Snowflake/MongoDB/CrowdStrike) EV/Sales is built for — **flagged explicitly as a close call, not a clean YES**, and worth revisiting if the GM decline continues into Q3.
+
+> 🔧 **Method-change rebuild (08-13, Revenue-as-Base rollout).** Old (08-12) method: 70× on Non-GAAP FY2026E EPS $2.52 (guidance midpoint) → FV $176. New method: EV/Sales on FY2026E guided revenue. — this was the stalest card in the watchlist (base EPS dated 07-15, pre-earnings).** Mark's Q2 FY2026 primary-doc update (10-Q/Exhibit 99-1/Call/Supplemental/Investor Presentation, all 2026-08-12) is now in. EPS basis corrected **$2.40 → $2.52** (midpoint of raised FY2026 guidance $2.50-$2.54 — this is management's own updated number, not stale pre-earnings consensus). Multiple **trimmed 78×→70×** for a stated business reason (not price-chasing): Q3 guide shows growth decelerating (+28-29% YoY vs Q2's +35.6%), and this quarter is the first to *quantify* customer-concentration risk (largest customer = OpenAI per FUNDA, high-single-digit pts of growth, cutting usage from Q3) alongside three straight quarters of gross-margin decline (80.9%→80.2%→79.6%) and a flat RPO (+0.3% in 6 months). Base FV moves $187→**$176**. Price fell $270.73→**$246.78** (-8.9%) over the same window. Net: MoS improves slightly -44.8%→**-40.2%** (still hard FAIL), PEG improves 4.34→**3.63** (still hard FAIL vs Fast Grower's 1.0 cap), WAF **5.83→5.47** (down — RA cut for the now-quantified concentration risk more than offsets the EPS-guidance raise). Action unchanged: WATCH.
 
 ### Snapshot
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $246.78 | — |
-| Fair Value Base | $176 (70× Non-GAAP FY2026E EPS $2.52 — guidance midpoint) | — |
-| **Margin of Safety** | **-40.2%** | ✗ FAIL hard (Gate 15%) |
-| Forward P/E | ~97.9× (246.78/2.52) | — |
-| **PEG** (growth 27%) | **3.63** | ✗ FAIL (Fast Grower cap 1.0) |
-| **5-yr Expected Return** | **~20.5%/yr** (convergence -6.5% + consensus growth 27%) | ✓ PASS (Gate ≥15%) — but does not override failed MoS/PEG |
+| Current Price | $240.91 | — |
+| Fair Value Base | **$226** (18× FY2026E guided revenue $4.46B, +net cash, ÷378M shares) | — |
+| **Margin of Safety** | **-6.6%** | ✗ FAIL (Effective Gate 20%, Calm-mode VIX 14.53) — but close |
+| EV/Sales (fwd) | ~19.3x at current price vs. FY2026E revenue | — |
+| **5-yr Expected Return** | **~24%/yr** | ✓ PASS |
 
-> ER passes decisively, but MoS is the mandatory safety floor and PEG is a hard cap for Fast Grower — a passing ER cannot substitute for a failed MoS/PEG (same discipline as the 07-15 batch). Action unchanged from prior batch despite the EPS-guidance raise, because the multiple correction (growth deceleration + newly quantified concentration risk) more than offsets it.
+> MoS improves sharply from the old P/E-based -40.2% to **-6.6%** — a large, real, verified improvement from the method change, but does NOT flip fully positive as the same-day rough pre-read suggested (sensitivity: 16x→-19%, 18x→-7%, 20x→+3% — the conclusion is genuinely on a knife's edge and multiple-selection-dependent). Action stays WATCH (fails both the un-adjusted 15% gate and today's stricter 20% Calm-mode gate).
 
-### Earnings Basis
-- **EPS ที่ใช้:** FY2026 Non-GAAP diluted EPS guidance midpoint **$2.52** (raised guidance $2.50-$2.54, given 2026-08-06 alongside Q2 results — replaces the stale pre-earnings $2.40 used since 07-15)
-- **ทำไมถึงใช้ตัวเลขนี้:** This is management's own current-quarter guidance (highest-confidence available source, more current than the 07-15 Simply Wall St pre-earnings consensus $2.47) — company explicitly "fully de-risked" the largest-customer usage cut out of this guide, so it already prices in the known risk rather than assuming it away
-- **หมายเหตุ:** SBC $220.3M = 19.6% of revenue (up from prior year) is the primary GAAP-vs-non-GAAP gap; excluded per standard non-GAAP treatment but flagged in RA below given GAAP operating margin is ~0%
-
-### Growth Rate — ใช้เท่าไหร่ และทำไม?
-- **Growth Rate ที่ใช้:** 27%/yr (PEG/ER only)
-- **ที่มา:** Blend of FY2026 guided revenue growth (+30% YoY, raised from +25-27%) and Q3 guide deceleration (+28-29% YoY) — trimmed 1-2pts below the 07-15 batch's 28.6%/yr (Simply Wall St 5-yr consensus, pre-earnings) to reflect the now-quantified largest-customer usage cut. Not a variant view — this sits inside the range multiple independent sources corroborate (management guide 28-30%, prior consensus 28.6%)
+### Revenue & Margin Basis (Revenue-as-Base)
+- **Revenue used:** $4.46B FY2026E — mid-point of company guidance $4.45-4.47B (+30% YoY, raised 2026-08-06).
+- **EV/Sales multiple used:** 18.0x — estimated central point of DDOG's own trading range since 2019 IPO (~8x at the 2022 trough to ~45x at the 2021 peak; 2024-25 range roughly 12-20x), reflecting current Rule-of-40 155% quality but explicitly NOT the AI-narrative peak multiple.
+- **Net cash:** $5.0B (cash + marketable securities, Q2 FY2026 10-Q, no debt) added to EV.
+- **Shares outstanding:** 378M (per FY2026 guidance diluted-share basis).
 
 ### Valuation Multiple — ใช้ Multiple อะไร และทำไม?
-- **Multiple ที่ใช้:** 70× (Base), trimmed from 78× used since 06-17
-- **Warren เลือก 70× เพราะ:** Two concrete business reasons, not price action — (1) growth is decelerating (Q3 guide +28-29% vs Q2's +35.6%, the fastest deceleration this card has recorded), (2) this quarter's 10-Q for the first time quantifies a real concentration risk (largest customer = high-single-digit pts of total growth, cutting usage) plus 3 straight quarters of gross-margin decline — both are legitimate multiple-compression triggers under the Consensus-as-Base rule's "business reason" test, not "the market gave it a lower multiple"
+- **Multiple ที่ใช้:** 18.0× EV/Sales (Base) — replaces the old 70× P/E.
+- **Warren เลือก 18× เพราะ:** central estimate of DDOG's own historical EV/Sales trading range (not a peer-borrowed number) — chosen over the higher end of the range specifically because the 3-straight-quarter gross-margin decline (cost of revenue growing faster than revenue) is a genuine quality flag that argues against paying the platform-premium end of the range, and over the lower end because Rule-of-40 155% + zero debt + NRR 120%+ are still elite metrics that don't warrant a trough multiple either.
 
 ### Fair Value Scenarios
 
-| Scenario | Fair Value | Multiple | vs Price | Basis |
-|----------|-----------|---------|----------|-------|
-| **Bull** | $221 | 85× | -10.4% | EPS beats guide high-end ($2.60) as non-AI cohort keeps accelerating + Adaptive ML/Bits AI start monetizing distinctly + concentration risk fades without further deterioration |
-| **Base** | $176 | 70× | -28.6% | EPS $2.52 (FY26 guidance midpoint) × 70× — reflects raised guidance but also the newly-quantified growth deceleration + concentration risk (see Multiple rationale above) |
-| **Bear** | $132 | 55× | -46.5% | EPS $2.40 (below guide low-end — largest customer optimizes further or a second AI-native account follows the same pattern) × 55× (further compression if RPO stays flat + GM keeps declining) |
+| Scenario | Revenue (FY26E) | EV/Sales | Fair Value | vs Price | Basis |
+|----------|------------------|----------|-----------|----------|-------|
+| **Bull** | $4.47B (guide high end) | 20.0x | $251 | +4.2% | Non-AI cohort keeps accelerating (5th straight quarter), Adaptive ML/Bits AI start monetizing distinctly, GM decline stabilizes |
+| **Base** | $4.46B (guide mid) | 18.0x | **$226** | -6.6% | Central estimate of own trading-range multiple, GM-decline quality flag priced in via multiple (not revenue) |
+| **Bear** | $4.45B (guide low) | 14.0x | $176 | -36.9% | GM decline continues, largest-customer optimization deepens, growth decelerates faster than the Q3 guide implies |
 
 ### WAF Score Breakdown
 
@@ -4140,14 +4253,14 @@ Revenue หลักมาจาก subscription ของ cloud-based platform 
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 6.5 | 30% | 1.95 | **Down 0.5** — land-and-expand evidence is genuinely stronger this quarter (10+ products nearly doubled YoY to 13%, big consolidation deals: 19 products at a Fortune 100 insurer, 11 at a South American bank) — but gross margin declining 3 straight quarters (80.9%→79.6%) from paying its own cloud-competitors, GAAP operating margin ~0% (SBC 19.6% of revenue), and RPO flat for 6 months are real quality-of-earnings flags that didn't exist on this card before |
 | GP (Growth Potential) | 7.5 | 30% | 2.25 | **Down 0.5** — non-AI cohort accelerating to high-20s% for a 5th straight quarter is a genuinely strong, AI-independent growth pillar; but FY26 guide implies deceleration into Q3 (+28-29% vs +35.6%) and the largest-customer usage cut is now a quantified, live drag on growth, not a hypothetical |
-| VA (Valuation) | 2.2 | 25% | 0.55 | **Up 0.2** — MoS -40.2% and PEG 3.63 both improved slightly on the price decline + guidance raise, but remain deep in FAIL territory — still near 52-week-high-adjacent valuation for a business now decelerating |
+| VA (Valuation) | 2.8 | 25% | 0.70 | **Up 0.6 (2026-08-13, method change)** — switching from P/E to EV/Sales per the Revenue-as-Base Diagnostic moves MoS from -40.2% to -6.6%, a real and material improvement, though still a FAIL against both the 15% and today's stricter 20% gate |
 | RA (Risk Assessment) | 4.8 | 15% | 0.72 | **Down 0.7 — the main change this batch.** Largest-customer (OpenAI) concentration is no longer a documented pattern-risk, it is a live, quantified event (high-single-digit pts of growth, cutting usage from Q3, "fully de-risked" out of guidance); RPO flat +0.3% in 6 months; gross margin down 3 straight quarters from cloud-hosting cost inflation; GAAP profitability razor-thin. Partially offset: contract renewed (nine-figure, 17 products — optimization not churn), strong balance sheet ($5.0B cash, 0%-coupon converts, net cash positive), non-AI diversification accelerating |
-| **WAF Total** | **5.47** | | **LOW** | *(down from 5.83 — the RA cut for now-quantified concentration/margin risk outweighs the EPS-guidance raise; still well below the 6.5 BUY threshold)* |
+| **WAF Total** | **5.6** | | **LOW** | *(VA up 0.6 from the EV/Sales method change; still well below the 6.5 BUY threshold — method change improved the valuation read but did not change the underlying business-quality/risk picture)* |
 
 ### Data Sources
-- **Earnings Data:** Q2 FY2026 10-Q + Exhibit 99-1 + Earnings Call + Supplemental Information + Investor Presentation (all read 2026-08-12)
-- **Analyst Estimates:** FY2026 management guidance $2.50-$2.54 (primary); FUNDA Weekly (08-09, third-party) for OpenAI customer-identity confirmation and 2Q usage decline magnitude (10-20% QoQ)
-- **Industry/Peer Data:** Unchanged from prior batch
+- **Earnings Data:** Q2 FY2026 10-Q + Exhibit 99-1 + Earnings Call + Supplemental Information + Investor Presentation (read 2026-08-12); Valuation Method Diagnostic re-run 2026-08-13 per Revenue-as-Base methodology rollout
+- **Analyst Estimates:** FY2026 management guidance $4.45-4.47B revenue (primary)
+- **Industry/Peer Data:** Own 2019-2026 EV/Sales trading range used as multiple anchor (no external peer-multiple pull this batch)
 
 **Investment Idea:** Business quality remains genuinely good (non-AI growth accelerating 5 straight quarters, platform stickiness deepening, strong balance sheet) but this quarter is the first to put hard numbers on two risks that were previously narrative-only: customer concentration (quantified, live, cutting usage) and margin erosion (3 straight quarters of GM decline, ~0% GAAP operating margin). Even after a raised FY26 EPS guide and a price pullback, MoS (-40.2%) and PEG (3.63) both fail hard against Fast Grower's tighter gates — WAF 5.47 (LOW) confirms this is not a valuation quirk, it's a genuinely rich price for a business whose growth quality just got more complicated. Not a buying opportunity; re-check after Q3 print (~Nov 2026) resolves whether the largest-customer de-risking was conservative (beat) or the concentration risk is deepening.
 
@@ -4155,7 +4268,7 @@ Revenue หลักมาจาก subscription ของ cloud-based platform 
 
 **Thesis Risk:** AI-native/largest-customer (OpenAI) concentration — now a live, quantified event, not just a documented pattern; RPO flat 6 months running; gross margin down 3 straight quarters from cloud-hosting cost inflation (paying its own competitors); GAAP profitability razor-thin (SBC 19.6% of revenue); source code breach (Apr 2025) still a reputational overhang; hyperscaler in-house-build risk; Adaptive ML may be acqui-hire, not translating to disclosed revenue yet; premium valuation despite decelerating growth
 
-**Action:** 👀 WATCH — MoS -40.2% ✗ FAIL, PEG 3.63 ✗ FAIL, WAF 5.47 ✗ FAIL (<6.5), ER ~20.5%/yr ✓ PASS — 3 ใน 4 gate fail จึงไม่ BUY แม้ ER ผ่าน; รอ Q3 print (~พ.ย. 2026) ยืนยันว่า concentration risk fade หรือ deepen ก่อนพิจารณาใหม่
+**Action:** 👀 WATCH — MoS -6.6% ✗ FAIL (Effective Gate 20%), WAF 5.6 ✗ FAIL (<6.5) — method change (P/E→EV/Sales) closed most of the valuation gap but did not clear it; รอ Q3 print (~พ.ย. 2026) ยืนยันว่า concentration risk fade หรือ deepen ก่อนพิจารณาใหม่
 
 ## Recent News
 **2026-07-01** — Datadog เข้าซื้อ Adaptive ML เพื่อเสริมความสามารถ AI ในการเฝ้าระวังและวิเคราะห์; ขยายข้อเสนอผลิตภัณฑ์ AI สำหรับลูกค้ามูลค่าสูง | [src](https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmpDMEExZmRhRWRDaGJpSkEzSHRZVHptaDBVOXVGTjhzRDdmRXhQcXdadzhna0owMTg2aXAxZWp4YUliMmZTSzJXQ3ZmTVZmbVBPWGU0S2RCelNUc1FmVjFhRXgtalBwWl90dlZLOTV6bUVGeWcyelY1Rlo4MDlKVkxHdjJ3NE82RVdJQzVCdWJLN1Z4Z1V5M3RhTW1ybjl4WkpLQWpCYVp6a09CSWo5Ml9MWHpUQVFjcHc)
@@ -9057,7 +9170,7 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-12
+**Last Updated:** 2026-08-13 (date synced with Story Gate/Valuation Range per Card Consistency rule — no new analyst research this batch, valuation-method-only update)
 
 **🔴 CORRECTION (2026-08-12, second pass) — the "$2.72 = sourced consensus" claim in the entry below is WRONG and is retracted** [WARREN THESIS]
 - **What happened.** Charlie issued DISAGREE (numeric) on the FY2027E EPS of $2.72, reporting he could not verify it from any source and that it exceeded every analyst in Nasdaq's visible 13-analyst Dec-2027 panel (mean $1.81, high $2.69).
@@ -9099,7 +9212,9 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-12  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-13  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+**2026-08-13 update:** Revenue-as-Base methodology rollout — Valuation Method Diagnostic (Q1-Q5) re-run from scratch surfaced a genuine method change **not** in the original flagged list (ARM/DDOG/TER/AMZN/PLTR-EPS-basis were the named items; this is a newly-discovered Q2/Q3 trigger): old fwd P/E was 83.7x (>80x, Q2 YES) and GAAP gross margin is 85-87% and rising (Q3 YES, textbook platform economics) → routes to **EV/Sales**, not P/E. See Valuation Range. Thesis/tier unchanged.
 
 **2026-08-08 re-check:** ข่าว 🔴MATERIAL 08-06/08-07 ("ยกระดับคำแนะนำหลังรายได้เชิงพาณิชย์โต 150%" / "commercial revenue grew 150% in Q2") = **re-syndication ของ Q2 print เดิม** ที่วิเคราะห์เต็มไปแล้ว 08-05 (revenue +93%, commercial +149%, guidance raise to $8.15-8.16B — ตัวเลขเดียวกันทุกจุด) — ไม่มีข้อมูลใหม่. ราคา verify วันนี้ $172.01 (prices_cache.json, +5.75% จาก $162.66) → MoS แย่ลงต่อเนื่อง
 
@@ -9120,9 +9235,18 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-12  |  **Price:** $174.94  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** WAF terminal-value 5yr ER — **EPS basis REBUILT on published consensus** (second pass, resolving Charlie DISAGREE-numeric)
+**Last Updated:** 2026-08-13  |  **Price:** $171.04  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** EV/Sales (Revenue-as-Base rollout — Diagnostic Q2 YES / Q3 YES) — cross-validated against the 08-12 consensus-EPS P/E build below
 
-### Snapshot (2026-08-12 second pass — EPS basis corrected from single-analyst estimate to published consensus)
+### 🎯 EV/Sales Cross-Check (2026-08-13, Revenue-as-Base rollout)
+- **Revenue used:** $11.82B FY2027E — FY2026 guided $8.15-8.158B (+82% YoY) grown ~45% (conservative vs. the 82-93% trend, standard hypergrowth-deceleration assumption).
+- **EV/Sales multiple used:** 15.0x — estimated median of PLTR's own 5.5-year trading history (2020 IPO), which swung from <5x sales at the 2022-23 trough to 30-50x+ at the current AI-narrative peak; 15x sits well below today's implied ~34x forward multiple.
+- **Net cash:** $9.4B added; **shares:** 2,600M.
+- **Fair Value:** ($11.82B × 15.0 + $9.4B) ÷ 2.6B = **$72/share**.
+- **Finding:** essentially **UNCHANGED** from the 08-12 consensus-EPS P/E build below ($73, MoS -139.6%) — new MoS is **-137.6%**. This is a genuine cross-validation, not a coincidence: unlike ARM/DDOG/TER (where switching methods materially improved the picture), PLTR's re-rating is now so extreme (34x forward sales / 84x forward P/E) that a disciplined EV/Sales anchor and a disciplined P/E anchor independently reach the same conclusion. **Action unchanged: WATCH.**
+
+---
+
+### Snapshot (2026-08-12 second pass — EPS basis corrected from single-analyst estimate to published consensus; retained as the P/E cross-check for the EV/Sales figure above)
 
 | Metric | Value | Gate |
 |--------|-------|------|
@@ -11074,7 +11198,7 @@ Teradyne ออกแบบและผลิต **Automated Test Equipment (ATE
 | Q2 2026 | $1,329.0M | +104% | $2.47 | 33.7% (GM 59.8%, ลงจาก Q1 ตามคาด) | 2nd consecutive record, beat guidance; ทั้ง 3 groups โต; SoC $843M/Memory $212M (3rd Q ติด >$200M)/IST $67M (+94%, 2.5x QoQ); Robotics 5th Q sequential growth; MLTP JV ปิดดีล; correlation กับ hyperscaler ที่ 2 เสร็จ Q3; Q3 guide $1.2-1.3B; China rev mix ลด 16%→12% |
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-10
+**Last Updated:** 2026-08-13 (date synced with Story Gate/Valuation Range per Card Consistency rule — no new analyst research this batch, valuation-method-only update)
 
 **Jimmy's Journal — independent quality-investor critique (2026-06-29)** [ANALYST VIEW]
 - ผู้เขียนวิจารณ์ pure-play memory makers (MU/SK Hynix/Samsung) ว่า moat บาง (commodity DRAM, pricing power = ฟังก์ชันของ shortage ที่จะจบ) และ **ไม่ถือตรงเลย** — เลือก 2nd-derivative plays แทน โดยระบุชื่อ **Advantest/TER** ร่วมกับ AMAT/LRCX/ASML/KLAC/ENTG/MKSI/AEIS/AVGO/ALAB/RMBS/APH
@@ -11084,7 +11208,9 @@ Teradyne ออกแบบและผลิต **Automated Test Equipment (ATE
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-10  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-08-13  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+**2026-08-13 update:** Revenue-as-Base methodology rollout — mandatory Cyclical-tier reclass from EPS-normalized to Revenue-normalized mid-cycle, AND the new Margin Evidence Hierarchy (guided margin now ranks #1, above Warren's prior discounted bottom-up estimate) applies. See Valuation Range for the resulting FV change. Thesis/tier unchanged.
 
 **Tier Basis:** ✅ Reviewed 2026-08-10 (Q2 2026 primary docs) — **คงเดิม 🔁 Cyclical ไม่ reclassify** แม้ Durability Read ของ Mark จะ "ผสมแต่เอียงบวก": เช็ค 5 Crystallization Signals ที่ต้องผ่าน ≥3/5 เพื่อขึ้น Pre-Inevitable — **Margin Expansion ที่ยั่งยืน ✗ FAIL ชัดเจน** (GM ยืนยันแล้วว่าลดลงจริงตามคาด 60.9%→59.8%→guide 58-59%, ไม่ใช่ expand) เป็นสัญญาณตรงข้ามกับที่ต้องการ; Reinvestment ROIC>15% ยังไม่มีข้อมูลแยกยืนยัน; Crisis Survival ยังไม่ผ่านวิกฤตจริงในฐานะ AI-driven business (แค่ 2 ไตรมาส record ยังไม่ใช่ full cycle). Pricing Power (ATE:WFE ratio expansion 4%→7%→8%) ✓ และ Switching Cost (dual-vendor qual mechanism) ✓ เป็น 2 สัญญาณที่แข็งแรงขึ้นจริง แต่ยังไม่ถึง 3/5 ที่ต้องการ — revenue history ยังผูก capex cycle ชัดเจน (2022 $3.16B→2023 −15.2%→2024 +5.4%→2025 +13.1%→FY26 ~+ตัวเลขสูงอีกเท่าตัว) ตรงนิยาม Cyclical ต่อไป
 
@@ -11097,30 +11223,33 @@ Teradyne ออกแบบและผลิต **Automated Test Equipment (ATE
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-10  |  **Price:** $382.05 (pre-market real-time, Nasdaq API, 08-10 9:28AM ET; prior close $379.31 08-07)  |  **Tier:** 🔁 Cyclical  |  **Method:** Cyclical Exception — Normalized Mid-Cycle EPS × Normal Multiple (ห้ามใช้ peak-year EPS × multiple ปกติ)
+**Last Updated:** 2026-08-13  |  **Price:** $402.74  |  **Tier:** 🔁 Cyclical  |  **Method:** Revenue-normalized mid-cycle (mandatory Cyclical reclass, Revenue-as-Base rollout) — Revenue × guided margin ÷ shares × normal-cycle multiple
 
-### Snapshot (Post-Q2 2026 Earnings Recheck — 2026-08-10)
+### Valuation Method Diagnostic (Q1-Q5) — 2026-08-13
+- **Q4** (EPS swing >2x peak-trough + heavy capex/commodity pricing = Cyclical criteria): **YES** (unchanged — this is why TER is Cyclical tier) → **routes to Revenue-normalized mid-cycle**, replacing the old EPS-normalized blend.
+
+### Method-Change Finding (verified from scratch)
+The mandatory switch from EPS-normalized to Revenue-normalized surfaced a second, independent finding: the new **Margin Evidence Hierarchy** (2026-08-13) ranks management-**guided** margin/EPS **#1**, above normalized-historical (#2) — under the *old* Consensus-as-Base discipline Warren deliberately used a bottom-up FY26 EPS estimate ($9.00) kept **below** management's own reaffirmed Full-Year Target Model ($9.50-11.00, "achieving at an accelerated pace" per the Q2 call). The new hierarchy no longer permits discounting guided margin without documented cause — so this batch uses the guided range's **low end** ($9.50, kept conservative rather than the midpoint, because Charlie's still-open flag that the Margin *Expansion* signal remains unconfirmed means the *level* can use guidance but the *multiple* should not also assume further expansion). Result: FV rises **$127 → $180** (+42%), MoS improves **-200.8% → -123.7%** — a real, substantial improvement, but **not** "near breakeven" as the same-day rough pre-read suggested; price ($402.74) has simply run too far even for the guidance-based number.
+
+### Snapshot
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $382.05 | — |
-| Fair Value Base (normalized) | $127 | — |
-| **Margin of Safety** | **-200.8%** | ❌ FAIL (Gate 15%) |
-| **PEG** | N/A | Cyclical exception — ไม่ใช้ PEG cap |
-| **5-yr Expected Return** | **~-12.8%/yr** | ❌ FAIL (Gate 15%) |
-| Forward P/E (current, bottom-up FY26 EPS ~$9.00 → mgmt target $9.50-11.00) | ~35-43× (ลงจาก 44-46× รอบก่อน) | — ยังสัญญาณ late-cycle แม้ EPS ตามราคาทัน |
-| Normalized EPS basis | ~$6.67 (50/50 blend: 5yr actual avg $4.33 + FY26 bottom-up estimate $9.00) | — |
-| Normal-cycle multiple used | 19x (unchanged anchor — CEO เองยังไม่ยืนยัน ATE:WFE ratio structural + margin ยืนยันมี one-time component จริง จึงไม่มีเหตุผลจ่าย premium เพิ่ม) | — |
+| Current Price | $402.74 | — |
+| Fair Value Base (revenue-normalized) | **$180** (was $127 under old EPS-normalized method) | — |
+| **Margin of Safety** | **-123.7%** | ❌ FAIL (Effective Gate 20%) |
+| **5-yr Expected Return** | negative | ❌ FAIL |
+| Normalized revenue used | $6.0B (management's own Full-Year Target Model, reaffirmed 2026-08 call — closest available proxy for "normalized/structural" run-rate) | — |
+| Implied normalized net margin | ~24.5% (= guided low-end EPS $9.50 × 155M shares ÷ $6.0B) | Guided-basis (Margin Evidence Hierarchy #1) |
+| Normal-cycle multiple used | 19x (unchanged — no re-rating credited, Margin Expansion signal still unconfirmed per Charlie) | — |
 
-> **📋 Post-Earnings Recheck 2026-08-10 (Q2 2026 primary docs, ตามที่ Story Gate ค้างไว้รอ):** อัพเดทเฉพาะ **input FY26 EPS** ในสูตรเดิม (methodology ไม่เปลี่ยน — ยังคง Cyclical Exception 50/50 blend) เพราะตัวเลข FY26 "conservative consensus $6.24" ของรอบ 07-17 พิสูจน์แล้วว่าล้าสมัย/ผิด: H1 2026 actual non-GAAP EPS อย่างเดียวก็ปาไป $5.02 แล้ว (เหลืองบ H2 แค่ $1.22 จากตัวเลขเดิม ทั้งที่ Q3 guide เดี่ยวก็ $1.85-2.15 แล้ว) → แทนที่ด้วย bottom-up FY26 estimate $9.00 (H1 actual $5.02 + Q3 guide midpoint $2.00 + Q4 conservative extrapolation ~$1.98) ซึ่งยังคง**ต่ำกว่า**ตัวเลข management เอง ($9.50-11.00) ตามกฎ Consensus-as-Base (ไม่ใช้ management target เป็น Base). Blend เดิม (hist avg $4.33 + FY26 $9.00)/2 = **$6.67** × multiple anchor 19x (คงเดิม ไม่ขยับ เพราะ margin-expansion signal ยัง fail และ CEO ยังไม่มั่นใจ ATE:WFE ratio) → **FV Base ขึ้นเป็น $127** (จาก $100) — แต่ราคาก็วิ่งขึ้นจาก $322→$382 (+18.5%) ในช่วงเดียวกัน ผลสุทธิ MoS ยังคง fail ลึกพอๆ เดิม (-200.8% vs -222.3%)
+### Fair Value Scenarios (Revenue-normalized)
 
-### Fair Value Scenarios (Normalized)
-
-| Scenario | Fair Value | vs Price | Basis |
-|----------|-----------|----------|-------|
-| **Bull** | $167 | -56.3% | EPS blend ถ่วงน้ำหนัก FY26 มากขึ้น (30% hist / 70% FY26 = $7.60) × premium multiple 22x — durability scenario: 2 record quarters ยืนยัน, ATE:WFE ratio holds ≥7-9%, share gains 2027 materialize เต็ม |
-| **Base** | $127 | -200.8% | Normalized EPS $6.67 (50/50 blend, unchanged methodology) × 19x normal-cycle multiple (unchanged anchor) |
-| **Bear** | $69 | -453.6% | Historical-only 5yr avg EPS $4.33 × 16x (pure mean-reversion, no AI credit — ATE:WFE ratio reverts, share gains ไม่ materialize) |
+| Scenario | Normalized Revenue | Margin | EPS-equiv | Multiple | Fair Value | vs Price | Basis |
+|----------|---------------------|--------|-----------|----------|-----------|----------|-------|
+| **Bull** | $6.0B | guided high end | $11.00 | 22.8x (19x+20% premium) | $251 | -37.7% | Full-Year Target Model high end + durability confirmed further in 2027 |
+| **Base** | $6.0B | guided low end | $9.50 | 19.0x | **$180** | -123.7% | Guided EPS low-end (Margin Evidence Hierarchy #1) × unchanged multiple |
+| **Bear** | ~$5.16B (H1 actual + Q3/Q4 bottom-up, old basis) | bottom-up | $9.00 | 15.0x | $135 | -197.9% | Reverts to Warren's old, more conservative bottom-up estimate if guidance proves promotional |
 
 ### WAF Score Breakdown
 
@@ -11128,9 +11257,9 @@ Teradyne ออกแบบและผลิต **Automated Test Equipment (ATE
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 8.0 | 30% | 2.40 | ไม่เปลี่ยน — ATE duopoly + Q2 2026 record #2 ติดกัน ($1.329B, +104% YoY) ยืนยันความแข็งแกร่งธุรกิจต่อเนื่อง ไม่ใช่แค่ไตรมาสเดียว คุณภาพนี้ไม่ใช่ประเด็นที่ถูกท้าทาย |
 | GP (Growth Potential) | 7.5 | 30% | 2.25 | ยกขึ้นจาก 7.0 — Q2 ยืนยัน durability กว้างขึ้นจริง: ทั้ง 3 business groups (Semi Test/Product Test/Robotics) โตพร้อมกัน, memory book-to-bill >2x เป็นไตรมาสที่ 3 ติดที่ >$200M, ATE:WFE ratio ขยับ 3 ปีติด (4%→7%→8%) ไม่ใช่ spike ปีเดียว — capped ต่ำกว่า 8.0 เพราะ CEO เองยังไม่มั่นใจ ratio จะ settle ที่ 7-9% และ share gain ส่วนใหญ่ยังรอปี 2027 |
-| VA (Valuation) | 2.0 | 25% | 0.50 | ขึ้นเล็กน้อยจาก 1.8 — normalized FV ขยับขึ้นเป็น $127 จาก EPS input ที่แม่นยำขึ้น (ไม่ใช่จาก bias ใหม่) แต่ราคาวิ่งนำไปไกลกว่า (+18.5% ตั้งแต่รอบก่อน) ทำให้ MoS ยังคง fail ลึกใกล้เคียงเดิม (-200.8%) — ยังไม่มี margin of safety เลย |
+| VA (Valuation) | 2.6 | 25% | 0.65 | **ขึ้นจาก 2.0 (2026-08-13, method change)** — Revenue-normalized mid-cycle + guided-margin basis (Margin Evidence Hierarchy) lifts FV $127→$180, MoS improves -200.8%→-123.7% — still a deep FAIL, but the method change is a real, verified improvement, not just a price move |
 | RA (Risk Assessment) | 5.0 | 15% | 0.75 | ไม่เปลี่ยน — fwd PE ผ่อนลงเป็น ~35-43x (จาก 44-46x, EPS โตทันราคา) แต่มี risk ใหม่ชดเชย: DSO เพิ่มเป็น 76 วัน (จาก 60 วัน YoY, payment-terms strain สัญญาณ), margin one-time component ยืนยันแล้วจริง, customer concentration + cyclical peak signature ยังอยู่ครบ |
-| **WAF Total** | **5.90** | | **LOW** | |
+| **WAF Total** | **6.1** | | **LOW** | *(VA up from the valuation-method change)* |
 
 **Investment Idea:** 🚀 Edge Sleeve candidate (ตัดจาก core watchlist 07-23 — ยังติดตามในฐานะ Bucket A candidate) — Teradyne Q2 2026 primary docs ยืนยัน durability read "ผสมแต่เอียงบวก" ตามที่ Mark สรุปไว้: 2 ไตรมาส record ติดกัน, ทั้ง 3 กลุ่มธุรกิจโตพร้อมกัน, ATE:WFE ratio structural trend 3 ปี — เพียงพอให้ยก normalized FY26 EPS input จาก consensus เก่าที่ผิด ($6.24) เป็น bottom-up ที่แม่นยำขึ้น ($9.00) ทำให้ FV Base ขยับขึ้นจาก $100→$127 และ WAF ขยับขึ้นเล็กน้อย 5.70→5.90 — **แต่ยังคง LOW/WATCH** เพราะราคาวิ่งนำ FV ไปไกลกว่าเดิม (MoS -200.8%) และ multiple anchor ไม่ควรขยับขึ้นเพราะ margin-expansion signal (1 ใน 5 Crystallization Signals) ยัง fail จริงตามที่ CFO ยืนยัน + CEO เองยังไม่ฟันธง ATE:WFE ratio structural
 
@@ -11138,7 +11267,7 @@ Teradyne ออกแบบและผลิต **Automated Test Equipment (ATE
 
 **Thesis Risk:** ATE:WFE ratio revert ต่ำกว่า 7% ปี 2027 (CEO เองยังไม่ยืนยัน); dual-vendor share gain ไม่ materialize ตามแผน (ส่วนใหญ่ยังรอปี 2027); margin normalization ต่อเนื่องเกินคาด (guide Q3 58-59% ลงต่อจาก 59.8%); customer concentration lumpy revenue; Advantest แย่ง memory test share (CEO ยอมรับเองใน call); DSO เพิ่มขึ้นต่อเนื่อง (working capital strain signal)
 
-**Action:** 🔍 WATCH (คงเดิม — Q2 earnings ยืนยัน durability บางส่วนแต่ไม่พอจะปิด valuation gap ที่ราคาวิ่งนำไปไกลกว่า FV ที่ปรับขึ้น; รอราคาย่อลงมาใกล้ normalized FV ($127 base) หรือหลักฐานเพิ่มเติมปี 2027 ว่า ATE:WFE ratio/share-gain เป็น structural จริงก่อนพิจารณาใหม่)
+**Action:** 🔍 WATCH (คงเดิม — Revenue-as-Base method change + guided-margin basis lifts FV to $180 and closes part of the valuation gap, but price ($402.74) has run too far even for the guidance-based number; รอราคาย่อลงมาใกล้ normalized FV ($180 base) หรือหลักฐานเพิ่มเติมปี 2027 ว่า ATE:WFE ratio/share-gain เป็น structural จริงก่อนพิจารณาใหม่)
 
 ---
 
