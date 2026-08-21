@@ -590,15 +590,6 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 > ⚠️ **Data hygiene note (Mark, 2026-07-31):** ลบแถวซ้ำที่มีอยู่เดิม — "2026Q1 - AAPL - Earnings-Call-Transcript.pdf" และ "2026Q1 - AAPL - Exhibit-99-1.pdf" เคยถูกลิสต์ซ้ำ 2 ครั้งด้วย period ที่ขัดแย้งกัน (Q1 FY2026 vs Q2 FY2026); read_log.json ยืนยันว่ามีไฟล์จริงแค่ชุดเดียว = Q2 FY2026 (Jan–Mar 2026, reported Apr 30, 2026) — เก็บแถวที่ถูกต้องไว้แถวเดียว
 `,
 
-"AMAT": `# Applied Materials, Inc. (AMAT) · Semiconductor / Wafer Fab Equipment
-
-**Last Updated:** 2026-08-21
-**Source:** ยังไม่มี Primary Documents — รอ \`/mark-research AMAT\`
-**Trend Tags:** [[AI-Infrastructure]]
-
----
-`,
-
 "AMD": `# Advanced Micro Devices (AMD) · Semiconductor / AI Accelerators & CPUs
 
 **Last Updated:** 2026-08-12
@@ -3952,24 +3943,6 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 - **Multiple:** Seeking Alpha P/E Non-GAAP (FWD) 5-yr average 23.44×
 - **Price:** prices_cache.json 2026-08-15 ($345.90)
 
-`,
-
-"KLA": `# KLA Corporation (KLA) · Semiconductor / Process Control & Inspection
-
-**Last Updated:** 2026-08-21
-**Source:** ยังไม่มี Primary Documents — รอ \`/mark-research KLA\`
-**Trend Tags:** [[AI-Infrastructure]]
-
----
-`,
-
-"LRCX": `# Lam Research Corporation (LRCX) · Semiconductor / Etch & Deposition
-
-**Last Updated:** 2026-08-21
-**Source:** ยังไม่มี Primary Documents — รอ \`/mark-research LRCX\`
-**Trend Tags:** [[AI-Infrastructure]] [[Memory-Supercycle]]
-
----
 `,
 
 "META": `# Meta Platforms (META) · Big Tech / Social Media + Advertising + AI
