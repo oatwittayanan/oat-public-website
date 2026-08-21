@@ -376,14 +376,20 @@ def load_charlie_watchlist(reviews_data):
     sorted_r = sorted(reviews_data, key=lambda r: r.get("date", ""), reverse=True)
     latest = sorted_r[0]
     ticker_reviews = latest.get("ticker_reviews", {})
+    # 2026-08-18 batch switched ticker_reviews to a list of {ticker, ...} objects
+    # instead of a {TICKER: {...}} dict — normalize both shapes here.
+    if isinstance(ticker_reviews, list):
+        items = [(r.get("ticker", ""), r) for r in ticker_reviews if r.get("ticker")]
+    else:
+        items = list(ticker_reviews.items())
     result = {}
-    for ticker, rev in ticker_reviews.items():
+    for ticker, rev in items:
         result[ticker.upper()] = {
-            "verdict":   rev.get("verdict", ""),
+            "verdict":   rev.get("verdict") or rev.get("charlie_verdict", ""),
             "summary":   rev.get("summary", ""),
             "risks":     rev.get("risks", []),
-            "yf_price":  rev.get("yf_price"),
-            "warren_fv": rev.get("warren_fv"),
+            "yf_price":  rev.get("yf_price") or rev.get("charlie_price_used"),
+            "warren_fv": rev.get("warren_fv") or rev.get("charlie_fv") or rev.get("warren_fv_base"),
             "date":      rev.get("data_date") or latest.get("date", ""),
         }
     if result:

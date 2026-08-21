@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260818204424"></script>
+  <script src="knowledge.js?v=20260821183153"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -377,6 +377,45 @@ const STOCKS_INLINE = {
     bull: ['Optimus robot production กำลัง ramp — potential trillion-dollar TAM', 'FSD v14 improving — robotaxi license ใน Austin 2025 เป็น milestone', 'Energy Storage Megapack demand growing fast = new revenue stream', 'Dojo supercomputer = AI training alternative', 'Software update OTA advantage vs legacy automakers'],
     risk: ['P/E 150x+ ราคา assume everything goes right — zero margin for error', 'Elon Musk DOGE distraction = key person risk ต่อ CEO focus', 'BYD competition ใน China และ global EV market เข้มข้นมาก', 'EV margin กดดัน — average price ลดลง ส่วนแบ่งตลาดลดใน China', 'Optimus timeline uncertainty — production scale ยังไม่พิสูจน์'],
     updated: '2026-08-15'
+  },
+  AMAT: {
+    name: 'Applied Materials, Inc.', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Semiconductor', 'Wafer Fab Equipment'],
+    action: null, actionLabel: null, conviction: 3,
+    waf: null, wafBadge: null, wafComposite: null,
+    price: null, fv: null, mos: null, fpe: null, peg: null,
+    scores: { bq: [null,'amber',50], gp: [null,'amber',50], va: [null,'amber',50], ra: [null,'amber',50] },
+    story_gate: null,
+    idea: null,
+    bull: ['ครองส่วนแบ่งตลาดเครื่องจักรผลิตชิปกว้างที่สุด ครอบคลุมเกือบทุกขั้นตอนของ wafer fabrication (deposition, etch, ion implant, CMP)', 'Wafer Fab Equipment spending คาดแตะ $145-150B ในปี 2026 ตามวงจร AI capex ที่เร่งตัว (Stifel)', 'Installed base ขนาดใหญ่ทั่วโลก สร้าง recurring service/upgrade revenue ที่มั่นคง', 'ได้ประโยชน์จากทุกฝ่ายที่แข่งกันสร้าง fab (TSMC/Samsung/Intel/Terafab) โดยไม่ต้องเดิมพันว่าใครชนะ — picks-and-shovels play', 'ราคาหุ้นพุ่ง ~98% ในปี 2026 สะท้อน momentum ของ AI infrastructure buildout ที่ตลาดเริ่ม price-in'],
+    risk: ['Valuation วิ่งมาแรงมากแล้ว (+98% YTD 2026) — ต้องระวัง priced-in ไปมากแล้ว', 'Semiconductor equipment cyclicality — order อาจชะลอถ้า capex hyperscaler สะดุด', 'China export restriction กระทบยอดขายเครื่องจักรระดับสูงไปจีนโดยตรง', 'Customer concentration ที่ TSMC/Samsung/Intel/Micron รายใหญ่ไม่กี่ราย', 'Competition จาก Tokyo Electron ในบางกลุ่มสินค้าเช่น etch/deposition'],
+    updated: null
+  },
+  LRCX: {
+    name: 'Lam Research Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Semiconductor', 'Etch & Deposition'],
+    action: null, actionLabel: null, conviction: 3,
+    waf: null, wafBadge: null, wafComposite: null,
+    price: null, fv: null, mos: null, fpe: null, peg: null,
+    scores: { bq: [null,'amber',50], gp: [null,'amber',50], va: [null,'amber',50], ra: [null,'amber',50] },
+    story_gate: null,
+    idea: null,
+    bull: ['ผู้นำอันดับ 1 ด้าน Etch/Deposition โดยเฉพาะ high-aspect-ratio etch ที่จำเป็นสำหรับ NAND 3D และ HBM memory', 'Demand เร่งตัวจาก AI chip ที่ต้องการ memory bandwidth สูง (HBM stacking) และ logic 3D structure', 'Guidance ล่าสุด (ต.ค. 2025) สูงกว่าคาด สะท้อน AI/HPC demand ที่แข็งแกร่งต่อเนื่อง', 'ได้ประโยชน์โดยตรงจาก memory supercycle (HBM) ที่ MU/SKHY อยู่ใน watchlist อยู่แล้ว — เสริม thesis เดียวกัน', 'Recurring revenue จาก spare parts/service สัดส่วนสูงในรายได้รวม'],
+    risk: ['พึ่งพา memory cycle (NAND/DRAM) ที่มีความผันผวนสูงกว่า logic equipment', 'China customer concentration บางส่วนเสี่ยงจาก export control', 'Valuation วิ่งขึ้นมาพร้อม semiconductor equipment sector ทั้งกลุ่มแล้ว', 'คู่แข่ง Tokyo Electron/AMAT แข่งขันในบางกลุ่มผลิตภัณฑ์ที่ overlap', 'Capex hyperscaler ชะลอกระทบคำสั่งซื้อโดยตรงเช่นเดียวกับ AMAT'],
+    updated: null
+  },
+  KLA: {
+    name: 'KLA Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Semiconductor', 'Process Control & Inspection'],
+    action: null, actionLabel: null, conviction: 3,
+    waf: null, wafBadge: null, wafComposite: null,
+    price: null, fv: null, mos: null, fpe: null, peg: null,
+    scores: { bq: [null,'amber',50], gp: [null,'amber',50], va: [null,'amber',50], ra: [null,'amber',50] },
+    story_gate: null,
+    idea: null,
+    bull: ['Near-monopoly ในตลาด process control/inspection — defect detection ระดับ nanometer ที่คู่แข่งตามไม่ทัน', 'Margin สูงสุดในกลุ่ม equipment: Gross margin 60.9%, Operating margin 38.2%', 'ยิ่ง node ชิปเล็กลง (2nm, High-NA EUV) ยิ่งต้องการ inspection แม่นยำขึ้น = demand เพิ่มตามความซับซ้อน ไม่ใช่แค่ปริมาณ', 'Toll-booth บน capex ทุกสาย ไม่ว่า fab ไหนชนะ (TSMC/Samsung/Intel/Terafab) ก็ต้องซื้อเครื่อง KLA', 'Recurring revenue จาก software/service สัดส่วนสูง เสถียรกว่า equipment ขายขาดล้วนๆ'],
+    risk: ['Valuation premium สูงเพราะตลาดให้ premium กับ moat ที่แข็งแกร่งที่สุดในกลุ่มอยู่แล้ว', 'Cyclicality ของ semiconductor capex เหมือนกลุ่ม equipment ทั้งหมด', 'China exposure และความเสี่ยง export control เช่นเดียวกับ AMAT/LRCX', 'Customer concentration กับ leading-edge foundry ไม่กี่ราย', 'Breakthrough ของคู่แข่งใน inspection tech ระยะยาวอาจกัดส่วนแบ่ง (ความเสี่ยงต่ำแต่ไม่เป็นศูนย์)'],
+    updated: null
   },
 };
 

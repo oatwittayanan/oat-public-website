@@ -69,7 +69,15 @@
       "why": "Consensus was treating the July 2026 AI/semiconductor selloff as a sector-wide re-rating that should hit NVDA equally; Warren saw NVDA's Asia buyer-list tightening as company-specific compliance friction on an already-priced risk category, not demand destruction — confirmed 07-27 when the SK Hynix-linked HBM tightness fear resolved in NVDA's favor via a $500B preferential-supply agreement. **2026-07-31 update:** attention has shifted to a genuinely new risk — reports (07-27/07-28) that NVDA is negotiating to guarantee up to $250B in lease payments for a 10GW OpenAI/SoftBank data center plus a separate ~$350B GPU-purchase financing facility, reigniting \"circular financing\" concerns (Burry citing NVDA 5yr CDS spreads +~90% YTD; IMF/BIS flagging systemic risk at the macro level). Second-level read: this is not a demand-thesis change (Vera Rubin production, CUDA lock-in, $145B supply commitments all stand) but IS a real new counterparty/contingent-liability risk category that didn't exist before 07-27 — priced in via a -5.7% underperformance vs. the broader semiconductor sector's +10-17% rally on 07-30 (MSFT/Samsung earnings eased AI-capex-cut fears). Widening MoS to 33.2% reflects the market extracting a real risk premium, not an emerging discount to an unchanged thesis. **2026-08-04 update:** price recovered +3.1% on 08-03 (sentiment reversal, no new fundamental — WebSearch confirms next earnings not until Aug 26) with no change to the circular-financing overhang (still talks-stage, same $250B/$350B figures being recirculated in 08-03 headline). MoS narrows back to 29.2% but remains far clear of the 15% gate; thesis and risk assessment unchanged this batch.",
       "risk": "Vera Rubin ramp slips >1 quarter, OR hyperscaler CapEx cuts >30%, OR a genuine competitive GPU ships at scale, OR AMD DC GPU share materializes near UBS's ~$43B C2027 model while NVDA's accelerator-dollar share falls (the CUDA-erosion falsifier, 08-11), OR one of the vendor-financing guarantees (OpenAI $250B lease backstop / $350B purchase financing / the new >$500B multi-partner platform's 25%-residual-value chip guarantees) actually closes and a counterparty subsequently defaults/restructures, crystallizing the \"circular financing\" bear case into a real balance-sheet loss rather than a CDS-spread worry."
     },
-    "tier": "🚀 Pre-Inevitable"
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 220.05,
+      "warren_fv": 309,
+      "date": "2026-08-18"
+    }
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -141,7 +149,15 @@
       "why": "Consensus มองว่า MSFT คือ \"ของดีที่ราคาเต็มเสมอ\" และอ้าง forward P/E ~22× ว่าไม่ถูก — Warren เห็นต่างที่ **จุดที่ consensus ยังไม่ปรับตาม คือ ปีฐาน ไม่ใช่ตัวธุรกิจ**: เมื่อย้ายปีฐานไป FY2028 ตาม convention ของ full refresh นี้ (FY2027 เริ่มเดินไปแล้วตั้งแต่ 1 ก.ค. 2026) และประเมินด้วย multiple ที่มีที่มาภายนอกแทนตัวเลขที่ Warren เคยตั้งเอง (24×) FV ขยับ $470 → $562 ทำให้ MoS พลิกจาก **−4.77% เป็น +11.85%** โดยที่ราคาแทบไม่เปลี่ยน — ช่องว่างนี้ยังไม่ปิด แต่ **ยังไม่ถึงขนาดที่จะซื้อ** เพราะยังขาด gate 20% อยู่ 8.15 จุด",
       "risk": "Azure growth ชะลอต่ำกว่า 15% สองไตรมาสติด, หรือ OpenAI ลด exclusivity จนกระทบ Copilot ecosystem จริง, หรือ contractual obligations $743.8B + uncommenced leases $329.1B เริ่มกด FCF ต่อเนื่องเกิน 3 ไตรมาสโดยไม่มี ROIC ตามทัน, หรือคดี securities class action (W.D. Wash.) พิสูจน์ว่ามีการดึง compute ออกจาก Azure ไปแก้ Copilot จริงตามที่ฟ้อง"
     },
-    "tier": "🏛️ Inevitable"
+    "tier": "🏛️ Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 482.1,
+      "warren_fv": 562,
+      "date": "2026-08-18"
+    }
   },
   "TSM": {
     "symbol": "TSM",
@@ -213,7 +229,15 @@
       "why": "Consensus อ่าน Q2 print ว่า \"ดีแต่ priced-in, จับตา margin/capex\" — Warren เห็น second-level signal ที่ FY2026 growth guidance ขึ้นเป็น **ครั้งที่สองของปี** (>30%→\"slightly above 40%\") + CapEx ขึ้นเป็น $60–64B + Arizona +$100B + demand \"stronger and stronger\" และ supply ตึงถึง 2029–2030 = demand เร่งจริง ไม่ใช่แค่ทรงตัว. แต่หลัง FV recalibration ใช้ consensus EPS (ไม่ใช้ peak-year) FV base ขยับเป็น ~$420 และราคา $403.41 → **MoS เหลือ ~4% เท่านั้น** = ซื้อเกือบเต็มมูลค่า. edge จึงไม่ใช่ \"ราคาถูก\" แต่คือ \"คุณภาพหายากระดับ Inevitable ที่ควรถือ ไม่เติมจนกว่าจะมี buffer\".",
       "risk": "US-Taiwan geopolitical escalates to military action, OR Apple+NVIDIA shift >30% of volume to Samsung/Intel Foundry simultaneously, OR the guided H2 margin compression (N2 ramp −3–4pp GM) proves deeper/longer than management indicated."
     },
-    "tier": "🏛️ Inevitable"
+    "tier": "🏛️ Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 415.73,
+      "warren_fv": 411,
+      "date": "2026-08-18"
+    }
   },
   "META": {
     "symbol": "META",
@@ -285,7 +309,15 @@
       "why": "Consensus เห็น op margin หด 41% → 31% ใน Q2 แล้วกังวลว่า AI capex กำลังกินกำไร — สิ่งที่ Warren เห็นต่างคือ **การหดตัวนั้นเป็นรายการครั้งเดียวเป็นส่วนใหญ่**: ในค่าใช้จ่าย +55% YoY มี legal-proceedings charges **$2.40B** + severance **$1.18B** (ปลดคน ~8,000 คน พ.ค. 2026) ที่ไม่เกิดซ้ำ — ถ้าตัดสองก้อนนี้ออก operating income **โต +9% YoY** ตามที่ผู้บริหารชี้เอง ไม่ใช่ −8% ตามที่รายงาน; ตลาดกำลังคิด multiple บนกำไรที่ถูกกดชั่วคราว ขณะที่ META ซื้อขายต่ำกว่า 5-yr average forward P/E ของตัวเองอยู่ **17%**",
       "risk": "ARPP หรือ avg price per ad ติดลบ YoY (แปลว่า pricing power หาย ไม่ใช่แค่ค่าใช้จ่ายสูง) **หรือ** FY2027 expenses โตเร็วกว่ารายได้เป็นปีที่สองติดโดยไม่มีรายการ one-time อธิบาย = thesis \"กำไรถูกกดชั่วคราว\" พัง"
     },
-    "tier": "🚀 Pre-Inevitable"
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "",
+      "risks": [],
+      "yf_price": 547.8,
+      "warren_fv": 711,
+      "date": "2026-08-18"
+    }
   },
   "AVGO": {
     "symbol": "AVGO",
@@ -357,7 +389,15 @@
       "why": "Consensus รู้แล้วว่า AI semi ของ AVGO จะทะลุ $100B ใน FY2027 (บริษัทพูดเอง 2 รอบ) และราคาสะท้อนไปแล้ว — สิ่งที่ Warren เห็นต่างคือ **โครงสร้างกำไรกำลังแย่ลงเงียบๆ ขณะที่รายได้โตแรง**: mix shift ไปทาง AI semi (gross margin ~70%) จาก software (93%) กด blended margin ลงต่อเนื่องตามที่ CFO เตือนเอง และ contract liabilities 64% อยู่ใต้เงื่อนไข termination-for-convenience — แปลว่า RPO $164.6B ที่ตลาดอ่านเป็น \"รายได้ที่ล็อกแล้ว\" มีความแน่นอนน้อยกว่าตัวเลขหัวข่าว",
       "risk": "hyperscaler รายใดรายหนึ่งใน 6 รายประกาศย้าย XPU program ไปเจ้าอื่น (แบบที่ Google TPU9 ย้าย packaging ไป Intel EMIB-T แล้ว) หรือ AI semi revenue FY2027 ออกมาต่ำกว่า $100B ที่ reaffirm ไว้ = thesis เรื่อง duopoly durability พัง"
     },
-    "tier": "🚀 Pre-Inevitable"
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 380.16,
+      "warren_fv": 431,
+      "date": "2026-08-18"
+    }
   },
   "NFLX": {
     "symbol": "NFLX",
@@ -429,7 +469,15 @@
       "why": "Consensus de-rate NFLX ลงมาที่ ~21× forward earnings หลัง Q2'26 ที่ op margin **หด YoY เป็นครั้งแรก** (33.4% vs 34.1%) และ FCF −33% YoY — อ่านว่าเป็นจุดเริ่มของการเสื่อมเชิงโครงสร้าง. Warren เห็นต่างว่า **สิ่งที่เปลี่ยนคือจังหวะการลงทุน ไม่ใช่ความสามารถในการทำกำไร**: op margin ทั้งปี FY2026 ยัง guide 31.5% ซึ่ง **สูงกว่า FY2025 ที่ 29.5%** (คือขยาย ไม่ใช่หด) และ opex ที่โตเกินรายได้เป็น T&D +22% / S&M +16% ซึ่งเป็นการลงทุนในเครื่องยนต์โฆษณาที่รายได้ยังตามมาทีหลัง; ขณะเดียวกันบริษัทซื้อหุ้นคืน **$4.7B ในไตรมาสเดียว (สูงสุดในประวัติศาสตร์)** ที่ราคานี้. ⚠️ **แต่ edge ที่แท้จริงของ Warren รอบนี้อยู่ที่วิธีวัด ไม่ใช่การอ่านธุรกิจ** — FV เดิม $84 ถูกสร้างจาก \"forward P/E ปัจจุบัน 18.25× + premium 15%\" ซึ่งเป็นการ **ผูก FV ไว้กับราคา** ทำให้ MoS ถูกตรึงใกล้ 15% ทุกรอบไม่ว่าราคาจะเป็นเท่าไร (อาการเดียวกับกับดัก min()-multiple). เมื่อย้ายไปใช้ anchor ภายนอกที่ไม่ขึ้นกับราคาวันนี้ FV = $109 และ MoS = 28.29%",
       "risk": "op margin หดต่อเนื่อง 2+ ไตรมาสจนพิสูจน์ว่าเป็น structural (opex โตเกินรายได้ไม่ใช่เรื่องจังหวะ), หรือ FY2026 op margin หลุดต่ำกว่า guide 31.5%, หรือ revenue decel ต่ำกว่า +10% พร้อม engagement erosion ที่ยืนยันได้ใน view-hours, หรือ M&A ขนาดใหญ่ที่ทำลาย capital discipline"
     },
-    "tier": "🚀 Pre-Inevitable"
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 77.66,
+      "warren_fv": 109,
+      "date": "2026-08-18"
+    }
   },
   "ASML": {
     "symbol": "ASML",
@@ -501,7 +549,15 @@
       "why": "Consensus saw Q2 as \"beat but priced-in\" going in — Warren sees the actual result as a genuine second-level surprise: ASML raised FY2026 guidance for the **second time this year** (€36-40B→€43-45B) with margin guide also up (51-53%→54-56%), and Q3 guide (€11-12B) implies a sharp H2 acceleration — this is not backlog chatter anymore, it's a confirmed structural re-rating of the AI-driven demand curve that the market is still catching up to (sell-side PTs jumping to $2,200-2,623 same-day). The unresolved China/export-control overhang (07-14 law + 07-28/07-29 China domestic-DUV progress) remains the genuine counter-risk — but that risk sits on the DUV/mature-node revenue line (~19-20% of 2026 rev), not on the EUV leading-edge monopoly the thesis is built on; today's own follow-up (07-29) assesses the near-term severity as low. A 4-day sector-wide semi selloff (SMH -12% from peak, not ASML-specific) has pushed the price well below where Q2's beat-and-raise alone would put it, widening the entry margin further. **2026-08-04 update:** the 08-04 🔴MATERIAL headline (\"ASML influence declining as competing tech absorbs share\") WebSearched in full — it is the same China-domestic-DUV narrative continuing, and independent coverage (Morningstar-cited moat analysis, 08-04) confirms ASML still holds >80% of total lithography revenue and 100% of EUV; the China threat is framed as a 2-3 year gradual DUV/low-end substitution (~20 units vs. an order book measured in hundreds), \"real in the long run but overstated for 2026-2027.\" Same-day 08-03 news (Bernstein \"Top Q3 Pick,\" Goldman added to European Conviction List, backlog \"still strong despite chip-market pressure\") is a genuine positive counterweight not yet reflected on this card. No new information that changes the EUV monopoly thesis.",
       "risk": "A major customer (TSMC or Samsung) delays leading-edge node ramp by 12+ months, or US/EU export restrictions expand to broader DUV categories (MATCH Act risks cutting ~19-20% of revenue from China) — **or** China's domestic DUV tooling (07-28/07-29 news) scales fast enough to materially displace ASML DUV unit sales into China (watch for shipment/share data, not just \"started production\" headlines) — breaking the order book; or H2 2026 execution falls short of the newly-raised guide."
     },
-    "tier": "🏛️ Inevitable"
+    "tier": "🏛️ Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 1799.24,
+      "warren_fv": 1709,
+      "date": "2026-08-18"
+    }
   },
   "UBER": {
     "symbol": "UBER",
@@ -573,7 +629,15 @@
       "why": "Consensus กังวล AV จะ disrupt Uber (Waymo/Tesla) + AI personal-agent จะ abstract แพลตฟอร์มออกจากลูกค้า; Warren เห็นต่างว่า Uber เป็น **AV demand-aggregator** (utilization/ revenue-per-vehicle สูงกว่า 1P network → พาร์ทเนอร์ AV เลือก Uber) + capital-light AV — AV เป็น tailwind ไม่ใช่ threat; FCF inflection (TTM ทะลุ $10B ครั้งแรก) + buyback ต่อเนื่องยังไม่ถูก price in เต็มที่. **อัพเดท 08-10 (Q2 2026):** record quarter (GB +24%, EPS +35%), Delivery Hero financing เปลี่ยนจาก \"committed\" → **executed** (bridge €14.2B เซ็นแล้ว, leverage <2x ยืนยัน); **CEO ยืนยันกำลัง diversify AV partners ให้พึ่ง Waymo น้อยลง** — ตอบคำถามตรงเรื่องข่าวความตึงเครียด Waymo — Warren อ่านสัญญาณนี้ว่า**เสริม thesis aggregator** (multi-partner 120K คันผูกมัดแล้ว, mature-market AV share ของ Uber สูงขึ้น YoY = AV ขยายตลาดไม่ cannibalize) มากกว่าเป็นสัญญาณว่า thesis กำลังพัง — แต่ยังเป็นจุดที่ต้องจับตาใกล้ที่สุดใน Q3. ราคาวิ่งจาก $65.94→$75.02 (+13.8%) เร็วกว่า FV ที่ปรับ (correction ฐาน EPS consensus $3.46 ซึ่งจริงๆเป็นเลข high estimate ไม่ใช่ average → ใช้ $3.31 แทน) → MoS หดจาก 32.7%→20.2% แต่ยังผ่าน gate.",
       "risk": "AV players (Waymo/Tesla) bypass Uber ไปหาผู้บริโภคเองที่ scale — **กำลัง crystallize ต่อเนื่อง:** Waymo แจ้งแผนทางการแล้วว่าจะเปิดแอปตัวเองเป็น 1P ใน Austin+Atlanta เริ่ม ม.ค. 2028 (ยุติ exclusivity 2 เมืองนี้, ต่อจาก Phoenix ที่เลิกไปแล้ว มิ.ย. 2026); **08-11/08-13 news เพิ่มเติม:** Uber เองประกาศลด near-term AV spending ลงหลัง \"สูญเสีย\" ความร่วมมือ Waymo บางส่วน พร้อมเปิดแผน robotaxi โตเกียวกับพาร์ทเนอร์อื่นแทน — เป็นสัญญาณจริงที่สุดเท่าที่มีมาว่า partner หลักเลือก vertical integration และ Uber เองก็กำลังปรับกลยุทธ์ตาม แต่ยังมี multi-partner hedge (120K คันผ่าน 9 พาร์ทเนอร์อื่น) รองรับอยู่; หรือ driver reclassification (California AG) พลิก unit economics ทั้งโมเดล; หรือ AI personal-agent disintermediate demand-generation moat จริง. **เพิ่มเติม (trips-growth tripwire, ยังไม่ resolve):** Trips growth soft 2 ไตรมาสติด (Q1/Q2 2026) — CFO อธิบายเป็น Brazil two-wheeler supply issue + World Cup comp ล้วนๆ ไม่ใช่ demand ทั้งบริษัท แต่ Q3 GB guide midpoint ต่ำกว่าทั้ง consensus และ UBSe — จับตา Q3 print จริง (~พ.ย. 2026) เป็นตัวชี้ขาดว่า noise หรือ deteriorate จริง."
     },
-    "tier": "🚀 Pre-Inevitable"
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 76.34,
+      "warren_fv": 112,
+      "date": "2026-08-18"
+    }
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -645,7 +709,15 @@
       "why": "Consensus เห็น Cloud +82% YoY, backlog $514B และ EPS 2026 ~$20.5 แล้วสรุปว่ากำไรกำลังทะยาน — สิ่งที่ Warren เห็นต่างคือ **ตัวเลข EPS นั้นเกือบครึ่งไม่ใช่กำไรจริง**: 10-Q ระบุเองว่า unrealized equity gains (SpaceX/Anthropic/Waymo) ดัน diluted EPS ขึ้น **+$6.26 เฉพาะไตรมาส Q2** และ panel เดียวกันนั้นให้ FY2027 เพียง $14.74 คือ **ต่ำกว่า** FY2026 ทั้งที่ธุรกิจโต; ขณะเดียวกัน **FCF ติดลบไตรมาสแรกในประวัติศาสตร์บริษัท (−$5.9B)** และหนี้ระยะยาวพุ่งจาก $46.5B เป็น $98.2B เพื่อ fund CapEx — ราคาที่ 25× บนกำไร core กำลังคิดว่า margin จะขยายต่อ ทั้งที่ค่าเสื่อมก้อนใหญ่กำลังจะเข้างบ",
       "risk": "FCF กลับมาเป็นบวกอย่างมีนัยภายใน 2-3 ไตรมาสพร้อมกับ Cloud margin ยืนเหนือ 35% = แปลว่า depreciation wall ไม่แรงอย่างที่กลัว และ core margin 29% ที่ Warren ใช้นั้น conservative เกินไป"
     },
-    "tier": "🏛️ Inevitable"
+    "tier": "🏛️ Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 342.56,
+      "warren_fv": 320,
+      "date": "2026-08-18"
+    }
   },
   "AMZN": {
     "symbol": "AMZN",
@@ -719,12 +791,12 @@
     },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
-      "verdict": "",
+      "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": null,
-      "warren_fv": null,
-      "date": "2026-08-13"
+      "yf_price": 259.18,
+      "warren_fv": 231,
+      "date": "2026-08-18"
     }
   },
   "PLTR": {
@@ -799,12 +871,12 @@
     },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
-      "verdict": "",
+      "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": null,
-      "warren_fv": null,
-      "date": "2026-08-13"
+      "yf_price": 174.15,
+      "warren_fv": 86,
+      "date": "2026-08-18"
     }
   },
   "AMD": {
@@ -877,7 +949,15 @@
       "why": "Consensus (BofA, Wells Fargo, Mizuho) ตอนนี้เห็นด้วยกับ \"agentic AI CPU\" thesis แล้ว — raise TAM เป็น $170B และเรียก AMD \"top CPU pick\". Warren เห็นว่านี่คือสัญญาณว่า edge เดิม (rerating จาก 'laggard' → 'second source') กำลังกลายเป็น consensus — second-level thinking บอกว่าต้องระวังไม่ chase ราคาที่วิ่งขึ้นจาก sentiment เดียวกันกับที่ตลาดเพิ่งรู้. **2026-08-05 update (post-Q2 earnings):** Q2 FY2026 (Aug 4 after close) beat ทั้งรายได้ ($11.5B +50% YoY, เหนือ guide $11.2B±$300M) และ Non-GAAP EPS ($1.66 vs consensus $1.61) — Data Center revenue $6.7B **+107% YoY** (58% ของรายได้รวม ขึ้นจาก 42% ปีก่อน). Management **raise TAM ครั้งใหญ่**: DC AI accelerator TAM → ~$1.4T by 2030 (>45% CAGR), server CPU TAM → **~$220B by 2030 (ขึ้นจาก $120B ที่ guide แค่ไตรมาสก่อน)**. Anthropic เข้ามาเป็น anchor customer รายที่ 3 (up to 2GW MI450, AMD ลงทุนตรง $5B — ไม่ใช่ warrant structure). Q3 guide $13.0B±$300M (+41% YoY) แข็งแรง. **แต่ตลาดตอบสนองแบบ \"sell the news\"**: หุ้นวิ่งขึ้น +7% ระหว่างวัน 08-04 ปิดที่ $518.58 (ราคาที่ปรากฏใน prices_cache.json รอบนี้ — **แต่เป็นราคาปิดตลาดปกติก่อนงบออกหลังตลาดปิด ไม่ใช่ราคาล่าสุด**), แล้วร่วง after-hours -8.8% เหลือ **~$472.94** และ pre-market ต่อเนื่องแถว **$474-475** เช้า 08-05 (ยืนยันจาก yfinance fast_info previousClose $472.85 + WebSearch หลายแหล่ง — finbold/tradingkey) — expectations ที่ baked-in ไปแล้วสูงกว่าที่ผลจริงจะ satisfy ได้ แม้ผลจะ beat ตัวเลขที่ประกาศไว้ก็ตาม — วัดจากราคาก่อนงบ ($518.58) ที่ยืนเหนือ FV Base ของ Warren เองอยู่มาก (🚫 ตัวเลข analyst price target ตัดออกตามกฎห้าม PT 2026-07-20). Second-level read: TAM raise เป็นของจริง (management เอง ไม่ใช่แค่ analyst) แต่ตลาดกำลัง price-in ว่า \"ดีมากแล้ว ดีกว่านี้ยาก\" ระยะสั้น — MoS ยังคง fail gate ต่อเนื่อง แม้ที่ราคาที่ถูกกว่าที่ cache แสดง",
       "risk": "MI450 ramp slip หรือ ROCm ตาม CUDA ไม่ทัน ทำให้ hyperscalers ไม่ adopt จริงจัง — หรือ ถ้า \"agentic CPU\" consensus narrative พิสูจน์ว่า overhype (TAM ไม่ materialize ตามที่ BofA/management project) ราคาจะ de-rate เร็ว — เพิ่มเติมรอบนี้: forward commitments ($30.3B unconditional + subsequent $5.0B investment + $9.5B new DC leases) พุ่งเร็วกว่ารายได้ ถ้า AI demand ชะลอกว่าที่ผูกพันไว้ = balance-sheet stress risk ใหม่"
     },
-    "tier": "🚀 Pre-Inevitable"
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 485.31,
+      "warren_fv": 325,
+      "date": "2026-08-18"
+    }
   },
   "MU": {
     "symbol": "MU",
@@ -941,7 +1021,15 @@
       "why": "Consensus มองที่ forward P/E **13.24×** บน consensus FY2026 EPS $73.39 แล้วสรุปว่า \"ถูกมาก\" (rating Strong Buy). **Warren เห็นต่างที่ตัวหาร ไม่ใช่ตัวเศษ**: $73.39 คือกำไรของ**ปีที่เป็นยอดวัฏจักร** ซึ่งเกิดจากราคาล้วนๆ ไม่ใช่ปริมาณ — FQ3 บิต DRAM โตแค่ single digit แต่ ASP โต low-60s% QoQ. เมื่อ normalize กลับสู่ mid-cycle อย่างที่กฎ Cyclical บังคับ EPS = **$17.50** และ P/E ที่ราคาปัจจุบันคือ **55.5×** ไม่ใช่ 13.2×. ⚠️ **และสิ่งที่ยังไม่ถูกมองเลยคือฐานที่ระบบนี้เองใช้อยู่**: ตัวเลข \"normalized mid-cycle EPS $76.7\" ที่ carry มาตั้งแต่ ก.ค. **สูงกว่า EPS ของปีที่เป็นพีคเองเสียอีก** ⇒ ที่ผ่านมาระบบกำลังตีมูลค่า MU ด้วยตัวเลขที่แย่กว่าการใช้ peak EPS ตรงๆ ด้วยซ้ำ",
       "risk": "ASP ทรงตัวที่ระดับใกล้เคียงปัจจุบันต่อเนื่องเกิน 4-6 ไตรมาสโดยที่ Samsung/SK Hynix/CXMT เพิ่มกำลังผลิตแล้วราคายังไม่ลง (แปลว่า SCA/HBM เปลี่ยนโครงสร้างอุตสาหกรรมจริงและ normalized margin ควรสูงกว่า 29.6% มาก), หรือในทางกลับกัน — งบ FQ4 (~ก.ย. 2026) พลาด guide $50B/$31.00 หรือ FQ1 FY2027 guide ราคาลง QoQ เป็นครั้งแรก = ยืนยัน cycle rollover"
     },
-    "tier": "🔁 Cyclical"
+    "tier": "🔁 Cyclical",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 967.54,
+      "warren_fv": 262,
+      "date": "2026-08-18"
+    }
   },
   "AAPL": {
     "symbol": "AAPL",
@@ -1013,7 +1101,15 @@
       "why": "Consensus เห็น FY2026 เป็นปี supercycle (revenue +14.6%, Q3 EPS +28.7%, Greater China +22-38%) และให้ multiple ตามนั้น — สิ่งที่ Warren เห็นต่างคือ **ตัวจำกัดกำไรรอบหน้าไม่ใช่ demand แต่เป็นต้นทุน**: CFO บอกเองว่าต้นทุน memory จะสูงขึ้นอีกใน Q4 และ benefit จาก carry-in inventory \"จะลดลงหลังเดือน ก.ย.\" พร้อมกับที่ Tim Cook ยอมรับว่าคอขวดคือ advanced-node SoC capacity — แปลว่า FY2027 จะเจอ margin headwind ที่ราคาปัจจุบัน (32× forward บนอัตราโต 8.7%) ยังไม่ได้คิดเผื่อ",
       "risk": "Services growth กลับมาเร่งเหนือ 15% ต่อเนื่อง 2 ไตรมาส **หรือ** Siri/Gemini generation ทำให้ iPhone upgrade cycle สั้นลงจริงจนรายได้โตกลับเป็นเลขสองหลักต่อเนื่อง = สมมติฐานเรื่อง \"โตช้าลงถาวร\" ของ Warren ผิด"
     },
-    "tier": "🏛️ Inevitable"
+    "tier": "🏛️ Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 306.16,
+      "warren_fv": 272,
+      "date": "2026-08-18"
+    }
   },
   "SPCX": {
     "symbol": "SPCX",
@@ -1085,7 +1181,15 @@
       "why": "Consensus โฟกัสที่ Q2 2026 ที่ดีขึ้นจริงทุกด้าน — รายได้ +92% YoY, operating loss แคบลง **85% YoY**, AI segment Adj EBITDA **เป็นบวกครั้งแรก** ($1,146M), ARPU Starlink **หยุดร่วงเป็นไตรมาสแรก** ($66 คงที่หลังจาก $99→$91→$81→$66) — และสรุปว่าจุดเปลี่ยนมาถึงแล้ว. **Warren เห็นด้วยเรื่องธุรกิจ แต่เห็นต่างเรื่องราคา**: ที่ $140 ตลาดกำลังจ่าย **21.3× ยอดขายล่วงหน้า FY2027** ให้บริษัทที่ยังขาดทุนตาม GAAP และเผา capex **6.2 เท่าของรายได้ในขาที่โตเร็วที่สุด**. สิ่งที่ยังไม่ถูกมองคือ **ค่าเสื่อมราคาที่กำลังจะตามมา** — capex $18,369M ในไตรมาสเดียวจะกลายเป็น depreciation ที่กด GAAP earnings ไปอีกหลายปี ซึ่งเป็นสิ่งที่ metric EV/Sales มองไม่เห็นโดยธรรมชาติ",
       "risk": "ARPU Starlink กลับมาโตพร้อม subs ที่ยังเพิ่ม 2x/ปี (แปลว่า pricing power กลับมาและ Warren ให้ multiple ขา Connectivity ต่ำเกินไป), หรือขา AI พิสูจน์ว่าสัญญา 90-day-terminable ต่ออายุจริงหลายรอบจนกลายเป็นรายได้ประจำ (แปลว่า 7× EV/Sales ต่ำเกินไป), หรือในทางกลับกัน — NVDA จัดสรร GPU ให้ไม่พอ, คดี turbine บังคับปิดแหล่งไฟ, หรือ lockup wave สุดท้าย (ถึง ต.ค. 2026) กดราคาพร้อมกับ capex ที่ยังไม่ลด"
     },
-    "tier": "⚠️ Speculative"
+    "tier": "⚠️ Speculative",
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "",
+      "risks": [],
+      "yf_price": 142.03,
+      "warren_fv": 60,
+      "date": "2026-08-18"
+    }
   },
   "ARM": {
     "symbol": "ARM",
@@ -1157,7 +1261,15 @@
       "why": "Consensus is digesting a two-sided Q1 FY2027 print (clean beat on revenue/EPS but a royalty-growth guide cut on mobile BOM inflation, plus a crystallized Qualcomm/Nuvia court loss) alongside a genuine TAM reframe (AGI CPU Cloud AI CPU TAM $100B→$220B-equivalent, demand backlog >$2B) — Warren's edge is that even after reconciling the valuation to defensible (not just optimistic) consensus EPS, the stock trades at ~95x forward earnings on the re-derived base, i.e. the AGI CPU optionality is being priced as if it's already Base case when it still belongs in Bull; that gap is real but the market isn't pricing it as a gap.",
       "risk": "DOJ/FTC antitrust action forces licensing model change, OR RISC-V adoption accelerates at hyperscalers, OR the 3rd Circuit appeal against Qualcomm also fails (removing the ~10%-of-revenue Qualcomm relationship from Arm's control) — any of these collapses royalty growth and triggers multiple compression."
     },
-    "tier": "🚀 Pre-Inevitable"
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 253.12,
+      "warren_fv": 187,
+      "date": "2026-08-18"
+    }
   },
   "SKHY": {
     "symbol": "SKHY",
@@ -1221,7 +1333,15 @@
       "why": "Consensus treats the Nvidia/SK Group AI-infrastructure partnership + sovereign-wealth-fund buying interest as confirmation that SK Hynix's re-rating is justified — Warren's second-level read: **neither catalyst is a quantified earnings event.** The stock is +24.3% in 10 days with no new print, while the actual hard evidence for de-cycling (concluded LTAs with ~10 customers, two quarters of record-and-rising op margin 71%→76%) was already fully priced in as of the 08-08 batch. A disciplined bottom-up rebuild of normalized mid-cycle earnings (not simply carrying forward the prior incremental adjustment) puts fair value at $60/ADS against a $171.38 price — the gap has *widened*, not narrowed, on pure narrative/flow-driven price action. This is the textbook cyclical-peak trap Lynch warned about: don't chase a name higher because a partnership headline \"confirms\" a thesis that was already in the price.",
       "risk": "ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin/Fab 2) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด (ทั้ง $60 รอบนี้และ $110 รอบก่อน), และราคาปัจจุบัน justified. Two consecutive quarters of rising (not falling) operating margin (71%→76%) plus the Nvidia partnership's demand visibility are themselves data points in that direction — watch Q3 (next real test)."
     },
-    "tier": "🔁 Cyclical"
+    "tier": "🔁 Cyclical",
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "",
+      "risks": [],
+      "yf_price": 161.4,
+      "warren_fv": 49,
+      "date": "2026-08-18"
+    }
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -1293,6 +1413,92 @@
       "why": "Consensus โฟกัสที่ deliveries +25% และ backlog ใหญ่สุดตั้งแต่ 2023 แล้วสรุปว่า \"ธุรกิจกลับมาแล้ว\" — Warren เห็นต่างที่ **โครงสร้างของกำไร ไม่ใช่ยอดขาย**: รายได้ +26% YoY แต่ operating income **−57% YoY** เหลือ margin 1.4%, ดอกเบี้ยรับไตรมาสเดียว ($422M) มากกว่า operating income ทั้งก้อน, และ net income $1,114M ถูกอุ้มด้วย **SpaceX unrealized gain $1.00B ซึ่งเป็นรายการ related-party ที่ตีมูลค่าแบบ Level 2** ⇒ ถ้าถอดออก pretax แทบเป็นศูนย์. สิ่งที่ยังไม่ถูก price-in คือ EPS consensus FY2026/FY2027 ($1.79/$2.18) วางอยู่บนฐานที่มีรายการ non-operating ปนหนัก ⇒ ตัวหารของ P/E เองไม่น่าเชื่อถือ ซึ่งเป็นเหตุผลที่รอบนี้ **เลิกใช้ P/E กับ TSLA ทั้งหมด**",
       "risk": "operating margin ฟื้นกลับเหนือ 8% อย่างต่อเนื่องโดยไม่พึ่ง non-operating (แปลว่า Warren ประเมิน operating leverage ต่ำเกินไป), หรือ robotaxi ขยายเกิน 25 metros พร้อมรายได้ที่แยกรายงานได้จริง, หรือในทางกลับกัน — capex >$25B/ปี กับ FCF ติดลบต่อเนื่อง 2-3 ปีตามที่ CFO guide ทำให้ต้องใช้วงเงินกู้ $30B เต็มจำนวนพร้อม margin ที่ยังไม่ฟื้น"
     },
-    "tier": "⚠️ Speculative"
+    "tier": "⚠️ Speculative",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 337.51,
+      "warren_fv": 290,
+      "date": "2026-08-18"
+    }
+  },
+  "AMAT": {
+    "symbol": "AMAT",
+    "display": "AMAT",
+    "category": "semiconductor",
+    "name": "Applied Materials, Inc.",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "Wafer Fab Equipment"
+    ],
+    "bull": [
+      "ครองส่วนแบ่งตลาดเครื่องจักรผลิตชิปกว้างที่สุด ครอบคลุมเกือบทุกขั้นตอนของ wafer fabrication (deposition, etch, ion implant, CMP)",
+      "Wafer Fab Equipment spending คาดแตะ $145-150B ในปี 2026 ตามวงจร AI capex ที่เร่งตัว (Stifel)",
+      "Installed base ขนาดใหญ่ทั่วโลก สร้าง recurring service/upgrade revenue ที่มั่นคง",
+      "ได้ประโยชน์จากทุกฝ่ายที่แข่งกันสร้าง fab (TSMC/Samsung/Intel/Terafab) โดยไม่ต้องเดิมพันว่าใครชนะ — picks-and-shovels play",
+      "ราคาหุ้นพุ่ง ~98% ในปี 2026 สะท้อน momentum ของ AI infrastructure buildout ที่ตลาดเริ่ม price-in"
+    ],
+    "risk": [
+      "Valuation วิ่งมาแรงมากแล้ว (+98% YTD 2026) — ต้องระวัง priced-in ไปมากแล้ว",
+      "Semiconductor equipment cyclicality — order อาจชะลอถ้า capex hyperscaler สะดุด",
+      "China export restriction กระทบยอดขายเครื่องจักรระดับสูงไปจีนโดยตรง",
+      "Customer concentration ที่ TSMC/Samsung/Intel/Micron รายใหญ่ไม่กี่ราย",
+      "Competition จาก Tokyo Electron ในบางกลุ่มสินค้าเช่น etch/deposition"
+    ]
+  },
+  "LRCX": {
+    "symbol": "LRCX",
+    "display": "LRCX",
+    "category": "semiconductor",
+    "name": "Lam Research Corporation",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "Etch & Deposition"
+    ],
+    "bull": [
+      "ผู้นำอันดับ 1 ด้าน Etch/Deposition โดยเฉพาะ high-aspect-ratio etch ที่จำเป็นสำหรับ NAND 3D และ HBM memory",
+      "Demand เร่งตัวจาก AI chip ที่ต้องการ memory bandwidth สูง (HBM stacking) และ logic 3D structure",
+      "Guidance ล่าสุด (ต.ค. 2025) สูงกว่าคาด สะท้อน AI/HPC demand ที่แข็งแกร่งต่อเนื่อง",
+      "ได้ประโยชน์โดยตรงจาก memory supercycle (HBM) ที่ MU/SKHY อยู่ใน watchlist อยู่แล้ว — เสริม thesis เดียวกัน",
+      "Recurring revenue จาก spare parts/service สัดส่วนสูงในรายได้รวม"
+    ],
+    "risk": [
+      "พึ่งพา memory cycle (NAND/DRAM) ที่มีความผันผวนสูงกว่า logic equipment",
+      "China customer concentration บางส่วนเสี่ยงจาก export control",
+      "Valuation วิ่งขึ้นมาพร้อม semiconductor equipment sector ทั้งกลุ่มแล้ว",
+      "คู่แข่ง Tokyo Electron/AMAT แข่งขันในบางกลุ่มผลิตภัณฑ์ที่ overlap",
+      "Capex hyperscaler ชะลอกระทบคำสั่งซื้อโดยตรงเช่นเดียวกับ AMAT"
+    ]
+  },
+  "KLA": {
+    "symbol": "KLA",
+    "display": "KLA",
+    "category": "semiconductor",
+    "name": "KLA Corporation",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "Process Control & Inspection"
+    ],
+    "bull": [
+      "Near-monopoly ในตลาด process control/inspection — defect detection ระดับ nanometer ที่คู่แข่งตามไม่ทัน",
+      "Margin สูงสุดในกลุ่ม equipment: Gross margin 60.9%, Operating margin 38.2%",
+      "ยิ่ง node ชิปเล็กลง (2nm, High-NA EUV) ยิ่งต้องการ inspection แม่นยำขึ้น = demand เพิ่มตามความซับซ้อน ไม่ใช่แค่ปริมาณ",
+      "Toll-booth บน capex ทุกสาย ไม่ว่า fab ไหนชนะ (TSMC/Samsung/Intel/Terafab) ก็ต้องซื้อเครื่อง KLA",
+      "Recurring revenue จาก software/service สัดส่วนสูง เสถียรกว่า equipment ขายขาดล้วนๆ"
+    ],
+    "risk": [
+      "Valuation premium สูงเพราะตลาดให้ premium กับ moat ที่แข็งแกร่งที่สุดในกลุ่มอยู่แล้ว",
+      "Cyclicality ของ semiconductor capex เหมือนกลุ่ม equipment ทั้งหมด",
+      "China exposure และความเสี่ยง export control เช่นเดียวกับ AMAT/LRCX",
+      "Customer concentration กับ leading-edge foundry ไม่กี่ราย",
+      "Breakthrough ของคู่แข่งใน inspection tech ระยะยาวอาจกัดส่วนแบ่ง (ความเสี่ยงต่ำแต่ไม่เป็นศูนย์)"
+    ]
   }
 }
