@@ -27,14 +27,14 @@
     "action": "buy",
     "actionLabel": "Buy",
     "conviction": 5,
-    "waf": 8.5,
+    "waf": 8.63,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 225.3,
+    "price": 208.48,
     "fv": 309,
-    "mos": 27.09,
-    "fpe": 17.51,
-    "peg": 0.7,
+    "mos": 32.53,
+    "fpe": 16.2,
+    "peg": 0.65,
     "scores": {
       "bq": [
         9.5,
@@ -47,22 +47,22 @@
         95
       ],
       "va": [
-        7.9,
-        "amber",
-        79
+        8.3,
+        "green",
+        83
       ],
       "ra": [
-        5.5,
+        5.7,
         "orange",
-        55
+        57
       ]
     },
-    "idea": "AI factory platform — CUDA + system-integration moat + Vera Rubin ramp. รอบนี้เป็น full Revenue-as-Base rebuild (ไม่ใช่ price refresh): ฐานเปลี่ยนจาก \"carry FY28 consensus EPS $12.15\" มาเป็น revenue consensus $561.51B × normalized margin 55% ÷ 24.0B shares = $12.87 → FV $309. MoS 27.09% ผ่าน gate 20% พร้อม PEG 0.70 และ ER 31.5% — **ผ่านครบ 4 rules** เป็นครั้งแรกนับตั้งแต่ gate ขยับเป็น 20%",
-    "updated": "2026-08-14",
+    "idea": "AI factory platform — CUDA + system-integration moat + Vera Rubin ramp. รอบ 08-14 ทำ full Revenue-as-Base rebuild: revenue consensus $561.51B × normalized margin 55% ÷ 24.0B shares = $12.87 → FV $309 (EPS/multiple คงเดิมรอบนี้ ไม่มี earnings ใหม่). รอบ 08-25 เป็น price/news refresh ล้วน — ราคาลด MoS ขยายเป็น 32.53% พร้อม PEG 0.65 และ ER 33.2% — **ผ่านครบ 4 rules สบายขึ้น**",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-14",
+      "updated": "2026-08-25",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).",
@@ -187,14 +187,14 @@
     "action": "hold",
     "actionLabel": "Hold",
     "conviction": 4,
-    "waf": 8.0,
+    "waf": 8.1,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 430.49,
+    "price": 410.12,
     "fv": 411,
-    "mos": -4.74,
-    "fpe": 20.96,
-    "peg": 1.05,
+    "mos": 0.21,
+    "fpe": 19.97,
+    "peg": 1.0,
     "scores": {
       "bq": [
         9.5,
@@ -207,9 +207,9 @@
         95
       ],
       "va": [
-        5.9,
+        6.3,
         "orange",
-        59
+        63
       ],
       "ra": [
         5.5,
@@ -218,11 +218,11 @@
       ]
     },
     "idea": "chokepoint ที่ทุกชิป AI ต้องผ่าน — ธุรกิจเร่งขึ้นจริง แต่ราคายืนเหนือ FV base เล็กน้อยเป็นรอบที่ 3 ติดต่อกัน; ถือได้ ไม่เติม",
-    "updated": "2026-08-14",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-14",
+      "updated": "2026-08-25",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.",
@@ -399,6 +399,86 @@
       "date": "2026-08-18"
     }
   },
+  "ASML": {
+    "symbol": "ASML",
+    "display": "ASML",
+    "category": "semiconductor",
+    "name": "ASML Holding",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "EUV Lithography"
+    ],
+    "bull": [
+      "EUV lithography absolute monopoly — ไม่มีทางใช้ node ล้ำๆ โดยไม่ผ่าน ASML",
+      "High-NA EUV (Twinscan EXE) รองรับ nodes 1.8nm ถึง Angstrom era",
+      "Installed base recurring revenue: service + upgrades = predictable income",
+      "HBM supercycle เพิ่ม demand layer count → ต้องการ EUV เพิ่มขึ้น",
+      "TSMC, Samsung, Intel = customer lock-in ระยะยาว multi-decade"
+    ],
+    "risk": [
+      "China export restrictions ห้ามขาย EUV — กระทบ 10-15% revenue ทันที",
+      "Semi cyclicality ทำให้ orders อาจชะลอในช่วง down-cycle",
+      "High-NA EUV ราคา $350M/unit ทำให้ customer deployment ช้า",
+      "อ่อนไหวต่อ geopolitics EU-China",
+      "MoS เพียง 8.9% จาก FV $900 — ต้องการ pullback เพื่อ entry ที่ดีขึ้น"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 4,
+    "waf": 7.525,
+    "wafBadge": "waf-mid",
+    "wafComposite": "waf-composite-blue",
+    "price": 1740.13,
+    "fv": 1709,
+    "mos": -1.82,
+    "fpe": 30.54,
+    "peg": 1.39,
+    "scores": {
+      "bq": [
+        9.5,
+        "green",
+        95
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        4.6,
+        "orange",
+        46
+      ],
+      "ra": [
+        6.5,
+        "amber",
+        65
+      ]
+    },
+    "idea": "EUV monopoly ที่ธุรกิจกำลังดีที่สุดในรอบหลายปี (guide raise 2 ครั้ง) แต่ราคาไล่ขึ้นเร็วกว่ากำไร — ที่ราคานี้จ่ายเต็มมูลค่าและติดลบเล็กน้อย",
+    "updated": "2026-08-25",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-08-25",
+      "tier": "🏛️ Inevitable",
+      "tier_slug": "inevitable",
+      "what": "ASML is the sole global producer of EUV lithography systems—the only machines capable of patterning leading-edge transistors—beating competitors via a multi-decade ecosystem moat (Zeiss optics, TRUMPF light sources) that cannot be replicated.",
+      "why": "Consensus saw Q2 as \"beat but priced-in\" going in — Warren sees the actual result as a genuine second-level surprise: ASML raised FY2026 guidance for the **second time this year** (€36-40B→€43-45B) with margin guide also up (51-53%→54-56%), and Q3 guide (€11-12B) implies a sharp H2 acceleration — this is not backlog chatter anymore, it's a confirmed structural re-rating of the AI-driven demand curve that the market is still catching up to (sell-side PTs jumping to $2,200-2,623 same-day). The unresolved China/export-control overhang (07-14 law + 07-28/07-29 China domestic-DUV progress) remains the genuine counter-risk — but that risk sits on the DUV/mature-node revenue line (~19-20% of 2026 rev), not on the EUV leading-edge monopoly the thesis is built on; today's own follow-up (07-29) assesses the near-term severity as low. A 4-day sector-wide semi selloff (SMH -12% from peak, not ASML-specific) has pushed the price well below where Q2's beat-and-raise alone would put it, widening the entry margin further. **2026-08-04 update:** the 08-04 🔴MATERIAL headline (\"ASML influence declining as competing tech absorbs share\") WebSearched in full — it is the same China-domestic-DUV narrative continuing, and independent coverage (Morningstar-cited moat analysis, 08-04) confirms ASML still holds >80% of total lithography revenue and 100% of EUV; the China threat is framed as a 2-3 year gradual DUV/low-end substitution (~20 units vs. an order book measured in hundreds), \"real in the long run but overstated for 2026-2027.\" Same-day 08-03 news (Bernstein \"Top Q3 Pick,\" Goldman added to European Conviction List, backlog \"still strong despite chip-market pressure\") is a genuine positive counterweight not yet reflected on this card. No new information that changes the EUV monopoly thesis.",
+      "risk": "A major customer (TSMC or Samsung) delays leading-edge node ramp by 12+ months, or US/EU export restrictions expand to broader DUV categories (MATCH Act risks cutting ~19-20% of revenue from China) — **or** China's domestic DUV tooling (07-28/07-29 news) scales fast enough to materially displace ASML DUV unit sales into China (watch for shipment/share data, not just \"started production\" headlines) — breaking the order book; or H2 2026 execution falls short of the newly-raised guide."
+    },
+    "tier": "🏛️ Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 1799.24,
+      "warren_fv": 1709,
+      "date": "2026-08-18"
+    }
+  },
   "NFLX": {
     "symbol": "NFLX",
     "display": "NFLX",
@@ -476,86 +556,6 @@
       "risks": [],
       "yf_price": 77.66,
       "warren_fv": 109,
-      "date": "2026-08-18"
-    }
-  },
-  "ASML": {
-    "symbol": "ASML",
-    "display": "ASML",
-    "category": "semiconductor",
-    "name": "ASML Holding",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "EUV Lithography"
-    ],
-    "bull": [
-      "EUV lithography absolute monopoly — ไม่มีทางใช้ node ล้ำๆ โดยไม่ผ่าน ASML",
-      "High-NA EUV (Twinscan EXE) รองรับ nodes 1.8nm ถึง Angstrom era",
-      "Installed base recurring revenue: service + upgrades = predictable income",
-      "HBM supercycle เพิ่ม demand layer count → ต้องการ EUV เพิ่มขึ้น",
-      "TSMC, Samsung, Intel = customer lock-in ระยะยาว multi-decade"
-    ],
-    "risk": [
-      "China export restrictions ห้ามขาย EUV — กระทบ 10-15% revenue ทันที",
-      "Semi cyclicality ทำให้ orders อาจชะลอในช่วง down-cycle",
-      "High-NA EUV ราคา $350M/unit ทำให้ customer deployment ช้า",
-      "อ่อนไหวต่อ geopolitics EU-China",
-      "MoS เพียง 8.9% จาก FV $900 — ต้องการ pullback เพื่อ entry ที่ดีขึ้น"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 3,
-    "waf": 7.375,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 1847.9,
-    "fv": 1709,
-    "mos": -8.13,
-    "fpe": 32.43,
-    "peg": 1.47,
-    "scores": {
-      "bq": [
-        9.5,
-        "green",
-        95
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        4.0,
-        "orange",
-        40
-      ],
-      "ra": [
-        6.5,
-        "amber",
-        65
-      ]
-    },
-    "idea": "EUV monopoly ที่ธุรกิจกำลังดีที่สุดในรอบหลายปี (guide raise 2 ครั้ง) แต่ราคาไล่ขึ้นเร็วกว่ากำไร — ที่ราคานี้จ่ายเต็มมูลค่าและติดลบเล็กน้อย",
-    "updated": "2026-08-14",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-14",
-      "tier": "🏛️ Inevitable",
-      "tier_slug": "inevitable",
-      "what": "ASML is the sole global producer of EUV lithography systems—the only machines capable of patterning leading-edge transistors—beating competitors via a multi-decade ecosystem moat (Zeiss optics, TRUMPF light sources) that cannot be replicated.",
-      "why": "Consensus saw Q2 as \"beat but priced-in\" going in — Warren sees the actual result as a genuine second-level surprise: ASML raised FY2026 guidance for the **second time this year** (€36-40B→€43-45B) with margin guide also up (51-53%→54-56%), and Q3 guide (€11-12B) implies a sharp H2 acceleration — this is not backlog chatter anymore, it's a confirmed structural re-rating of the AI-driven demand curve that the market is still catching up to (sell-side PTs jumping to $2,200-2,623 same-day). The unresolved China/export-control overhang (07-14 law + 07-28/07-29 China domestic-DUV progress) remains the genuine counter-risk — but that risk sits on the DUV/mature-node revenue line (~19-20% of 2026 rev), not on the EUV leading-edge monopoly the thesis is built on; today's own follow-up (07-29) assesses the near-term severity as low. A 4-day sector-wide semi selloff (SMH -12% from peak, not ASML-specific) has pushed the price well below where Q2's beat-and-raise alone would put it, widening the entry margin further. **2026-08-04 update:** the 08-04 🔴MATERIAL headline (\"ASML influence declining as competing tech absorbs share\") WebSearched in full — it is the same China-domestic-DUV narrative continuing, and independent coverage (Morningstar-cited moat analysis, 08-04) confirms ASML still holds >80% of total lithography revenue and 100% of EUV; the China threat is framed as a 2-3 year gradual DUV/low-end substitution (~20 units vs. an order book measured in hundreds), \"real in the long run but overstated for 2026-2027.\" Same-day 08-03 news (Bernstein \"Top Q3 Pick,\" Goldman added to European Conviction List, backlog \"still strong despite chip-market pressure\") is a genuine positive counterweight not yet reflected on this card. No new information that changes the EUV monopoly thesis.",
-      "risk": "A major customer (TSMC or Samsung) delays leading-edge node ramp by 12+ months, or US/EU export restrictions expand to broader DUV categories (MATCH Act risks cutting ~19-20% of revenue from China) — **or** China's domestic DUV tooling (07-28/07-29 news) scales fast enough to materially displace ASML DUV unit sales into China (watch for shipment/share data, not just \"started production\" headlines) — breaking the order book; or H2 2026 execution falls short of the newly-raised guide."
-    },
-    "tier": "🏛️ Inevitable",
-    "charlie": {
-      "verdict": "AGREE",
-      "summary": "",
-      "risks": [],
-      "yf_price": 1799.24,
-      "warren_fv": 1709,
       "date": "2026-08-18"
     }
   },
@@ -907,14 +907,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 3,
-    "waf": 6.64,
+    "waf": 6.71,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 483.01,
+    "price": 456.75,
     "fv": 325,
-    "mos": -48.62,
-    "fpe": 37.11,
-    "peg": 1.06,
+    "mos": -40.54,
+    "fpe": 35.11,
+    "peg": 1.0,
     "scores": {
       "bq": [
         8.5,
@@ -927,22 +927,22 @@
         93
       ],
       "va": [
-        1.9,
+        2.3,
         "orange",
-        19
+        23
       ],
       "ra": [
-        5.5,
+        5.3,
         "orange",
-        55
+        53
       ]
     },
-    "idea": "ธุรกิจดีขึ้นจริงต่อเนื่อง แต่ราคาวิ่งนำไปไกลกว่ามาก — Revenue-as-Base rebuild ยืนยันภาพเดิม: FV $325 ที่ราคา $483 = ตลาดจ่ายล่วงหน้าให้ FY2028-2029 ไปแล้ว",
-    "updated": "2026-08-14",
+    "idea": "ธุรกิจดีขึ้นจริงต่อเนื่อง แต่ราคาวิ่งนำไปไกลกว่ามาก — Revenue-as-Base rebuild ยืนยันภาพเดิม: FV $325 ที่ราคา $456.75 (08-25) = ตลาดจ่ายล่วงหน้าให้ FY2028-2029 ไปแล้ว แม้ MoS ดีขึ้นจากราคาที่ย่อลง",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-14",
+      "updated": "2026-08-25",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "AMD เป็น sole credible #2 ใน AI accelerator (Instinct MI series) + ครอง >40% server CPU share (EPYC) + เป็นบริษัทเดียวที่มี x86 CPU + AI GPU + rack-scale Helios platform ครบในมือ",
@@ -956,6 +956,86 @@
       "risks": [],
       "yf_price": 485.31,
       "warren_fv": 325,
+      "date": "2026-08-18"
+    }
+  },
+  "ARM": {
+    "symbol": "ARM",
+    "display": "ARM",
+    "category": "ai_semiconductor",
+    "name": "Arm Holdings",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "IP Licensing"
+    ],
+    "bull": [
+      "Armv9 royalty rate 2x Armv8 = structural revenue uplift ทุกปี",
+      "22M+ developers ecosystem ฝังแน่นใน mobile, IoT, servers",
+      "350B chips shipped = installed base ขนาดใหญ่ที่สุดในโลก",
+      "CSS (Compute Subsystem) higher royalty tier กำลัง scale",
+      "AWS Graviton, Apple M-series = royalty revenue ใหม่ขนาดใหญ่"
+    ],
+    "risk": [
+      "P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง",
+      "RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue",
+      "Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips",
+      "SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure",
+      "UK regulatory environment ไม่แน่นอน"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 6.08,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 238.78,
+    "fv": 187,
+    "mos": -27.69,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        8.0,
+        "green",
+        80
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        3.0,
+        "orange",
+        30
+      ],
+      "ra": [
+        3.5,
+        "orange",
+        35
+      ]
+    },
+    "idea": "royalty machine ที่เก็บเงินได้ไม่ว่าใครชนะ ISA — แต่ราคายังจ่ายล่วงหน้าเกินไปมาก แม้หลังแก้ฐานปีให้ตรง convention แล้ว",
+    "updated": "2026-08-25",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-08-25",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "ARM owns the dominant CPU ISA (>95% mobile share) and monetizes via licensing + per-chip royalties with near-zero marginal cost, now expanding into datacenter/AI via Compute Subsystems (CSS) and AGI CPU production silicon.",
+      "why": "Consensus is digesting a two-sided Q1 FY2027 print (clean beat on revenue/EPS but a royalty-growth guide cut on mobile BOM inflation, plus a crystallized Qualcomm/Nuvia court loss) alongside a genuine TAM reframe (AGI CPU Cloud AI CPU TAM $100B→$220B-equivalent, demand backlog >$2B) — Warren's edge is that even after reconciling the valuation to defensible (not just optimistic) consensus EPS, the stock trades at ~95x forward earnings on the re-derived base, i.e. the AGI CPU optionality is being priced as if it's already Base case when it still belongs in Bull; that gap is real but the market isn't pricing it as a gap.",
+      "risk": "DOJ/FTC antitrust action forces licensing model change, OR RISC-V adoption accelerates at hyperscalers, OR the 3rd Circuit appeal against Qualcomm also fails (removing the ~10%-of-revenue Qualcomm relationship from Arm's control) — any of these collapses royalty growth and triggers multiple compression."
+    },
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 253.12,
+      "warren_fv": 187,
       "date": "2026-08-18"
     }
   },
@@ -1188,86 +1268,6 @@
       "risks": [],
       "yf_price": 142.03,
       "warren_fv": 60,
-      "date": "2026-08-18"
-    }
-  },
-  "ARM": {
-    "symbol": "ARM",
-    "display": "ARM",
-    "category": "ai_semiconductor",
-    "name": "Arm Holdings",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "IP Licensing"
-    ],
-    "bull": [
-      "Armv9 royalty rate 2x Armv8 = structural revenue uplift ทุกปี",
-      "22M+ developers ecosystem ฝังแน่นใน mobile, IoT, servers",
-      "350B chips shipped = installed base ขนาดใหญ่ที่สุดในโลก",
-      "CSS (Compute Subsystem) higher royalty tier กำลัง scale",
-      "AWS Graviton, Apple M-series = royalty revenue ใหม่ขนาดใหญ่"
-    ],
-    "risk": [
-      "P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง",
-      "RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue",
-      "Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips",
-      "SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure",
-      "UK regulatory environment ไม่แน่นอน"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 5.83,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 278.65,
-    "fv": 187,
-    "mos": -49.01,
-    "fpe": null,
-    "peg": null,
-    "scores": {
-      "bq": [
-        8.0,
-        "green",
-        80
-      ],
-      "gp": [
-        8.0,
-        "green",
-        80
-      ],
-      "va": [
-        2.0,
-        "orange",
-        20
-      ],
-      "ra": [
-        3.5,
-        "orange",
-        35
-      ]
-    },
-    "idea": "royalty machine ที่เก็บเงินได้ไม่ว่าใครชนะ ISA — แต่ราคายังจ่ายล่วงหน้าเกินไปมาก แม้หลังแก้ฐานปีให้ตรง convention แล้ว",
-    "updated": "2026-08-14",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-14",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "ARM owns the dominant CPU ISA (>95% mobile share) and monetizes via licensing + per-chip royalties with near-zero marginal cost, now expanding into datacenter/AI via Compute Subsystems (CSS) and AGI CPU production silicon.",
-      "why": "Consensus is digesting a two-sided Q1 FY2027 print (clean beat on revenue/EPS but a royalty-growth guide cut on mobile BOM inflation, plus a crystallized Qualcomm/Nuvia court loss) alongside a genuine TAM reframe (AGI CPU Cloud AI CPU TAM $100B→$220B-equivalent, demand backlog >$2B) — Warren's edge is that even after reconciling the valuation to defensible (not just optimistic) consensus EPS, the stock trades at ~95x forward earnings on the re-derived base, i.e. the AGI CPU optionality is being priced as if it's already Base case when it still belongs in Bull; that gap is real but the market isn't pricing it as a gap.",
-      "risk": "DOJ/FTC antitrust action forces licensing model change, OR RISC-V adoption accelerates at hyperscalers, OR the 3rd Circuit appeal against Qualcomm also fails (removing the ~10%-of-revenue Qualcomm relationship from Arm's control) — any of these collapses royalty growth and triggers multiple compression."
-    },
-    "tier": "🚀 Pre-Inevitable",
-    "charlie": {
-      "verdict": "AGREE",
-      "summary": "",
-      "risks": [],
-      "yf_price": 253.12,
-      "warren_fv": 187,
       "date": "2026-08-18"
     }
   },
