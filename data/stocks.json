@@ -1031,6 +1031,78 @@
       "date": "2026-08-18"
     }
   },
+  "SKHY": {
+    "symbol": "SKHY",
+    "display": "SK Hynix",
+    "category": "semiconductor",
+    "name": "SK hynix Inc. ADR",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Memory",
+      "HBM Leader"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 6.1,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 155.37,
+    "fv": 60,
+    "mos": -158.95,
+    "fpe": 33.78,
+    "peg": null,
+    "scores": {
+      "bq": [
+        7.8,
+        "amber",
+        78
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        1.9,
+        "orange",
+        19
+      ],
+      "ra": [
+        5.0,
+        "orange",
+        50
+      ]
+    },
+    "idea": "HBM #1 franchise, real evidence for de-cycling (concluded LTAs, 2 quarters of record-rising op margin) — price has pulled back -9.34% since 08-18 toward the independently-rebuilt normalized FV ($60), but the gap remains enormous. The 08-24 Japan-fab headline is exploratory only (SK Hynix's own 08-21 statement: no decision made) and does not change the thesis. ไม่ไล่ซื้อ cyclical ที่ยังพิสูจน์ down-cycle ไม่ได้ — narrative catalysts (however fundamentally real long-term) are not a substitute for a lower entry price or a proven cycle trough.",
+    "updated": "2026-08-25",
+    "bull": [
+      "HBM leadership + AI memory demand จริง structural — LTA lock-in (~10 customers) + Nvidia/SK Group $500B+ AI-infra partnership reinforce the long-term demand case, but normalized mid-cycle earnings (rebuilt 08-18 under Revenue-as-Base) sit far below the current $155.37 price; SK Hynix still has zero down-cycle track record as a standalone public print."
+    ],
+    "risk": [
+      "ถ้า de-cycling เป็นจริงเต็มที่ (margin ยืน >50% ต่อเนื่อง 2+ ปีข้าม down-cycle จริง) → normalized earnings ควรใกล้ peak มากกว่านี้ ทั้ง FV $60 รอบนี้และ $110 รอบก่อนอาจต่ำไป — **นี่คือความเสี่ยงหลักของการ short/avoid ตัวนี้**, ไม่ใช่แค่ downside risk; downside เพิ่มเติมถ้า Samsung/CXMT HBM parity บีบ margin จริงตามคาด"
+    ],
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-08-25",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
+      "what": "SK hynix เป็นผู้นำ HBM อันดับ 1 โลก (56.4% share) ผลิต advanced memory (DRAM/HBM/NAND) ซึ่งเป็นหัวใจของ AI compute — ชนะด้วย HBM technology lead (HBM4 industry-first) + qualification switching cost + scale/vertical packaging.",
+      "why": "Consensus treats the Nvidia/SK Group AI-infrastructure partnership + sovereign-wealth-fund buying interest (and now Japan-fab exploration headlines) as confirmation that SK Hynix's re-rating is justified — Warren's second-level read: **none of these are quantified earnings events, including the 08-24 Japan news, which SK Hynix itself has not confirmed as a decision.** Even after the stock's -9.34% pullback since 08-18, price ($155.37) sits far above the independently-rebuilt normalized fair value ($60/ADS) — the actual hard evidence for de-cycling (concluded LTAs with ~10 customers, two quarters of record-and-rising op margin 71%→76%) remains fully priced in and then some. This is the textbook cyclical-peak trap Lynch warned about: geographic-expansion headlines and partnership buzz are not a substitute for a lower entry price or a proven cycle trough.",
+      "risk": "ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin/Fab 2/Japan ถ้าเกิดจริง) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด (ทั้ง $60 รอบนี้และ $110 รอบก่อน), และราคาปัจจุบัน justified. Two consecutive quarters of rising (not falling) operating margin (71%→76%) plus the Nvidia partnership's demand visibility are themselves data points in that direction — watch Q3 (next real test)."
+    },
+    "tier": "🔁 Cyclical",
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "",
+      "risks": [],
+      "yf_price": 161.4,
+      "warren_fv": 49,
+      "date": "2026-08-18"
+    }
+  },
   "ARM": {
     "symbol": "ARM",
     "display": "ARM",
@@ -1268,78 +1340,6 @@
       "risks": [],
       "yf_price": 142.03,
       "warren_fv": 60,
-      "date": "2026-08-18"
-    }
-  },
-  "SKHY": {
-    "symbol": "SKHY",
-    "display": "SK Hynix",
-    "category": "semiconductor",
-    "name": "SK hynix Inc. ADR",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Memory",
-      "HBM Leader"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 5.83,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 171.38,
-    "fv": 60,
-    "mos": -185.6,
-    "fpe": 37.3,
-    "peg": null,
-    "scores": {
-      "bq": [
-        7.8,
-        "amber",
-        78
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        0.7,
-        "orange",
-        7
-      ],
-      "ra": [
-        5.0,
-        "orange",
-        50
-      ]
-    },
-    "idea": "HBM #1 franchise, real evidence for de-cycling (concluded LTAs, 2 quarters of record-rising op margin) — but this batch's price move (+24.3% in 10 days) is driven by a partnership headline and sovereign-wealth-fund buying buzz, not new earnings, while the independently-rebuilt normalized FV (Revenue-as-Base discipline, replacing the prior ad-hoc adjustment chain) comes in materially lower ($60 vs $110). Both effects push MoS the wrong way simultaneously. ไม่ไล่ซื้อ cyclical ที่ยังพิสูจน์ down-cycle ไม่ได้ — narrative catalysts (however fundamentally real long-term) are not a substitute for a lower entry price or a proven cycle trough.",
-    "updated": "2026-08-18",
-    "bull": [
-      "HBM leadership + AI memory demand จริง structural — LTA lock-in (~10 customers) + Nvidia/SK Group $500B+ AI-infra partnership reinforce the long-term demand case, but normalized mid-cycle earnings (rebuilt this batch under Revenue-as-Base) sit far below the current $171 price; SK Hynix still has zero down-cycle track record as a standalone public print, and this batch's price action is entirely narrative/flow-driven rather than earnings-driven."
-    ],
-    "risk": [
-      "ถ้า de-cycling เป็นจริงเต็มที่ (margin ยืน >50% ต่อเนื่อง 2+ ปีข้าม down-cycle จริง) → normalized earnings ควรใกล้ peak มากกว่านี้ ทั้ง FV $60 รอบนี้และ $110 รอบก่อนอาจต่ำไป — **นี่คือความเสี่ยงหลักของการ short/avoid ตัวนี้**, ไม่ใช่แค่ downside risk; downside เพิ่มเติมถ้า Samsung/CXMT HBM parity บีบ margin จริงตามคาด"
-    ],
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-18",
-      "tier": "🔁 Cyclical",
-      "tier_slug": "cyclical",
-      "what": "SK hynix เป็นผู้นำ HBM อันดับ 1 โลก (56.4% share) ผลิต advanced memory (DRAM/HBM/NAND) ซึ่งเป็นหัวใจของ AI compute — ชนะด้วย HBM technology lead (HBM4 industry-first) + qualification switching cost + scale/vertical packaging.",
-      "why": "Consensus treats the Nvidia/SK Group AI-infrastructure partnership + sovereign-wealth-fund buying interest as confirmation that SK Hynix's re-rating is justified — Warren's second-level read: **neither catalyst is a quantified earnings event.** The stock is +24.3% in 10 days with no new print, while the actual hard evidence for de-cycling (concluded LTAs with ~10 customers, two quarters of record-and-rising op margin 71%→76%) was already fully priced in as of the 08-08 batch. A disciplined bottom-up rebuild of normalized mid-cycle earnings (not simply carrying forward the prior incremental adjustment) puts fair value at $60/ADS against a $171.38 price — the gap has *widened*, not narrowed, on pure narrative/flow-driven price action. This is the textbook cyclical-peak trap Lynch warned about: don't chase a name higher because a partnership headline \"confirms\" a thesis that was already in the price.",
-      "risk": "ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin/Fab 2) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด (ทั้ง $60 รอบนี้และ $110 รอบก่อน), และราคาปัจจุบัน justified. Two consecutive quarters of rising (not falling) operating margin (71%→76%) plus the Nvidia partnership's demand visibility are themselves data points in that direction — watch Q3 (next real test)."
-    },
-    "tier": "🔁 Cyclical",
-    "charlie": {
-      "verdict": "CAUTION",
-      "summary": "",
-      "risks": [],
-      "yf_price": 161.4,
-      "warren_fv": 49,
       "date": "2026-08-18"
     }
   },
