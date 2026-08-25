@@ -107,14 +107,14 @@
     "action": "hold",
     "actionLabel": "Hold",
     "conviction": 4,
-    "waf": 8.18,
+    "waf": 8.3,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 495.4,
+    "price": 487.31,
     "fv": 562,
-    "mos": 11.85,
-    "fpe": 22.21,
-    "peg": 1.24,
+    "mos": 13.29,
+    "fpe": 21.84,
+    "peg": 1.22,
     "scores": {
       "bq": [
         9.5,
@@ -127,9 +127,9 @@
         90
       ],
       "va": [
-        6.3,
-        "orange",
-        63
+        6.8,
+        "amber",
+        68
       ],
       "ra": [
         7.0,
@@ -137,16 +137,16 @@
         70
       ]
     },
-    "idea": "🟡 **HOLD** — full refresh batch 3/4 ทำให้ MSFT ดูดีขึ้นชัดเจนบนกระดาษ (MoS พลิกเป็นบวกครั้งแรกในหลายรอบ) แต่ **ยังไม่พอซื้อ**: MoS 11.85% ขาด gate 20% อยู่ 8.15 จุด และต่ำกว่าขอบล่างแถบ STARTER 1.15 จุด. ผ่านทุก gate อื่นครบ (PEG 1.24 ✓ · ER 20.45% ✓ · WAF 8.18 ✓ · Story Gate PASS ✓). MSFT เป็น position ที่ถืออยู่แล้ว ($70 invested) ⇒ ไม่เติมรอบนี้ ส่งต่อให้ /warren ตัดสิน",
-    "updated": "2026-08-15",
+    "idea": "🟡 **HOLD** — batch 08-25 (price refresh + market gate ผ่อนลง) ทำให้ MSFT ใกล้ ADD เข้าไปอีก: MoS 13.29% ขาด gate 15% อยู่เพียง **1.71 จุด** (แคบลงจาก 8.15 จุดเมื่อ 08-15) — **เข้าแถบ near-miss/STARTER (8-15%) แล้ว**. ผ่านทุก gate อื่นครบ (PEG 1.22 ✓ · ER 20.79% ✓ · WAF 8.30 ✓ · Story Gate PASS ✓). MSFT เป็น position ที่ถืออยู่แล้ว ($70 invested) ⇒ ไม่ใช้กลไก STARTER (สำหรับ position ใหม่เท่านั้น) แต่ส่งต่อเป็น **ADD-candidate ที่แข็งขึ้น** ให้ /warren ตัดสิน",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-25",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Microsoft ขายชั้น monetization ของ enterprise AI ผ่าน Azure (+43% YoY ใน Q4 FY2026, guide ~45% CC), GitHub Copilot และ M365 Copilot (30M+ paid seats) บนฐาน distribution ที่ฝังลึกที่สุดในองค์กรทั่วโลก — ชนะเพราะลูกค้าต้องเปลี่ยนทั้ง identity/data/productivity stack พร้อมกันถึงจะย้ายออกได้",
-      "why": "Consensus มองว่า MSFT คือ \"ของดีที่ราคาเต็มเสมอ\" และอ้าง forward P/E ~22× ว่าไม่ถูก — Warren เห็นต่างที่ **จุดที่ consensus ยังไม่ปรับตาม คือ ปีฐาน ไม่ใช่ตัวธุรกิจ**: เมื่อย้ายปีฐานไป FY2028 ตาม convention ของ full refresh นี้ (FY2027 เริ่มเดินไปแล้วตั้งแต่ 1 ก.ค. 2026) และประเมินด้วย multiple ที่มีที่มาภายนอกแทนตัวเลขที่ Warren เคยตั้งเอง (24×) FV ขยับ $470 → $562 ทำให้ MoS พลิกจาก **−4.77% เป็น +11.85%** โดยที่ราคาแทบไม่เปลี่ยน — ช่องว่างนี้ยังไม่ปิด แต่ **ยังไม่ถึงขนาดที่จะซื้อ** เพราะยังขาด gate 20% อยู่ 8.15 จุด",
+      "why": "Consensus มองว่า MSFT คือ \"ของดีที่ราคาเต็มเสมอ\" และอ้าง forward P/E ~22× ว่าไม่ถูก — Warren เห็นต่างที่ **จุดที่ consensus ยังไม่ปรับตาม คือ ปีฐาน ไม่ใช่ตัวธุรกิจ**: เมื่อย้ายปีฐานไป FY2028 ตาม convention ของ full refresh นี้ FV = $562 ทำให้ MoS พลิกจากติดลบเป็นบวก — และ**ตอนนี้ (08-25) ราคาลดลงอีก +market gate ผ่อนลง (VIX Calm→Normal) ทำให้ MoS ขยับใกล้ gate เข้าไปอีก** จาก 11.85% (ขาด gate เดิม 20% อยู่ 8.15 จุด) เป็น 13.29% (ขาด gate ใหม่ 15% อยู่เพียง 1.71 จุด — **เข้าแถบ near-miss/STARTER 8-15% แล้ว**) ช่องว่างยังไม่ปิดสนิท แต่แคบลงมากในรอบเดียว",
       "risk": "Azure growth ชะลอต่ำกว่า 15% สองไตรมาสติด, หรือ OpenAI ลด exclusivity จนกระทบ Copilot ecosystem จริง, หรือ contractual obligations $743.8B + uncommenced leases $329.1B เริ่มกด FCF ต่อเนื่องเกิน 3 ไตรมาสโดยไม่มี ROIC ตามทัน, หรือคดี securities class action (W.D. Wash.) พิสูจน์ว่ามีการดึง compute ออกจาก Azure ไปแก้ Copilot จริงตามที่ฟ้อง"
     },
     "tier": "🏛️ Inevitable",
@@ -156,6 +156,86 @@
       "risks": [],
       "yf_price": 482.1,
       "warren_fv": 562,
+      "date": "2026-08-18"
+    }
+  },
+  "META": {
+    "symbol": "META",
+    "display": "META",
+    "category": "big_tech",
+    "name": "Meta Platforms",
+    "sector": "Big Tech",
+    "sectorSlug": "bigtech",
+    "chips": [
+      "Big Tech",
+      "Social Media + AI"
+    ],
+    "bull": [
+      "DAP 3.56B คนทุกวัน = data flywheel ที่ทรงพลังที่สุดสำหรับ Social AI",
+      "Revenue Q1 2026 $56.31B +33% YoY, Operating Margin 41% record-high",
+      "PEG 0.9 — cheap relative to growth rate ในบริษัทขนาดนี้",
+      "Llama open-source strategy สร้าง developer ecosystem ขนาดใหญ่",
+      "FCF $12.39B ใน Q1 เดียว = พิสูจน์ว่าธุรกิจสร้างเงินสดได้จริง"
+    ],
+    "risk": [
+      "CapEx FY2026 $125-145B เพิ่ม 2x+ YoY = commitment ใหญ่สุดในประวัติ META",
+      "Reality Labs ขาดทุน ~$19B FY2025 ไม่มีทิศทาง breakeven ชัดเจน",
+      "FTC antitrust case (Instagram/WhatsApp) — ถ้าถูกบังคับขาย = thesis change ทันที",
+      "Revenue 99%+ จาก advertising = cyclical risk สูงถ้า macro อ่อนแอ",
+      "EU Digital Markets Act ลด targeting effectiveness"
+    ],
+    "action": "hold",
+    "actionLabel": "Hold",
+    "conviction": 4,
+    "waf": 8.22,
+    "wafBadge": "waf-mid",
+    "wafComposite": "waf-composite-blue",
+    "price": 559.02,
+    "fv": 711,
+    "mos": 21.38,
+    "fpe": 17.8,
+    "peg": 1.156,
+    "scores": {
+      "bq": [
+        9.0,
+        "green",
+        90
+      ],
+      "gp": [
+        9.0,
+        "green",
+        90
+      ],
+      "va": [
+        7.8,
+        "amber",
+        78
+      ],
+      "ra": [
+        5.8,
+        "orange",
+        58
+      ]
+    },
+    "idea": "",
+    "updated": "2026-08-25",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-08-25",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "Meta เป็นเจ้าของความสนใจของคน 3.60B คนต่อวัน (Family DAP) และแปลงมันเป็นเงินผ่านเครื่องโฆษณาที่ขึ้นราคาได้ทุกปี (avg price per ad +12% YoY, ARPP +17% YoY) — ชนะเพราะ network effect ระดับที่คู่แข่งซื้อไม่ได้ด้วยเงิน",
+      "why": "Consensus เห็น op margin หด 41% → 31% ใน Q2 แล้วกังวลว่า AI capex กำลังกินกำไร — สิ่งที่ Warren เห็นต่างคือ **การหดตัวนั้นเป็นรายการครั้งเดียวเป็นส่วนใหญ่**: ในค่าใช้จ่าย +55% YoY มี legal-proceedings charges **$2.40B** + severance **$1.18B** (ปลดคน ~8,000 คน พ.ค. 2026) ที่ไม่เกิดซ้ำ — ถ้าตัดสองก้อนนี้ออก operating income **โต +9% YoY** ตามที่ผู้บริหารชี้เอง ไม่ใช่ −8% ตามที่รายงาน; ตลาดกำลังคิด multiple บนกำไรที่ถูกกดชั่วคราว ขณะที่ META ซื้อขายต่ำกว่า 5-yr average forward P/E ของตัวเองอยู่ **17%**",
+      "risk": "ARPP หรือ avg price per ad ติดลบ YoY (แปลว่า pricing power หาย ไม่ใช่แค่ค่าใช้จ่ายสูง) **หรือ** FY2027 expenses โตเร็วกว่ารายได้เป็นปีที่สองติดโดยไม่มีรายการ one-time อธิบาย = thesis \"กำไรถูกกดชั่วคราว\" พัง"
+    },
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "",
+      "risks": [],
+      "yf_price": 547.8,
+      "warren_fv": 711,
       "date": "2026-08-18"
     }
   },
@@ -239,86 +319,6 @@
       "date": "2026-08-18"
     }
   },
-  "META": {
-    "symbol": "META",
-    "display": "META",
-    "category": "big_tech",
-    "name": "Meta Platforms",
-    "sector": "Big Tech",
-    "sectorSlug": "bigtech",
-    "chips": [
-      "Big Tech",
-      "Social Media + AI"
-    ],
-    "bull": [
-      "DAP 3.56B คนทุกวัน = data flywheel ที่ทรงพลังที่สุดสำหรับ Social AI",
-      "Revenue Q1 2026 $56.31B +33% YoY, Operating Margin 41% record-high",
-      "PEG 0.9 — cheap relative to growth rate ในบริษัทขนาดนี้",
-      "Llama open-source strategy สร้าง developer ecosystem ขนาดใหญ่",
-      "FCF $12.39B ใน Q1 เดียว = พิสูจน์ว่าธุรกิจสร้างเงินสดได้จริง"
-    ],
-    "risk": [
-      "CapEx FY2026 $125-145B เพิ่ม 2x+ YoY = commitment ใหญ่สุดในประวัติ META",
-      "Reality Labs ขาดทุน ~$19B FY2025 ไม่มีทิศทาง breakeven ชัดเจน",
-      "FTC antitrust case (Instagram/WhatsApp) — ถ้าถูกบังคับขาย = thesis change ทันที",
-      "Revenue 99%+ จาก advertising = cyclical risk สูงถ้า macro อ่อนแอ",
-      "EU Digital Markets Act ลด targeting effectiveness"
-    ],
-    "action": "hold",
-    "actionLabel": "Hold",
-    "conviction": 4,
-    "waf": 8.0,
-    "wafBadge": "waf-mid",
-    "wafComposite": "waf-composite-blue",
-    "price": 589.85,
-    "fv": 711,
-    "mos": 17.04,
-    "fpe": 18.78,
-    "peg": 1.22,
-    "scores": {
-      "bq": [
-        9.0,
-        "green",
-        90
-      ],
-      "gp": [
-        9.0,
-        "green",
-        90
-      ],
-      "va": [
-        6.9,
-        "amber",
-        69
-      ],
-      "ra": [
-        5.8,
-        "orange",
-        58
-      ]
-    },
-    "idea": "",
-    "updated": "2026-08-15",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-15",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "Meta เป็นเจ้าของความสนใจของคน 3.60B คนต่อวัน (Family DAP) และแปลงมันเป็นเงินผ่านเครื่องโฆษณาที่ขึ้นราคาได้ทุกปี (avg price per ad +12% YoY, ARPP +17% YoY) — ชนะเพราะ network effect ระดับที่คู่แข่งซื้อไม่ได้ด้วยเงิน",
-      "why": "Consensus เห็น op margin หด 41% → 31% ใน Q2 แล้วกังวลว่า AI capex กำลังกินกำไร — สิ่งที่ Warren เห็นต่างคือ **การหดตัวนั้นเป็นรายการครั้งเดียวเป็นส่วนใหญ่**: ในค่าใช้จ่าย +55% YoY มี legal-proceedings charges **$2.40B** + severance **$1.18B** (ปลดคน ~8,000 คน พ.ค. 2026) ที่ไม่เกิดซ้ำ — ถ้าตัดสองก้อนนี้ออก operating income **โต +9% YoY** ตามที่ผู้บริหารชี้เอง ไม่ใช่ −8% ตามที่รายงาน; ตลาดกำลังคิด multiple บนกำไรที่ถูกกดชั่วคราว ขณะที่ META ซื้อขายต่ำกว่า 5-yr average forward P/E ของตัวเองอยู่ **17%**",
-      "risk": "ARPP หรือ avg price per ad ติดลบ YoY (แปลว่า pricing power หาย ไม่ใช่แค่ค่าใช้จ่ายสูง) **หรือ** FY2027 expenses โตเร็วกว่ารายได้เป็นปีที่สองติดโดยไม่มีรายการ one-time อธิบาย = thesis \"กำไรถูกกดชั่วคราว\" พัง"
-    },
-    "tier": "🚀 Pre-Inevitable",
-    "charlie": {
-      "verdict": "CAUTION",
-      "summary": "",
-      "risks": [],
-      "yf_price": 547.8,
-      "warren_fv": 711,
-      "date": "2026-08-18"
-    }
-  },
   "AVGO": {
     "symbol": "AVGO",
     "display": "AVGO",
@@ -344,17 +344,17 @@
       "Semiconductor cyclicality ใน Enterprise networking",
       "Hock Tan succession planning ระยะยาว"
     ],
-    "action": "watch",
-    "actionLabel": "Watch",
+    "action": "buy",
+    "actionLabel": "Buy",
     "conviction": 4,
-    "waf": 7.8,
+    "waf": 8.07,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 392.99,
+    "price": 358.76,
     "fv": 431,
-    "mos": 8.82,
-    "fpe": 23.38,
-    "peg": 0.94,
+    "mos": 16.76,
+    "fpe": 21.34,
+    "peg": 0.854,
     "scores": {
       "bq": [
         8.5,
@@ -367,27 +367,27 @@
         95
       ],
       "va": [
-        6.3,
-        "orange",
-        63
+        7.5,
+        "amber",
+        75
       ],
       "ra": [
-        5.5,
+        5.3,
         "orange",
-        55
+        53
       ]
     },
     "idea": "",
-    "updated": "2026-08-15",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-25",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "Broadcom ออกแบบ custom AI accelerator (XPU) + networking silicon ให้ hyperscaler ที่ไม่อยากพึ่ง NVDA และเก็บกำไรอีกขาจาก VMware/infrastructure software ที่เป็นสัญญาต่ออายุ margin 78-79% — ชนะเพราะเป็น 1 ใน 2 เจ้าในโลก (คู่ MRVL) ที่ทำ custom silicon ระดับ leading-edge พร้อม networking ครบ stack ได้",
-      "why": "Consensus รู้แล้วว่า AI semi ของ AVGO จะทะลุ $100B ใน FY2027 (บริษัทพูดเอง 2 รอบ) และราคาสะท้อนไปแล้ว — สิ่งที่ Warren เห็นต่างคือ **โครงสร้างกำไรกำลังแย่ลงเงียบๆ ขณะที่รายได้โตแรง**: mix shift ไปทาง AI semi (gross margin ~70%) จาก software (93%) กด blended margin ลงต่อเนื่องตามที่ CFO เตือนเอง และ contract liabilities 64% อยู่ใต้เงื่อนไข termination-for-convenience — แปลว่า RPO $164.6B ที่ตลาดอ่านเป็น \"รายได้ที่ล็อกแล้ว\" มีความแน่นอนน้อยกว่าตัวเลขหัวข่าว",
-      "risk": "hyperscaler รายใดรายหนึ่งใน 6 รายประกาศย้าย XPU program ไปเจ้าอื่น (แบบที่ Google TPU9 ย้าย packaging ไป Intel EMIB-T แล้ว) หรือ AI semi revenue FY2027 ออกมาต่ำกว่า $100B ที่ reaffirm ไว้ = thesis เรื่อง duopoly durability พัง"
+      "why": "Consensus รู้แล้วว่า AI semi ของ AVGO จะทะลุ $100B ใน FY2027 (บริษัทพูดเอง 2 รอบ) — สิ่งที่ Warren เห็นต่างคือ 2 เรื่อง: (1) **โครงสร้างกำไรกำลังแย่ลงเงียบๆ ขณะที่รายได้โตแรง** จาก mix shift ไปทาง AI semi (gross margin ~70%) จาก software (93%); (2) **ราคาร่วง 8.7% ใน 10 วัน (นักลงทุนบางส่วนกังวลภาระ capex/debt ของทั้งอุตสาหกรรม $370B) ขณะที่ demand-side ยังแข็งขึ้น** — Broadcom กำลังขยาย AI-compute SPV จาก $35B tranche แรกเป็น $70-80B เพื่อรองรับ Anthropic/OpenAI เพิ่ม ซึ่งเป็นสัญญาณ contracted-demand ไม่ใช่ demand หด ตลาดกำลังลงโทษราคาจาก sentiment/leverage-concern มากกว่าจาก fundamental — ราคาที่ต่ำลงนี้เปิดช่องว่างที่ยังไม่ price-in เต็ม",
+      "risk": "hyperscaler รายใดรายหนึ่งใน 6 รายประกาศย้าย XPU program ไปเจ้าอื่น (แบบที่ Google TPU9 ย้าย packaging ไป Intel EMIB-T แล้ว) หรือ AI semi revenue FY2027 ออกมาต่ำกว่า $100B ที่ reaffirm ไว้ หรือ terms ของ debt financing $70-80B ออกมาแพง/มีเงื่อนไขที่กระทบ credit quality อย่างมีนัย = thesis เรื่อง duopoly durability พัง"
     },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
@@ -667,14 +667,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 3,
-    "waf": 7.18,
+    "waf": 7.15,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 345.9,
+    "price": 348.06,
     "fv": 320,
-    "mos": -8.09,
-    "fpe": 25.32,
-    "peg": 2.11,
+    "mos": -8.77,
+    "fpe": 25.48,
+    "peg": 2.123,
     "scores": {
       "bq": [
         9.5,
@@ -687,9 +687,9 @@
         85
       ],
       "va": [
-        3.8,
+        3.7,
         "orange",
-        38
+        37
       ],
       "ra": [
         5.5,
@@ -698,11 +698,11 @@
       ]
     },
     "idea": "",
-    "updated": "2026-08-15",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-25",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Alphabet เป็นเจ้าของช่องทางค้นหาข้อมูลของโลก (Search + YouTube + Android) และเป็นบริษัทเดียวในธีม AI ที่ครบทั้ง stack ตั้งแต่ชิปของตัวเอง (TPU) ถึงโมเดล (Gemini) ถึงคลาวด์ที่ขายให้คนอื่น — ชนะเพราะ distribution ที่ผูกไว้แล้วบวก vertical integration ที่คู่แข่งต้องซื้อจากคนอื่นทุกชั้น",
@@ -1139,14 +1139,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 2,
-    "waf": 6.03,
+    "waf": 5.98,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 305.93,
+    "price": 310.34,
     "fv": 272,
-    "mos": -12.47,
-    "fpe": 32.31,
-    "peg": 3.71,
+    "mos": -14.1,
+    "fpe": 32.77,
+    "peg": 3.767,
     "scores": {
       "bq": [
         9.5,
@@ -1159,9 +1159,9 @@
         60
       ],
       "va": [
-        2.2,
+        2.0,
         "orange",
-        22
+        20
       ],
       "ra": [
         5.5,
@@ -1170,11 +1170,11 @@
       ]
     },
     "idea": "",
-    "updated": "2026-08-15",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-25",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง",
