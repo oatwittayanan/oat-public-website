@@ -510,11 +510,11 @@
     "waf": 7.48,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 78.16,
+    "price": 80.01,
     "fv": 109,
-    "mos": 28.29,
-    "fpe": 21.53,
-    "peg": 1.23,
+    "mos": 26.6,
+    "fpe": 22.04,
+    "peg": 1.259,
     "scores": {
       "bq": [
         8.2,
@@ -538,11 +538,11 @@
       ]
     },
     "idea": "🟢 **BUY — ตัวเดียวใน batch 3/4 ที่ผ่าน gate ครบทุกข้อ.** MoS 28.29% ✓ · PEG 1.23 ✓ · ER 24.38% ✓ · WAF 7.48 ✓ · Story Gate PASS ✓. **ต้องอ่านที่มาของสัญญาณให้ชัด:** ราคา**ขึ้น** +5.3% จากรอบ 08-13 ($74.21 → $78.16) ⇒ สัญญาณ BUY **ไม่ได้มาจากราคาที่ถูกลง** แต่มาจาก **FV ที่ขึ้น $84 → $109 (+29.8%)** ซึ่งทั้งหมดมาจากการเลิก anchor multiple กับราคา. NFLX เป็น position ที่ถืออยู่แล้ว ($30 invested) ⇒ ส่งต่อให้ `/warren` ตัดสินขนาด ADD พร้อม Opportunity Cost Gate",
-    "updated": "2026-08-15",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-25",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "Netflix เปลี่ยนงบ content $17-18B/ปี เป็นความสัมพันธ์กับสมาชิก 325M+ ราย แล้วเก็บเกี่ยว 2 ทางพร้อมกัน — subscription ที่ขึ้นราคาได้ และโฆษณาที่เพิ่งเริ่ม (>250M MAU บน ad tier, รายได้ ~$3B ปี 2026 = 2.5 เท่าของปีก่อน) — ชนะเพราะ scale ของ content ต่อผู้ชม 1 คนที่คู่แข่งไล่ตามด้วยงบเท่ากันไม่ได้",
@@ -750,9 +750,9 @@
     "waf": 7.08,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 262.65,
+    "price": 262.07,
     "fv": 231,
-    "mos": -13.7,
+    "mos": -13.45,
     "fpe": null,
     "peg": null,
     "scores": {
@@ -778,13 +778,13 @@
       ]
     },
     "idea": "",
-    "updated": "2026-08-15",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
-      "tier": "🚀 Pre-Inevitable *(ปรับลงจาก 🏛️ Inevitable รอบนี้)*",
-      "tier_slug": "pre-inevitable-ปรบลงจาก--inevitable-รอบน",
+      "updated": "2026-08-25",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
       "what": "Amazon เป็นเจ้าของโครงสร้างพื้นฐาน 2 ชั้นที่คนอื่นสร้างตามไม่ทัน — AWS (cloud #1 ของโลก, op margin 39.4%) และเครือข่าย fulfillment/logistics ที่ทำให้ retail + advertising ($19.8B/ไตรมาส, +26%) ทำกำไรได้ — ชนะด้วย scale ที่ทบต้นมา 30 ปี",
       "why": "Consensus เห็น net income TTM $135.3B (+92%) แล้วสรุปว่ากำไรกำลังระเบิด — สิ่งที่ Warren เห็นต่างคือ **~62.9% ของกำไรก้อนนั้นไม่ใช่กำไรจากการดำเนินงาน** แต่เป็น mark-to-market ของเงินลงทุน (Anthropic ก้อนเดียว $53.4B ใน Q2) ซึ่งกลับทิศได้ทุกไตรมาส; ขณะเดียวกัน **TTM FCF ติดลบ −$7.6B** เพราะ CapEx วิ่งที่ ~2.3× ค่าเสื่อมราคา แปลว่าค่าเสื่อมก้อนใหญ่กำลังรออยู่ในงบปี 2027-2028 ที่โมเดลของตลาดยังไม่ได้ใส่",
       "risk": "AWS op margin ยืนเหนือ 38% ได้ต่อเนื่อง 4 ไตรมาสพร้อมกับที่ FCF กลับมาเป็นบวก = แปลว่า capex รอบนี้สร้างผลตอบแทนเร็วกว่าที่ Warren คิด และ depreciation tail ไม่ใช่ปัญหาจริง"
@@ -959,6 +959,78 @@
       "date": "2026-08-18"
     }
   },
+  "MU": {
+    "symbol": "MU",
+    "display": "MU",
+    "category": "semiconductor",
+    "name": "Micron Technology",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Memory",
+      "HBM"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 6.13,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 910.43,
+    "fv": 262,
+    "mos": -247.49,
+    "fpe": 52.02,
+    "peg": null,
+    "scores": {
+      "bq": [
+        7.5,
+        "amber",
+        75
+      ],
+      "gp": [
+        9.0,
+        "green",
+        90
+      ],
+      "va": [
+        1.7,
+        "orange",
+        17
+      ],
+      "ra": [
+        5.0,
+        "orange",
+        50
+      ]
+    },
+    "idea": "👀 **WATCH** — ราคาลง 6.3% ($971.66→$910.43) ทำให้ MoS ดีขึ้นเล็กน้อยแต่ยังลึกมาก (deep FAIL ทุก gate). **08-20 🔴MATERIAL news ตรวจแล้ว** (\"Micron Research Labs\" $10B R&D 10 ปี, เริ่มก่อสร้าง 2027) = ยืนยัน moat/leadership ระยะยาวแต่ไม่ใช่ตัวเลข guidance ที่กระทบ normalized revenue/margin ⇒ **EPS-basis rebuild ของ 08-15 ไม่เปลี่ยน**. Gates: MoS −247.49% ✗ · ER −14.05% ✗ · WAF 6.13 ✗ (<6.5) · 🔁 Cyclical ไม่เข้าเกณฑ์ STARTER โดยกลไกอยู่แล้ว. **ไม่ยกระดับเป็น AVOID เพราะธุรกิจไม่ได้พัง** — เป็นเรื่องตำแหน่งในวัฏจักรและราคาล้วนๆ ซึ่งกลับตัวได้ถ้าวัฏจักรยืนนานกว่าที่ normalize ไว้. งบ **FQ4 (~ก.ย. 2026)** คือจุดทดสอบถัดไป",
+    "updated": "2026-08-25",
+    "bull": [
+      "HBM/AI memory demand เป็นของจริงเชิงโครงสร้าง และ 16 SCAs (~$100B) ยกพื้นของรอบถัดไปให้สูงกว่ารอบก่อนจริง — แต่ราคาปัจจุบันไม่ได้กำลังจ่ายให้ \"พื้นที่สูงขึ้น\" มันกำลังจ่ายให้ \"ยอดวัฏจักรคือระดับถาวร\" ซึ่งเป็นสมมติฐานที่กฎ Cyclical ของระบบนี้ห้ามไว้โดยตรง"
+    ],
+    "risk": [
+      "⚠️ **จุดที่ Charlie ควรท้าทายที่สุด = normalized net margin 29.6%** (ดูตาราง Sensitivity — ต่างกัน 10pp เปลี่ยน FV ได้ ~$150). รองลงมา: bit-growth +25% และ D&A step-up +$5B เป็นการประมาณของ Warren; ถ้า SCA มีผลยกพื้นแรงกว่าที่คิดมาก normalized revenue อาจสูงกว่า $66.2B. ในทางกลับกัน: Samsung/SK Hynix capacity race, CXMT cost gap เหลือ ~10%, receivables ที่พุ่ง 3.7 เท่าเป็นความเสี่ยงคุณภาพรายได้ที่ยังไม่มีใครตรวจ"
+    ],
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-08-25",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
+      "what": "Micron เป็นผู้ผลิต HBM สัญชาติอเมริกันรายเดียวที่ป้อน NVIDIA Vera Rubin/GB200 และได้เลือกเป็นซัพพลายเออร์ HBM4 — ชนะช่วงนี้เพราะ agentic AI สร้างปัญหา KV-cache ที่ต้องการทั้ง HBM และ NAND พร้อมกัน ในขณะที่กำลังการผลิตทั้งอุตสาหกรรมตึงตัว",
+      "why": "Consensus มองที่ forward P/E **13.24×** บน consensus FY2026 EPS $73.39 แล้วสรุปว่า \"ถูกมาก\" (rating Strong Buy). **Warren เห็นต่างที่ตัวหาร ไม่ใช่ตัวเศษ**: $73.39 คือกำไรของ**ปีที่เป็นยอดวัฏจักร** ซึ่งเกิดจากราคาล้วนๆ ไม่ใช่ปริมาณ — FQ3 บิต DRAM โตแค่ single digit แต่ ASP โต low-60s% QoQ. เมื่อ normalize กลับสู่ mid-cycle อย่างที่กฎ Cyclical บังคับ EPS = **$17.50** และ P/E ที่ราคาปัจจุบันคือ **55.5×** ไม่ใช่ 13.2×. ⚠️ **และสิ่งที่ยังไม่ถูกมองเลยคือฐานที่ระบบนี้เองใช้อยู่**: ตัวเลข \"normalized mid-cycle EPS $76.7\" ที่ carry มาตั้งแต่ ก.ค. **สูงกว่า EPS ของปีที่เป็นพีคเองเสียอีก** ⇒ ที่ผ่านมาระบบกำลังตีมูลค่า MU ด้วยตัวเลขที่แย่กว่าการใช้ peak EPS ตรงๆ ด้วยซ้ำ",
+      "risk": "ASP ทรงตัวที่ระดับใกล้เคียงปัจจุบันต่อเนื่องเกิน 4-6 ไตรมาสโดยที่ Samsung/SK Hynix/CXMT เพิ่มกำลังผลิตแล้วราคายังไม่ลง (แปลว่า SCA/HBM เปลี่ยนโครงสร้างอุตสาหกรรมจริงและ normalized margin ควรสูงกว่า 29.6% มาก), หรือในทางกลับกัน — งบ FQ4 (~ก.ย. 2026) พลาด guide $50B/$31.00 หรือ FQ1 FY2027 guide ราคาลง QoQ เป็นครั้งแรก = ยืนยัน cycle rollover"
+    },
+    "tier": "🔁 Cyclical",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": 967.54,
+      "warren_fv": 262,
+      "date": "2026-08-18"
+    }
+  },
   "ARM": {
     "symbol": "ARM",
     "display": "ARM",
@@ -1036,78 +1108,6 @@
       "risks": [],
       "yf_price": 253.12,
       "warren_fv": 187,
-      "date": "2026-08-18"
-    }
-  },
-  "MU": {
-    "symbol": "MU",
-    "display": "MU",
-    "category": "semiconductor",
-    "name": "Micron Technology",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Memory",
-      "HBM"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 6.08,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 971.66,
-    "fv": 262,
-    "mos": -270.86,
-    "fpe": 55.54,
-    "peg": null,
-    "scores": {
-      "bq": [
-        7.5,
-        "amber",
-        75
-      ],
-      "gp": [
-        9.0,
-        "green",
-        90
-      ],
-      "va": [
-        1.5,
-        "orange",
-        15
-      ],
-      "ra": [
-        5.0,
-        "orange",
-        50
-      ]
-    },
-    "idea": "👀 **WATCH** — **สาเหตุของการเปลี่ยนแปลงทั้งหมดคือการรื้อฐาน EPS ไม่ใช่ราคา** (ราคาขึ้น +6.6% ซึ่งอธิบาย MoS ได้เพียงเศษเสี้ยว) และ **ไม่ใช่การเปลี่ยน multiple** (คง 15× เท่าเดิมโดยตั้งใจ). Gates: MoS −270.86% ✗ · ER −15.06% ✗ · WAF 6.08 ✗ (<6.5) · 🔁 Cyclical ไม่เข้าเกณฑ์ STARTER โดยกลไกอยู่แล้ว. **ไม่ยกระดับเป็น AVOID เพราะธุรกิจไม่ได้พัง** — เป็นเรื่องตำแหน่งในวัฏจักรและราคาล้วนๆ ซึ่งกลับตัวได้ถ้าวัฏจักรยืนนานกว่าที่ normalize ไว้. งบ **FQ4 (~ก.ย. 2026)** คือจุดทดสอบถัดไป",
-    "updated": "2026-08-15",
-    "bull": [
-      "HBM/AI memory demand เป็นของจริงเชิงโครงสร้าง และ 16 SCAs (~$100B) ยกพื้นของรอบถัดไปให้สูงกว่ารอบก่อนจริง — แต่ราคาปัจจุบันไม่ได้กำลังจ่ายให้ \"พื้นที่สูงขึ้น\" มันกำลังจ่ายให้ \"ยอดวัฏจักรคือระดับถาวร\" ซึ่งเป็นสมมติฐานที่กฎ Cyclical ของระบบนี้ห้ามไว้โดยตรง"
-    ],
-    "risk": [
-      "⚠️ **จุดที่ Charlie ควรท้าทายที่สุด = normalized net margin 29.6%** (ดูตาราง Sensitivity — ต่างกัน 10pp เปลี่ยน FV ได้ ~$150). รองลงมา: bit-growth +25% และ D&A step-up +$5B เป็นการประมาณของ Warren; ถ้า SCA มีผลยกพื้นแรงกว่าที่คิดมาก normalized revenue อาจสูงกว่า $66.2B. ในทางกลับกัน: Samsung/SK Hynix capacity race, CXMT cost gap เหลือ ~10%, receivables ที่พุ่ง 3.7 เท่าเป็นความเสี่ยงคุณภาพรายได้ที่ยังไม่มีใครตรวจ"
-    ],
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-15",
-      "tier": "🔁 Cyclical",
-      "tier_slug": "cyclical",
-      "what": "Micron เป็นผู้ผลิต HBM สัญชาติอเมริกันรายเดียวที่ป้อน NVIDIA Vera Rubin/GB200 และได้เลือกเป็นซัพพลายเออร์ HBM4 — ชนะช่วงนี้เพราะ agentic AI สร้างปัญหา KV-cache ที่ต้องการทั้ง HBM และ NAND พร้อมกัน ในขณะที่กำลังการผลิตทั้งอุตสาหกรรมตึงตัว",
-      "why": "Consensus มองที่ forward P/E **13.24×** บน consensus FY2026 EPS $73.39 แล้วสรุปว่า \"ถูกมาก\" (rating Strong Buy). **Warren เห็นต่างที่ตัวหาร ไม่ใช่ตัวเศษ**: $73.39 คือกำไรของ**ปีที่เป็นยอดวัฏจักร** ซึ่งเกิดจากราคาล้วนๆ ไม่ใช่ปริมาณ — FQ3 บิต DRAM โตแค่ single digit แต่ ASP โต low-60s% QoQ. เมื่อ normalize กลับสู่ mid-cycle อย่างที่กฎ Cyclical บังคับ EPS = **$17.50** และ P/E ที่ราคาปัจจุบันคือ **55.5×** ไม่ใช่ 13.2×. ⚠️ **และสิ่งที่ยังไม่ถูกมองเลยคือฐานที่ระบบนี้เองใช้อยู่**: ตัวเลข \"normalized mid-cycle EPS $76.7\" ที่ carry มาตั้งแต่ ก.ค. **สูงกว่า EPS ของปีที่เป็นพีคเองเสียอีก** ⇒ ที่ผ่านมาระบบกำลังตีมูลค่า MU ด้วยตัวเลขที่แย่กว่าการใช้ peak EPS ตรงๆ ด้วยซ้ำ",
-      "risk": "ASP ทรงตัวที่ระดับใกล้เคียงปัจจุบันต่อเนื่องเกิน 4-6 ไตรมาสโดยที่ Samsung/SK Hynix/CXMT เพิ่มกำลังผลิตแล้วราคายังไม่ลง (แปลว่า SCA/HBM เปลี่ยนโครงสร้างอุตสาหกรรมจริงและ normalized margin ควรสูงกว่า 29.6% มาก), หรือในทางกลับกัน — งบ FQ4 (~ก.ย. 2026) พลาด guide $50B/$31.00 หรือ FQ1 FY2027 guide ราคาลง QoQ เป็นครั้งแรก = ยืนยัน cycle rollover"
-    },
-    "tier": "🔁 Cyclical",
-    "charlie": {
-      "verdict": "AGREE",
-      "summary": "",
-      "risks": [],
-      "yf_price": 967.54,
-      "warren_fv": 262,
       "date": "2026-08-18"
     }
   },
@@ -1222,9 +1222,9 @@
     "waf": 5.89,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 140.0,
+    "price": 135.0,
     "fv": 60,
-    "mos": -133.33,
+    "mos": -125.0,
     "fpe": 75.68,
     "peg": null,
     "scores": {
@@ -1250,11 +1250,11 @@
       ]
     },
     "idea": "👀 **WATCH (คงเดิม)** — action ไม่เปลี่ยน แต่ **ระยะห่างจาก fair value กว้างกว่าที่ระบบเคยบันทึกไว้มาก**. Gates: MoS −133.33% ✗ · ER 4.41% ✗ · WAF 5.89 ✗ · ⚠️ Speculative tier ไม่ pay up + ไม่ใช้ STARTER. **สิ่งที่ต้องอ่านให้ถูก: ธุรกิจดีขึ้นจริงในไตรมาสนี้ — FV ที่ลดลงไม่ได้แปลว่าธุรกิจแย่ลง แต่แปลว่าตัวเลขเดิมไม่เคยถูกสร้างด้วยมาตรฐานของระบบนี้**",
-    "updated": "2026-08-15",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-25",
       "tier": "⚠️ Speculative",
       "tier_slug": "speculative",
       "what": "SpaceX รวม 3 ธุรกิจที่ต้นทุนเชื่อมกันไว้ในบริษัทเดียว — Space (Falcon 9 reusability = cost moat ที่คู่แข่ง replicate แทบไม่ได้), Connectivity (Starlink 12.0M subs, Adj EBITDA margin 60.5% = เครื่องผลิตเงินสด), และ AI (xAI/Grok/X + merchant compute 1.4GW) — ชนะเพราะจรวดของตัวเองส่งดาวเทียมของตัวเองในราคาทุน ซึ่งไม่มีใครทำได้",
@@ -1374,9 +1374,9 @@
     "waf": 5.65,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 342.27,
+    "price": 348.95,
     "fv": 290,
-    "mos": -18.02,
+    "mos": -20.33,
     "fpe": 157.0,
     "peg": null,
     "scores": {
@@ -1402,11 +1402,11 @@
       ]
     },
     "idea": "👀 **WATCH** — method rebuild ทำให้ FV สมเหตุสมผลขึ้นมาก ($170 → $290) และระยะห่างจากราคาแคบลงจาก −92.65% เหลือ −18.02% แต่ **ยังอยู่ผิดฝั่งของ gate** และ **⚠️ Speculative tier ไม่ pay up + ไม่ใช้ STARTER ไม่ว่า MoS/ER จะเป็นเท่าไร** ⇒ action ไม่เปลี่ยน. WAF 5.65 ยังต่ำกว่าเส้น 6.5 ด้วย",
-    "updated": "2026-08-15",
+    "updated": "2026-08-25",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-15",
+      "updated": "2026-08-25",
       "tier": "⚠️ Speculative",
       "tier_slug": "speculative",
       "what": "Tesla ขายรถ EV + energy storage และกำลังเดิมพันว่าจะแปลงฐานรถ 8M+ คันบนถนนเป็นเครือข่าย autonomy (FSD 1.5M ผู้ใช้จ่ายเงิน, attach rate ~55% ในอเมริกาเหนือ) — ชนะได้ถ้า FSD กลายเป็นซอฟต์แวร์ margin สูงบนฮาร์ดแวร์ที่ขายไปแล้ว",

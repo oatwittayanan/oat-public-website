@@ -1487,7 +1487,7 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-15 (date synced with Story Gate/Valuation Range per Card Consistency rule — full-refresh batch 2/4: valuation rebuilt from scratch on Revenue-as-Base, no new analyst research this batch)
+**Last Updated:** 2026-08-25 (date synced with Story Gate/Valuation Range per Card Consistency rule — 08-25 batch 3/4: price refresh + reconfirm only, no new analyst research, no material news since 08-15)
 
 **Update (2026-08-12, second pass) — multiple revised 29× → 25.7×, STARTER withdrawn, Action back to HOLD** [VALUATION CORRECTION]
 - **Charlie's CAUTION adopted in full.** He verified the EPS ($10.58, 17 analysts, 15up/0down — exact match, no growth-term inflation found) and then made the point that matters: the Base FV used **29×** while this same batch's own \`forward_pe\` field showed the market paying **25.73×** on the identical EPS. On the market-clearing multiple his independent FV is ~$272, essentially *at* the price — MoS ~0%, not +11.3%. Since the 11.3% figure was the sole reason AMZN sat inside the 8–15% STARTER band, the whole upgrade hung on those 3.3 turns of multiple.
@@ -1613,7 +1613,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-15  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable *(ปรับลงจาก 🏛️ Inevitable รอบนี้)*
+**Last Updated:** 2026-08-25  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+> ✅ **Reconfirmed 2026-08-25** (time-trigger, 10 วันตั้งแต่ 08-15) — ไม่มี material news ใหม่หลัง gate 08-15 (Recent News มีแค่ 1 รายการ 🟡MONITOR 08-16: ประมูล Decart AI startup, ไม่กระทบ thesis) → WHAT/WHY NOW/IF WRONG/Tier Basis ด้านล่างไม่เปลี่ยนจาก 08-15
 
 **WHAT:** Amazon เป็นเจ้าของโครงสร้างพื้นฐาน 2 ชั้นที่คนอื่นสร้างตามไม่ทัน — AWS (cloud #1 ของโลก, op margin 39.4%) และเครือข่าย fulfillment/logistics ที่ทำให้ retail + advertising ($19.8B/ไตรมาส, +26%) ทำกำไรได้ — ชนะด้วย scale ที่ทบต้นมา 30 ปี
 
@@ -1628,7 +1630,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-15  |  **Price ณ วันนั้น:** $262.65  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** **SOTP บน segment NOPAT หลังภาษี** (ข้อยกเว้นข้อ 3 "ธุรกิจหลายขาที่ economics ต่างกันสุดขั้ว" — AWS op margin 39.4% vs International 4.1% = ห่างกัน 35pp และโตต่างกัน +37% vs +15%)
+**Last Updated:** 2026-08-25  |  **Price ณ วันนั้น:** $262.07  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** **SOTP บน segment NOPAT หลังภาษี** (ข้อยกเว้นข้อ 3 "ธุรกิจหลายขาที่ economics ต่างกันสุดขั้ว" — AWS op margin 39.4% vs International 4.1% = ห่างกัน 35pp และโตต่างกัน +37% vs +15%)
+
+> 🔄 **Price refresh only (08-25)** — ราคา $262.65→$262.07 (−0.2%, แทบไม่เปลี่ยน) ไม่มี earnings ใหม่ (Q3 2026 ยังไม่รายงาน) ⇒ SOTP build/multiple/assumptions ทั้งหมดด้านล่าง **carried forward จาก 08-15** ไม่เปลี่ยน มีแค่ MoS/ER ที่ขยับตามราคาเล็กน้อย
 
 > 🎯 **ANCHOR REBUILD ตามคำสั่งโอ๊ตโดยตรง** — Charlie พิสูจน์แล้วว่ากฎ min() multiple ทำให้ \`multiple_used\` = forward multiple ปัจจุบัน ⇒ **FV ≡ ราคา โดยอัตโนมัติ** (tautology) MoS ≈ 0 และ floor สูงกว่า Base โดยไม่มีข้อมูลใดๆ. การ์ดใบนี้เคยบันทึกเองว่า *"needs a DCF or SOTP anchor at the next full pass"* — **รอบนี้คือรอบนั้น**
 
@@ -1670,20 +1674,22 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 | **Bear** | $205B @34% × 20 | $520B @7.5% × 15 | $185B @4% × 11 | **$162** | 25% |
 
 **Fair Value Base:** $231
-**ราคาปัจจุบัน:** $262.65
-**Margin of Safety:** **−13.70%** = ($231 − $262.65) ÷ $231 → ✗ **ติดลบ**
-**Expected Return (5 ปี):** **17.5%/ปี** = convergence −2.5% + growth 20.0% → ✓ ผ่าน gate 15%
+**ราคาปัจจุบัน:** $262.07 *(08-25, prev $262.65)*
+**Margin of Safety:** **−13.45%** = ($231 − $262.07) ÷ $231 → ✗ **ติดลบ**
+**Expected Return (5 ปี):** **17.51%/ปี** = convergence −2.49% + growth 20.0% → ✓ ผ่าน gate 15%
 *(growth 20.0% = ปรับ **ลง** จาก consensus panel ที่ให้ FY27→FY28 +29.3% เพื่อสะท้อน depreciation tail ที่ panel ยังไม่ model — กฎ Revenue-as-Base ห้ามใช้ตัวเลข**สูงกว่า** consensus ใน Base case แต่ใช้ต่ำกว่าได้)*
 **Forward P/E / PEG:** ไม่ใช้ (method = SOTP)
 
 ### Gate Summary → **HOLD** (position ที่ถืออยู่แล้ว)
 
-| Gate | ค่า | เกณฑ์ | ผล |
+| Gate | ค่า | เกณฑ์ (08-25, effective gate 15%) | ผล |
 |---|---|---|---|
-| MoS | −13.70% | ≥ 20% | ✗ **FAIL** |
-| Expected Return | 17.5%/ปี | ≥ 15% | ✓ PASS |
+| MoS | −13.45% | ≥ 15% | ✗ **FAIL** |
+| Expected Return | 17.51%/ปี | ≥ 15% | ✓ PASS |
 | WAF | 7.08 | ≥ 6.5 | ✓ PASS |
 | PEG | n/a (SOTP) | — | — |
+
+> เกณฑ์ gate เปลี่ยนจาก 20%→15% วันนี้ (VIX Calm→Normal) เทียบกับรอบ 08-15 — ไม่มีผลเชิงทิศทางเพราะ MoS ยังห่างจาก 0 มาก (deep FAIL ทั้ง 2 gate)
 
 **ข้อสรุป:** **ไม่มีเคส ADD ที่ราคานี้** (MoS ติดลบ 13.7%) — แต่เป็น position ที่ถืออยู่แล้ว จึงเป็น **HOLD ตาม Fisher discipline ไม่ใช่สัญญาณขาย**: คุณภาพธุรกิจไม่ได้เสื่อม สิ่งที่เปลี่ยนคือ**ความเข้าใจของเรา**เรื่องคุณภาพกำไร (62.9% below-the-line), FCF ติดลบ, และ ROIC 13.0% ที่ทำให้ tier ตกลงมา
 
@@ -5631,7 +5637,7 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-15
+**Last Updated:** 2026-08-25 (date synced with Story Gate/Valuation Range per Card Consistency rule — 08-25 batch 3/4: price refresh + 🔴MATERIAL news reconfirm ("Micron Research Labs" $10B R&D), EPS-basis rebuild ของ 08-15 ไม่เปลี่ยน)
 
 **Update (2026-08-15) — FULL REFRESH batch 3/4: ⚠️ พบฐาน EPS ที่ใช้อยู่ "สูงกว่ากำไรปีพีค"** [WARREN THESIS]
 - ⚠️⚠️ **ประเด็นสำคัญที่สุดของ full refresh ทั้ง 3 batch**: ค่า "normalized mid-cycle EPS **$76.70**" ที่ carry มาตั้งแต่ ก.ค. **สูงกว่า EPS ของปีที่เป็นพีคเอง** — consensus FY2026 non-GAAP EPS = **$73.39** (46 analysts) และ Warren รวมจากงบจริง 3 ไตรมาส + guidance FQ4 ได้ **$73.09** ($4.78+$12.20+$25.11+$31.00). ตัวเลขที่ติดป้ายว่า "normalized" จึงเป็น **above-peak** ⇒ ละเมิดกฎ Cyclical Peak-Bias รุนแรงกว่าการใช้ peak EPS ตรงๆ. ที่มา: การ์ดเขียนเองว่า **back-solved จาก FV $1,150 ÷ 15×** — คือ reverse-engineer EPS จาก FV ที่ตั้งไว้ก่อน
@@ -5839,7 +5845,9 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-15  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-08-25  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+> ✅ **Reconfirmed 2026-08-25** (🔴MATERIAL news trigger 08-20) — Micron ประกาศ "Micron Research Labs": R&D hub ที่ Boise ลงทุน **$10B ตลอด 10 ปี** (แยกจากงบ manufacturing $250B ที่ประกาศแล้ว), มุ่งเทคโนโลยี memory/architecture/packaging รุ่นถัดไป, เริ่มก่อสร้าง 2027, ได้แรงหนุนสาธารณะจาก Jensen Huang (NVDA) + Tim Cook (AAPL). **ตรวจแล้ว = ไม่เปลี่ยน WHAT/WHY NOW/IF WRONG/Tier Basis** — เป็น R&D commitment ระยะยาว (~$1B/ปีเฉลี่ย เทียบ capex ปีเดียว $27B) ที่ยืนยัน moat/leadership เดิม ไม่ใช่ตัวเลข guidance ใหม่ที่กระทบ normalized revenue/margin ของ FV rebuild รอบ 08-15
 
 **Tier Basis:** Cyclical — ยืนยันด้วยตัวเลขรอบนี้แรงกว่าเดิม: commodity pricing (FQ3 DRAM bit shipments +low-single-digit% QoQ แต่ **ASP +low-60s% QoQ**; NAND bits +mid-single-digit% แต่ **ASP +mid-80s%**), capex $27B/ปี, EPS swing peak-trough เกิน 2 เท่ามหาศาล (FY2023 ขาดทุน → FY2026E non-GAAP EPS $73.09). **ไม่มี tier change รอบนี้** — 16 SCAs (~$100B) ยกพื้นรอบถัดไปให้สูงกว่ารอบก่อนจริง แต่ไม่เปลี่ยนธรรมชาติ cyclical
 
@@ -5858,7 +5866,9 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-15  |  **Price ณ วันนั้น:** $971.66  |  **Method:** ⚠️ **ข้อยกเว้น Cyclical → \`revenue_normalized_mid_cycle\`** (Revenue mid-cycle × normalized margin ÷ shares × multiple) — บังคับโดยกฎเหล็ก Cyclical Peak-Bias
+**Last Updated:** 2026-08-25  |  **Price ณ วันนั้น:** $910.43  |  **Method:** ⚠️ **ข้อยกเว้น Cyclical → \`revenue_normalized_mid_cycle\`** (Revenue mid-cycle × normalized margin ÷ shares × multiple) — บังคับโดยกฎเหล็ก Cyclical Peak-Bias
+
+> 🔄 **Price refresh + material-news reconfirm (08-25)** — ราคาลง $971.66→$910.43 (−6.30%). 08-20 🔴MATERIAL news ("Micron Research Labs" $10B R&D 10 ปี) ตรวจแล้ว = ยืนยัน moat/leadership ระยะยาว **ไม่ใช่**ตัวเลข guidance ที่กระทบ normalized revenue/margin ⇒ EPS-basis rebuild ของ 08-15 (bottom-up 3 ขั้น) **carried forward ไม่เปลี่ยน**. FQ4 earnings (~ก.ย. 2026) ยังเป็นจุดทดสอบถัดไปที่แท้จริง
 
 > 🔻🔻 **การเปลี่ยนแปลงใหญ่ที่สุดของ full refresh ทั้ง 3 batch — FV $1,150 → $262 (−77.2%), MoS +20.76% → −270.86%**
 >
@@ -5911,11 +5921,11 @@ gross profit $29.8B − opex $7.0B = op income $22.8B (OM 34.4%) + ดอกเ�
 | **Bear** | $56,000M (ASP กลับสู่ค่าเฉลี่ยเต็มรอบ) | 19.6% | $9.80 | 12.0× | **$118** | 25% |
 
 **Fair Value Base:** $262
-**ราคาปัจจุบัน:** $971.66 (**+6.6%** จากรอบก่อน $911.29)
-**Margin of Safety:** **−270.86%** → ❌ FAIL (Effective Gate 20%)
-**P/E บน normalized EPS:** **55.54×** ($971.66 ÷ $17.50) — เทียบกับ 13.24× บน consensus ปีพีค
+**ราคาปัจจุบัน:** $910.43 (**−6.30%** จากรอบก่อน $971.66)
+**Margin of Safety:** **−247.49%** (ดีขึ้นจาก −270.86% ตามราคาที่ลง แต่ยังลึกมาก) → ❌ FAIL (Effective Gate 15%, ลดจาก 20% เมื่อ 08-15 — ไม่มีผลเชิงทิศทาง)
+**P/E บน normalized EPS:** **52.02×** ($910.43 ÷ $17.50) — เทียบกับ ~13× บน consensus ปีพีค
 **PEG:** ไม่ใช้ — 🔁 Cyclical ใช้ normalized earnings ไม่ใช้ PEG cap
-**5-yr Expected Return:** **−15.06%/ปี** (convergence −23.06% + growth +8.0%) → ❌ FAIL
+**5-yr Expected Return:** **−14.05%/ปี** (convergence −22.05% + growth +8.0%) → ❌ FAIL
 
 ### ⚠️ Sensitivity — ทั้งการประเมินแขวนอยู่ที่ normalized margin ตัวเดียว (Charlie ต้องตรวจข้อนี้ก่อน)
 
@@ -5935,11 +5945,11 @@ gross profit $29.8B − opex $7.0B = op income $22.8B (OM 34.4%) + ดอกเ�
 |-----------|-------|--------|--------------|-----------|
 | BQ | 7.5 | 30% | 2.25 | HBM สัญชาติอเมริกันรายเดียวสำหรับ NVIDIA + HBM4 supplier + node lead + net cash $24.4B + upgrade BBB+ ครบ 3 สำนัก; หัก commodity โดยธรรมชาติ |
 | GP | 9.0 | 30% | 2.70 | FQ3 +346% YoY (+74% QoQ ใหญ่ที่สุดในประวัติบริษัท); data center >$25B ไตรมาสเดียว; FQ4 guide $50B > รายได้ทั้งปี FY2025 |
-| VA | 1.5 ⬇ (จาก 6.6) | 25% | 0.375 | **EPS basis rebuild** — FV $1,150→$262; MoS +20.76%→**−270.86%**; ER −15.06% |
-| RA | 5.0 | 15% | 0.75 | คงเดิม — การเติบโตเป็นราคาล้วน (ลายเซ็นพีค); Samsung/SK Hynix bit share 41%/39% vs MU ~20%; CXMT ปิด cost gap เหลือ ~10%; receivables $7.2B→$26.9B (cash drag $19.95B ใน 9 เดือน); capex step-up FY2027; Netlist/YMTC |
-| **WAF Total** | **6.08** | | **LOW** | (จาก 7.35 — VA ล้วน) |
+| VA | 1.7 ⬆ (จาก 1.5) | 25% | 0.425 | Price-driven improvement เท่านั้น — FV $262 carried forward; MoS −270.86%→**−247.49%**; ER −14.05% — ยังลึกมาก ไม่เปลี่ยนทิศทาง |
+| RA | 5.0 | 15% | 0.75 | คงเดิม — การเติบโตเป็นราคาล้วน (ลายเซ็นพีค); Samsung/SK Hynix bit share 41%/39% vs MU ~20%; CXMT ปิด cost gap เหลือ ~10% (08-24 news: จีนมี IPO ผู้ผลิตหน่วยความจำรายใหม่ ตอกย้ำความเสี่ยงเดิม); receivables $7.2B→$26.9B; capex step-up FY2027; Netlist/YMTC |
+| **WAF Total** | **6.13** | | **LOW** | (จาก 6.08 — VA ขึ้นจากราคาลง 6.3%, ยังต่ำกว่าเส้น 6.5 มาก) |
 
-**Investment Idea:** 👀 **WATCH** — **สาเหตุของการเปลี่ยนแปลงทั้งหมดคือการรื้อฐาน EPS ไม่ใช่ราคา** (ราคาขึ้น +6.6% ซึ่งอธิบาย MoS ได้เพียงเศษเสี้ยว) และ **ไม่ใช่การเปลี่ยน multiple** (คง 15× เท่าเดิมโดยตั้งใจ). Gates: MoS −270.86% ✗ · ER −15.06% ✗ · WAF 6.08 ✗ (<6.5) · 🔁 Cyclical ไม่เข้าเกณฑ์ STARTER โดยกลไกอยู่แล้ว. **ไม่ยกระดับเป็น AVOID เพราะธุรกิจไม่ได้พัง** — เป็นเรื่องตำแหน่งในวัฏจักรและราคาล้วนๆ ซึ่งกลับตัวได้ถ้าวัฏจักรยืนนานกว่าที่ normalize ไว้. งบ **FQ4 (~ก.ย. 2026)** คือจุดทดสอบถัดไป
+**Investment Idea:** 👀 **WATCH** — ราคาลง 6.3% ($971.66→$910.43) ทำให้ MoS ดีขึ้นเล็กน้อยแต่ยังลึกมาก (deep FAIL ทุก gate). **08-20 🔴MATERIAL news ตรวจแล้ว** ("Micron Research Labs" $10B R&D 10 ปี, เริ่มก่อสร้าง 2027) = ยืนยัน moat/leadership ระยะยาวแต่ไม่ใช่ตัวเลข guidance ที่กระทบ normalized revenue/margin ⇒ **EPS-basis rebuild ของ 08-15 ไม่เปลี่ยน**. Gates: MoS −247.49% ✗ · ER −14.05% ✗ · WAF 6.13 ✗ (<6.5) · 🔁 Cyclical ไม่เข้าเกณฑ์ STARTER โดยกลไกอยู่แล้ว. **ไม่ยกระดับเป็น AVOID เพราะธุรกิจไม่ได้พัง** — เป็นเรื่องตำแหน่งในวัฏจักรและราคาล้วนๆ ซึ่งกลับตัวได้ถ้าวัฏจักรยืนนานกว่าที่ normalize ไว้. งบ **FQ4 (~ก.ย. 2026)** คือจุดทดสอบถัดไป
 
 **Thesis:** HBM/AI memory demand เป็นของจริงเชิงโครงสร้าง และ 16 SCAs (~$100B) ยกพื้นของรอบถัดไปให้สูงกว่ารอบก่อนจริง — แต่ราคาปัจจุบันไม่ได้กำลังจ่ายให้ "พื้นที่สูงขึ้น" มันกำลังจ่ายให้ "ยอดวัฏจักรคือระดับถาวร" ซึ่งเป็นสมมติฐานที่กฎ Cyclical ของระบบนี้ห้ามไว้โดยตรง
 
@@ -6416,7 +6426,7 @@ EPS Diluted $1.23 (+86% YoY) สูงกว่า Guidance $0.76 อย่า�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-15
+**Last Updated:** 2026-08-25 (date synced with Story Gate/Valuation Range per Card Consistency rule — 08-25 batch 3/4: price refresh + reconfirm only, no new analyst research, no news since 08-15)
 
 **Update (2026-08-15) — FULL REFRESH batch 3/4: แก้ multiple ที่ anchor กับราคา → BUY** [WARREN THESIS]
 - ✅ **ยืนยัน stock split ก่อนอื่น:** 10-for-1 forward split มีผล **17 พ.ย. 2025** (ประกาศ 30 ต.ค. 2025) — ราคา $78.16 เป็น post-split และตัวเลขในการ์ดปรับย้อนหลังครบแล้ว. ตรวจซ้ำ 2 ทาง: shares Q2'26 = 4,261M (ระดับ post-split) และ consensus FY2026 EPS $3.59 × forward P/E 21.78× = $78.19 ตรงกับ prices_cache
@@ -6477,7 +6487,9 @@ EPS Diluted $1.23 (+86% YoY) สูงกว่า Guidance $0.76 อย่า�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-15  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-08-25  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+> ✅ **Reconfirmed 2026-08-25** (time-trigger, 10 วันตั้งแต่ 08-15) — ไม่มีข่าวใหม่หลัง gate 08-15 (Recent News ล่าสุด 07-16 อยู่ก่อน gate; Q3 2026 earnings ยังไม่รายงาน) → WHAT/WHY NOW/IF WRONG/Tier Basis ด้านล่างไม่เปลี่ยน
 
 **Tier Basis:** Pre-Inevitable — ผ่าน 4 ใน 5 Crystallization Signals: ✓ Pricing Power (ขึ้นราคาซ้ำโดย churn ยัง <2% ต่ำสุดในอุตสาหกรรม) ✓ Switching Cost Compound (content library + algorithm + โปรไฟล์สะสม) ✓ Margin Expansion ยั่งยืน (op margin 20.6%→26.7%→29.5%→31.5% guide) ✓ Crisis Survival (Qwikster 2011, COVID, streaming war 2022 ที่หุ้นร่วง 75% แล้วกลับมา) — ตกข้อ Reinvestment ROIC >15% เพราะ content เป็นการลงทุนที่ต้องเติมต่อเนื่อง. **ไม่มี tier change รอบนี้**
 
@@ -6490,7 +6502,9 @@ EPS Diluted $1.23 (+86% YoY) สูงกว่า Guidance $0.76 อย่า�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-15  |  **Price ณ วันนั้น:** $78.16  |  **Method:** มาตรฐาน "Revenue×Margin→EPS→P/E" (Revenue-as-Base) — ไม่ใช้ข้อยกเว้น (forward P/E 21.53× ต่ำกว่า 80× มาก, ไม่ใช่ Cyclical, และเป็น single global streaming segment ไม่มี segment margin แยก ⇒ SOTP ใช้ไม่ได้)
+**Last Updated:** 2026-08-25  |  **Price ณ วันนั้น:** $80.01  |  **Method:** มาตรฐาน "Revenue×Margin→EPS→P/E" (Revenue-as-Base) — ไม่ใช้ข้อยกเว้น (forward P/E ยังต่ำกว่า 80× มาก, ไม่ใช่ Cyclical, และเป็น single global streaming segment ไม่มี segment margin แยก ⇒ SOTP ใช้ไม่ได้)
+
+> 🔄 **Price refresh only (08-25)** — ราคา $78.16→$80.01 (+2.37%), ไม่มี earnings ใหม่ (Q3 2026 ยังไม่รายงาน) ⇒ EPS/multiple/FV carried forward จาก 08-15 ไม่เปลี่ยน มีแค่ MoS/ER/PEG/forward-P/E ที่ขยับตามราคา
 
 > ✅ **STOCK SPLIT ยืนยันแล้ว — ไม่มีการปนฐานก่อน/หลัง split.** Netflix ประกาศ **10-for-1 forward stock split** เมื่อ 30 ต.ค. 2025 (record date 10 พ.ย. 2025, หุ้นเพิ่มเข้าบัญชี 14 พ.ย. 2025) **มีผลเปิดตลาด 17 พ.ย. 2025** — แหล่ง: Netflix IR press release + Form 8-K. ราคา **$78.16 เป็น post-split** และตัวเลขทั้งหมดในการ์ดถูกปรับย้อนหลังแล้ว (การ์ดระบุเองใต้ตาราง P&L Annual). **ตรวจซ้ำ 2 ทาง:** (1) shares Q2 2026 = 4,261M ซึ่งเป็นระดับ post-split (pre-split จะเป็น ~426M) (2) consensus FY2026 EPS $3.59 × forward P/E ที่รายงาน 21.78× = **$78.19** ตรงกับ prices_cache $78.16 ⇒ EPS และราคาอยู่ฐานเดียวกันแน่นอน
 
@@ -6529,11 +6543,11 @@ EPS Diluted $1.23 (+86% YoY) สูงกว่า Guidance $0.76 อย่า�
 | **Bear** | $3.63 | 20.00× (decel + OM หด structural) | **$73** | 25% |
 
 **Fair Value Base:** $109
-**ราคาปัจจุบัน:** $78.16 (post-split)
-**Margin of Safety:** **28.29%** = ($109 − $78.16) ÷ $109 → ✅ **PASS (Effective Gate 20%) — ผ่านเต็ม ไม่ใช่ near-miss จึงไม่ใช่ STARTER แต่เป็น BUY**
-**Forward P/E:** 21.53× ($78.16 ÷ $3.63)
-**PEG:** **1.23** (21.53 ÷ 17.5) → ✓ PASS (Effective Cap 1.5)
-**5-yr Expected Return:** **24.38%/ปี** (convergence 6.88% + EPS growth 17.5%) → ✓ PASS (Gate ≥15%, อยู่ในแถบ >20% "น่าสนใจมาก")
+**ราคาปัจจุบัน:** $80.01 (post-split, +2.37% จากรอบก่อน $78.16)
+**Margin of Safety:** **26.60%** = ($109 − $80.01) ÷ $109 → ✅ **PASS (Effective Gate 15%, ลดจาก 20% เมื่อ 08-15) — ผ่านเต็ม ไม่ใช่ near-miss จึงไม่ใช่ STARTER แต่เป็น BUY**
+**Forward P/E:** 22.04× ($80.01 ÷ $3.63)
+**PEG:** **1.26** (22.04 ÷ 17.5) → ✓ PASS (Effective Cap 1.5)
+**5-yr Expected Return:** **23.88%/ปี** (convergence 6.38% + EPS growth 17.5%) → ✓ PASS (Gate ≥15%, อยู่ในแถบ >20% "น่าสนใจมาก")
 
 ### ⚠️ Panel Validation (บังคับ) — derive ต่างจาก panel เท่าไร
 - consensus FY2027 EPS ที่การ์ดบันทึกไว้ = **$3.84** vs Warren derive **$3.63** ⇒ **−5.5%** (Warren ต่ำกว่า = conservative)
@@ -8203,7 +8217,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-15 | **Status:** PASS | **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-08-25 | **Status:** PASS | **Tier:** ⚠️ Speculative
+
+> ✅ **Reconfirmed 2026-08-25** (time-trigger, 10 วันตั้งแต่ 08-15) — ไม่มีข่าวใหม่หลัง gate 08-15 (Recent News ล่าสุด 06-03 อยู่ก่อน gate มาก; Q3 2026 earnings ยังไม่รายงาน) → WHAT/WHY NOW/IF WRONG/Tier Basis ด้านล่างไม่เปลี่ยน
 
 **Tier Basis:** Speculative — IPO 12 มิ.ย. 2026 ⇒ pre-IPO rule ไม่ใช้แล้ว แต่ยังติด **spin-off/track-record rule** (งบ standalone < 2 ปี ปัจจุบัน ~2 ไตรมาส) ⇒ เพดานสูงสุด Speculative จนกว่าจะมี track record ครบ; ประกอบกับ test ครบ 3 ข้อ: ① upside หลัก (Starship/orbital compute/Mars) ยังไม่อยู่ในงบ ② valuation ต้องการอนาคตที่ยังไม่พิสูจน์ (forward P/E FY2026 = 373×) ③ key-man สุดโต่ง (Musk voting 82.4%, comp ผูกกับ Mars colony/100TW datacenter). **ไม่มี tier change รอบนี้**
 
@@ -8216,7 +8232,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-15 | **Price ณ วันนั้น:** $140.00 | **Method:** ⚠️ **ข้อยกเว้น SOTP** (segment revenue × segment EV/Sales) — ไม่ใช่มาตรฐาน Revenue×Margin→P/E
+**Last Updated:** 2026-08-25 | **Price ณ วันนั้น:** $135.00 | **Method:** ⚠️ **ข้อยกเว้น SOTP** (segment revenue × segment EV/Sales) — ไม่ใช่มาตรฐาน Revenue×Margin→P/E
+
+> 🔄 **Price refresh only (08-25)** — ราคา $140.00→$135.00 (−3.57%), ไม่มี earnings ใหม่ (Q3 2026 ยังไม่รายงาน) ⇒ SOTP build/multiple carried forward จาก 08-15 ไม่เปลี่ยน มีแค่ MoS/ER ที่ขยับตามราคา
 
 > 🔧 **FV REBUILD ครั้งแรกนับตั้งแต่ IPO — $114 → $60.** ตัวเลข $114 ที่ใช้มาตั้งแต่ 2026-06-05 **ไม่ใช่ผลงานของ Warren** แต่เป็น SOTP ของ analyst ภายนอก (FundaAI, "bull SOTP") ที่ถูก carry ต่อกันมา 10 รอบ โดยแต่ละรอบเขียนกำกับว่า *"declines to re-base off one quarter of AI-segment profitability"*. ผลคือระบบใช้ตัวเลขที่ไม่มีใครในทีมเป็นเจ้าของและตรวจสอบที่มาไม่ได้ ซึ่งขัดกับเจตนาของ full refresh รอบนี้โดยตรง — รอบนี้สร้างใหม่ทั้งหมดจาก segment revenue จริงใน 10-Q Q2 2026
 
@@ -8270,10 +8288,10 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 | Probability | 55% | 20% | 25% |
 
 **Fair Value Base:** $60
-**ราคาปัจจุบัน:** $140.00 (IPO price $135, ATH $225.64)
-**Margin of Safety:** **−133.33%** = ($60 − $140.00) ÷ $60 → ❌ FAIL (Effective Gate 20%) อย่างสิ้นเชิง
+**ราคาปัจจุบัน:** $135.00 (−3.57% จากรอบก่อน $140.00; IPO price $135, ATH $225.64)
+**Margin of Safety:** **−125.00%** = ($60 − $135.00) ÷ $60 → ❌ FAIL (Effective Gate 15%, ลดจาก 20% เมื่อ 08-15 — ไม่มีผลเชิงทิศทาง) อย่างสิ้นเชิง
 **PEG:** ไม่ใช้ — ⚠️ Speculative tier
-**5-yr Expected Return:** **4.41%/ปี** (convergence −15.59% + growth capped ที่ 20%) → ❌ FAIL (Gate ≥15%)
+**5-yr Expected Return:** **5.03%/ปี** (convergence −14.97% + growth capped ที่ 20%) → ❌ FAIL (Gate ≥15%)
 
 ### WAF Score Breakdown
 
@@ -8565,7 +8583,7 @@ Elon Musk confirmed SpaceX's AI compute build-out is now **exclusive to NVIDIA**
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-15
+**Last Updated:** 2026-08-25 (date synced with Story Gate/Valuation Range per Card Consistency rule — 08-25 batch 3/4: price refresh + reconfirm only, no new analyst research, no news since 08-15)
 
 **Update (2026-08-15) — FULL REFRESH batch 3/4: FV rebuild ครั้งแรกนับตั้งแต่ IPO** [WARREN THESIS]
 - **เลิกใช้ตัวเลข analyst ภายนอกเป็น FV** — $114 ที่ใช้มาตั้งแต่ 2026-06-05 คือ SOTP ของ FundaAI ("bull SOTP") ที่ถูก carry ต่อกันมา 10 รอบ โดยแต่ละรอบเขียนว่า *"declines to re-base off one quarter of AI-segment profitability"* ⇒ ระบบใช้ตัวเลขที่ไม่มีใครในทีมเป็นเจ้าของและตรวจที่มาไม่ได้
@@ -9201,7 +9219,7 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-15
+**Last Updated:** 2026-08-25 (date synced with Story Gate/Valuation Range per Card Consistency rule — 08-25 batch 3/4: price refresh + reconfirm only, no new analyst research, no news since 08-15)
 
 **Update (2026-08-15) — FULL REFRESH batch 3/4: METHOD REBUILD (ปิดงานค้างจาก 08-13)** [WARREN THESIS]
 - batch 08-13 flag TSLA ไว้เองว่าเป็น **"highest-priority method-rebuild candidate"** ของทั้ง watchlist แต่ทำไม่เสร็จ — รอบนี้ทำเสร็จแล้ว
@@ -9267,7 +9285,9 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-15  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-08-25  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+> ✅ **Reconfirmed 2026-08-25** (time-trigger, 10 วันตั้งแต่ 08-15) — ไม่มีข่าวใหม่หลัง gate 08-15 (Recent News ล่าสุด 08-07 อยู่ก่อน gate) → WHAT/WHY NOW/IF WRONG/Tier Basis ด้านล่างไม่เปลี่ยน
 
 **Tier Basis:** Speculative — ผ่าน test ครบ 3 ข้อ: ① upside หลัก (FSD/robotaxi/Optimus/Cybercab) **ยังไม่อยู่ในงบ** — GAAP op margin เหลือ 1.4% และกำไรมาจาก non-operating แทบทั้งหมด ② valuation ต้องการอนาคตที่ยังไม่พิสูจน์ (forward P/E 157× บน FY2027 consensus) ③ key-man สุดโต่ง (Musk) + related-party กับ SpaceX/xAI. **ไม่มี tier change รอบนี้**
 
@@ -9280,7 +9300,9 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-15  |  **Price ณ วันนั้น:** $342.27  |  **Method:** ⚠️ **ข้อยกเว้น "P/E ใช้ไม่ได้" → EV/Sales** (ไม่ใช่มาตรฐาน Revenue×Margin→P/E)
+**Last Updated:** 2026-08-25  |  **Price ณ วันนั้น:** $348.95  |  **Method:** ⚠️ **ข้อยกเว้น "P/E ใช้ไม่ได้" → EV/Sales** (ไม่ใช่มาตรฐาน Revenue×Margin→P/E)
+
+> 🔄 **Price refresh only (08-25)** — ราคา $342.27→$348.95 (+1.95%), ไม่มี earnings ใหม่ ⇒ EV/Sales build/multiple carried forward จาก 08-15 (method rebuild เสร็จแล้วรอบก่อน) ไม่เปลี่ยน มีแค่ MoS/ER ที่ขยับตามราคา
 
 > 🔧 **METHOD REBUILD — ปิดงานค้างที่ batch 08-13 flag ไว้เองว่าเป็น "highest-priority method-rebuild candidate" ของทั้ง watchlist.** รอบ 08-13 ใช้ consensus_forward (EPS $2.14 × 79.4× = FV $170) และเขียนกำกับเองว่าวิธีนี้ "ผิด method ไม่ใช่แค่ไม่แม่น" แต่ไม่ได้ทำต่อเพราะหมดเวลา — รอบนี้ทำเสร็จแล้ว **FV $170 → $290**
 
@@ -9313,11 +9335,11 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 | **Bear** | $120,680M | 7.00× (margin ไม่ฟื้น + FCF ลบต่อ) | $844.8B | $34.2B | 3,950M | **$222** | 25% |
 
 **Fair Value Base:** $290
-**ราคาปัจจุบัน:** $342.27 (**+4.5%** จากรอบก่อน $327.51)
-**Margin of Safety:** **−18.02%** = ($290 − $342.27) ÷ $290 → ❌ FAIL (Effective Gate 20%)
-**EV/Sales ปัจจุบันของตลาด:** **10.92×** (mkt cap $1,352.0B − net cash $34.2B = EV $1,317.8B ÷ $120,680M) — สูงกว่า 9.20× ที่ Warren ใช้ แต่ต่ำกว่า median 5 ปีของตัวเอง
+**ราคาปัจจุบัน:** $348.95 (**+1.95%** จากรอบก่อน $342.27)
+**Margin of Safety:** **−20.33%** = ($290 − $348.95) ÷ $290 → ❌ FAIL (Effective Gate 15%, ลดจาก 20% เมื่อ 08-15 — ไม่มีผลเชิงทิศทาง)
+**EV/Sales ปัจจุบันของตลาด:** ~11.1× (คำนวณคร่าวจากราคาใหม่) — สูงกว่า 9.20× ที่ Warren ใช้ แต่ต่ำกว่า median 5 ปีของตัวเอง
 **PEG:** ไม่ใช้ — ⚠️ Speculative tier (thesis อิงอนาคต ไม่ pay up)
-**5-yr Expected Return:** **18.54%/ปี** (convergence −3.26% + consensus EPS growth 21.8%) — ✓ ผ่านเส้น 15% **ทางตัวเลข แต่คุณภาพต่ำที่สุดใน batch** (ดูคำเตือนด้านล่าง)
+**5-yr Expected Return:** **18.17%/ปี** (convergence −3.63% + consensus EPS growth 21.8%) — ✓ ผ่านเส้น 15% **ทางตัวเลข แต่คุณภาพต่ำที่สุดใน batch** (ดูคำเตือนด้านล่าง)
 
 ### ⚠️ Panel Validation — จุดที่ต้องระวัง
 - ฝั่ง **revenue**: panel ผ่าน (ตรวจ 3 ทางตามข้างบน ไม่มีสัญญาณเพี้ยน)
