@@ -74,9 +74,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 220.05,
+      "yf_price": 208.48,
       "warren_fv": 309,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "MSFT": {
@@ -154,9 +154,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 482.1,
+      "yf_price": 487.31,
       "warren_fv": 562,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "META": {
@@ -234,9 +234,9 @@
       "verdict": "CAUTION",
       "summary": "",
       "risks": [],
-      "yf_price": 547.8,
+      "yf_price": 559.02,
       "warren_fv": 711,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "TSM": {
@@ -314,9 +314,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 415.73,
+      "yf_price": 410.12,
       "warren_fv": 411,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "AVGO": {
@@ -391,12 +391,12 @@
     },
     "tier": "🚀 Pre-Inevitable",
     "charlie": {
-      "verdict": "AGREE",
+      "verdict": "CAUTION",
       "summary": "",
       "risks": [],
-      "yf_price": 380.16,
+      "yf_price": 358.76,
       "warren_fv": 431,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "ASML": {
@@ -474,9 +474,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 1799.24,
+      "yf_price": 1740.13,
       "warren_fv": 1709,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "NFLX": {
@@ -554,9 +554,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 77.66,
+      "yf_price": 80.01,
       "warren_fv": 109,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "UBER": {
@@ -634,9 +634,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 76.34,
+      "yf_price": null,
       "warren_fv": 112,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "GOOGL": {
@@ -714,9 +714,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 342.56,
+      "yf_price": 348.06,
       "warren_fv": 320,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "AMZN": {
@@ -794,9 +794,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 259.18,
+      "yf_price": 262.07,
       "warren_fv": 231,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "PLTR": {
@@ -874,9 +874,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 174.15,
+      "yf_price": null,
       "warren_fv": 86,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "AMD": {
@@ -954,9 +954,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 485.31,
+      "yf_price": 456.75,
       "warren_fv": 325,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "MU": {
@@ -1026,9 +1026,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 967.54,
+      "yf_price": 910.43,
       "warren_fv": 262,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "SKHY": {
@@ -1098,9 +1098,9 @@
       "verdict": "CAUTION",
       "summary": "",
       "risks": [],
-      "yf_price": 161.4,
+      "yf_price": 155.37,
       "warren_fv": 49,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "ARM": {
@@ -1178,9 +1178,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 253.12,
+      "yf_price": 238.78,
       "warren_fv": 187,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "AAPL": {
@@ -1258,9 +1258,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 306.16,
+      "yf_price": 310.34,
       "warren_fv": 272,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "SPCX": {
@@ -1338,9 +1338,9 @@
       "verdict": "CAUTION",
       "summary": "",
       "risks": [],
-      "yf_price": 142.03,
+      "yf_price": 135.0,
       "warren_fv": 60,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   },
   "TSLA": {
@@ -1418,9 +1418,9 @@
       "verdict": "AGREE",
       "summary": "",
       "risks": [],
-      "yf_price": 337.51,
+      "yf_price": 348.95,
       "warren_fv": 290,
-      "date": "2026-08-18"
+      "date": "2026-08-25"
     }
   }
 }
