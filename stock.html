@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260825192328"></script>
+  <script src="knowledge.js?v=20260826205553"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -196,19 +196,6 @@ const STOCKS_INLINE = {
     risk: ['Taiwan Strait geopolitical risk — ความเสี่ยงหลักที่ตลาดให้ discount ใหญ่', 'US tariff + trade policy uncertainty กระทบ supply chain', 'Customer concentration: Apple + NVIDIA + AMD = top 3', 'Intel Foundry 18A ถ้าสำเร็จ capture market share บางส่วน', 'Arizona/Japan fab ramp cost กด margin ระยะกลาง 2026-2028'],
     updated: '2026-08-25'
   },
-  AVGO: {
-    name: 'Broadcom Inc.', sector: 'Semiconductor', sectorSlug: 'semi',
-    chips: ['Semiconductor', 'Custom AI Chips + Networking'],
-    action: 'buy', actionLabel: 'Buy', conviction: 4,
-    waf: 8.07, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 358.76, fv: 431, mos: 16.76, fpe: 21.34, peg: 0.854,
-    scores: { bq: [8.5,'green',85], gp: [9.5,'green',95], va: [7.5,'amber',75], ra: [5.3,'orange',53] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Broadcom ออกแบบ custom AI accelerator (XPU) + networking silicon ให้ hyperscaler ที่ไม่อยากพึ่ง NVDA และเก็บกำไรอีกขาจาก VMware/infrastructure software ที่เป็นสัญญาต่ออายุ margin 78-79% — ชนะเพราะเป็น 1 ใน 2 เจ้าในโลก (คู่ MRVL) ที่ทำ custom silicon ระดับ leading-edge พร้อม networking ครบ stack ได้', why: 'Consensus รู้แล้วว่า AI semi ของ AVGO จะทะลุ $100B ใน FY2027 (บริษัทพูดเอง 2 รอบ) — สิ่งที่ Warren เห็นต่างคือ 2 เรื่อง: (1) **โครงสร้างกำไรกำลังแย่ลงเงียบๆ ขณะที่รายได้โตแรง** จาก mix shift ไปทาง AI semi (gross margin ~70%) จาก software (93%); (2) **ราคาร่วง 8.7% ใน 10 วัน (นักลงทุนบางส่วนกังวลภาระ capex/debt ของทั้งอุตสาหกรรม $370B) ขณะที่ demand-side ยังแข็งขึ้น** — Broadcom กำลังขยาย AI-compute SPV จาก $35B tranche แรกเป็น $70-80B เพื่อรองรับ Anthropic/OpenAI เพิ่ม ซึ่งเป็นสัญญาณ contracted-demand ไม่ใช่ demand หด ตลาดกำลังลงโทษราคาจาก sentiment/leverage-concern มากกว่าจาก fundamental — ราคาที่ต่ำลงนี้เปิดช่องว่างที่ยังไม่ price-in เต็ม', risk: 'hyperscaler รายใดรายหนึ่งใน 6 รายประกาศย้าย XPU program ไปเจ้าอื่น (แบบที่ Google TPU9 ย้าย packaging ไป Intel EMIB-T แล้ว) หรือ AI semi revenue FY2027 ออกมาต่ำกว่า $100B ที่ reaffirm ไว้ หรือ terms ของ debt financing $70-80B ออกมาแพง/มีเงื่อนไขที่กระทบ credit quality อย่างมีนัย = thesis เรื่อง duopoly durability พัง', updated: '2026-08-25' },
-    idea: '',
-    bull: ['Custom XPU: GXPU (Google), MTIA (Meta), OpenAI XPU = exclusive partnerships', 'AI revenue FY2025 $12.2B +106% YoY — addressable market growing 3x', 'Tomahawk/Jericho Ethernet near-monopoly สำหรับ AI clusters', 'VMware integration $8B+ revenue synergy กำลัง materialize', 'Dividend + buyback = total return play ที่แข็งแกร่ง'],
-    risk: ['ราคาปัจจุบันเกิน Fair Value $350 — รอ pullback ก่อน entry', 'Custom XPU customers อาจพัฒนา in-house ลดความ dependency ระยะยาว', 'VMware debt overhang จาก acquisition $69B', 'Semiconductor cyclicality ใน Enterprise networking', 'Hock Tan succession planning ระยะยาว'],
-    updated: '2026-08-25'
-  },
   ASML: {
     name: 'ASML Holding', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'EUV Lithography'],
@@ -221,32 +208,6 @@ const STOCKS_INLINE = {
     bull: ['EUV lithography absolute monopoly — ไม่มีทางใช้ node ล้ำๆ โดยไม่ผ่าน ASML', 'High-NA EUV (Twinscan EXE) รองรับ nodes 1.8nm ถึง Angstrom era', 'Installed base recurring revenue: service + upgrades = predictable income', 'HBM supercycle เพิ่ม demand layer count → ต้องการ EUV เพิ่มขึ้น', 'TSMC, Samsung, Intel = customer lock-in ระยะยาว multi-decade'],
     risk: ['China export restrictions ห้ามขาย EUV — กระทบ 10-15% revenue ทันที', 'Semi cyclicality ทำให้ orders อาจชะลอในช่วง down-cycle', 'High-NA EUV ราคา $350M/unit ทำให้ customer deployment ช้า', 'อ่อนไหวต่อ geopolitics EU-China', 'MoS เพียง 8.9% จาก FV $900 — ต้องการ pullback เพื่อ entry ที่ดีขึ้น'],
     updated: '2026-08-25'
-  },
-  NFLX: {
-    name: 'Netflix Inc.', sector: 'Consumer', sectorSlug: 'consumer',
-    chips: ['Consumer', 'Streaming Media'],
-    action: 'buy', actionLabel: 'Buy', conviction: 3,
-    waf: 7.48, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 80.01, fv: 109, mos: 26.6, fpe: 22.04, peg: 1.259,
-    scores: { bq: [8.2,'green',82], gp: [6.8,'amber',68], va: [8.0,'green',80], ra: [6.5,'amber',65] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Netflix เปลี่ยนงบ content $17-18B/ปี เป็นความสัมพันธ์กับสมาชิก 325M+ ราย แล้วเก็บเกี่ยว 2 ทางพร้อมกัน — subscription ที่ขึ้นราคาได้ และโฆษณาที่เพิ่งเริ่ม (>250M MAU บน ad tier, รายได้ ~$3B ปี 2026 = 2.5 เท่าของปีก่อน) — ชนะเพราะ scale ของ content ต่อผู้ชม 1 คนที่คู่แข่งไล่ตามด้วยงบเท่ากันไม่ได้', why: 'Consensus de-rate NFLX ลงมาที่ ~21× forward earnings หลัง Q2\'26 ที่ op margin **หด YoY เป็นครั้งแรก** (33.4% vs 34.1%) และ FCF −33% YoY — อ่านว่าเป็นจุดเริ่มของการเสื่อมเชิงโครงสร้าง. Warren เห็นต่างว่า **สิ่งที่เปลี่ยนคือจังหวะการลงทุน ไม่ใช่ความสามารถในการทำกำไร**: op margin ทั้งปี FY2026 ยัง guide 31.5% ซึ่ง **สูงกว่า FY2025 ที่ 29.5%** (คือขยาย ไม่ใช่หด) และ opex ที่โตเกินรายได้เป็น T&D +22% / S&M +16% ซึ่งเป็นการลงทุนในเครื่องยนต์โฆษณาที่รายได้ยังตามมาทีหลัง; ขณะเดียวกันบริษัทซื้อหุ้นคืน **$4.7B ในไตรมาสเดียว (สูงสุดในประวัติศาสตร์)** ที่ราคานี้. ⚠️ **แต่ edge ที่แท้จริงของ Warren รอบนี้อยู่ที่วิธีวัด ไม่ใช่การอ่านธุรกิจ** — FV เดิม $84 ถูกสร้างจาก "forward P/E ปัจจุบัน 18.25× + premium 15%" ซึ่งเป็นการ **ผูก FV ไว้กับราคา** ทำให้ MoS ถูกตรึงใกล้ 15% ทุกรอบไม่ว่าราคาจะเป็นเท่าไร (อาการเดียวกับกับดัก min()-multiple). เมื่อย้ายไปใช้ anchor ภายนอกที่ไม่ขึ้นกับราคาวันนี้ FV = $109 และ MoS = 28.29%', risk: 'op margin หดต่อเนื่อง 2+ ไตรมาสจนพิสูจน์ว่าเป็น structural (opex โตเกินรายได้ไม่ใช่เรื่องจังหวะ), หรือ FY2026 op margin หลุดต่ำกว่า guide 31.5%, หรือ revenue decel ต่ำกว่า +10% พร้อม engagement erosion ที่ยืนยันได้ใน view-hours, หรือ M&A ขนาดใหญ่ที่ทำลาย capital discipline', updated: '2026-08-25' },
-    idea: '🟢 **BUY — ตัวเดียวใน batch 3/4 ที่ผ่าน gate ครบทุกข้อ.** MoS 28.29% ✓ · PEG 1.23 ✓ · ER 24.38% ✓ · WAF 7.48 ✓ · Story Gate PASS ✓. **ต้องอ่านที่มาของสัญญาณให้ชัด:** ราคา**ขึ้น** +5.3% จากรอบ 08-13 ($74.21 → $78.16) ⇒ สัญญาณ BUY **ไม่ได้มาจากราคาที่ถูกลง** แต่มาจาก **FV ที่ขึ้น $84 → $109 (+29.8%)** ซึ่งทั้งหมดมาจากการเลิก anchor multiple กับราคา. NFLX เป็น position ที่ถืออยู่แล้ว ($30 invested) ⇒ ส่งต่อให้ `/warren` ตัดสินขนาด ADD พร้อม Opportunity Cost Gate',
-    bull: ['Password sharing crackdown สำเร็จ = 300M+ paid subscribers เติบโตต่อ', 'Ads-supported tier growing fast = pricing power + margin expansion', 'Live Sports (NFL Christmas, WWE Raw) = retention + acquisition', 'Content flywheel = cost per hour ลดทุกปีเมื่อ scale ใหญ่ขึ้น', 'Games expansion ฟรีสำหรับ subscribers = engagement เพิ่ม'],
-    risk: ['MoS 4.5% ต่ำมาก — ราคา $1,080 แทบไม่มี safety net', 'Content cost inflation ถ้า Hollywood guild ขอเพิ่มค่าจ้าง', 'Disney+/Prime/Max competition ยังไม่ยอมแพ้', 'Ad revenue cyclical ถ้า macro slowdown', 'Subscriber growth ceiling ในตลาด developed markets'],
-    updated: '2026-08-25'
-  },
-  UBER: {
-    name: 'Uber Technologies, Inc.', sector: 'Consumer', sectorSlug: 'consumer',
-    chips: ['Consumer', 'Mobility + Delivery Platform'],
-    action: 'buy', actionLabel: 'Buy', conviction: 3,
-    waf: 7.3, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 74.99, fv: 112, mos: 33.0, fpe: 17.6, peg: 0.7,
-    scores: { bq: [7.8,'amber',78], gp: [7.3,'amber',73], va: [8.0,'green',80], ra: [5.2,'orange',52] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Uber เป็น global mobility+delivery marketplace ที่ใหญ่ที่สุด (70+ ประเทศ) — network effect + cross-platform flywheel (dual-user สร้าง GB 3x) + Uber One membership lock-in; asset-light FCF machine ที่ scaling earnings เร็วกว่า topline 2 เท่า.', why: 'Consensus กังวล AV จะ disrupt Uber (Waymo/Tesla) + AI personal-agent จะ abstract แพลตฟอร์มออกจากลูกค้า; Warren เห็นต่างว่า Uber เป็น **AV demand-aggregator** (utilization/ revenue-per-vehicle สูงกว่า 1P network → พาร์ทเนอร์ AV เลือก Uber) + capital-light AV — AV เป็น tailwind ไม่ใช่ threat; FCF inflection (TTM ทะลุ $10B ครั้งแรก) + buyback ต่อเนื่องยังไม่ถูก price in เต็มที่. **อัพเดท 08-10 (Q2 2026):** record quarter (GB +24%, EPS +35%), Delivery Hero financing เปลี่ยนจาก "committed" → **executed** (bridge €14.2B เซ็นแล้ว, leverage <2x ยืนยัน); **CEO ยืนยันกำลัง diversify AV partners ให้พึ่ง Waymo น้อยลง** — ตอบคำถามตรงเรื่องข่าวความตึงเครียด Waymo — Warren อ่านสัญญาณนี้ว่า**เสริม thesis aggregator** (multi-partner 120K คันผูกมัดแล้ว, mature-market AV share ของ Uber สูงขึ้น YoY = AV ขยายตลาดไม่ cannibalize) มากกว่าเป็นสัญญาณว่า thesis กำลังพัง — แต่ยังเป็นจุดที่ต้องจับตาใกล้ที่สุดใน Q3. ราคาวิ่งจาก $65.94→$75.02 (+13.8%) เร็วกว่า FV ที่ปรับ (correction ฐาน EPS consensus $3.46 ซึ่งจริงๆเป็นเลข high estimate ไม่ใช่ average → ใช้ $3.31 แทน) → MoS หดจาก 32.7%→20.2% แต่ยังผ่าน gate.', risk: 'AV players (Waymo/Tesla) bypass Uber ไปหาผู้บริโภคเองที่ scale — **กำลัง crystallize ต่อเนื่อง:** Waymo แจ้งแผนทางการแล้วว่าจะเปิดแอปตัวเองเป็น 1P ใน Austin+Atlanta เริ่ม ม.ค. 2028 (ยุติ exclusivity 2 เมืองนี้, ต่อจาก Phoenix ที่เลิกไปแล้ว มิ.ย. 2026); **08-11/08-13 news เพิ่มเติม:** Uber เองประกาศลด near-term AV spending ลงหลัง "สูญเสีย" ความร่วมมือ Waymo บางส่วน พร้อมเปิดแผน robotaxi โตเกียวกับพาร์ทเนอร์อื่นแทน — เป็นสัญญาณจริงที่สุดเท่าที่มีมาว่า partner หลักเลือก vertical integration และ Uber เองก็กำลังปรับกลยุทธ์ตาม แต่ยังมี multi-partner hedge (120K คันผ่าน 9 พาร์ทเนอร์อื่น) รองรับอยู่; หรือ driver reclassification (California AG) พลิก unit economics ทั้งโมเดล; หรือ AI personal-agent disintermediate demand-generation moat จริง. **เพิ่มเติม (trips-growth tripwire, ยังไม่ resolve):** Trips growth soft 2 ไตรมาสติด (Q1/Q2 2026) — CFO อธิบายเป็น Brazil two-wheeler supply issue + World Cup comp ล้วนๆ ไม่ใช่ demand ทั้งบริษัท แต่ Q3 GB guide midpoint ต่ำกว่าทั้ง consensus และ UBSe — จับตา Q3 print จริง (~พ.ย. 2026) เป็นตัวชี้ขาดว่า noise หรือ deteriorate จริง.', updated: '2026-08-18' },
-    idea: 'BUY, and materially healthier than the prior batch\'s thin-margin call. This batch\'s Revenue-as-Base rebuild (replacing a consensus-EPS copy with an explicit Revenue×Margin derivation, and sourcing the multiple from Seeking Alpha\'s 5-yr average with a documented policy discount) raises FV $94→$112 on stronger FY2027 consensus revenue growth (+15.3%), while price fell -4.5% on further Waymo-related news. Both effects widen the margin of safety at the same time — the opposite of the three-batch price-driven-compression pattern flagged 08-12. All 4 gates pass comfortably: MoS 33.0%, PEG 0.70, ER ~33.4%/yr, WAF 7.30 MEDIUM.',
-    bull: ['Network effect + cross-platform flywheel — user ที่ใช้ทั้ง Mobility+Delivery สร้าง Gross Bookings มากกว่า 3 เท่าของ single-offering', 'Uber One membership ทะลุ 50M (+50% YoY) คิดเป็น >50% ของ Gross Bookings ทั้งหมด', 'AV demand-aggregator — 30+ พาร์ทเนอร์ (Waymo, Zoox, NVIDIA ฯลฯ) capital-light financing ผ่าน Santander/Hertz', 'FCF inflection ทะลุ $10B TTM ครั้งแรก + buyback record $3B ในไตรมาสเดียว', 'Warren: BUY ทุก gate ผ่าน — MoS 32.7%, PEG 1.27, ER 23.2%/yr, WAF 7.39 HIGH'],
-    risk: ['Driver classification risk — California AG lawsuit ท้าทายสถานะ independent contractor ทั่วโลก', 'AV เป็นดาบสองคม — Waymo/Zoox/Tesla อาจ bypass Uber ไปหาผู้บริโภคเองที่ scale', 'AI personal-agent อาจ disintermediate ความสัมพันธ์กับลูกค้า (ถูกถามตรงในคอลล์นักลงทุน)', 'Delivery Hero acquisition $14.8B เพิ่ม leverage + integration risk แม้ financing ชัดแล้ว', 'Switching cost ต่ำ + DoorDash/Prosus บุกยุโรปหนักขึ้น'],
-    updated: '2026-08-18'
   },
   GOOGL: {
     name: 'Alphabet Inc.', sector: 'Big Tech', sectorSlug: 'bigtech',
@@ -339,6 +300,19 @@ const STOCKS_INLINE = {
     risk: ['P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง', 'RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue', 'Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips', 'SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure', 'UK regulatory environment ไม่แน่นอน'],
     updated: '2026-08-25'
   },
+  SNDK: {
+    name: 'Sandisk Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Memory', 'NAND Flash'],
+    action: 'watch', actionLabel: 'Watch', conviction: 3,
+    waf: 6.04, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 1354.82, fv: 1700, mos: 20.3, fpe: null, peg: null,
+    scores: { bq: [6.0,'orange',60], gp: [7.0,'amber',70], va: [6.8,'amber',68], ra: [3.0,'orange',30] },
+    story_gate: { passed: true, status: 'PASS', tier: '🔁 Cyclical', tier_slug: 'cyclical', what: 'Sandisk เป็นผู้นำ NAND flash technology (BiCS8 = gold standard) ผ่าน Flash Ventures JV กับ Kioxia — spin-off จาก WDC ก.พ. 2025; วางตัวเป็น NAND partner สำหรับ AI inference (KV cache/RAG) + สร้าง New Business Model (สัญญา multi-year ลด cyclicality).', why: 'Consensus (bull) มองว่า AI datacenter demand + NBM ทำให้ margin 78% เป็น "structurally higher"; Warren ระวังว่า **margin 78.4% คือ peak ของ pricing spike** — ราคาร่วงต่ออีก -12.7% รอบนี้ (คลื่นเดียวกับ SK Hynix ร่วงแรงสุดใน ~20 ปี) ทำให้ MoS ดีขึ้นมากแต่ยังไม่ผ่าน gate; ที่สำคัญกว่านั้น analysts เริ่มปรับมุมมองว่า NAND ASP จะร่วงเร็วกว่าที่เคยประเมิน (supply เริ่มเกิน demand เร็วกว่าคาด) — สัญญาณใหม่ที่ยืนยันทิศทาง mean-reversion เดิมของการ์ดนี้ แต่อาจมาเร็วกว่าที่ FV Base timeline สมมติไว้.', risk: 'NAND ASP ย้อนกลับสู่ 40s% (over-capacity รอบใหม่) เร็วกว่าคาด — ตอนนี้มี analyst signal เริ่มยืนยันทิศทางนี้แล้ว, หรือ Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, หรือ NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ). Lynch peak signal: analyst upgrade รัวๆ + low P/E จาก peak EPS.', updated: '2026-07-16' },
+    idea: 'Further -11.7% memory rout ($1,533.99→$1,354.82, SK-Hynix-driven) lifts MoS 9.8%→20.3%, clearing the 15% gate. BUT this is textbook cyclical behaviour — price falling toward normalized FV in a downturn is NOT a buy signal: ER still deeply negative (-26.4%/yr) and WAF 6.04 LOW (<6.5). Two gates fail → WATCH. Do not chase on peak-EPS optics.',
+    bull: ['Q3 FY2026 Revenue $5.95B +251% YoY, Non-GAAP Gross Margin 78.4% ทะลุ guidance มาก (memory supercycle)', 'Datacenter segment โต +645% YoY จาก enterprise SSD สำหรับ AI workloads', 'Net cash position — จ่ายหนี้หมดแล้ว (Long-term debt = $0) หลัง spin-off จาก WDC', 'Non-GAAP EPS $23.41 ไตรมาสเดียว เกิน guidance มาก = operating leverage สูงมากในช่วง upcycle', 'NAND flash supply chain oligopoly (Flash Ventures JV กับ Kioxia) = barrier to entry สูง'],
+    risk: ['Memory เป็น commodity cyclical — margin พุ่งแรงตอน upcycle แต่มีความเสี่ยง downcycle รุนแรง (เหมือน MU)', 'Bit shipments flat YoY, down high-teens QoQ — สะสม inventory รอ product ใหม่ (BiCS8 QLC)', 'พึ่งพา Kioxia JV เกือบทั้งหมดสำหรับ flash supply — ไม่ควบคุม manufacturing เอง', 'Valuation reflect upcycle sentiment มาก — Lynch peak signal risk คล้ายที่เจอใน MU/SKHY', 'Consumer segment หดตัว QoQ ตาม seasonality'],
+    updated: '2026-07-18'
+  },
   AAPL: {
     name: 'Apple Inc.', sector: 'Big Tech', sectorSlug: 'bigtech',
     chips: ['Big Tech', 'Consumer Electronics + Services'],
@@ -377,6 +351,45 @@ const STOCKS_INLINE = {
     bull: ['Optimus robot production กำลัง ramp — potential trillion-dollar TAM', 'FSD v14 improving — robotaxi license ใน Austin 2025 เป็น milestone', 'Energy Storage Megapack demand growing fast = new revenue stream', 'Dojo supercomputer = AI training alternative', 'Software update OTA advantage vs legacy automakers'],
     risk: ['P/E 150x+ ราคา assume everything goes right — zero margin for error', 'Elon Musk DOGE distraction = key person risk ต่อ CEO focus', 'BYD competition ใน China และ global EV market เข้มข้นมาก', 'EV margin กดดัน — average price ลดลง ส่วนแบ่งตลาดลดใน China', 'Optimus timeline uncertainty — production scale ยังไม่พิสูจน์'],
     updated: '2026-08-25'
+  },
+  CRWV: {
+    name: 'CoreWeave, Inc.', sector: 'AI Cloud', sectorSlug: 'aicloud',
+    chips: ['AI Cloud', 'GPU-as-a-Service'],
+    action: 'avoid', actionLabel: 'Avoid', conviction: 3,
+    waf: 5.47, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 115.21, fv: 77, mos: -49.6, fpe: null, peg: null,
+    scores: { bq: [5.5,'orange',55], gp: [8.5,'green',85], va: [3.0,'orange',30], ra: [3.5,'orange',35] },
+    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'CoreWeave ให้เช่า GPU cloud capacity เฉพาะทาง AI (training/inference) ผ่านสัญญา multi-year take-or-pay — ชนะด้วยความเร็ว deploy GPU generation ใหม่ก่อนใคร (NVIDIA Exemplar Cloud status) และ relationship พิเศษกับ NVIDIA ($2B equity investment)', why: 'Consensus เห็นว่า CoreWeave คือ "neocloud leader ที่มี backlog ใหญ่สุด ($99.4B)" — Warren เห็นต่างว่าตลาดยังไม่ price-in ความเสี่ยงที่ gross margin ลดลงต่อเนื่อง 5 ไตรมาส (78%→68%) ขณะที่ debt โต $21.6B→$25.1B ภายในไตรมาสเดียว และ customer concentration (top 2 = 65% รายได้) หมายความว่า backlog ใหญ่ส่วนหนึ่งผูกกับ counterparty risk ของ AI lab ที่ยังไม่ profitable เอง', risk: 'ถ้า margin ไม่ inflect ตามที่สัญญาไว้ (Q2→Q3 FY2026) หรือลูกค้ารายใหญ่ (OpenAI/Meta) ลด commitment ระหว่างทาง credit market จะ re-price debt ของ CoreWeave ทันที เพราะ business model พึ่งพา debt-financed capacity ที่ยังไม่พิสูจน์ unit economics ที่ scale นี้', updated: '2026-06-18' },
+    idea: '',
+    bull: ['Revenue Backlog $99.4B (+284% YoY) จาก multi-year take-or-pay contracts = revenue visibility ยาวหลายปี', 'Q1 FY2026 Revenue $2.08B +112% YoY, Adjusted EBITDA margin 56%', 'First-to-market กับ GPU generation ใหม่ (NVIDIA GB200/GB300, Rubin) — SemiAnalysis ClusterMAX Platinum รายเดียว', 'FY2026 exit annualized run-rate revenue floor $18-19B, 2027 exit >$30B (75%+ contracted แล้ว)', 'Purpose-built AI cloud architecture ต่างจาก general-purpose hyperscaler — ได้เปรียบด้าน density/latency'],
+    risk: ['ขาดทุนสุทธิเพิ่มต่อเนื่อง Q1 FY26 Net Loss $(740)M, Total Debt $25.1B — leverage สูงมาก', 'CapEx FY2026 ปรับขึ้นเป็น $31-35B กด FCF ต่อเนื่องหลายปี', 'Customer concentration risk — พึ่งพา hyperscaler/AI lab รายใหญ่บางราย', 'GPU commoditization — ลูกค้าซื้อตรงจาก NVIDIA ได้ MOAT อยู่ที่ speed-to-deploy มากกว่า hardware', 'Insider selling pattern จาก co-founders + CFO (Rule 10b5-1 plans พ.ย. 2025)'],
+    updated: '2026-06-18'
+  },
+  IREN: {
+    name: 'IREN Limited', sector: 'AI Cloud', sectorSlug: 'aicloud',
+    chips: ['AI Cloud', 'Data Center Infrastructure'],
+    action: 'avoid', actionLabel: 'Avoid', conviction: 3,
+    waf: 5.3, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 58.11, fv: 47, mos: -23.6, fpe: null, peg: null,
+    scores: { bq: [5.0,'orange',50], gp: [8.0,'green',80], va: [3.5,'orange',35], ra: [3.5,'orange',35] },
+    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'IREN เปลี่ยนจาก Bitcoin miner เป็น AI Cloud provider โดยใช้ความได้เปรียบจาก vertically-integrated land/power/data-center ที่สั่งสมมา 7 ปี — ชนะด้วย freehold ownership (ไม่เช่า) ที่ให้ cost advantage เหนือ neocloud ที่พึ่ง third-party hosting', why: 'Consensus เห็นว่า IREN คือ "Bitcoin miner ที่กำลัง pivot สู่ AI" — Warren เห็นต่างว่าตลาดยังไม่แยกแยะว่า IREN มี **กำไรสุทธิจริงครั้งแรก** (FY2025 $86.9M) และ secured power 5GW ที่ใหญ่กว่าคู่แข่ง pivot เดียวกันหลายเท่า แต่ราคาตลาดกำลัง price-in การ execute สำเร็จเต็มที่ทั้งที่ Microsoft/NVIDIA contract เพิ่งเริ่ม ramp และ impairment จาก decommission mining hardware ยังกัดกินงบต่อเนื่อง', risk: 'ถ้า margin ของ AI Cloud Services ไม่ inflect ตามคาดหลัง Microsoft contract เริ่ม ramp (Q3 CY26/Q1 FY27) หรือ impairment เพิ่มเติมจากการเปลี่ยนผ่าน Bitcoin→AI เกินกว่าที่ตลาดคาด', updated: '2026-06-18' },
+    idea: '',
+    bull: ['เปลี่ยนโมเดลจาก Bitcoin Mining สู่ AI Cloud — ARR under contract $3.1B รวมสัญญา NVIDIA 5 ปี + Microsoft $9.7B/5ปี', 'Vertically integrated เป็นเจ้าของ data center/ที่ดิน/electrical infra เอง (ไม่เช่า) = cost advantage', 'Secured power 5GW ทั่วโลก, 2026 target 480MW AI Cloud capacity + 150,000 GPUs', 'NVIDIA strategic partnership — right to invest สูงสุด $2.1B ผูกกับ milestone deploy 600,000 GPU', 'FY2025 กำไรครั้งแรก Net Income $86.9M, Cash $2.6B (ณ เม.ย. 2026)'],
+    risk: ['Net Loss Q3 FY2026 $(247.8)M จาก impairment ตอน decommission mining hardware', 'Capital intensity สูงมาก CapEx ~$1.5B ต่อไตรมาส ต้องพึ่ง debt/equity ต่อเนื่อง — Convertible Notes $3.7B', 'Revenue ผันผวนตามราคา Bitcoin (mining ยังเป็นสัดส่วนใหญ่กว่า AI Cloud ปัจจุบัน)', 'Co-CEO พี่น้อง Roberts คุม voting power 35.4% ผ่าน Class B = control concentration', 'Mirantis acquisition เพิ่งเสร็จ พ.ค. 2026 ยังต้องพิสูจน์ integration'],
+    updated: '2026-06-18'
+  },
+  NBIS: {
+    name: 'Nebius Group N.V.', sector: 'AI Cloud', sectorSlug: 'aicloud',
+    chips: ['AI Cloud', 'Full-Stack GPU Cloud'],
+    action: 'avoid', actionLabel: 'Avoid', conviction: 3,
+    waf: 5.0, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 280.91, fv: 132, mos: -112.8, fpe: null, peg: null,
+    scores: { bq: [5.0,'orange',50], gp: [8.5,'green',85], va: [2.0,'orange',20], ra: [3.0,'orange',30] },
+    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'Nebius เป็น full-stack AI-native cloud (hardware design เองถึง software) สำหรับ training/inference — ชนะด้วย NVIDIA strategic alignment (Exemplar Cloud status, $2B equity investment) และ owned-infrastructure ratio สูง (>75%)', why: 'Consensus เห็นว่า Nebius คือ "neocloud เล็กที่กำลังโตเร็วที่สุดในกลุ่ม (+684% YoY)" — Warren เห็นต่างว่าตลาดยัง underweight ความเสี่ยงจาก Yandex legacy (KYC/banking onboarding ช้า) และ material weakness 2 จุดที่ยังไม่ remediate เต็มที่จนถึงปลายปี 2026 ขณะที่ valuation ปัจจุบัน (P/ARR ~8.9×) แพงกว่า CRWV/IREN มากแม้มี red flag เยอะกว่า', risk: 'ถ้า Meta $27B deal หรือ Microsoft contract ส่งมอบไม่ตรงเวลา (มีรายงาน delay ที่ Vineland NJ แล้ว) หรือ material weakness ไม่ remediate ตามสัญญา "by end of 2026"', updated: '2026-06-18' },
+    idea: '',
+    bull: ['Nebius AI cloud ARR $1.92B (+674% YoY) Q1 2026, guidance exit 2026 $7-9B', 'Group Revenue Q1 2026 $399M +684% YoY, Adjusted EBITDA margin group 32% (AI cloud segment 45%)', 'Contracted Power >3.5GW ยกระดับ guidance เป็น >4GW สิ้นปี 2026 — รวม site ใหม่ Pennsylvania', 'Cash position แข็งแกร่ง $9.3B หลัง convertible notes + equity offering — พร้อม fund CapEx expansion', 'Equity stake ClickHouse revalue มูลค่าสูงขึ้นมาก (Series D ~$15B) = hidden asset value'],
+    risk: ['Adjusted Net Loss ยังติดลบต่อเนื่อง $(100.3)M แม้ Group Net Income บวกจาก one-time ClickHouse gain', 'CapEx FY2026 ปรับขึ้นเป็น $20-25B ผูกกับ commitment ลูกค้าปี 2027 (เช่น Meta)', 'Total Debt เพิ่มขึ้นมากจาก convertible notes ใหม่ $8.4B', 'CEO Arkady Volozh คุม voting power ~52% ผ่าน Class B = Controlled Company, governance concentration', 'Legacy Yandex/Russia association — perception risk แม้แยกธุรกิจแล้ว'],
+    updated: '2026-06-18'
   },
 };
 
