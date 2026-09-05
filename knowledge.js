@@ -5399,7 +5399,14 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-25 (date synced with Story Gate/Valuation Range per Card Consistency rule — 08-25 batch 3/4: price refresh + 🔴MATERIAL news reconfirm ("Micron Research Labs" $10B R&D), EPS-basis rebuild ของ 08-15 ไม่เปลี่ยน)
+**Last Updated:** 2026-09-05 (Warren watchlist batch 4/4 — Taiwan union strike-threat risk logged, price refresh, EPS-basis rebuild ของ 08-15 ไม่เปลี่ยน)
+
+**Update (2026-09-05, batch 11) — 🔴 MATERIAL 09-02 reviewed via WebSearch: Taiwan union strike vote (nearly 10,000 workers, 80% support) demanding FY2026 bonus = 83 months' salary + FY2027 ongoing 15% of operating profit paid quarterly — genuine new operational risk, not previously scored on this card** [MARKET NEWS]
+- **What was found (WebSearch, corrects/expands the terse 09-02/09-03/09-04 Recent News entries):** Unions across Micron's Taiwan operations (Tom's Hardware, Taipei Times, TrendForce, Motley Fool, all 2026-08-28→09-02) are demanding a **one-off FY2026 bonus of ~83 months' salary per employee** (nearly 7 years' pay) and, starting FY2027, replacing the incentive plan with **15% of operating profit paid quarterly** (vs. annual) — citing a bonus gap with Samsung/SK Hynix employees ("hundreds of thousands of dollars"). A strike vote is possible as soon as September 2026 with **>80% of surveyed union members supporting action**. Micron's public response: FY2026 performance bonuses will already be "the largest in company history"; discussions continue.
+- **Why this is scored, unlike prior unquantified narrative items:** Taiwan holds **~$19B of Micron's long-lived assets** (plant/equipment — more than any other country) and **~60% of global production capacity, including most HBM output**. A production disruption at this concentration point is a genuine, quantifiable-scale tail risk to the supply side of the thesis (not a demand-side or narrative item). The bonus/profit-share demands, if any version is granted, are also a **direct claim on the operating margin** this valuation's normalized-margin assumption (29.6% net margin) is built on — a recurring 15% of operating profit paid to Taiwan staff alone would be a new, not-yet-modeled cost structure change if adopted.
+- **Treatment this batch:** strike is a **vote possibility, not yet an event** (no confirmed strike, no confirmed bonus settlement) — too uncertain to quantify into normalized revenue/margin per WARREN.md discipline (don't move valuation on unresolved/unquantified news). **RA nudged down 5.0 → 4.5** to reflect a new, real, scorable operational/labor risk at the company's most capacity-concentrated site — first time this risk category appears on this card. Watch for: (a) an actual strike vote/action in September, (b) any bonus settlement disclosure (would need modeling into opex if it sets a 15%-of-op-profit precedent).
+- 09-03/09-04 🟡MONITOR entries ("large fab expansion may create post-2029 memory price pressure") are re-syndication of the same general supply-catch-up narrative already captured in this card's existing Competitive Landscape section ("industry supply to improve gradually in 2028 but... no line of sight to when supply will catch up with demand") — no new quantifiable figure, not separately scored.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — this is a market-news/labor-relations item, not a primary filing. Flagged for the next \`/warren MU\` deep-dive or FQ4 earnings call (~Sept 2026) to check for management commentary on labor costs/Taiwan stability.
 
 **Update (2026-08-15) — FULL REFRESH batch 3/4: ⚠️ พบฐาน EPS ที่ใช้อยู่ "สูงกว่ากำไรปีพีค"** [WARREN THESIS]
 - ⚠️⚠️ **ประเด็นสำคัญที่สุดของ full refresh ทั้ง 3 batch**: ค่า "normalized mid-cycle EPS **$76.70**" ที่ carry มาตั้งแต่ ก.ค. **สูงกว่า EPS ของปีที่เป็นพีคเอง** — consensus FY2026 non-GAAP EPS = **$73.39** (46 analysts) และ Warren รวมจากงบจริง 3 ไตรมาส + guidance FQ4 ได้ **$73.09** ($4.78+$12.20+$25.11+$31.00). ตัวเลขที่ติดป้ายว่า "normalized" จึงเป็น **above-peak** ⇒ ละเมิดกฎ Cyclical Peak-Bias รุนแรงกว่าการใช้ peak EPS ตรงๆ. ที่มา: การ์ดเขียนเองว่า **back-solved จาก FV $1,150 ÷ 15×** — คือ reverse-engineer EPS จาก FV ที่ตั้งไว้ก่อน
@@ -5607,8 +5614,10 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-29  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
 
+> ✅ **Reconfirmed 2026-09-05 (batch 4/4)** — ข่าวใหม่หลัง gate 08-29: 09-02 🔴MATERIAL (Taiwan union strike vote, ~10,000 workers, 83-months bonus demand + FY2027 15%-of-op-profit ask — ดูรายละเอียดเต็มใน Analyst Research Notes), 09-03/09-04 🟡MONITOR (fab-expansion post-2029 price-pressure narrative — ซ้ำกับความเสี่ยง supply-catchup เดิม). ทั้งคู่**ไม่ใช่**ตัวเลขที่ปรับ normalized revenue/margin โดยตรง แต่ Taiwan strike risk เป็นความเสี่ยงใหม่จริง → RA ปรับ 5.0→4.5, WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน, EPS-basis rebuild ของ 08-15 carried forward. ราคา $932.86→**$1,016.59** (+8.98%)
+>
 > ✅ **Reconfirmed 2026-08-29** — ข่าวใหม่หลัง gate 08-25: 08-28 🔴MATERIAL (ลูกค้า AI ต้องการความจุเพิ่ม 50% เกิน supply capacity — demand-positive แต่**ไม่ใช่**ตัวเลขที่ปรับ normalized revenue/margin), 08-27 🟡MONITOR (Rack Scale AI Memory Pooling — product news, ไม่ quantify). ทั้งคู่ตอกย้ำ Lynch Peak Watch เดิม (narrative ครองข่าว = สัญญาณที่ 3) มากกว่าจะเป็นข้อมูลใหม่เชิงตัวเลข → WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน, EPS-basis rebuild ของ 08-15 carried forward
 
 > ✅ **Reconfirmed 2026-08-25** (🔴MATERIAL news trigger 08-20) — Micron ประกาศ "Micron Research Labs": R&D hub ที่ Boise ลงทุน **$10B ตลอด 10 ปี** (แยกจากงบ manufacturing $250B ที่ประกาศแล้ว), มุ่งเทคโนโลยี memory/architecture/packaging รุ่นถัดไป, เริ่มก่อสร้าง 2027, ได้แรงหนุนสาธารณะจาก Jensen Huang (NVDA) + Tim Cook (AAPL). **ตรวจแล้ว = ไม่เปลี่ยน WHAT/WHY NOW/IF WRONG/Tier Basis** — เป็น R&D commitment ระยะยาว (~$1B/ปีเฉลี่ย เทียบ capex ปีเดียว $27B) ที่ยืนยัน moat/leadership เดิม ไม่ใช่ตัวเลข guidance ใหม่ที่กระทบ normalized revenue/margin ของ FV rebuild รอบ 08-15
@@ -5630,8 +5639,10 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-29  |  **Price ณ วันนั้น:** $932.86  |  **Method:** ⚠️ **ข้อยกเว้น Cyclical → \`revenue_normalized_mid_cycle\`** (Revenue mid-cycle × normalized margin ÷ shares × multiple) — บังคับโดยกฎเหล็ก Cyclical Peak-Bias
+**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $1,016.59  |  **Method:** ⚠️ **ข้อยกเว้น Cyclical → \`revenue_normalized_mid_cycle\`** (Revenue mid-cycle × normalized margin ÷ shares × multiple) — บังคับโดยกฎเหล็ก Cyclical Peak-Bias
 
+> 🔄 **Price-only recompute (09-05, batch 4/4)** — ราคาขึ้น $932.86→$1,016.59 (+8.98%, prices_cache.json). 09-02/09-03/09-04 news (Taiwan union strike vote, fab-expansion price-pressure narrative) ตรวจแล้ว = ไม่มีตัวเลขให้ปรับ normalized revenue/margin โดยตรง (strike ยังเป็นแค่ vote possibility ไม่ใช่เหตุการณ์จริง) ⇒ EPS-basis rebuild ของ 08-15 (bottom-up 3 ขั้น) **carried forward ไม่เปลี่ยน** — แต่ RA ปรับลง 5.0→4.5 (ความเสี่ยง labor/production concentration ใหม่ที่ Taiwan ~60% ของ capacity โลก). FQ4 earnings (~ก.ย. 2026) ยังเป็นจุดทดสอบถัดไปที่แท้จริง
+>
 > 🔄 **Price-only recompute (08-29)** — ราคาขึ้น $910.43→$932.86 (+2.46%, prices_cache.json). ข่าว 08-27/08-28 (demand>supply 50%, memory pooling) ไม่มีตัวเลขให้ปรับ normalized revenue/margin ⇒ EPS-basis rebuild ของ 08-15 (bottom-up 3 ขั้น) **carried forward ไม่เปลี่ยน**. FQ4 earnings (~ก.ย. 2026) ยังเป็นจุดทดสอบถัดไปที่แท้จริง
 >
 > 🔄 **Price refresh + material-news reconfirm (08-25)** — ราคาลง $971.66→$910.43 (−6.30%). 08-20 🔴MATERIAL news ("Micron Research Labs" $10B R&D 10 ปี) ตรวจแล้ว = ยืนยัน moat/leadership ระยะยาว **ไม่ใช่**ตัวเลข guidance ที่กระทบ normalized revenue/margin ⇒ EPS-basis rebuild ของ 08-15 (bottom-up 3 ขั้น) **carried forward ไม่เปลี่ยน**
@@ -5687,11 +5698,11 @@ gross profit $29.8B − opex $7.0B = op income $22.8B (OM 34.4%) + ดอกเ�
 | **Bear** | $56,000M (ASP กลับสู่ค่าเฉลี่ยเต็มรอบ) | 19.6% | $9.80 | 12.0× | **$118** | 25% |
 
 **Fair Value Base:** $262
-**ราคาปัจจุบัน:** $932.86 *(08-29, prices_cache.json)* (**+2.46%** จากรอบก่อน $910.43)
-**Margin of Safety:** **−256.05%** (แย่ลงเล็กน้อยจาก −247.49% ตามราคาที่ขึ้น) → ❌ FAIL (Effective Gate 20% — Calm mode VIX 14.43)
-**P/E บน normalized EPS:** **53.31×** ($932.86 ÷ $17.50) — เทียบกับ ~13× บน consensus ปีพีค
+**ราคาปัจจุบัน:** $1,016.59 *(09-05, prices_cache.json)* (**+8.98%** จากรอบก่อน $932.86)
+**Margin of Safety:** **−288.01%** (แย่ลงจาก −256.05% ตามราคาที่ขึ้น) → ❌ FAIL (Effective Gate 20% — Calm mode VIX 14.32)
+**P/E บน normalized EPS:** **58.09×** ($1,016.59 ÷ $17.50) — เทียบกับ ~13× บน consensus ปีพีค
 **PEG:** ไม่ใช้ — 🔁 Cyclical ใช้ normalized earnings ไม่ใช้ PEG cap
-**5-yr Expected Return:** **~−14.43%/ปี** (convergence −22.43% + growth +8.0%) → ❌ FAIL
+**5-yr Expected Return:** **~−15.75%/ปี** (convergence −23.75% + growth +8.0%) → ❌ FAIL
 
 ### ⚠️ Sensitivity — ทั้งการประเมินแขวนอยู่ที่ normalized margin ตัวเดียว (Charlie ต้องตรวจข้อนี้ก่อน)
 
@@ -5711,15 +5722,15 @@ gross profit $29.8B − opex $7.0B = op income $22.8B (OM 34.4%) + ดอกเ�
 |-----------|-------|--------|--------------|-----------|
 | BQ | 7.5 | 30% | 2.25 | HBM สัญชาติอเมริกันรายเดียวสำหรับ NVIDIA + HBM4 supplier + node lead + net cash $24.4B + upgrade BBB+ ครบ 3 สำนัก; หัก commodity โดยธรรมชาติ |
 | GP | 9.0 | 30% | 2.70 | FQ3 +346% YoY (+74% QoQ ใหญ่ที่สุดในประวัติบริษัท); data center >$25B ไตรมาสเดียว; FQ4 guide $50B > รายได้ทั้งปี FY2025 |
-| VA | 1.6 ⬇ (จาก 1.7) | 25% | 0.40 | Price-driven — FV $262 carried forward; MoS −247.49%→**−256.05%**; ER −14.43% — ยังลึกมาก ไม่เปลี่ยนทิศทาง |
-| RA | 5.0 | 15% | 0.75 | คงเดิม — การเติบโตเป็นราคาล้วน (ลายเซ็นพีค); Samsung/SK Hynix bit share 41%/39% vs MU ~20%; CXMT ปิด cost gap เหลือ ~10%; receivables $7.2B→$26.9B; capex step-up FY2027; Netlist/YMTC |
-| **WAF Total** | **6.05** | | **LOW** | (จาก 6.13 — VA ลดเล็กน้อยจากราคาขึ้น, ยังต่ำกว่าเส้น 6.5 มาก) |
+| VA | 1.3 ⬇ (จาก 1.6) | 25% | 0.325 | Price-driven — FV $262 carried forward; MoS −256.05%→**−288.01%**; ER −15.75% — ยังลึกมาก ไม่เปลี่ยนทิศทาง แต่ช่องว่างกว้างขึ้นชัดเจนจากราคาที่ขึ้น +8.98% |
+| RA | 4.5 ⬇ (จาก 5.0) | 15% | 0.675 | **ลดจาก Taiwan union strike-vote risk ใหม่** (~10,000 คน, 80% หนุนนัดหยุดงาน, เรียกร้องโบนัส 83 เดือน + FY2027 15% ของกำไรจากการดำเนินงานทุกไตรมาส — Taiwan = ~60% ของ capacity โลก + HBM ส่วนใหญ่); การเติบโตเป็นราคาล้วน (ลายเซ็นพีค); Samsung/SK Hynix bit share 41%/39% vs MU ~20%; CXMT ปิด cost gap เหลือ ~10%; receivables $7.2B→$26.9B; capex step-up FY2027; Netlist/YMTC |
+| **WAF Total** | **5.95** | | **LOW** | (จาก 6.05 — VA ลดจากราคาขึ้น + RA ลดจากความเสี่ยง labor ใหม่, ยังต่ำกว่าเส้น 6.5 มาก) |
 
-**Investment Idea:** 👀 **WATCH** — ราคาขึ้น 2.46% ($910.43→$932.86) ทำให้ MoS แย่ลงเล็กน้อยและยังลึกมาก (deep FAIL ทุก gate). **08-27/08-28 🔴🟡 news ตรวจแล้ว** (demand 50% เกิน supply, memory pooling) = demand-positive แต่ไม่มีตัวเลขที่กระทบ normalized revenue/margin ⇒ **EPS-basis rebuild ของ 08-15 ไม่เปลี่ยน**. Gates: MoS −256.05% ✗ · ER −14.43% ✗ · WAF 6.05 ✗ (<6.5) · 🔁 Cyclical ไม่เข้าเกณฑ์ STARTER โดยกลไกอยู่แล้ว. **ไม่ยกระดับเป็น AVOID เพราะธุรกิจไม่ได้พัง** — เป็นเรื่องตำแหน่งในวัฏจักรและราคาล้วนๆ ซึ่งกลับตัวได้ถ้าวัฏจักรยืนนานกว่าที่ normalize ไว้. งบ **FQ4 (~ก.ย. 2026)** คือจุดทดสอบถัดไป
+**Investment Idea:** 👀 **WATCH** — ราคาขึ้น 8.98% ($932.86→$1,016.59) ทำให้ MoS แย่ลงและยังลึกมาก (deep FAIL ทุก gate). **09-02 🔴 Taiwan union strike-vote risk ตรวจแล้ว** (WebSearch: ~10,000 คน, 80% หนุน, เรียกร้องโบนัส 83 เดือน + FY2027 15%-of-op-profit) = ความเสี่ยง labor/production concentration ใหม่จริงที่ Taiwan (~60% capacity โลก) → RA ลง 5.0→4.5, แต่ยังเป็นแค่ vote possibility ไม่ใช่เหตุการณ์จริง จึงไม่ปรับ normalized revenue/margin. Gates: MoS −288.01% ✗ · ER −15.75% ✗ · WAF 5.95 ✗ (<6.5) · 🔁 Cyclical ไม่เข้าเกณฑ์ STARTER โดยกลไกอยู่แล้ว. **ไม่ยกระดับเป็น AVOID เพราะธุรกิจไม่ได้พัง** — เป็นเรื่องตำแหน่งในวัฏจักรและราคาล้วนๆ ซึ่งกลับตัวได้ถ้าวัฏจักรยืนนานกว่าที่ normalize ไว้. งบ **FQ4 (~ก.ย. 2026)** คือจุดทดสอบถัดไป
 
 **Thesis:** HBM/AI memory demand เป็นของจริงเชิงโครงสร้าง และ 16 SCAs (~$100B) ยกพื้นของรอบถัดไปให้สูงกว่ารอบก่อนจริง — แต่ราคาปัจจุบันไม่ได้กำลังจ่ายให้ "พื้นที่สูงขึ้น" มันกำลังจ่ายให้ "ยอดวัฏจักรคือระดับถาวร" ซึ่งเป็นสมมติฐานที่กฎ Cyclical ของระบบนี้ห้ามไว้โดยตรง
 
-**Thesis Risk:** ⚠️ **จุดที่ Charlie ควรท้าทายที่สุด = normalized net margin 29.6%** (ดูตาราง Sensitivity — ต่างกัน 10pp เปลี่ยน FV ได้ ~$150). รองลงมา: bit-growth +25% และ D&A step-up +$5B เป็นการประมาณของ Warren; ถ้า SCA มีผลยกพื้นแรงกว่าที่คิดมาก normalized revenue อาจสูงกว่า $66.2B. ในทางกลับกัน: Samsung/SK Hynix capacity race, CXMT cost gap เหลือ ~10%, receivables ที่พุ่ง 3.7 เท่าเป็นความเสี่ยงคุณภาพรายได้ที่ยังไม่มีใครตรวจ
+**Thesis Risk:** ⚠️ **จุดที่ Charlie ควรท้าทายที่สุด = normalized net margin 29.6%** (ดูตาราง Sensitivity — ต่างกัน 10pp เปลี่ยน FV ได้ ~$150). รองลงมา: bit-growth +25% และ D&A step-up +$5B เป็นการประมาณของ Warren; ถ้า SCA มีผลยกพื้นแรงกว่าที่คิดมาก normalized revenue อาจสูงกว่า $66.2B. ในทางกลับกัน: Samsung/SK Hynix capacity race, CXMT cost gap เหลือ ~10%, receivables ที่พุ่ง 3.7 เท่าเป็นความเสี่ยงคุณภาพรายได้ที่ยังไม่มีใครตรวจ; **ใหม่ (09-05): Taiwan union strike-vote risk** — ~60% ของ capacity โลก + HBM ส่วนใหญ่กระจุกที่ Taiwan, ถ้ามีการนัดหยุดงานจริงหรือ bonus settlement ตั้ง precedent 15%-of-op-profit จะกระทบทั้ง production continuity และ normalized margin โดยตรง
 
 **Action:** 👀 WATCH
 
@@ -7016,7 +7027,15 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-08-18 (Warren — full watchlist refresh batch 4/4)
+**Last Updated:** 2026-09-05 (Warren — watchlist batch 4/4, price refresh + Maven POR designation reviewed)
+
+**Update (2026-09-05, batch 11) — 🔴 MATERIAL 09-04 reviewed via WebSearch: PwC alliance expansion (AI-native deals platform) + Pentagon designates Maven Smart System a formal Program of Record, supporting a proposed $2.3B/5-yr funding request; single-analyst (William Blair) flags Maven "on track" for $1B ARR — real de-risking event, not yet a Base-case input** [MARKET NEWS / ANALYST VIEW]
+- **PwC:** Palantir expanded its alliance with PwC US to build an AI-native deals platform on Foundry/AIP, targeting enterprise AI scaling, M&A, and ERP modernization — a distribution/channel expansion consistent with the existing enterprise-commercial thesis, no new dollar figure disclosed.
+- **Maven Program of Record (the more consequential item):** the Pentagon officially designated Maven Smart System as a **formal Program of Record** — establishing it as the primary AI operating system for the US armed forces — supporting a **proposed $2.3B funding request over 5 years** (~$460M/yr). This is a genuine government-process de-risking event (POR status materially reduces cancellation/re-competition risk vs. a pilot/OTA contract) and directly strengthens the switching-cost/NGC2 leg of the Story Gate thesis. **Caveat:** this is a *proposed* funding request, not yet appropriated by Congress — per Consensus-as-Base discipline, a proposed (not enacted) budget line is not used as a revenue input until appropriated.
+- **William Blair (single sell-side analyst, not consensus)** separately flagged Maven as "on track" for **$1B ARR** — noted for completeness but **not used as a Base-case input** (single-analyst estimate, not the published consensus panel this card's Revenue-as-Base derivation is anchored to).
+- **09-02 🟡MONITOR** (CEO plans to be a first investor in a new Ukraine defense company; expanding geopolitical/government customer base) — consistent with, not incremental to, the existing "AI Sovereignty"/geopolitical-customer thesis already on this card; no new dollar figure.
+- **Treatment this batch:** genuinely positive government-durability news, but nothing quantifiable enough to move Revenue-as-Base this batch (proposed funding, single-analyst ARR claim, narrative partnership). **BQ/GP/RA held unchanged** — flagged for the next full \`/warren PLTR\` deep-dive to check whether the $2.3B/5yr POR funding, if appropriated, should feed into the FY2027E+ government-revenue growth assumption.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — market-news/analyst items, not primary filings. No new print since Q2 2026.
 
 **Update (2026-08-18, batch 10) — Full watchlist refresh: EPS basis re-anchored to the resolved ground-truth chain from the 08-13 reconciliation; P/E is usable again (fwd P/E now <80×), replacing the EV/Sales exception used since 08-13** [WARREN THESIS]
 - **What changed and why.** The 08-12/08-13 reconciliation (Charlie DISAGREE round + independent rebuild) established a ground-truth EPS chain that this card's 08-13 entry did not yet fully carry into the valuation: **H1 2026 adjusted diluted EPS = $0.74** ($0.33 Q1 + $0.41 Q2, both actual), **guidance-implied H2 2026 ≈ $0.98**, giving **FY2026E ≈ $1.72** — corroborated independently by CNBC's blended forward multiple (~$1.719). The Nasdaq 13-analyst panel's $1.26 FY2026 figure (previously used as a cross-check on this card) is **arithmetically impossible**: it would require a 29.7% H2 EPS decline against +28.6% guided revenue growth, and is not used as an input anywhere on this card going forward.
@@ -7069,7 +7088,9 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-29  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+**2026-09-05 pre-screened re-check (batch 4/4):** 09-04 🔴MATERIAL — PwC alliance expansion + Pentagon designates Maven Smart System a formal Program of Record (proposed $2.3B/5yr funding request; William Blair single-analyst flag of $1B ARR "on track") — a genuine government-process de-risking event but a **proposed**, not yet appropriated, funding line and a single-analyst (not consensus) ARR claim, so **not used as a Base-case input** this batch. 09-02 🟡MONITOR — CEO plans to be first investor in a new Ukraine defense company (geopolitical-customer narrative, consistent with existing Sovereignty thesis, no new figure). WHAT/WHY NOW/IF WRONG/Tier Basis unchanged; price-only recompute. Price $186.29→**$174.33** (-6.42%, prices_cache.json). TQR carried forward from the 08-29 ad-hoc calculation (7.71, 🥈 Strong, ceiling 25% — 7 days old, no business-quality change this batch to trigger recalculation; still not in the AI-Revolution.md playbook table, pending Oat's scope confirmation).
 
 **2026-08-29 pre-screened re-check (time-trigger, 11 วันตั้งแต่ 08-18):** No new Recent News entries since gate (last item 08-07, before 08-18 gate) — pure time-based re-check, no material/monitor news to review. Price refreshed $172.55→$186.29 (+7.96%, prices_cache.json). WHAT/WHY NOW/IF WRONG/Tier Basis unchanged; price-only recompute. **First TQR calculation this batch** (PLTR was never added to the AI-Revolution playbook table — flagged by the playbook itself on 2026-08-27 as an open item pending Oat's scope confirmation) — computed ad-hoc using the same methodology, logged in watchlist_valuations.json only, **not written to the playbook file** (playbook edits require \`/warren theme\`).
 
@@ -7096,8 +7117,10 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-29  |  **Price:** $186.29  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Revenue×Margin→EPS→P/E (standard method) — price-only recompute, EPS/multiple carried forward from 08-18
+**Last Updated:** 2026-09-05  |  **Price:** $174.33  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Revenue×Margin→EPS→P/E (standard method) — price-only recompute, EPS/multiple carried forward from 08-18
 
+> 🔄 **Price-only recompute (09-05, batch 4/4)** — ราคา $186.29→$174.33 (-6.42%, prices_cache.json). 09-04/09-02 news (PwC alliance expansion, Maven Program-of-Record designation, Ukraine geopolitical-customer narrative) ตรวจแล้ว = genuinely positive government-durability signal แต่ proposed funding (ยังไม่ appropriated) + single-analyst ARR claim ⇒ **ไม่ใช่ Base-case input รอบนี้** ⇒ revenue/margin/EPS/multiple build below **carried forward unchanged**; only MoS/PEG/ER/WAF recomputed off the new price.
+>
 > 🔄 **Price-only recompute (08-29)** — ราคา $172.55→$186.29 (+7.96%, prices_cache.json), no new earnings/news since 08-18 gate ⇒ revenue/margin/EPS/multiple build below **carried forward unchanged**; only MoS/PEG/ER/WAF recomputed off the new price.
 
 ### Revenue & Margin Basis — Revenue-as-Base derivation (2026-08-18, full refresh)
@@ -7121,15 +7144,15 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $186.29 (prices_cache.json, 2026-08-29) | — |
+| Current Price | $174.33 (prices_cache.json, 2026-09-05) | — |
 | Fair Value Base | **$86** (carried forward from 08-18) | — |
-| **Margin of Safety** | **-116.6%** | ✗ **FAIL** (Gate 20% — Calm VIX mode this batch) — widens from -100.6% as price rose +7.96% |
+| **Margin of Safety** | **-102.7%** | ✗ **FAIL** (Gate 20% — Calm VIX mode this batch) — improves from -116.6% as price fell -6.42% |
 | EPS ที่ใช้ | **$2.46** (FY2027E, carried forward) | — |
-| Forward P/E | **75.7×** ($186.29 ÷ $2.46) | ⚠️ under the 80× cutoff — P/E still usable |
+| Forward P/E | **70.9×** ($174.33 ÷ $2.46) | ⚠️ under the 80× cutoff — P/E still usable |
 | Multiple | **35×** (held, carried forward) | — |
-| PEG | **1.76** (Fwd P/E 75.7 ÷ growth 43%) | ✗ **FAIL** — breaches the Pre-Inevitable cap 1.5×, up from 1.63 |
-| **5-yr Expected Return** | **~28.7%/yr** (convergence -14.3% + growth 43%) | ✓ passes numerically (Gate ≥15%), **but MoS is binding** per Step 5.5 — ER cannot substitute for a failing MoS |
-| WAF | **~6.70** | ⚠️ still marginally **passes** WAF≥6.5 but VA down on worse MoS/PEG — MoS/PEG remain the binding blockers |
+| PEG | **1.65** (Fwd P/E 70.9 ÷ growth 43%) | ✗ **FAIL** — still breaches the Pre-Inevitable cap 1.5×, down from 1.76 |
+| **5-yr Expected Return** | **~29.8%/yr** (convergence -13.2% + growth 43%) | ✓ passes numerically (Gate ≥15%), **but MoS is binding** per Step 5.5 — ER cannot substitute for a failing MoS |
+| WAF | **~6.81** | ⚠️ still marginally **passes** WAF≥6.5 but MoS/PEG remain the binding blockers |
 
 ### Fair Value Scenarios
 
@@ -7145,21 +7168,21 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 9.0 | 30% | 2.70 | Held — the EPS-basis correction is a valuation-input fix, not a business-quality datapoint |
-| GP (Growth Potential) | 9.3 | 30% | 2.79 | Held — no new fundamental evidence this batch (no new print since Q2) |
-| VA (Valuation) | 1.6 | 25% | 0.40 | **Down from 1.8** — price-only move: MoS -100.6%→**-116.6%**, PEG 1.63→**1.76**, forward P/E 70.1×→**75.7×**. Fails MoS/PEG gates more severely on the +7.96% price rise |
-| RA (Risk Assessment) | 5.8 | 15% | 0.87 | Held — SBC ~14% of revenue, Cupat 10th Circuit appeal pending, government/appropriations concentration unchanged |
-| **WAF Total** | **~6.70** | | **MEDIUM** | Down slightly from 6.81 (VA down on price rise) — still marginally clears 6.5, but MoS/PEG remain the binding blockers regardless |
+| BQ (Business Quality) | 9.0 | 30% | 2.70 | Held — PwC alliance expansion + Maven Program-of-Record designation are business-durability positives, but government-process/partnership news, not a new moat/financial datapoint this batch |
+| GP (Growth Potential) | 9.3 | 30% | 2.79 | Held — Maven POR ($2.3B/5yr proposed, not appropriated) and single-analyst $1B ARR flag are not yet consensus/guidance-level inputs; no new fundamental evidence this batch (no print since Q2) |
+| VA (Valuation) | 1.8 | 25% | 0.45 | **Up from 1.6** — price-only move: MoS -116.6%→**-102.7%**, PEG 1.76→**1.65**, forward P/E 75.7×→**70.9×**. Both gates still fail but less severely on the -6.42% price pullback |
+| RA (Risk Assessment) | 5.8 | 15% | 0.87 | Held — SBC ~14% of revenue, Cupat 10th Circuit appeal pending, government/appropriations concentration unchanged; Maven POR status is a mild positive (reduces cancellation risk) but not yet scored pending appropriation |
+| **WAF Total** | **~6.81** | | **MEDIUM** | Up slightly from 6.70 (VA up on price pullback) — still marginally clears 6.5, but MoS/PEG remain the binding blockers regardless |
 
-**🎯 TQR (ad-hoc, first calculation — not yet in AI-Revolution.md playbook):** BQ 9.0 · GP 9.3 · RA*(ex-valuation) 6.0 · Centrality 6.75 (major enterprise/gov AI platform, real switching cost, but not a chokepoint like TSM/ASML — beneficiary not monopoly) · Resilience 6.0 (government/Gotham base gives some buffer vs pure AI-capex cyclicality, but growth narrative is fully AI-story) → **TQR = 9.0×0.30 + 9.3×0.20 + 6.0×0.15 + 6.75×0.20 + 6.0×0.15 = 7.71 → 🥈 Strong, ceiling 25%**. Provisional — logged in watchlist_valuations.json only; needs \`/warren theme\` to formalize into the playbook table (flagged by the playbook itself on 08-27 as an open item).
+**🎯 TQR (ad-hoc, carried forward from 08-29 — not yet in AI-Revolution.md playbook):** BQ 9.0 · GP 9.3 · RA*(ex-valuation) 6.0 · Centrality 6.75 (major enterprise/gov AI platform, real switching cost, but not a chokepoint like TSM/ASML — beneficiary not monopoly) · Resilience 6.0 (government/Gotham base gives some buffer vs pure AI-capex cyclicality, but growth narrative is fully AI-story) → **TQR = 9.0×0.30 + 9.3×0.20 + 6.0×0.15 + 6.75×0.20 + 6.0×0.15 = 7.71 → 🥈 Strong, ceiling 25%**. No business-quality change this batch to trigger recalculation. Provisional — logged in watchlist_valuations.json only; needs \`/warren theme\` to formalize into the playbook table (flagged by the playbook itself on 08-27 as an open item).
 
-**Investment Idea:** WATCH, price-only refresh — no new news since 08-18. Price rose +7.96% ($172.55→$186.29) with no earnings/fundamental change, widening MoS from -100.6% to -116.6% and PEG from 1.63 to 1.76 (both still fail). WAF stays marginally above 6.5 but is not the binding constraint — MoS/PEG are. TQR computed for the first time this batch (Strong band, 25% ceiling) — does not change the Action, since price gates (MoS/PEG) are what block BUY, not the theme-fit ceiling.
+**Investment Idea:** WATCH, price-only refresh. Price fell -6.42% ($186.29→$174.33) with no earnings/fundamental change quantifiable this batch (Maven POR designation + PwC alliance are genuine positives but proposed-funding/single-analyst, not yet Base-case inputs), narrowing MoS from -116.6% to -102.7% and PEG from 1.76 to 1.65 (both still fail). WAF stays marginally above 6.5 but is not the binding constraint — MoS/PEG are. TQR carried forward (Strong band, 25% ceiling) — does not change the Action, since price gates (MoS/PEG) are what block BUY, not the theme-fit ceiling.
 
 **Thesis:** US Commercial +149% YoY, Rule of 40 = 155 (12th consecutive expanding quarter), NDR 157%, thick-ontology/AIP moat with sovereign-AI optionality, GAAP-profitable every quarter, zero debt, $9.4B cash. The business case remains the strongest on the watchlist and is untouched by this batch's EPS-basis correction. The valuation case, while still failing, is now meaningfully less extreme than the pre-reconciliation reads.
 
 **Thesis Risk:** Price still requires strong execution (70.1× forward earnings on the corrected consensus-anchored basis, still ~140× TTM); crisis-survival remains the open Crystallization Signal and the named falsifier for the tier upgrade; government contract and appropriations concentration; SBC ~14% of revenue excluded from this adjusted EPS; hyperscaler replication risk; Cupat securities-class-action 10th Circuit appeal ruling pending.
 
-**Action:** 👀 WATCH — fails MoS (-116.6% vs Gate 20%) and PEG (1.76 vs Effective Cap 1.5); passes ER (~28.7%/yr, moot since MoS binds) and WAF (~6.70 vs 6.5). Not eligible for staged entry: the MoS shortfall is far outside the 7-point near-miss band. Re-evaluate on a genuine de-rating toward the $86 Base or a published upward revision to FY2028 consensus.
+**Action:** 👀 WATCH — fails MoS (-102.7% vs Gate 20%) and PEG (1.65 vs Effective Cap 1.5); passes ER (~29.8%/yr, moot since MoS binds) and WAF (~6.81 vs 6.5). Not eligible for staged entry: the MoS shortfall is far outside the 7-point near-miss band. Re-evaluate on a genuine de-rating toward the $86 Base, a published upward revision to FY2028 consensus, or Congressional appropriation of the Maven POR $2.3B/5yr funding request.
 
 ---
 
@@ -7459,7 +7482,14 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 ## Analyst Research Notes
 
-**Last Updated:** 2026-08-25 (Warren — pre-screened re-check, batch 4/4 final)
+**Last Updated:** 2026-09-05 (Warren — pre-screened re-check, watchlist batch 4/4)
+
+**Update (2026-09-05, batch 11) — 🔴 MATERIAL 09-01/09-03 reviewed via WebSearch: Indiana "$720B" figure flagged 08-29 as an unverified/implausible unit error is now CORRECTED — real figure is a $4B Indiana packaging plant inside a $45B total-US-investment plan by 2030; CEO reaffirms memory shortage through 2030** [MARKET NEWS]
+- **Correction to the 08-29 flag:** WebSearch (CNBC 08-27, TrendForce 08-28, TechPowerUp, Yahoo Finance) confirms SK Hynix's Indiana facility is a **packaging and test site** (not a wafer fab — wafers still made in Korea, shipped to Indiana for HBM4E packaging), with a **~$4 billion** investment, cleanroom operations starting H2 2028, and **volume production of HBM4E targeted for Q3 2029**. This sits inside a broader **$45B+ total SK Hynix US investment plan by 2030** (incl. the $10B "AI Company" launched Jan 2026 and Solidigm). The 08-28 "$720B over 10 years" figure flagged as unverified on 08-29 is now confirmed to have been a garbled/incorrect readthrough — the real number is ~2 orders of magnitude smaller. Treating the corrected $4B/Indiana and $45B/total-US figures as the reliable basis going forward.
+- **CEO Kwak Noh-Jung (CNBC, 08-27): "Indiana will be a key HBM production base by 2030"** and **expects the current memory shortage to persist through the end of 2030** — a concrete, on-the-record demand-duration claim from management, longer than this card's own normalized mid-cycle framing assumes for the current up-leg, but not itself a quantified revenue/margin input (no volume or pricing figure attached).
+- **09-01 Recent News** ("SK Hynix CEO announces massive DRAM/NAND production plan in Indiana... indicates deferral of major AI infrastructure investment") — the "deferral" framing in the Thai headline is **not supported** by the English-language sourcing found (CEO commentary is about capacity build-out and shortage duration, not a deferral of anything); treated as a translation/headline artifact, not scored as a new risk.
+- **Treatment this batch:** both items are **capacity/demand-visibility narrative, not a quantified near-term earnings input** (Indiana packaging volume production is 2029, three fiscal years out) — normalized revenue/margin basis carried forward unchanged. BQ/GP/RA held. This is a genuine positive de-risking of a previously-flagged unverified figure, logged for completeness rather than acted on.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — corrects a prior unverified secondary-news figure using independent WebSearch confirmation across 5+ outlets; no primary earnings print this batch.
 
 **Update (2026-08-25, batch 10) — 🔴 MATERIAL news 08-24 reviewed (SK Hynix considering first Japan memory fab): exploratory only, no quantifiable earnings impact — price-refresh recompute only, FV Base carried forward unchanged** [MARKET NEWS]
 - **News reviewed:** 08-24 Recent News entry ("SK Hynix พิจารณาสร้างโรงงาน Memory Chip แห่งแรกในญี่ปุ่น") — WebSearch confirms multiple outlets (Yahoo Finance, Seeking Alpha, Digitimes, The Standard/Hankyoreh) reporting SK Hynix is considering a memory-chip plant in Japan's **Miyagi Prefecture** (Tohoku region), investment reportedly "tens of trillions of won" — would be the first major production facility a Korean chipmaker sets up in Japan, framed against a persistent global memory shortage. **Critically, SK Hynix itself clarified to the Korea Exchange on 08-21: it is reviewing options for new memory production bases including Japan, but has made NO investment decision, and plans to update the market "within a month."** This is exploratory/pre-decision, not a committed capex event.
@@ -7589,7 +7619,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-29  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+**2026-09-05 pre-screened re-check (batch 4/4):** Two new items since 08-29 gate: 09-01 🔴MATERIAL — CEO announces Indiana as key production base by 2030 (confirmed via WebSearch: $4B packaging plant, HBM4E volume production Q3 2029, part of $45B total US investment by 2030; CEO reaffirms memory shortage through 2030) — **this also resolves/corrects the 08-28 "$720B" figure previously flagged as unverified**, now confirmed to be a unit/translation error (real figure ~$4B for Indiana). 09-03 🔴MATERIAL — SK Hynix plans new memory plant in Japan, completion by 2030 (echoes the 08-24 "exploratory" Japan-fab item, now framed as a firmer "plans to build," still no capacity/dollar figure disclosed). Neither changes normalized revenue/margin — both are capacity/demand-visibility narrative with volume dates 3+ years out. Price refreshed to **$177.00** (prices_cache.json, +9.91% from $161.04). FV Base **$60/ADS carried forward unchanged**.
 
 **2026-08-29 pre-screened re-check (batch, this round):** Two new items since 08-25 gate: 08-28 🔴MATERIAL — HBM4 fab construction start in Indiana, reported "$720B over 10 years" — this figure is implausibly large for a single fab (likely a translation/unit error, possibly won-denominated or a smaller USD figure) and is **not usable as a quantified input** until confirmed via a primary source; treated as unverified, flagged not scored. 08-27 🟡MONITOR — BofA supportive note on long-term memory contracts (analyst commentary, not a primary print). Neither changes normalized revenue/margin. Price refreshed to **$161.04** (prices_cache.json, +3.65% from $155.37). FV Base **$60/ADS carried forward unchanged**.
 
@@ -7606,8 +7638,10 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-29  |  **Price:** $161.04/ADS (prices_cache.json, 2026-08-29)  |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
+**Last Updated:** 2026-09-05  |  **Price:** $177.00/ADS (prices_cache.json, 2026-09-05)  |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
 
+> 🟡 **PRICE-REFRESH RE-CHECK (2026-09-05, batch 4/4) — no new earnings, FV Base carried forward.** Price rose +9.91% since 08-29 ($161.04 → $177.00). Two news items this batch (09-01 Indiana CEO announcement — corrects the 08-28 "$720B" unverified figure to a real ~$4B/Indiana, $45B/total-US-by-2030 plan; 09-03 Japan plant "plans to build" by 2030, still no dollar figure) are capacity/demand-visibility narrative with volume dates 3+ years out — do not change normalized revenue/margin. MoS/ER recomputed off the new price; FV Base, EPS basis, and multiple all carried forward unchanged from the 08-18 rebuild. ⚠️ Charlie's 08-18 review flagged an 18.4% FV gap (CAUTION) — still open, pending next Charlie pass.
+>
 > 🟡 **PRICE-REFRESH RE-CHECK (2026-08-29) — no new earnings, FV Base carried forward.** Price rose +3.65% since 08-25 ($155.37 → $161.04). The two news items this batch (08-28 Indiana HBM4 fab "$720B/10yr" — figure treated as unverified/likely unit error, not usable quantitatively; 08-27 BofA note, analyst commentary only) do not change normalized revenue/margin. MoS/ER recomputed off the new price; FV Base, EPS basis, and multiple all carried forward unchanged from the 08-18 rebuild. ⚠️ Charlie's 08-18 review flagged an 18.4% FV gap (CAUTION) — still open, pending next Charlie pass.
 >
 > 🟡 **PRICE-REFRESH RE-CHECK (batch 4/4, 2026-08-25) — no new earnings, FV Base carried forward.** Price fell -9.34% since 08-18 ($171.38 → $155.37) on general market movement, not a new print. The only news item this batch (🔴 MATERIAL 08-24 — SK Hynix "considering" a Japan memory fab) is confirmed exploratory-only (SK Hynix's own 08-21 statement: no decision made) — no quantifiable revenue/margin input. MoS/ER recomputed off the new price; FV Base, EPS basis, and multiple all carried forward unchanged from the 08-18 rebuild (see Analyst Research Notes batch 9 for the full derivation). ⚠️ Charlie's 08-18 review flagged an 18.4% FV gap (Charlie $49 vs this card's $60, CAUTION) — not re-litigated this batch, remains open for the next Charlie pass.
@@ -7628,11 +7662,11 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $161.04/ADS (prices_cache.json, 2026-08-29) | — |
+| Current Price | $177.00/ADS (prices_cache.json, 2026-09-05) | — |
 | Fair Value Base | **$60** (carried forward from 08-18 rebuild) | — |
-| **Margin of Safety** | **−168.40%** ((FV−Price)÷FV) | ✗ FAIL (gate 20% — Calm VIX mode this batch) — widens slightly as price rose +3.65% away from FV |
-| **5-yr Expected Return** | **~−2.92%/yr** (convergence −17.92% + growth 15%) | ✗ FAIL (gate ≥15%) |
-| Forward P/E on normalized EPS | 35.01× ($161.04 ÷ $4.60) | ⚠️ well above the 13× normalized anchor — the whole valuation case |
+| **Margin of Safety** | **−195.00%** ((FV−Price)÷FV) | ✗ FAIL (gate 20% — Calm VIX mode this batch) — widens further as price rose +9.91% away from FV |
+| **5-yr Expected Return** | **~−4.44%/yr** (convergence −19.44% + growth 15%) | ✗ FAIL (gate ≥15%) |
+| Forward P/E on normalized EPS | 38.48× ($177.00 ÷ $4.60) | ⚠️ well above the 13× normalized anchor — the whole valuation case |
 
 ### Fair Value Scenarios (per ADS)
 
@@ -7646,19 +7680,19 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 7.75 | 30% | 2.325 | Held — HBM #1 + concrete LTA lock-in + record op margins unchanged this batch (no new print); Japan-fab exploration headline (08-24) is unconfirmed, no BQ input yet |
-| GP (Growth Potential) | 8.5 | 30% | 2.55 | Held — same demand drivers; no new quantifiable growth data this batch |
-| VA (Valuation) | 1.8 | 25% | 0.45 | **Down slightly from 1.9** — MoS widens -158.95%→-168.40% and ER worsens -2.33%→-2.92%/yr as price rose +3.65% away from FV; both still deep FAILs |
-| RA (Risk Assessment) | 5.0 | 15% | 0.75 | Held — Samsung/CXMT competition, customer concentration, controlled-company/FPI structure unchanged; Indiana fab "$720B" figure unverified, not scored |
-| **WAF Total** | **6.05** | | **LOW** | *(down from 6.10 — VA down from the price rise; still same LOW band, no material conviction change)* |
+| BQ (Business Quality) | 7.75 | 30% | 2.325 | Held — HBM #1 + concrete LTA lock-in + record op margins unchanged this batch (no new print); Indiana/Japan capacity announcements are demand-visibility narrative, no BQ input yet |
+| GP (Growth Potential) | 8.5 | 30% | 2.55 | Held — same demand drivers; CEO's "shortage through 2030" comment is corroborating narrative, not a quantifiable growth data point this batch |
+| VA (Valuation) | 1.5 | 25% | 0.375 | **Down from 1.8** — MoS widens -168.40%→-195.00% and ER worsens -2.92%→-4.44%/yr as price rose +9.91% away from FV; both still deep FAILs |
+| RA (Risk Assessment) | 5.0 | 15% | 0.75 | Held — Samsung/CXMT competition, customer concentration, controlled-company/FPI structure unchanged; Indiana "$720B" figure now corrected to ~$4B (positive clarification, not a new risk) |
+| **WAF Total** | **6.00** | | **LOW** | *(down from 6.05 — VA down from the price rise; still same LOW band, no material conviction change)* |
 
-**Investment Idea:** HBM #1 franchise, real evidence for de-cycling (concluded LTAs, 2 quarters of record-rising op margin) — price rose +3.65% this batch ($155.37→$161.04), widening the gap slightly from the independently-rebuilt normalized FV ($60). The 08-28 Indiana-fab "$720B" headline is treated as unverified (implausible figure, no primary confirmation) and does not change the thesis. ไม่ไล่ซื้อ cyclical ที่ยังพิสูจน์ down-cycle ไม่ได้ — narrative catalysts (however fundamentally real long-term) are not a substitute for a lower entry price or a proven cycle trough.
+**Investment Idea:** HBM #1 franchise, real evidence for de-cycling (concluded LTAs, 2 quarters of record-rising op margin) — price rose +9.91% this batch ($161.04→$177.00), widening the gap further from the independently-rebuilt normalized FV ($60). The 08-28 Indiana-fab "$720B" headline flagged as unverified on 08-29 is now **corrected** via WebSearch to a real ~$4B Indiana packaging plant inside a $45B total-US-by-2030 plan — a positive clarification but still not quantifiable into near-term earnings (HBM4E volume production not until Q3 2029). ไม่ไล่ซื้อ cyclical ที่ยังพิสูจน์ down-cycle ไม่ได้ — narrative catalysts (however fundamentally real long-term) are not a substitute for a lower entry price or a proven cycle trough.
 
 **Thesis:** HBM leadership + AI memory demand จริง structural — LTA lock-in (~10 customers) + Nvidia/SK Group $500B+ AI-infra partnership reinforce the long-term demand case, but normalized mid-cycle earnings (rebuilt 08-18 under Revenue-as-Base) sit far below the current $155.37 price; SK Hynix still has zero down-cycle track record as a standalone public print.
 
 **Thesis Risk:** ถ้า de-cycling เป็นจริงเต็มที่ (margin ยืน >50% ต่อเนื่อง 2+ ปีข้าม down-cycle จริง) → normalized earnings ควรใกล้ peak มากกว่านี้ ทั้ง FV $60 รอบนี้และ $110 รอบก่อนอาจต่ำไป — **นี่คือความเสี่ยงหลักของการ short/avoid ตัวนี้**, ไม่ใช่แค่ downside risk; downside เพิ่มเติมถ้า Samsung/CXMT HBM parity บีบ margin จริงตามคาด
 
-**Action:** 👀 **WATCH** — MoS **−168.40%** (gate 20% — Calm mode) and ER **~−2.92%/yr** (gate ≥15%) both FAIL; WAF 6.05 LOW; Cyclical tier excludes STARTER regardless of gap size → ไม่ BUY, ไม่ STARTER. Charlie's 08-18 review flagged an 18.4% FV gap (CAUTION) — remains open pending next Charlie pass. FQ3 (next quarter) remains the next real test of whether the LTA/margin evidence continues — this is a valuation-discipline call, not a business-quality downgrade.
+**Action:** 👀 **WATCH** — MoS **−195.00%** (gate 20% — Calm mode) and ER **~−4.44%/yr** (gate ≥15%) both FAIL; WAF 6.00 LOW; Cyclical tier excludes STARTER regardless of gap size → ไม่ BUY, ไม่ STARTER. Charlie's 08-18 review flagged an 18.4% FV gap (CAUTION) — remains open pending next Charlie pass. FQ3 (next quarter) remains the next real test of whether the LTA/margin evidence continues — this is a valuation-discipline call, not a business-quality downgrade.
 
 ---
 
@@ -7826,7 +7860,13 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ─────────────────────────────── Warren Zone ──
 
 ## Analyst Research Notes
-**Last Updated:** 2026-07-16
+**Last Updated:** 2026-09-05 (Warren — watchlist batch 4/4, price refresh + Japan capacity expansion reviewed)
+
+**Update (2026-09-05, batch) — 🔴 MATERIAL 08-31 reviewed via WebSearch: Kioxia + Sandisk plan >$31B Japan NAND capacity investment through 2032 (Yokkaichi + Kitakami plants), ~1/3 sought as Japanese government backing — genuine long-term capacity signal, not a near-term earnings input** [MARKET NEWS]
+- **What was found:** Kioxia and Sandisk (JV partners, 50.1%/49.9%) announced plans to invest **over $31 billion in Japan through 2032** to expand NAND flash capacity at the existing Yokkaichi and Kitakami plants, explicitly tied to AI-driven flash demand growth. The companies are seeking public backing for **roughly one-third** of the total. For context, this is **~60% of what the JV has spent in Japan over the prior 25 years combined** ($50B+) — a genuinely large, multi-year step-up in scale, not routine maintenance capex.
+- **Why not scored into normalized revenue/margin this batch:** (1) the investment is spread through **2032** — six years out, with no near-term (FY2026/2027) volume or pricing guidance attached; (2) SanDisk's own cash share is unclear (JV structure + ~1/3 sought as government subsidy — could materially reduce SanDisk's own cash outlay); (3) no revenue/margin figure disclosed. Per WARREN.md discipline (don't move valuation on unquantified capex announcements), **BQ/GP/RA held unchanged** this batch.
+- **Directional read:** this reinforces, rather than changes, the existing Growth Catalysts thesis already on this card (AI datacenter demand, NBM ramp) — a $31B+ multi-year capacity commitment is consistent with management's view that current AI-driven NAND demand is durable enough to justify a step-change in supply, not a one-off spike. Flagged for the next full \`/warren SNDK\` deep-dive to check whether specific volume/timeline detail (e.g. an investor-day breakdown of SanDisk's own capex share) should feed into the normalized mid-cycle revenue base.
+- ⚠️ [CONFLICT-CHECK] No conflict with primary data — market-news item (joint JV press release + coverage), not a primary SEC filing on this card yet.
 
 **Update (2026-07-16) — Further -12.7% drop; analysts flag faster-than-expected ASP decline/oversupply risk** [MARKET NEWS]
 - Price fell further from $1,757.82 (07-15) to $1,533.99 (-12.7%), triggered by SK Hynix's steepest one-day plunge in ~20 years on the South Korea exchange, dragging the whole memory complex down (Recent News section remains empty on this card — no SNDK-specific dated entry).
@@ -7846,7 +7886,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-08-29  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+**2026-09-05 re-check (batch 4/4):** 08-31/09-02 🔴🟡 news reviewed via WebSearch — Kioxia+Sandisk plan **>$31B Japan NAND capacity investment through 2032** (Yokkaichi+Kitakami, ~1/3 sought as government backing) — a genuine large-scale, long-dated capacity commitment consistent with the existing AI-datacenter growth thesis, but no near-term volume/pricing figure disclosed ⇒ ไม่ปรับ normalized revenue/margin รอบนี้. ราคาขึ้น $1,484.98→$1,740.00 (+17.17%, prices_cache.json) — ต่อเนื่องจาก memory-sector rally (เดียวกับ MU/SKHY รอบนี้). TQR reused จาก AI-Revolution.md playbook (v2, 2026-08-27, อายุ 9 วัน < 90 วัน): 5.50 → 🥉 Peripheral (ขอบล่างสุดพอดี), ceiling 10%. FV Base/methodology carried forward unchanged — price-only recompute
 
 **2026-08-29 re-check (time-trigger, 44 วันตั้งแต่ 07-16):** Recent News section ว่างเปล่า (mark_daily ไม่มี entry ใหม่สำหรับ ticker นี้) — ไม่มีข่าว material ให้ตรวจ. ราคาขึ้น $1,354.82→$1,484.98 (+9.6%, prices_cache.json) สอดคล้องกับ memory-sector rally เดียวกับ MU/SKHY รอบนี้ ไม่ใช่ signal เฉพาะตัว. TQR reused จาก AI-Revolution.md playbook (v2, 2026-08-27, freshly computed): 5.50 → 🥉 Peripheral (ขอบล่างสุดพอดี), ceiling 10%. FV Base/methodology carried forward unchanged — price-only recompute
 
@@ -7861,21 +7903,21 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-08-29  |  **Price:** $1,484.98  |  **Tier:** 🔁 Cyclical  |  **Method:** WAF Watchlist Refresh — normalized mid-cycle earnings (ห้ามใช้ peak EPS)
+**Last Updated:** 2026-09-05  |  **Price:** $1,740.00  |  **Tier:** 🔁 Cyclical  |  **Method:** WAF Watchlist Refresh — normalized mid-cycle earnings (ห้ามใช้ peak EPS)
 
-> 🔄 **Price-only recompute (08-29):** $1,354.82→$1,484.98 (+9.6%, prices_cache.json), memory-sector-wide rally (เดียวกับ MU/SKHY รอบนี้), ไม่มีข่าว/earnings ใหม่. FV_base ($1,700, normalized mid-cycle) **carried forward unchanged**.
+> 🔄 **Price-only recompute (09-05, batch 4/4):** $1,484.98→$1,740.00 (+17.17%, prices_cache.json), memory-sector-wide rally continues (เดียวกับ MU/SKHY รอบนี้). 08-31 🔴MATERIAL news (Kioxia+Sandisk >$31B Japan capacity investment through 2032) ตรวจแล้ว = long-dated capacity signal ไม่มีตัวเลข volume/pricing ระยะสั้นให้ปรับ ⇒ FV_base ($1,700, normalized mid-cycle) **carried forward unchanged**. **ราคาตอนนี้ทะลุ FV Base ไปแล้ว** (แรกในรอบหลายเดือน) — MoS พลิกเป็นลบ
 
 ### Snapshot
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $1,484.98 | — |
+| Current Price | $1,740.00 | — |
 | Fair Value Base | $1,700 | — |
-| **Margin of Safety** | **12.65%** | ✗ FAIL (แย่ลงจาก 20.3% ตามราคาที่ขึ้น +9.6%; gate 20% — Calm mode VIX 14.43 รอบนี้) |
-| **5-yr Expected Return** | **≈−28.3%/yr** (convergence +2.74% + cyclical mean-reversion growth ≈−31%) | ✗ FAIL badly (gate ≥15%) |
+| **Margin of Safety** | **−2.35%** | ✗ FAIL (พลิกลบจาก +12.65% — ราคาทะลุ FV Base เป็นครั้งแรก; gate 20% — Calm mode VIX 14.32 รอบนี้) |
+| **5-yr Expected Return** | **≈−31.46%/yr** (convergence −0.46% + cyclical mean-reversion growth ≈−31%) | ✗ FAIL badly (gate ≥15%) |
 | Method | Normalized EPS × mid-cycle multiple | Cyclical — ไม่ใช้ PEG |
 
-> Growth input unchanged at ~-31%/yr (5-yr analyst out-year mean-reversion trajectory). ราคาขึ้น +9.6% รอบนี้ทำให้ MoS แย่ลงจาก 20.3% (07-18) เหลือ 12.65% — ยังไม่ผ่าน gate (ยิ่งห่างขึ้นเพราะ effective gate ตอนนี้คือ 20% Calm mode). ER ยังคง fail หนักตามเดิม.
+> Growth input unchanged at ~-31%/yr (5-yr analyst out-year mean-reversion trajectory). ราคาขึ้น +17.17% รอบนี้ทำให้ MoS พลิกจาก +12.65% (08-29) เป็น **−2.35%** — ราคาเทรดเหนือ normalized FV Base เป็นครั้งแรกนับตั้งแต่เริ่มติดตาม. ER ยัง fail หนักตามเดิม.
 
 ### Fair Value Scenarios
 
@@ -7890,20 +7932,20 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
 | BQ | 6.0 | 30% | 1.80 | Unchanged — BiCS8 tech leadership + net-cash + $41.6B RPO; commodity NAND + Kioxia JV dependence ตรึงเพดาน |
-| GP | 7.0 | 30% | 2.10 | Unchanged — AI datacenter +233% QoQ, QLC Stargate, NBM >⅓ bits FY27; growth จริงแต่ cyclical |
-| VA | 5.9 | 25% | 1.475 | Down slightly from 6.25 — MoS แย่ลง (9.8%→12.65% gap แทน 5.2pp) จากราคาขึ้น +9.6% |
+| GP | 7.0 | 30% | 2.10 | Unchanged — AI datacenter +233% QoQ, QLC Stargate, NBM >⅓ bits FY27; $31B Japan capacity plan (08-31) เป็นสัญญาณบวกระยะยาวแต่ไม่มีตัวเลข volume/timeline ระยะสั้นให้ปรับคะแนน |
+| VA | 4.0 | 25% | 1.00 | **ลงจาก 5.9** — MoS พลิกจาก +12.65% เป็น **−2.35%** (ราคาทะลุ FV Base เป็นครั้งแรก) จากราคาขึ้น +17.17% |
 | RA | 3.0 | 15% | 0.45 | Unchanged — NAND ASP cyclical risk เดิม |
-| **WAF Total** | **5.79** | | | **LOW** (ลงเล็กน้อยจาก 5.91 — VA ลดตามราคาที่ขึ้น) |
+| **WAF Total** | **5.35** | | | **LOW** (ลงจาก 5.79 — VA ลดแรงตาม MoS ที่พลิกลบ) |
 
 **TQR (จาก AI-Revolution.md v2, 2026-08-27):** 5.50 → 🥉 **Peripheral** (ขอบล่างสุดพอดี), ceiling 10% — Resilience สูงสุดในกลุ่ม Memory (Edge+Consumer >75% ของรายได้ ไม่ผูก AI capex โดยตรง) แต่ Centrality ต่ำกว่า MU/SKHY (NAND ไม่ใช่ chokepoint เท่า HBM/DRAM)
 
-**Investment Idea:** WATCH — ราคาขึ้น +9.6% รอบนี้ ($1,354.82→$1,484.98) ตามคลื่น memory-sector rally เดียวกับ MU/SKHY ทำให้ MoS แย่ลงจาก 20.3%→12.65% (ยิ่งห่าง gate มากขึ้น ไม่ใช่น้อยลง). Cyclical ที่ยังเทรดเหนือ normalized fair value และ ER ยัง fail หนัก; ไม่ใช่สัญญาณซื้อ. รอ cycle ปรับเพิ่มเติมก่อนพิจารณา ห้ามไล่ราคาบน peak EPS.
+**Investment Idea:** WATCH — ราคาขึ้น +17.17% รอบนี้ ($1,484.98→$1,740.00) ตามคลื่น memory-sector rally เดียวกับ MU/SKHY ทำให้ MoS **พลิกลบเป็นครั้งแรก** (+12.65%→−2.35%) — ราคาตอนนี้เทรดเหนือ normalized FV Base แล้ว. 08-31 Japan capacity news ($31B+ ผ่าน 2032) เป็นสัญญาณบวกเชิงโครงสร้างระยะยาวแต่ไม่กระทบตัวเลขระยะสั้น. Cyclical ที่ตอนนี้เทรดเหนือ normalized fair value และ ER ยัง fail หนัก; ไม่ใช่สัญญาณซื้อ ยิ่งไม่ใช่จังหวะไล่ราคา. รอ cycle ปรับเพิ่มเติมก่อนพิจารณา ห้ามไล่ราคาบน peak EPS.
 
 **Thesis:** BiCS8 tech leadership + Flash Ventures JV กับ Kioxia + New Business Model (NBM, multi-year contracts) ลด cyclicality ระยะยาว + AI datacenter/inference demand (KV cache/RAG) เป็น structural tailwind — แต่ยังต้องพิสูจน์ผ่าน downturn รอบแรกในฐานะบริษัท standalone.
 
-**Thesis Risk:** NAND ASP ย้อนกลับสู่ 40s% เร็วกว่าคาด (analyst commentary ใหม่ 07-16 เริ่มยืนยันทิศทางนี้), Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ), spin-off track record <2ปี.
+**Thesis Risk:** NAND ASP ย้อนกลับสู่ 40s% เร็วกว่าคาด (analyst commentary ใหม่ 07-16 เริ่มยืนยันทิศทางนี้), Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ), spin-off track record <2ปี; **ใหม่:** ราคาตอนนี้ทะลุ FV Base แล้ว (MoS ลบ) — ความเสี่ยงว่าตลาดกำลัง price-in ว่า margin/pricing ระดับสูงปัจจุบันเป็นของถาวร ซึ่งขัดกับกฎ Cyclical Peak-Bias ของระบบนี้โดยตรง
 
-**Action:** 👀 **WATCH** — Cyclical ที่ราคายังเทรดเหนือ normalized FV (MoS 12.65%, ขาด effective gate 20% อยู่ 7.35 จุด) และ ER fail หนัก (~-28.3%/yr); ราคาขึ้นรอบนี้ตาม sector rally ไม่ใช่ fundamental ใหม่; รอ cycle ปรับเพิ่มเติมก่อนพิจารณา ห้ามไล่ราคาบน peak EPS.
+**Action:** 👀 **WATCH** — Cyclical ที่ราคาตอนนี้ทะลุ normalized FV ไปแล้ว (MoS **−2.35%**, ขาด effective gate 20% อยู่ 22.35 จุด) และ ER fail หนัก (~-31.46%/yr); ราคาขึ้นรอบนี้ตาม sector rally + Japan capacity news (ไม่ใช่ fundamental ระยะสั้นใหม่); รอ cycle ปรับเพิ่มเติมก่อนพิจารณา ห้ามไล่ราคาบน peak EPS — ยิ่งห้ามตอนที่ราคาเทรดเหนือ FV Base แล้ว.
 
 ## Recent News
 **2026-09-02** — SanDisk ประกาศลงทุน 31 พันล้านดอลลาร์ขยายโรงงานหน่วยความจำแฟลชในญี่ปุ่นจนถึงปี 2032; รักษาตำแหน่งความเป็นผู้นำหน่วยความจำกลาง | [src](https://news.google.com/rss/articles/CBMirgFBVV95cUxOMHU2bVhHOWtQdEhjc2ZudEJaVTJ5VExvRHVTZWJEREo0Q1VTRDhBT1NKSU1WU1NyNTBoQ2pKR2NDc2VHNERpSXVhdlp1bmtFc1NnTU9iUHJ1RkZSS2c3WFRMNl9CSThhaFYxWWFGb1lmQ3BralF4S01VWEVQWEpKU2FlZDFZUGRzNktVV3ZwVzRxR0prcWZ1T2dR?oc=5) | 🟡MONITOR

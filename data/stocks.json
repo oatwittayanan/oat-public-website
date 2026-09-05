@@ -555,14 +555,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 3,
-    "waf": 6.76,
+    "waf": 6.81,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 186.29,
+    "price": 174.33,
     "fv": 86,
-    "mos": -116.62,
-    "fpe": 75.73,
-    "peg": 1.76,
+    "mos": -102.71,
+    "fpe": 70.87,
+    "peg": 1.65,
     "scores": {
       "bq": [
         9.0,
@@ -575,9 +575,9 @@
         93
       ],
       "va": [
-        1.6,
+        1.8,
         "orange",
-        16
+        18
       ],
       "ra": [
         5.8,
@@ -585,12 +585,12 @@
         58
       ]
     },
-    "idea": "Price-only recompute, no new news since 08-18 — price rose +7.96% widening MoS from -100.6% to -116.6% and PEG from 1.63 to 1.76 (both fail). First TQR calc this batch (ad-hoc, Strong band) — flagged for /warren theme to formalize into the playbook.",
-    "updated": "2026-08-29",
+    "idea": "Price-only recompute — price fell -6.42%, narrowing MoS from -116.6% to -102.7% and PEG from 1.76 to 1.65 (both still fail). Maven Program-of-Record designation is a genuine government-process de-risking event but proposed (not appropriated) funding, so not yet a valuation input. WAF stays marginally above 6.5 but MoS/PEG remain the binding blockers.",
+    "updated": "2026-09-05",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-29",
+      "updated": "2026-09-05",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "Palantir's AIP platform + Ontology converts enterprise/government data into production AI decisions within days — a capability hyperscalers (MSFT/GOOGL/AMZN) cannot replicate because they lack operational context and workflow depth. Q2 2026 adds an \"AI Sovereignty\" framing: customers own the weights/models/data instead of feeding frontier-lab APIs.",
@@ -679,150 +679,6 @@
     },
     "tier": "🚀 Pre-Inevitable"
   },
-  "MU": {
-    "symbol": "MU",
-    "display": "MU",
-    "category": "semiconductor",
-    "name": "Micron Technology",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Memory",
-      "HBM"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 6.1,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 932.86,
-    "fv": 262,
-    "mos": -256.05,
-    "fpe": 53.31,
-    "peg": null,
-    "scores": {
-      "bq": [
-        7.5,
-        "amber",
-        75
-      ],
-      "gp": [
-        9.0,
-        "green",
-        90
-      ],
-      "va": [
-        1.6,
-        "orange",
-        16
-      ],
-      "ra": [
-        5.0,
-        "orange",
-        50
-      ]
-    },
-    "idea": "Price-only recompute — price +2.46% widens the already-enormous MoS fail. Lynch Peak Watch remains fully triggered (all 3-4 signals present). FQ4 (~Sept 2026) is the next real test.",
-    "updated": "2026-08-29",
-    "risk": [
-      "Carried forward — normalized net margin 29.6% is the single biggest sensitivity (each ±10pp moves FV ~$150), bit-growth/D&A-step-up assumptions, Samsung/SK Hynix capacity race, receivables up 3.7x."
-    ],
-    "bull": [
-      "HBM/AI memory demand เป็นของจริงเชิงโครงสร้าง และ 16 SCAs (~$100B) ยกพื้นของรอบถัดไปให้สูงกว่ารอบก่อนจริง — แต่ราคาปัจจุบันไม่ได้กำลังจ่ายให้ \"พื้นที่สูงขึ้น\" มันกำลังจ่ายให้ \"ยอดวัฏจักรคือระดับถาวร\" ซึ่งเป็นสมมติฐานที่กฎ Cyclical ของระบบนี้ห้ามไว้โดยตรง"
-    ],
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-29",
-      "tier": "🔁 Cyclical",
-      "tier_slug": "cyclical",
-      "what": "Micron เป็นผู้ผลิต HBM สัญชาติอเมริกันรายเดียวที่ป้อน NVIDIA Vera Rubin/GB200 และได้เลือกเป็นซัพพลายเออร์ HBM4 — ชนะช่วงนี้เพราะ agentic AI สร้างปัญหา KV-cache ที่ต้องการทั้ง HBM และ NAND พร้อมกัน ในขณะที่กำลังการผลิตทั้งอุตสาหกรรมตึงตัว",
-      "why": "Consensus มองที่ forward P/E **13.24×** บน consensus FY2026 EPS $73.39 แล้วสรุปว่า \"ถูกมาก\" (rating Strong Buy). **Warren เห็นต่างที่ตัวหาร ไม่ใช่ตัวเศษ**: $73.39 คือกำไรของ**ปีที่เป็นยอดวัฏจักร** ซึ่งเกิดจากราคาล้วนๆ ไม่ใช่ปริมาณ — FQ3 บิต DRAM โตแค่ single digit แต่ ASP โต low-60s% QoQ. เมื่อ normalize กลับสู่ mid-cycle อย่างที่กฎ Cyclical บังคับ EPS = **$17.50** และ P/E ที่ราคาปัจจุบันคือ **55.5×** ไม่ใช่ 13.2×. ⚠️ **และสิ่งที่ยังไม่ถูกมองเลยคือฐานที่ระบบนี้เองใช้อยู่**: ตัวเลข \"normalized mid-cycle EPS $76.7\" ที่ carry มาตั้งแต่ ก.ค. **สูงกว่า EPS ของปีที่เป็นพีคเองเสียอีก** ⇒ ที่ผ่านมาระบบกำลังตีมูลค่า MU ด้วยตัวเลขที่แย่กว่าการใช้ peak EPS ตรงๆ ด้วยซ้ำ",
-      "risk": "ASP ทรงตัวที่ระดับใกล้เคียงปัจจุบันต่อเนื่องเกิน 4-6 ไตรมาสโดยที่ Samsung/SK Hynix/CXMT เพิ่มกำลังผลิตแล้วราคายังไม่ลง (แปลว่า SCA/HBM เปลี่ยนโครงสร้างอุตสาหกรรมจริงและ normalized margin ควรสูงกว่า 29.6% มาก), หรือในทางกลับกัน — งบ FQ4 (~ก.ย. 2026) พลาด guide $50B/$31.00 หรือ FQ1 FY2027 guide ราคาลง QoQ เป็นครั้งแรก = ยืนยัน cycle rollover"
-    },
-    "tier": "🔁 Cyclical",
-    "charlie": {
-      "verdict": "AGREE",
-      "summary": "",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": 262,
-      "date": "2026-08-29"
-    }
-  },
-  "SKHY": {
-    "symbol": "SKHY",
-    "display": "SK Hynix",
-    "category": "semiconductor",
-    "name": "SK hynix Inc. ADR",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Memory",
-      "HBM Leader"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 6.08,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 161.04,
-    "fv": 60,
-    "mos": -168.4,
-    "fpe": 35.01,
-    "peg": null,
-    "scores": {
-      "bq": [
-        7.8,
-        "amber",
-        78
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        1.8,
-        "orange",
-        18
-      ],
-      "ra": [
-        5.0,
-        "orange",
-        50
-      ]
-    },
-    "idea": "Price-only recompute — price +3.65% widens the already-enormous MoS fail slightly. Charlie's 08-18 CAUTION flag (18.4% FV gap) remains open pending next Charlie pass.",
-    "updated": "2026-08-29",
-    "risk": [
-      "Carried forward — if de-cycling holds fully (margin >50% sustained 2+ years through a real downturn), normalized earnings basis ($60 this batch, $110 prior) may prove too low; Samsung/CXMT HBM parity is the offsetting downside risk."
-    ],
-    "bull": [
-      "HBM leadership + AI memory demand จริง structural — LTA lock-in (~10 customers) + Nvidia/SK Group $500B+ AI-infra partnership reinforce the long-term demand case, but normalized mid-cycle earnings (rebuilt 08-18 under Revenue-as-Base) sit far below the current $155.37 price; SK Hynix still has zero down-cycle track record as a standalone public print."
-    ],
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-29",
-      "tier": "🔁 Cyclical",
-      "tier_slug": "cyclical",
-      "what": "SK hynix เป็นผู้นำ HBM อันดับ 1 โลก (56.4% share) ผลิต advanced memory (DRAM/HBM/NAND) ซึ่งเป็นหัวใจของ AI compute — ชนะด้วย HBM technology lead (HBM4 industry-first) + qualification switching cost + scale/vertical packaging.",
-      "why": "Consensus treats the Nvidia/SK Group AI-infrastructure partnership + sovereign-wealth-fund buying interest (and now Japan-fab exploration headlines) as confirmation that SK Hynix's re-rating is justified — Warren's second-level read: **none of these are quantified earnings events, including the 08-24 Japan news, which SK Hynix itself has not confirmed as a decision.** Even after the stock's -9.34% pullback since 08-18, price ($155.37) sits far above the independently-rebuilt normalized fair value ($60/ADS) — the actual hard evidence for de-cycling (concluded LTAs with ~10 customers, two quarters of record-and-rising op margin 71%→76%) remains fully priced in and then some. This is the textbook cyclical-peak trap Lynch warned about: geographic-expansion headlines and partnership buzz are not a substitute for a lower entry price or a proven cycle trough.",
-      "risk": "ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin/Fab 2/Japan ถ้าเกิดจริง) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด (ทั้ง $60 รอบนี้และ $110 รอบก่อน), และราคาปัจจุบัน justified. Two consecutive quarters of rising (not falling) operating margin (71%→76%) plus the Nvidia partnership's demand visibility are themselves data points in that direction — watch Q3 (next real test)."
-    },
-    "tier": "🔁 Cyclical",
-    "charlie": {
-      "verdict": "CAUTION",
-      "summary": "",
-      "risks": [],
-      "yf_price": 161.04,
-      "warren_fv": 47,
-      "date": "2026-08-29"
-    }
-  },
   "ARM": {
     "symbol": "ARM",
     "display": "ARM",
@@ -894,6 +750,78 @@
       "risk": "DOJ/FTC antitrust action forces licensing model change, OR RISC-V adoption accelerates at hyperscalers, OR the 3rd Circuit appeal against Qualcomm also fails (removing the ~10%-of-revenue Qualcomm relationship from Arm's control) — any of these collapses royalty growth and triggers multiple compression."
     },
     "tier": "🚀 Pre-Inevitable"
+  },
+  "SKHY": {
+    "symbol": "SKHY",
+    "display": "SK Hynix",
+    "category": "semiconductor",
+    "name": "SK hynix Inc. ADR",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Memory",
+      "HBM Leader"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 6.0,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 177.0,
+    "fv": 60,
+    "mos": -195.0,
+    "fpe": 38.48,
+    "peg": null,
+    "scores": {
+      "bq": [
+        7.8,
+        "amber",
+        78
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        1.5,
+        "orange",
+        15
+      ],
+      "ra": [
+        5.0,
+        "orange",
+        50
+      ]
+    },
+    "idea": "Price-only recompute — price +9.91% widens the already-enormous MoS fail further. Indiana '$720B' figure flagged unverified on 08-29 is now corrected to ~$4B (positive clarification, still not quantifiable into near-term earnings). Charlie's 08-18 CAUTION flag (18.4% FV gap) remains open pending next Charlie pass.",
+    "updated": "2026-09-05",
+    "risk": [
+      "Carried forward — if de-cycling holds fully (margin >50% sustained 2+ years through a real downturn), normalized earnings basis ($60 this batch, $110 prior) may prove too low; Samsung/CXMT HBM parity is the offsetting downside risk."
+    ],
+    "bull": [
+      "HBM leadership + AI memory demand จริง structural — LTA lock-in (~10 customers) + Nvidia/SK Group $500B+ AI-infra partnership reinforce the long-term demand case, but normalized mid-cycle earnings (rebuilt 08-18 under Revenue-as-Base) sit far below the current $155.37 price; SK Hynix still has zero down-cycle track record as a standalone public print."
+    ],
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-09-05",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
+      "what": "SK hynix เป็นผู้นำ HBM อันดับ 1 โลก (56.4% share) ผลิต advanced memory (DRAM/HBM/NAND) ซึ่งเป็นหัวใจของ AI compute — ชนะด้วย HBM technology lead (HBM4 industry-first) + qualification switching cost + scale/vertical packaging.",
+      "why": "Consensus treats the Nvidia/SK Group AI-infrastructure partnership + sovereign-wealth-fund buying interest (and now Japan-fab exploration headlines) as confirmation that SK Hynix's re-rating is justified — Warren's second-level read: **none of these are quantified earnings events, including the 08-24 Japan news, which SK Hynix itself has not confirmed as a decision.** Even after the stock's -9.34% pullback since 08-18, price ($155.37) sits far above the independently-rebuilt normalized fair value ($60/ADS) — the actual hard evidence for de-cycling (concluded LTAs with ~10 customers, two quarters of record-and-rising op margin 71%→76%) remains fully priced in and then some. This is the textbook cyclical-peak trap Lynch warned about: geographic-expansion headlines and partnership buzz are not a substitute for a lower entry price or a proven cycle trough.",
+      "risk": "ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin/Fab 2/Japan ถ้าเกิดจริง) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด (ทั้ง $60 รอบนี้และ $110 รอบก่อน), และราคาปัจจุบัน justified. Two consecutive quarters of rising (not falling) operating margin (71%→76%) plus the Nvidia partnership's demand visibility are themselves data points in that direction — watch Q3 (next real test)."
+    },
+    "tier": "🔁 Cyclical",
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "",
+      "risks": [],
+      "yf_price": 161.04,
+      "warren_fv": 47,
+      "date": "2026-08-29"
+    }
   },
   "IREN": {
     "symbol": "IREN",
@@ -972,6 +900,78 @@
       "risks": [],
       "yf_price": 35.45,
       "warren_fv": 42,
+      "date": "2026-08-29"
+    }
+  },
+  "MU": {
+    "symbol": "MU",
+    "display": "MU",
+    "category": "semiconductor",
+    "name": "Micron Technology",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Memory",
+      "HBM"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 5.95,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 1016.59,
+    "fv": 262,
+    "mos": -288.01,
+    "fpe": 58.09,
+    "peg": null,
+    "scores": {
+      "bq": [
+        7.5,
+        "amber",
+        75
+      ],
+      "gp": [
+        9.0,
+        "green",
+        90
+      ],
+      "va": [
+        1.3,
+        "orange",
+        13
+      ],
+      "ra": [
+        4.5,
+        "orange",
+        45
+      ]
+    },
+    "idea": "Price-only recompute — price +8.98% widens the already-enormous MoS fail further. New Taiwan union strike-vote risk (RA 5.0->4.5) is the first labor/production-concentration risk scored on this card. Lynch Peak Watch remains fully triggered. FQ4 (~Sept 2026) is the next real test.",
+    "updated": "2026-09-05",
+    "risk": [
+      "Carried forward + new — normalized net margin 29.6% is still the single biggest sensitivity (each ±10pp moves FV ~$150); Samsung/SK Hynix capacity race; receivables up 3.7x; NEW: Taiwan union strike-vote risk (~60% of global capacity + most HBM output concentrated there) — a real strike or a 15%-of-op-profit bonus precedent would hit both production continuity and the normalized margin assumption directly."
+    ],
+    "bull": [
+      "HBM/AI memory demand เป็นของจริงเชิงโครงสร้าง และ 16 SCAs (~$100B) ยกพื้นของรอบถัดไปให้สูงกว่ารอบก่อนจริง — แต่ราคาปัจจุบันไม่ได้กำลังจ่ายให้ \"พื้นที่สูงขึ้น\" มันกำลังจ่ายให้ \"ยอดวัฏจักรคือระดับถาวร\" ซึ่งเป็นสมมติฐานที่กฎ Cyclical ของระบบนี้ห้ามไว้โดยตรง"
+    ],
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-09-05",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
+      "what": "Micron เป็นผู้ผลิต HBM สัญชาติอเมริกันรายเดียวที่ป้อน NVIDIA Vera Rubin/GB200 และได้เลือกเป็นซัพพลายเออร์ HBM4 — ชนะช่วงนี้เพราะ agentic AI สร้างปัญหา KV-cache ที่ต้องการทั้ง HBM และ NAND พร้อมกัน ในขณะที่กำลังการผลิตทั้งอุตสาหกรรมตึงตัว",
+      "why": "Consensus มองที่ forward P/E **13.24×** บน consensus FY2026 EPS $73.39 แล้วสรุปว่า \"ถูกมาก\" (rating Strong Buy). **Warren เห็นต่างที่ตัวหาร ไม่ใช่ตัวเศษ**: $73.39 คือกำไรของ**ปีที่เป็นยอดวัฏจักร** ซึ่งเกิดจากราคาล้วนๆ ไม่ใช่ปริมาณ — FQ3 บิต DRAM โตแค่ single digit แต่ ASP โต low-60s% QoQ. เมื่อ normalize กลับสู่ mid-cycle อย่างที่กฎ Cyclical บังคับ EPS = **$17.50** และ P/E ที่ราคาปัจจุบันคือ **55.5×** ไม่ใช่ 13.2×. ⚠️ **และสิ่งที่ยังไม่ถูกมองเลยคือฐานที่ระบบนี้เองใช้อยู่**: ตัวเลข \"normalized mid-cycle EPS $76.7\" ที่ carry มาตั้งแต่ ก.ค. **สูงกว่า EPS ของปีที่เป็นพีคเองเสียอีก** ⇒ ที่ผ่านมาระบบกำลังตีมูลค่า MU ด้วยตัวเลขที่แย่กว่าการใช้ peak EPS ตรงๆ ด้วยซ้ำ",
+      "risk": "ASP ทรงตัวที่ระดับใกล้เคียงปัจจุบันต่อเนื่องเกิน 4-6 ไตรมาสโดยที่ Samsung/SK Hynix/CXMT เพิ่มกำลังผลิตแล้วราคายังไม่ลง (แปลว่า SCA/HBM เปลี่ยนโครงสร้างอุตสาหกรรมจริงและ normalized margin ควรสูงกว่า 29.6% มาก), หรือในทางกลับกัน — งบ FQ4 (~ก.ย. 2026) พลาด guide $50B/$31.00 หรือ FQ1 FY2027 guide ราคาลง QoQ เป็นครั้งแรก = ยืนยัน cycle rollover"
+    },
+    "tier": "🔁 Cyclical",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": null,
+      "warren_fv": 262,
       "date": "2026-08-29"
     }
   },
@@ -1127,86 +1127,6 @@
     },
     "tier": "⚠️ Speculative"
   },
-  "SNDK": {
-    "symbol": "SNDK",
-    "display": "SNDK",
-    "category": "semiconductor",
-    "name": "Sandisk Corporation",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Memory",
-      "NAND Flash"
-    ],
-    "bull": [
-      "Q3 FY2026 Revenue $5.95B +251% YoY, Non-GAAP Gross Margin 78.4% ทะลุ guidance มาก (memory supercycle)",
-      "Datacenter segment โต +645% YoY จาก enterprise SSD สำหรับ AI workloads",
-      "Net cash position — จ่ายหนี้หมดแล้ว (Long-term debt = $0) หลัง spin-off จาก WDC",
-      "Non-GAAP EPS $23.41 ไตรมาสเดียว เกิน guidance มาก = operating leverage สูงมากในช่วง upcycle",
-      "NAND flash supply chain oligopoly (Flash Ventures JV กับ Kioxia) = barrier to entry สูง"
-    ],
-    "risk": [
-      "Memory เป็น commodity cyclical — margin พุ่งแรงตอน upcycle แต่มีความเสี่ยง downcycle รุนแรง (เหมือน MU)",
-      "Bit shipments flat YoY, down high-teens QoQ — สะสม inventory รอ product ใหม่ (BiCS8 QLC)",
-      "พึ่งพา Kioxia JV เกือบทั้งหมดสำหรับ flash supply — ไม่ควบคุม manufacturing เอง",
-      "Valuation reflect upcycle sentiment มาก — Lynch peak signal risk คล้ายที่เจอใน MU/SKHY",
-      "Consumer segment หดตัว QoQ ตาม seasonality"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 5.83,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 1484.98,
-    "fv": 1700,
-    "mos": 12.65,
-    "fpe": 11.36,
-    "peg": null,
-    "scores": {
-      "bq": [
-        6.0,
-        "orange",
-        60
-      ],
-      "gp": [
-        7.0,
-        "amber",
-        70
-      ],
-      "va": [
-        5.9,
-        "orange",
-        59
-      ],
-      "ra": [
-        3.0,
-        "orange",
-        30
-      ]
-    },
-    "idea": "Price-only recompute — price +9.6% on sector-wide memory rally (same move lifting MU/SKHY), no company-specific news. MoS worsens from 20.3% to 12.65% (moving further from, not closer to, the gate). Cyclical discipline unchanged — do not chase price on peak-EPS optics.",
-    "updated": "2026-08-29",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-29",
-      "tier": "🔁 Cyclical",
-      "tier_slug": "cyclical",
-      "what": "Sandisk เป็นผู้นำ NAND flash technology (BiCS8 = gold standard) ผ่าน Flash Ventures JV กับ Kioxia — spin-off จาก WDC ก.พ. 2025; วางตัวเป็น NAND partner สำหรับ AI inference (KV cache/RAG) + สร้าง New Business Model (สัญญา multi-year ลด cyclicality).",
-      "why": "Consensus (bull) มองว่า AI datacenter demand + NBM ทำให้ margin 78% เป็น \"structurally higher\"; Warren ระวังว่า **margin 78.4% คือ peak ของ pricing spike** — ราคาร่วงต่ออีก -12.7% รอบนี้ (คลื่นเดียวกับ SK Hynix ร่วงแรงสุดใน ~20 ปี) ทำให้ MoS ดีขึ้นมากแต่ยังไม่ผ่าน gate; ที่สำคัญกว่านั้น analysts เริ่มปรับมุมมองว่า NAND ASP จะร่วงเร็วกว่าที่เคยประเมิน (supply เริ่มเกิน demand เร็วกว่าคาด) — สัญญาณใหม่ที่ยืนยันทิศทาง mean-reversion เดิมของการ์ดนี้ แต่อาจมาเร็วกว่าที่ FV Base timeline สมมติไว้.",
-      "risk": "NAND ASP ย้อนกลับสู่ 40s% (over-capacity รอบใหม่) เร็วกว่าคาด — ตอนนี้มี analyst signal เริ่มยืนยันทิศทางนี้แล้ว, หรือ Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, หรือ NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ). Lynch peak signal: analyst upgrade รัวๆ + low P/E จาก peak EPS."
-    },
-    "tier": "🔁 Cyclical",
-    "charlie": {
-      "verdict": "AGREE",
-      "summary": "",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": 1700,
-      "date": "2026-08-29"
-    }
-  },
   "AAPL": {
     "symbol": "AAPL",
     "display": "AAPL",
@@ -1350,6 +1270,86 @@
       "risk": "operating margin ฟื้นกลับเหนือ 8% อย่างต่อเนื่องโดยไม่พึ่ง non-operating (แปลว่า Warren ประเมิน operating leverage ต่ำเกินไป), หรือ robotaxi ขยายเกิน 25 metros พร้อมรายได้ที่แยกรายงานได้จริง, หรือในทางกลับกัน — capex >$25B/ปี กับ FCF ติดลบต่อเนื่อง 2-3 ปีตามที่ CFO guide ทำให้ต้องใช้วงเงินกู้ $30B เต็มจำนวนพร้อม margin ที่ยังไม่ฟื้น"
     },
     "tier": "⚠️ Speculative"
+  },
+  "SNDK": {
+    "symbol": "SNDK",
+    "display": "SNDK",
+    "category": "semiconductor",
+    "name": "Sandisk Corporation",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Memory",
+      "NAND Flash"
+    ],
+    "bull": [
+      "Q3 FY2026 Revenue $5.95B +251% YoY, Non-GAAP Gross Margin 78.4% ทะลุ guidance มาก (memory supercycle)",
+      "Datacenter segment โต +645% YoY จาก enterprise SSD สำหรับ AI workloads",
+      "Net cash position — จ่ายหนี้หมดแล้ว (Long-term debt = $0) หลัง spin-off จาก WDC",
+      "Non-GAAP EPS $23.41 ไตรมาสเดียว เกิน guidance มาก = operating leverage สูงมากในช่วง upcycle",
+      "NAND flash supply chain oligopoly (Flash Ventures JV กับ Kioxia) = barrier to entry สูง"
+    ],
+    "risk": [
+      "Memory เป็น commodity cyclical — margin พุ่งแรงตอน upcycle แต่มีความเสี่ยง downcycle รุนแรง (เหมือน MU)",
+      "Bit shipments flat YoY, down high-teens QoQ — สะสม inventory รอ product ใหม่ (BiCS8 QLC)",
+      "พึ่งพา Kioxia JV เกือบทั้งหมดสำหรับ flash supply — ไม่ควบคุม manufacturing เอง",
+      "Valuation reflect upcycle sentiment มาก — Lynch peak signal risk คล้ายที่เจอใน MU/SKHY",
+      "Consumer segment หดตัว QoQ ตาม seasonality"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 5.35,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 1740.0,
+    "fv": 1700,
+    "mos": -2.35,
+    "fpe": 13.1,
+    "peg": null,
+    "scores": {
+      "bq": [
+        6.0,
+        "orange",
+        60
+      ],
+      "gp": [
+        7.0,
+        "amber",
+        70
+      ],
+      "va": [
+        4.0,
+        "orange",
+        40
+      ],
+      "ra": [
+        3.0,
+        "orange",
+        30
+      ]
+    },
+    "idea": "Price-only recompute — price +17.17% on continued sector-wide memory rally + 08-31 Japan capacity news (long-term positive, not near-term quantifiable). MoS flips negative for the first time (price now above FV Base) — this is a caution signal, not a reason to chase. Cyclical discipline unchanged.",
+    "updated": "2026-09-05",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-09-05",
+      "tier": "🔁 Cyclical",
+      "tier_slug": "cyclical",
+      "what": "Sandisk เป็นผู้นำ NAND flash technology (BiCS8 = gold standard) ผ่าน Flash Ventures JV กับ Kioxia — spin-off จาก WDC ก.พ. 2025; วางตัวเป็น NAND partner สำหรับ AI inference (KV cache/RAG) + สร้าง New Business Model (สัญญา multi-year ลด cyclicality).",
+      "why": "Consensus (bull) มองว่า AI datacenter demand + NBM ทำให้ margin 78% เป็น \"structurally higher\"; Warren ระวังว่า **margin 78.4% คือ peak ของ pricing spike** — ราคาร่วงต่ออีก -12.7% รอบนี้ (คลื่นเดียวกับ SK Hynix ร่วงแรงสุดใน ~20 ปี) ทำให้ MoS ดีขึ้นมากแต่ยังไม่ผ่าน gate; ที่สำคัญกว่านั้น analysts เริ่มปรับมุมมองว่า NAND ASP จะร่วงเร็วกว่าที่เคยประเมิน (supply เริ่มเกิน demand เร็วกว่าคาด) — สัญญาณใหม่ที่ยืนยันทิศทาง mean-reversion เดิมของการ์ดนี้ แต่อาจมาเร็วกว่าที่ FV Base timeline สมมติไว้.",
+      "risk": "NAND ASP ย้อนกลับสู่ 40s% (over-capacity รอบใหม่) เร็วกว่าคาด — ตอนนี้มี analyst signal เริ่มยืนยันทิศทางนี้แล้ว, หรือ Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, หรือ NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ). Lynch peak signal: analyst upgrade รัวๆ + low P/E จาก peak EPS."
+    },
+    "tier": "🔁 Cyclical",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": null,
+      "warren_fv": 1700,
+      "date": "2026-08-29"
+    }
   },
   "NBIS": {
     "symbol": "NBIS",
