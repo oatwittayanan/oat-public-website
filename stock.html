@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20260905093957"></script>
+  <script src="knowledge.js?v=20260905095558"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -187,14 +187,14 @@ const STOCKS_INLINE = {
     name: 'Taiwan Semiconductor', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'Advanced Foundry'],
     action: 'hold', actionLabel: 'Hold', conviction: 4,
-    waf: 8.1, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
-    price: 410.12, fv: 411, mos: 0.21, fpe: 19.97, peg: 1.0,
-    scores: { bq: [9.5,'green',95], gp: [9.5,'green',95], va: [6.3,'orange',63], ra: [5.5,'orange',55] },
-    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.', why: 'Consensus อ่าน Q2 print ว่า "ดีแต่ priced-in, จับตา margin/capex" — Warren เห็น second-level signal ที่ FY2026 growth guidance ขึ้นเป็น **ครั้งที่สองของปี** (>30%→"slightly above 40%") + CapEx ขึ้นเป็น $60–64B + Arizona +$100B + demand "stronger and stronger" และ supply ตึงถึง 2029–2030 = demand เร่งจริง ไม่ใช่แค่ทรงตัว. แต่หลัง FV recalibration ใช้ consensus EPS (ไม่ใช้ peak-year) FV base ขยับเป็น ~$420 และราคา $403.41 → **MoS เหลือ ~4% เท่านั้น** = ซื้อเกือบเต็มมูลค่า. edge จึงไม่ใช่ "ราคาถูก" แต่คือ "คุณภาพหายากระดับ Inevitable ที่ควรถือ ไม่เติมจนกว่าจะมี buffer".', risk: 'US-Taiwan geopolitical escalates to military action, OR Apple+NVIDIA shift >30% of volume to Samsung/Intel Foundry simultaneously, OR the guided H2 margin compression (N2 ramp −3–4pp GM) proves deeper/longer than management indicated.', updated: '2026-08-25' },
+    waf: 7.95, wafBadge: 'waf-mid', wafComposite: 'waf-composite-blue',
+    price: 428.91, fv: 411, mos: -4.36, fpe: 20.88, peg: 1.04,
+    scores: { bq: [9.5,'green',95], gp: [9.5,'green',95], va: [5.7,'orange',57], ra: [5.5,'orange',55] },
+    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.', why: 'Consensus อ่าน Q2 print ว่า "ดีแต่ priced-in, จับตา margin/capex" — Warren เห็น second-level signal ที่ FY2026 growth guidance ขึ้นเป็น **ครั้งที่สองของปี** (>30%→"slightly above 40%") + CapEx ขึ้นเป็น $60–64B + Arizona +$100B + demand "stronger and stronger" และ supply ตึงถึง 2029–2030 = demand เร่งจริง ไม่ใช่แค่ทรงตัว. แต่หลัง FV recalibration ใช้ consensus EPS (ไม่ใช้ peak-year) FV base ขยับเป็น ~$420 และราคา $403.41 → **MoS เหลือ ~4% เท่านั้น** = ซื้อเกือบเต็มมูลค่า. edge จึงไม่ใช่ "ราคาถูก" แต่คือ "คุณภาพหายากระดับ Inevitable ที่ควรถือ ไม่เติมจนกว่าจะมี buffer".', risk: 'US-Taiwan geopolitical escalates to military action, OR Apple+NVIDIA shift >30% of volume to Samsung/Intel Foundry simultaneously, OR the guided H2 margin compression (N2 ramp −3–4pp GM) proves deeper/longer than management indicated.', updated: '2026-09-05' },
     idea: 'chokepoint ที่ทุกชิป AI ต้องผ่าน — ธุรกิจเร่งขึ้นจริง แต่ราคายืนเหนือ FV base เล็กน้อยเป็นรอบที่ 3 ติดต่อกัน; ถือได้ ไม่เติม',
     bull: ['N2/A16 process leadership — Intel, Samsung ยัง catch up ไม่ถึง', 'CoWoS advanced packaging chokepoint สำหรับ AI chips ทุกตัว', 'Q1 2026 Revenue +41% YoY, Gross Margin 66% = exceptional economics', 'PEG 0.75 — cheap relative to growth สำหรับ foundry dominance', 'AI Accelerator demand visibility แข็งแกร่ง — customer backlog ยาว'],
     risk: ['Taiwan Strait geopolitical risk — ความเสี่ยงหลักที่ตลาดให้ discount ใหญ่', 'US tariff + trade policy uncertainty กระทบ supply chain', 'Customer concentration: Apple + NVIDIA + AMD = top 3', 'Intel Foundry 18A ถ้าสำเร็จ capture market share บางส่วน', 'Arizona/Japan fab ramp cost กด margin ระยะกลาง 2026-2028'],
-    updated: '2026-08-25'
+    updated: '2026-09-05'
   },
   ASML: {
     name: 'ASML Holding', sector: 'Semiconductor', sectorSlug: 'semi',
@@ -213,27 +213,27 @@ const STOCKS_INLINE = {
     name: 'Alphabet Inc.', sector: 'Big Tech', sectorSlug: 'bigtech',
     chips: ['Big Tech', 'Search + Cloud + AI'],
     action: 'watch', actionLabel: 'Watch', conviction: 3,
-    waf: 7.15, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 348.06, fv: 320, mos: -8.77, fpe: 25.48, peg: 2.123,
-    scores: { bq: [9.5,'green',95], gp: [8.5,'green',85], va: [3.7,'orange',37], ra: [5.5,'orange',55] },
-    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Alphabet เป็นเจ้าของช่องทางค้นหาข้อมูลของโลก (Search + YouTube + Android) และเป็นบริษัทเดียวในธีม AI ที่ครบทั้ง stack ตั้งแต่ชิปของตัวเอง (TPU) ถึงโมเดล (Gemini) ถึงคลาวด์ที่ขายให้คนอื่น — ชนะเพราะ distribution ที่ผูกไว้แล้วบวก vertical integration ที่คู่แข่งต้องซื้อจากคนอื่นทุกชั้น', why: 'Consensus เห็น Cloud +82% YoY, backlog $514B และ EPS 2026 ~$20.5 แล้วสรุปว่ากำไรกำลังทะยาน — สิ่งที่ Warren เห็นต่างคือ **ตัวเลข EPS นั้นเกือบครึ่งไม่ใช่กำไรจริง**: 10-Q ระบุเองว่า unrealized equity gains (SpaceX/Anthropic/Waymo) ดัน diluted EPS ขึ้น **+$6.26 เฉพาะไตรมาส Q2** และ panel เดียวกันนั้นให้ FY2027 เพียง $14.74 คือ **ต่ำกว่า** FY2026 ทั้งที่ธุรกิจโต; ขณะเดียวกัน **FCF ติดลบไตรมาสแรกในประวัติศาสตร์บริษัท (−$5.9B)** และหนี้ระยะยาวพุ่งจาก $46.5B เป็น $98.2B เพื่อ fund CapEx — ราคาที่ 25× บนกำไร core กำลังคิดว่า margin จะขยายต่อ ทั้งที่ค่าเสื่อมก้อนใหญ่กำลังจะเข้างบ', risk: 'FCF กลับมาเป็นบวกอย่างมีนัยภายใน 2-3 ไตรมาสพร้อมกับ Cloud margin ยืนเหนือ 35% = แปลว่า depreciation wall ไม่แรงอย่างที่กลัว และ core margin 29% ที่ Warren ใช้นั้น conservative เกินไป', updated: '2026-08-25' },
+    waf: 7.23, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 338.46, fv: 320, mos: -5.77, fpe: 24.78, peg: 2.065,
+    scores: { bq: [9.5,'green',95], gp: [8.5,'green',85], va: [4.0,'orange',40], ra: [5.5,'orange',55] },
+    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Alphabet เป็นเจ้าของช่องทางค้นหาข้อมูลของโลก (Search + YouTube + Android) และเป็นบริษัทเดียวในธีม AI ที่ครบทั้ง stack ตั้งแต่ชิปของตัวเอง (TPU) ถึงโมเดล (Gemini) ถึงคลาวด์ที่ขายให้คนอื่น — ชนะเพราะ distribution ที่ผูกไว้แล้วบวก vertical integration ที่คู่แข่งต้องซื้อจากคนอื่นทุกชั้น', why: 'Consensus เห็น Cloud +82% YoY, backlog $514B และ EPS 2026 ~$20.5 แล้วสรุปว่ากำไรกำลังทะยาน — สิ่งที่ Warren เห็นต่างคือ **ตัวเลข EPS นั้นเกือบครึ่งไม่ใช่กำไรจริง**: 10-Q ระบุเองว่า unrealized equity gains (SpaceX/Anthropic/Waymo) ดัน diluted EPS ขึ้น **+$6.26 เฉพาะไตรมาส Q2** และ panel เดียวกันนั้นให้ FY2027 เพียง $14.74 คือ **ต่ำกว่า** FY2026 ทั้งที่ธุรกิจโต; ขณะเดียวกัน **FCF ติดลบไตรมาสแรกในประวัติศาสตร์บริษัท (−$5.9B)** และหนี้ระยะยาวพุ่งจาก $46.5B เป็น $98.2B เพื่อ fund CapEx — ราคาที่ 25× บนกำไร core กำลังคิดว่า margin จะขยายต่อ ทั้งที่ค่าเสื่อมก้อนใหญ่กำลังจะเข้างบ', risk: 'FCF กลับมาเป็นบวกอย่างมีนัยภายใน 2-3 ไตรมาสพร้อมกับ Cloud margin ยืนเหนือ 35% = แปลว่า depreciation wall ไม่แรงอย่างที่กลัว และ core margin 29% ที่ Warren ใช้นั้น conservative เกินไป', updated: '2026-09-05' },
     idea: '',
     bull: ['GCP +63% YoY fastest-growing hyperscaler — Cloud Gen AI revenue +800% YoY ใน Q1 2026', 'Full-stack AI moat ที่เลียนแบบไม่ได้: Ironwood TPU + Gemini + Vertex AI + Applications', 'PEG 0.8 — จ่ายน้อยกว่า growth rate จริง หายากมากในกลุ่ม mega-cap', 'Cloud Backlog $460B+ = revenue visibility 3-5 ปีชัดเจน', 'Waymo 500K+ rides/week = Free Option ที่ตลาดยังไม่ตีราคา'],
     risk: ['DOJ Antitrust ทั้ง Search monopoly + Ad Tech — ถ้าถูกบังคับ divest Chrome/Android กระทบยาว', 'CapEx $180-190B FY2026 เพิ่ม ~2x YoY — กด Free Cash Flow ระยะสั้น', 'AI-first search behavior — ChatGPT/Perplexity กิน complex queries จริง', 'Wiz acquisition compress Cloud margin 2026', 'China revenue = zero = missed market ขนาดใหญ่'],
-    updated: '2026-08-25'
+    updated: '2026-09-05'
   },
   AMZN: {
     name: 'Amazon', sector: 'Big Tech', sectorSlug: 'bigtech',
     chips: ['Big Tech', 'Cloud + Commerce + AI'],
     action: 'hold', actionLabel: 'Hold', conviction: 3,
     waf: 7.08, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 266.43, fv: 231, mos: -15.34, fpe: null, peg: null,
-    scores: { bq: [9.0,'green',90], gp: [8.5,'green',85], va: [4.3,'orange',43], ra: [5.0,'orange',50] },
-    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Amazon เป็นเจ้าของโครงสร้างพื้นฐาน 2 ชั้นที่คนอื่นสร้างตามไม่ทัน — AWS (cloud #1 ของโลก, op margin 39.4%) และเครือข่าย fulfillment/logistics ที่ทำให้ retail + advertising ($19.8B/ไตรมาส, +26%) ทำกำไรได้ — ชนะด้วย scale ที่ทบต้นมา 30 ปี', why: 'Consensus เห็น net income TTM $135.3B (+92%) แล้วสรุปว่ากำไรกำลังระเบิด — สิ่งที่ Warren เห็นต่างคือ **~62.9% ของกำไรก้อนนั้นไม่ใช่กำไรจากการดำเนินงาน** แต่เป็น mark-to-market ของเงินลงทุน (Anthropic ก้อนเดียว $53.4B ใน Q2) ซึ่งกลับทิศได้ทุกไตรมาส; ขณะเดียวกัน **TTM FCF ติดลบ −$7.6B** เพราะ CapEx วิ่งที่ ~2.3× ค่าเสื่อมราคา แปลว่าค่าเสื่อมก้อนใหญ่กำลังรออยู่ในงบปี 2027-2028 ที่โมเดลของตลาดยังไม่ได้ใส่', risk: 'AWS op margin ยืนเหนือ 38% ได้ต่อเนื่อง 4 ไตรมาสพร้อมกับที่ FCF กลับมาเป็นบวก = แปลว่า capex รอบนี้สร้างผลตอบแทนเร็วกว่าที่ Warren คิด และ depreciation tail ไม่ใช่ปัญหาจริง', updated: '2026-08-29' },
-    idea: 'Price-only recompute — MoS worsens slightly (-13.45%->-15.34%) as price rose +1.66%. Position held ($ invested) -> HOLD per Fisher discipline, not a sell signal. No fundamental change.',
+    price: 258.51, fv: 231, mos: -11.91, fpe: null, peg: null,
+    scores: { bq: [9.0,'green',90], gp: [8.5,'green',85], va: [4.6,'orange',46], ra: [4.5,'orange',45] },
+    story_gate: { passed: true, status: 'PASS', tier: '🚀 Pre-Inevitable', tier_slug: 'pre-inevitable', what: 'Amazon เป็นเจ้าของโครงสร้างพื้นฐาน 2 ชั้นที่คนอื่นสร้างตามไม่ทัน — AWS (cloud #1 ของโลก, op margin 39.4%) และเครือข่าย fulfillment/logistics ที่ทำให้ retail + advertising ($19.8B/ไตรมาส, +26%) ทำกำไรได้ — ชนะด้วย scale ที่ทบต้นมา 30 ปี', why: 'Consensus เห็น net income TTM $135.3B (+92%) แล้วสรุปว่ากำไรกำลังระเบิด — สิ่งที่ Warren เห็นต่างคือ **~62.9% ของกำไรก้อนนั้นไม่ใช่กำไรจากการดำเนินงาน** แต่เป็น mark-to-market ของเงินลงทุน (Anthropic ก้อนเดียว $53.4B ใน Q2) ซึ่งกลับทิศได้ทุกไตรมาส; ขณะเดียวกัน **TTM FCF ติดลบ −$7.6B** เพราะ CapEx วิ่งที่ ~2.3× ค่าเสื่อมราคา แปลว่าค่าเสื่อมก้อนใหญ่กำลังรออยู่ในงบปี 2027-2028 ที่โมเดลของตลาดยังไม่ได้ใส่', risk: 'AWS op margin ยืนเหนือ 38% ได้ต่อเนื่อง 4 ไตรมาสพร้อมกับที่ FCF กลับมาเป็นบวก = แปลว่า capex รอบนี้สร้างผลตอบแทนเร็วกว่าที่ Warren คิด และ depreciation tail ไม่ใช่ปัญหาจริง', updated: '2026-09-05' },
+    idea: 'Price-only recompute + new regulatory risk noted — MoS improves slightly (-15.34%->-11.91%) as price fell, offset by RA cut for new FTC ad-auction lawsuit. Position held ($ invested) -> HOLD per Fisher discipline, not a sell signal. No fundamental change to AWS/Trainium thesis.',
     bull: ['AWS fastest-growing hyperscaler ใน 15 quarters ล่าสุด', 'Anthropic partnership + Trainium chips = AI infrastructure play', 'Prime ecosystem 200M+ subscribers = commerce + media flywheel', 'Advertising business $60B+ ARR กำลัง accelerate', 'Operating leverage ของ AWS ทำให้ margin ขยายได้ต่อเนื่อง'],
     risk: ['MoS เพียง 9.5% ต่ำกว่า threshold 15% — ราคายังสูงอยู่', 'Regulatory risk ทั้ง EU + US กด Commerce + Marketplace', 'CapEx AI infrastructure push ขนาดใหญ่กด FCF ระยะสั้น', 'Retail segment margin ต่ำ sensitive ต่อ macro slowdown', 'Trainium vs NVIDIA CUDA — ROI ของ custom chip ยังพิสูจน์ไม่ได้ทั้งหมด'],
-    updated: '2026-08-29'
+    updated: '2026-09-05'
   },
   PLTR: {
     name: 'Palantir Technologies Inc.', sector: 'Software & AI Platform', sectorSlug: 'software',
@@ -300,19 +300,6 @@ const STOCKS_INLINE = {
     risk: ['P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง', 'RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue', 'Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips', 'SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure', 'UK regulatory environment ไม่แน่นอน'],
     updated: '2026-09-05'
   },
-  AAPL: {
-    name: 'Apple Inc.', sector: 'Big Tech', sectorSlug: 'bigtech',
-    chips: ['Big Tech', 'Consumer Electronics + Services'],
-    action: 'watch', actionLabel: 'Watch', conviction: 2,
-    waf: 5.98, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 310.34, fv: 272, mos: -14.1, fpe: 32.77, peg: 3.767,
-    scores: { bq: [9.5,'green',95], gp: [6.0,'orange',60], va: [2.0,'orange',20], ra: [5.5,'orange',55] },
-    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง', why: 'Consensus เห็น FY2026 เป็นปี supercycle (revenue +14.6%, Q3 EPS +28.7%, Greater China +22-38%) และให้ multiple ตามนั้น — สิ่งที่ Warren เห็นต่างคือ **ตัวจำกัดกำไรรอบหน้าไม่ใช่ demand แต่เป็นต้นทุน**: CFO บอกเองว่าต้นทุน memory จะสูงขึ้นอีกใน Q4 และ benefit จาก carry-in inventory "จะลดลงหลังเดือน ก.ย." พร้อมกับที่ Tim Cook ยอมรับว่าคอขวดคือ advanced-node SoC capacity — แปลว่า FY2027 จะเจอ margin headwind ที่ราคาปัจจุบัน (32× forward บนอัตราโต 8.7%) ยังไม่ได้คิดเผื่อ', risk: 'Services growth กลับมาเร่งเหนือ 15% ต่อเนื่อง 2 ไตรมาส **หรือ** Siri/Gemini generation ทำให้ iPhone upgrade cycle สั้นลงจริงจนรายได้โตกลับเป็นเลขสองหลักต่อเนื่อง = สมมติฐานเรื่อง "โตช้าลงถาวร" ของ Warren ผิด', updated: '2026-08-25' },
-    idea: '',
-    bull: ['Services segment $108B ARR growing 14%+ YoY, GM 75% = margin engine', '2.5B+ installed base สร้าง ecosystem lock-in ที่แทบเป็นไปไม่ได้จะออก', 'Apple Silicon M-series = performance/efficiency gap ยังกว้างขึ้น', 'Apple Intelligence on-device AI = privacy differentiator vs cloud AI', 'Buyback $110B+ per year = EPS accretion ต่อเนื่อง'],
-    risk: ['CEO transition: Cook → Ternus ก.ย. 2026 = key person risk ระยะสั้น', 'China revenue 18% ของ total — BYD/Huawei competition + trade war risk', 'iPhone cycle maturity — upgrades ช้าลงทุกปี', 'EU DMA บังคับ open App Store = Services revenue กระทบ', 'MoS เพียง 9.3% จาก FV $215 — ยังสูงเกินไปสำหรับ entry ที่ conservative'],
-    updated: '2026-08-25'
-  },
   IREN: {
     name: 'IREN Limited', sector: 'AI Cloud', sectorSlug: 'aicloud',
     chips: ['AI Cloud', 'Data Center Infrastructure'],
@@ -364,6 +351,19 @@ const STOCKS_INLINE = {
     bull: ['Q3 FY2026 Revenue $5.95B +251% YoY, Non-GAAP Gross Margin 78.4% ทะลุ guidance มาก (memory supercycle)', 'Datacenter segment โต +645% YoY จาก enterprise SSD สำหรับ AI workloads', 'Net cash position — จ่ายหนี้หมดแล้ว (Long-term debt = $0) หลัง spin-off จาก WDC', 'Non-GAAP EPS $23.41 ไตรมาสเดียว เกิน guidance มาก = operating leverage สูงมากในช่วง upcycle', 'NAND flash supply chain oligopoly (Flash Ventures JV กับ Kioxia) = barrier to entry สูง'],
     risk: ['Memory เป็น commodity cyclical — margin พุ่งแรงตอน upcycle แต่มีความเสี่ยง downcycle รุนแรง (เหมือน MU)', 'Bit shipments flat YoY, down high-teens QoQ — สะสม inventory รอ product ใหม่ (BiCS8 QLC)', 'พึ่งพา Kioxia JV เกือบทั้งหมดสำหรับ flash supply — ไม่ควบคุม manufacturing เอง', 'Valuation reflect upcycle sentiment มาก — Lynch peak signal risk คล้ายที่เจอใน MU/SKHY', 'Consumer segment หดตัว QoQ ตาม seasonality'],
     updated: '2026-08-29'
+  },
+  AAPL: {
+    name: 'Apple Inc.', sector: 'Big Tech', sectorSlug: 'bigtech',
+    chips: ['Big Tech', 'Consumer Electronics + Services'],
+    action: 'watch', actionLabel: 'Watch', conviction: 2,
+    waf: 5.78, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 319.97, fv: 272, mos: -17.64, fpe: 33.79, peg: 3.884,
+    scores: { bq: [9.5,'green',95], gp: [6.0,'orange',60], va: [1.5,'orange',15], ra: [5.0,'orange',50] },
+    story_gate: { passed: true, status: 'PASS', tier: '🏛️ Inevitable', tier_slug: 'inevitable', what: 'Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง', why: 'Consensus เห็น FY2026 เป็นปี supercycle (revenue +14.6%, Q3 EPS +28.7%, Greater China +22-38%) และให้ multiple ตามนั้น — สิ่งที่ Warren เห็นต่างคือ **ตัวจำกัดกำไรรอบหน้าไม่ใช่ demand แต่เป็นต้นทุน**: CFO บอกเองว่าต้นทุน memory จะสูงขึ้นอีกใน Q4 และ benefit จาก carry-in inventory "จะลดลงหลังเดือน ก.ย." พร้อมกับที่ Tim Cook ยอมรับว่าคอขวดคือ advanced-node SoC capacity — แปลว่า FY2027 จะเจอ margin headwind ที่ราคาปัจจุบัน (32× forward บนอัตราโต 8.7%) ยังไม่ได้คิดเผื่อ', risk: 'Services growth กลับมาเร่งเหนือ 15% ต่อเนื่อง 2 ไตรมาส **หรือ** Siri/Gemini generation ทำให้ iPhone upgrade cycle สั้นลงจริงจนรายได้โตกลับเป็นเลขสองหลักต่อเนื่อง = สมมติฐานเรื่อง "โตช้าลงถาวร" ของ Warren ผิด **หรือ (เพิ่ม 09-05)** CEO transition ใหม่ (Cook→Ternus) นำไปสู่การเปลี่ยนกลยุทธ์ capital allocation/M&A ที่ไม่ rational เหมือนยุค Cook', updated: '2026-09-05' },
+    idea: '',
+    bull: ['Services segment $108B ARR growing 14%+ YoY, GM 75% = margin engine', '2.5B+ installed base สร้าง ecosystem lock-in ที่แทบเป็นไปไม่ได้จะออก', 'Apple Silicon M-series = performance/efficiency gap ยังกว้างขึ้น', 'Apple Intelligence on-device AI = privacy differentiator vs cloud AI', 'Buyback $110B+ per year = EPS accretion ต่อเนื่อง'],
+    risk: ['CEO transition: Cook → Ternus ก.ย. 2026 = key person risk ระยะสั้น', 'China revenue 18% ของ total — BYD/Huawei competition + trade war risk', 'iPhone cycle maturity — upgrades ช้าลงทุกปี', 'EU DMA บังคับ open App Store = Services revenue กระทบ', 'MoS เพียง 9.3% จาก FV $215 — ยังสูงเกินไปสำหรับ entry ที่ conservative'],
+    updated: '2026-09-05'
   },
   TSLA: {
     name: 'Tesla Inc.', sector: 'Consumer', sectorSlug: 'consumer',

@@ -259,14 +259,14 @@
     "action": "hold",
     "actionLabel": "Hold",
     "conviction": 4,
-    "waf": 8.1,
+    "waf": 7.95,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 410.12,
+    "price": 428.91,
     "fv": 411,
-    "mos": 0.21,
-    "fpe": 19.97,
-    "peg": 1.0,
+    "mos": -4.36,
+    "fpe": 20.88,
+    "peg": 1.04,
     "scores": {
       "bq": [
         9.5,
@@ -279,9 +279,9 @@
         95
       ],
       "va": [
-        6.3,
+        5.7,
         "orange",
-        63
+        57
       ],
       "ra": [
         5.5,
@@ -290,11 +290,11 @@
       ]
     },
     "idea": "chokepoint ที่ทุกชิป AI ต้องผ่าน — ธุรกิจเร่งขึ้นจริง แต่ราคายืนเหนือ FV base เล็กน้อยเป็นรอบที่ 3 ติดต่อกัน; ถือได้ ไม่เติม",
-    "updated": "2026-08-25",
+    "updated": "2026-09-05",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-25",
+      "updated": "2026-09-05",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.",
@@ -403,14 +403,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 3,
-    "waf": 7.15,
+    "waf": 7.23,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 348.06,
+    "price": 338.46,
     "fv": 320,
-    "mos": -8.77,
-    "fpe": 25.48,
-    "peg": 2.123,
+    "mos": -5.77,
+    "fpe": 24.78,
+    "peg": 2.065,
     "scores": {
       "bq": [
         9.5,
@@ -423,9 +423,9 @@
         85
       ],
       "va": [
-        3.7,
+        4.0,
         "orange",
-        37
+        40
       ],
       "ra": [
         5.5,
@@ -434,11 +434,11 @@
       ]
     },
     "idea": "",
-    "updated": "2026-08-25",
+    "updated": "2026-09-05",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-25",
+      "updated": "2026-09-05",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Alphabet เป็นเจ้าของช่องทางค้นหาข้อมูลของโลก (Search + YouTube + Android) และเป็นบริษัทเดียวในธีม AI ที่ครบทั้ง stack ตั้งแต่ชิปของตัวเอง (TPU) ถึงโมเดล (Gemini) ถึงคลาวด์ที่ขายให้คนอื่น — ชนะเพราะ distribution ที่ผูกไว้แล้วบวก vertical integration ที่คู่แข่งต้องซื้อจากคนอื่นทุกชั้น",
@@ -478,9 +478,9 @@
     "waf": 7.08,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 266.43,
+    "price": 258.51,
     "fv": 231,
-    "mos": -15.34,
+    "mos": -11.91,
     "fpe": null,
     "peg": null,
     "scores": {
@@ -495,22 +495,22 @@
         85
       ],
       "va": [
-        4.3,
+        4.6,
         "orange",
-        43
+        46
       ],
       "ra": [
-        5.0,
+        4.5,
         "orange",
-        50
+        45
       ]
     },
-    "idea": "Price-only recompute — MoS worsens slightly (-13.45%->-15.34%) as price rose +1.66%. Position held ($ invested) -> HOLD per Fisher discipline, not a sell signal. No fundamental change.",
-    "updated": "2026-08-29",
+    "idea": "Price-only recompute + new regulatory risk noted — MoS improves slightly (-15.34%->-11.91%) as price fell, offset by RA cut for new FTC ad-auction lawsuit. Position held ($ invested) -> HOLD per Fisher discipline, not a sell signal. No fundamental change to AWS/Trainium thesis.",
+    "updated": "2026-09-05",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-29",
+      "updated": "2026-09-05",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "Amazon เป็นเจ้าของโครงสร้างพื้นฐาน 2 ชั้นที่คนอื่นสร้างตามไม่ทัน — AWS (cloud #1 ของโลก, op margin 39.4%) และเครือข่าย fulfillment/logistics ที่ทำให้ retail + advertising ($19.8B/ไตรมาส, +26%) ทำกำไรได้ — ชนะด้วย scale ที่ทบต้นมา 30 ปี",
@@ -895,78 +895,6 @@
     },
     "tier": "🚀 Pre-Inevitable"
   },
-  "AAPL": {
-    "symbol": "AAPL",
-    "display": "AAPL",
-    "category": "big_tech",
-    "name": "Apple Inc.",
-    "sector": "Big Tech",
-    "sectorSlug": "bigtech",
-    "chips": [
-      "Big Tech",
-      "Consumer Electronics + Services"
-    ],
-    "bull": [
-      "Services segment $108B ARR growing 14%+ YoY, GM 75% = margin engine",
-      "2.5B+ installed base สร้าง ecosystem lock-in ที่แทบเป็นไปไม่ได้จะออก",
-      "Apple Silicon M-series = performance/efficiency gap ยังกว้างขึ้น",
-      "Apple Intelligence on-device AI = privacy differentiator vs cloud AI",
-      "Buyback $110B+ per year = EPS accretion ต่อเนื่อง"
-    ],
-    "risk": [
-      "CEO transition: Cook → Ternus ก.ย. 2026 = key person risk ระยะสั้น",
-      "China revenue 18% ของ total — BYD/Huawei competition + trade war risk",
-      "iPhone cycle maturity — upgrades ช้าลงทุกปี",
-      "EU DMA บังคับ open App Store = Services revenue กระทบ",
-      "MoS เพียง 9.3% จาก FV $215 — ยังสูงเกินไปสำหรับ entry ที่ conservative"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 5.98,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 310.34,
-    "fv": 272,
-    "mos": -14.1,
-    "fpe": 32.77,
-    "peg": 3.767,
-    "scores": {
-      "bq": [
-        9.5,
-        "green",
-        95
-      ],
-      "gp": [
-        6.0,
-        "orange",
-        60
-      ],
-      "va": [
-        2.0,
-        "orange",
-        20
-      ],
-      "ra": [
-        5.5,
-        "orange",
-        55
-      ]
-    },
-    "idea": "",
-    "updated": "2026-08-25",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-25",
-      "tier": "🏛️ Inevitable",
-      "tier_slug": "inevitable",
-      "what": "Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง",
-      "why": "Consensus เห็น FY2026 เป็นปี supercycle (revenue +14.6%, Q3 EPS +28.7%, Greater China +22-38%) และให้ multiple ตามนั้น — สิ่งที่ Warren เห็นต่างคือ **ตัวจำกัดกำไรรอบหน้าไม่ใช่ demand แต่เป็นต้นทุน**: CFO บอกเองว่าต้นทุน memory จะสูงขึ้นอีกใน Q4 และ benefit จาก carry-in inventory \"จะลดลงหลังเดือน ก.ย.\" พร้อมกับที่ Tim Cook ยอมรับว่าคอขวดคือ advanced-node SoC capacity — แปลว่า FY2027 จะเจอ margin headwind ที่ราคาปัจจุบัน (32× forward บนอัตราโต 8.7%) ยังไม่ได้คิดเผื่อ",
-      "risk": "Services growth กลับมาเร่งเหนือ 15% ต่อเนื่อง 2 ไตรมาส **หรือ** Siri/Gemini generation ทำให้ iPhone upgrade cycle สั้นลงจริงจนรายได้โตกลับเป็นเลขสองหลักต่อเนื่อง = สมมติฐานเรื่อง \"โตช้าลงถาวร\" ของ Warren ผิด"
-    },
-    "tier": "🏛️ Inevitable"
-  },
   "IREN": {
     "symbol": "IREN",
     "display": "IREN",
@@ -1278,6 +1206,78 @@
       "warren_fv": 1700,
       "date": "2026-08-29"
     }
+  },
+  "AAPL": {
+    "symbol": "AAPL",
+    "display": "AAPL",
+    "category": "big_tech",
+    "name": "Apple Inc.",
+    "sector": "Big Tech",
+    "sectorSlug": "bigtech",
+    "chips": [
+      "Big Tech",
+      "Consumer Electronics + Services"
+    ],
+    "bull": [
+      "Services segment $108B ARR growing 14%+ YoY, GM 75% = margin engine",
+      "2.5B+ installed base สร้าง ecosystem lock-in ที่แทบเป็นไปไม่ได้จะออก",
+      "Apple Silicon M-series = performance/efficiency gap ยังกว้างขึ้น",
+      "Apple Intelligence on-device AI = privacy differentiator vs cloud AI",
+      "Buyback $110B+ per year = EPS accretion ต่อเนื่อง"
+    ],
+    "risk": [
+      "CEO transition: Cook → Ternus ก.ย. 2026 = key person risk ระยะสั้น",
+      "China revenue 18% ของ total — BYD/Huawei competition + trade war risk",
+      "iPhone cycle maturity — upgrades ช้าลงทุกปี",
+      "EU DMA บังคับ open App Store = Services revenue กระทบ",
+      "MoS เพียง 9.3% จาก FV $215 — ยังสูงเกินไปสำหรับ entry ที่ conservative"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 5.78,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 319.97,
+    "fv": 272,
+    "mos": -17.64,
+    "fpe": 33.79,
+    "peg": 3.884,
+    "scores": {
+      "bq": [
+        9.5,
+        "green",
+        95
+      ],
+      "gp": [
+        6.0,
+        "orange",
+        60
+      ],
+      "va": [
+        1.5,
+        "orange",
+        15
+      ],
+      "ra": [
+        5.0,
+        "orange",
+        50
+      ]
+    },
+    "idea": "",
+    "updated": "2026-09-05",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-09-05",
+      "tier": "🏛️ Inevitable",
+      "tier_slug": "inevitable",
+      "what": "Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง",
+      "why": "Consensus เห็น FY2026 เป็นปี supercycle (revenue +14.6%, Q3 EPS +28.7%, Greater China +22-38%) และให้ multiple ตามนั้น — สิ่งที่ Warren เห็นต่างคือ **ตัวจำกัดกำไรรอบหน้าไม่ใช่ demand แต่เป็นต้นทุน**: CFO บอกเองว่าต้นทุน memory จะสูงขึ้นอีกใน Q4 และ benefit จาก carry-in inventory \"จะลดลงหลังเดือน ก.ย.\" พร้อมกับที่ Tim Cook ยอมรับว่าคอขวดคือ advanced-node SoC capacity — แปลว่า FY2027 จะเจอ margin headwind ที่ราคาปัจจุบัน (32× forward บนอัตราโต 8.7%) ยังไม่ได้คิดเผื่อ",
+      "risk": "Services growth กลับมาเร่งเหนือ 15% ต่อเนื่อง 2 ไตรมาส **หรือ** Siri/Gemini generation ทำให้ iPhone upgrade cycle สั้นลงจริงจนรายได้โตกลับเป็นเลขสองหลักต่อเนื่อง = สมมติฐานเรื่อง \"โตช้าลงถาวร\" ของ Warren ผิด **หรือ (เพิ่ม 09-05)** CEO transition ใหม่ (Cook→Ternus) นำไปสู่การเปลี่ยนกลยุทธ์ capital allocation/M&A ที่ไม่ rational เหมือนยุค Cook"
+    },
+    "tier": "🏛️ Inevitable"
   },
   "TSLA": {
     "symbol": "TSLA",
