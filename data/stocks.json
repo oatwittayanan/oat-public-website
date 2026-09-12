@@ -27,14 +27,14 @@
     "action": "buy",
     "actionLabel": "Buy",
     "conviction": 5,
-    "waf": 8.75,
+    "waf": 8.78,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 230.36,
+    "price": 218.29,
     "fv": 384,
-    "mos": 40.01,
-    "fpe": 15.01,
-    "peg": 0.5,
+    "mos": 43.15,
+    "fpe": 14.22,
+    "peg": 0.47,
     "scores": {
       "bq": [
         9.5,
@@ -47,9 +47,9 @@
         97
       ],
       "va": [
-        8.9,
+        9.0,
         "green",
-        89
+        90
       ],
       "ra": [
         5.1,
@@ -57,12 +57,12 @@
         51
       ]
     },
-    "idea": "Price/news-only recompute batch — MoS narrows slightly (42.8%->40.01%) as price rose +5.9% since 08-29. Two new 🔴MATERIAL M&A moves (MediaTek $3.5B NVLink Fusion investment 09-01; Hugging Face $13B acquisition 09-04) extend the moat (interconnect standard + open-model distribution) without new revenue/EPS data — treated as strategic reinforcement plus a modest RA increment for cumulative cross-counterparty capital deployment. All 4 gates still pass comfortably.",
-    "updated": "2026-09-05",
+    "idea": "Price + regime-shift recompute — price fell -5.24%, widening the already-wide MoS pass further (40.01%->43.15%). Effective Gate dropped 20%->15% from a VIX regime shift (Calm->Normal) but NVDA was already comfortably past both gates so no action change. TQR synced down slightly to playbook v3 (7.89, still Strong band, same 25% ceiling).",
+    "updated": "2026-09-12",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-09-05",
+      "updated": "2026-09-12",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).",
@@ -104,17 +104,17 @@
       "EU antitrust investigation Teams bundling ยังดำเนินอยู่",
       "CapEx AI infrastructure กด FCF ระยะสั้น 2026-2027"
     ],
-    "action": "hold",
-    "actionLabel": "Hold",
+    "action": "starter",
+    "actionLabel": "Starter",
     "conviction": 4,
-    "waf": 8.23,
+    "waf": 8.4,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 499.7,
+    "price": 495.63,
     "fv": 562,
-    "mos": 11.08,
-    "fpe": 22.4,
-    "peg": 1.25,
+    "mos": 11.81,
+    "fpe": 22.21,
+    "peg": 1.24,
     "scores": {
       "bq": [
         9.5,
@@ -127,9 +127,9 @@
         90
       ],
       "va": [
-        6.5,
+        7.2,
         "amber",
-        65
+        72
       ],
       "ra": [
         7.0,
@@ -137,12 +137,12 @@
         70
       ]
     },
-    "idea": "🟡 **HOLD** — batch 09-05 (price refresh, ไม่มี regime shift) ทำให้ MSFT ขยับเข้าใกล้ threshold เล็กน้อย: ราคาลด $513.53→$499.70 (-2.69%) ⇒ MoS 11.08% ขาด gate 20% อยู่ **8.92 จุด** (ดีขึ้นจาก 11.37 จุด แต่ยังนอกแถบ near-miss 7 จุด). ผ่าน gate อื่นครบ (PEG 1.25 ✓ · ER 20.28% ✓ · WAF 8.23 ✓ · Story Gate PASS ✓) — คุณภาพธุรกิจไม่เปลี่ยน, OpenAI concentration disclosure (08-31) เป็นการยืนยัน risk ที่รู้อยู่แล้วไม่ใช่ข้อมูลใหม่เชิงลบ. MSFT เป็น position ที่ถืออยู่แล้ว ($70 invested) ⇒ HOLD ตาม Fisher discipline, ยังเป็น ADD-candidate คุณภาพสูงสุดในธีมรอ MoS ปิด gap",
-    "updated": "2026-09-05",
+    "idea": "REGIME-SHIFT FLIP — VIX crossed 15 (Calm->Normal) lowering the Effective MoS Gate from 20% to 15%, combined with a small price decline (-0.81%), narrows MSFT's MoS gap from 8.92pt to 3.19pt, entering the STARTER/near-miss band (<=7pt) for the first time this cycle. All other BUY Decision Flow gates already passed (PEG, ER, WAF, Story Gate, Tier). This is driven entirely by market regime, not a business-quality change - flagged prominently for Kim to raise with Oat; actual $ allocation decision belongs to the next /warren portfolio-paper run.",
+    "updated": "2026-09-12",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-09-05",
+      "updated": "2026-09-12",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Microsoft ขายชั้น monetization ของ enterprise AI ผ่าน Azure (+43% YoY ใน Q4 FY2026, guide ~45% CC), GitHub Copilot และ M365 Copilot (30M+ paid seats) บนฐาน distribution ที่ฝังลึกที่สุดในองค์กรทั่วโลก — ชนะเพราะลูกค้าต้องเปลี่ยนทั้ง identity/data/productivity stack พร้อมกันถึงจะย้ายออกได้",
@@ -267,14 +267,14 @@
     "action": "hold",
     "actionLabel": "Hold",
     "conviction": 4,
-    "waf": 7.95,
+    "waf": 7.93,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 428.91,
+    "price": 433.24,
     "fv": 411,
-    "mos": -4.36,
-    "fpe": 20.88,
-    "peg": 1.04,
+    "mos": -5.41,
+    "fpe": 21.09,
+    "peg": 1.05,
     "scores": {
       "bq": [
         9.5,
@@ -287,9 +287,9 @@
         95
       ],
       "va": [
-        5.7,
+        5.6,
         "orange",
-        57
+        56
       ],
       "ra": [
         5.5,
@@ -297,12 +297,12 @@
         55
       ]
     },
-    "idea": "chokepoint ที่ทุกชิป AI ต้องผ่าน — ธุรกิจเร่งขึ้นจริง แต่ราคายืนเหนือ FV base เล็กน้อยเป็นรอบที่ 3 ติดต่อกัน; ถือได้ ไม่เติม",
-    "updated": "2026-09-05",
+    "idea": "Price + regime-shift recompute — 09-11 August monthly revenue +53% YoY confirms existing FY26 guidance ('slightly above 40%') but is not itself a quarterly guidance update, so not used to adjust FV per Revenue-as-Base discipline (avoid chasing monthly seasonality). Price rose +1.01% net widening the MoS fail slightly despite a lower Effective Gate from the VIX regime shift.",
+    "updated": "2026-09-12",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-09-05",
+      "updated": "2026-09-12",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.",
@@ -507,12 +507,12 @@
     "action": "hold",
     "actionLabel": "Hold",
     "conviction": 3,
-    "waf": 7.08,
+    "waf": 7.1,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 258.51,
+    "price": 256.78,
     "fv": 231,
-    "mos": -11.91,
+    "mos": -11.16,
     "fpe": null,
     "peg": null,
     "scores": {
@@ -527,9 +527,9 @@
         85
       ],
       "va": [
-        4.6,
+        1.5,
         "orange",
-        46
+        15
       ],
       "ra": [
         4.5,
@@ -537,12 +537,12 @@
         45
       ]
     },
-    "idea": "Price-only recompute + new regulatory risk noted — MoS improves slightly (-15.34%->-11.91%) as price fell, offset by RA cut for new FTC ad-auction lawsuit. Position held ($ invested) -> HOLD per Fisher discipline, not a sell signal. No fundamental change to AWS/Trainium thesis.",
-    "updated": "2026-09-05",
+    "idea": "Price + regime-shift recompute — FTC ad-auction lawsuit news this batch (09-10/09-11) is re-syndication of the same case already scored 09-05, no further RA cut. Held position, no ADD case at this price (SOTP MoS still fails even after the regime shift).",
+    "updated": "2026-09-12",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-09-05",
+      "updated": "2026-09-12",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "Amazon เป็นเจ้าของโครงสร้างพื้นฐาน 2 ชั้นที่คนอื่นสร้างตามไม่ทัน — AWS (cloud #1 ของโลก, op margin 39.4%) และเครือข่าย fulfillment/logistics ที่ทำให้ retail + advertising ($19.8B/ไตรมาส, +26%) ทำกำไรได้ — ชนะด้วย scale ที่ทบต้นมา 30 ปี",
@@ -587,14 +587,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 3,
-    "waf": 6.81,
+    "waf": 6.86,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 174.33,
+    "price": 167.23,
     "fv": 86,
-    "mos": -102.71,
-    "fpe": 70.87,
-    "peg": 1.65,
+    "mos": -94.45,
+    "fpe": 67.98,
+    "peg": 1.58,
     "scores": {
       "bq": [
         9.0,
@@ -607,9 +607,9 @@
         93
       ],
       "va": [
-        1.8,
+        2.0,
         "orange",
-        18
+        20
       ],
       "ra": [
         5.8,
@@ -617,12 +617,12 @@
         58
       ]
     },
-    "idea": "Price-only recompute — price fell -6.42%, narrowing MoS from -116.6% to -102.7% and PEG from 1.76 to 1.65 (both still fail). Maven Program-of-Record designation is a genuine government-process de-risking event but proposed (not appropriated) funding, so not yet a valuation input. WAF stays marginally above 6.5 but MoS/PEG remain the binding blockers.",
-    "updated": "2026-09-05",
+    "idea": "Price + regime-shift recompute — Fujitsu/Nebius/PwC partnership news this batch are narrative positives, not yet Base-case inputs. MoS/PEG both improved slightly on the price pullback and lower Effective Gate but remain far outside any near-miss band — MoS is binding per Step 5.5, ER cannot substitute.",
+    "updated": "2026-09-12",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-09-05",
+      "updated": "2026-09-12",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "Palantir's AIP platform + Ontology converts enterprise/government data into production AI decisions within days — a capability hyperscalers (MSFT/GOOGL/AMZN) cannot replicate because they lack operational context and workflow depth. Q2 2026 adds an \"AI Sovereignty\" framing: customers own the weights/models/data instead of feeding frontier-lab APIs.",
@@ -871,78 +871,6 @@
       "date": "2026-09-05"
     }
   },
-  "IREN": {
-    "symbol": "IREN",
-    "display": "IREN",
-    "category": "ai_cloud",
-    "name": "IREN Limited",
-    "sector": "AI Cloud",
-    "sectorSlug": "aicloud",
-    "chips": [
-      "AI Cloud",
-      "Data Center Infrastructure"
-    ],
-    "bull": [
-      "เปลี่ยนโมเดลจาก Bitcoin Mining สู่ AI Cloud — ARR under contract $3.1B รวมสัญญา NVIDIA 5 ปี + Microsoft $9.7B/5ปี",
-      "Vertically integrated เป็นเจ้าของ data center/ที่ดิน/electrical infra เอง (ไม่เช่า) = cost advantage",
-      "Secured power 5GW ทั่วโลก, 2026 target 480MW AI Cloud capacity + 150,000 GPUs",
-      "NVIDIA strategic partnership — right to invest สูงสุด $2.1B ผูกกับ milestone deploy 600,000 GPU",
-      "FY2025 กำไรครั้งแรก Net Income $86.9M, Cash $2.6B (ณ เม.ย. 2026)"
-    ],
-    "risk": [
-      "Net Loss Q3 FY2026 $(247.8)M จาก impairment ตอน decommission mining hardware",
-      "Capital intensity สูงมาก CapEx ~$1.5B ต่อไตรมาส ต้องพึ่ง debt/equity ต่อเนื่อง — Convertible Notes $3.7B",
-      "Revenue ผันผวนตามราคา Bitcoin (mining ยังเป็นสัดส่วนใหญ่กว่า AI Cloud ปัจจุบัน)",
-      "Co-CEO พี่น้อง Roberts คุม voting power 35.4% ผ่าน Class B = control concentration",
-      "Mirantis acquisition เพิ่งเสร็จ พ.ค. 2026 ยังต้องพิสูจน์ integration"
-    ],
-    "action": "avoid",
-    "actionLabel": "Avoid",
-    "conviction": 2,
-    "waf": 5.98,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 35.45,
-    "fv": 47,
-    "mos": 24.57,
-    "fpe": null,
-    "peg": null,
-    "scores": {
-      "bq": [
-        5.0,
-        "orange",
-        50
-      ],
-      "gp": [
-        8.0,
-        "green",
-        80
-      ],
-      "va": [
-        6.5,
-        "amber",
-        65
-      ],
-      "ra": [
-        3.0,
-        "orange",
-        30
-      ]
-    },
-    "idea": "⚠️ Notable finding: raw MoS crosses the gate (+24.57%) on the -39.0% price decline against a carried-forward FV. Two independent gates still block BUY: (1) TQR Out band (ceiling 0%) terminates the BUY Decision Flow at Step 1.5 before MoS is checked; (2) WAF 5.98 independently fails the ≥6.5 threshold (Step 5). Business quality has not improved — a fresh $639M impairment this batch is the opposite signal. This is logged as a cross-check that the TQR gate works independently of price, mirroring the cyclical peak-EPS discipline.",
-    "updated": "2026-08-29",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-29",
-      "tier": "⚠️ Speculative",
-      "tier_slug": "speculative",
-      "what": "IREN เปลี่ยนจาก Bitcoin miner เป็น AI Cloud provider โดยใช้ความได้เปรียบจาก vertically-integrated land/power/data-center ที่สั่งสมมา 7 ปี — ชนะด้วย freehold ownership (ไม่เช่า) ที่ให้ cost advantage เหนือ neocloud ที่พึ่ง third-party hosting",
-      "why": "Consensus เห็นว่า IREN คือ \"Bitcoin miner ที่กำลัง pivot สู่ AI\" — Warren เห็นต่างว่าตลาดยังไม่แยกแยะว่า IREN มี **กำไรสุทธิจริงครั้งแรก** (FY2025 $86.9M) และ secured power 5GW ที่ใหญ่กว่าคู่แข่ง pivot เดียวกันหลายเท่า แต่ราคาตลาดกำลัง price-in การ execute สำเร็จเต็มที่ทั้งที่ Microsoft/NVIDIA contract เพิ่งเริ่ม ramp และ impairment จาก decommission mining hardware ยังกัดกินงบต่อเนื่อง",
-      "risk": "ถ้า margin ของ AI Cloud Services ไม่ inflect ตามคาดหลัง Microsoft contract เริ่ม ramp (Q3 CY26/Q1 FY27) หรือ impairment เพิ่มเติมจากการเปลี่ยนผ่าน Bitcoin→AI เกินกว่าที่ตลาดคาด"
-    },
-    "tier": "⚠️ Speculative"
-  },
   "MU": {
     "symbol": "MU",
     "display": "MU",
@@ -1014,78 +942,6 @@
       "warren_fv": 262,
       "date": "2026-09-05"
     }
-  },
-  "CRWV": {
-    "symbol": "CRWV",
-    "display": "CRWV",
-    "category": "ai_cloud",
-    "name": "CoreWeave, Inc.",
-    "sector": "AI Cloud",
-    "sectorSlug": "aicloud",
-    "chips": [
-      "AI Cloud",
-      "GPU-as-a-Service"
-    ],
-    "bull": [
-      "Revenue Backlog $99.4B (+284% YoY) จาก multi-year take-or-pay contracts = revenue visibility ยาวหลายปี",
-      "Q1 FY2026 Revenue $2.08B +112% YoY, Adjusted EBITDA margin 56%",
-      "First-to-market กับ GPU generation ใหม่ (NVIDIA GB200/GB300, Rubin) — SemiAnalysis ClusterMAX Platinum รายเดียว",
-      "FY2026 exit annualized run-rate revenue floor $18-19B, 2027 exit >$30B (75%+ contracted แล้ว)",
-      "Purpose-built AI cloud architecture ต่างจาก general-purpose hyperscaler — ได้เปรียบด้าน density/latency"
-    ],
-    "risk": [
-      "ขาดทุนสุทธิเพิ่มต่อเนื่อง Q1 FY26 Net Loss $(740)M, Total Debt $25.1B — leverage สูงมาก",
-      "CapEx FY2026 ปรับขึ้นเป็น $31-35B กด FCF ต่อเนื่องหลายปี",
-      "Customer concentration risk — พึ่งพา hyperscaler/AI lab รายใหญ่บางราย",
-      "GPU commoditization — ลูกค้าซื้อตรงจาก NVIDIA ได้ MOAT อยู่ที่ speed-to-deploy มากกว่า hardware",
-      "Insider selling pattern จาก co-founders + CFO (Rule 10b5-1 plans พ.ย. 2025)"
-    ],
-    "action": "avoid",
-    "actionLabel": "Avoid",
-    "conviction": 2,
-    "waf": 5.88,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 84.23,
-    "fv": 77,
-    "mos": -9.39,
-    "fpe": null,
-    "peg": null,
-    "scores": {
-      "bq": [
-        6.0,
-        "orange",
-        60
-      ],
-      "gp": [
-        8.5,
-        "green",
-        85
-      ],
-      "va": [
-        4.3,
-        "orange",
-        43
-      ],
-      "ra": [
-        3.0,
-        "orange",
-        30
-      ]
-    },
-    "idea": "Price + qualitative update, not a full rebuild. MoS improves dramatically (-49.6%->-9.39%) purely on the -26.9% price decline; FV carried forward. TQR Out band (0% ceiling, per AI-Revolution.md v2 08-27) stops the BUY Decision Flow at Step 1.5 regardless — quality signal is improving (backlog, pricing) but not yet enough to change tier/TQR band. Recommend /mark-research full refresh given genuine Q2 print since last full analysis.",
-    "updated": "2026-08-29",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-08-29",
-      "tier": "⚠️ Speculative",
-      "tier_slug": "speculative",
-      "what": "CoreWeave ให้เช่า GPU cloud capacity เฉพาะทาง AI (training/inference) ผ่านสัญญา multi-year take-or-pay — ชนะด้วยความเร็ว deploy GPU generation ใหม่ก่อนใคร (NVIDIA Exemplar Cloud status) และ relationship พิเศษกับ NVIDIA ($2B equity investment)",
-      "why": "Consensus เห็นว่า CoreWeave คือ \"neocloud leader ที่มี backlog ใหญ่สุด ($99.4B)\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ความเสี่ยงที่ gross margin ลดลงต่อเนื่อง 5 ไตรมาส (78%→68%) ขณะที่ debt โต $21.6B→$25.1B ภายในไตรมาสเดียว และ customer concentration (top 2 = 65% รายได้) หมายความว่า backlog ใหญ่ส่วนหนึ่งผูกกับ counterparty risk ของ AI lab ที่ยังไม่ profitable เอง",
-      "risk": "ถ้า margin ไม่ inflect ตามที่สัญญาไว้ (Q2→Q3 FY2026) หรือลูกค้ารายใหญ่ (OpenAI/Meta) ลด commitment ระหว่างทาง credit market จะ re-price debt ของ CoreWeave ทันที เพราะ business model พึ่งพา debt-financed capacity ที่ยังไม่พิสูจน์ unit economics ที่ scale นี้"
-    },
-    "tier": "⚠️ Speculative"
   },
   "SPCX": {
     "symbol": "SPCX",
@@ -1167,6 +1023,78 @@
       "date": "2026-09-05"
     }
   },
+  "CRWV": {
+    "symbol": "CRWV",
+    "display": "CRWV",
+    "category": "ai_cloud",
+    "name": "CoreWeave, Inc.",
+    "sector": "AI Cloud",
+    "sectorSlug": "aicloud",
+    "chips": [
+      "AI Cloud",
+      "GPU-as-a-Service"
+    ],
+    "bull": [
+      "Revenue Backlog $99.4B (+284% YoY) จาก multi-year take-or-pay contracts = revenue visibility ยาวหลายปี",
+      "Q1 FY2026 Revenue $2.08B +112% YoY, Adjusted EBITDA margin 56%",
+      "First-to-market กับ GPU generation ใหม่ (NVIDIA GB200/GB300, Rubin) — SemiAnalysis ClusterMAX Platinum รายเดียว",
+      "FY2026 exit annualized run-rate revenue floor $18-19B, 2027 exit >$30B (75%+ contracted แล้ว)",
+      "Purpose-built AI cloud architecture ต่างจาก general-purpose hyperscaler — ได้เปรียบด้าน density/latency"
+    ],
+    "risk": [
+      "ขาดทุนสุทธิเพิ่มต่อเนื่อง Q1 FY26 Net Loss $(740)M, Total Debt $25.1B — leverage สูงมาก",
+      "CapEx FY2026 ปรับขึ้นเป็น $31-35B กด FCF ต่อเนื่องหลายปี",
+      "Customer concentration risk — พึ่งพา hyperscaler/AI lab รายใหญ่บางราย",
+      "GPU commoditization — ลูกค้าซื้อตรงจาก NVIDIA ได้ MOAT อยู่ที่ speed-to-deploy มากกว่า hardware",
+      "Insider selling pattern จาก co-founders + CFO (Rule 10b5-1 plans พ.ย. 2025)"
+    ],
+    "action": "avoid",
+    "actionLabel": "Avoid",
+    "conviction": 2,
+    "waf": 5.75,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 88.99,
+    "fv": 77,
+    "mos": -15.57,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        6.0,
+        "orange",
+        60
+      ],
+      "gp": [
+        8.5,
+        "green",
+        85
+      ],
+      "va": [
+        3.8,
+        "orange",
+        38
+      ],
+      "ra": [
+        3.0,
+        "orange",
+        30
+      ]
+    },
+    "idea": "Price + qualitative refresh, TQR band change synced from playbook (Out->Peripheral) but no action change since WAF (5.75, LOW) independently fails the Step 5 gate. Demand-exceeds-supply news this batch (09-10/09-11) reinforces the existing thesis with no new figures.",
+    "updated": "2026-09-12",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-09-12",
+      "tier": "⚠️ Speculative",
+      "tier_slug": "speculative",
+      "what": "CoreWeave ให้เช่า GPU cloud capacity เฉพาะทาง AI (training/inference) ผ่านสัญญา multi-year take-or-pay — ชนะด้วยความเร็ว deploy GPU generation ใหม่ก่อนใคร (NVIDIA Exemplar Cloud status) และ relationship พิเศษกับ NVIDIA ($2B equity investment)",
+      "why": "Consensus เห็นว่า CoreWeave คือ \"neocloud leader ที่มี backlog ใหญ่สุด ($99.4B)\" — Warren เห็นต่างว่าตลาดยังไม่ price-in ความเสี่ยงที่ gross margin ลดลงต่อเนื่อง 5 ไตรมาส (78%→68%) ขณะที่ debt โต $21.6B→$25.1B ภายในไตรมาสเดียว และ customer concentration (top 2 = 65% รายได้) หมายความว่า backlog ใหญ่ส่วนหนึ่งผูกกับ counterparty risk ของ AI lab ที่ยังไม่ profitable เอง",
+      "risk": "ถ้า margin ไม่ inflect ตามที่สัญญาไว้ (Q2→Q3 FY2026) หรือลูกค้ารายใหญ่ (OpenAI/Meta) ลด commitment ระหว่างทาง credit market จะ re-price debt ของ CoreWeave ทันที เพราะ business model พึ่งพา debt-financed capacity ที่ยังไม่พิสูจน์ unit economics ที่ scale นี้"
+    },
+    "tier": "⚠️ Speculative"
+  },
   "AAPL": {
     "symbol": "AAPL",
     "display": "AAPL",
@@ -1195,14 +1123,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 2,
-    "waf": 5.78,
+    "waf": 5.7,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 319.97,
+    "price": 332.27,
     "fv": 272,
-    "mos": -17.64,
-    "fpe": 33.79,
-    "peg": 3.884,
+    "mos": -22.16,
+    "fpe": 35.09,
+    "peg": 4.03,
     "scores": {
       "bq": [
         9.5,
@@ -1215,22 +1143,22 @@
         60
       ],
       "va": [
-        1.5,
+        1.3,
         "orange",
-        15
+        13
       ],
       "ra": [
-        5.0,
-        "orange",
-        50
+        7.0,
+        "amber",
+        70
       ]
     },
-    "idea": "",
-    "updated": "2026-09-05",
+    "idea": "Price + regime-shift recompute — CEO transition news this batch is re-syndication of the 09-01 event already assessed 09-05; foldable iPhone (09-09) is a product rumor with no guidance figures. Both gates fail worse this batch (price +3.84%) despite a lower Effective Gate from the regime shift.",
+    "updated": "2026-09-12",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-09-05",
+      "updated": "2026-09-12",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง",
@@ -1326,6 +1254,78 @@
       "warren_fv": 290,
       "date": "2026-09-05"
     }
+  },
+  "IREN": {
+    "symbol": "IREN",
+    "display": "IREN",
+    "category": "ai_cloud",
+    "name": "IREN Limited",
+    "sector": "AI Cloud",
+    "sectorSlug": "aicloud",
+    "chips": [
+      "AI Cloud",
+      "Data Center Infrastructure"
+    ],
+    "bull": [
+      "เปลี่ยนโมเดลจาก Bitcoin Mining สู่ AI Cloud — ARR under contract $3.1B รวมสัญญา NVIDIA 5 ปี + Microsoft $9.7B/5ปี",
+      "Vertically integrated เป็นเจ้าของ data center/ที่ดิน/electrical infra เอง (ไม่เช่า) = cost advantage",
+      "Secured power 5GW ทั่วโลก, 2026 target 480MW AI Cloud capacity + 150,000 GPUs",
+      "NVIDIA strategic partnership — right to invest สูงสุด $2.1B ผูกกับ milestone deploy 600,000 GPU",
+      "FY2025 กำไรครั้งแรก Net Income $86.9M, Cash $2.6B (ณ เม.ย. 2026)"
+    ],
+    "risk": [
+      "Net Loss Q3 FY2026 $(247.8)M จาก impairment ตอน decommission mining hardware",
+      "Capital intensity สูงมาก CapEx ~$1.5B ต่อไตรมาส ต้องพึ่ง debt/equity ต่อเนื่อง — Convertible Notes $3.7B",
+      "Revenue ผันผวนตามราคา Bitcoin (mining ยังเป็นสัดส่วนใหญ่กว่า AI Cloud ปัจจุบัน)",
+      "Co-CEO พี่น้อง Roberts คุม voting power 35.4% ผ่าน Class B = control concentration",
+      "Mirantis acquisition เพิ่งเสร็จ พ.ค. 2026 ยังต้องพิสูจน์ integration"
+    ],
+    "action": "avoid",
+    "actionLabel": "Avoid",
+    "conviction": 2,
+    "waf": 5.35,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 43.83,
+    "fv": 47,
+    "mos": 6.74,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        5.0,
+        "orange",
+        50
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        4.0,
+        "orange",
+        40
+      ],
+      "ra": [
+        3.0,
+        "orange",
+        30
+      ]
+    },
+    "idea": "Price refresh only, time-trigger re-check with no new news. Price rebounded +23.6% from the impairment-driven sell-off, reversing the prior batch's numerically-positive MoS reading (+24.6%) back to below gate (+6.74%) - confirms that reading was price noise, not a quality signal. TQR Out band and WAF<6.5 both independently continue to block BUY.",
+    "updated": "2026-09-12",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-09-12",
+      "tier": "⚠️ Speculative",
+      "tier_slug": "speculative",
+      "what": "IREN เปลี่ยนจาก Bitcoin miner เป็น AI Cloud provider โดยใช้ความได้เปรียบจาก vertically-integrated land/power/data-center ที่สั่งสมมา 7 ปี — ชนะด้วย freehold ownership (ไม่เช่า) ที่ให้ cost advantage เหนือ neocloud ที่พึ่ง third-party hosting",
+      "why": "Consensus เห็นว่า IREN คือ \"Bitcoin miner ที่กำลัง pivot สู่ AI\" — Warren เห็นต่างว่าตลาดยังไม่แยกแยะว่า IREN มี **กำไรสุทธิจริงครั้งแรก** (FY2025 $86.9M) และ secured power 5GW ที่ใหญ่กว่าคู่แข่ง pivot เดียวกันหลายเท่า แต่ราคาตลาดกำลัง price-in การ execute สำเร็จเต็มที่ทั้งที่ Microsoft/NVIDIA contract เพิ่งเริ่ม ramp และ impairment จาก decommission mining hardware ยังกัดกินงบต่อเนื่อง",
+      "risk": "ถ้า margin ของ AI Cloud Services ไม่ inflect ตามคาดหลัง Microsoft contract เริ่ม ramp (Q3 CY26/Q1 FY27) หรือ impairment เพิ่มเติมจากการเปลี่ยนผ่าน Bitcoin→AI เกินกว่าที่ตลาดคาด"
+    },
+    "tier": "⚠️ Speculative"
   },
   "SNDK": {
     "symbol": "SNDK",
@@ -1435,12 +1435,12 @@
     "action": "avoid",
     "actionLabel": "Avoid",
     "conviction": 2,
-    "waf": 5.17,
+    "waf": 5.0,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 209.18,
+    "price": 224.55,
     "fv": 132,
-    "mos": -58.47,
+    "mos": -70.11,
     "fpe": null,
     "peg": null,
     "scores": {
@@ -1455,9 +1455,9 @@
         85
       ],
       "va": [
-        3.0,
+        2.3,
         "orange",
-        30
+        23
       ],
       "ra": [
         2.5,
@@ -1465,12 +1465,12 @@
         25
       ]
     },
-    "idea": "Price + qualitative update, not a full rebuild. MoS improves (-112.8%->-58.47%) on the price decline; FV carried forward. TQR Out band (0% ceiling, per AI-Revolution.md v2 08-27) stops the BUY Decision Flow at Step 1.5. New $4.5B convertible debt raise adds leverage risk on top of existing governance red flags. Recommend /mark-research full refresh.",
-    "updated": "2026-08-29",
+    "idea": "Price + qualitative refresh — Palantir partnership (09-11) is a genuine business-durability positive (customer diversification away from Yandex-legacy concentration) but not yet quantifiable. MoS worsened from the price rebound (+7.35%). TQR Out band continues to block BUY at Step 1.5 regardless of price.",
+    "updated": "2026-09-12",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-08-29",
+      "updated": "2026-09-12",
       "tier": "⚠️ Speculative",
       "tier_slug": "speculative",
       "what": "Nebius เป็น full-stack AI-native cloud (hardware design เองถึง software) สำหรับ training/inference — ชนะด้วย NVIDIA strategic alignment (Exemplar Cloud status, $2B equity investment) และ owned-infrastructure ratio สูง (>75%)",

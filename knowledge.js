@@ -12,7 +12,9 @@ window.STOCK_KNOWLEDGE = {
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+
+**2026-09-12 update (news + regime-shift refresh, /warren watchlist):** ข่าว 🔴MATERIAL หลัง gate 09-05 (09-09 "foldable iPhone $2,000 เปิดตัวทางการ", 09-07/09-03/09-02/09-01 CEO transition ซ้ำ) — WebSearch cross-check: ข่าว CEO transition (Ternus เข้ารับตำแหน่ง) เป็น**การรายงานซ้ำของเหตุการณ์ 09-01 เดิม**ที่วิเคราะห์ผลกระทบไปแล้วในรอบ 09-05 (ไม่กระทบ Tier เพิ่มเติม); foldable iPhone เป็น **product rumor** (ยังไม่เปิดตัวจริง, ไม่มีตัวเลขราคา/หน่วยขาย guidance) ไม่ใช่ Base-case input. **Regime-Shift Flag (Step 3.7ค):** VIX ข้าม 15 → Calm→Normal, Effective MoS Gate 20%→**15%** — ไม่พอปิด gap ของ AAPL (MoS ติดลบหนักอยู่แล้ว ไม่เข้าใกล้ threshold). ราคา $319.97(09-05)→**$332.27** (prices_cache.json, +3.84%) — price-only recompute, FV $272 carried forward unchanged. TQR sync จาก playbook **v3 (2026-09-06)**: **7.05** (ไม่เปลี่ยน — พิจารณา CEO transition แล้วว่าไม่กระทบตำแหน่งธีม) → 🥈 Strong, ceiling 25%. Thesis/Tier ไม่เปลี่ยน — ไม่มี tier change รอบนี้
 
 **WHAT:** Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง
 
@@ -27,9 +29,9 @@ window.STOCK_KNOWLEDGE = {
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $319.97  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $332.27  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
 
-> 🔄 **Price refresh only — EPS/multiple/FV carried forward จาก 08-15 (ไม่มี earnings ใหม่ Q4 FY2026 ยังไม่ถึงกำหนด, คาด ~ปลาย ต.ค./พ.ย. 2026).** ราคาขยับ $310.34→$319.97 (+3.10%) → ทุก gate ยังคง FAIL เหมือนเดิม (แย่ลง). ข่าวสำคัญรอบนี้คือ **CEO transition (Cook→Ternus, 09-01)** — ดู \`## Story Gate\` สำหรับผลกระทบ ไม่กระทบตัวเลข FV โดยตรงแต่เพิ่ม RA เล็กน้อยจาก execution uncertainty ระยะสั้น
+> 🔄 **Price + regime-shift refresh — EPS/multiple/FV carried forward จาก 08-15 (ไม่มี earnings ใหม่ Q4 FY2026 ยังไม่ถึงกำหนด, คาด ~ปลาย ต.ค./พ.ย. 2026).** ราคาขยับ $319.97→$332.27 (+3.84%) → ทุก gate ยังคง FAIL เหมือนเดิม (แย่ลงต่อ). ข่าวรอบนี้ (CEO transition ซ้ำ, foldable iPhone rumor) ไม่มีตัวเลขใหม่ที่กระทบ FV — ดู \`## Story Gate\`. Effective MoS Gate ลด 20%→15% (regime shift Calm→Normal) แต่ไม่พอปิด gap ที่ลึกอยู่แล้ว
 
 > ⚠️ **ไม่ทำ Products/Services SOTP** — การ์ด 08-13 บันทึกว่า Diagnostic Q1 flag ให้ทำ SOTP แต่โอ๊ตถอย Diagnostic Q1-Q5 ออกจากระบบแล้ว และ Products/Services **พึ่งพากันเอง** (Services เกิดได้เพราะ installed base ของ Products) การแยกประเมินจะ double-count moat เดียวกัน — ไม่เข้าเงื่อนไข "economics ต่างกันสุดขั้ว"
 
@@ -70,30 +72,32 @@ window.STOCK_KNOWLEDGE = {
 | **Bear** | $8.45 (revenue $495B +3.8%, margin 24.5% memory cost bite) | 24× | **$203** | 25% |
 
 **Fair Value Base:** $272
-**ราคาปัจจุบัน:** $319.97
-**Margin of Safety:** **−17.64%** = ($272 − $319.97) ÷ $272 → ✗ **ติดลบ** (ราคาสูงกว่ามูลค่า, แย่ลงจาก −14.10%)
-**Forward P/E:** 33.79× = $319.97 ÷ $9.47
-**PEG:** **3.88** = 33.79 ÷ 8.7 → ✗ **เกิน cap 1.5 กว่าเท่าตัว**
-**Expected Return (5 ปี):** **5.5%/ปี** = convergence −3.2% + growth 8.7% → ✗ ต่ำกว่าทั้ง gate 15% และเส้น 10% ที่ "แพ้ QQQM ชัดเจน"
+**ราคาปัจจุบัน:** $332.27
+**Margin of Safety:** **−22.16%** = ($272 − $332.27) ÷ $272 → ✗ **ติดลบ** (ราคาสูงกว่ามูลค่า, แย่ลงจาก −17.64%)
+**Forward P/E:** 35.09× = $332.27 ÷ $9.47
+**PEG:** **4.03** = 35.09 ÷ 8.7 → ✗ **เกิน cap 1.5 กว่าเท่าตัว**
+**Expected Return (5 ปี):** **4.78%/ปี** = convergence −3.92% + growth 8.7% → ✗ ต่ำกว่าทั้ง gate 15% และเส้น 10% ที่ "แพ้ QQQM ชัดเจน"
 
 ### Gate Summary → **WATCH** (ไม่เปลี่ยน)
 
 | Gate | ค่า | เกณฑ์ | ผล |
 |---|---|---|---|
-| MoS | −17.64% | ≥ 20% (Calm mode) | ✗ **FAIL** |
-| PEG | 3.88 | ≤ 1.5 | ✗ **FAIL** |
-| Expected Return | 5.5%/ปี | ≥ 15% | ✗ **FAIL** |
-| WAF | 5.78 | ≥ 6.5 | ✗ **FAIL (LOW conviction)** |
+| MoS | −22.16% | ≥ 15% (Normal mode — regime shift จาก Calm) | ✗ **FAIL** |
+| PEG | 4.03 | ≤ 1.5 | ✗ **FAIL** |
+| Expected Return | 4.78%/ปี | ≥ 15% | ✗ **FAIL** |
+| WAF | 5.70 | ≥ 6.5 | ✗ **FAIL (LOW conviction)** |
 
-**ข้อสรุป (09-05):** ไม่มีการเปลี่ยนแปลงทาง action — ราคาขึ้นต่อ (+3.10%) ทำให้ทุก gate แย่ลง ยังตกทุก gate เหมือนเดิม. เหตุการณ์สำคัญรอบนี้คือ **CEO transition (Tim Cook → John Ternus, มีผล 1 ก.ย. 2026)** — Cook ขึ้นเป็น Executive Chairman ไม่ได้ออกจากบริษัท, board approve เอกฉันท์, Ternus มีอายุงาน 25 ปีคุม hardware engineering มาตั้งแต่ 2021 (ไม่ใช่ external hire) — **ไม่กระทบ Tier** (ดู Story Gate) แต่เป็น monitoring item เพิ่ม RA เล็กน้อยจาก execution uncertainty ระยะสั้นที่ WaPo ตั้งข้อสังเกต (Vision Pro, AI integration ภายใต้ผู้นำใหม่). เหตุผลหลักของ WATCH ยัง**ไม่ใช่ "งบแย่"** แต่คือ **ราคาสะท้อนไปหมดแล้วบนอัตราโตระยะยาวเพียง 8.7%**
-**ข่าวที่ตรวจสอบตั้งแต่ gate 08-25:** CEO transition ประกาศ/มีผล (08-31→09-03, 🔴MATERIAL — ดู Story Gate); buyback program (08-23, 🟡MONITOR, ตรวจแล้วรอบก่อน) — ไม่มีข่าวใดกระทบตัวเลข FV โดยตรง
+**ข้อสรุป (09-12):** ไม่มีการเปลี่ยนแปลงทาง action — ราคาขึ้นต่อ (+3.84%) ทำให้ทุก gate แย่ลงอีก ยังตกทุก gate เหมือนเดิม แม้ Effective Gate จะลดลง (regime shift VIX Calm→Normal, 20%→15%) ก็ไม่พอปิด gap ที่ลึกอยู่แล้ว. ข่าวรอบนี้ (CEO transition ซ้ำ, foldable iPhone rumor ไม่มีตัวเลข) ไม่กระทบ FV — เหตุผลหลักของ WATCH ยัง**ไม่ใช่ "งบแย่"** แต่คือ **ราคาสะท้อนไปหมดแล้วบนอัตราโตระยะยาวเพียง 8.7%**
+**ข่าวที่ตรวจสอบตั้งแต่ gate 09-05:** foldable iPhone $2,000 rumor (09-09, 🔴MATERIAL — product rumor ไม่มี guidance); CEO transition re-syndication (09-01→09-07, ตรวจแล้วรอบก่อน) — ไม่มีข่าวใดกระทบตัวเลข FV โดยตรง
+
+**TQR (จาก AI-Revolution playbook v3, 2026-09-06 — อายุ 6 วัน อยู่ในกรอบ 90 วัน):** **7.05** (ไม่เปลี่ยน — พิจารณา CEO transition แล้วว่าไม่กระทบตำแหน่งธีม, ยังเป็น Consumer/Edge Gemini-dependent laggard) → 🥈 **Strong** → เพดานน้ำหนัก 25% · Final Cap = min(25%, Inevitable ไม่มี cap) = **25%** (ไม่มีผลต่อ action วันนี้ — price gates คือตัวบล็อค ไม่ใช่ TQR ceiling)
 
 ### Data Sources
 - **Revenue/EPS Actual:** AAPL Q3 FY2026 earnings (รายงาน 30 ก.ค. 2026) + Q2/Q1 FY2026 + FY2025 10-K
 - **Guidance:** Q4 FY2026 (revenue +9-11% YoY, GM 47-48%, OpEx $19.1-19.4B, tax ~16.5%, OI&E ~$350M)
 - **Consensus Panel (cross-check):** Nasdaq FY2026 EPS $8.76 (6 est) / FY2027 $9.52 (13 est) / FY2028 $10.88 (3 est)
 - **Multiple:** Seeking Alpha P/E Non-GAAP (FWD) 5-yr average 28.69× (carried forward)
-- **Price:** prices_cache.json 2026-09-05 ($319.97)
+- **Price:** prices_cache.json 2026-09-12 ($332.27)
 - **CEO Transition:** Apple Newsroom (2026-04 announcement) + Al Jazeera/NPR/WaPo (2026-09-01 effective date coverage)
 
 ---
@@ -569,6 +573,9 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Recent News
+**2026-09-09** — AAPL คาดจะเปิดตัว iPhone พับได้ราคา 2,000 ดอลลาร์อย่างเป็นทางการ เป็นสินค้า premium ใหม่ที่อาจเปิดตลาดส่วน high-end | [src](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQczlNOVpOR0hpTll0cTcwWWxmby04NTVEaXZHR09lRFZlb3NrSjhYUGpoVmZQU3FNbEZPUjZfdGZZTjQwMkxTMzBZZ1BsTld0dnpnbXB3RGlXSFVnYjlnODJWUDg2VE5aZ3cweU95TXc1N3hDNVlKTWdxcU9lYkVBV3Y1Yzc3bE9sWDRkUzNVQjIwYXhVeEZyNVdIZU85bUY1dHh4YzRRYU9Ed3VJVl85TERLZHRDZXQwT2YxOERNZFZreEhNUVhSOWNfMkVDVFhGbXgw) | 🔴MATERIAL
+**2026-09-07** — ไอโฟนพับได้ คาดว่าผลิตจำกัดมาก จากรายงานสัญญาผลิตเล็ก | [src](https://news.google.com/rss/articles/CBMitAFBVV95cUxQVURHVmZSb2dWNXdaS0swYkNhVEpDTG9vRVlDOFl1a09BYm40enNWY0p5LTl3UTRNWWV3bHlXSUY1MGx2dWkzaUlZOHFBUEctZ215TnRQOXlVOXBUMFVfTWRpLTVTOXNRRTFFOWE1TU05eTU0ZlY2RGR0X1JPX0pmRkRlSVBUOEtsa0ZjUEVCTjJvcWV2Z1pDTUdraGNDTTBndXBIdFZjMWdRaXFLX25vQVA0QzE?oc=5) | 🟡MONITOR
+**2026-09-07** — เปิดตัวไอโฟนรุ่นใหม่ 9 ตุลา ภายใต้ CEO ใหม่ John Ternus; ไอโฟนพับได้ผลิตจำกัดมากที่สุด | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxPTzlWVnBZRmZFVzBjOUoxMmV2XzRrSjVRTkhyeWh6QWU1cUpDckZqWkhVMW5CbExucEZJdkd3UmViM0VXakowNG9qeGY4S1pXeUxnT1VpQmxpcWtDRmpKYUxJRHhNc0ItXzdMS1VWNWJCWENWQXJ5ZjF3NUNVZkZVdFZJdDh5WlM3VGdndWZCS2JoV0d0bXc?oc=5) | 🟡MONITOR
 **2026-09-03** — จอห์น เทอร์นัส เข้ารับตำแหน่งซีอีโอของ Apple พร้อมเงินเดือน 3 ล้านดอลลาร์ เผชิญความท้าทายในการขยาย AI | [src](https://news.google.com/rss/articles/CBMifEFVX3lxTFA5Q2dNekdVbW9uUTdXWnBMUHNDcFJIN2pZcGptVzdhRHFlUU5IVGt4LXRJQkgxWTFGWVlfLUtSNmdIZGFTMGl6TmRrWVJRQ09LVXJ3d29vWV9KMThWY1hPVlVUZTl5aGR3b2t5QTUyRnV0cENjMVRwVWREczQ) | 🔴MATERIAL
 **2026-09-02** — จอห์น เทอร์นัส เข้ารับตำแหน่งซีอีโอ แทนที่ Tim Cook; เผชิญความท้าทายเรื่อง Vision Pro, AI integration และการสร้างผลิตภัณฑ์ใหม่ | [src](https://news.google.com/rss/articles/CBMirgFBVV95cUxQb3F0cmpzeER2WDNKMVJuSWppNkJueG9PaWhjTV84b2F3UUx3SWkzc1RnVFN1b1dUVnBFamdzalh5cl9uYUVVaThXMXhxdE9QVDU2WE1FbWxWdURZeGl1R21xQ1RMUDNLYzdJMFVCakIxb3FHTWc1b3R0Ukpuc0Z6VTJzVUZyOFVrUjlRSTJXcHVCdW9LNURQOURILWNsT3cwY0tDQUV5ZGxlSGJqOHc?oc=5) | 🔴MATERIAL
 **2026-09-01** — จอห์น เทอร์นัส เข้าสมดุลตำแหน่งซีอีโอจาก ทิม คุก เมื่อ 1 กันยายน 2026; ประวัติศาสตร์บ่งชี้ว่าปีแรกการสมดุลผู้นำใหม่อาจนำมาซึ่งความผันผวน | [src](https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVdWRXVJUExlemExTXpaLUZEUU5wUWM1bDV6aHgxTDg1d25WOTA1MFZGNjJIZ2dlVDhPY18xdXNOXzB6UWEtcldWZFREclh4NWdlVWhieTUyd0ZPZGUyVENUVXBXSmRKUjZKd3ROby1BT09IVGo3RGVLN2s0ZWdyamdlVENTX2h6M3hXaHVfTjZiSF95ejh0VXRvWQ?oc=5) | 🔴MATERIAL
@@ -580,9 +587,6 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 **2026-08-13** — Apple ได้รับเงินคืนภาษีนำเข้า ('ทรัมป์') จำนวนมหาศาล; ส่งผลกระทบต่อ Balance sheet และรายงานการเงิน Q ต่อไป | [src](https://news.google.com/rss/articles/CBMizgFBVV95cUxNNFFYR3dLMXYtYlRTLXYwZUV3Q3UxaUhpUEpKNVl0S0tfZzN4M2kzWUZMcnJXRVZ0VjlCbTVBOEhpYm5xMC1NNmdpa2ZtdHdPNVNqejdGVExySUJGczZiaGd4cTlIenpCX3dTcUplT0VTUDByNkIzd0hPUURSSFI1dVBpWV9KWEA1WlBPTWhkREVxdWVJYXZyMnUxSV81Vjc5dl9aRGs5UHA5SW4zWGNyNV9qcWlBaGVwUlJFanJtRmpna0NzemFrVWtUZW02Zw) | 🟡MONITOR
 **2026-08-09** — AAPL ยื่นคำสั่งห้ามชั่วคราวต่อ OpenAI ในข้อหารับจำหน่ายลับการค้าและสิทธิปัญญา; ขยายข้อพิพาทด้าน AI intellectual property | [src](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNjl2bW5KSm1NNE5JckNhbkY4MXRJRGhkekZPZVZCaFUzempUd3FUeVlrWmU1OUgwUXBORXJQRDkwM1FyZ08wYW5nSmcxMUFEcVZzNkN6RVFRQWR0ckxMMnJLX2J1aXpCS0NYZ3RPYjY3M3VNd0xqb0lkNHBnNVpJRVlyQTludkI5VkNJeVlvbFNUQ3dIZFVjY1k4REFwRWFGUVJoZEhiQ05ZS2dDR0J4X0ZVc0t1WjJjNWlGQWNQXzZYOWl4ckVrbUNFckpKelNlSGgwcEFRaUo?oc=5) | 🔴MATERIAL
 **2026-08-06** — ยื่นคำสั่งห้ามชั่วคราวต่อ OpenAI เกี่ยวกับการละเมิดลับการค้า; ความขัดแย้งสิทธิปัญญาปัญญาประดิษฐ์ที่ขัดแตะคำเตือน | [src](https://news.google.com/rss/articles/CBMisAFBVV95cUxOZmZEYXhjZjhCdzdEdHFmUVFZVlJZaUc2R1QxSGVvVGJmbnpwTW9hdlhnTS15TUlmejd4ZG1jcFZNY2tKZEl5MVF1eWRhbWVuSDZLTFNmYXh4RVlrOWI0eGFKNkcwRHVKT2cxbHhpd3BGYUljUjdhT180cGJaNkF6dVF3bTQ4MWRiUHU2Q3p6NG5uRHp5VGkxWlJBbEpqTjVQUFRxTUw3Y1YyRU10VFJsUQ?oc=5) | 🔴MATERIAL
-**2026-07-31** — AAPL กำไร Q2 เกินคาด ผลจากการคืนเงินภาษีศุลกากร แต่ประกาศว่าคาดการณ์ยอดขายชะลอและห่วงโซ่จัดหาประสบปัญหา | [src](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXkwcFhMQnEyUjhWdnFFallUTU5tTktyQVZxMzNUQnhMOVEzZ25iM3VhLUxTQkZrZDF1M28wLXZPUDZfcFMzdTFpMXY5QzJPenNTTnkyS0xJam9SNjdRZUwxYUFaaEpnUXRMbzhWU01hMjE1NjBzeWlEOVNxRzJhZUNYMUk2dlBaSmtRS1FTSlR3Ym4tZzcyeVBLQ2ltSlRyQmkxQWdoQUNjRW8) | 🔴MATERIAL
-**2026-07-30** — การประกาศผลประกอบการไตรมาส 3 ที่สำคัญด้วยการเปลี่ยนซีอีโอ; นัยหมายความคาดหวังอาจขยับหลักแสนล้านดอลลาร์ตามทิศทาง AI และผลการดำเนินงาน | [src](https://news.google.com/rss/articles/CBMiogFBVV95cUxQMXhGU05CbnhQN0RVNFBHS3M3ZE9Tdm9MR3BocTMwMFlNOHVZSnczcEUyNWRlblpqbk9mMlhJZjBMTEdYajZxZl90aWcxeTFNNlZ3NWxtVUNMajdWbDAxb1pFV21mZk9NMW9NaW1YREpfTnV0NDh2N19hRGxPR1ducTdfNHB6eEJrTXowVXZuOUxXRGpYcmE0d3labnViajZsMEE) | 🔴MATERIAL
-**2026-07-23** — AAPL วางแผนปรับปรุง MacBook และ iMac ครั้งใหญ่เพื่อตอบสนองความต้องการอุปกรณ์ประสิทธิภาพสูง AI | [src](https://news.google.com/rss/articles/CBMilAFBVV95cUxOSE5ScmpPbDlDWUdxeHp4NEtRaDFtYndSV1MtRDBLNmZPVk90aXBQVlVqRW1fS0lsQ01KVWVGcWYxdFVIZ2ZGVVJpNDM3aFJXUVExbVJLRERhUzltdTB4aFFZdGszbnRZMVRObjNVRG5POHAzZUtyZk9SUzFraHBKOWFUeVF3LWJDVXQ0NU5GRUJyMi00?oc=5) | 🟡MONITOR
 
 ## Source Log
 
@@ -1160,6 +1164,7 @@ Data Center revenue = 58% ของรายได้รวม (ขึ้นจ�
 ---
 
 ## Recent News
+**2026-09-07** — เน้น AI Governance และ Confidential Computing เพื่อชิงส่วนแบ่งการคำนวณ AI มูลค่าสูง | [src](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOampQa00tbU52dUkwalk1SjQ0bV82UzRtYzl0Z2M5MVp5N1R3a3NVbk5pOGdxRGg2UHVOQkhQMXJ5V25LalFGTk02cmsxa2RRdFRqam94bGJCOVp4dUhRcFRpbG93dENvVVBDazdwUGJOUy1vMkdESGJuQjFyM2V4X2VES2VJM2VRZkFxNTdsSmQyQi1VbF8wYXlVTGlMX1U1cUJsYUJjN0JhVlhHU3VLb0UzQTI4YkFpeDdEVFR3UnlaWmUwanZmNWY1NS1rNWtId3lCTjNBNjhDZWI5QlHSAeMBQVVfeXFMT2Y5T1RIWElTeTFFUFlUY2p5SGhWdFprdEtPakc5X0xncEVjbTNXalRBaHd6YVRVaC1hRzk0bmJhRlpONEJfZTh3NmxwU2dLcHVLSFgtamlWWkxLdDY1bnFYbEtYSlNjQ0ZZY2JJUklFYWZ4MW56WFZTRVRsYlFVTktJSEdzZzY3THk5di05UzRrWTUwWlFPZ19KSllVWGd0WlBIRmFpN2JCcFFBdmtZT2pKUVEtY19feVZ3MTEyMy1tVDYwMVl0dzZ5cTBDOTJXS2wzZEFOQW9JR0NmSG1MblpINzg?oc=5) | 🟡MONITOR
 **2026-09-03** — แผนก AI ของ AMD ในซาอุดีอาระเบีย สามารถท้าทายต่อ NVIDIA และ Broadcom | [src](https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0EtU0Y1WmgtVFZDZHQ2SXoyM2g5WmFkWUprTjVQSTZ0anlUOVhrSXJ1c01vQTJsb2xSUUJhWUJ6ODFvUEhnSTAxdFc0bVhmSzh0ZnZtaW1tTVdYbDFLNnBaRURxR2xjcEdoUmp4dEVSZTAzY3N2N0VPVVY3OG5hZVpQUGo1cGV0T2ppX0w4OWFQQ2hvN1lBY3A3LTI1dC1kdDgycHZudVFzQkxFNVVsbFptdw) | 🟡MONITOR
 **2026-09-01** — AMD ประกาศความร่วมมือกับ Cisco เพื่อพัฒนาโครงสร้างพื้นฐาน AI; ขยายนัยว่า AMD ยังคงสร้างสายการแก้ปัญหาสำเร็จรูปเพื่อแข่งขันโดยตรงกับ NVDA | [src](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZU90Zy1mZXZGT25KYXhNQThIQjRudXljMzBFRjBFc0I1NzlLM0hjVTlqbE8xN1JTS0RoLVdlT3RCVnJMeXJUU1BnVmxNZzF4Umdja2J4dEJQamdLWkFkc3ZDNFhieHFFUVN0d19rSG9ReWl0cHp4TTgyVFREQUthT0FISElUcC10NjZhcnBFdUhzSlUzT0RfVV9qbTBTeGdTRUVmbThKcWdicy1JMktaUGx1Ylg1d0lDR3FUSi1TclQ?oc=5) | 🟡MONITOR
 **2026-08-23** — AMD ลงทุนเกิน 10 พันล้านดอลลาร์ในไต้หวันร่วม TSMC เพื่อสร้างศูนย์แพคเกจชิปขั้นสูง ลดการพึ่งพาการผลิตต่างประเทศ | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxPeW1DSUlhZXc5NFNVbE04NG51VU51WnJZM2hhWnBNUG5GcVRSS3ZGTTFFTzVsOG0wcEVGY3E2dFhWcmEyWDBISHU0M2dKVFRncHlzYzVXQ29mcHBJVnZoSFQxSk5GdmZnQWJuaGFERld1enRIWTQ2T2JrSmJJaDJ1MHBFemhDSUhSMHZJSk9ZNW1aYzlwTno3dw?oc=5) | 🔴MATERIAL
@@ -1173,7 +1178,6 @@ Data Center revenue = 58% ของรายได้รวม (ขึ้นจ�
 **2026-07-29** — แสดงแรงผลักดันจากเซิร์ฟเวอร์ CPU สำหรับ Agentic AI โดยข้อบ่งชี้นี้เห็นชัดในการประชุมผลประกอบการ | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxNMlRtYWc5cVdqbV9ORkpDZ2VOM3JWOGpGanMzbk5RN3RKR0RiVlhvaTVQUlpEWTBYREF2ekx2c2F0X0RKbDFmbjR0XzhGaEhPWUVpX2liSjAtS0NtUTRNMy1WR0JxMmEzYmt1eVN3RHJyTGNndFpuQ3J5TDJVM2hNSUVmdHpYUWstUzhLNjNMTlJYZTdOMUY0MWFGWWlFdw) | 🔴MATERIAL
 **2026-07-23** — AMD ลงนามสัญญา 5 พันล้านดอลลาร์กับ Anthropic สำหรับการจัดหา GPU; ขยายการแข่งขันกับ NVDA ในตลาด AI infrastructure | [src](https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYzJmUlBHaUZKMmtOaW9BUmdkTFRXLVRzR1RfRVZYMXFoZXVKOXBiNkt1OHpZaUpRU1o5MHRrNVg1NnlYSUNNMGtYZmdXaWlMeEhiZW81TlBNaDVCbnlocWl6ZC1vVHB2TWxjNGdSanEyYnJxby0zZDU3eGZNQnd0ZGprNE1aN1BmNVJGWTdSbkl6R1BYVDlIS0FMNGVuVjc3TTRCT0Q2Rk10ek5wc2NRdVVGWk5ETGdua21GcWkyZzRhbW1BMUVRcTk0WGswVkw3MUdWMkp0d0wzamZVckFHRTVkYlM=) | 🔴MATERIAL
 **2026-07-21** — ลงนามสัญญาสำคัญกับ Microsoft สำหรับ AI Infrastructure ขยายการเสริมความแข็งแกร่งตำแหน่ง GPU สำหรับ Data Center หลังจากแสดง AI Breakthrough ของจีน | [src](https://news.google.com/rss/articles/CBMijgFBVV95cUxOWXZmMGV3aGV2Y3k0UHEycHhTMUpfbTZrUF9sTGhSeGxyOFV4RDdEazF1Si1yRDlJQjY1WEQweW1FVTdRd1FqM2JEZWFRemRQR0Q5ZzZBTE1WWUxJcy1ZdEtrNDduT0F6N255ZjdqSXVMa29JUVRPNGlaUmZUZFp4UXotS1QtZFJmRlNoUnJn?oc=5) | 🔴MATERIAL
-**2026-07-21** — AMD ขยายพันธมิตรกับ Microsoft Azure ผ่านการปรับใช้ Helios AI ชิปใหม่ เพิ่มตัวเลือก GPU สำหรับ Data Center | [src](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMmFfamdENzB6UUpZaFRRSkpTaEtxYlkyNjBQVlY3d0dXclJTVkhmNERUVkcyUmhYNkRrVmxtdVJZUmhwVjNOdEdQaU1qTFVfVFE3UEp1NkF3UVZsYzFVemgwRFJwOGVpSl92RGRlT1MyNDY0S3prUlo0MnBTNzNxZGIxejF4bFNVNVJXcUM5WGg5Q09sbGFLM0xhWWt4Y0ZOU2VkRTh4NTgtTnlNd2FYbWJ1eWFrRXdoUmZJSE11MXZPSUgtYjFha2hjcDRKLW1kN0tQVm93VDREbWtWdm9B0gHkAUFVX3lxTE93bFR4X1Ewc05tT2dua2taUGRDemV4Y2h4STg4RXBPZVRRbzJGUVQtYV9DOTV6aW9LQjdqUjViWWpHbHdWLXZJZUhkdzVORHdtclZmcGdVVnhnZXNSY3VOY1llcHR2TmRuY1lBTm4tQUdpTTdSOUdvQXM2dTVLU1k4R0hraDVGN0UxQ3pERXdiSWxHTzNCRllFbnZPMHMxbTVFTkpsVzVnVExHX2M1ZkJObzk0SWptLVVxWE12OW9UY2Jqb0o5aG9ocDJCMk12d2UtOHByNU5WaUo5em9HLVdScGUySg?oc=5) | 🔴MATERIAL
 
 ## Source Log
 
@@ -1597,6 +1601,8 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Recent News
+**2026-09-11** — คดี FTC เกี่ยวกับข้อหาการกำหนดราคาและการโฆษณาที่ฉ้อฉล่ผ่านข้อมูล ความเสี่ยงต่อบังคับใช้ในธุรกิจโฆษณาดิจิทัล | [src](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPekh2VW93bFlZZmpfY0FkUUJNUEpBS09CTTlmVnpsRVBNLTM1Tmo3QmIzNEI4Y1JXZVMybExSS1NtT3kybDlFRzlKWTdYUFE4MXNiUUVIWUFrczhEUFhaSEtFRGRLaWY2RTlHRUNIamhOTWhjUE55TEw0WXV2R29XMWFFZUhRSVRidFVDamFxUm5mUGItUXZCOTdkalBOaWJpMzcxM1hEWUp3RWs?oc=5) | 🔴MATERIAL
+**2026-09-10** — คดี FTC ต่อ Amazon เรื่องข้อหาการกำหนดราคาขึ้นและการโฆษณาฉ้อฉล่ได้บันทึกไว้และเสี่ยงจำกัดอำนาจการตลาดในธุรกิจโฆษณาและค่าใช้บริการคลาวด์ที่มีรายได้สูง | [src](https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0RjUzdPQW55aHUzWHZaMWdiSXRXMnl5ZGVkckFYWTVLdmpUMzd6UEtFemJabmF5RVowWnhHQmstTTE5Q2JLRHNlTUxhQXozSVBpLUR3S2NpYjZpR0xBQ1QxeG9ucUpPVHE2TVlGR3F6Vkc3MGdpR0p2ZFRhcDVqeXdLTFhfWEszYlVoS1ZDdk1JMHJvOGdZOGktb0dsRXF3cW1jd2pVYWtLYjIt?oc=5) | 🔴MATERIAL
 **2026-09-04** — FTC ฟ้องร้อง AMZN เรื่องการทำให้ราคาขึ้นและฉ้อฉลอดในธุรกิจโฆษณา เสี่ยงต่ออำนาจตลาดและอัตรากำไรของส่วนรายได้สูง | [src](https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1hFelNRYmw5MnRIR0V5SXRWMjJWbjZ2QjNuV2tKUTRERklKeUtwczBjSm5jRE1Nd1pNY0thRE5uR2RVZFNxUkRTUzhRbkRZWUJraGxvV2cxRF9ibXlpN0pSTm52cnhPQU1XVmVNc29Pd1plbUdqcEZONldkZW1ha0pwaEpoSl9qUUVLNFhKUWdQdXI5dGV3?oc=5) | 🔴MATERIAL
 **2026-09-03** — FTC ฟ้องร้องเรื่องการฉ้อฉลอดและการทำราคาขึ้นในธุรกิจโฆษณา เสี่ยงต่ออำนาจการตลาด | [src](https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUpzNE55LTlyVWxyNUNVRjBVOFJPdzZ6amdOQThWYzNRYjZwTWIwTENZOVkxZnRNdVRVWU1IY29GR0cxTHpDSTZKeTdpaTZSZlBwVURTRjJXN24wNElyMmpRY2Nxc09naGlzTjRNaWRSWG1NMm9fX3RlZWlsY3Z1SDRWbmpzMlMyS2gyRnplYm5WeGFWc3R4RkZKWQ) | 🔴MATERIAL
 **2026-09-02** — FTC ฟ้องร้อง Amazon เรื่องการทำให้ราคาโฆษณาขึ้นและฉ้อฉลอดลูกค้า; เสี่ยงต่ออำนาจการตลาดในกลุ่มธุรกิจโฆษณาดิจิทัลที่มีอัตรากำไรสูง | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDZwVUpsY25wdGMtSGZCZXc4bmp2eE5raktyLTNHWGh2bnVCcERVT0hwMVFzT2ktLTk4bFpqLXh4aUF5a3Q0ektCZGhIMU1nZE1hdnRCVVQyMDVKb2hCVjJhLXAyR0xEazFvMjRjdzRLT3Z1NHRpdHJpTGdWMF84TTRhY1NxZGIwWmZBSnctYVdVeUJ3azhTag?oc=5) | 🔴MATERIAL
@@ -1609,8 +1615,6 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 **2026-07-09** — แอมาซอน จัดหาเงินผ่านพันธบัตรมูลค่า 25 พันล้านดอลลาร์เพื่อการพัฒนาโครงสร้าง AI พร้อมเร่งธุรกิจคลาวด์ | [src](https://news.google.com/rss/articles/CBMitwFBVV95cUxOLVloUUtxWGIxNi00a0RXTU54YjY2Zjl0TmpvZEwwZHFxTmhMT1JEQWZpajlLSGpERXZXMW5NekZNRnRtaElYdUxQZVlHX0pkREs4blF6WmhiV3dDRXpNc29OMnM3bUVaVFVTZ1RYMUFmeHNxeWZEeHZYYklONnZQOVRMYUE1Y3N1YUktb05WWlVjRzRseHAzdUVPTE5VMXNxQUtWTEtTMmxvSVhvNUpSb1BIM0t0UEk)
 **2026-07-08** — ออกพันธบัตรรอบหลายชั้นมูลค่าอย่างน้อย 25 พันล้านดอลลาร์; ยืนยันไม่ออกหนี้เพิ่มเติมในปี 2026 | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxOVC1vMXhCYlRJYnpsUDlBbmpnZ0NOOVk5YVlpZktwb2JTaGU5YU01TlQ4aWZVbjNTUEhPenhOTFRNMkFBSkFybmNmRDV3cGExSkU3UUtyTlhfTFdYX21CMEVfTWs4OGloYWl5eWxvaHg2Y25ObFNvdmc2b1dEQW5sMG9vMnpnNjhjYUVfUTU2M3otY2pvV1lYMmxYdFdjOHBq)
 **2026-07-02** — Prime Day เดือนมิถุนายน ขยายตัว 9% เป็น 26.4 พันล้านดอลลาร์ AI ขยายมูลค่าเฉพาะตัวขาย | [src](https://news.google.com/rss/articles/CBMijwFBVV95cUxON0otaUF0M3k4QlhhSmFneGlMUkE5ZXh3MTdfcXBqc29aR1gwQVlOOE1jU1g1aVc4TXN6U0xBMWdPZm5ycVhoUFpPZFBOTFQwclBJdzRhcjBkNTUtcVJMOU4wNlh3Mkh0OTFmanNJUnh1LTB3MHlaVzFVOWtyZ0VPeGdqZTB1UU1DOVFXcFBNUQ?oc=5)
-**2026-07-01** — Amazon ลงทุน 1 พันล้านดอลลาร์เพื่อจ้างวิศวกร AI ให้ทำงานอยู่ในบริษัทลูกค้า; สร้างรายได้ AWS cloud ใหม่ผ่าน AI transformation services | [src](https://news.google.com/rss/articles/CBMinwFBVV95cUxPVS0xcVROdzJKZi1wZGlBWkNKdUJ1bHpIRV91YnU0aW9zX2RxeC1jWGFhUUV5UWtLYW9sbENPSmgtQnhWcEpTMERxSEx1QlB1Q0lOM00ybWVlTDZIR252bnJOUDZfSGJuanRyZWU2eVFFWTZKWWNDbENnZnVJc05EZDhEZldlTGdVak55Z3EwekNKZWw0NEVpSm5VcjRqQXM)
-**2026-06-19** — Amazon ประกาศลงทุน 10 พันล้านดอลลาร์สร้าง data center ในมิสซูรี่ เพื่อสนับสนุนการขยายตัวของ AI infrastructure | [src](https://news.google.com/rss/articles/CBMijAFBVV95cUxOYWhKVTV6Z09ORjZYSzE0ODdyenZNUnJtWnUyUzExM1lZZHZ1YnlDdTl6TmowVVdpSWI2clpvU2hfOXU3aVBZZ2JUQ3NoNnowa0VnRnp0dmNFQ1NpVjlIeENGRzFvQzFXcktZbHZtZU9lTHRVRnFCeFJJMXByR0tlT3hvNGZySXBkYm1GMg)
 
 ## Source Log
 | ไฟล์ | ประเภท | อ่านเมื่อ |
@@ -1630,8 +1634,10 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
 
+> ✅ **Reconfirmed 2026-09-12 (news + regime-shift refresh, /warren watchlist)** — ข่าว 🔴MATERIAL 09-01→09-11 (FTC ad-auction lawsuit) เป็น**การรายงานซ้ำของคดีเดียวกัน**ที่วิเคราะห์ผลกระทบไปแล้วในรอบ 09-05 (RA ปรับ 5.0→4.5 แล้ว) — ไม่มีตัวเลข settlement/guidance ใหม่ ไม่ปรับ RA เพิ่ม. **Regime-Shift Flag:** VIX ข้าม 15 → Calm→Normal, Effective MoS Gate 20%→**15%** — ไม่พอปิด gap ของ AMZN (SOTP MoS ยังติดลบลึก). ราคา $258.51(09-05)→**$256.78** (prices_cache.json, -0.67%) — price-only recompute, SOTP build carried forward unchanged จาก 08-15. TQR sync จาก playbook **v3 (2026-09-06)**: **8.18** (⬇ จาก 8.25 v1/v2 — RA* ธีมลดจาก FTC ad-auction lawsuit ใหม่) → 🥈 Strong, ceiling 25% ไม่เปลี่ยน band. ไม่มี tier change รอบนี้
+>
 > ⚠️ **Re-check 2026-09-05 (batch 2/4) — FTC ฟ้องคดีใหม่เรื่อง advertising ad-auction manipulation:** ข่าว 🔴MATERIAL 08-31→09-04 verified ผ่าน WebSearch (FTC.gov press release, CNBC, CNN, NPR) = **FTC + 22 รัฐฟ้อง Amazon คดีใหม่** (แยกจาก Prime dark-pattern trial เดิม) กล่าวหาว่า Amazon "secretly manipulate" ราคาประมูลโฆษณา sponsored-listing ตั้งแต่ปี 2018 เพื่อเก็บส่วนต่างเพิ่ม — เสียหายลูกค้าโฆษณา 1.2M ราย (500K+ SME) รวมมูลค่ากล่าวหา **>$20B ตั้งแต่ปี 2019**; อาจนำไปสู่ค่าปรับระดับพันล้าน + บังคับเปลี่ยนกลไก ad-auction ในอนาคต. **ผลกระทบ:** advertising เป็นส่วนหนึ่งของ North America segment ที่ใช้ margin 8.5% ใน SOTP (ดู Valuation Range) — ถ้าคดีชนะและบังคับแก้กลไก auction อาจกด ad yield/margin ระยะยาว แต่**ยังไม่มีตัวเลข guidance ใหม่จากบริษัท** จึงยังไม่ปรับ margin assumption ตอนนี้ (รอผลคดี/ผลกระทบเชิงปฏิบัติจริง). ปรับ **RA ลงจาก 5.0→4.5** สะท้อนความเสี่ยง regulatory ที่ทบต้อนกัน (FTC 2 คดีพร้อมกันแล้ว: Prime dark-pattern + ad-auction) — ไม่กระทบ WHAT/WHY NOW/IF WRONG/Tier Basis/BQ/GP
 >
 > ✅ **Reconfirmed 2026-08-29** (time-trigger, 4 วันตั้งแต่ 08-25) — ข่าวใหม่หลัง gate: 08-27 🔴MATERIAL (in-house AI chip investment + DuckLabs acquisition — เสริม Trainium narrative เดิม ไม่มีตัวเลขใหม่) และ 08-25 🟡MONITOR (AWS President Garman ขายหุ้น $3.77M — ไม่ผิดปกติ, ไม่ใช่ 8-K Form 4 cluster) → ไม่กระทบ WHAT/WHY NOW/IF WRONG/Tier Basis, BQ/GP/RA คงเดิม ทำ price-only recompute
@@ -1651,7 +1657,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $258.51  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** **SOTP บน segment NOPAT หลังภาษี** (ข้อยกเว้นข้อ 3 "ธุรกิจหลายขาที่ economics ต่างกันสุดขั้ว" — AWS op margin 39.4% vs International 4.1% = ห่างกัน 35pp และโตต่างกัน +37% vs +15%)
+**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $256.78  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** **SOTP บน segment NOPAT หลังภาษี** (ข้อยกเว้นข้อ 3 "ธุรกิจหลายขาที่ economics ต่างกันสุดขั้ว" — AWS op margin 39.4% vs International 4.1% = ห่างกัน 35pp และโตต่างกัน +37% vs +15%)
+
+> 🔄 **Price + regime-shift recompute (09-12)** — ราคา $258.51→$256.78 (−0.67%, prices_cache.json) ไม่มี earnings ใหม่ (Q3 2026 ยังไม่รายงาน); FTC ad-auction lawsuit news (09-10/09-11) เป็นการรายงานซ้ำของคดีเดียวกัน (verified 09-05) ไม่มีตัวเลขเพิ่มเติม ⇒ SOTP build/multiple/assumptions ทั้งหมดด้านล่าง **carried forward จาก 08-15** ไม่เปลี่ยน. Effective MoS Gate ลด 20%→15% (regime shift Calm→Normal) — ไม่พอปิด gap ที่ลึกอยู่แล้ว
 
 > 🔄 **Price-only recompute (09-05, batch 2/4)** — ราคา $266.43→$258.51 (−2.97%, prices_cache.json) ไม่มี earnings ใหม่ (Q3 2026 ยังไม่รายงาน); FTC ad-auction lawsuit (08-31→09-04) ไม่มีตัวเลขเชิงปริมาณให้ใส่เข้า SOTP ตอนนี้ (ยังไม่มี guidance/settlement figure) ⇒ SOTP build/multiple/assumptions ทั้งหมดด้านล่าง **carried forward จาก 08-15** ไม่เปลี่ยน — ราคาลดทำให้ MoS ดีขึ้นเล็กน้อยแม้ RA ปรับลง
 
@@ -1699,22 +1707,24 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 | **Bear** | $205B @34% × 20 | $520B @7.5% × 15 | $185B @4% × 11 | **$162** | 25% |
 
 **Fair Value Base:** $231
-**ราคาปัจจุบัน:** $258.51 *(09-05, prices_cache.json; prev $266.43)*
-**Margin of Safety:** **−11.91%** = ($231 − $258.51) ÷ $231 → ✗ **ติดลบ** (ดีขึ้นจาก −15.34% ตามราคาที่ลด)
-**Expected Return (5 ปี):** **~17.77%/ปี** = convergence −2.23% + growth 20.0% → ✓ ยังผ่าน gate 15%
+**ราคาปัจจุบัน:** $256.78 *(09-12, prices_cache.json; prev $258.51)*
+**Margin of Safety:** **−11.16%** = ($231 − $256.78) ÷ $231 → ✗ **ติดลบ** (ดีขึ้นเล็กน้อยจาก −11.91% ตามราคาที่ลด)
+**Expected Return (5 ปี):** **~17.91%/ปี** = convergence −2.09% + growth 20.0% → ✓ ยังผ่าน gate 15%
 *(growth 20.0% = ปรับ **ลง** จาก consensus panel ที่ให้ FY27→FY28 +29.3% เพื่อสะท้อน depreciation tail ที่ panel ยังไม่ model — กฎ Revenue-as-Base ห้ามใช้ตัวเลข**สูงกว่า** consensus ใน Base case แต่ใช้ต่ำกว่าได้)*
 **Forward P/E / PEG:** ไม่ใช้ (method = SOTP)
 
 ### Gate Summary → **HOLD** (position ที่ถืออยู่แล้ว)
 
-| Gate | ค่า | เกณฑ์ (09-05, effective gate 20% — Calm mode VIX 14.32, ไม่มี regime shift จาก 08-29) | ผล |
+| Gate | ค่า | เกณฑ์ (09-12, effective gate 15% — Normal mode, regime shift Calm→Normal จาก VIX ข้าม 15) | ผล |
 |---|---|---|---|
-| MoS | −11.91% | ≥ 20% | ✗ **FAIL** |
-| Expected Return | ~17.77%/ปี | ≥ 15% | ✓ PASS |
-| WAF | 7.08 | ≥ 6.5 | ✓ PASS |
+| MoS | −11.16% | ≥ 15% | ✗ **FAIL** |
+| Expected Return | ~17.91%/ปี | ≥ 15% | ✓ PASS |
+| WAF | 7.10 | ≥ 6.5 | ✓ PASS |
 | PEG | n/a (SOTP) | — | — |
 
-**ข้อสรุป:** **ไม่มีเคส ADD ที่ราคานี้** (MoS ติดลบ ~12%) — แต่เป็น position ที่ถืออยู่แล้ว จึงเป็น **HOLD ตาม Fisher discipline ไม่ใช่สัญญาณขาย**: คุณภาพธุรกิจไม่ได้เสื่อม สิ่งที่เพิ่มเข้ามารอบนี้คือ **FTC ฟ้องคดี ad-auction manipulation ใหม่** (ดู Story Gate) ซึ่งเพิ่ม regulatory overhang ให้กับ North America segment — RA ปรับลง 5.0→4.5 ชดเชยราคาที่ลดลง ทำให้ WAF รวมทรงตัวที่ ~7.08
+**TQR (จาก AI-Revolution playbook v3, 2026-09-06 — อายุ 6 วัน อยู่ในกรอบ 90 วัน):** **8.18** (⬇ จาก 8.25 v1/v2 — RA* ธีมลดจาก FTC ad-auction lawsuit ใหม่ 08-31) → 🥈 **Strong** → เพดานน้ำหนัก 25% (ไม่เปลี่ยน band) · Final Cap = min(25%, Pre-Inevitable ไม่มี cap) = **25%**
+
+**ข้อสรุป:** **ไม่มีเคส ADD ที่ราคานี้** (MoS ติดลบ ~11%) — แต่เป็น position ที่ถืออยู่แล้ว จึงเป็น **HOLD ตาม Fisher discipline ไม่ใช่สัญญาณขาย**: คุณภาพธุรกิจไม่ได้เสื่อม แม้ Effective Gate ลดลง (regime shift, 20%→15%) ก็ยังไม่ปิด gap ที่ลึกอยู่แล้ว ข่าว FTC ad-auction lawsuit รอบนี้เป็นการรายงานซ้ำของคดีที่ประเมินผลกระทบไปแล้ว (RA 4.5 คงเดิม) ไม่ใช่ escalation ใหม่
 
 ### ⚠️ ประเด็นที่ต้องจับตาต่อ (นอกเหนือจากตัวเลข valuation)
 1. **Earnings quality** — TTM net income $135.3B แต่ ~62.9% เป็น below-the-line investment marks (Anthropic $53.4B ก้อนเดียวใน Q2) → recurring EPS ต่ำกว่าหัวข่าวมาก **นี่คือเหตุผลที่ valuation รอบนี้สร้างบน operating income ล้วนๆ ไม่แตะ net income**
@@ -2284,6 +2294,8 @@ FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉ�
 ---
 
 ## Recent News
+**2026-09-11** — ประธาน ARM เน้นว่า AI เป็นแกนหลักของสัถาปัตยกรรม ARM ยุคใหม่ ค่ามูลค่า CEO ผูกพันกับเป้าหมายการประเมิน 2 ล้านล้านดอลลาร์ | [src](https://news.google.com/rss/articles/CBMirwFBVV95cUxOVk4yUHgzUWFERklETVBTdG11eUlfMmZINDE0UEFXcmdSNUJhZ0swei1EbGpIZ0tqcndZSUdFa1d1WHlrNjBIUXhnUzF0d01PUVQtM3hISW5zNnc4eUdRV3JvQ2JFQ3ZNYXkyTnpYYXlVZEpyOUZvVkx4TXdYYXU5SklMWUF5YUlUNWZRVzRJT3FtdjVULVItdDd0SkpzM1lDQVZXWEhETXV0Vlk1YUNRcVVmQVhYNzNjaTFtOTFpQVNubU5XLVRaRHUyM21SeFHSAdQBQVVfeXFMTmxwTFNpWklud3VYUE1iUkIyQ1IzdHplUXBRczk3N1RHN2V6alJhWjJLbk9nN2I4SExRdUxFdmdkX0s1VFFLRHZpUy1kQjFWejlXS2d2UDVJSjlhdXBXNF94U0tPbW9yWnczOEhZNm5Pck9fWU1SUVEtbzJkc3c3YXJoNG5RT3kzZkFINnJoYVR1dGVSNDd4Uko1Nlg1YWlocUVRQzNtM3VlVlBIOXA0cDFKNVpwd0ZVOGstQjlXM0JwSGZ4dlV1WndKdnIwYktZVUE5TkQ?oc=5) | 🟡MONITOR
+**2026-09-09** — ประธาน ARM ลั่นว่า AI จะช่วยค้นหาวิธีรักษามะเร็งในชีวิตคน และระบุ ARM เป็นสถาปัตยกรรมแกนของอนาคต AI | [src](https://news.google.com/rss/articles/CBMijwFBVV95cUxOSXV1em1wX2pqbjh5ZXMzd3hRWUlRNGc4WWstbEZDM19KcEdGNi01TFF2Y0lmUWJHWXhUYTRYOWo5N1NpNGdsY3FVazktS21SbXZxbEJpX055cU1iZmZDak00a0ZNNjFkYkN6VGFZTnFsYlNVNkxKODl1MloyR01zYVUwUk5aUEJIb2RORVJESQ) | 🟡MONITOR
 **2026-09-03** — หุ้น ARM Holdings ลดลงในวันอังคาร | [src](https://news.google.com/rss/articles/CBMilwFBVV95cUxQdnVkVUltRlpvX056Ti01YnEzY2hEbU8xb0lyc0JrcG5pc0FoQjhBLUVFUDBZbjlNNVBXbFVhV1N4dGVKXzFtT3BvUE9wMWJIWGVJY0FTbmV5eUEwampuSXoxeFdYRnducHlNd1hiS3pLSGRGVjVBalJOdXZuQVpzNG15ZFktZUJsYWVCSmVZdjM4TThoSG9V) | 🟡MONITOR
 **2026-08-24** — ARM Holdings ผลักดัน AI ตั้ง Fair Value ใจกลาง แสดงศักยภาพการเติบโตจากสถาปัตยกรรมชิป AI ที่ประหยัดพลังงาน | [src](https://news.google.com/rss/articles/CBMiywFBVV95cUxNWHRJS0p5MXcxQ1hpVkJsbGN2OU5xeDZlRDEtSmdmbHpNcU9sOEc2MHNnY2hvTi1sTjBGbjM0RU5KaHJmT2pDOW9xWWh3czBWMk5OVk9UeWxQZE01UW04LXhiXzBYZFlDTF9ranZENDNYX3hzWXhadHlxM2RvZjdkaXo0NkRVV2VJcGJwSHdPTXNVWGR0YWpmazNZX0N4M3dkU01rNzlkNW5sZDA0Y3N2VkpYU0FmaEJWLVU3TGFIN21pM0wzcjVKa1B30gHPAUFVX3lxTE9IZkZnQkhraWExY0VaUFM4VjN1Mml5a3dCQUdGUTQwT0wzVjFMLXZPSVRBOXpHbkVqdFNJLW9CaW5NNXc1S2V6a3lHUHE5WTJBUF9LZFhyNWJvREhmUjk2UE9KeU10OUNlRkhBbEJwVzBIOXVXUnNRZkwySTVraFlEVHlWTTNuSlFoYkw4ZmZ5Y1U5bGY3SHh2VnJOcmZGVnhJbVg1RmdCc3EwZHJQZW9nRkR1TXd0VjFQZ0szR1JnMjRlWXZtb1FsdHRCSzZHYw?oc=5) | 🟡MONITOR
 **2026-08-18** — ARM ได้สัญญา AI มูลค่า 2 พันล้านดอลลาร์; สะท้อนการเติบโตในการออกแบบชิปเฉพาะทาง AI และความเปลี่ยนแปลงของแนวโน้มตลาด | [src](https://news.google.com/rss/articles/CBMipgFBVV95cUxPaHJOR1V1UXhBczlWc05HaWNiOVJTLWtRZW8xaWpyZzJMa3JBTWtBR0NDRGRCQmRsN2gxX25zSVpfVTFCUlVwY21xRm9HLTFlZTVxYmVVeDh5cm1fcmRaUFY5cF9Cb180NW43TGFIdWZxRllKVlNMODZVanVFa1AtTm84c0hPVUZDRFdOZXNrM213TVZjTVRxYVFYXzV0NHZUaG1fdER3) | 🔴MATERIAL
@@ -2296,8 +2308,6 @@ FY2026 revenue $4.9B → target $25B ใน 5 ปี = ต้องโตเฉ�
 **2026-07-27** — ARM ประกาศมีออร์เดอร์ที่ค้างไว้รอจัดส่งมูลค่า 2 พันล้านดอลลาร์ บ่งบอกความต้องการสูงแต่จำกัดด้วยความจุการผลิตและการตรวจสอบ | [src](https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYWRlbDZIQjFLbDNweWhaMGJRV3JCTG1kcGl6WnE5Yk1EZVR2U3dNQmpGR2NIYmxuV196dDV1cDFENk1vWVJFUFdOd2FNT3cyLWppckRNNnlRbDBmbkVDSjVGZjJYZUJWVnJoNnZzWmpWbEJlMEpEZ0dkbUwzYVltVHBtSThsWEpvX0lzUGp6NDlxYkJZVDQ3VTM3Y09jTlRfWWU2RVBCaU9DS2pnNmlCdzI0YnIxZERCd0RkaDZ3SkN5VU1LbEMxQkJlNC05dUlxRWhnVkFrdmVBTjM2OVllVE05SWJGTkFEYk10enNnV2dUcUE?oc=5) | 🟡MONITOR
 **2026-07-14** — ซีอีโอกล่าวว่าสหรัฐยากต่อการห้ามส่งออกชิป AI ไปจีน ส่งสัญญาณต่อนโยบายส่งออก | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxQdVdvTzI4aXR6bkN1WTlseTZadVlINHR5S2dZRjJPVkprV01jejd1SDR6dmtIUmkwMmUwbWFLMDBrczV2bUZic096YXlzRUlHVmt1b2F3elZRM0tsR2MtOUpMcjByZlBwY2pXQmF1aVhBQXNyazNQQXl4cTM5QjZpaG1fMU9LeHF3MXMwcmhiQll3Zw?oc=5) | 🟡MONITOR
 **2026-07-02** — ขยายระบบ CPU สำหรับ AI บริหารตัวแทน (agentic AI) ร่วมกับ Oracle Cloud Infrastructure | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxPVmMyN2x0dGZDS0lDSE93Zl81dGdVc3ppVTM2NGVTenZKX3FtQ1E0Sm16NUJySlFmeUZEaW13Mno5aTBHY0hQRHJaeTZBamJnSmFxblhhQ09fZkFMRFlFYzBPN0c4eXo4eEtsS1pseWNWbmItZjRCOHdTWmF2a3hwemNUTHFwdHBVRWNpYkdnYzRkb3A2Y3NRcDIwWS0?oc=5)
-**2026-07-01** — ARM เปิดตัว CPU AGI สำหรับการประมวลผล AI พลังงานต่ำ; ท้าทายอำนาจการตลาด NVIDIA ในตลาด AI accelerators | [src](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM0NpMjFQTUFtVkxRZnFRUzBxaXlxRlRsYVpvY1hLY0ZTTUxBeTJlem13Ri1xbllGbkJKUklFMFZ3ZFY2MENDcllodFQzb3RoTWJQdzY4cmRMMXJablo4c1hIN1ZPWWVINkkxdzBQRlNLUDBJbjJkMTk3M213WHV0Z1BxU2RpZ2VRNzRKLVJYRVFmZEw5LW9oWklOX19qbWs1RHNfTnczLWZzOElzaDBZUWIzMk8yb3NvaGtUQzBTNHJrRUhEVEZycmx2UHR2OVVzanfSAdcBQVVfeXFMTW5MTENndnhOS1c2VDM5QmhKUnlPemJORU9ITW1QRXUwOVNrWHBnM3FPdW56ZFJJdTh3dnltY3l6M2tnMG1mX3FmTkhDN255TjFVQWtqaDdhVnRBMGE3M001ck5ybDdjclRkYmpoa1owMDR1ZmU1ajBPUUVtME1OR21kamtJdGg2WC1LdVJXVnpRTVBIbWJTWERBQ3E1MFR5TjN0OVhUVHo5SkRnbmRPNU5EVzY0OHM5UUFQRWotb1Y3QzE0Y1Uwcmt3M1FfcFRnZXR1WlFIQ3c)
-**2026-06-23** — ผู้วิเคราะห์ AI ระบุว่า ARM Holdings อาจประเมินมูลค่าสูงเกิน 155.5% หลังการปรับปรุง; ความเสี่ยงต่อการแก้ไขราคาหากกำไรไม่ตามตัวชี้วัด | [src](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV1R5Y3o4YzBYeDNpUm9YRzJUZVpySjIxRHR6VGQ5d2EzQ3JtRGRZVXQ4RlRUa3ppX0laSlFlOXRrSFVWbWJSN1JYeXdxZEtwQTFjeklZT2lEY1F2OWJWVFZ2RGZ5Yk9qNWhkNHp2NmVVdl8yTVJ1dzFsd0p5VzVFWEN3Q053UVdFcDAyRnhzSjc0eUMxeXRGSmRLTmt2czA0UW0wWTRqbVdBQzE4VUdlbmlIaGZXbm15dmtHN1BkbElDUEFOajVaZ3Y3ekhTb1FzeXfSAdcBQVVfeXFMTVZlaWgzRnlWbnhyWFh5YUU3ZXFJVzJUV3Z5MUJENnkwOXp0ZE5hengzWVpfMVJ1UmVKTnJjb2hYbWFUaHRYQ2dfWm1CbjZxWXlHQkpEN1kyOHphdGxZMkU5cGZ6RUV0ejEtTUQwemZEcXBZWGpWRmIwMTdDSTdmeDN2VmhubEpUWDVxRUFqSnZJb1dDMnhpMjgwRHREX3Etal8wSU8wSDVUMFVIVGpWVmIwMTdDSTdmeDN2VmhubEpUWDVxRUFqSnZJb1dDMnhpMjgwRHREX3E)
 
 ## Source Log
 
@@ -2676,6 +2686,7 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 ---
 
 ## Recent News
+**2026-09-07** — หุ้น ASML ขึ้นวันนี้จากความคาดหวัง; นักวิเคราะห์ฟ้อง Valuation ไม่สมเหตุสมผล—ผลลัพธ์ 14 ตุลาจะเป็นตัวพิสูจน์ | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXJRbDVzMmhTeC1Gc2FCNXIzREtXX1A1SFEwR2RSaUd2TWMxN3oyQ2xPMUhtUDE4dEJJcWtMSnl4c2pGdU81eENOZm44ZnR2emhLTG1WWkNQRmstVVNHc2ZYZnN1dzZWV3N3eUc2enROUE1VWEswdDViQUlRSnZGNkNtNDlsOFhCZ0ZGWTZqbDVNN2kzbVEwM0toQTA?oc=5) | 🟡MONITOR
 **2026-09-03** — ASML สามารถบรรลุมูลค่า 1 ล้านล้านดอลลาร์และภัยคุกคามจากจีนถูกขยายเกินไป | [src](https://news.google.com/rss/articles/CBMie0FBVV95cUxPSW1NR0RvYTZvMjNwOXdHcHNlemg4aS15S0J0U01YeEFxZjIzaXNLUzJrOXhmNGRuckQ5ekhXd2xKTUNuWVlwekRFS0s4RnJKN3hkQmxLdERgOW50Skp0djg5NkxIZnNrYlJsZlJjeGZVakRWRGRmdVN4M1lXNA) | 🟡MONITOR
 **2026-09-03** — ตำแหน่งเด่นในเทคโนโลยี EUV ของ ASML ส่งสัญญาณแนวโน้มขึ้นยาวระยะ โดยความต้องการชิป AI ขับเคลื่อนโอกาสการเติบโต | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxPWHJWQkNfLVdoVFV4Ql82RFRfTFFZTENKd2EwVGdUN2VIajV2MEsyTFM4eGtpRENFRFMwUVBCSExRX0JRUEQ3V1diMEtwNU9JbGF6cUpPbWl5QjM4aEhabXVyWE5Ubks3NEtYbGNOaVQ0bXZCVmJGLTllalRJd0RwYnotWU5ZUUlIVlNoeW94VzZGYVI5R1hBTzNOcms) | 🟡MONITOR
 **2026-09-01** — ASML ยืนยันตำแหน่งยุทธศาสตร์ภายในกลุ่ม AI ด้วยความสำคัญของเทคโนโลยี EUV ในการผลิตชิปรุ่นใหม่; เปิดโอกาสจากความต้องการชิปสำหรับ AI ที่เพิ่มขึ้น | [src](https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGJ3YVlFemJwVXQ1RlRCNC1QRkxvNU5VcTFFeGNYNkdDX3ZaR3RuX2tPWTQtVXc2d3RxbWxhbmxNU2JmSkZNeG9lbVpSRk5OR1FENkdQeWYteEFjUjBoMEoybWMyRVRkY0I0ZjdUV2JVUUR0cmttTFlja29kcko0blg3S2FDbFR0RXlWdVhxOUVpenU0RkZJSGVSaw?oc=5) | 🟡MONITOR
@@ -2689,7 +2700,6 @@ Historical exposure ต่อ patent claims จากทั้งสองฝ่
 **2026-08-04** — อิทธิพลของ ASML ต่ออุตสาหกรรมการผลิตชิปลดลง เนื่องจากเทคโนโลยีแข่งขันใหม่ดูดเก็บส่วนแบ่งตลาด ความเสี่ยงต่อ moat ระยะยาว | [src](https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1R5S09FREY0OHFZVm84cDFLUGtLTUM2OTVldWc0cEtNM0h6Q3cteWRiRXhNV2Q1Y0tGbm5kRmFFR0FGZUNRUko2dFZuNjI0Mk1zMmQ1NnpESGk0TEpUX0NJbkZIaHZIeV84bllFLTlkdEZSV2diVWhYTThfNm9Ib0d5aGM?oc=5) | 🔴MATERIAL
 **2026-08-03** — ออร์เดอร์คงเหลือยังแข็งแกร่งแม้มีความกดดันจากตลาดชิป แสดงถึงความต้องการเทคโนโลยีการผลิตขั้นสูงยังคงอยู่ | [src](https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWkk0ZGMyT2NtcUtyX2RxbGRfSjdnWjE0VHJacVRVUU5KTkVGVWxTeFllYXF2aTZjdTBwZi1hR1c5NG5iZ1c2QUVqZUp2UEd5akk2d0ZFZDNjdEp4MV9FUUJ0SWU3SFZOSGpWM01xQUd4bTlzRG5DRm5RM2hpbkw5MUE5S2Y5MDItNTNoTnJSbkJzUXBXaXhWSnlYbUJLdmJSSVNpQXgwNUZtSFdXYnd0UXo3aHNMQXJUUXpiQ3FqenJvUHVLQTlZY1ZnZEl4QWM0VWxiZ1NCcl93NGVWYWfSAd4BQVVfeXFMT1pJNGRjMk9jbXFLcl9kcWxkX0o3Z1oxNFRyWnFUVVFOSk5FRlVsU3hZZWFxdmk2Y3UwcGYtYUdXOTRuYmdXNkFFamVKdlBHeWpJNndGRWQzY3RKeDFfRVFCdEllN0hWTkhqVjNNcUFHeG05c0RuQ0ZuUTNoaW5MOTFBOUtmOTAyLTUzaE5yUm5Cc1FwV2l4Vkp5WG1CS3ZiUklTaUF4MDVGbUhXV2J3dFF6N2hzTEFyVFF6YkNxanpyb1B1S0E5WWNWZ2RJeEFjNFVsYmdTQnJfdzRlVmFn) | 🟡MONITOR
 **2026-07-29** — ความเสี่ยงจากการผลิต DUV ของจีนถูกประเมินว่าน้อยกว่าคาดการณ์ เนื่องจากยังห่างจากศักยภาพเทคโนโลยีชิปความสามารถสูง | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxORHd1OGZfUGRWTkstNG5iMXd2YmQxVmdzTnhpX21odHA5U0IwVXFxNVF6LUdOSUF2X0RoT1duSXc3V1E1TG41ZEFlRm9nbDBLSjYwM1Q1R3pEMk1jQV9kYXNBMXZQeWxja1d4M053NUtxa2ZuWTJfQUN4VVJkSXVEVzRMMWthQkpqTDN1aThEMXF5V09KdGpMZFZXR2xvSFJx) | 🔴MATERIAL
-**2026-07-28** — จีนรายงานเริ่มผลิด DUV เครื่องมือการทำสำเร็จเอง แต่ความเห็นยังจำกัดจากภาวะความได้เปรียบทางเทคโนโลยี | [src](https://news.google.com/rss/articles/CBMitAFBVV95cUxPeFptbDFrX25qVjdhUjJoaHBUd21hQzhieWE5QlVYbmVkb2FZRllqTUd1b3JqbzhjcFdLcElMX3k0Nm5uc21XVHBYYl9nSTVzX1daTWt6VkU4bXUybkVhbWZTYkNvdi1zQlc2RTJJN0tpcVhSRWk4dTlkeUJGd3ZnMjBrUVlsOUtVdkZwZmdEWG51bjFJVUk2VGdEcWRIM3h6aVM0ZWJOQ3FEMDZwOWthSEtsSkw) | 🔴MATERIAL
 
 ## Source Log
 
@@ -2925,7 +2935,9 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 | FY2024 | $1,900M | n/a | n/a | n/a | $(863)M | Active power 360MW/32 data centers |
 
 ## Story Gate
-**Last Updated:** 2026-08-29  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-09-12 re-check (news + TQR sync, /warren watchlist):** ข่าวหลัง gate 08-29 — 08-31 🟡MONITOR (ขยายไป engineering AI), 09-10 🟡MONITOR (CEO ยืนยัน demand เกิน NVIDIA supply), 09-11 🔴MATERIAL (สัญญาสะสมมากขึ้นท่ามกลาง chip shortage) — ทั้งหมดเสริม narrative เดิม (backlog/demand-constrained) ไม่มีตัวเลขใหม่เชิงปริมาณ (ไม่มี revenue/margin guidance ใหม่). **TQR sync สำคัญ — เปลี่ยน band:** playbook v3 (2026-09-06) ให้ CRWV = **5.55** (⬆ จาก v2 5.30) → **Out → 🥉 Peripheral** (ceiling 0%→10%) จาก BQ ขึ้น 5.5→6.0 (หลักฐาน Platinum-tier/premium pricing ที่การ์ดเองปรับไปแล้ว 08-29). **ไม่เปลี่ยน action** — WAF ยัง LOW (<6.5) และ MoS ยังติดลบหนัก บล็อค BUY อยู่ดี (Step 5 WAF gate). ราคา $84.23(08-29)→**$88.99** (prices_cache.json, +5.65%) — price-only recompute, FV Base $77 carried forward unchanged (ยังรอ \`/mark-research\` full refresh, Q2 10-Q ยังไม่ ingest)
 
 **2026-08-29 re-check (time-trigger, >90 days since 06-18 gate):** Q2 FY2026 actuals reported since last gate (WebSearch corroboration, no primary doc ingested this batch): revenue **$2.58B** (+112.5% YoY, up from Q1's $2.08B), revenue backlog **~$104B** (up from $99.4B), adjusted loss per share $(1.03). Offsetting: **debt-to-equity now >14×** (leverage increased), CDO insider sale $21.3M (08-24), continued margin pressure/competition headlines. 08-28 🔴MATERIAL — new multi-billion-dollar AI infrastructure contract (reinforces backlog growth, no exact figure disclosed). **Net read: business scaling as expected, quality signal (Platinum-tier pricing, backlog growth) modestly positive, but leverage/dilution risk rising in parallel** — BQ nudged up, RA nudged down, net WAF slightly improved. **⚠️ This is a price-refresh + qualitative update from WebSearch, not a full primary-document rebuild** — Q2 10-Q/earnings call have not been re-ingested via \`/mark-research\` since 06-17; flagging for a dedicated refresh pass. TQR reused from AI-Revolution.md playbook (v2, 2026-08-27, freshly computed): **5.30 → Out band, ceiling 0%** — this overrides any price-driven BUY case regardless of MoS (see BUY Decision Flow Step 1.5).
 
@@ -2938,8 +2950,10 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 **Tier Basis:** Speculative — IPO มี.ค. 2025 (< 2 ปี standalone track record) + upside หลัก (backlog $99.4B แปลงเป็นกำไรจริง) ยังไม่อยู่ในงบ (Net Loss $(740)M ใน Q1 ล่าสุด, Adj Op Margin เพียง 1%) + capital intensity/leverage สูงมากจนยังพิสูจน์ "moat" ไม่ได้ว่าอยู่ตรง software/orchestration layer จริงหรือเป็นแค่ first-mover capacity advantage ที่ hyperscaler ไล่ตามทันได้
 
 ## Valuation Range
-**Last Updated:** 2026-08-29  |  **Price ณ วันนั้น:** $84.23  |  **Method:** EV/Revenue Multiple (ไม่มี GAAP profit) — FV Base carried forward unchanged, price + qualitative refresh only
+**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $88.99  |  **Method:** EV/Revenue Multiple (ไม่มี GAAP profit) — FV Base carried forward unchanged, price + qualitative refresh only
 
+> 🔄 **Price + qualitative refresh (09-12), not a full rebuild.** ราคา $84.23→$88.99 (+5.65%, prices_cache.json) — demand-exceeds-supply narrative (09-10/09-11) เสริม backlog thesis เดิม ไม่มีตัวเลขใหม่. Revenue/multiple assumptions **carried forward unchanged** จาก 06-18 — ต้องการ \`/mark-research\` full refresh (Q2 10-Q ยังไม่ได้อ่านเข้าระบบ) ก่อนจะปรับ FV จริงจัง
+>
 > 🔄 **Price + qualitative refresh (08-29), not a full rebuild.** ราคา $115.21→$84.23 (−26.9%, prices_cache.json) หลัง earnings run-up ที่แรงไปในเดือน ก.ค.-ส.ค. คลายตัวลง (insider selling, debt/leverage concerns, sector-wide AI-infra risk-off ก่อนงบ NVDA). Revenue/multiple assumptions **carried forward unchanged** จาก 06-18 — ต้องการ \`/mark-research\` full refresh (Q2 10-Q ยังไม่ได้อ่านเข้าระบบ) ก่อนจะปรับ FV จริงจัง
 
 ### Earnings Basis
@@ -2964,22 +2978,24 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 | **Bear** | $12.5B | 2.2× | $42 | 30% |
 
 **Weighted Fair Value:** $77 (carried forward, unchanged)
-**ราคาปัจจุบัน:** $84.23 *(08-29, prices_cache.json; prev $115.21)*
-**Margin of Safety:** **−9.39%** = ($77−$84.23)÷$77 — ดีขึ้นมากจาก −49.6% (ราคาร่วง −26.9% ไกลกว่า FV ขยับ) แต่ยังไม่ผ่าน gate
-**5-yr Expected Return:** **~−1.78%/yr** (convergence −1.78% + growth 0%, ไม่มี EPS-based growth เพราะยังขาดทุน GAAP) → ✗ FAIL (gate ≥15%)
+**ราคาปัจจุบัน:** $88.99 *(09-12, prices_cache.json; prev $84.23)*
+**Margin of Safety:** **−15.57%** = ($77−$88.99)÷$77 — แย่ลงจาก −9.39% ตามราคาที่ขึ้น +5.65%
+**5-yr Expected Return:** **~−2.85%/yr** (convergence −2.85% + growth 0%, ไม่มี EPS-based growth เพราะยังขาดทุน GAAP) → ✗ FAIL (gate ≥15%)
 
 ### Data Sources
 - **Earnings Data:** Q1 FY2026 10-Q + Exhibit 99-1 + Earnings Call + Earnings Presentation (06-17) — Q2 FY2026 actuals (rev $2.58B, backlog $104B) sourced via WebSearch this batch, not yet re-ingested as primary doc
 - **Analyst Estimates:** ไม่มีในเอกสาร primary — Warren's own estimate
 - **Industry/Peer Data:** Neocloud peer group (IREN, NBIS) สำหรับ P/S benchmark
 
-**WAF (recomputed 08-29):** BQ 6.0 (⬆ จาก 5.5 — Platinum-tier/premium pricing evidence จาก TQR playbook note) · GP 8.5 (unchanged) · VA 4.3 (⬆ จาก 3.0 — MoS ดีขึ้นมากจากราคาร่วง) · RA 3.0 (⬇ จาก 3.5 — leverage debt/equity >14×, insider selling) → **WAF = 6.0×0.3+8.5×0.3+4.3×0.25+3.0×0.15 = 5.88 (LOW, ขึ้นจาก 5.47)**
+**WAF (recomputed 09-12):** BQ 6.0 (unchanged) · GP 8.5 (unchanged) · VA 3.8 (⬇ จาก 4.3 — MoS แย่ลงจากราคาขึ้น) · RA 3.0 (unchanged) → **WAF = 6.0×0.3+8.5×0.3+3.8×0.25+3.0×0.15 = 5.75 (LOW, ลงจาก 5.88)**
 
-**TQR (จาก AI-Revolution.md v2, 2026-08-27):** 5.30 → **Out band, ceiling 0%** — ธุรกิจคุณภาพยังไม่พิสูจน์ (moat unclear, Resilience ต่ำสุดในธีม เพราะรายได้ 100% ผูก AI compute demand) → **BUY Decision Flow หยุดที่ Step 1.5 ไม่ว่า MoS จะดีขึ้นแค่ไหน**
+**TQR (จาก AI-Revolution.md v3, 2026-09-06):** **5.55** (⬆ จาก 5.30 v2) → **Out band → 🥉 Peripheral, ceiling 0%→10%** — BQ ธีมขึ้น 5.5→6.0 จากหลักฐาน Platinum-tier/premium-pricing เดียวกับที่การ์ดปรับไปแล้ว 08-29 (band change ระดับธีม ไม่ใช่ business change ใหม่ที่การ์ดนี้). **ไม่เปลี่ยน action วันนี้** — WAF 5.75 < 6.5 ยังบล็อค BUY อยู่ดี (Step 5 WAF gate เป็นอิสระจาก TQR ceiling)
 
-**Action:** ❌ AVOID — WAF 5.88 (LOW) + TQR Out (ceiling 0%) + MoS ยังติดลบ (แม้ดีขึ้นมากจากราคาร่วง) + Speculative tier (ไม่ pay up) — backlog/revenue growth เป็นสัญญาณบวกที่ควรจับตา แต่ยังไม่พอเปลี่ยน tier/TQR band; แนะนำ \`/mark-research\` full refresh + \`/warren theme\` reconsideration รอบหน้าถ้า momentum ยังดีต่อเนื่อง
+**Action:** ❌ AVOID — WAF 5.75 (LOW, fail Step 5) + MoS ติดลบหนักขึ้น (-15.57%) + Speculative tier (ไม่ pay up) — TQR ขยับเป็น Peripheral (ceiling 10%) แต่ไม่มีผลเพราะ WAF gate บล็อคอยู่แล้ว; แนะนำ \`/mark-research\` full refresh รอบหน้า
 
 ## Recent News
+**2026-09-11** — CoreWeave มีสัญญาสะสมมากขึ้นในขณะที่ความต้องการชิป Nvidia ยังเกินกว่าความสามารถตอบสนอง ความสามารถการสเกลอินฟ์ AI ขาดแคลน | [src](https://news.google.com/rss/articles/CBMimgFBVV95cUxQRVJuZk9pRWcteklPTG12OGpEMHFtSl9nRnNhS2ZHTlFydmIyNEJuZ2FRdVB5ZW9vZ3JUZ1BwNGp1SDZiOHVrdnlWLVlUTk8zbk1reTAtcFVORmYzMElwUkNwaUFWN3RYX2lFdG80blJzX0tSWmhzR0s4RkdRS2FiNk1tYXJtN21QYjlQWThVN1RaaWsyX3B1SW5R?oc=5) | 🔴MATERIAL
+**2026-09-10** — CEO ของ CoreWeave ยืนยันว่าบริษัทขัดสนใจอย่างชัดเจนเมื่อเทียบกับความต้องการของชิป Nvidia ที่เพิ่มมากขึ้น โดยความจุในการให้บริการยังไม่เพียงพอต่อความต้องการของตลาด | [src](https://news.google.com/rss/articles/CBMixAFBVV95cUxOdG5KTlJuMmRJZWFrUUFtakN0S2laaHh5WGM5djhwd2tCLWhEZVNCRjQtaHhQUUdlSURSUDQ1X3BKdVBCbjFjcnVhb0ZvV3FDSVhtRENSM2Zua0RsenNUWjNaajNRSUl4WmNBT2J4NnN4Y2U4U3hPdUlYVW5sUHlzT3BMNUdHNG1qNzRTX1phQ1cwVHlMVlFvTlBlTVRLR1dKM1ZzRmt3TFg1amRqbnBDbGpzNFFSOVlCLVRGcUxqZU82Y3Zl?oc=5) | 🟡MONITOR
 **2026-08-31** — CoreWeave ประกาศขยายไปยังงาน Engineering AI ระดับต่อไป แสดงการเจาะตลาด GPU cloud infrastructure ไปยังการใช้งานอุตสาหกรรมใหม่ | [src](https://news.google.com/rss/articles/CBMiowFBVV95cUxOMjFfc0JseVEycFdTNU5qQW1XMGlpa3ZIVGhlOGVueWJDS0t6UDNvZzE4RDljc2h0Y1E0a3dUOVl2NWdOS190RnJTbjd4UFZyMkdmc2VZNGZuVkE2X2ZIdXlxZzRHTEhkMi1TMGExTDhMUEJlN241MzEyekExcC1KdWlUUkxJeGNEeXh1OEFKdkFlMGlCLVRUMGEzVmR4VURLWHh3?oc=5) | 🟡MONITOR
 **2026-08-28** — CRWV ทำสัญญา multi-billion ดอลลาร์เพื่อ AI infrastructure; ยืนยันตำแหน่งผู้นำในบริการ GPU cloud computing ที่มีความสำคัญต่ออบจริงการคำนวณ AI | [src](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaWdDZ2lpcnhPbUhiOG1wY0Z5QU9raThOVDhMT2duMDNFcUJxUllfQVpSaFhxdjEwQTNzY1FrMHB2Yi0wVkowR1BvWlhZVjFlQm5PYTE4b0RjamU0ZHA2c1RZMlNybjZuVzZRb0VFcW00SVEzR0lueDNEY1JXM0p6Q3c3UUxTY0t0bEgtc3lfTXRYZTBHbHNMSXFfWmZKWU1rV0M3NDNtV1c?oc=5) | 🔴MATERIAL
 
@@ -3662,7 +3678,9 @@ IREN (เดิมชื่อ Iris Energy) คือผู้เป็นเจ
 | FY2025 (ปีงบเต็ม) | n/a | $86.9M | n/a | กำไรสุทธิครั้งแรกในประวัติบริษัท (เทียบขาดทุน $(28.9)M FY2024, $(171.8)M FY2023); operating capacity ~810MW, เปิดตัว AI Cloud Services 2024 |
 
 ## Story Gate
-**Last Updated:** 2026-08-29  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-09-12 re-check (time-trigger, 14 วันตั้งแต่ 08-29, /warren watchlist):** ไม่มี Recent News entry ใหม่ (section ว่างเปล่า — mark_daily ไม่ได้ track ticker นี้) — pure time-based re-check ผ่าน WebSearch ไม่พบข่าวใหม่ที่กระทบ thesis. TQR sync จาก playbook **v3 (2026-09-06)**: **5.08 → Out band, ceiling 0%** (ไม่เปลี่ยนจาก v2). ราคา $35.45(08-29)→**$43.83** (prices_cache.json, +23.6% — rebound แรงจากการ์ดที่เพิ่งรายงาน impairment) — price-only recompute, FV Base $47 carried forward unchanged. **หมายเหตุ:** MoS ที่เคย "พลิกบวก +24.6%" ตัวเลขเดียวใน batch 08-29 (จาก sell-off ชั่วคราว) กลับมาต่ำกว่า gate อีกครั้งจากราคาที่ rebound — ยืนยันว่าเป็น noise ของราคา ไม่ใช่สัญญาณซื้อ ตามที่ Story Gate 08-29 เตือนไว้แล้ว
 
 **2026-08-29 re-check (time-trigger, >90 days since 06-18 gate):** FY2026 annual report released 08-27 (WebSearch corroboration, no primary doc ingested this batch) — mixed: **$639M mining-rig impairment/writedown** (continuation/escalation of the decommissioning charges already flagged on this card) alongside genuine AI Cloud progress — capacity "largely sold out" for 2026 (CEO), $3.4B NVIDIA contract, Microsoft deployment phase 1 delivered live. Stock fell −39.0% since 06-18 gate (heavy volatility all August — rallied on MSFT-deployment news then fell on the writedown). **⚠️ Full \`/mark-research\` refresh recommended** — 10-Q/earnings materials on file are from 06-17. TQR reused from AI-Revolution.md playbook (v2, 2026-08-27, freshly computed): **5.08 → Out band, ceiling 0%**.
 >
@@ -3677,8 +3695,10 @@ IREN (เดิมชื่อ Iris Energy) คือผู้เป็นเจ
 **Tier Basis:** Speculative — แม้มี Microsoft $9.7B + NVIDIA $3.4B contract และ track record กำไรครั้งแรก แต่ business model transition ยังไม่จบ (Net Loss $(247.8)M ล่าสุดจาก impairment), customer concentration รุนแรง (Microsoft กลายเป็น single largest counterparty), convertible debt ซับซ้อน $3.69B หลาย tranche — upside หลักยังอิงการ execute transition ที่ยังพิสูจน์ไม่ครบ ไม่เข้าเกณฑ์ Fast Grower/Pre-Inevitable จนกว่าจะเห็น margin stabilize หลัง transition
 
 ## Valuation Range
-**Last Updated:** 2026-08-29  |  **Price ณ วันนั้น:** $35.45  |  **Method:** Price/ARR (pre-stabilized profitability) — FV Base carried forward unchanged, price + qualitative refresh only
+**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $43.83  |  **Method:** Price/ARR (pre-stabilized profitability) — FV Base carried forward unchanged, price + qualitative refresh only
 
+> 🔄 **Price refresh only (09-12), time-trigger, no new news.** ราคา $35.45→$43.83 (+23.6%, prices_cache.json) — rebound หลังการร่วงจาก impairment charge เดือนก่อน ไม่มีข่าว/ตัวเลขใหม่. ARR target/multiple assumptions **carried forward unchanged** จาก 06-18 — ต้องการ \`/mark-research\` full refresh ก่อนปรับ FV จริงจัง
+>
 > 🔄 **Price + qualitative refresh (08-29), not a full rebuild.** ราคา $58.11→$35.45 (−39.0%, prices_cache.json) หลัง FY2026 annual report (08-27) ที่มี $639M impairment charge กด sentiment แม้ AI Cloud progress จะดี. ARR target/multiple assumptions **carried forward unchanged** จาก 06-18 — ต้องการ \`/mark-research\` full refresh ก่อนปรับ FV จริงจัง
 
 ### Earnings Basis
@@ -3703,20 +3723,20 @@ IREN (เดิมชื่อ Iris Energy) คือผู้เป็นเจ
 | **Bear** | $3.7B | 2.5× | $26 | 30% |
 
 **Weighted Fair Value:** $47 (carried forward, unchanged)
-**ราคาปัจจุบัน:** $35.45 *(08-29, prices_cache.json; prev $58.11)*
-**Margin of Safety:** **+24.57%** = ($47−$35.45)÷$47 — **พลิกบวก crossing the MoS gate numerically** — ดูคำอธิบายใน Story Gate ว่าทำไม TQR Out band ยังบล็อค BUY อยู่
-**5-yr Expected Return:** **~+5.8%/yr** (convergence +5.8% + growth 0%, ไม่มี EPS-based growth ที่สะอาด — ยังขาดทุน/impairment-heavy) → ✗ ยังไม่ผ่าน gate ≥15%
+**ราคาปัจจุบัน:** $43.83 *(09-12, prices_cache.json; prev $35.45)*
+**Margin of Safety:** **+6.74%** = ($47−$43.83)÷$47 — **พลิกกลับต่ำกว่า gate อีกครั้ง** จาก rebound ของราคา (+23.6%) — ยืนยันว่า MoS ที่เคยเป็นบวกมากใน batch ก่อนเป็น noise ของราคา ไม่ใช่หลักฐานเชิงคุณภาพ
+**5-yr Expected Return:** **~+1.41%/yr** (convergence +1.41% + growth 0%, ไม่มี EPS-based growth ที่สะอาด — ยังขาดทุน/impairment-heavy) → ✗ ยังไม่ผ่าน gate ≥15%
 
 ### Data Sources
 - **Earnings Data:** Q3 FY2026 10-Q + Exhibit 99-1 + Earnings Call + Earnings Presentation (06-17) — FY2026 annual report (08-27, $639M impairment) sourced via WebSearch this batch, not yet re-ingested as primary doc
 - **Analyst Estimates:** ไม่มีในเอกสาร primary — Warren's own estimate
 - **Industry/Peer Data:** Neocloud peer (CRWV, NBIS) Price/ARR benchmark
 
-**WAF (recomputed 08-29):** BQ 5.0 (unchanged) · GP 8.0 (unchanged — strong contracted revenue visibility, capacity sold out) · VA 6.5 (⬆ จาก 3.5 — MoS พลิกบวกจากราคาร่วง) · RA 3.0 (⬇ จาก 3.5 — impairment $639M ซ้ำเป็นรอบที่สอง = execution/surprise risk) → **WAF = 5.0×0.3+8.0×0.3+6.5×0.25+3.0×0.15 = 5.98 (LOW, ต่ำกว่า 6.5 — fail Step 5 WAF gate เป็นอิสระจาก TQR)**
+**WAF (recomputed 09-12):** BQ 5.0 (unchanged) · GP 8.0 (unchanged — strong contracted revenue visibility, capacity sold out) · VA 4.0 (⬇ จาก 6.5 — MoS พลิกกลับต่ำกว่า gate จากราคา rebound) · RA 3.0 (unchanged — ไม่มีข่าวใหม่รอบนี้) → **WAF = 5.0×0.3+8.0×0.3+4.0×0.25+3.0×0.15 = 5.35 (LOW, ต่ำกว่า 6.5 — fail Step 5 WAF gate เป็นอิสระจาก TQR)**
 
-**TQR (จาก AI-Revolution.md v2, 2026-08-27):** 5.08 → **Out band, ceiling 0%** — freehold land/power เป็นข้อได้เปรียบเชิงโครงสร้างจริง แต่ scale AI-cloud ยังเล็ก + Resilience ต่ำ (Bitcoin mining ที่เหลือกำลัง wind-down ไม่ใช่กันชนถาวร) → **BUY Decision Flow หยุดที่ Step 1.5 ก่อนแม้ MoS +24.6% จะผ่าน gate ราคาแล้วก็ตาม**
+**TQR (จาก AI-Revolution.md v3, 2026-09-06):** 5.08 → **Out band, ceiling 0%** (ไม่เปลี่ยนจาก v2) — freehold land/power เป็นข้อได้เปรียบเชิงโครงสร้างจริง แต่ scale AI-cloud ยังเล็ก + Resilience ต่ำ (Bitcoin mining ที่เหลือกำลัง wind-down ไม่ใช่กันชนถาวร) → **BUY Decision Flow หยุดที่ Step 1.5**
 
-**Action:** ❌ AVOID — สองด่านอิสระบล็อค BUY พร้อมกัน: **WAF 5.98 < 6.5** (Step 5) และ **TQR Out ceiling 0%** (Step 1.5) — แม้ MoS ราคาพลิกบวก (+24.6%) จากการร่วงของราคา ไม่ใช่หลักฐานว่าธุรกิจดีขึ้น (impairment ใหญ่รอบใหม่ยืนยันว่า transition ยังไม่นิ่ง). ติดตาม margin stabilization หลัง Microsoft ramp เต็มก่อน reconsider tier/TQR
+**Action:** ❌ AVOID — สองด่านอิสระบล็อค BUY พร้อมกัน: **WAF 5.35 < 6.5** (Step 5) และ **TQR Out ceiling 0%** (Step 1.5) — MoS พลิกกลับเป็น +6.74% (ต่ำกว่า gate) จากราคาที่ rebound +23.6% ยืนยันว่ารอบก่อนเป็น price noise ไม่ใช่คุณภาพดีขึ้น. ติดตาม margin stabilization หลัง Microsoft ramp เต็มก่อน reconsider tier/TQR
 
 ## Recent News
 
@@ -4823,6 +4843,7 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 ---
 
 ## Recent News
+**2026-09-11** — Microsoft ประกาศวางแผนขยายความจุ Data Center มากกว่า 3 เท่าภายในปี 2575 ยืนยันการเดิมพัน Capex ในโครงสร้างพื้นฐาน AI | [src](https://news.google.com/rss/articles/CBMisAFBVV95cUxNdS1IbEEySUNXTFFZc0JYbTY3REdYWG42ak1SWWdWUkZZdk14X0RxZlVyeURrb2tGTlFEMHZreElFZGtRSEV0Ql9yQ0hlY20ySkFsaFRqQ3pKZi1FLWxzNUJBT0F4SHBvVXJOUTdWMTkydm5nTFp3WDRzY3A0R2tDaXVPeFMxT0ZjdzBZZGh0S0lqYWREOXMtaDVVVXlpWEJyLTJPT3l4VU9hU2xLbjZVZA?oc=5) | 🔴MATERIAL
 **2026-08-31** — ไมโครซอฟต์รายงานว่าได้รับรายได้ 24.1 พันล้านดอลลาร์จาก OpenAI ในปี 2026 แต่นักลงทุนยังไม่สามารถเห็นตัวเลขกำไรสำคัญ | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxQTEttTUVoSTc4SU1uVF8tc3JHSmJubUp5emJDaV9DdlZuLVV1MGpUTl9OdHdVbkVrUy1vTm81V3VTZ0F3REtjVFBCRXFDeGpBd3BhNkc1SE56UFlNT3dKbkhLd2F1OUE3aHJFVXlXZzZ6b0N0c3FYLVcxdkxLMmNBb1VleHNkVmNoUVREWi05cjQtV1RSZ1E?oc=5) | 🔴MATERIAL
 **2026-08-28** — MSFT เปิดตัวแผนงาน AI at Work ที่ครอบคลุมผลิตภัณฑ์หลักเพื่อเพิ่มความสามารถปัญญาประดิษฐ์ด้านการผลิตผลงาน; ขยายการแข่งขันกับ OpenAI และระบบ AI ในองค์กร | [src](https://news.google.com/rss/articles/CBMijwFBVV95cUxNcExraWdqanRReEUtY3RUbVliaVp4a0FNRFA2RGQ0NlgycWNNVU16a0ZkRTNTZ1dndGM3WFY5VmppdWMzTnlvUDFfU2xuRDdiR1hDNzViSzlJdzRTclhEU1I4TDdmb2UxM1JycE83ay1jSW1vMk43Sy16MTJydFQ1UkFPQ1EwSEo5c1lwNjlhdw?oc=5) | 🔴MATERIAL
 **2026-08-20** — Meta ลงทุนเงินสด 100 ล้านถึง 500 ล้านดอลลาร์ใน Microsoft Azure สำหรับโครงการ AI; แสดงความแข่งขันเพิ่มขึ้นจาก AWS และ Google Cloud | [src](https://news.google.com/rss/articles/CBMiugFBVV95cUxOU1h1Q2Z1NEZnUGoxV25vaTlWUnFWSEdEb2R6MTVXSTg2Wm5HZi1OajBGS3FzUy1jSXk5YW9ubjZ4RXUzVWRDMVdCaTJ4YWYyU2drZ0pvZ0NGTW9DWENDSkxzYXpGNEs1b0ZBVW54Zk1uWHhPbllOSUxmT2V4MUhtSWIyYW1yd3pMRjU1SWRWLTRNUExTbjlmSUQzblc3OGFKeHZ2NVNoYUFGLWo2Ynp2OE4wTV9RYjlzNGc) | 🔴MATERIAL
@@ -4836,7 +4857,6 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 **2026-08-03** — มีโซลูชั่นคลาวด์ AI ขนาดใหญ่ ช่วยให้บริษัทเพิ่มการลงทุนโครงสร้างพื้นฐานอย่างก้าวใหญ่และความสามารถในการแข่งขันกับ AWS-Google | [src](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY1d4clZGd29SUlVkemdZNzFwbm5nVUM2WFhjVXQwZWNqb25tMzVnQ0dvcXhYek92M3ZxODE1R2NjNjJrQXBCRzdVMjNOWkV3Sk9oX3RUTmtDbVdPV2tKMGd4TUFFcGFzYTBkYlA4ZVlrN3hneUx5LUY4SWRfRUhLaXZHMEFJcFJBUkJmNGZid0xLdkFCMkhxVUFPRDhHUmpwaktCNVRhWnlGZ0d4b3lHVU1WMVNicFFUNTZ1cXR3MFhKZnpYcEZEaWpjTGUxYWpRTVE) | 🔴MATERIAL
 **2026-07-30** — ผลกำไรไตรมาส 4 ปีงบ 2569 เพิ่มขึ้น 31%; ยอด Azure ข้ามเกิน 100 พันล้านดอลลาร์ และบริษัทเพิ่มแผนการใช้จ่ายทุนพร้อมเหตุผลจากความต้องการอัฒจันทร์ AI | [src](https://news.google.com/rss/articles/CBMigAFBVV95cUxNaDkyU1ptM2xGN2M5QUJtclpSMFJtQVd4VlZJeTJKbXJPb2Q4cW1VUlZubjVoQ291MnB3T3AwT1RQcENGTmtEVHB3bUNsTzBRRjlHTjQ0dGpabWpZM3pZTGlIcjNGcGRTdDlDc2tCc01QYUxtaXpHREFvSWV6VC1Nbw) | 🔴MATERIAL
 **2026-07-29** — รายงานผลประกอบการ Q4 ที่จะเข้ามาเร็วๆ โดยตลาดมองหาผลตอบแทนจากการลงทุน AI | [src](https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdThraGE0cFkyaW9ETGJJUW1iU01ZdVVKU1h4V0ttYzJ6Z3RabjJDVHl5V21aaEl0QjVUVF8yTmEtbHIyNXJSNkY0V3VLQUJ3d3VBTmVFSGZ5NlBkYVN2RzNobEVuTjc4eWZyN2RpOXNUekx5aWJzTUthQlNNMUFCaHlNS19FSXBQcVlsTTdROHY4cl9fREh4RTNnZWxkQmN4amtGcXFlUS1kWXBjQy1pUWRKS0Zqa2xEMmdyM1U3QWY4T1IxWnNSOTJxb01MS3kzLUVKNA) | 🟡MONITOR
-**2026-07-24** — ขยายพันธมิตรกับ Mistral เพื่อให้องค์กร/อุตสาหกรรมที่ควบคุมได้สามารถ deploy AI model ตามต้องการ; เสริมความแข็งแกร่งตำแหน่งใน enterprise AI | [src](https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA) | 🟡MONITOR
 
 ## Source Log
 
@@ -4865,8 +4885,10 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
 
+> 🌓 **REGIME-SHIFT FLIP 2026-09-12 (/warren watchlist) — HOLD → STARTER-eligible.** ข่าว 🔴MATERIAL เดียวหลัง gate 09-05 คือ **09-11 "ขยายความจุ Data Center มากกว่า 3 เท่าภายในปี 2575"** — long-horizon capacity target (2032) ไม่มีตัวเลข near-term revenue/EPS guidance ⇒ ไม่ปรับ EPS/FV รอบนี้ (เป็นหลักฐานเสริม thesis เดิมว่า capex ยังเร่งตัว ไม่ใช่ตัวเลขใหม่ที่ใช้คำนวณได้). **ตัวขับเคลื่อนจริงของ flip นี้คือ market regime ไม่ใช่ธุรกิจ:** VIX ข้าม 15 เป็น 15.74-15.84 (WebSearch CNBC/Yahoo + yfinance live, 09-12) จาก Calm (14.32, 09-05) → **Normal mode** — Effective MoS Gate ลดจาก 20%→**15%** (S&P fwd P/E ~19.5x ยังอยู่ Normal band 18-22x เดิม). ราคาลดต่อ $499.70→$495.63 (-0.81%) เสริมอีกแรง. ผลคือ MoS 11.81% ขาด gate ใหม่เพียง **3.19 จุด** (เดิมขาด gate เก่า 8.92 จุด) → **เข้าแถบ STARTER/near-miss (≤7 จุด)** ตาม BUY Decision Flow Step 5: ผ่านครบ PEG (1.24≤1.5 ✓) + ER (20.45%≥15% ✓) + WAF (8.40≥6.5 ✓) + Tier 🏛️ Inevitable ✓ → **STARTER band เข้าเงื่อนไขครบ**. ⚠️ **นี่คือ regime-shift flip ล้วนๆ ไม่ใช่ธุรกิจดีขึ้น** — flag เด่นให้ Kim/โอ๊ตพิจารณาที่ \`/warren\` (position sizing จริงตัดสินที่นั่น ไม่ใช่ที่ watchlist pass นี้). ไม่มี tier change
+>
 > ✅ **Reconfirmed 2026-09-05** (news-trigger, 08-31 🔴MATERIAL) — OpenAI revenue concentration disclosure ($24.1B FY26, ~7% of total revenue) quantifies an already-known risk category (backlog concentration) without escalating it — no WHAT/WHY NOW/IF WRONG change. Price pulled back $513.53→$499.70 (-2.69%), narrowing the MoS gap to today's locked Effective Gate (20%, still outside the 7pt near-miss band by 8.92pts, improved from 11.37pts). No tier change.
 
 > ✅ **Reconfirmed 2026-08-29** — ข่าวใหม่หลัง gate 08-25: 08-28 🔴MATERIAL "AI at Work" product roadmap launch (เสริม Copilot ecosystem ตามเดิม ไม่มีตัวเลขใหม่ให้ปรับ EPS) → ไม่กระทบ WHAT/WHY NOW/IF WRONG/Tier Basis. **⚠️ Regime shift สำคัญกว่าราคา:** ราคาขึ้น $487.31→$513.53 (+5.38%) พร้อมกับ VIX หลุดต่ำกว่า 15 (Calm mode, +5pt gate adjust) ดัน Effective MoS Gate 15%→20% พร้อมกัน — MoS หดจาก 13.29% (near-miss 8-15% band) เหลือ **8.63%** (นอก STARTER band, ขาด gate 11.37 จุด) ⇒ ADD-candidate ที่เคย "ใกล้มาก" รอบก่อน **ถอยห่างออกจาก threshold** จากราคาขึ้น+ตลาดสงบพร้อมกัน ไม่ใช่ธุรกิจแย่ลง
@@ -4884,8 +4906,10 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $499.70  |  **Method:** มาตรฐาน "Revenue×Margin→EPS→P/E" (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใดๆ (forward P/E 22.21× ต่ำกว่าเส้น 80× มาก, ไม่ใช่ Cyclical, และช่องว่าง op margin ระหว่าง segment ~19-39pp ไม่เข้านิยาม "economics ต่างกันสุดขั้ว" ของข้อยกเว้น SOTP)
+**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $495.63  |  **Method:** มาตรฐาน "Revenue×Margin→EPS→P/E" (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใดๆ (forward P/E 22.21× ต่ำกว่าเส้น 80× มาก, ไม่ใช่ Cyclical, และช่องว่าง op margin ระหว่าง segment ~19-39pp ไม่เข้านิยาม "economics ต่างกันสุดขั้ว" ของข้อยกเว้น SOTP)
 
+> 🌓 **Price + REGIME-SHIFT recompute (09-12) — EPS/multiple/FV carried forward จาก 08-29 (ไม่มี earnings ใหม่ Q1 FY2027 ยังไม่ถึงกำหนด).** ราคาลด $499.70→$495.63 (-0.81%, prices_cache.json) + **VIX ข้าม 15 (15.74-15.84) → Calm→Normal, Effective Gate ลด 20%→15%** (S&P fwd P/E ~19.5x ยังอยู่ Normal band 18-22x เดิม ไม่เปลี่ยน) ⇒ **MoS gap แคบลงจาก 8.92 จุด เหลือ 3.19 จุด — เข้าแถบ STARTER/near-miss (≤7 จุด) แล้ว** (ดู Story Gate สำหรับรายละเอียด flip)
+>
 > 🔄 **Price-only recompute (09-05) — EPS/multiple/FV carried forward จาก 08-29 (ไม่มี earnings ใหม่ Q1 FY2027 ยังไม่ถึงกำหนด).** ราคาลด $513.53→$499.70 (-2.69%, prices_cache.json) — market context locked ทั้งวันนี้ (batch 1-4): sp500 fwd P/E 19.6× (Normal), VIX 14.32 (Calm, +5pt) → Effective Gate 20% **เท่ากับ 08-29** (ไม่มี regime shift ภายในวันนี้) ⇒ **MoS gap แคบลงจาก 11.37 จุด เหลือ 8.92 จุด** (ยังนอกแถบ near-miss 7 จุด แต่ปรับดีขึ้นจากราคาลด)
 >
 > 🔄 **Price-only recompute (08-29) — EPS/multiple/FV carried forward จาก 08-15 (ไม่มี earnings ใหม่ Q1 FY2027 ยังไม่ถึงกำหนด).** ราคาขึ้น $487.31→$513.53 (+5.38%, prices_cache.json) + market gate เปลี่ยน 15%→20% พร้อมกัน (VIX 15.21→14.43 ข้ามเส้น 15 = Normal→Calm mode, +5pt gate adjust) ⇒ **สองแรงหนุนตรงข้ามกันซ้อนกัน: MoS gap ขยายกลับจาก 1.71 จุด เป็น 11.37 จุด — หลุดออกจากแถบ near-miss/STARTER (7 จุด) แล้ว**
@@ -4931,16 +4955,16 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 | **Bear** | $22.31 | 20.00× (Azure decel) | **$446** | 20% |
 
 **Fair Value Base:** $562
-**ราคาปัจจุบัน:** $499.70 *(09-05, prices_cache.json; prev $513.53)*
-**Margin of Safety:** **11.08%** = ($562 − $499.70) ÷ $562 → ❌ FAIL (Effective Gate 20% — Calm mode) — ขาด **8.92 จุด** ⇒ ยังนอกแถบ near-miss/STARTER (7 จุด) แต่ดีขึ้นจาก 11.37 จุด (ราคาลด -2.69%)
-**Forward P/E:** 22.40× ($499.70 ÷ $22.31)
-**PEG:** **1.25** (22.40 ÷ 17.9) → ✓ PASS (Effective Cap 1.5)
-**5-yr Expected Return:** **~20.28%/ปี** (convergence 2.38% + consensus EPS growth 17.9%) → ✓ PASS (Gate ≥15%)
+**ราคาปัจจุบัน:** $495.63 *(09-12, prices_cache.json; prev $499.70)*
+**Margin of Safety:** **11.81%** = ($562 − $495.63) ÷ $562 → ❌ FAIL (Effective Gate 15% — Normal mode, regime shift Calm→Normal) — ขาด **3.19 จุด** ⇒ **เข้าแถบ near-miss/STARTER (≤7 จุด)** ดีขึ้นมากจาก 8.92 จุดเดิม (regime shift + ราคาลด -0.81%)
+**Forward P/E:** 22.21× ($495.63 ÷ $22.31)
+**PEG:** **1.24** (22.21 ÷ 17.9) → ✓ PASS (Effective Cap 1.5)
+**5-yr Expected Return:** **~20.45%/ปี** (convergence 2.55% + consensus EPS growth 17.9%) → ✓ PASS (Gate ≥15%)
 
 ### ⚠️ Panel Validation (บังคับ) — derive ต่างจาก panel เท่าไร
 - Nasdaq consensus FY2028 EPS = **$23.22** vs Warren derive **$22.31** ⇒ **−3.9%** (Warren ต่ำกว่า = conservative)
 - สาเหตุของช่องว่าง: panel ฝัง net margin ~37.7% ขณะ Warren ใช้ guided-derived 36.70% ทั้งที่ depreciation จาก capex ~$175B/ปี กำลังจะเข้างบเต็ม
-- **Sensitivity:** ถ้าใช้ consensus $23.22 → FV **$585**, MoS **16.7%** ⇒ **ผ่าน gate 15% เต็มตัว** ⇒ นี่คือจุดตัดระหว่าง HOLD-near-miss กับ ADD เต็มรูปแบบของ MSFT — margin 36.70% vs 37.7% ยังเป็นเส้นแบ่งสำคัญที่สุด
+- **Sensitivity:** ถ้าใช้ consensus $23.22 → FV **$585**, MoS **~15.3%** ที่ราคา 09-12 ⇒ **ผ่าน gate 15% เต็มตัว** ⇒ นี่คือจุดตัดระหว่าง STARTER-near-miss กับ BUY เต็มรูปแบบของ MSFT — margin 36.70% vs 37.7% ยังเป็นเส้นแบ่งสำคัญที่สุด
 - ✅ ไม่มีสัญญาณ panel เพี้ยนแบบ GOOGL/META/AVGO ใน batch 2/4: เส้น $17.28 (FY26 actual non-GAAP) → $19.70 (FY27) → $23.22 (FY28) ราบเรียบ ไม่มีปีไหนพลิกทิศ และไม่มีรายการ one-time/tax-benefit ปนในฐาน
 
 ### WAF Score Breakdown
@@ -4949,19 +4973,19 @@ Frontier model pricing ลดลงเร็ว (Satya เองยอมรั�
 |-----------|-------|--------|--------------|-----------|
 | BQ | 9.5 | 30% | 2.85 | Inevitable ครบ 4 ข้อ; RPO $678B, Copilot 30M+ seats, ROIC >25% 10 ปี |
 | GP | 9.0 | 30% | 2.70 | Azure guide ~45% CC เร่งตัว; IC FY2026 +30%; เฟสธีม Build-out ยังเอื้อ layer Cloud |
-| VA | 6.5 ⬆ (จาก 6.3) | 25% | 1.625 | FV $562 carried forward; ราคาลด -2.69% ⇒ MoS gap แคบลงจาก 11.37→8.92 จุด (ยังนอก near-miss band); PEG 1.25 ✓; ER 20.28% ✓ — ปรับดีขึ้นเล็กน้อย ยังไม่ผ่าน MoS gate |
-| RA | 7.0 | 15% | 1.05 | คงเดิม — OpenAI revenue concentration $24.1B/7% of revenue quantified (08-31) เป็นตัวเลขยืนยัน known risk ไม่ใช่ escalation; lawsuit deadline ผ่านโดยไม่มีคำสั่งศาล + Azure เร่งตัวสวนข้อกล่าวหา ⇒ ไม่ปรับ |
-| **WAF Total** | **8.23** | | **HIGH** | (จาก 8.18 — VA ปรับขึ้นตามราคาที่ลด) |
+| VA | 7.2 ⬆ (จาก 6.5) | 25% | 1.80 | FV $562 carried forward; ราคาลด -0.81% + **regime shift (VIX Calm→Normal, gate 20%→15%)** ⇒ MoS gap แคบลงมากจาก 8.92→3.19 จุด — **เข้าแถบ STARTER/near-miss แล้ว**; PEG 1.24 ✓; ER 20.45% ✓ |
+| RA | 7.0 | 15% | 1.05 | คงเดิม — data center capacity 3x-by-2032 (09-11) เป็น long-horizon target ไม่ใช่ความเสี่ยงใหม่; OpenAI concentration/lawsuit สถานะเดิมจากรอบก่อน ⇒ ไม่ปรับ |
+| **WAF Total** | **8.40** | | **HIGH** | (จาก 8.23 — VA ขึ้นจาก regime shift + ราคาลด) |
 
-**Investment Idea:** 🟡 **HOLD** — batch 09-05 (price refresh, ไม่มี regime shift) ทำให้ MSFT ขยับเข้าใกล้ threshold เล็กน้อย: ราคาลด $513.53→$499.70 (-2.69%) ⇒ MoS 11.08% ขาด gate 20% อยู่ **8.92 จุด** (ดีขึ้นจาก 11.37 จุด แต่ยังนอกแถบ near-miss 7 จุด). ผ่าน gate อื่นครบ (PEG 1.25 ✓ · ER 20.28% ✓ · WAF 8.23 ✓ · Story Gate PASS ✓) — คุณภาพธุรกิจไม่เปลี่ยน, OpenAI concentration disclosure (08-31) เป็นการยืนยัน risk ที่รู้อยู่แล้วไม่ใช่ข้อมูลใหม่เชิงลบ. MSFT เป็น position ที่ถืออยู่แล้ว ($70 invested) ⇒ HOLD ตาม Fisher discipline, ยังเป็น ADD-candidate คุณภาพสูงสุดในธีมรอ MoS ปิด gap
+**Investment Idea:** 🌓 **STARTER-eligible (regime-shift flip)** — VIX ข้าม 15 (Calm→Normal) ลด Effective Gate 20%→15% พร้อมราคาลด -0.81% ⇒ MoS 11.81% ขาด gate ใหม่เพียง **3.19 จุด** (เดิมขาด 8.92 จุด ที่ gate เก่า) → **เข้าแถบ STARTER (≤7 จุด)**. ผ่าน gate อื่นครบ (PEG 1.24 ✓ · ER 20.45% ✓ · WAF 8.40 ✓ · Story Gate PASS ✓ · Tier 🏛️ Inevitable ✓). ⚠️ **นี่คือ flip จาก market regime ไม่ใช่ธุรกิจดีขึ้น** — MSFT เป็น position ที่ถืออยู่แล้ว ($70 invested), การจัดสรรเงินจริง/ทยอยไม้ให้รอบ \`/warren\` ตัดสิน; ยังเป็นคุณภาพสูงสุดในธีมร่วมกับ NVDA (TQR 8.65 🥇 Core)
 
 **Thesis:** คุณภาพสูงสุดในธีมร่วมกับ NVDA (TQR 8.65 🥇 Core, Centrality 8.5, Resilience 8.5 สูงสุดใน Core band); Azure/Copilot/RPO ยังเป็นหลักฐานว่า capex กำลังแปลงเป็นรายได้จริง — รอบนี้เปลี่ยนแค่ **ราคา+market gate** ไม่ใช่ **ตัวธุรกิจ**
 
 **Thesis Risk:** contractual obligations $743.8B + uncommenced leases $329.1B; capex ~45% ของรายได้กับ FCF −23% YoY; useful-life change 15→25 ปี เป็นประเด็นคุณภาพกำไร; backlog concentration (ex-OpenAI growth เพียง +25%); securities class action ยังอยู่ชั้นต้น; **และความเสี่ยงเชิงวิธี — FV $562 แขวนอยู่กับ multiple 25.21× ที่มาจาก 5-yr average หัก 20%; ถ้าใช้ 24× เดิม FV = $535 และ MoS เหลือ 8.9%**
 
-**ข่าวที่ตรวจสอบตั้งแต่ gate 08-29 (1× 🔴MATERIAL):** OpenAI revenue disclosure $24.1B/FY26 (08-31 — concentration risk quantified, already known category, no FV impact). WebSearch cross-check พบ GPT-6 Astra rollout บน Azure Foundry (incremental positive, ไม่ score).
+**ข่าวที่ตรวจสอบตั้งแต่ gate 09-05 (1× 🔴MATERIAL):** Data center capacity 3x-by-2032 expansion plan (09-11 — long-horizon target, ไม่มีตัวเลข near-term guidance, no FV impact).
 
-**Action:** 🟡 HOLD (MoS gap แคบลงจากราคาลด แต่ยังนอกแถบ near-miss — ยังเป็น ADD candidate คุณภาพสูงสุดในธีม)
+**Action:** 🌓 **STARTER-eligible** (regime-shift flip: VIX Calm→Normal ลด Effective Gate 20%→15%, MoS gap แคบลงเหลือ 3.19 จุด เข้าแถบ near-miss ≤7 จุด — position sizing จริงให้รอบ \`/warren\` ตัดสิน)
 
 ---
 
@@ -5874,7 +5898,9 @@ Nebius Group N.V. (เดิมชื่อ Yandex N.V. — ดูหัวข�
 | FY2024 | $91.5M | +834% | n/a | ขาดทุน | หลัง divest ธุรกิจ Russia (ก.ค. 2024) เร่ง CapEx ขึ้นมาก ($807.5M จาก $82.9M ปี 2023) |
 
 ## Story Gate
-**Last Updated:** 2026-08-29  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-09-12 re-check (news + TQR sync, /warren watchlist):** ข่าวหลัง gate 08-29 — 09-11 🔴MATERIAL (Palantir เลือก NBIS เป็นพันธมิตรโครงสร้างพื้นฐาน AI สำหรับ Sovereign AI Stack) — customer diversification เชิงคุณภาพจริง (ลด concentration risk บางส่วน) แต่ไม่มีตัวเลข revenue/ARR ใหม่ ⇒ ไม่ปรับ score เชิงปริมาณรอบนี้. TQR sync จาก playbook **v3 (2026-09-06)**: **4.95 → Out band, ceiling 0%** (ไม่เปลี่ยนจาก v2 — Resilience/RA* ยังต่ำสุดในกลุ่ม). ราคา $209.18(08-29)→**$224.55** (prices_cache.json, +7.35%) — price-only recompute, FV Base $132 carried forward unchanged (ยังรอ \`/mark-research\` full refresh)
 
 **2026-08-29 re-check (time-trigger, >90 days since 06-18 gate):** Q2 2026 actuals since last gate (WebSearch corroboration, no primary doc ingested this batch): AI cloud ARR **$1.92B** (+674% YoY), Group revenue **$582.3M** (+454% YoY, deceleration from prior +674% ARR pace but still hypergrowth), Vantage Data Centers JV (Wales) announced. **New risk: $4.5B convertible senior notes offering** ($2.75B due 2030 + $1.75B due 2034) — meaningfully increases leverage/dilution on top of the governance/material-weakness red flags already on this card. Recent News section on this card remains empty (mark_daily not tracking this ticker's news feed) — this update relies on WebSearch, not primary docs. **⚠️ Full \`/mark-research\` refresh recommended** — 20-F/6-K on file are from 06-17. TQR reused from AI-Revolution.md playbook (v2, 2026-08-27, freshly computed): **4.95 → Out band, ceiling 0%** — overrides any price-driven BUY case (BUY Decision Flow Step 1.5).
 
@@ -5887,8 +5913,10 @@ Nebius Group N.V. (เดิมชื่อ Yandex N.V. — ดูหัวข�
 **Tier Basis:** Speculative — Adjusted Net Loss ยังติดลบ ($(100.3)M Q1 ล่าสุด แม้ Adj EBITDA เป็นบวกแล้ว), net income ส่วนใหญ่มาจาก non-cash one-time gain (ClickHouse revaluation $780.6M ไม่ใช่ recurring), customer concentration สูง (3 รายแรก = 51% รายได้), Controlled Company status (CEO คุม 52% voting power) — upside หลักยังอิงการ execute backlog ที่ยังไม่อยู่ในงบจริง + legacy/governance risk ที่สูงกว่า peer กลุ่มเดียวกัน
 
 ## Valuation Range
-**Last Updated:** 2026-08-29  |  **Price ณ วันนั้น:** $209.18  |  **Method:** Price/ARR (pre-profitability) — FV Base carried forward unchanged, price + qualitative refresh only
+**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $224.55  |  **Method:** Price/ARR (pre-profitability) — FV Base carried forward unchanged, price + qualitative refresh only
 
+> 🔄 **Price + qualitative refresh (09-12), not a full rebuild.** ราคา $209.18→$224.55 (+7.35%, prices_cache.json) — Palantir partnership (09-11) เป็น customer-diversification positive เชิงคุณภาพ ไม่มีตัวเลขใหม่. ARR target/multiple assumptions **carried forward unchanged** จาก 06-18 — ต้องการ \`/mark-research\` full refresh ก่อนปรับ FV จริงจัง
+>
 > 🔄 **Price + qualitative refresh (08-29), not a full rebuild.** ราคา $280.91→$209.18 (−25.5%, prices_cache.json) — stock ผันผวนสูงมากช่วง ส.ค. (พุ่ง +34% วันประกาศงบ 08-12, GS ตั้ง Street-high PT $328 วันที่ 08-25, แล้วปรับฐานลง). ARR target/multiple assumptions **carried forward unchanged** จาก 06-18 — ต้องการ \`/mark-research\` full refresh ก่อนปรับ FV จริงจัง
 
 ### Earnings Basis
@@ -5912,22 +5940,23 @@ Nebius Group N.V. (เดิมชื่อ Yandex N.V. — ดูหัวข�
 | **Bear** | $8B | 2.2× | $69 | 35% |
 
 **Weighted Fair Value:** $132 (carried forward, unchanged)
-**ราคาปัจจุบัน:** $209.18 *(08-29, prices_cache.json; prev $280.91)*
-**Margin of Safety:** **−58.47%** = ($132−$209.18)÷$132 — ดีขึ้นมากจาก −112.8% ตามราคาที่ร่วง แต่ยังลึกมาก
-**5-yr Expected Return:** **~−8.79%/yr** (convergence −8.79% + growth 0%, ไม่มี EPS-based growth เพราะยังขาดทุน GAAP) → ✗ FAIL (gate ≥15%)
+**ราคาปัจจุบัน:** $224.55 *(09-12, prices_cache.json; prev $209.18)*
+**Margin of Safety:** **−70.11%** = ($132−$224.55)÷$132 — แย่ลงจาก −58.47% ตามราคาที่ขึ้น +7.35%
+**5-yr Expected Return:** **~−10.09%/yr** (convergence −10.09% + growth 0%, ไม่มี EPS-based growth เพราะยังขาดทุน GAAP) → ✗ FAIL (gate ≥15%)
 
 ### Data Sources
 - **Earnings Data:** Q1 2026 6-K + Exhibit 99.1/99.2 + Earnings Call + 20-F (FY2025) — Q2 2026 actuals (ARR $1.92B, revenue $582.3M) sourced via WebSearch this batch, not yet re-ingested as primary doc
 - **Analyst Estimates:** ไม่มีในเอกสาร primary — Warren's own estimate
 - **Industry/Peer Data:** Neocloud peer (CRWV, IREN) Price/ARR benchmark
 
-**WAF (recomputed 08-29):** BQ 5.0 (unchanged — governance/control concerns persist) · GP 8.5 (unchanged — still hypergrowth) · VA 3.0 (⬆ จาก 2.0 — MoS ดีขึ้นมากจากราคาร่วง) · RA 2.5 (⬇ จาก 3.0 — $4.5B convertible notes เพิ่ม leverage) → **WAF = 5.0×0.3+8.5×0.3+3.0×0.25+2.5×0.15 = 5.18 (LOW, ขึ้นจาก 5.0)**
+**WAF (recomputed 09-12):** BQ 5.0 (unchanged — governance/control concerns persist) · GP 8.5 (unchanged — still hypergrowth) · VA 2.3 (⬇ จาก 3.0 — MoS แย่ลงจากราคาขึ้น) · RA 2.5 (unchanged — Palantir partnership เป็นบวกเชิงคุณภาพเล็กน้อย ไม่พอปรับ) → **WAF = 5.0×0.3+8.5×0.3+2.3×0.25+2.5×0.15 = 5.00 (LOW, ลงจาก 5.18)**
 
-**TQR (จาก AI-Revolution.md v2, 2026-08-27):** 4.95 → **Out band, ceiling 0%** — Resilience ต่ำเกือบสุดในธีม (2.0, ~98% รายได้ผูก AI cloud) + RA* ต่ำสุด (governance/material-weakness red flags) → **BUY Decision Flow หยุดที่ Step 1.5 ไม่ว่า MoS จะดีขึ้นแค่ไหน**
+**TQR (จาก AI-Revolution.md v3, 2026-09-06):** 4.95 → **Out band, ceiling 0%** (ไม่เปลี่ยนจาก v2) — Resilience ต่ำเกือบสุดในธีม (2.0, ~98% รายได้ผูก AI cloud) + RA* ต่ำสุด (governance/material-weakness red flags) → **BUY Decision Flow หยุดที่ Step 1.5 ไม่ว่า MoS จะดีขึ้นแค่ไหน**
 
-**Action:** ❌ AVOID — WAF 5.18 (LOW) + TQR Out (ceiling 0%) + MoS ยังติดลบหนักที่สุดในกลุ่ม neocloud + red flags สะสม (legacy/governance/material weakness ยังไม่ remediate) + new $4.5B convertible debt + Speculative tier (ไม่ pay up)
+**Action:** ❌ AVOID — WAF 5.00 (LOW) + TQR Out (ceiling 0%) + MoS แย่ลงเป็น −70.11% (ราคาขึ้น +7.35%) + red flags สะสม (legacy/governance/material weakness ยังไม่ remediate) + Speculative tier (ไม่ pay up) — Palantir partnership (09-11) เป็นสัญญาณ customer-diversification บวกที่ควรจับตา แต่ยังไม่พอเปลี่ยน tier/TQR band
 
 ## Recent News
+**2026-09-11** — Nebius กลายเป็นหุ้นส่วนโครงสร้างพื้นฐาน AI ที่ต้องการของ Palantir โดย Sovereign AI Stack ขยายตัวออกไป | [src](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV293U1N5QjAwbVZJTUx3UkNVX00xaGVVQWl6RW9JcVZEeDNkVlFjbzRVaHBkZjRIaFUxQzNFVmNIRmJqMWUzZHFoYnIyQUcyYlRxQ0RwYVk3cEZpZkFCbGRlRmhSLXJrWDVMMmFEQTRfOE5EenRTQTAwZWIwcmR5SWptMFlIZkFWMld3NmxtRUdSNnY4MXhzT1piaFZ0YVk3YUw5MjJPMW5xOENpT05PMEA2T0ZYbDc0R1U2UjQ1WEdHeEVmRXFSSUFLMHlyZ3FVa0F6YmhB?oc=5) | 🔴MATERIAL
 
 ## Source Log
 | ไฟล์ | ประเภท | อ่านเมื่อ |
@@ -6596,7 +6625,9 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+**2026-09-12 update (news + regime-shift refresh, /warren watchlist):** ข่าว 🔴MATERIAL เดียวหลัง gate 09-05 คือ **09-09 "NVDA ลงทุน $20B ใน Groq + เปิดตัว AI Racks"** — WebSearch cross-check พบว่าเป็น **re-syndication ของดีล Groq เดิมที่วิเคราะห์ไปแล้ว 08-24** ("ประเมินแร็ค Groq ที่ซื้อมา 20 พันล้านดอลลาร์จะออนไลน์ในปี 2026") ไม่มีตัวเลขใหม่ ไม่กระทบ EPS/FV. 09-03 🟡MONITOR (ปรับ Wall Street estimates) เป็น sentiment confirmation เดิม. **⚠️ Regime-Shift Flag (Step 3.7ค):** VIX ขยับข้าม 15 เป็น **15.74-15.84** (WebSearch CNBC/Yahoo + yfinance live, 09-12) จาก Calm (14.32, 09-05) → **Normal mode** — Effective MoS Gate เปลี่ยนจาก 20%→**15%** (S&P fwd P/E ~19.5x ยังอยู่ Normal band 18-22x เดิม ไม่เปลี่ยน). NVDA ผ่าน gate ทั้งเดิมและใหม่สบายมาก ไม่มีผล flip ต่อ action. ราคา $230.36(09-05)→**$218.29** (prices_cache.json, -5.24%) — price-only recompute, FV/EPS/multiple carried forward unchanged จาก 08-27 rebuild ($384 base). TQR sync จาก playbook **v3 (2026-09-06)**: 8.00→**7.89** (⬇ เล็กน้อย, ยังอยู่ 🥈 Strong band, ceiling 25% ไม่เปลี่ยน — NVDA Resilience ต่ำสุดในธีม 2.5/10 ยังเป็นตัวฉุด). Thesis/Tier ไม่เปลี่ยน — ไม่มี tier change รอบนี้
 
 **2026-09-05 update (news refresh, batch 1/4 — ไม่มี earnings ใหม่ ครั้งถัดไปตามปกติ Q3 FY2027):** ข่าว 🔴MATERIAL 2 รายการหลัง gate 08-29 — **09-01 NVDA ลงทุน $3.5B ใน MediaTek** (ซื้อหุ้นกู้แปลงสภาพ ~90% ของวงที่เสนอขาย นอกสหรัฐฯ ใหญ่สุดของ NVDA — ผูก MediaTek เข้ากับมาตรฐาน NVLink Fusion สำหรับ custom AI silicon ของ hyperscaler, ขยาย interconnect standard ให้เป็น industry-wide ไม่ใช่แค่ CUDA software) และ **09-04 NVDA acquire Hugging Face มูลค่า ~$13B** ($11.9B cash แก่ผู้ถือหุ้น + $1B equity retention — เว็บแจกจ่ายโมเดล open-source ที่มี dev 18M+/โมเดล 3M+/บริษัทใช้งาน 200K+ คาดปิดดีล H1 2027) — WebSearch ยืนยันทั้งคู่จาก Bloomberg/CNBC/TechCrunch (ดู source log). ทั้งสองดีลไม่มีตัวเลข revenue/EPS guidance ใหม่ให้ปรับ FV — อ่านเป็น **ต่อยอด moat เชิงกลยุทธ์** (ecosystem lock-in ขยายจาก hardware/CUDA ไปถึง open-model-distribution layer + ผลัก NVLink Fusion เป็น interconnect มาตรฐานอุตสาหกรรม) ไม่ใช่การเปลี่ยน thesis — แต่เป็นการขยาย **pattern การทุ่มทุนหลายหมื่นล้านข้ามคู่ค้า** ที่เริ่ม flag ตั้งแต่ 07-27 (SpaceX $21B stake + Lancium $3B + Firmus $2B + ตอนนี้ MediaTek $3.5B + Hugging Face $13B ≈ รวมสะสม >$40B) — เป็นความเสี่ยง capital-deployment/integration ที่นุ่มนวลกว่า guarantee-type risk เดิม (equity stake มีสินทรัพย์หนุน ไม่ใช่ pure contingent liability) แต่ยังเพิ่ม RA เล็กน้อย. 09-03 ข่าว 🟡MONITOR (ปรับ Wall Street estimates ให้สอดคล้องมุมมองบริษัท) เป็นการยืนยัน sentiment เดิม ไม่มีตัวเลขใหม่. ราคา $217.55(08-29)→$230.36 (prices_cache.json, +5.9%) — price-only recompute, FV/EPS/multiple carried forward unchanged จาก 08-27 rebuild ($384 base). Thesis/Tier ไม่เปลี่ยน — ไม่มี tier change รอบนี้
 
@@ -6626,21 +6657,21 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price:** $230.36 (prices_cache.json, 2026-09-05)  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** มาตรฐาน Revenue×Margin→EPS→P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใดๆ (ไม่ใช่ Cyclical · fwd P/E ~15.0× ต่ำกว่า 80× มาก · Data Center ~93% ของรายได้ ไม่เข้าเงื่อนไข SOTP)
+**Last Updated:** 2026-09-12  |  **Price:** $218.29 (prices_cache.json, 2026-09-12)  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** มาตรฐาน Revenue×Margin→EPS→P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใดๆ (ไม่ใช่ Cyclical · fwd P/E ~14.2× ต่ำกว่า 80× มาก · Data Center ~93% ของรายได้ ไม่เข้าเงื่อนไข SOTP)
 
-> 🔄 **Price-only recompute (09-05)** — ราคา $217.55(08-29)→$230.36 (prices_cache.json, +5.9%). ข่าว 09-01 (MediaTek $3.5B investment) + 09-04 (Hugging Face $13B acquisition) ไม่มีตัวเลข revenue/EPS guidance ใหม่ ⇒ FY2028 revenue bridge/margin/multiple **carried forward unchanged จาก 08-27** ($680.0B revenue × 53.5% margin ÷ 23.7B shares = EPS $15.35 × 25× = FV $384)
+> 🔄 **Price + regime-shift recompute (09-12)** — ราคา $230.36(09-05)→$218.29 (prices_cache.json, -5.24%). ข่าว 09-09 (Groq $20B/AI Racks) = re-syndication ของดีล 08-24 เดิม ไม่มีตัวเลขใหม่ ⇒ FY2028 revenue bridge/margin/multiple **carried forward unchanged จาก 08-27** ($680.0B revenue × 53.5% margin ÷ 23.7B shares = EPS $15.35 × 25× = FV $384). **Effective MoS Gate เปลี่ยน 20%→15%** (VIX ข้าม 15 → Calm→Normal regime shift, ดู Story Gate) — ไม่กระทบ action (ผ่านสบายทั้งสองเกณฑ์)
 
-### Snapshot (NVDA — 2026-09-05 price/news refresh, batch 1/4 — EPS/multiple carried จาก 08-27 rebuild ไม่มี earnings ใหม่)
+### Snapshot (NVDA — 2026-09-12 price/news/regime refresh — EPS/multiple carried จาก 08-27 rebuild ไม่มี earnings ใหม่)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $230.36 (09-05) | — |
+| Current Price | $218.29 (09-12) | — |
 | **Fair Value Base** | **$384** | — |
-| **Margin of Safety** | **40.01%** | ✓ PASS (gate 20% — Calm mode) |
-| Forward P/E (บน EPS ที่ใช้) | 15.01× | — |
-| PEG | 0.50 | cap 1.5 |
-| 5-yr Expected Return | 40.76% | gate ≥15% |
-| WAF | 8.75 | ≥6.5 |
+| **Margin of Safety** | **43.15%** | ✓ PASS (gate 15% — Normal mode, regime shift จาก Calm) |
+| Forward P/E (บน EPS ที่ใช้) | 14.22× | — |
+| PEG | 0.47 | cap 1.5 |
+| 5-yr Expected Return | 41.96% | gate ≥15% |
+| WAF | 8.78 | ≥6.5 |
 | **Action** | **🟢 BUY** | — |
 
 ### Revenue & Margin Basis — ตัวเลขที่ใช้มาจากไหน?
@@ -6695,23 +6726,24 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ (Business Quality) | 9.5 | 30% | 2.85 | ไม่เปลี่ยน — 7 Powers ครบ, ROIC>50%, FCF record; Hugging Face acquisition (09-04) ต่อยอด ecosystem lock-in จาก hardware/CUDA ไปถึง open-model-distribution layer (18M dev, 3M models) — ไม่พอดัน BQ เกิน 9.5 ที่ใกล้เพดานอยู่แล้ว |
-| GP (Growth Potential) | 9.7 | 30% | 2.91 | ไม่เปลี่ยนจาก 08-27 — MediaTek NVLink Fusion deal (09-01) เสริม centrality ของ interconnect standard แต่ไม่ใช่ตัวเลข revenue ใหม่ |
-| VA (Valuation) | 8.9 | 25% | 2.225 | ลดจาก 9.0 — ราคาขึ้น +5.9% ขณะ FV คงเดิม → MoS แคบลง 42.8%→40.01%; PEG 0.50, ER 40.76% ยังผ่านสบาย |
-| RA (Risk Assessment) | 5.1 | 15% | 0.765 | ลดจาก 5.3 — MediaTek $3.5B + Hugging Face $13B เพิ่มเข้า pattern การทุ่มทุน/M&A ข้ามคู่ค้าที่เริ่ม flag ตั้งแต่ 07-27 (สะสม >$40B ทั้ง SpaceX/Lancium/Firmus/MediaTek/HF) — เป็น capital-deployment/integration risk ที่นุ่มนวลกว่า guarantee-type risk เดิม (equity stake มีสินทรัพย์หนุน) แต่ยังเป็นการขยายขนาดความเสี่ยงต่อเนื่อง |
-| **WAF Total** | **8.75** | | **VERY HIGH** | *(จาก 8.81 — VA+RA ลงเล็กน้อยจากราคาขึ้น + M&A ใหม่; ยังอยู่ VERY HIGH band ≥8.5)* |
+| BQ (Business Quality) | 9.5 | 30% | 2.85 | ไม่เปลี่ยน — 7 Powers ครบ, ROIC>50%, FCF record; ไม่มีข่าวใหม่กระทบ moat รอบนี้ (09-09 Groq เป็น re-syndication ของ 08-24) |
+| GP (Growth Potential) | 9.7 | 30% | 2.91 | ไม่เปลี่ยน — ไม่มีตัวเลข revenue/guidance ใหม่รอบนี้ |
+| VA (Valuation) | 9.0 | 25% | 2.25 | ขึ้นจาก 8.9 — ราคาลด -5.24% ขณะ FV คงเดิม → MoS กว้างขึ้น 40.01%→43.15%; PEG 0.47, ER 41.96% ยังผ่านสบาย |
+| RA (Risk Assessment) | 5.1 | 15% | 0.765 | ไม่เปลี่ยน — ไม่มีความเสี่ยงใหม่รอบนี้ (M&A pattern เดิมจาก MediaTek/Hugging Face ยังไม่มี escalation เพิ่ม) |
+| **WAF Total** | **8.78** | | **VERY HIGH** | *(จาก 8.75 — VA ขึ้นเล็กน้อยจากราคาลด; ยังอยู่ VERY HIGH band ≥8.5)* |
 
-**TQR (จาก AI-Revolution playbook v2, 2026-08-27 — อายุ 9 วัน อยู่ในกรอบ 90 วัน, ธุรกิจไม่เปลี่ยนชัดพอจะ trigger recompute):** ใช้ค่า playbook เดิม **8.00** → 🥈 **Strong** → เพดานน้ำหนัก 25% · Final Cap = min(25%, Pre-Inevitable ไม่มี cap) = **25%** — TQR playbook file ไม่ถูกแก้ (ตาม policy /warren watchlist ห้ามแก้ไฟล์ playbook)
+**TQR (จาก AI-Revolution playbook v3, 2026-09-06 — อายุ 6 วัน อยู่ในกรอบ 90 วัน, ธุรกิจไม่เปลี่ยนชัดพอจะ trigger recompute):** sync ค่าใหม่จาก playbook v3: **7.89** (⬇ จาก 8.00 v2 — RA* ธีมลดจาก SB Energy $105B guarantee confirmed + supply commitments +134% QoQ) → 🥈 **Strong** → เพดานน้ำหนัก 25% (ไม่เปลี่ยน band) · Final Cap = min(25%, Pre-Inevitable ไม่มี cap) = **25%** — TQR playbook file ไม่ถูกแก้ (ตาม policy /warren watchlist ห้ามแก้ไฟล์ playbook)
 
-**Investment Idea:** AI factory platform — CUDA + system-integration moat + Vera Rubin ramp (production shipments started, ~20% of Q3 FY27 DC revenue) + ตอนนี้ขยาย moat ไปถึง open-model-distribution (Hugging Face) และ interconnect standard นอกกลุ่มตัวเอง (MediaTek NVLink Fusion). FV Base ยังคง **$384** (carried จาก 08-27 rebuild) — ราคาวิ่งขึ้น +5.9% ตั้งแต่ 08-29 แต่ยังต่ำกว่า FV มาก → MoS 40.01%
+**Investment Idea:** AI factory platform — CUDA + system-integration moat + Vera Rubin ramp (production shipments started, ~20% of Q3 FY27 DC revenue) + ตอนนี้ขยาย moat ไปถึง open-model-distribution (Hugging Face) และ interconnect standard นอกกลุ่มตัวเอง (MediaTek NVLink Fusion). FV Base ยังคง **$384** (carried จาก 08-27 rebuild) — ราคาลด -5.24% ตั้งแต่ 09-05 → MoS กว้างขึ้นเป็น 43.15%
 
 **Thesis:** ธุรกิจไม่เปลี่ยน (5/5 signals) — M&A ใหม่ 2 รายการเป็นการต่อยอด moat เชิงกลยุทธ์ ไม่ใช่สัญญาณเปลี่ยนทิศทาง demand/growth เดิม
 
 **Thesis Risk:** memory cost shock ลึกกว่า guide (GM ไม่ฟื้นจาก 71-72% floor); Q4 FY27 ไม่ re-accelerate ตามที่ mgmt สื่อ (FY27 base ต่ำกว่า $400B); FY28 +70% guide พลาด (supply execution — Vera Rubin ramp ช้า, memory ยังขาด); SB Energy $105B guarantee หรือ guarantee อื่นในกลุ่ม >$500B financing platform ปิดดีลแล้ว counterparty (OpenAI) ผิดนัด/ปรับโครงสร้าง; **เพิ่มเติม 09-05:** Hugging Face acquisition (ปิดดีล H1 2027) เพิ่มความเสี่ยง antitrust/integration ใหม่จากการควบคุม open-source AI distribution platform ใหญ่สุด; AMD DC GPU share ไปถึงระดับ ~$43B C2027; margin หลุดต่ำกว่า 50% (ทุก −2ppt net margin = FV ~−$14)
 
-**Action:** 🟢 **BUY** (ผ่านครบ 4 gates: MoS 40.01% ≥20% ✓ · PEG 0.50 ≤1.5 ✓ · ER 40.76% ≥15% ✓ · WAF 8.75 ≥6.5 ✓ — เป็น position เดิมที่ถืออยู่แล้ว จึงแปลว่า **ADD candidate** ยังแข็งแกร่ง; การจัดสรรเงินจริง + Opportunity Cost Gate ให้รอบ \`/warren\` ตัดสิน)
+**Action:** 🟢 **BUY** (ผ่านครบ 4 gates: MoS 43.15% ≥15% ✓ (regime shift Calm→Normal, gate ลดจาก 20%) · PEG 0.47 ≤1.5 ✓ · ER 41.96% ≥15% ✓ · WAF 8.78 ≥6.5 ✓ — เป็น position เดิมที่ถืออยู่แล้ว จึงแปลว่า **ADD candidate** ยังแข็งแกร่ง; การจัดสรรเงินจริง + Opportunity Cost Gate ให้รอบ \`/warren\` ตัดสิน)
 
 ## Recent News
+**2026-09-09** — NVDA ลงทุน 20 พันล้านดอลลาร์ใน Groq และเปิดตัว AI Racks ในปีนี้ เพื่อขยายการเข้าถึงการประมวลผล AI อัตราสูง นอกเหนือจากชิป GPU ตัวเอง | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxPYU1tUTBETmI3TU0zbTBsaHhtZDk1YVNsVGJDVXdYX2pJc2xhZkNaVWxqWnk2SFFHaUx5OVgzTlVXMDB4QWZNZFdpU0VQVWZpUm43N3dmMFNvVG1uRzV5TzFPeGZOSzdvaVlHNEZTYzdIY0tRcDJVTThKVVg0MHdqdkV2ZzRxeC1yX3pENnFVNjZyTjh0Unc) | 🔴MATERIAL
 **2026-09-04** — NVDA ประกาศซื้อกิจการ Hugging Face โปลแตฟอร์ม AI เปิดซอร์สมูลค่า 13 พันล้านดอลลาร์ เพื่อเสริมการควบคุมสถาปัตยกรรมโมเดลและขยายระบบนิเวศ AI | [src](https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc2FYMnA1eEs4OGhIcmw4MTdSU3FBcmtJbkJjUHN2TDNCOUxOSnhYV0tfVWUwU2M2TnFieFBkX3dCS1phdjVKUTMtMVhGeVcwMVlkVV9BNVgyX3h5dVAwY1c5dlFMWVA3ZGxjU21od2ZIcFVBVWg5MjVtb1RrbzlDLW92Rkk0aDZaUHlXQXF1TmpFMy1vSk1wbVNIeGNiNnZuSEpWa2RNZ3ZsYm9BbWdUT191RXdNQXVaQ1QtU2Z0VF9vMFZwVlpzMnJZSzE3TFo1?oc=5) | 🔴MATERIAL
 **2026-09-03** — NVDA ปรับคาดการณ์ประมาณการของวอลสตรีทเพื่อให้สอดคล้องกับมุมมองของบริษัท | [src](https://news.google.com/rss/articles/CBMixAFBVV95cUxOQmp3d1dLMGJmNFl5UnU5dW01Z2g3X3lYLUZxVmxMb3RsaGNzbEJNa0xESXkyZDJuOUdfc3dBWUd4OEM4VlRud1JqZE9FVE96dFkzbGpqdTdIc3UwMTA5RlRVUENwSkJSMXAtQXd3Vl9Bd1B2R3FGTzV1cmpiQXgwYlR6RVJaTGNDaUNRckRXSmF0R00zM0ZNcEMzNHBTQ1pubzJYRF9IY3QtcTlwdk9ncjVpNzFYaU90cFJ3QV9aNmU2UUVh) | 🟡MONITOR
 **2026-09-01** — NVIDIA ประกาศลงทุน 3.5 พันล้านดอลลาร์ในผู้ผลิตชิป MediaTek; หลายนัยด้านการเสริมสร้างความหลากหลายของห่วงโซ่อุปทานและการขยายอิทธิพลในตลาดโครงสร้างพื้นฐาน AI | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxNb0cxUWZ1RkliNUJxdEcwWUZsZksxNUcybS1Ha3ZEeU4zV1pCTnhYdEhmUkNvXzQxSkk4aXVYV09RZnZSLVlrMTRKeXRORmhSc0VJWUprU0ZZN1FPTnpxWEU0YlZ5OGsxT2FGNk5PWUp5djdDR1FtOHJHWV9FR1o1YmpUUmdyOUxJT1NXaHdZZHliUmROYllnU2JsRlZqV3NuMlRj?oc=5) | 🔴MATERIAL
@@ -6725,7 +6757,6 @@ NVDA เปลี่ยน segment reporting เพื่อสะท้อน g
 **2026-08-16** — NVDA เปิดเผยว่าถือหุ้นใน SpaceX มูลค่า 21 พันล้านดอลลาร์ ณ สิ้นไตรมาสที่ 2; แสดงการหลากหลายการลงทุนเกินไปกว่าผลิตภัณฑ์ซิลิคอนหลัก | [src](https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczZFNXoxeDBQS1Y4T3ZvdW96QzNlUlBGOWZ3WEtqbDZXaTc5MTZESDJyRTNha1F3WWhwdHNfYXd5RDhqR2psbjFYRWZsR2tJNmVBc1J6THl2cWt0TFduRHRySG5YR250N1hQUkdKLUNHd1hZM2wxbkNRWlJWZ25UVHpFa0Q5bmUteGJ4bjh6c1IyY1lHZlBwMUMzLW5YS09sQ21oN1F3aGTSAa4BQVVfeXFMT2ZZMHJZWGxvZ1FCZTQ4SVFmUVJqck5xTGdLNzNOYjRSYjRIU1V1OHNvM2lqQnpKQWYzWGVIbGpsNTFpWE1mTHcyNmZfWDBHUnVhMm11NzBjbGF3Wk1WZ0FnVjhmVjBOZXk3a09aZ1R4eFJqUHhwUmY2VXg5ckdzOGR4YTF6X1BLY1hSd2hsbWd1NnJfZ093cXY0MkpMeFEzbUFFRXByVlRzNnpzM3dB) | 🟡MONITOR
 **2026-08-12** — ระดมเงิน 500 พันล้านดอลลาร์จากวอลล์สตรีท เพื่อสนับสนุนโครงสร้างพื้นฐาน AI และขยายการควบคุมห่วงโซ่พลังงาน | [src](https://news.google.com/rss/articles/CBMingFBVV95cUxPVVNaem9WbUJwd0U2YV9KUjhyN3FRM2QzX0daU0NDYTlWTFNTNzIwR1FRaDNjbzAxc0hYc3NZZFBDLVBmbzh3MExGWUdtNVJ6amphWU1jR1R6M2tld1JSaTdTQ3ZSWFFEejRvZ2s3ZUdtX0E2aFBIU3VpOF82ckZxeTJfUkpPRUNSbzhHUTdJOTV1d1pmcEE2TTk0THZSUQ) | 🔴MATERIAL
 **2026-08-10** — ผูกพัน 5 พันล้านดอลลาร์เพิ่มเติมสำหรับโครงสร้างพื้นฐาน AI เพื่อขยายบทบาทในการจัดการเซิร์ฟเวอร์ | [src](https://news.google.com/rss/articles/CBMimAFBVV95cUxPMy1UbFo4QTVrM1BSbHVLYXF0azhzSDhxdGdfZUFEc1pzUWhQNzJ1LXFPT1FVU0pjVUJUaDdtTXMzWU9JZXdYYVY0S0VaenBiY0F4STZoV3NBRWpTZ21FTUdGU0paNEdPblhZQmdaMmpqYTQ5NGtYcWlGYS1fVWdRQ0ZYc3p0b1ZNeGxvdUpMMXdpc2huQnAySA?oc=5) | 🔴MATERIAL
-**2026-08-09** — NVDA ลงทุน 3 พันล้านดอลลาร์เข้า Lancium เพื่อบริหารพลังคำนวณด้วยแหล่งพลังงาน; ขยายการควบคุมด้านอุปทานไฟฟ้าสำหรับเซิร์ฟเวอร์ AI | [src](https://news.google.com/rss/articles/CBMilwFBVV95cUxQWTZMcnRnanpzT25LSnVzdFMzX01mY1dJYUVzUWZXUFk1OHNBbjlKbXlESHU5WndZaHEwbTlsbkpSLXFiS1ZTZWRoUl9fX09HM3hWclI5dm84N3BjeFhSeGI0RFg1dG83WHNTSVRIQXRhUDItQ3R5VFlKZmw5cnJBYUMxWXktdXRHUWZkdFJmOXg5NUZjbXd3?oc=5) | 🔴MATERIAL
 
 ## Source Log
 | ไฟล์ | ประเภท | อ่านเมื่อ |
@@ -7088,7 +7119,9 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+**2026-09-12 update (news + regime-shift refresh, /warren watchlist):** ข่าว 🔴MATERIAL หลัง gate 09-05 (09-07/09-04 PwC alliance + Maven $1B ARR ซ้ำ, 09-09 Nebius Sovereign AI Stack partnership, 09-11 Fujitsu partnership expansion) — ทั้งหมดเป็น partnership/geopolitical narrative ต่อยอด Sovereignty thesis เดิม ไม่มีตัวเลข revenue/guidance ใหม่ที่ผ่านเกณฑ์ Base-case (Maven POR ยังเป็น proposed funding เดิม). **Regime-Shift Flag:** VIX ข้าม 15 → Calm→Normal, Effective Gate 20%→**15%** — ไม่พอปิด gap ของ PLTR (MoS ติดลบลึกมาก, ไกลนอกแถบ near-miss). ราคา $174.33(09-05)→**$167.23** (prices_cache.json, -4.07%) — price-only recompute, EPS/multiple carried forward unchanged จาก 08-18. TQR: **เข้า AI-Revolution.md v3 (2026-09-06) เป็นทางการแล้ว** (7.71, 🥈 Strong, ceiling 25% — ค่าเดียวกับ ad-hoc เดิม, ปิด gap ที่ playbook เคย flag ค้างไว้ 2 รอบ). Thesis/Tier ไม่เปลี่ยน — ไม่มี tier change รอบนี้
 
 **2026-09-05 pre-screened re-check (batch 4/4):** 09-04 🔴MATERIAL — PwC alliance expansion + Pentagon designates Maven Smart System a formal Program of Record (proposed $2.3B/5yr funding request; William Blair single-analyst flag of $1B ARR "on track") — a genuine government-process de-risking event but a **proposed**, not yet appropriated, funding line and a single-analyst (not consensus) ARR claim, so **not used as a Base-case input** this batch. 09-02 🟡MONITOR — CEO plans to be first investor in a new Ukraine defense company (geopolitical-customer narrative, consistent with existing Sovereignty thesis, no new figure). WHAT/WHY NOW/IF WRONG/Tier Basis unchanged; price-only recompute. Price $186.29→**$174.33** (-6.42%, prices_cache.json). TQR carried forward from the 08-29 ad-hoc calculation (7.71, 🥈 Strong, ceiling 25% — 7 days old, no business-quality change this batch to trigger recalculation; still not in the AI-Revolution.md playbook table, pending Oat's scope confirmation).
 
@@ -7117,8 +7150,10 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price:** $174.33  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Revenue×Margin→EPS→P/E (standard method) — price-only recompute, EPS/multiple carried forward from 08-18
+**Last Updated:** 2026-09-12  |  **Price:** $167.23  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** Revenue×Margin→EPS→P/E (standard method) — price-only recompute, EPS/multiple carried forward from 08-18
 
+> 🔄 **Price + regime-shift recompute (09-12)** — ราคา $174.33→$167.23 (-4.07%, prices_cache.json). 09-11/09-09/09-07 news (Fujitsu expansion, Nebius Sovereign AI Stack, PwC/Maven repeat) เป็น partnership narrative ต่อยอดเดิม ไม่มีตัวเลขใหม่ ⇒ revenue/margin/EPS/multiple build below **carried forward unchanged**. Effective MoS Gate ลด 20%→15% (regime shift Calm→Normal) — ไม่พอปิด gap ที่ลึกมาก
+>
 > 🔄 **Price-only recompute (09-05, batch 4/4)** — ราคา $186.29→$174.33 (-6.42%, prices_cache.json). 09-04/09-02 news (PwC alliance expansion, Maven Program-of-Record designation, Ukraine geopolitical-customer narrative) ตรวจแล้ว = genuinely positive government-durability signal แต่ proposed funding (ยังไม่ appropriated) + single-analyst ARR claim ⇒ **ไม่ใช่ Base-case input รอบนี้** ⇒ revenue/margin/EPS/multiple build below **carried forward unchanged**; only MoS/PEG/ER/WAF recomputed off the new price.
 >
 > 🔄 **Price-only recompute (08-29)** — ราคา $172.55→$186.29 (+7.96%, prices_cache.json), no new earnings/news since 08-18 gate ⇒ revenue/margin/EPS/multiple build below **carried forward unchanged**; only MoS/PEG/ER/WAF recomputed off the new price.
@@ -7144,15 +7179,15 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $174.33 (prices_cache.json, 2026-09-05) | — |
+| Current Price | $167.23 (prices_cache.json, 2026-09-12) | — |
 | Fair Value Base | **$86** (carried forward from 08-18) | — |
-| **Margin of Safety** | **-102.7%** | ✗ **FAIL** (Gate 20% — Calm VIX mode this batch) — improves from -116.6% as price fell -6.42% |
+| **Margin of Safety** | **-94.45%** | ✗ **FAIL** (Gate 15% — Normal VIX mode, regime shift Calm→Normal) — improves from -102.7% as price fell -4.07% |
 | EPS ที่ใช้ | **$2.46** (FY2027E, carried forward) | — |
-| Forward P/E | **70.9×** ($174.33 ÷ $2.46) | ⚠️ under the 80× cutoff — P/E still usable |
+| Forward P/E | **67.98×** ($167.23 ÷ $2.46) | ⚠️ under the 80× cutoff — P/E still usable |
 | Multiple | **35×** (held, carried forward) | — |
-| PEG | **1.65** (Fwd P/E 70.9 ÷ growth 43%) | ✗ **FAIL** — still breaches the Pre-Inevitable cap 1.5×, down from 1.76 |
-| **5-yr Expected Return** | **~29.8%/yr** (convergence -13.2% + growth 43%) | ✓ passes numerically (Gate ≥15%), **but MoS is binding** per Step 5.5 — ER cannot substitute for a failing MoS |
-| WAF | **~6.81** | ⚠️ still marginally **passes** WAF≥6.5 but MoS/PEG remain the binding blockers |
+| PEG | **1.58** (Fwd P/E 67.98 ÷ growth 43%) | ✗ **FAIL** — still breaches the Pre-Inevitable cap 1.5×, down from 1.65 |
+| **5-yr Expected Return** | **~30.55%/yr** (convergence -12.45% + growth 43%) | ✓ passes numerically (Gate ≥15%), **but MoS is binding** per Step 5.5 — ER cannot substitute for a failing MoS |
+| WAF | **~6.86** | ⚠️ still marginally **passes** WAF≥6.5 but MoS/PEG remain the binding blockers |
 
 ### Fair Value Scenarios
 
@@ -7170,23 +7205,26 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 9.0 | 30% | 2.70 | Held — PwC alliance expansion + Maven Program-of-Record designation are business-durability positives, but government-process/partnership news, not a new moat/financial datapoint this batch |
 | GP (Growth Potential) | 9.3 | 30% | 2.79 | Held — Maven POR ($2.3B/5yr proposed, not appropriated) and single-analyst $1B ARR flag are not yet consensus/guidance-level inputs; no new fundamental evidence this batch (no print since Q2) |
-| VA (Valuation) | 1.8 | 25% | 0.45 | **Up from 1.6** — price-only move: MoS -116.6%→**-102.7%**, PEG 1.76→**1.65**, forward P/E 75.7×→**70.9×**. Both gates still fail but less severely on the -6.42% price pullback |
-| RA (Risk Assessment) | 5.8 | 15% | 0.87 | Held — SBC ~14% of revenue, Cupat 10th Circuit appeal pending, government/appropriations concentration unchanged; Maven POR status is a mild positive (reduces cancellation risk) but not yet scored pending appropriation |
-| **WAF Total** | **~6.81** | | **MEDIUM** | Up slightly from 6.70 (VA up on price pullback) — still marginally clears 6.5, but MoS/PEG remain the binding blockers regardless |
+| VA (Valuation) | 2.0 | 25% | 0.50 | **Up from 1.8** — price-only move: MoS -102.7%→**-94.45%**, PEG 1.65→**1.58**, forward P/E 70.9×→**67.98×**. Both gates still fail but less severely on the -4.07% price pullback |
+| RA (Risk Assessment) | 5.8 | 15% | 0.87 | Held — SBC ~14% of revenue, Cupat 10th Circuit appeal pending, government/appropriations concentration unchanged; partnership news this batch (Fujitsu/Nebius) are narrative positives, not yet scored |
+| **WAF Total** | **~6.86** | | **MEDIUM** | Up slightly from 6.81 (VA up on price pullback) — still marginally clears 6.5, but MoS/PEG remain the binding blockers regardless |
 
-**🎯 TQR (ad-hoc, carried forward from 08-29 — not yet in AI-Revolution.md playbook):** BQ 9.0 · GP 9.3 · RA*(ex-valuation) 6.0 · Centrality 6.75 (major enterprise/gov AI platform, real switching cost, but not a chokepoint like TSM/ASML — beneficiary not monopoly) · Resilience 6.0 (government/Gotham base gives some buffer vs pure AI-capex cyclicality, but growth narrative is fully AI-story) → **TQR = 9.0×0.30 + 9.3×0.20 + 6.0×0.15 + 6.75×0.20 + 6.0×0.15 = 7.71 → 🥈 Strong, ceiling 25%**. No business-quality change this batch to trigger recalculation. Provisional — logged in watchlist_valuations.json only; needs \`/warren theme\` to formalize into the playbook table (flagged by the playbook itself on 08-27 as an open item).
+**🎯 TQR (จาก AI-Revolution.md v3, 2026-09-06 — เข้า playbook table อย่างเป็นทางการแล้ว, ปิด gap ที่ค้าง 2 รอบ):** BQ 9.0 · GP 9.3 · RA*(ex-valuation) 6.0 · Centrality 6.75 (major enterprise/gov AI platform, real switching cost, but not a chokepoint like TSM/ASML — beneficiary not monopoly) · Resilience 6.0 (government/Gotham base gives some buffer vs pure AI-capex cyclicality, but growth narrative is fully AI-story) → **TQR = 9.0×0.30 + 9.3×0.20 + 6.0×0.15 + 6.75×0.20 + 6.0×0.15 = 7.71 → 🥈 Strong, ceiling 25%**. No business-quality change this batch to trigger recalculation. No longer provisional — official playbook entry as of 2026-09-06.
 
-**Investment Idea:** WATCH, price-only refresh. Price fell -6.42% ($186.29→$174.33) with no earnings/fundamental change quantifiable this batch (Maven POR designation + PwC alliance are genuine positives but proposed-funding/single-analyst, not yet Base-case inputs), narrowing MoS from -116.6% to -102.7% and PEG from 1.76 to 1.65 (both still fail). WAF stays marginally above 6.5 but is not the binding constraint — MoS/PEG are. TQR carried forward (Strong band, 25% ceiling) — does not change the Action, since price gates (MoS/PEG) are what block BUY, not the theme-fit ceiling.
+**Investment Idea:** WATCH, price + regime-shift refresh. Price fell -4.07% ($174.33→$167.23) with no earnings/fundamental change quantifiable this batch (Fujitsu/Nebius/PwC partnership news are narrative positives, not yet Base-case inputs), narrowing MoS from -102.7% to -94.45% and PEG from 1.65 to 1.58 (both still fail). Effective Gate ลด 20%→15% (regime shift) แต่ไม่พอปิด gap ที่ลึกมาก. WAF stays marginally above 6.5 but is not the binding constraint — MoS/PEG are. TQR now officially in playbook (Strong band, 25% ceiling) — does not change the Action, since price gates (MoS/PEG) are what block BUY, not the theme-fit ceiling.
 
 **Thesis:** US Commercial +149% YoY, Rule of 40 = 155 (12th consecutive expanding quarter), NDR 157%, thick-ontology/AIP moat with sovereign-AI optionality, GAAP-profitable every quarter, zero debt, $9.4B cash. The business case remains the strongest on the watchlist and is untouched by this batch's EPS-basis correction. The valuation case, while still failing, is now meaningfully less extreme than the pre-reconciliation reads.
 
 **Thesis Risk:** Price still requires strong execution (70.1× forward earnings on the corrected consensus-anchored basis, still ~140× TTM); crisis-survival remains the open Crystallization Signal and the named falsifier for the tier upgrade; government contract and appropriations concentration; SBC ~14% of revenue excluded from this adjusted EPS; hyperscaler replication risk; Cupat securities-class-action 10th Circuit appeal ruling pending.
 
-**Action:** 👀 WATCH — fails MoS (-102.7% vs Gate 20%) and PEG (1.65 vs Effective Cap 1.5); passes ER (~29.8%/yr, moot since MoS binds) and WAF (~6.81 vs 6.5). Not eligible for staged entry: the MoS shortfall is far outside the 7-point near-miss band. Re-evaluate on a genuine de-rating toward the $86 Base, a published upward revision to FY2028 consensus, or Congressional appropriation of the Maven POR $2.3B/5yr funding request.
+**Action:** 👀 WATCH — fails MoS (-94.45% vs Gate 15%, regime shift lowered gate but not enough) and PEG (1.58 vs Effective Cap 1.5); passes ER (~30.55%/yr, moot since MoS binds) and WAF (~6.86 vs 6.5). Not eligible for staged entry: the MoS shortfall is far outside the 7-point near-miss band. Re-evaluate on a genuine de-rating toward the $86 Base, a published upward revision to FY2028 consensus, or Congressional appropriation of the Maven POR $2.3B/5yr funding request.
 
 ---
 
 ## Recent News
+**2026-09-11** — Palantir ขยายความร่วมมือกับ Fujitsu และขยายบทบาท Forward Deployed Engineering เพิ่มตำแหน่งในตลาด AI ธุรกิจ | [src](https://news.google.com/rss/articles/CBMiowFBVV95cUxNRi1saHh1Smx6YkR4NnlOWEZScGNGM3JqZ0ZITjZfdzZqRTJ5YjVRMGFLSXA2aGdWSTBrQUp2ZG5tZEdranNiNzFhdlhXRzk2emNXVXhGVk1rVjRSMEZnT1JUUXZ4Y2NHbU9Ib01GMTFaOHV2cDZteFB4ZnFaRFR5MzY1RUFFYzFuVFg2R1k3NnB6RWs3ck1JVWpncTVLcjhsS3NR?oc=5) | 🔴MATERIAL
+**2026-09-09** — PLTR ร่วมมือ Nebius เพื่อเสนอ Sovereign AI Stack ให้กับลูกค้า; ขยายแนวทางแข่งขันในตลาด AI ที่ไม่อยู่ใต้อิทธิพลของสหรัฐฯ | [src](https://news.google.com/rss/articles/CBMipwFBVV95cUxOd3lRdGxUaU56dUJlakVFM2c5bjJyQzBYNnVhNWpnMGlyTHZrcE94amJmZk9wVEFWcms4d0xpRERZcXNYZTliQW9MdHZmWTV0cVlBR1BqWnQyMDFTRGFycUJKX0NDbVF4STNJZVR4WkVldHY1QVNXZEloUmtUUVBmWUJoMzB6dFVWTXhzT0NuenFhcGZxN05TcWdUdE1LSjdKR3Y5TWE4Zw) | 🔴MATERIAL
+**2026-09-07** — ขยายพันธมิตร PwC และลงทุน Maven ถึง 1 พันล้านดอลลาร์ ARR; เพิ่มลูกค้าธุรกิจใหญ่ | [src](https://news.google.com/rss/articles/CBMilwFBVV95cUxNZU9fU291MlZsR3JILU53OGEzR1RiTDBoM1dVY2pQX2NScTBwbkM4SEQyZWxrd3pDbzliRGRLT21heUU1ZmdXOHRZalExTFg1SE1zM2JTRVQzc2w0ZU5hbWF3dUdaNmhNaW9FaXl1ZVlvSVBDSERFZDZRb21oOGpBTHp5MkV2eWN4aFg1QWRQcWVlWDQ2RjNj?oc=5) | 🔴MATERIAL
 **2026-09-04** — PLTR ขยายความร่วมมือกับ PwC และประกาศแผนลงทุน Maven ให้ถึง 1 พันล้านดอลลาร์ ARR เสริมฐานลูกค้าธุรกิจใหญ่ | [src](https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDhoMVJmWlJaNWo1ckNmTG5GU29BWlFVTjd4SDZWU3Z3TS10eGJmZGZLTnpSWnZLUWpkZnRlMGhBSkRPcUdPRjR4MWVCUW1jQnRzclJDX1FlRGtpOERlRXRBU2pYaTJUVFRwdzN5SGh1TUlXTTNYYzFSUTAwWVRZNGdJVFRzV1lnd2JsSHo0X09VY2VxRW5SNndNSDdfcGgyQjBXY0VMcG1CMTJUWFg4?oc=5) | 🔴MATERIAL
 **2026-09-02** — ซีอีโอ Palantir วางแผนเป็นนักลงทุนรายแรกในบริษัท Defense ใหม่ของยูเครน; ขยายฐานลูกค้า Geopolitical และตำแหน่งประเทศจีก | [src](https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcmkyd1cwT1ZNMVA1VnRWYU9RYVhXVUJiZUNzN0J6SGlfMmF1NHJ1VWh3YlAtdG12WXFXNm1wamRSTlZ6VE5PSFNoRk1zYXR5YXFmdmdTMHZjZTByNThRU2ZjeFlMQl9yNFFpX3Y4ZS05OVVYQk13bzZNS3p3MlZXaGNXWkNFbFpmaV9PQU9CYUxFU3R4dW13TjVEUGdaMjBEYVQ1QXcyWWIxbksxYmFFZEk1MjFpd2hBeDFYcGlzWlVzT3p4SnJVUnZYZTRPNnR2NUJXTg?oc=5) | 🟡MONITOR
 **2026-08-07** — รายได้เชิงพาณิชย์ของ Palantir โต 150% ในไตรมาส 2 ปี 2026; บริษัทยกระดับคำแนะนำรายได้และกำไรประจำปีหลังผลประกอบการเกินคาด | [src](https://news.google.com/rss/articles/CBMidkFVX3lxTE52OERCNE9wbUxaWThFYXNFaFNSeGladF9kcVVuenFDX3BmU1U0ZHBURHp1S3VuSVl2ZHVLblU0TzVwWS1HR2RQand0NXFDdnpiNVk3eDBQdGpOQ2FsQWp0WHJiNHU0ckJCZmgtdjQxdlNfTEdqRVHSAXtBVV95cUxPZ3Q1WkJUaW05ZFpkZmhiS3RLSklUZm10SG5HZm42VlJscTdsT3FEVEJlMktrWEFYY3l2YzBNY1RqbzJId0N2NzA4WWpKSzBVbUxIU2hKN1c2TFo1SzNhSy1tMXFrQzdlWjczOWVVLUNSY3ppZmwyenFud2s) | 🔴MATERIAL
@@ -7198,9 +7236,6 @@ CEO Alex Karp: "We do not compete with hyperscalers — we run on top of them." 
 **2026-06-30** — เปิดตัวเอนจิน Soteria ส่งมอบโมเดล NVIDIA Nemotron ในสภาพแวดล้อมเฉพาะประเทศ | [src](https://news.google.com/rss/articles/CBMi4wFBVV95cUxPLS1vcFhib3RaVWNvSHl1WHNCcEtkOWhPUWotQjU0NUpnM0FSVUJYRnV6dVR2dlpqZVdOTjhvWVVBQnMtbGY4WkhOWEstNHVvaFhUQUdwVzNtMjlhbEpHbnRrN2x1V25hMFdfQldKaGxwWDJ6WFlVazVmVW1SUlJFM0ZxY1FRXzJpck10akpBMGROeFRvRlNhd2NXdWw2ampDMFdWeklUdUw3b214aE9jSGYydjEwYmZvdTY2MkVxZGJQT2RqR1YtR3JoN1IyYUlGSk1XTGdTNF9uR2toY3ROeUJPRQ)
 **2026-06-30** — กองทัพสหรัฐฯ นำ Foundry มาเป็นแกนกลางของการปรับปรุงเทคโนโลยีที่ใหญ่ที่สุด | [src](https://news.google.com/rss/articles/CBMilAFBVV95cUxNd25Mam9sZ1kxS3ZxRGhNVGtNY1UwcmxBd2hRWWpGa2lMYWsxbmhIRm9YUElGNlpIRmFXS2h1SWZ2ZXM1NVFEaXlrcXIzdExKWG12NWhWLVhFQVh3TUlYRXpDOW9Vc2dBUzNRdm1ISDJ3UGRqS2pHSDVya1dMRW53Zm5CbmM5Qml1Nl9LZHN0Sk1ZZktv)
 **2026-06-22** — พาลันทีร์ร่วมมือ Google Cloud เชื่อมโยงแพลตฟอร์ม AIP และ Foundry เพื่อขยายความสามารถวิเคราะห์ข้อมูล | [src](https://news.google.com/rss/articles/CBMioAFBVV95cUxPSC1RcnZOUkxZMmltYjJUWG1QRnJuTk5MWC1SbENsRk81QTFESm5oeEZ3UGpReGNrSVRsdzJtd1lQaFNqSmRPUk1ZSXZJUXlmQTdrS24zbTY1Q2l1SmpRbkpLWVl6dFVlUGE4clVia2k3SWd0d0UweHNSNlk4T0xVZFA0Z0FrbVVYZ1ZpVTJNelY0ck9wVEFGbzFWeVpSMEZo?oc=5)
-**2026-06-16** — Palantir ประสบการหลั่งไหลด้านการผลิต ส่งผลให้ความสามารถในการทำกำไรเพิ่มขึ้นไปยังระดับใหม่สะท้อนมาตราส่วนทำงาน | [src](https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWVfaHEyYXNhS0N2RDM5Tkhsem9GLVdsVm9ha2hrUUlkRDNIRFg4NlFGMS1NcHYzRDZMc0tfZXRIOTVXcThjN2l4aFNudlAxaXVMY2hVc1BGaGo2SWJMbzJyTGk3TkJHMGM1Y2lkSUZZMzhaNkZiZDZXd2VLbVdQV0ZzV0RTekNPNmlSXzBud2cxV3NPcmdqWGtYZU9DYjVnbHQ4ZE1oRkUzRWI5TVdz)
-**2026-06-09** — Palantir Technologies ประกาศการร่วมมือกับ Google Cloud เพื่อผสานรวม Gemini AI tools ลงในแพลตฟอร์ม | [src](https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbjhqc1VjSjg4Mi1aR09zQjV2c1p2YUY1RmR6aWxjbkNEV0FtTS1HYUFCM0JmTGdfNVo0UElRaVR3blp3VUI0OGFjTzhQenZkQXpLS3RuWjBZWk1aZFg1dTlSSGF1ZlhUaWF1cEZMMXlLZzl2NTR3OVgyck41RkkyOGdrT2dJaDE0WXVBN3JabFhnZnN1ZjctX3BQdmJwZFhSUG0tRFVhWHo1bFZldmxCVk9vWjh5Z0Q1MDZZRXN2Qjg0NVdYY0JxcVpQRTlHdFZNNVhhNzVPS3AxT3JRcDFsM1dKdGtZVmszeEE)
-**2026-06-02** — 📊 $PLTR — Palantir ขึ้น 10% หลัง Dell earnings beat ยืนยัน AI Factory partnership | [src](https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcW5yWGpGZFdiWDNjZFFfMEd3cjYwZmhCaEx3T0FuMEIwZHRjNkpha0hwcmxTbE1vT1JPNXhxTzVsUXJUZXdINC1BbEVNTFRSUFdkRWxiWVBOT0JxS1lPcE1XWndDSlZHMHdIYlpxcDhINVpuN3k3N1Z2N3ZWeVVKSWNna3lsUm5nM2JPSjNSUlNpZzVBQ25FM0NMdExUNnNvR281VXB4ZXdIck9hWFFyZ0FVU0VjLWh5aU9nRGp6SnJjSlAxdHVqZ2ZPQjdLSldKX3ZEanF6RzRJMUFVYU10TjdqVEdoLVk)
 
 ## Source Log
 
@@ -7465,6 +7500,8 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Recent News
+**2026-09-11** — หน่วยความจำแข็ง SK Hynix ฟื้นตัวจากสัญญาณว่า Goldman Sachs คาดวิกฤตบางชิ้นคลี่คลายลง ตลาด NAND/DRAM เตรียมพื้นที่ฟื้นตัว | [src](https://news.google.com/rss/articles/CBMilAFBVV95cUxQbHFPM0NSQjVveHltM3U1c3NjWjJwVjlELWdidGVieWtDYUlMRzhoWGFSZ3kxUV9QVThzYzQ3VVdKQjZSdUVQZmZfQkNDN2xYNmhjZ2xSdnJqOWpPY2Z6TVFhcnhRRXpJX0FzckVXeDZFVVJGcUlxcEhmOHBKR054aDZaWDdIWFZsUk5uWUlDN0Z6Zjda?oc=5) | 🟡MONITOR
+**2026-09-10** — หุ้นหน่วยความจำแข็ง SK Hynix, Micron และ SanDisk ปรับตัวขึ้นหลังจาก Goldman Sachs ชี้ว่าวิกฤตในอุตสาหกรรมหน่วยความจำอาจเริ่มคลี่คลายตัวลง และตลาดเตรียมเข้าสู่วงจรฟื้นตัว | [src](https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdlpVZDZOQlJpRVJ3SkcyeE5xOHpUUDJURkNnTFhva2xVaVBGLXdlaFJwN3M4dVVvM3kwZWREYjVxQVBoY095WTdDbWdCNGtoOVV0Znhtd1VaRGI3X1ZzemRtdnJwSWN6THpJZVpkclpOV2pXLUhJRGhTbWxObzdBam1tYTNxS2llZG93RXY5WVl2cjNyNlBNTllzVGN0STJrbHlSMjJ3ZmdDNWhzMUtEUmwteUIzUEZvbEd5VC1ZTUtKYVZ1UTJiOUZSQkFoVWxoakhTU0RrM2xsbnR3aXF4czAwT2FwWF9C?oc=5) | 🟡MONITOR
 **2026-09-03** — SK Hynix วางแผนสร้างโรงงานผลิตหน่วยความจำหลักใหม่ในญี่ปุ่น เสร็จปี 2030 | [src](https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFdueDhjb0VMX2VKVC1ic0RkZUNZUHVEbjEyVVFMZmRDYUtTRmpFMFVPRURFc3ZOcFc0REdnLUhhZm9aemtCY2pPSERYak9uQ2F0WFNfd1I3LXB1dFVsNXBmb2tOY0NBYlJMSzk3WUFyRnpyTWxxQXRpdUZmQ3p0ZlhCWEhhaWo3VUg5YVlUVHAxa2p3NHhqUGV5U0lfRVpTeFZfb3VLYUN2VzVibUpIYkZ0eFg) | 🔴MATERIAL
 **2026-09-01** — ซีอีโอ SK Hynix ประกาศแผนมหาศาล การผลิตหน่วยความจำ DRAM/NAND ในรัฐอินเดียนา โดยเป้าหมายเป็นฐานการผลิตสำคัญภายในปี 2030; บ่งชี้เลื่อนการลงทุนโครงสร้างพื้นฐาน AI ครั้งสำคัญ | [src](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWmE1ZnQ4aUtXeU1mYWNXSXlWZGhrVHNINlFPUlRoRjB6bTBwaVhXRXFQei1nUDczbi1QSVdzamxET09tMEtlcFl6OVBrLXltUngwS3MwaElBYTI5MWtkNUdTMm5xS1AwOW94aVZZX3ZvWGFuMTRsbmJDYXEzdURvYllEajQyMkRWNHNQM05jS21mQk5JdGpFYklfbkdBd19sSUw0NXBGQ3rSAa4BQVVfeXFMTjc2WVRPVUlnT01RRWpISHFWazh3U3h6VENEUG4tMG1YQ2lwMWNBbV9tMEhuS1FMaVllRXYxNTNpTmdkbFpLNEI2cnNTX2pHclNnWHUzbG5OQ1gxZ3Mxc2RCMHl4aFp5M1RXRnhORGhrWFZNZ0tkd0huYW5yZGF5WDBxRUt1bGJJbUVwN1hDZmZXdmJtcHFtMHQ0bURmTmpVOWViRGMtYUpuY1M3NEd3?oc=5) | 🔴MATERIAL
 **2026-08-28** — SKHY เริ่มก่อสร้าง HBM4 fab ในอินดิแอนา พร้อมลงทุน 720 พันล้านดอลลาร์ในระยะเวลา 10 ปี; กลยุทธ์ปลูกอาคารจริงเพื่อครองส่วนแบ่งตลาด AI memory | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxOeEd5SkFfMXR5bjR6QjZmWU5BejRXZ2pTQzI4bFJWZllyd0dEWXE1c2JTRjM4a3E4NkRYUWRFS3Zyc2RaanVuZFhvSDFub1BMMm5uTmwtN3VjLXBDTlAzZjRBRDZDeG50Q3RaZVhGZ2Fmb01UbXdfX3dvLXdzVW1OZlFIZXRfZVdNMkFqRTR1Q1N0VTRBaUE?oc=5) | 🔴MATERIAL
@@ -7477,8 +7514,6 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 **2026-07-31** — SK Hynix กำไร Q2 พุ่ง 557% จากความต้องการชิป AI แต่ยอดขายต่ำกว่าคาด; สัญญาณหนึ่งเดียวไม่เพียงพอเพื่อความมั่นใจต่อแนวโน้ม | [src](https://news.google.com/rss/articles/CBMihgFBVV95cUxPZzdxS05CMEpkaXRTd0VfLVZldkd4Q0FGVk5DUVJaZWhaODVaaDhyelZUTjQya2QzcnVyX2dQTjFNVXdqb05nNm9KbFVRNGNqdV93aF81cVlfNXlwbHhaZU1lcFloQWx6N2hUYnEwbjMweU04Tkd5RHZzb0VPa1RPMUF4dFVYUQ) | 🔴MATERIAL
 **2026-07-30** — กำไร Q2 พุ่ง 557% จากความต้องการชิป AI แต่ยอดขายต่ำกว่าคาดการณ์; สัญญาณความต้องการแข็งแกร่งแต่มีความเสี่ยงจากอำนาจต่อรองและ margin ตลาด | [src](https://news.google.com/rss/articles/CBMie0FVX3lxTE1obU9nR3lLLXNMM2N2RGVzb1djQzNDWk9TSmZJaG11VXQ5UWJwX1RmZTQ0bVl4S2dVMGR1cXFJWlcwLXNhcmdJQkJidEhMY2I0elhVX0pCaDJKNkFsNmE3RkxLOEZGQlRzdUdXT1NRZ2lDRHdkY2kydnAzUQ) | 🔴MATERIAL
 **2026-07-29** — 🤖 $SKHY — Q2 FY2026 (Apr–Jun) actual results, first quarterly print since IPO: Revenue W79.32T (+51% QoQ/+257% YoY), operating profit W60.54T (op margin 76%, record), net profit W93.92T (net margin 118% — but ~W63.27T is one-off Kioxia stake-sale gain, not organic). Concluded LTAs with ~10 customers (~5yr terms). Q3 guidance: DRAM bit shipments +~10% QoQ. 2026 CapEx raised to high-W40T range. Cash +W33.6T QoQ to W87.96T. | [src] SEC Form 6-K, Commission File 001-43391, filed 2026-07-29 | 🔴MATERIAL
-**2026-07-29** — [Market reaction] กำไร Q2 พุ่ง 557% YoY จากความต้องการชิป AI แต่**ต่ำกว่าที่ตลาดคาดการณ์** — สอดคล้องกับ semiconductor sell-off ที่ลากยาว 4 วัน (SKHY ราคาร่วง -15% จาก gate $154.57→$131.41) ทั้งกลุ่มถูก repriced เรื่อง AI monetization timeline ไม่ใช่แค่ SKHY ตัวเดียว | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxQaERjLTFuTEZYSXYzNzBaRWdNenA0YmlzX0VlcklvY2twbnBkNFVyR2RXMWFWdjRMa2xUTjM1X0N3VVAzM1VjSEo3Nm5OdjZ5NTVaSWxwZExCTmRjX1pUcDBMR3JzX0c4ZEdnUlhXbXlpclpCenh3Vk1DZW9fdjBLeWVTVVJURFQxVWlHdlpzV2N4QQ) | 🔴MATERIAL
-**2026-07-09** — 🆕 $SKHY — IPO priced US$149.00/ADS บน Nasdaq Global Select Market (177.9M ADSs, gross ~US$26.5B, net ~US$26.2B); Cornerstone: Baillie Gifford/Coatue/Situational Awareness สูงสุด $7B; หุ้น common ยังเทรด KOSPI "000660" | [src](https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm) | 🔴MATERIAL
 
 ## Analyst Research Notes
 
@@ -9655,6 +9690,8 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Recent News
+**2026-09-11** — TSMC รายได้สิงหาคม 2569 เพิ่มขึ้น 53% ขึ้นมาจากความต้องการ AI ที่ยังคงให้ความจุผลิตเต็มตัว | [src](https://news.google.com/rss/articles/CBMipwFBVV95cUxNc3NHcjUtZ0RjUHdDUnJvNjhEUnN6UUVlek9md1o0NmM1dkpScDltMmZjNFhYeW84NXQzZTROVkVxTjl6Zmg5Sl9yc3ZJWUk1WWt4MUxvams1SGZqZXlwdlFNQ1o5UjhfdWh5THd3WU5tdHlnVzRvUUlHUG13amdkRnJld1BYWXNsaUdRcGlMTDgwUkJFaEtQa0tnUDZwZ2RhWE9qWnpEbw?oc=5) | 🔴MATERIAL
+**2026-09-07** — ยืนยันขยายเฟป Fab ต่อเนื่องรองรับสัญญาลูกค้าโลก AI; ยกระดับตำแหน่งผู้นำการผลิตชิป | [src](https://news.google.com/rss/articles/CBMinwFBVV95cUxOYjVSVkNhYzdubVg5VnZPVDg3aGhDVDQzWi1LcmJ2Z1ZvanVka3hjQi1GYWhYODVXc3hqdTRXWm1FUkptTDVST1ZUelVZczhiZUg4MDJ4Wlp2M1NTM0VsLWFqY2dOZk9hMW0ydklqVlFyM3ZRa0tVRlB1LVpfcGhNLTNKQzlZUkdqOThmZmlSanh0SUR0SXh5bXdyMkFEcmc?oc=5) | 🔴MATERIAL
 **2026-09-04** — TSM ยืนยันการขยายโครงสร้างพื้นฐาน 269 พันล้านดอลลาร์เพื่อตอบสนองความต้องการชิป AI สูงและรักษามาร์จิน 67.7% ตำแหน่งผู้นำผลิตชิป | [src](https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNTJQMjNZSHZvU0dKel9Vb0FvYnpQQnZxYzQxbGljeHBpZXFrcWNDUmk5c1R0MUZvS0hGSzI0Szh0Qm5Qd0pwQVBqMlZjZEZxWDdZR21EcE5uaW9ISk1aeFBOeXdBR1ZERUxfVmkwRjlwSnJOd0hfLS1oMEYtR2hEcFpMcUpqR2cwZlhScVBCaERGRlRmQUhSdDdSYUYwTzBac1JMaWhiWHppdXNFY0dDSUN2TGhkbHVDdEdfR3FWbDY2eXAycWVxSUdjX0dmcGpxMjVqbnJPSUlNNHhjNXQ0?oc=5) | 🔴MATERIAL
 **2026-09-03** — อธิบดีบริหารของ TSMC ถือหุ้น 1.8 ล้านหลังการมอบหมาย | [src](https://news.google.com/rss/articles/CBMiygFBVV95cUxQSl9lbGN5eF9CUnJ2MHpZWUo1dWxmMFNVbWhYRGlxbzVWc01RVlBsM1RjQkl3ZEVVcjRkbDJaQ2dnTVdEdEw4aGkzcGRHMWlLbjNydGItYm5TS3MwSmxRY1djVHdnZm9OWDR0dDVNSS1HY3N6ZUhtU2RTbVRvenh6VmxkTW81eHZKaFdRRE0xOTlEQW94bTJoV1NWajNQdUZIdl9lQ2lkQVMxZl9LVU9aWmZWRmNZUlFVcjl2bDZWaTVvRHZMc3VjSkh3) | 🟡MONITOR
 **2026-09-03** — บริษัทหนึ่งลงนามแบตรายสดสวนโต้ TSMC แต่เปิดตัวกองทุน Foundry ห้าวันต่อมา; สัญญาณเปลี่ยนแปลงของความคิดเห็น | [src](https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNU1BOHp2clhwUDNkVzNQVXU4RTlzd3ctVFgzY1lmQ2djek1RRktnaERaeGZFWXd0anltZVZUd29fWk9iNmFnSU9xbm82TTNHNzdIVV9TMDRzNjNQNG8xeDNnTDVldjVxcFlBTXI0SEhwbVNOSkNUNTFiMV9XVGpQaGNnUlEwNjFkdFJoaDhTOVoxV3ZMVTRrMTRuaENOQmNfRFRGeVFUOC15WGhzWlVJcGdscmh3M19wRlhRNUNsY3MxODNLRVN4OG96bXM4Z3RUeFdhWEVocVJCWWhQNHZWcQ) | 🟡MONITOR
@@ -9667,8 +9704,6 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 **2026-08-23** — TSMC ลงทุน 100 พันล้านดอลลาร์ขยายโรงงานในอริโซนา สหรัฐอเมริกา เพื่อเสริมความสามารถผลิต Fab ขั้นสูง | [src](https://news.google.com/rss/articles/CBMikgFBVV95cUxQei1pMzJPaVNJQVVYT2JCRjBWS2xiWHc0VWZpQ2JkLVBQNmNZSXM1aXZDZi1Hb1lWMGFKRXBKQTk2OXV5YzJGaG4xbkVjLTdLZEg2Vzk1czJXemlTYXdOdmk3djNIdWxRa0c5a3Vsam9HWEhpZVBBb2pqTTR1SmdybnlZc3pDWXp3NXRhcmhGNWdQZw?oc=5) | 🔴MATERIAL
 **2026-08-23** — TSMC ประกาศเพิ่มงบลงทุน Capex ปี 2026 และขึ้นอัตราเงินปันผากระดับเดือ; สัญญาณความมั่นใจในความต้องการ AI ระยะยาว | [src](https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXN6bHhMZEczOWFTRjhGcE1MbDRVbmE1QUdfOXl5cy0zNjR5SVAxRWVzRVpzUlZSNVh3Y2luLU91cDRURTJZLVQ3TWNULUkzdWx3ZjdINTl1c0NmWEtVWDhrNVFnT25aRUROSl9NQm1LUm9jRGYtQlREaTNlZVl4amlDcWo0QUxyeDdyWlBjczNyTlNLTVhCZVRLaw?oc=5) | 🔴MATERIAL
 **2026-08-20** — ผู้บริหารระดับ VP ของ TSMC ซื้อหุ้นเพิ่มเติมผ่านแผน ESPP; แสดงความเชื่อมั่นจากการบริหารในมูลค่าระยะยาว | [src](https://news.google.com/rss/articles/CBMiygFBVV95cUxPSXNJZkF1VlhjYWp6ZDlsQ3RHcXlSeDJzV0M4U0pWV3VTTGJyRXM3cUJhU1VCVVFNV0hUTXdKTFF2bnRfczBKU1VnRW44MHloQzNTUlhXMlpDNWl4MWZVajBITXIwYU5oTFhLeEdheTFSZ1RVZGpHRGxoMVE4YXktNy11dGhLbVUyeXMzNTllLXZOWVp1dWN2TVpUMDRhNEt3TVpzcno5dF9fZXJlTEhXTFkzYVExblMxQ1pfUk14eHJ3U2dEZF9CakZR) | 🟡MONITOR
-**2026-08-19** — TSMC เทรดสูงกว่า Graham-Farben Value 30.87% เนื่องจากความต้องการความจุชิป AI เพิ่มขึ้นและห่วงโซ่อุปทานตึง | [src](https://news.google.com/rss/articles/CBMifEFVX3lxTE9PbERPR0xTRnVEWmhVTUg2aDJ6X2xra1FMUFhYa1ZlRlFkN3JHYUNubFpaNW5pOTJ0cG40RFNJcTR0QVVTdG9Ca24zTV84anFzTVJOaGFWelNXT0s2QVZxRUVhU0hkWXdSR2xpVEEwOUh2N3NDdzUwVEtQbGs?oc=5) | 🟡MONITOR
-**2026-08-18** — นักลงทุนชั้นนำรุ่งหาซื้อหุ้น TSM หลังจากการลดลงของราคา; เห็นมูลค่าในห่วงโซ่อุปทานชิป AI และความท้าทายด้านภูมิศาสตร์ | [src](https://news.google.com/rss/articles/CBMiowFBVV95cUxOZlVDTTJFcm55d3huNkYzNVF2MW02cDBoTmJOeVUtWktacEZSdWtLTXlOTWNVNkZiSWZUYzJldXRWRVo4aGZ5U3dOd1RLS1c1U1E1LXBmcXVCMGVVT1YyczhEb1BNYUpRaDFMQmt5TnprNTFXT1I0OVAyZmtjeWk4aTFNVnlvbW1UYVhEVlFveml0cnNOSUtxOEppSVNIS2htbzFF) | 🟡MONITOR
 
 ## Source Log
 | ไฟล์ | ประเภท | อ่านเมื่อ |
@@ -9686,7 +9721,9 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+
+**2026-09-12 update (news + regime-shift refresh, /warren watchlist):** ข่าว 🔴MATERIAL หลัง gate 09-05 (09-07 "ยืนยันขยายเฟป Fab ต่อเนื่อง", 09-11 "รายได้สิงหาคม 2569 +53% YoY") — WebSearch cross-check: 09-07 เป็น re-syndication ของ capex/expansion story เดิม (duplicate ครั้งที่ 8+ ตั้งแต่ 07-16); 09-11 August monthly revenue +53% YoY เป็น**ตัวเลขจริงแต่รายเดือน**ไม่ใช่ quarterly guidance ใหม่ — สอดคล้องกับ FY26 guide "slightly above 40%" ที่ใช้อยู่แล้ว (เดือนเดียวมี seasonality สูง ไม่ใช้แทน guidance รายไตรมาส) ⇒ ไม่ปรับ revenue/EPS assumption รอบนี้ (ระมัดระวังไม่ chase ตัวเลขรายเดือน). **Regime-Shift Flag (Step 3.7ค):** VIX ข้าม 15 เป็น 15.74-15.84 → Calm→Normal, Effective MoS Gate 20%→**15%**. ราคา $428.91(09-05)→**$433.24** (prices_cache.json, +1.01%) — price-only recompute, FV $411 carried forward unchanged. TQR sync จาก playbook **v3 (2026-09-06)**: **8.38** (ไม่เปลี่ยนจาก v1/v2 — TSM ไม่มี business evidence ใหม่กระทบคะแนนธีมตั้งแต่ 07-27) → 🥈 Strong, ceiling 25% ไม่เปลี่ยน. Thesis/Tier ไม่เปลี่ยน — ไม่มี tier change รอบนี้
 
 **Tier Basis:** Inevitable: ✓moat foundry 35ปี ✓C.C. Wei leadership proven (non-founder, succeeded Morris Chang) ✓N2/A16 moat ขยาย ✓ROIC>25% ต่อเนื่อง; Taiwan geopolitical ยังอยู่แต่ไม่เปลี่ยน tier — ไม่มี tier change; 2026-07-25 re-value หลังงบ Q2 (beat-and-raise) — FV ขยับ $412→$420 (ทะลุฐาน Paper #3.1 เล็กน้อย). 2026-07-27/07-31/08-05/08-08: re-checked ซ้ำ, ไม่มี tier change.
 
@@ -9714,19 +9751,19 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price:** $428.91  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐาน Revenue×Margin→EPS→P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้น (Tier = Inevitable ไม่ใช่ 🔁 Cyclical · fwd P/E 20.9× < 80× · foundry ขาเดียว node-mix ไม่แยกเป็น segment ที่ economics ต่างสุดขั้ว → ไม่เข้า SOTP)
+**Last Updated:** 2026-09-12  |  **Price:** $433.24  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐาน Revenue×Margin→EPS→P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้น (Tier = Inevitable ไม่ใช่ 🔁 Cyclical · fwd P/E 21.1× < 80× · foundry ขาเดียว node-mix ไม่แยกเป็น segment ที่ economics ต่างสุดขั้ว → ไม่เข้า SOTP)
 
-### Snapshot (TSM — 2026-09-05 price/news refresh, batch 2/4 — EPS/multiple carried จาก 08-14 rebuild ไม่มี earnings ใหม่)
+### Snapshot (TSM — 2026-09-12 price/news/regime refresh — EPS/multiple carried จาก 08-14 rebuild ไม่มี earnings ใหม่)
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $428.91 | — |
+| Current Price | $433.24 | — |
 | **Fair Value Base** | **$411** | — |
-| **Margin of Safety** | **−4.36%** | ✗ FAIL (gate 20%, Calm mode) |
-| Forward P/E (บน EPS ที่ใช้) | 20.88× | — |
-| PEG | 1.04 | cap 1.5 |
-| 5-yr Expected Return | 19.15% | gate ≥15% |
-| WAF | 7.95 | ≥6.5 |
+| **Margin of Safety** | **−5.41%** | ✗ FAIL (gate 15%, Normal mode — regime shift จาก Calm) |
+| Forward P/E (บน EPS ที่ใช้) | 21.09× | — |
+| PEG | 1.05 | cap 1.5 |
+| 5-yr Expected Return | 18.95% | gate ≥15% |
+| WAF | 7.93 | ≥6.5 |
 | **Action** | **🟢 HOLD** | — |
 
 ### Revenue & Margin Basis — ตัวเลขที่ใช้มาจากไหน?
@@ -9753,14 +9790,16 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 | **Base** | $20.54 (revenue consensus × 49%) | 20× | **$411** | 55% |
 | **Bear** | $20.54 | 15× | **$308** | 20% |
 
-**ราคาปัจจุบัน:** $428.91 (prices_cache.json 2026-09-05)
-**Margin of Safety:** **−4.36%** = ($411 − $428.91) ÷ $411 → ✗ FAIL (Effective Gate 20%, Calm mode VIX 14.32) — ห่าง gate 24.4 จุด
-**Forward P/E (บน EPS ที่ใช้):** 20.88× · **PEG:** 1.04 → ✓ PASS (cap 1.5)
-**5-yr Expected Return:** **19.15%/ปี** = convergence −0.85% + growth 20% → ✓ PASS (band 15–20% = HOLD ตาม Holdings Return Recheck)
+**ราคาปัจจุบัน:** $433.24 (prices_cache.json 2026-09-12)
+**Margin of Safety:** **−5.41%** = ($411 − $433.24) ÷ $411 → ✗ FAIL (Effective Gate 15%, Normal mode — regime shift Calm→Normal) — ห่าง gate 20.4 จุด
+**Forward P/E (บน EPS ที่ใช้):** 21.09× · **PEG:** 1.05 → ✓ PASS (cap 1.5)
+**5-yr Expected Return:** **18.95%/ปี** = convergence −1.05% + growth 20% → ✓ PASS (band 15–20% = HOLD ตาม Holdings Return Recheck)
 
 > **2026-08-25 price/news refresh:** ราคาลด $430.49→$410.12 (-4.7%). ข่าว 🔴MATERIAL 08-23 (Arizona $100B) เป็น duplicate ครั้งที่ 6+ ของเรื่องเดิมที่วิเคราะห์แล้วตั้งแต่ 07-16; 08-24 TSMC+AMD packaging JV $10B+ เป็นรายละเอียดเสริม capacity ระยะยาว ไม่กระทบ consensus revenue ที่ใช้อยู่. EPS/multiple ไม่เปลี่ยน (ไม่มี earnings ใหม่)
 
 > **2026-09-05 price/news refresh (batch 2/4):** ราคาขึ้น $410.12→$428.91 (+4.6%). ข่าว 🔴MATERIAL 08-31/09-01/09-02/09-04 ("$269B global investment") verified = re-syndication ของ $265B U.S. investment ที่ประกาศไปแล้ว ก.ค. 2026 (duplicate ครั้งที่ 7+) — ไม่มี commitment ใหม่. Moody's outlook upgrade (08-31) = credit signal ไม่กระทบ equity FV. EPS/multiple ไม่เปลี่ยน. MoS พลิกลบ (+0.21%→−4.36%) เพราะราคาขึ้นล้วนๆ ไม่ใช่ FV ลด
+
+> **2026-09-12 price/news/regime refresh:** ราคาขึ้น $428.91→$433.24 (+1.01%). ข่าว 🔴MATERIAL 09-07 (fab expansion) = duplicate ครั้งที่ 9+; 09-11 (August revenue +53% YoY) เป็นตัวเลขจริงรายเดือน สอดคล้อง FY26 guide เดิม ไม่ใช้แทน guidance รายไตรมาส. EPS/multiple ไม่เปลี่ยน. Effective Gate ลด 20%→15% (regime shift) แต่ MoS แย่ลงเล็กน้อยจากราคาขึ้น (−4.36%→−5.41%) — ยัง FAIL ทั้งสองเกณฑ์
 
 ### Data Sources
 - **Revenue/Earnings actual:** Q2 2026 Exhibit 99-1 (16 ก.ค. 2026) — revenue $40.20B, GM 67.7%, net margin 55.6%, weighted-avg shares 25,932M
@@ -9774,11 +9813,11 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 9.5 | 30% | 2.85 | ไม่เปลี่ยน — foundry monopoly + CoWoS chokepoint; ผ่าน CEO transition (Morris Chang → C.C. Wei) |
 | GP (Growth Potential) | 9.5 | 30% | 2.85 | ไม่เปลี่ยน — consensus FY27 revenue +32.8%; ยอดขาย ส.ค. +45% YoY; 3nm capacity ปล่อยเร็วกว่าแผน; capex อนุมัติเพิ่ม $29.4B (08-11); TSMC+AMD packaging JV $10B+ (08-24) เสริม capacity ระยะยาว |
-| VA (Valuation) | 5.7 | 25% | 1.425 | ลดจาก 6.3 — ราคาขึ้น $410.12→$428.91 (EPS/multiple คงเดิม) → MoS +0.21%→**−4.36%** (พลิกลบ), PEG 1.00→1.04, ER 20.0%→19.15% |
+| VA (Valuation) | 5.6 | 25% | 1.40 | ลดจาก 5.7 — ราคาขึ้น $428.91→$433.24 (EPS/multiple คงเดิม) → MoS −4.36%→**−5.41%**, PEG 1.04→1.05, ER 19.15%→18.95% |
 | RA (Risk Assessment) | 5.5 | 15% | 0.825 | ไม่เปลี่ยน — Taiwan geopolitics; N2 ramp GM dilution 2–3ppt; capex $60–64B กด FCF; customer concentration 36%; socket loss แรกที่ยืนยันแล้ว (Google TPU9 → Intel EMIB-T) |
-| **WAF Total** | **7.95** | | **HIGH** | *(จาก 8.10 — VA อย่างเดียว, ราคาขึ้นล้วนๆ)* |
+| **WAF Total** | **7.93** | | **HIGH** | *(จาก 7.95 — VA อย่างเดียว, ราคาขึ้นล้วนๆ)* |
 
-**TQR (playbook v1 2026-07-27, ในกรอบ 90 วัน):** 8.38 → 🥈 **Strong** → เพดาน 25% · Final Cap = min(25%, Inevitable ไม่มี cap) = **25%**
+**TQR (จาก AI-Revolution playbook v3, 2026-09-06 — อายุ 6 วัน อยู่ในกรอบ 90 วัน):** **8.38** (ไม่เปลี่ยนจาก v1/v2 — ไม่มี business evidence ใหม่กระทบคะแนนธีม) → 🥈 **Strong** → เพดาน 25% · Final Cap = min(25%, Inevitable ไม่มี cap) = **25%**
 
 **Investment Idea:** chokepoint ที่ทุกชิป AI ต้องผ่าน — ธุรกิจเร่งขึ้นจริง แต่ราคายืนเหนือ FV base เล็กน้อยเป็นรอบที่ 3 ติดต่อกัน; ถือได้ ไม่เติม
 
@@ -9786,7 +9825,7 @@ CapEx ทสะสม 3 ปี ที่แล้ว $101B → ปี 2026 alone
 
 **Thesis Risk:** Taiwan geopolitics; net margin assumption 49% สูงกว่า normalized 5 ปี (40.1%) 8.9 จุด — ถ้ากลับไป 44% → EPS $18.4, FV $369, MoS −16.6%; socket loss ลามไป hyperscaler รายที่ 2 (Apple/Meta ใช้ EMIB-T)
 
-**Action:** 🟢 **HOLD** (MoS −4.36% FAIL gate 20% ห่าง 24.4 จุด → ห้าม ADD ที่ราคานี้; ER 19.15% อยู่ใน band 15–20% = HOLD ตาม Holdings Return Recheck; position เดิม $30 — ห้าม forced sell ตาม Fisher)
+**Action:** 🟢 **HOLD** (MoS −5.41% FAIL gate 15% ห่าง 20.4 จุด → ห้าม ADD ที่ราคานี้; ER 18.95% อยู่ใน band 15–20% = HOLD ตาม Holdings Return Recheck; position เดิม $30 — ห้าม forced sell ตาม Fisher)
 
 `,
 
