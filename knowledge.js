@@ -7721,7 +7721,7 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-19  |  **Price:** $187.50/ADS (prices_cache.json, 2026-09-05)  |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
+**Last Updated:** 2026-09-19  |  **Price:** $187.50/ADS (prices_cache.json, 2026-09-19)  |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
 
 > 🔄 **Price-only recompute (2026-09-19, batch 3/3)** — $177.00→$187.50 (+5.93%; web 09-18 $182.99, 52w 124.80–199.87). FV $60 (rev 131,000 × 25.6% ÷ 7,288.65M × 13×) carried forward. MoS **−212.5%**; WAF 5.98 → WATCH. TQR 6.50 Peripheral (reused).
 
@@ -7747,7 +7747,7 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $177.00/ADS (prices_cache.json, 2026-09-05) | — |
+| Current Price | $177.00/ADS (prices_cache.json, 2026-09-19) | — |
 | Fair Value Base | **$60** (carried forward from 08-18 rebuild) | — |
 | **Margin of Safety** | **−195.00%** ((FV−Price)÷FV) | ✗ FAIL (gate 20% — Calm VIX mode this batch) — widens further as price rose +9.91% away from FV |
 | **5-yr Expected Return** | **~−4.44%/yr** (convergence −19.44% + growth 15%) | ✗ FAIL (gate ≥15%) |
