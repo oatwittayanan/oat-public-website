@@ -2954,7 +2954,9 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 | FY2024 | $1,900M | n/a | n/a | n/a | $(863)M | Active power 360MW/32 data centers |
 
 ## Story Gate
-**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-09-19 re-check (batch 3/3, 🔴 09-18):** 09-17 CoreWeave ประกาศ $3B Convertible Senior Notes due 2033 (+option $500M) + ATM 35M หุ้น (~$2.9B, ≈5.4% ของ ~650M หุ้น) → ต้นทุนเพิ่ม leverage + dilution บน debt $25.1B / D-E >14×; ฝั่งบวก: สัญญา compute ใหม่ ~$40M/MW annualized (ราคาสูงขึ้น), contracted power 3.7→~4.2GW. ไม่มี revenue/guidance ใหม่ → Story Gate PASS, Speculative ไม่เปลี่ยน
 
 **2026-09-12 re-check (news + TQR sync, /warren watchlist):** ข่าวหลัง gate 08-29 — 08-31 🟡MONITOR (ขยายไป engineering AI), 09-10 🟡MONITOR (CEO ยืนยัน demand เกิน NVIDIA supply), 09-11 🔴MATERIAL (สัญญาสะสมมากขึ้นท่ามกลาง chip shortage) — ทั้งหมดเสริม narrative เดิม (backlog/demand-constrained) ไม่มีตัวเลขใหม่เชิงปริมาณ (ไม่มี revenue/margin guidance ใหม่). **TQR sync สำคัญ — เปลี่ยน band:** playbook v3 (2026-09-06) ให้ CRWV = **5.55** (⬆ จาก v2 5.30) → **Out → 🥉 Peripheral** (ceiling 0%→10%) จาก BQ ขึ้น 5.5→6.0 (หลักฐาน Platinum-tier/premium pricing ที่การ์ดเองปรับไปแล้ว 08-29). **ไม่เปลี่ยน action** — WAF ยัง LOW (<6.5) และ MoS ยังติดลบหนัก บล็อค BUY อยู่ดี (Step 5 WAF gate). ราคา $84.23(08-29)→**$88.99** (prices_cache.json, +5.65%) — price-only recompute, FV Base $77 carried forward unchanged (ยังรอ \`/mark-research\` full refresh, Q2 10-Q ยังไม่ ingest)
 
@@ -2969,7 +2971,9 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 **Tier Basis:** Speculative — IPO มี.ค. 2025 (< 2 ปี standalone track record) + upside หลัก (backlog $99.4B แปลงเป็นกำไรจริง) ยังไม่อยู่ในงบ (Net Loss $(740)M ใน Q1 ล่าสุด, Adj Op Margin เพียง 1%) + capital intensity/leverage สูงมากจนยังพิสูจน์ "moat" ไม่ได้ว่าอยู่ตรง software/orchestration layer จริงหรือเป็นแค่ first-mover capacity advantage ที่ hyperscaler ไล่ตามทันได้
 
 ## Valuation Range
-**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $88.99  |  **Method:** EV/Revenue Multiple (ไม่มี GAAP profit) — FV Base carried forward unchanged, price + qualitative refresh only
+**Last Updated:** 2026-09-19  |  **Price ณ วันนั้น:** $81.36  |  **Method:** EV/Revenue Multiple (ไม่มี GAAP profit) — FV Base carried forward unchanged, price + qualitative refresh only
+
+> 🔄 **Price + qualitative refresh (2026-09-19, batch 3/3)** — $88.99→$81.36 (−8.57%). FV $77 carried forward. ⚠️ **Caveat สำคัญ:** FV นี้คือ P/S 4× × $12.5B ÷ 650M (net_debt = null) — ถ้าหัก net debt ~$22B จริง FV ≈ $43–45 (MoS ≈ −80%+) และ ATM 35M หุ้นเพิ่ม share count ~5.4%. MoS −5.66% จึง**ดูดีเกินจริง**. WAF 5.95 (VA 4.6) LOW → AVOID ไม่เปลี่ยน. แนะนำ /mark-research (Q2 10-Q) + rebuild FV ด้วย net debt จริงรอบหน้า
 
 > 🔄 **Price + qualitative refresh (09-12), not a full rebuild.** ราคา $84.23→$88.99 (+5.65%, prices_cache.json) — demand-exceeds-supply narrative (09-10/09-11) เสริม backlog thesis เดิม ไม่มีตัวเลขใหม่. Revenue/multiple assumptions **carried forward unchanged** จาก 06-18 — ต้องการ \`/mark-research\` full refresh (Q2 10-Q ยังไม่ได้อ่านเข้าระบบ) ก่อนจะปรับ FV จริงจัง
 >
@@ -3010,7 +3014,7 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 
 **TQR (จาก AI-Revolution.md v3, 2026-09-06):** **5.55** (⬆ จาก 5.30 v2) → **Out band → 🥉 Peripheral, ceiling 0%→10%** — BQ ธีมขึ้น 5.5→6.0 จากหลักฐาน Platinum-tier/premium-pricing เดียวกับที่การ์ดปรับไปแล้ว 08-29 (band change ระดับธีม ไม่ใช่ business change ใหม่ที่การ์ดนี้). **ไม่เปลี่ยน action วันนี้** — WAF 5.75 < 6.5 ยังบล็อค BUY อยู่ดี (Step 5 WAF gate เป็นอิสระจาก TQR ceiling)
 
-**Action:** ❌ AVOID — WAF 5.75 (LOW, fail Step 5) + MoS ติดลบหนักขึ้น (-15.57%) + Speculative tier (ไม่ pay up) — TQR ขยับเป็น Peripheral (ceiling 10%) แต่ไม่มีผลเพราะ WAF gate บล็อคอยู่แล้ว; แนะนำ \`/mark-research\` full refresh รอบหน้า
+**Action:** ❌ **AVOID** (2026-09-19) — WAF 5.95 LOW + Speculative + financing/dilution ต่อเนื่อง; MoS −5.66% ไม่น่าเชื่อถือ (FV ไม่หัก net debt)
 
 ## Recent News
 **2026-09-18** — เซ็นสัญญา Compute ใหม่ที่ 40 ล้านดอลลาร์/เมกะวัตต์ และแสวงหาเงินทุน 3 พันล้านดอลลาร์เพิ่ม | [src](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcnVaSUxWZ3A2VFowVm0wOURQckE4cWtpbkNKNk9aUnpUbVNXUnNUR1FWS093Yy1Tem16R0FZT0xIcU0zZ0tyTXd2YV9tYUZIZjJsUGVJS1BRa0tBTFZGdW9aX21jRTdMRkx5cWdFUDVOV1VhSzlIWGdvZmQwUkU2S1N4bHZnWDloSGttQ0hROWRJQkQwdmtqRnM1N2tqbzJQSGd5OGM2SExLcnVKN0xTY1IwVTBqMkoxMGY0X2IyUGY5SEwwaFpwNEE3NThUTzl6T2E3UmdHVlh2MWs?oc=5) | 🔴MATERIAL
@@ -5672,7 +5676,9 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+> ✅ **Reconfirmed 2026-09-19 (batch 3/3, 🔴 news 09-15)** — 09-15 'AI-safety/slowdown calls hit memory demand' = sentiment re-syndication of the 09-15/16 chip selloff (Anthropic/OpenAI slowdown remarks, Trump rejected 09-16) ไม่มีตัวเลข guidance/pricing ใหม่. WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. ⚠️ **FQ4 FY2026 earnings = 2026-09-30 (หลัง close)** — ราคา $1,015.80 วันนี้เป็นราคา *ก่อนงบ* ไม่ stale จาก earnings; หลัง 09-30 ต้องรัน MU ใหม่ทันที (guide $50B / $31.00)
 
 > ✅ **Reconfirmed 2026-09-05 (batch 4/4)** — ข่าวใหม่หลัง gate 08-29: 09-02 🔴MATERIAL (Taiwan union strike vote, ~10,000 workers, 83-months bonus demand + FY2027 15%-of-op-profit ask — ดูรายละเอียดเต็มใน Analyst Research Notes), 09-03/09-04 🟡MONITOR (fab-expansion post-2029 price-pressure narrative — ซ้ำกับความเสี่ยง supply-catchup เดิม). ทั้งคู่**ไม่ใช่**ตัวเลขที่ปรับ normalized revenue/margin โดยตรง แต่ Taiwan strike risk เป็นความเสี่ยงใหม่จริง → RA ปรับ 5.0→4.5, WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน, EPS-basis rebuild ของ 08-15 carried forward. ราคา $932.86→**$1,016.59** (+8.98%)
 >
@@ -5697,7 +5703,9 @@ Management notes: FQ4 revenue ($50B) alone would exceed FY2025 full-year revenue
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $1,016.59  |  **Method:** ⚠️ **ข้อยกเว้น Cyclical → \`revenue_normalized_mid_cycle\`** (Revenue mid-cycle × normalized margin ÷ shares × multiple) — บังคับโดยกฎเหล็ก Cyclical Peak-Bias
+**Last Updated:** 2026-09-19  |  **Price ณ วันนั้น:** $1,015.80  |  **Method:** ⚠️ **ข้อยกเว้น Cyclical → \`revenue_normalized_mid_cycle\`** (Revenue mid-cycle × normalized margin ÷ shares × multiple) — บังคับโดยกฎเหล็ก Cyclical Peak-Bias
+
+> 🔄 **Price-only recompute (2026-09-19, batch 3/3)** — $1,016.59→$1,015.80 (−0.08%; web 09-18 close $1,015.94 ✓). FV $262 (rev $66.2B × 29.6% ÷ 1,120M × 15×) carried forward. MoS **−287.7%** (gate 15%). WAF 5.95 (LOW) → WATCH. TQR 6.48 Peripheral (playbook v3, reused). Pre-earnings: FQ4 prints 09-30.
 
 > 🔄 **Price-only recompute (09-05, batch 4/4)** — ราคาขึ้น $932.86→$1,016.59 (+8.98%, prices_cache.json). 09-02/09-03/09-04 news (Taiwan union strike vote, fab-expansion price-pressure narrative) ตรวจแล้ว = ไม่มีตัวเลขให้ปรับ normalized revenue/margin โดยตรง (strike ยังเป็นแค่ vote possibility ไม่ใช่เหตุการณ์จริง) ⇒ EPS-basis rebuild ของ 08-15 (bottom-up 3 ขั้น) **carried forward ไม่เปลี่ยน** — แต่ RA ปรับลง 5.0→4.5 (ความเสี่ยง labor/production concentration ใหม่ที่ Taiwan ~60% ของ capacity โลก). FQ4 earnings (~ก.ย. 2026) ยังเป็นจุดทดสอบถัดไปที่แท้จริง
 >
@@ -5790,7 +5798,7 @@ gross profit $29.8B − opex $7.0B = op income $22.8B (OM 34.4%) + ดอกเ�
 
 **Thesis Risk:** ⚠️ **จุดที่ Charlie ควรท้าทายที่สุด = normalized net margin 29.6%** (ดูตาราง Sensitivity — ต่างกัน 10pp เปลี่ยน FV ได้ ~$150). รองลงมา: bit-growth +25% และ D&A step-up +$5B เป็นการประมาณของ Warren; ถ้า SCA มีผลยกพื้นแรงกว่าที่คิดมาก normalized revenue อาจสูงกว่า $66.2B. ในทางกลับกัน: Samsung/SK Hynix capacity race, CXMT cost gap เหลือ ~10%, receivables ที่พุ่ง 3.7 เท่าเป็นความเสี่ยงคุณภาพรายได้ที่ยังไม่มีใครตรวจ; **ใหม่ (09-05): Taiwan union strike-vote risk** — ~60% ของ capacity โลก + HBM ส่วนใหญ่กระจุกที่ Taiwan, ถ้ามีการนัดหยุดงานจริงหรือ bonus settlement ตั้ง precedent 15%-of-op-profit จะกระทบทั้ง production continuity และ normalized margin โดยตรง
 
-**Action:** 👀 WATCH
+**Action:** 👀 **WATCH** (2026-09-19) — MoS −287.7% vs gate 15%, ER −15.7%/yr, Lynch Peak Watch ครบ; ราคาก่อนงบ FQ4 (09-30) — รันใหม่หลังงบ
 
 ---
 `,
@@ -7692,7 +7700,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+> ✅ **Reconfirmed 2026-09-19 (batch 3/3, 🔴 news 09-14)** — 09-14 Dalian NAND Fab 2 restart (+50k wpm, mass prod 1H27) + $39B Korea fabs: รายงานครั้งแรก 07-10/08-11/08-13 (TrendForce/Seoul Economic Daily) แค่ re-headline; 09-10/11 Goldman 'memory downturn easing' = sentiment. เป็นการเพิ่ม capacity 2027+ ไม่ใช่ตัวเลข revenue/margin ที่ปรับ normalized basis. Story Gate PASS, tier Cyclical ไม่เปลี่ยน. Charlie CAUTION (FV gap 18.4%) ยังเปิดอยู่
 
 **2026-09-05 pre-screened re-check (batch 4/4):** Two new items since 08-29 gate: 09-01 🔴MATERIAL — CEO announces Indiana as key production base by 2030 (confirmed via WebSearch: $4B packaging plant, HBM4E volume production Q3 2029, part of $45B total US investment by 2030; CEO reaffirms memory shortage through 2030) — **this also resolves/corrects the 08-28 "$720B" figure previously flagged as unverified**, now confirmed to be a unit/translation error (real figure ~$4B for Indiana). 09-03 🔴MATERIAL — SK Hynix plans new memory plant in Japan, completion by 2030 (echoes the 08-24 "exploratory" Japan-fab item, now framed as a firmer "plans to build," still no capacity/dollar figure disclosed). Neither changes normalized revenue/margin — both are capacity/demand-visibility narrative with volume dates 3+ years out. Price refreshed to **$177.00** (prices_cache.json, +9.91% from $161.04). FV Base **$60/ADS carried forward unchanged**.
 
@@ -7711,7 +7721,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price:** $177.00/ADS (prices_cache.json, 2026-09-05)  |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
+**Last Updated:** 2026-09-19  |  **Price:** $187.50/ADS (prices_cache.json, 2026-09-05)  |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
+
+> 🔄 **Price-only recompute (2026-09-19, batch 3/3)** — $177.00→$187.50 (+5.93%; web 09-18 $182.99, 52w 124.80–199.87). FV $60 (rev 131,000 × 25.6% ÷ 7,288.65M × 13×) carried forward. MoS **−212.5%**; WAF 5.98 → WATCH. TQR 6.50 Peripheral (reused).
 
 > 🟡 **PRICE-REFRESH RE-CHECK (2026-09-05, batch 4/4) — no new earnings, FV Base carried forward.** Price rose +9.91% since 08-29 ($161.04 → $177.00). Two news items this batch (09-01 Indiana CEO announcement — corrects the 08-28 "$720B" unverified figure to a real ~$4B/Indiana, $45B/total-US-by-2030 plan; 09-03 Japan plant "plans to build" by 2030, still no dollar figure) are capacity/demand-visibility narrative with volume dates 3+ years out — do not change normalized revenue/margin. MoS/ER recomputed off the new price; FV Base, EPS basis, and multiple all carried forward unchanged from the 08-18 rebuild. ⚠️ Charlie's 08-18 review flagged an 18.4% FV gap (CAUTION) — still open, pending next Charlie pass.
 >
@@ -7765,7 +7777,7 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 **Thesis Risk:** ถ้า de-cycling เป็นจริงเต็มที่ (margin ยืน >50% ต่อเนื่อง 2+ ปีข้าม down-cycle จริง) → normalized earnings ควรใกล้ peak มากกว่านี้ ทั้ง FV $60 รอบนี้และ $110 รอบก่อนอาจต่ำไป — **นี่คือความเสี่ยงหลักของการ short/avoid ตัวนี้**, ไม่ใช่แค่ downside risk; downside เพิ่มเติมถ้า Samsung/CXMT HBM parity บีบ margin จริงตามคาด
 
-**Action:** 👀 **WATCH** — MoS **−195.00%** (gate 20% — Calm mode) and ER **~−4.44%/yr** (gate ≥15%) both FAIL; WAF 6.00 LOW; Cyclical tier excludes STARTER regardless of gap size → ไม่ BUY, ไม่ STARTER. Charlie's 08-18 review flagged an 18.4% FV gap (CAUTION) — remains open pending next Charlie pass. FQ3 (next quarter) remains the next real test of whether the LTA/margin evidence continues — this is a valuation-discipline call, not a business-quality downgrade.
+**Action:** 👀 **WATCH** (2026-09-19) — MoS −212.5% vs gate 15%, ER −5.4%/yr
 
 ---
 
@@ -7959,7 +7971,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+> ✅ **Re-check 2026-09-19 (batch 3/3, time-trigger 14d)** — พบว่าการ์ดยังหยุดที่ FQ3 แต่ **FQ4 FY26 รายงานแล้ว 08-05**: revenue $8.97B (+51% QoQ; ~⅓ volume / ~⅔ price), non-GAAP EPS $39.25, GAAP EPS $43.97; FQ1 FY27 guide revenue $10.3–10.8B / EPS $44–46 (WebSearch, SNDK 8-K exhibit 99.1; ยังไม่ ingest primary doc). ยืนยัน peak-price signature → Story Gate PASS, Cyclical ไม่เปลี่ยน. แนะนำ /mark-research SNDK FQ4
 
 **2026-09-05 re-check (batch 4/4):** 08-31/09-02 🔴🟡 news reviewed via WebSearch — Kioxia+Sandisk plan **>$31B Japan NAND capacity investment through 2032** (Yokkaichi+Kitakami, ~1/3 sought as government backing) — a genuine large-scale, long-dated capacity commitment consistent with the existing AI-datacenter growth thesis, but no near-term volume/pricing figure disclosed ⇒ ไม่ปรับ normalized revenue/margin รอบนี้. ราคาขึ้น $1,484.98→$1,740.00 (+17.17%, prices_cache.json) — ต่อเนื่องจาก memory-sector rally (เดียวกับ MU/SKHY รอบนี้). TQR reused จาก AI-Revolution.md playbook (v2, 2026-08-27, อายุ 9 วัน < 90 วัน): 5.50 → 🥉 Peripheral (ขอบล่างสุดพอดี), ceiling 10%. FV Base/methodology carried forward unchanged — price-only recompute
 
@@ -7976,7 +7990,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price:** $1,740.00  |  **Tier:** 🔁 Cyclical  |  **Method:** WAF Watchlist Refresh — normalized mid-cycle earnings (ห้ามใช้ peak EPS)
+**Last Updated:** 2026-09-19  |  **Price:** $1,791.82  |  **Tier:** 🔁 Cyclical  |  **Method:** WAF Watchlist Refresh — normalized mid-cycle earnings (ห้ามใช้ peak EPS)
+
+> 🔻 **FULL REBUILD (2026-09-19, batch 3/3) — FV $1,700 → $415 (−75.6%), MoS −2.35% → −331.8%.** ฐานเดิม 'normalized EPS $130.77' สูงกว่า EPS จริงปีที่ดีที่สุด (FY26 ≈ $70.6) ~1.9× = above-peak (ผิดกฎ Cyclical เดียวกับ MU 08-15). ฐานใหม่ (แบบ MU): normalized revenue **$18.0B** (geo-mean FY25 trough ~$7.4B × FQ1-FY27-guide annualized ~$42.2B = $17.6B; cross-check 0.40× peak ASP × ~1.1 bits = $18.6B) × normalized net margin **28%** ÷ 158M sh = **EPS $31.9 × 13× = $415**. Bull $889 (rev $27B × 40%) · Bear $136 (rev $13B × 15% × 11×). ราคา $1,740→$1,791.82 (+2.98%; web 09-18 $1,798). WAF 4.65 (VA 1.2) LOW → WATCH. ⚠️ ตารางเก่าด้านล่างเป็นของ 09-05 (legacy) — ใช้ตัวเลขใน block นี้เป็นหลัก
 
 > 🔄 **Price-only recompute (09-05, batch 4/4):** $1,484.98→$1,740.00 (+17.17%, prices_cache.json), memory-sector-wide rally continues (เดียวกับ MU/SKHY รอบนี้). 08-31 🔴MATERIAL news (Kioxia+Sandisk >$31B Japan capacity investment through 2032) ตรวจแล้ว = long-dated capacity signal ไม่มีตัวเลข volume/pricing ระยะสั้นให้ปรับ ⇒ FV_base ($1,700, normalized mid-cycle) **carried forward unchanged**. **ราคาตอนนี้ทะลุ FV Base ไปแล้ว** (แรกในรอบหลายเดือน) — MoS พลิกเป็นลบ
 
@@ -8018,7 +8034,7 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 
 **Thesis Risk:** NAND ASP ย้อนกลับสู่ 40s% เร็วกว่าคาด (analyst commentary ใหม่ 07-16 เริ่มยืนยันทิศทางนี้), Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ), spin-off track record <2ปี; **ใหม่:** ราคาตอนนี้ทะลุ FV Base แล้ว (MoS ลบ) — ความเสี่ยงว่าตลาดกำลัง price-in ว่า margin/pricing ระดับสูงปัจจุบันเป็นของถาวร ซึ่งขัดกับกฎ Cyclical Peak-Bias ของระบบนี้โดยตรง
 
-**Action:** 👀 **WATCH** — Cyclical ที่ราคาตอนนี้ทะลุ normalized FV ไปแล้ว (MoS **−2.35%**, ขาด effective gate 20% อยู่ 22.35 จุด) และ ER fail หนัก (~-31.46%/yr); ราคาขึ้นรอบนี้ตาม sector rally + Japan capacity news (ไม่ใช่ fundamental ระยะสั้นใหม่); รอ cycle ปรับเพิ่มเติมก่อนพิจารณา ห้ามไล่ราคาบน peak EPS — ยิ่งห้ามตอนที่ราคาเทรดเหนือ FV Base แล้ว.
+**Action:** 👀 **WATCH** (2026-09-19) — rebuild normalized basis: FV $415, MoS −331.8% vs gate 15%, ER −17.4%/yr, WAF 4.65 LOW; ห้ามไล่ราคา (growth ~⅔ มาจากราคา)
 
 ## Recent News
 **2026-09-02** — SanDisk ประกาศลงทุน 31 พันล้านดอลลาร์ขยายโรงงานหน่วยความจำแฟลชในญี่ปุ่นจนถึงปี 2032; รักษาตำแหน่งความเป็นผู้นำหน่วยความจำกลาง | [src](https://news.google.com/rss/articles/CBMirgFBVV95cUxOMHU2bVhHOWtQdEhjc2ZudEJaVTJ5VExvRHVTZWJEREo0Q1VTRDhBT1NKSU1WU1NyNTBoQ2pKR2NDc2VHNERpSXVhdlp1bmtFc1NnTU9iUHJ1RkZSS2c3WFRMNl9CSThhaFYxWWFGb1lmQ3BralF4S01VWEVQWEpKU2FlZDFZUGRzNktVV3ZwVzRxR0prcWZ1T2dR?oc=5) | 🟡MONITOR
