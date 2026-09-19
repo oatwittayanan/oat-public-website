@@ -12,7 +12,9 @@ window.STOCK_KNOWLEDGE = {
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-12  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+
+**2026-09-19 update (/warren watchlist batch 2/3):** 🔴 news 09-14/15/17 = iPhone Duo foldable (ประกาศ 09-09: $1,999, preorder 10-16, ship 10-23 — ยืนยันจาก MacRumors/Bloomberg/Variety) + AI server ใช้ชิปในบ้าน. Duo เปลี่ยนจาก 'rumor' เป็นสินค้าจริง แต่ผลิตจำกัด ไม่มี unit/revenue guidance → ไม่ใช่ Base-case input. WHAT/WHY NOW/IF WRONG/Tier ไม่เปลี่ยน; TQR 7.05 Strong (playbook v3 09-06) คงเดิม.
 
 **2026-09-12 update (news + regime-shift refresh, /warren watchlist):** ข่าว 🔴MATERIAL หลัง gate 09-05 (09-09 "foldable iPhone $2,000 เปิดตัวทางการ", 09-07/09-03/09-02/09-01 CEO transition ซ้ำ) — WebSearch cross-check: ข่าว CEO transition (Ternus เข้ารับตำแหน่ง) เป็น**การรายงานซ้ำของเหตุการณ์ 09-01 เดิม**ที่วิเคราะห์ผลกระทบไปแล้วในรอบ 09-05 (ไม่กระทบ Tier เพิ่มเติม); foldable iPhone เป็น **product rumor** (ยังไม่เปิดตัวจริง, ไม่มีตัวเลขราคา/หน่วยขาย guidance) ไม่ใช่ Base-case input. **Regime-Shift Flag (Step 3.7ค):** VIX ข้าม 15 → Calm→Normal, Effective MoS Gate 20%→**15%** — ไม่พอปิด gap ของ AAPL (MoS ติดลบหนักอยู่แล้ว ไม่เข้าใกล้ threshold). ราคา $319.97(09-05)→**$332.27** (prices_cache.json, +3.84%) — price-only recompute, FV $272 carried forward unchanged. TQR sync จาก playbook **v3 (2026-09-06)**: **7.05** (ไม่เปลี่ยน — พิจารณา CEO transition แล้วว่าไม่กระทบตำแหน่งธีม) → 🥈 Strong, ceiling 25%. Thesis/Tier ไม่เปลี่ยน — ไม่มี tier change รอบนี้
 
@@ -29,7 +31,9 @@ window.STOCK_KNOWLEDGE = {
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-12  |  **Price ณ วันนั้น:** $332.27  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+**Last Updated:** 2026-09-19  |  **Price ณ วันนั้น:** $336.13  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+
+> 🔄 **2026-09-19 refresh (batch 2/3)** — ราคา $336.13, MoS -23.58%, ER 4.55%/yr, WAF 6.0 (LOW), Effective Gate 15%, FV $272 carried forward — EPS/multiple ไม่เปลี่ยน (ไม่มี earnings ใหม่). ทุก gate FAIL เหมือนเดิม; WATCH.
 
 > 🔄 **Price + regime-shift refresh — EPS/multiple/FV carried forward จาก 08-15 (ไม่มี earnings ใหม่ Q4 FY2026 ยังไม่ถึงกำหนด, คาด ~ปลาย ต.ค./พ.ย. 2026).** ราคาขยับ $319.97→$332.27 (+3.84%) → ทุก gate ยังคง FAIL เหมือนเดิม (แย่ลงต่อ). ข่าวรอบนี้ (CEO transition ซ้ำ, foldable iPhone rumor) ไม่มีตัวเลขใหม่ที่กระทบ FV — ดู \`## Story Gate\`. Effective MoS Gate ลด 20%→15% (regime shift Calm→Normal) แต่ไม่พอปิด gap ที่ลึกอยู่แล้ว
 
@@ -72,20 +76,20 @@ window.STOCK_KNOWLEDGE = {
 | **Bear** | $8.45 (revenue $495B +3.8%, margin 24.5% memory cost bite) | 24× | **$203** | 25% |
 
 **Fair Value Base:** $272
-**ราคาปัจจุบัน:** $332.27
-**Margin of Safety:** **−22.16%** = ($272 − $332.27) ÷ $272 → ✗ **ติดลบ** (ราคาสูงกว่ามูลค่า, แย่ลงจาก −17.64%)
-**Forward P/E:** 35.09× = $332.27 ÷ $9.47
-**PEG:** **4.03** = 35.09 ÷ 8.7 → ✗ **เกิน cap 1.5 กว่าเท่าตัว**
-**Expected Return (5 ปี):** **4.78%/ปี** = convergence −3.92% + growth 8.7% → ✗ ต่ำกว่าทั้ง gate 15% และเส้น 10% ที่ "แพ้ QQQM ชัดเจน"
+**ราคาปัจจุบัน:** $336.13 (2026-09-19, prices_cache.json)
+**Margin of Safety:** **-23.58%** = ($272 − $336.13) ÷ $272 → ✗ FAIL vs Effective Gate 15% (2026-09-19; ดูตาราง refresh ด้านบน)
+**Forward P/E:** 35.49× = $336.13 ÷ $9.47
+**PEG:** **4.08** = 35.49 ÷ 8.7
+**Expected Return (5 ปี):** **4.55%/ปี** (recomputed 2026-09-19)
 
 ### Gate Summary → **WATCH** (ไม่เปลี่ยน)
 
 | Gate | ค่า | เกณฑ์ | ผล |
 |---|---|---|---|
-| MoS | −22.16% | ≥ 15% (Normal mode — regime shift จาก Calm) | ✗ **FAIL** |
-| PEG | 4.03 | ≤ 1.5 | ✗ **FAIL** |
-| Expected Return | 4.78%/ปี | ≥ 15% | ✗ **FAIL** |
-| WAF | 5.70 | ≥ 6.5 | ✗ **FAIL (LOW conviction)** |
+| MoS | -23.58% | ≥ 15% (Normal) | ✗ **FAIL** |
+| PEG | 4.08 | ≤ 1.5 | ✗ **FAIL** |
+| Expected Return | 4.55%/ปี | ≥ 15% | ✗ **FAIL** |
+| WAF | 6.0 | ≥ 6.5 | ✗ **FAIL** (LOW) |
 
 **ข้อสรุป (09-12):** ไม่มีการเปลี่ยนแปลงทาง action — ราคาขึ้นต่อ (+3.84%) ทำให้ทุก gate แย่ลงอีก ยังตกทุก gate เหมือนเดิม แม้ Effective Gate จะลดลง (regime shift VIX Calm→Normal, 20%→15%) ก็ไม่พอปิด gap ที่ลึกอยู่แล้ว. ข่าวรอบนี้ (CEO transition ซ้ำ, foldable iPhone rumor ไม่มีตัวเลข) ไม่กระทบ FV — เหตุผลหลักของ WATCH ยัง**ไม่ใช่ "งบแย่"** แต่คือ **ราคาสะท้อนไปหมดแล้วบนอัตราโตระยะยาวเพียง 8.7%**
 **ข่าวที่ตรวจสอบตั้งแต่ gate 09-05:** foldable iPhone $2,000 rumor (09-09, 🔴MATERIAL — product rumor ไม่มี guidance); CEO transition re-syndication (09-01→09-07, ตรวจแล้วรอบก่อน) — ไม่มีข่าวใดกระทบตัวเลข FV โดยตรง
@@ -471,7 +475,10 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-09-05 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-09-19 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-09-19, /warren watchlist batch 2/3)** [WARREN THESIS/MARKET NEWS]
+- Price $332.27→$336.13 (+1.16%). iPhone Duo (announced 09-09, $1,999, ships 10-23) = product launch จริงแต่ limited volume, ไม่มี guidance → ไม่แตะ FV. AI-server in-house chip (09-17) = unquantified. ราคา $336.13, MoS -23.58%, ER 4.55%/yr, WAF 6.0 (LOW), Effective Gate 15%, FV $272 carried forward.
 
 **Update (2026-09-05, /warren watchlist batch 2/4) — CEO transition confirmed (Cook→Ternus), price refresh, no FV change** [MARKET NEWS]
 - Price $310.34→$319.97 (+3.10%), no new earnings. FV_base $272/EPS $9.47/multiple 28.69× carried forward unchanged. MoS −14.10%→−17.64% (deeper FAIL, now vs 20% Calm-mode gate), PEG 3.77→3.88, ER 6.1%→5.5%. **Material event: John Ternus succeeded Tim Cook as CEO effective 2026-09-01** (Cook → Executive Chairman, board unanimous, Ternus = 25-yr Apple veteran/Hardware Eng SVP since 2021, not external hire) — verified via Apple Newsroom + Al Jazeera/NPR/WaPo. Does not break Tier 2 criterion (that measures the already-proven Jobs→Cook transition); treated as a new monitoring item, RA nudged down slightly for near-term execution uncertainty (WaPo flags Vision Pro/AI integration challenges under new leadership). WAF 5.98→5.78 (LOW, unchanged conclusion).
@@ -3363,7 +3370,10 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-09-05 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-09-19 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-09-19, /warren watchlist batch 2/3)** [WARREN THESIS/MARKET NEWS]
+- Price $338.46→$349.54 (+3.27%). ราคา $349.54, MoS -9.23%, ER 10.25%/yr, WAF 7.08 (MEDIUM), Effective Gate 15%, FV $320 carried forward. 'SEC investigation' headline = law-firm solicitation ไม่ใช่ regulator; nuclear/Crux = confirming evidence.
 
 **Update (2026-09-05, /warren watchlist batch 2/4) — Price refresh, Pichai compute-constrained comment confirms existing TPU thesis** [MARKET NEWS]
 - Price $348.06→$338.46 (−2.76%), no new earnings. FV_base $320/EPS $13.66/multiple 23.44× carried forward unchanged. MoS −8.77%→−5.77% (improved), PEG 2.12→2.07, ER 10.3%→10.9%. Pichai comment (09-02, verified via Motley Fool) that Alphabet is compute-constrained while committing >1GW (2026) + ~5GW (2027) of TPU capacity to Anthropic reinforces the existing "TPU sold externally" bull thesis at larger scale than previously known — treated as confirming, not new information. WAF 7.15→7.23 (MEDIUM, unchanged conclusion).
@@ -3495,7 +3505,9 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+
+**2026-09-19 update (/warren watchlist batch 2/3):** 🔴 news 09-15: (1) 'SEC investigation securities fraud' = ที่จริงเป็น press release สำนักงานกฎหมาย (Glancy/Cruz/Smith 09-04→09-14) เกี่ยวกับ Gemini 3.5 Pro delay (07-16) + capex raise (07-23) — ไม่ใช่ SEC probe จริง (mark-daily mislabel); (2) nuclear PPA Fortum 22 ปี + €13B Finland DCs + Crux AI $22B TPU financing (09-16) = ยืนยัน thesis TPU/capex เดิม ไม่มีตัวเลขใหม่. WHAT/WHY NOW/IF WRONG/Tier ไม่เปลี่ยน; TQR 8.43 Strong (v3).
 
 **2026-09-05 re-check (batch 2/4):** ข่าว 🔴MATERIAL 09-02 verified via WebSearch (Motley Fool, citing Pichai investor comments) — **Sundar Pichai ยอมรับว่า Alphabet สร้าง AI compute capacity ไม่ทันความต้องการ** ขณะเดียวกันให้ Anthropic (คู่แข่งโดยตรงของ Gemini ผ่าน Claude) จองสัญญา TPU capacity **>1GW ปี 2026 + ~5GW เพิ่มเริ่ม 2027**. ตีความ: (1) **ยืนยัน** ไม่ใช่เปลี่ยน thesis เดิมเรื่อง "TPU ขายนอกแล้ว" (WHY NOW) — สเกลใหญ่กว่าที่คิดเป็น evidence เพิ่มเติมว่า TPU external demand เป็นของจริงระดับ hyperscaler ไม่ใช่ pilot; (2) **compute-constrained** สอดคล้องกับ Theme Playbook §5 KPI (hyperscaler capex ยังโตนำ demand, Build-out stage) ไม่ใช่สัญญาณลบ; (3) ประเด็นที่ต้องจับตา (ไม่ใช่ thesis-breaking) — การให้ priority capacity กับคู่แข่ง Gemini อาจเป็น opportunity cost เชิงกลยุทธ์ แต่เป็นการตัดสินใจเชิงพาณิชย์ปกติของ cloud provider (เหมือน AWS serve Netflix/AWS serve OpenAI ผ่าน Azure) ไม่ใช่สัญญาณว่า Google แพ้ในเชิงเทคโนโลยี. **ไม่กระทบ WHAT/WHY NOW/IF WRONG/Tier — ไม่มีตัวเลขการเงินใหม่ให้ปรับ FV**
 
@@ -3510,7 +3522,9 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $338.46  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+**Last Updated:** 2026-09-19  |  **Price ณ วันนั้น:** $349.54  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+
+> 🔄 **2026-09-19 refresh (batch 2/3)** — ราคา $349.54, MoS -9.23%, ER 10.25%/yr, WAF 7.08 (MEDIUM), Effective Gate 15%, FV $320 carried forward — EPS $13.66 / 23.44× ไม่เปลี่ยน. WATCH.
 
 > 🔄 **Price refresh only — EPS/multiple/FV carried forward จาก 08-15 (ไม่มี earnings ใหม่ Q3 2026 ยังไม่ถึงกำหนด).** ราคาขยับ $348.06→$338.46 (−2.76%) → gate ยัง FAIL เหมือนเดิม (ดีขึ้นเล็กน้อย) ไม่มี action change. ข่าว 09-02 (Pichai compute-constrained + Anthropic 5GW) เป็น confirming evidence ของ TPU external demand เดิม — ดู Story Gate
 
@@ -3557,20 +3571,20 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 | **Bear** | $11.40 (revenue $543B +9%, margin 25.5% depreciation bite) | 19× | **$217** | 25% |
 
 **Fair Value Base:** $320
-**ราคาปัจจุบัน:** $338.46
-**Margin of Safety:** **−5.77%** = ($320 − $338.46) ÷ $320 → ✗ **ติดลบ** (ดีขึ้นจาก −8.77%)
-**Forward P/E:** 24.78× = $338.46 ÷ $13.66
-**PEG:** **2.07** = 24.78 ÷ 12.0 → ✗ เกิน cap 1.5
-**Expected Return (5 ปี):** **10.9%/ปี** = convergence −1.1% + growth 12.0% → ✗ ต่ำกว่า gate 15% (แต่ยังเหนือเส้น 10% ที่ "แพ้ QQQM ชัดเจน" อยู่นิดเดียว)
+**ราคาปัจจุบัน:** $349.54 (2026-09-19, prices_cache.json)
+**Margin of Safety:** **-9.23%** = ($320 − $349.54) ÷ $320 → ✗ FAIL vs Effective Gate 15% (2026-09-19; ดูตาราง refresh ด้านบน)
+**Forward P/E:** 25.59× = $349.54 ÷ $13.66
+**PEG:** **2.132** = 25.59 ÷ 12.0
+**Expected Return (5 ปี):** **10.25%/ปี** (recomputed 2026-09-19)
 
 ### Gate Summary → **WATCH** (ไม่เปลี่ยน)
 
 | Gate | ค่า | เกณฑ์ (09-05, effective gate 20% Calm mode) | ผล |
 |---|---|---|---|
-| MoS | −5.77% | ≥ 20% | ✗ **FAIL** |
-| PEG | 2.07 | ≤ 1.5 | ✗ **FAIL** |
-| Expected Return | 10.9%/ปี | ≥ 15% | ✗ **FAIL** |
-| WAF | 7.23 | ≥ 6.5 | ✓ PASS (MEDIUM) |
+| MoS | -9.23% | ≥ 15% (Normal) | ✗ **FAIL** |
+| PEG | 2.132 | ≤ 1.5 | ✗ **FAIL** |
+| Expected Return | 10.25%/ปี | ≥ 15% | ✗ **FAIL** |
+| WAF | 7.08 | ≥ 6.5 | ✓ PASS (MEDIUM) |
 
 **ข้อสรุป (09-05):** Price refresh เท่านั้น ($348.06→$338.46, −2.76%) — FV/EPS/multiple carried forward จาก 08-15 ไม่มี earnings ใหม่. MoS ดีขึ้นเล็กน้อย (−8.77%→−5.77%) แต่ยังตก 3 ใน 4 gate เหมือนเดิม
 **ข่าวที่ตรวจสอบตั้งแต่ gate 08-25 (1× 🔴MATERIAL):** Pichai ยอมรับ Google compute-constrained + ให้ Anthropic จอง TPU capacity 1GW(2026)+5GW(2027) (09-02 — ดู Story Gate; **ยืนยัน** ไม่ใช่เปลี่ยน thesis เดิมเรื่อง TPU external sales, ขยายสเกลของ evidence เดิม). ไม่มีข่าวใดกระทบ FV — เป็นการยืนยันสิ่งที่รู้อยู่แล้ว ไม่ใช่ edge ใหม่
@@ -4093,7 +4107,10 @@ Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B Q2 2025) — เพิ่มข
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-09-05 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-09-19 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-09-19, /warren watchlist batch 2/3)** [WARREN THESIS/MARKET NEWS]
+- Price $616.77→$665.75 (+7.94%). ราคา $665.75, MoS 6.36%, ER 16.72%/yr, WAF 7.77 (HIGH), Effective Gate 15%, FV $711 carried forward. Child-safety = settled; ไม่มี open trial risk.
 
 **Update (2026-09-05, /warren watchlist batch 3/4) — 🔴 Mark daily pipeline gap found: state-AG child-safety multistate trial (Recent News 08-18 🔴MATERIAL "state AG probe") settled 08-26 for up to $17.1B — never logged as a Recent News entry (log jumps 08-23→nothing). Price +10.4% to $616.77, MoS shrinks to near-miss STARTER band** [WARREN THESIS]
 - **Settlement terms (WebSearch, not in card's Recent News log):** Meta settles with 51 state AG lawsuits (child-safety/addictive-design claims) for **$12.19B guaranteed over 10 annual installments (up to $17.1B if YouTube/TikTok adopt matching reforms)**; Meta will **accrue ~$10B one-time legal expense in Q3 2026**; no admission of wrongdoing. This is the exact litigation category flagged in Bear Thesis below ("NM AG $62.85B... aggregate exposure สูงมาก") and the item Kim's staleness screen asked to re-check (Charlie's 08-18 CAUTION on the child-safety trial).
@@ -4251,7 +4268,9 @@ Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B Q2 2025) — เพิ่มข
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+**2026-09-19 update (/warren watchlist batch 2/3):** Time-trigger 14 วัน. ตรวจ child-safety: คดี multistate settled 08-26 ($12.19–17.1B/10 ปี, ศาลอนุมัติแล้ว) — ไม่เหลือ trial risk เปิดในคดีนี้; ไม่พบ escalation ใหม่ถึง 09-19 (New Mexico $375M verdict มี 03-2026 = bounded, แยกคดี). Muse paid AI agent (~600K downloads/5 วัน) = optionality ไม่ quantify; Connect 09-23. WHAT/WHY NOW ไม่เปลี่ยน; TQR sync v3: 8.00 Strong (RA* 6.5).
 
 > ✅ **Reconfirmed 2026-09-05** (time-trigger, 11 วันตั้งแต่ 08-25) — ไม่มีข่าวใหม่ใน mark-daily log หลัง gate 08-25 แต่ WebSearch พบ 1 เหตุการณ์สำคัญที่ log พลาด: multistate child-safety AG trial (ที่ Recent News 08-18 เคยแจ้งว่ากำลังเปิดพิจารณาคดี) **settled 08-26-2026** ($12.19-17.1B/10 ปี, accrue ~$10B ใน Q3 2026) — ดู Analyst Research Notes 09-05 รายละเอียดเต็ม. เป็นการปิดความไม่แน่นอนที่เคยเปิดกว้าง ไม่ใช่ thesis break → WHAT/WHY NOW ไม่เปลี่ยน, IF WRONG/Bear Thesis ปรับตัวเลขให้ตรงปัจจุบัน
 
@@ -4266,7 +4285,9 @@ Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B Q2 2025) — เพิ่มข
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $616.77  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+**Last Updated:** 2026-09-19  |  **Price ณ วันนั้น:** $665.75  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+
+> 🔄 **2026-09-19 refresh (batch 2/3)** — ราคา $665.75, MoS 6.36%, ER 16.72%/yr, WAF 7.77 (HIGH), Effective Gate 15%, FV $711 carried forward — ราคา +7.94% ตั้งแต่ 09-05 ทำให้ MoS ต่ำกว่า STARTER band (8–15%). HOLD คงเดิม ไม่เพิ่ม.
 
 > 🔄 **Price refresh only (09-05) — EPS/multiple/FV carried forward จาก 08-25 (ไม่มี earnings ใหม่ Q3 2026 ยังไม่ถึงกำหนด).** ราคาขึ้น $559.02→$616.77 (+10.35%) + market gate เปลี่ยน 15%→20% (VIX Normal→Calm, locked ทั้ง batch วันนี้: sp500 fwd P/E 19.6x, VIX 14.32) ⇒ **MoS พลิกกลับจาก full PASS (21.38%) เป็น near-miss/STARTER band (13.25%)** — สองแรงบวกซ้อนกัน (ราคาขึ้น + gate ตึงขึ้น) เหมือนที่เกิดกับ MSFT รอบ 08-29
 >
@@ -4316,20 +4337,20 @@ Q2 2026 op loss $4.62B (+2% YoY จาก $4.53B Q2 2025) — เพิ่มข
 | **Bear** | $26.67 (revenue $280B +11.7%, margin 24% depreciation + legal) | 19× | **$507** | 25% |
 
 **Fair Value Base:** $711
-**ราคาปัจจุบัน:** $616.77 *(09-05, prices_cache.json; prev $559.02)*
-**Margin of Safety:** **13.25%** = ($711 − $616.77) ÷ $711 → ❌ ขาด Effective Gate 20% (Calm mode) อยู่ **6.75 จุด** (≤7 จุด ⇒ **กลับเข้าแถบ STARTER 13-20%** — near-miss, ไม่ใช่ full pass อีกต่อไป)
-**Forward P/E:** 19.64× = $616.77 ÷ $31.41
-**PEG:** **1.28** = 19.64 ÷ 15.4 → ✓ ผ่าน cap 1.5
-**Expected Return (5 ปี):** **18.3%/ปี** = convergence 2.9% + growth 15.4% → ✓ ผ่าน gate 15% (อยู่ในแถบ 15-20% HOLD ไม่ใช่ >20% ADD-clear อีกแล้ว)
+**ราคาปัจจุบัน:** $665.75 (2026-09-19, prices_cache.json)
+**Margin of Safety:** **6.36%** = ($711 − $665.75) ÷ $711 → ✗ FAIL vs Effective Gate 15% (2026-09-19; ดูตาราง refresh ด้านบน)
+**Forward P/E:** 21.2× = $665.75 ÷ $31.41
+**PEG:** **1.38** = 21.2 ÷ 15.4
+**Expected Return (5 ปี):** **16.72%/ปี** (recomputed 2026-09-19)
 
 ### Gate Summary → **HOLD** (position ที่ถืออยู่แล้ว) — ADD candidate อ่อนลงจาก batch ก่อน (regime shift + ราคาขึ้น)
 
 | Gate | ค่า | เกณฑ์ | ผล |
 |---|---|---|---|
-| MoS | 13.25% | ≥ 20% (Calm) | ❌ FAIL แต่อยู่ในแถบ near-miss/STARTER (ขาด 6.75 จุด ≤7) |
-| PEG | 1.28 | ≤ 1.5 | ✓ PASS |
-| Expected Return | 18.3%/ปี | ≥ 15% | ✓ PASS |
-| WAF | 8.00 | ≥ 6.5 | ✓ **PASS (HIGH conviction)** |
+| MoS | 6.36% | ≥ 15% (Normal) | ✗ **FAIL** |
+| PEG | 1.38 | ≤ 1.5 | ✓ PASS |
+| Expected Return | 16.72%/ปี | ≥ 15% | ✓ PASS |
+| WAF | 7.77 | ≥ 6.5 | ✓ PASS (HIGH) |
 | Story Gate | PASS | — | ✓ |
 
 **ผลจาก batch นี้ (09-05):** Price +10.35% ($559.02→$616.77) + market gate +5pt พร้อมกัน (15%→20%, VIX Normal→Calm) ⇒ MoS หดจาก **full PASS (21.38%)** กลับเป็น **near-miss/STARTER band (13.25%, ขาด gate 6.75 จุด)** — สองแรงบวกของราคาซ้อนกับ gate ที่ตึงขึ้นพร้อมกัน ไม่ใช่สัญญาณธุรกิจแย่ลง (เทียบ MSFT ที่เจอ pattern เดียวกันรอบ 08-29)
@@ -8022,7 +8043,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05 | **Status:** PASS | **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-09-19 | **Status:** PASS | **Tier:** ⚠️ Speculative
+
+**2026-09-19 update (/warren watchlist batch 2/3):** **Cursor status correction:** deal ปิดแล้ว **2026-08-14** ($60B all-stock, ออกหุ้น Class A 389,289,254 หุ้น = dilution ~3.4% — TechCrunch 08-15 + SEC 8-K) — การ์ดเดิม (Q2 10-Q Note 20, 09-05) ระบุ pending ซึ่งล้าสมัย. Tier Basis/WHAT/WHY NOW/IF WRONG ไม่เปลี่ยน; ยังไม่มี mark-daily entry ใหม่ตั้งแต่ 06-03 (pipeline gap).
 
 > ✅ **Reconfirmed 2026-09-05** (time-trigger, 11 วันตั้งแต่ 08-25) — ⚠️ mark-daily Recent News log ยังหยุดอยู่ที่ 06-03 (ไม่มี entry ใหม่เกือบ 3 เดือน แม้ SPCX อยู่ใน \`news_focus\` ของ watchlist.json) — ตรวจสอบด้วย WebSearch แทน: ไม่พบเหตุการณ์ material ใหม่หลัง Q2 2026 earnings (Aug 4) ที่การ์ดนี้ยังไม่ได้บันทึกแล้ว (revenue +92% YoY, AI Adj EBITDA turn positive, ARPU stabilize ที่ $66 — ทั้งหมดอยู่ในการ์ดแล้ว) → WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. **แจ้ง Kim: mark-daily pipeline gap สำหรับ SPCX ควรตรวจสอบแยก**
 
@@ -8037,7 +8060,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05 | **Price ณ วันนั้น:** $147.95 | **Method:** ⚠️ **ข้อยกเว้น SOTP** (segment revenue × segment EV/Sales) — ไม่ใช่มาตรฐาน Revenue×Margin→P/E
+**Last Updated:** 2026-09-19 | **Price ณ วันนั้น:** $152.71 | **Method:** ⚠️ **ข้อยกเว้น SOTP** (segment revenue × segment EV/Sales) — ไม่ใช่มาตรฐาน Revenue×Margin→P/E
+
+> 🔄 **2026-09-19 refresh (batch 2/3)** — **FV $60→$62 (SOTP rebuild เล็กน้อย):** shares 13,176M→13,565M (−$1.7/หุ้น) + เพิ่มขา Cursor/Software: FY2027E revenue $7.0B × 7× (เท่าขา AI ไม่ anchor ราคาดีล ~15×) = +$3.6/หุ้น. ⚠️ revenue $7.0B = Warren build จาก ARR ~$4B (มิ.ย. 2026, third-party est.) — ไม่มี second source → Charlie ตรวจ. Bull $97 / Bear $40. ราคา $152.71, MoS -146.31%, ER 3.5%/yr, WAF 5.83 (LOW), Effective Gate 15%, FV $62 carried forward.
 
 > 🔄 **Price refresh only (09-05)** — ราคา $135.00→$147.95 (+9.59%), ไม่มี earnings ใหม่ (Q3 2026 ยังไม่รายงาน) ⇒ SOTP build/multiple carried forward จาก 08-15 ไม่เปลี่ยน มีแค่ MoS/ER ที่ขยับตามราคา
 >
@@ -8094,9 +8119,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 | **Fair Value/share** | **$60** | **$94** | **$39** |
 | Probability | 55% | 20% | 25% |
 
-**Fair Value Base:** $60
-**ราคาปัจจุบัน:** $147.95 (+9.59% จากรอบก่อน $135.00; IPO price $135, ATH $225.64, 52wk low $104.83)
-**Margin of Safety:** **−146.58%** = ($60 − $147.95) ÷ $60 → ❌ FAIL (Effective Gate 20% วันนี้ — deep FAIL อย่างสิ้นเชิงไม่ว่ากรณีใด)
+**Fair Value Base:** $62 (09-19: ปรับจาก $60 — รวม Cursor, shares 13,565M)
+**ราคาปัจจุบัน:** $152.71 (2026-09-19, prices_cache.json)
+**Margin of Safety:** **-146.31%** = ($62 − $152.71) ÷ $62 → ❌ FAIL (Effective Gate 15% — deep FAIL)
 **PEG:** ไม่ใช้ — ⚠️ Speculative tier
 **5-yr Expected Return:** **3.49%/ปี** (convergence −16.51% + growth capped ที่ 20%) → ❌ FAIL (Gate ≥15%)
 
@@ -8106,8 +8131,8 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 |-----------|-------|--------|--------------|-----------|
 | BQ | 7.8 | 30% | 2.34 | Falcon 9 cost moat + Starlink 60.5% EBITDA margin + op loss แคบลง 85% YoY + ARPU หยุดร่วง — การปรับปรุงเป็นของจริง; หัก key-man + track record <2 ไตรมาส |
 | GP | 9.0 | 30% | 2.70 | Revenue +92% YoY; AI +247%; backlog $28.4B→$47.5B; $14.1B CSA เซ็นใหม่ไตรมาสเดียว; guide $100B+ ARR ธ.ค. 2026 |
-| VA | 1.8 ⬇ (จาก 2.0) | 25% | 0.45 | ราคาขึ้นต่อ +9.59% ขณะ FV คงเดิม $60 ⇒ MoS −125.00% → **−146.58%**; ER 3.49% FAIL; ตลาดจ่าย ~24.7× forward sales (ยิ่งแพงขึ้น) |
-| RA | 2.3 | 15% | 0.345 | คงเดิม — NVDA GPU concentration + turbine litigation + สัญญา 90-day terminable + $45B bond + lockup ถึง ต.ค. 2026 + Cursor ยัง pending |
+| VA | 1.8 | 25% | 0.45 | ราคา $152.71 vs FV $62 ⇒ MoS -146.31%; ER 3.5% FAIL |
+| RA | 2.3 | 15% | 0.345 | คงเดิม — NVDA GPU concentration + turbine litigation + สัญญา 90-day terminable + $45B bond + lockup ถึง ต.ค. 2026 + Cursor closed 08-14 (dilution +389.3M shares, integration risk) |
 | **WAF Total** | **5.84** | | **LOW** | (จาก 5.89 — VA ลดเล็กน้อยจากราคาขึ้นต่อ) |
 
 **Investment Idea:** 👀 **WATCH (คงเดิม)** — price refresh เท่านั้น: ราคาขึ้นต่อ $135.00→$147.95 (+9.59%) ขณะ FV คงเดิม $60 ⇒ ระยะห่างจาก fair value กว้างขึ้นอีก. Gates: MoS −146.58% ✗ · ER 3.49% ✗ · WAF 5.84 ✗ · ⚠️ Speculative tier ไม่ pay up + ไม่ใช้ STARTER. **สิ่งที่ต้องอ่านให้ถูก: ธุรกิจยังดีขึ้นต่อเนื่องตาม Q2 earnings — ช่องว่างที่กว้างขึ้นมาจากราคาที่วิ่งเร็วกว่าปัจจัยพื้นฐาน ไม่ใช่ธุรกิจแย่ลง** — ⚠️ mark-daily news log ไม่มี entry ใหม่ตั้งแต่ 06-03 ทั้งที่ SPCX อยู่ใน news_focus (ดู Story Gate 09-05)
@@ -8390,7 +8415,10 @@ Elon Musk confirmed SpaceX's AI compute build-out is now **exclusive to NVIDIA**
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-09-05 (date synced with Story Gate/Valuation Range per Card Consistency rule — batch 3/4: price refresh + reconfirm only, no new fundamental data)
+**Last Updated:** 2026-09-19 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-09-19, /warren watchlist batch 2/3)** [WARREN THESIS/MARKET NEWS]
+- Cursor closed 08-14 — เพิ่มเข้า SOTP + dilution. Price $147.95→$152.71 (+3.22%). FV $60→$62; MoS −146.31%; ER 3.5%/yr; WAF 5.83 LOW. WATCH (⚠️ Speculative, ไม่ pay up).
 
 **Update (2026-09-05, /warren watchlist batch 3/4) — Price refresh only; mark-daily pipeline gap flagged** [WARREN THESIS]
 - Price $135.00 (08-25) → $147.95 (+9.59%), no new earnings (Q3 2026 not yet reported). FV Base $60 (SOTP) carried forward unchanged. MoS −125.00%→−146.58% (deeper FAIL, price-driven). ER 5.03%→3.49%/yr (still FAIL). No PEG (Speculative tier).
@@ -9031,7 +9059,10 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-09-05 (date synced with Story Gate/Valuation Range per Card Consistency rule — batch 3/4: price refresh + reconfirm only, no news since 08-07, still well before gate)
+**Last Updated:** 2026-09-19 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-09-19, /warren watchlist batch 2/3)** [WARREN THESIS/MARKET NEWS]
+- Price $354.08→$364.27 (+2.88%). ราคา $364.27, MoS -25.61%, ER 17.34%/yr, WAF 5.57 (LOW), Effective Gate 15%, FV $290 carried forward. NHTSA Cybercab probe = risk เพิ่มเล็กน้อย ไม่ quantify.
 
 **Update (2026-09-05, /warren watchlist batch 3/4) — Price refresh only; robotaxi fleet count progress noted (thesis-level, no FV impact)** [WARREN THESIS/MARKET NEWS]
 - Price $348.95 (08-25 gate) → $354.08 (+1.47%), no new earnings (Q3 2026 not yet due). FV Base $290 (EV/Sales SOTP-lite) carried forward unchanged. **MoS −18.02%→−22.10%** (still deep FAIL vs today's locked Effective Gate 20%). ER recomputed 17.88%/yr (still numerically passes ≥15% but flagged low-quality per 08-15 method-rebuild note — SpaceX-gain-inflated EPS base). No PEG (Speculative tier).
@@ -9102,7 +9133,9 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Story Gate
-**Last Updated:** 2026-09-05  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-09-19  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-09-19 update (/warren watchlist batch 2/3):** Time-trigger 14 วัน. ไม่มี mark-daily entry ใหม่. WebSearch: Cybercab paid rides Austin; 09-04 update 'underwhelmed' (−6%); NHTSA เปิดสอบ Cybercab FMVSS self-certification = regulatory overhang ไม่ quantify. WHAT/WHY NOW/Tier (⚠️ Speculative) ไม่เปลี่ยน; OUT_OF_THEME.
 
 > ✅ **Reconfirmed 2026-09-05** (time-trigger, 11 วันตั้งแต่ 08-25) — ไม่มีข่าวใหม่ใน mark-daily log หลัง gate 08-25 (ล่าสุด 08-07); WebSearch พบ Cybercab launch event (09-03) + robotaxi fleet ใน Texas โต ~37% ของ Waymo fleet (08-27, จาก ~84 คันที่เคยบันทึก) — เป็น thesis progress ระดับ optionality ตามคาด ไม่ใช่ตัวเลขที่อยู่ในงบ → WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน
 
@@ -9119,7 +9152,9 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-09-05  |  **Price ณ วันนั้น:** $354.08  |  **Method:** ⚠️ **ข้อยกเว้น "P/E ใช้ไม่ได้" → EV/Sales** (ไม่ใช่มาตรฐาน Revenue×Margin→P/E)
+**Last Updated:** 2026-09-19  |  **Price ณ วันนั้น:** $364.27  |  **Method:** ⚠️ **ข้อยกเว้น "P/E ใช้ไม่ได้" → EV/Sales** (ไม่ใช่มาตรฐาน Revenue×Margin→P/E)
+
+> 🔄 **2026-09-19 refresh (batch 2/3)** — ราคา $364.27, MoS -25.61%, ER 17.34%/yr, WAF 5.57 (LOW), Effective Gate 15%, FV $290 carried forward — EV/Sales 9.2× บน FY27E rev $120.7B ไม่เปลี่ยน. WATCH.
 
 > 🔄 **Price refresh only (09-05)** — ราคา $348.95→$354.08 (+1.47%), ไม่มี earnings ใหม่ ⇒ EV/Sales build/multiple carried forward จาก 08-15 ไม่เปลี่ยน มีแค่ MoS/ER ที่ขยับตามราคา
 >
@@ -9156,8 +9191,8 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 | **Bear** | $120,680M | 7.00× (margin ไม่ฟื้น + FCF ลบต่อ) | $844.8B | $34.2B | 3,950M | **$222** | 25% |
 
 **Fair Value Base:** $290
-**ราคาปัจจุบัน:** $354.08 (**+1.47%** จากรอบก่อน $348.95)
-**Margin of Safety:** **−22.10%** = ($290 − $354.08) ÷ $290 → ❌ FAIL (Effective Gate 20% วันนี้ — Calm mode, deep FAIL ไม่ว่ากรณีใด)
+**ราคาปัจจุบัน:** $364.27 (2026-09-19, prices_cache.json)
+**Margin of Safety:** **-25.61%** = ($290 − $364.27) ÷ $290 → ✗ FAIL vs Effective Gate 15% (2026-09-19; ดูตาราง refresh ด้านบน)
 **EV/Sales ปัจจุบันของตลาด:** ~11.3× (คำนวณคร่าวจากราคาใหม่) — สูงกว่า 9.20× ที่ Warren ใช้ แต่ต่ำกว่า median 5 ปีของตัวเอง
 **PEG:** ไม่ใช้ — ⚠️ Speculative tier (thesis อิงอนาคต ไม่ pay up)
 **5-yr Expected Return:** **17.88%/ปี** (convergence −3.92% + consensus EPS growth 21.8%) — ✓ ผ่านเส้น 15% **ทางตัวเลข แต่คุณภาพต่ำที่สุดใน batch** (ดูคำเตือนด้านล่าง)
