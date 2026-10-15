@@ -12,7 +12,9 @@ window.STOCK_KNOWLEDGE = {
 ---
 
 ## Story Gate
-**Last Updated:** 2026-10-11  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+
+**2026-10-15 update (/warren watchlist batch 3/3, 🔴 10-12):** PASS - WHAT/WHY NOW/IF WRONG unchanged. 🔴 10-12 'M&A chief ใหม่ใต้ Ternus' = ข่าววนซ้ำของ 10-09 (Steve Smith แทน Perica ขึ้นตรง CFO) ที่ประเมินไปแล้ว 10-11 ยังไม่มีดีล · งาน 'Welcome Home' 10-13: รายงานก่อนงาน (Bloomberg/Gurman) = hub จอ ~6 นิ้ว 'HomeView' วางขายกลาง พ.ย. + HomePod mini/Apple TV = product-line extension ไม่มีตัวเลข. Centrality 3.0 ไม่เปลี่ยน. ไม่มี tier change.
 
 **2026-10-11 update (/warren watchlist batch 3/3):** PASS - WHAT/WHY NOW/IF WRONG unchanged. 3x 🟡MONITOR: smart-home hub คาดเปิดตัวงาน 10-13 (+HomePod mini/Apple TV; อุปกรณ์เสริมแบรนด์ LG ตามมาอีกหลายเดือน) = product-line extension ไม่มีตัวเลข · 10-09 Bloomberg: Steve Smith แทน Adrian Perica เป็นหัวหน้า M&A ขึ้นตรง CFO Parekh = org change ยังไม่มีดีล. Centrality 3.0 (Siri พึ่ง Gemini) ไม่เปลี่ยน. Effective Gate 20% (Calm). ไม่มี tier change.
 
@@ -37,7 +39,9 @@ window.STOCK_KNOWLEDGE = {
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-10-11  |  **Price ณ วันนั้น:** $336.64  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+**Last Updated:** 2026-10-15  |  **Price ณ วันนั้น:** $342.96 (prices_cache.json, 2026-10-15)  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+
+> 🔄 **2026-10-15 refresh (batch 3/3)** — ราคา $342.96 (+1.88%), MoS -26.09%, PEG 4.16, ER 4.17%/yr, WAF 5.98 (LOW), Effective Gate 15% (Normal; locked by batch 1/3: S&P fwd P/E ~18.9x, VIX 16.87 → regime shift 20%→15%), FV $272 carried forward (EPS $9.47 × 28.69×; Q4 FY26 ปลาย ต.ค. = re-base), Action WATCH. ข่าว M&A chief = วนซ้ำ, HomeView hub = ไม่มีตัวเลข ไม่ใช่ Base-case input. แม้ gate ลด 20→15 ยังขาด ~41 จุด.
 
 > 🔄 **2026-10-11 refresh (batch 3/3)** — ราคา $336.64 (+0.88%), MoS -23.76%, PEG 4.09, ER 4.53%/yr, WAF 6.0 (LOW), Effective Gate 20% (Calm; locked by batch 1/3: S&P fwd P/E 19.1x, VIX 14.84 → regime shift 15%→20%), FV $272 carried forward (EPS $9.47 × 28.69×; Q4 FY26 ปลาย ต.ค. = re-base), Action WATCH. ข่าว smart-home hub/LG + M&A head = ไม่มีตัวเลข ไม่ใช่ Base-case input.
 
@@ -88,20 +92,20 @@ window.STOCK_KNOWLEDGE = {
 | **Bear** | $8.45 (revenue $495B +3.8%, margin 24.5% memory cost bite) | 24× | **$203** | 25% |
 
 **Fair Value Base:** $272
-**ราคาปัจจุบัน:** $336.64 (2026-10-11, prices_cache.json)
-**Margin of Safety:** **-23.76%** = ($272 − $336.64) ÷ $272 → ✗ FAIL vs Effective Gate 20% (2026-10-11; VIX 14.84 Calm)
-**Forward P/E:** 35.55× = $336.64 ÷ $9.47
-**PEG:** **4.09** = 35.55 ÷ 8.7
-**Expected Return (5 ปี):** **4.53%/ปี** (recomputed 2026-10-11)
+**ราคาปัจจุบัน:** $342.96 (2026-10-15, prices_cache.json = 10-14 close, CNBC cross-check)
+**Margin of Safety:** **-26.09%** = ($272 − $342.96) ÷ $272 → ✗ FAIL vs Effective Gate 15% (2026-10-15; VIX 16.87 Normal)
+**Forward P/E:** 36.22× = $342.96 ÷ $9.47
+**PEG:** **4.16** = 36.22 ÷ 8.7
+**Expected Return (5 ปี):** **4.17%/ปี** (recomputed 2026-10-15)
 
-### Gate Summary → **WATCH** (2026-10-11)
+### Gate Summary → **WATCH** (2026-10-15)
 
 | Gate | ค่า | เกณฑ์ | ผล |
 |---|---|---|---|
-| MoS | -23.76% | ≥ 20% (Calm, gate 15%+5)| ✗ **FAIL** |
-| PEG | 4.09 | ≤ 1.5 | ✗ **FAIL** |
-| Expected Return | 4.53%/ปี | ≥ 15% | ✗ **FAIL** |
-| WAF | 6.0 | ≥ 6.5 | ✗ **FAIL** (LOW) |
+| MoS | -26.09% | ≥ 15% (Normal, VIX 16.87)| ✗ **FAIL** |
+| PEG | 4.16 | ≤ 1.5 | ✗ **FAIL** |
+| Expected Return | 4.17%/ปี | ≥ 15% | ✗ **FAIL** |
+| WAF | 5.98 | ≥ 6.5 | ✗ **FAIL** (LOW) |
 
 **ข้อสรุป (09-12):** ไม่มีการเปลี่ยนแปลงทาง action — ราคาขึ้นต่อ (+3.84%) ทำให้ทุก gate แย่ลงอีก ยังตกทุก gate เหมือนเดิม แม้ Effective Gate จะลดลง (regime shift VIX Calm→Normal, 20%→15%) ก็ไม่พอปิด gap ที่ลึกอยู่แล้ว. ข่าวรอบนี้ (CEO transition ซ้ำ, foldable iPhone rumor ไม่มีตัวเลข) ไม่กระทบ FV — เหตุผลหลักของ WATCH ยัง**ไม่ใช่ "งบแย่"** แต่คือ **ราคาสะท้อนไปหมดแล้วบนอัตราโตระยะยาวเพียง 8.7%**
 **ข่าวที่ตรวจสอบตั้งแต่ gate 09-05:** foldable iPhone $2,000 rumor (09-09, 🔴MATERIAL — product rumor ไม่มี guidance); CEO transition re-syndication (09-01→09-07, ตรวจแล้วรอบก่อน) — ไม่มีข่าวใดกระทบตัวเลข FV โดยตรง
@@ -487,7 +491,11 @@ Apple กำลัง collaborate กับ Google พัฒนา next-gen Foun
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-10-11 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-10-15 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-10-15, /warren watchlist batch 3/3)** [WARREN THESIS/MARKET NEWS]
+- Price $342.96 (ใกล้ 52w high $348.15); MoS -26.09%, PEG 4.16, ER 4.17%/yr, WAF 5.98 (LOW), Action WATCH, Effective Gate 15% (Normal). — **Bull:** HomeView hub (กลาง พ.ย.) + HomePod/Apple TV refresh = ขยาย ecosystem บ้านอัจฉริยะภายใต้ Ternus · **Bear:** Siri hub ยังพึ่ง Gemini, smart home เป็นตลาดที่ Apple เคยพลาด, ข่าว M&A chief ยังไม่มีดีลจริง.
+- Bull/Bear thesis below unchanged.
 
 **Update (2026-10-11, /warren watchlist batch 3/3)** [WARREN THESIS/MARKET NEWS]
 - Price $336.64; MoS -23.76%, PEG 4.09, ER 4.53%/yr, WAF 6.0 (LOW), Action WATCH, Effective Gate 20% (Calm). 3x MONITOR: smart-home hub launch 10-13 (+LG-branded accessories later) · Steve Smith new M&A head under CFO (Perica moved to services) — **Bull:** Ternus เร่ง cadence สินค้าใหม่ + M&A กลับมาอยู่ใต้ finance = อาจเปิดทางดีล AI · **Bear:** smart home เป็นตลาดที่ Apple เคยพลาดมาแล้ว, ยังไม่มีตัวเลข. FV $272 carried.
@@ -1553,7 +1561,11 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-10-11 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-10-15 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-10-15, /warren watchlist batch 3/3)** [WARREN THESIS/MARKET NEWS]
+- Price $254.08; MoS -9.99%, ER 18.11%/yr, WAF 6.35 (LOW), Action HOLD, Effective Gate 15% (Normal). — **Bull:** Decart (~$7B, WSJ, ยังไม่ยืนยัน) ให้ซอฟต์แวร์รันโมเดลข้ามชิป = ลดแรงเสียดทานย้ายงานจาก NVDA ไป Trainium · **Bear:** M&A ราคา ~2× valuation รอบ พ.ค. (~$4B) ในตลาด AI ที่ร้อน + $8B GPU SPV (ยังไม่ยืนยัน) = สัญญาณแรงกดดัน financing capex.
+- Bull/Bear thesis below unchanged.
 
 **Update (2026-10-11, /warren watchlist batch 2/3)** [WARREN THESIS/MARKET NEWS]
 - ราคา $262.43 , MoS -13.61%, PEG n/a (SOTP), ER 17.48%/yr, WAF 6.3 (LOW), Effective Gate 20% (Calm; locked by batch 1/3: S&P fwd P/E 19.1x, VIX 14.84 → regime shift 15%→20%), FV $231 carried forward (ไม่มี earnings ใหม่ — Q3 ปลาย ต.ค. = re-base), Action HOLD. ข่าว 10-05 "$8B Nvidia chip" ไม่ใช่การยกเลิก order — FT: ย้ายชิป Grace Blackwell ที่ติดตั้งแล้ว ~$8B เข้า SPV แล้ว lease กลับ (sale-leaseback, SPV กู้หนี้ภายนอก, Amazon ถือ ≤10%) ยังเป็นแหล่งเดียว = สัญญาณ financing ไม่ใช่ demand · Anthropic $25B/$100B = ดีลเดือน เม.ย. วนซ้ำ · Alexa tablets = product.
@@ -1693,7 +1705,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Story Gate
-**Last Updated:** 2026-10-11  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** 🚀 Pre-Inevitable
+
+> ✅ **Reconfirmed 2026-10-15 (/warren watchlist batch 3/3, 🔴 10-13)** — PASS - unchanged. WSJ 10-13: Amazon คุยซื้อ Decart (อิสราเอล; Lucy real-time video, Oasis world model + ซอฟต์แวร์รันโมเดลข้ามชิปหลายค่าย) ~$7B — Reuters ยังยืนยันไม่ได้, Anthropic เคยถอยที่ ~$6B (ส.ค.) · ขนาด ~0.25% ของ mkt cap = bolt-on ที่หนุน Trainium/AWS silicon thesis (มีอยู่ใน GP แล้ว) ไม่มีตัวเลขใส่ SOTP · 10-12 AWS $50M gov AI credits / Alexa tablets = product. ไม่มี tier change. TQR 8.18 Strong (playbook v3 reused).
 
 > ✅ **Reconfirmed 2026-10-11 (/warren watchlist batch 2/3)** — PASS - unchanged. $8B chip SPV report = financing structure for installed GPUs (not a demand/order cut); Anthropic $25B/$100B item is April deal re-syndicated; Alexa/agents = product news. No tier change. | ข่าว 10-05 "$8B Nvidia chip" ไม่ใช่การยกเลิก order — FT: ย้ายชิป Grace Blackwell ที่ติดตั้งแล้ว ~$8B เข้า SPV แล้ว lease กลับ (sale-leaseback, SPV กู้หนี้ภายนอก, Amazon ถือ ≤10%) ยังเป็นแหล่งเดียว = สัญญาณ financing ไม่ใช่ demand · Anthropic $25B/$100B = ดีลเดือน เม.ย. วนซ้ำ · Alexa tablets = product. ไม่มี tier change. TQR 8.18 Strong (playbook v3 reused).
 
@@ -1722,7 +1736,9 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-10-11  |  **Price ณ วันนั้น:** $262.43  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** **SOTP บน segment NOPAT หลังภาษี** (ข้อยกเว้นข้อ 3 "ธุรกิจหลายขาที่ economics ต่างกันสุดขั้ว" — AWS op margin 39.4% vs International 4.1% = ห่างกัน 35pp และโตต่างกัน +37% vs +15%)
+**Last Updated:** 2026-10-15  |  **Price ณ วันนั้น:** $254.08 (prices_cache.json, 2026-10-15)  |  **Tier:** 🚀 Pre-Inevitable  |  **Method:** **SOTP บน segment NOPAT หลังภาษี** (ข้อยกเว้นข้อ 3 "ธุรกิจหลายขาที่ economics ต่างกันสุดขั้ว" — AWS op margin 39.4% vs International 4.1% = ห่างกัน 35pp และโตต่างกัน +37% vs +15%)
+
+> 🔄 **2026-10-15 refresh (batch 3/3)** — ราคา $254.08 (-3.18%), MoS -9.99%, PEG n/a (SOTP), ER 18.11%/yr, WAF 6.35 (LOW), Effective Gate 15% (Normal; locked by batch 1/3: S&P fwd P/E ~18.9x, VIX 16.87 → regime shift 20%→15%), FV $231 carried forward (Q3 ปลาย ต.ค. = re-base), Action HOLD. **Open item (DCF/SOTP anchor) — ปิดไปแล้วตั้งแต่ 08-15:** FV ไม่ใช่ min()-multiple แต่เป็น SOTP บน segment NOPAT ที่ multiple อิงคุณภาพแต่ละขา. Tautology re-check ที่ราคาวันนี้: implied blended 21.3× vs fwd P/E $254.08 ÷ $10.58 = 24.0× → FV ≠ ราคาโดยโครงสร้าง (MoS -10% ไม่ใช่ ~0). Cross-check $231 / $233 (08-13 EV/EBIT) / Charlie ~$221. Decart ~$7B (ยังไม่ยืนยัน) ไม่เปลี่ยน input. Gate 15% ยังขาด ~25 จุด.
 
 > 🔄 **2026-10-11 refresh (batch 2/3)** — ราคา $262.43, MoS -13.61%, PEG n/a (SOTP), ER 17.48%/yr, WAF 6.3 (LOW), Effective Gate 20% (Calm; locked by batch 1/3: S&P fwd P/E 19.1x, VIX 14.84 → regime shift 15%→20%), FV $231 carried forward (ไม่มี earnings ใหม่ — Q3 ปลาย ต.ค. = re-base), Action HOLD. 2026-10-11 (batch 2/3, news-trigger) - price $251.52->$262.43 (+4.34%). SOTP carried forward unchanged from 08-15 (AWS 24x / NA 18x / Intl 13x, FV $231; no earnings - Q3 due late Oct). News since 10-04 gate: 🔴 10-05 '$8B Nvidia chip' item - Mark headline says 'cancel order' but WebSearch (FT via Reuters/TheStar 10-02, Newsquawk, Itdaily) = Amazon seeking to move ~$8B of already-installed Grace Blackwell chips into an SPV, lease them back, SPV raises outside debt, Amazon keeps up to 10% equity — a sale-leaseback/off-balance-sheet financing, NOT an order cancellation; single-sourced, unconfirmed. Signals capex financing pressure (matches playbook KPI 'capex financing mix ⬇') but no SOTP input change; RA held 4.5 pending confirmation (flag). 🟡 10-08 AWS/agents growth commentary, 🟡 10-09 Alexa tablets w/ Google Play = no figures. Anthropic $25B/$100B-AWS item in 10-09 daily news = April 2026 deal re-syndicated (already in GP). MoS -8.88%->-13.61% vs Effective Gate 20% -> ~34 pts short. ER 17.48% passes but MoS fails. VA 1.7->1.5. WAF by standard formula. HOLD.
 
@@ -1778,19 +1794,19 @@ Amazon ดำเนินธุรกิจ 3 segments: **North America** (retai
 | **Bear** | $205B @34% × 20 | $520B @7.5% × 15 | $185B @4% × 11 | **$162** | 25% |
 
 **Fair Value Base:** $231
-**ราคาปัจจุบัน:** $262.43 (2026-10-11, prices_cache.json)
-**Margin of Safety:** **-13.61%** = ($231 − $262.43) ÷ $231 → ✗ FAIL vs Effective Gate 20% (2026-10-11; VIX 14.84 Calm, STARTER band 13-20)
-**Expected Return (5 ปี):** **17.48%/ปี** (recomputed 2026-10-11)
+**ราคาปัจจุบัน:** $254.08 (2026-10-15, prices_cache.json = 10-14 close, CNBC cross-check)
+**Margin of Safety:** **-9.99%** = ($231 − $254.08) ÷ $231 → ✗ FAIL vs Effective Gate 15% (2026-10-15; VIX 16.87 Normal, STARTER band 8-15)
+**Expected Return (5 ปี):** **18.11%/ปี** (recomputed 2026-10-15)
 *(growth 20.0% = ปรับ **ลง** จาก consensus panel ที่ให้ FY27→FY28 +29.3% เพื่อสะท้อน depreciation tail ที่ panel ยังไม่ model — กฎ Revenue-as-Base ห้ามใช้ตัวเลข**สูงกว่า** consensus ใน Base case แต่ใช้ต่ำกว่าได้)*
 **Forward P/E / PEG:** ไม่ใช้ (method = SOTP)
 
-### Gate Summary → **HOLD** (2026-10-11)
+### Gate Summary → **HOLD** (2026-10-15)
 
 | Gate | ค่า | เกณฑ์ (09-12, effective gate 15% — Normal mode, regime shift Calm→Normal จาก VIX ข้าม 15) | ผล |
 |---|---|---|---|
-| MoS | -13.61% | ≥ 20% (Calm, gate 15%+5) | ✗ **FAIL** |
-| Expected Return | 17.48%/ปี | ≥ 15% | ✓ PASS |
-| WAF | 6.3 | ≥ 6.5 | ✗ **FAIL** (LOW) |
+| MoS | -9.99% | ≥ 15% (Normal, VIX 16.87) | ✗ **FAIL** |
+| Expected Return | 18.11%/ปี | ≥ 15% | ✓ PASS |
+| WAF | 6.35 | ≥ 6.5 | ✗ **FAIL** (LOW) |
 | PEG | n/a (SOTP) | — | — |
 
 **TQR (จาก AI-Revolution playbook v3, 2026-09-06 — อายุ 6 วัน อยู่ในกรอบ 90 วัน):** **8.18** (⬇ จาก 8.25 v1/v2 — RA* ธีมลดจาก FTC ad-auction lawsuit ใหม่ 08-31) → 🥈 **Strong** → เพดานน้ำหนัก 25% (ไม่เปลี่ยน band) · Final Cap = min(25%, Pre-Inevitable ไม่มี cap) = **25%**
@@ -3500,7 +3516,11 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-10-11 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-10-15 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-10-15, /warren watchlist batch 3/3)** [WARREN THESIS/MARKET NEWS]
+- Price $347.64; MoS -8.64%, PEG 2.12, ER 10.36%/yr, WAF 7.15 (MEDIUM), Action WATCH, Effective Gate 15% (Normal). — **Bull:** Workspace agents = ช่องทาง monetize Gemini ในฐานผู้ใช้องค์กรเดิม · **Bear:** ยังไม่มีราคา/ตัวเลข adoption; FCF ติดลบ + หนี้ $98.2B ยังเป็นความเสี่ยงหลัก จนกว่า Q3 จะยืนยัน.
+- Bull/Bear thesis below unchanged.
 
 **Update (2026-10-11, /warren watchlist batch 2/3)** [WARREN THESIS/MARKET NEWS]
 - ราคา $351.66 , MoS -9.89%, PEG 2.145, ER 10.13%/yr, WAF 7.13 (MEDIUM), Effective Gate 20% (Calm; locked by batch 1/3: S&P fwd P/E 19.1x, VIX 14.84 → regime shift 15%→20%), FV $320 carried forward (ไม่มี earnings ใหม่ — Q3 ปลาย ต.ค. = re-base), Action WATCH. ข่าว 10-07 Constellation 3.59GW (890MW nuclear ใหม่ เริ่มจ่ายไฟ 2028) = จัดหาพลังงานรองรับ capex · 10-08 Cloud backlog >$500B = ตัวเลข Q2 เดิม (อยู่ใน GP แล้ว) · 10-09 Workspace AI agents = product ไม่มีตัวเลขรายได้.
@@ -3646,7 +3666,9 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Story Gate
-**Last Updated:** 2026-10-11  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** 🏛️ Inevitable
+
+> ✅ **Reconfirmed 2026-10-15 (/warren watchlist batch 3/3, 🔴 10-12)** — PASS - unchanged. 🔴 10-12 Workspace AI agents = ข่าววนซ้ำของ 10-09 ที่ประเมินแล้ว 10-11 (product ไม่มีตัวเลขราคา/รายได้); WebSearch ไม่พบข่าว Alphabet ใหม่อื่น. ไม่มี tier change. TQR 8.43 Strong (playbook v3 reused).
 
 > ✅ **Reconfirmed 2026-10-11 (/warren watchlist batch 2/3)** — PASS - unchanged. 10-07 Constellation 3.59GW (890MW new nuclear, 2028+) = power-sourcing; 10-08 Cloud backlog >$500B = Q2 figure re-syndicated (already in GP); 10-09 Workspace AI agents = product without revenue figure. No change to WHAT/WHY NOW/IF WRONG. No tier change. | ข่าว 10-07 Constellation 3.59GW (890MW nuclear ใหม่ เริ่มจ่ายไฟ 2028) = จัดหาพลังงานรองรับ capex · 10-08 Cloud backlog >$500B = ตัวเลข Q2 เดิม (อยู่ใน GP แล้ว) · 10-09 Workspace AI agents = product ไม่มีตัวเลขรายได้. ไม่มี tier change. TQR 8.43 Strong (playbook v3 reused).
 
@@ -3669,7 +3691,9 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-10-11  |  **Price ณ วันนั้น:** $351.66  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+**Last Updated:** 2026-10-15  |  **Price ณ วันนั้น:** $347.64 (prices_cache.json, 2026-10-15)  |  **Tier:** 🏛️ Inevitable  |  **Method:** มาตรฐานเดียว Revenue × Margin → EPS → P/E (Revenue-as-Base) — ไม่ใช้ข้อยกเว้นใด (ไม่ใช่ Cyclical · fwd P/E < 80× · ธุรกิจไม่ได้มี economics ต่างกันสุดขั้ว)
+
+> 🔄 **2026-10-15 refresh (batch 3/3)** — ราคา $347.64 (-1.14%), MoS -8.64%, PEG 2.12, ER 10.36%/yr, WAF 7.15 (MEDIUM), Effective Gate 15% (Normal; locked by batch 1/3: S&P fwd P/E ~18.9x, VIX 16.87 → regime shift 20%→15%), FV $320 carried forward (EPS $13.66 × 23.44×; Q3 ปลาย ต.ค. = re-base), Action WATCH. แม้ gate ลด 20→15 MoS ยังขาด ~24 จุด + PEG/ER fail. min() check: 23.44× (5-yr avg) ≠ fwd P/E 25.45×.
 
 > 🔄 **2026-10-11 refresh (batch 2/3)** — ราคา $351.66, MoS -9.89%, PEG 2.145, ER 10.13%/yr, WAF 7.13 (MEDIUM), Effective Gate 20% (Calm; locked by batch 1/3: S&P fwd P/E 19.1x, VIX 14.84 → regime shift 15%→20%), FV $320 carried forward (ไม่มี earnings ใหม่ — Q3 ปลาย ต.ค. = re-base), Action WATCH. 2026-10-11 (batch 2/3, news-trigger) - price $343.50->$351.66 (+2.38%). EPS $13.66 / 23.44x / FV $320 carried forward (no earnings; Q3 due late Oct = re-base event). News since 10-04 gate: 🔴 10-07 Constellation deal (WebSearch Reuters/TheStar/Upstox 10-06: 3,590 MW total = 890 MW new nuclear uprate 20-yr PPA, first delivery 2028, + 2,700 MW long-term supply; enables >$4.3B Constellation investment) = power-sourcing for capex thesis, no revenue/margin input; 🔴 10-08 Cloud backlog >$500B (WebSearch: ~$514B exiting Q2 2026 per secondary commentary; Q1 10-Q $462.3B Cloud) = re-syndication of Q2 figure already reflected in GP 8.5, not new data; 🔴 10-09 Workspace AI agents = product, no pricing/revenue figure. BQ/GP/RA held. MoS -7.34%->-9.89% vs Effective Gate 20% (regime shift: VIX 14.84 Calm) -> ~30 pts short; PEG 2.145 > 1.5 FAIL; ER 10.13% < 15% FAIL. VA 3.7->3.6. WATCH.
 
@@ -3724,20 +3748,20 @@ Gemini เป็น general-purpose AI model ต้องปฏิบัติ�
 | **Bear** | $11.40 (revenue $543B +9%, margin 25.5% depreciation bite) | 19× | **$217** | 25% |
 
 **Fair Value Base:** $320
-**ราคาปัจจุบัน:** $351.66 (2026-10-11, prices_cache.json)
-**Margin of Safety:** **-9.89%** = ($320 − $351.66) ÷ $320 → ✗ FAIL vs Effective Gate 20% (2026-10-11; VIX 14.84 Calm, STARTER band 13-20)
-**Forward P/E:** 25.74× = $351.66 ÷ $13.66
-**PEG:** **2.145** = 25.74 ÷ 12.0
-**Expected Return (5 ปี):** **10.13%/ปี** (recomputed 2026-10-11)
+**ราคาปัจจุบัน:** $347.64 (2026-10-15, prices_cache.json = 10-14 close, CNBC cross-check)
+**Margin of Safety:** **-8.64%** = ($320 − $347.64) ÷ $320 → ✗ FAIL vs Effective Gate 15% (2026-10-15; VIX 16.87 Normal, STARTER band 8-15)
+**Forward P/E:** 25.45× = $347.64 ÷ $13.66
+**PEG:** **2.12** = 25.45 ÷ 12.0
+**Expected Return (5 ปี):** **10.36%/ปี** (recomputed 2026-10-15)
 
-### Gate Summary → **WATCH** (2026-10-11)
+### Gate Summary → **WATCH** (2026-10-15)
 
 | Gate | ค่า | เกณฑ์ (09-05, effective gate 20% Calm mode) | ผล |
 |---|---|---|---|
-| MoS | -9.89% | ≥ 20% (Calm, gate 15%+5) | ✗ **FAIL** |
-| PEG | 2.145 | ≤ 1.5 | ✗ **FAIL** |
-| Expected Return | 10.13%/ปี | ≥ 15% | ✗ **FAIL** |
-| WAF | 7.13 | ≥ 6.5 | ✓ PASS (MEDIUM) |
+| MoS | -8.64% | ≥ 15% (Normal, VIX 16.87) | ✗ **FAIL** |
+| PEG | 2.12 | ≤ 1.5 | ✗ **FAIL** |
+| Expected Return | 10.36%/ปี | ≥ 15% | ✗ **FAIL** |
+| WAF | 7.15 | ≥ 6.5 | ✓ PASS (MEDIUM) |
 
 **ข้อสรุป (09-05):** Price refresh เท่านั้น ($348.06→$338.46, −2.76%) — FV/EPS/multiple carried forward จาก 08-15 ไม่มี earnings ใหม่. MoS ดีขึ้นเล็กน้อย (−8.77%→−5.77%) แต่ยังตก 3 ใน 4 gate เหมือนเดิม
 **ข่าวที่ตรวจสอบตั้งแต่ gate 08-25 (1× 🔴MATERIAL):** Pichai ยอมรับ Google compute-constrained + ให้ Anthropic จอง TPU capacity 1GW(2026)+5GW(2027) (09-02 — ดู Story Gate; **ยืนยัน** ไม่ใช่เปลี่ยน thesis เดิมเรื่อง TPU external sales, ขยายสเกลของ evidence เดิม). ไม่มีข่าวใดกระทบ FV — เป็นการยืนยันสิ่งที่รู้อยู่แล้ว ไม่ใช่ edge ใหม่
@@ -8362,7 +8386,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-10-04 | **Status:** PASS | **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-10-15 | **Status:** PASS | **Tier:** ⚠️ Speculative
+
+**2026-10-15 update (/warren watchlist batch 3/3, time-trigger 11d):** PASS - ยังไม่มี mark-daily SPCX entry ตั้งแต่ 06-03 (pipeline gap, flag ซ้ำ); WebSearch: lockup tranche ~320M หุ้น 10-09 ผ่านไปแล้ว, ถัดไป 10-24 แล้วตามด้วยสูงสุด ~1.3B หุ้น 2 วันทำการหลังงบ Q3 (คาดต้น พ.ย., ยังไม่ยืนยันวัน) และ 12-08; Musk/ผู้ถือใหญ่ล็อก 1 ปี. ไม่มี tier change (Speculative).
 
 > ✅ **Reconfirmed 2026-10-04 (/warren watchlist batch 3/4)** — WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. Price $152.71→$158.96 (+4.09%). SOTP carried forward (FV Base $62; shares 13,565M). MoS −156.39% (deep FAIL), ER 2.83%/yr, WAF 5.83 LOW → WATCH. ไม่มี tier change (⚠️ Speculative). Lockup: tranche ต.ค. (2 วันทำการหลังงบ Q3) + cliff สุดท้าย 12-08 = supply overhang ไม่ได้ใส่ใน SOTP. TQR 6.12 Peripheral (playbook v3, reused).
 
@@ -8381,7 +8407,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-10-04 | **Price ณ วันนั้น:** $158.96 (prices_cache.json, 2026-10-04) | **Method:** ⚠️ **ข้อยกเว้น SOTP** (segment revenue × segment EV/Sales) — ไม่ใช่มาตรฐาน Revenue×Margin→P/E
+**Last Updated:** 2026-10-15 | **Price ณ วันนั้น:** $152.16 (prices_cache.json, 2026-10-15) | **Method:** ⚠️ **ข้อยกเว้น SOTP** (segment revenue × segment EV/Sales) — ไม่ใช่มาตรฐาน Revenue×Margin→P/E
+
+> 🔄 **2026-10-15 refresh (batch 3/3)** — ราคา $152.16 (-4.28%), MoS -145.42%, ER 3.56%/yr, WAF 5.83 (LOW), Effective Gate 15% (Normal; locked by batch 1/3: S&P fwd P/E ~18.9x, VIX 16.87 → regime shift 20%→15%), FV $62 carried forward (SOTP Connectivity 12× / Space 8× / AI 7× / Cursor 7× EV/Sales + net cash $55B ÷ 13,565M), Action WATCH. Lockup wave 10-24 + ~1.3B หุ้นหลัง Q3 = supply overhang (ไม่ได้ใส่ใน SOTP).
 
 > 🔄 **2026-10-04 (batch 3/4)** — Price $152.71→$158.96 (+4.09%). SOTP carried forward (FV Base $62; shares 13,565M). MoS −156.39% (deep FAIL), ER 2.83%/yr, WAF 5.83 LOW → WATCH. ไม่มี tier change (⚠️ Speculative). Lockup: tranche ต.ค. (2 วันทำการหลังงบ Q3) + cliff สุดท้าย 12-08 = supply overhang ไม่ได้ใส่ใน SOTP. TQR 6.12 Peripheral (playbook v3, reused).
 
@@ -8443,8 +8471,8 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 | Probability | 55% | 20% | 25% |
 
 **Fair Value Base:** $62 (09-19: ปรับจาก $60 — รวม Cursor, shares 13,565M)
-**ราคาปัจจุบัน:** $152.71 (2026-09-19, prices_cache.json)
-**Margin of Safety:** **-146.31%** = ($62 − $152.71) ÷ $62 → ❌ FAIL (Effective Gate 15% — deep FAIL)
+**ราคาปัจจุบัน:** $152.16 (2026-10-15, prices_cache.json = 10-14 close, CNBC cross-check)
+**Margin of Safety:** **-145.42%** = ($62 − $152.16) ÷ $62 → ❌ FAIL (Effective Gate 15% — deep FAIL, 2026-10-15)
 **PEG:** ไม่ใช้ — ⚠️ Speculative tier
 **5-yr Expected Return:** **3.49%/ปี** (convergence −16.51% + growth capped ที่ 20%) → ❌ FAIL (Gate ≥15%)
 
@@ -8738,7 +8766,11 @@ Elon Musk confirmed SpaceX's AI compute build-out is now **exclusive to NVIDIA**
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-10-04 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-10-15 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-10-15, /warren watchlist batch 3/3)** [WARREN THESIS/MARKET NEWS]
+- Price $152.16; MoS -145.42%, ER 3.56%/yr, WAF 5.83 (LOW), Action WATCH, Effective Gate 15% (Normal). — **Bull:** งบ Q3 (ต้น พ.ย.) จะให้ segment ตัวเลขจริงครั้งที่ 2 รวม Cursor · **Bear:** unlock สูงสุด ~1.3B หุ้นหลัง Q3 + 10-24 tranche = แรงขายเชิงอุปทาน; AI contracts terminable 90 วัน.
+- Bull/Bear thesis below unchanged.
 
 **Update (2026-10-04, /warren watchlist batch 3/4) [WARREN THESIS]** — Price $152.71→$158.96 (+4.09%). SOTP carried forward (FV Base $62; shares 13,565M). MoS −156.39% (deep FAIL), ER 2.83%/yr, WAF 5.83 LOW → WATCH. ไม่มี tier change (⚠️ Speculative). Lockup: tranche ต.ค. (2 วันทำการหลังงบ Q3) + cliff สุดท้าย 12-08 = supply overhang ไม่ได้ใส่ใน SOTP. TQR 6.12 Peripheral (playbook v3, reused).
 
@@ -9384,7 +9416,11 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Analyst Research Notes
-**Last Updated:** 2026-10-04 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-10-15 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+
+**Update (2026-10-15, /warren watchlist batch 3/3)** [WARREN THESIS/MARKET NEWS]
+- Price $367.16; MoS -26.61%, ER 17.19%/yr, WAF 5.57 (LOW), Action WATCH, Effective Gate 15% (Normal). — **Bull:** Q3 deliveries 486.5k beat + Cybercab/Optimus timeline update ที่ Q3 call 10-21 · **Bear:** op margin 1.4%, FCF ติดลบ, capex >$25B/ปี — ต้องเห็น margin ฟื้นจริงใน Q3.
+- Bull/Bear thesis below unchanged.
 
 **Update (2026-10-04, /warren watchlist batch 3/4) [WARREN THESIS]** — Price $364.27→$370.59 (+1.74%). Q3 deliveries (10-02) 486,532 vs Street ~462k = beat แต่ไม่อยู่ใน FY27E revenue build → EV/Sales 9.2× × rev $120.7B → FV Base $290 carried. MoS −27.79% (gate 15%), ER 17.01%/yr (low-quality input), WAF 5.57 LOW → WATCH. ไม่มี tier change (⚠️ Speculative). TQR OUT_OF_THEME (ไม่อยู่ใน AI-Revolution playbook). Q3 earnings 10-21 = test ถัดไป.
 
@@ -9460,7 +9496,9 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Story Gate
-**Last Updated:** 2026-10-04  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-10-15 update (/warren watchlist batch 3/3, time-trigger 11d):** PASS - ไม่มี mark-daily entry หลัง gate 10-04; WebSearch: Q3 earnings 10-21 หลังตลาดปิด (Tesla 8-K) = re-base event อีก 6 วัน; preview โฟกัส gross margin / FCF / Cybercab-Optimus timeline. ไม่มี tier change (Speculative).
 
 > ✅ **Reconfirmed 2026-10-04 (/warren watchlist batch 3/4)** — WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. Price $364.27→$370.59 (+1.74%). Q3 deliveries (10-02) 486,532 vs Street ~462k = beat แต่ไม่อยู่ใน FY27E revenue build → EV/Sales 9.2× × rev $120.7B → FV Base $290 carried. MoS −27.79% (gate 15%), ER 17.01%/yr (low-quality input), WAF 5.57 LOW → WATCH. ไม่มี tier change (⚠️ Speculative). TQR OUT_OF_THEME (ไม่อยู่ใน AI-Revolution playbook). Q3 earnings 10-21 = test ถัดไป.
 
@@ -9481,7 +9519,9 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-10-04  |  **Price ณ วันนั้น:** $370.59 (prices_cache.json, 2026-10-04) |  **Method:** ⚠️ **ข้อยกเว้น "P/E ใช้ไม่ได้" → EV/Sales** (ไม่ใช่มาตรฐาน Revenue×Margin→P/E)
+**Last Updated:** 2026-10-15  |  **Price ณ วันนั้น:** $367.16 (prices_cache.json, 2026-10-15) |  **Method:** ⚠️ **ข้อยกเว้น "P/E ใช้ไม่ได้" → EV/Sales** (ไม่ใช่มาตรฐาน Revenue×Margin→P/E)
+
+> 🔄 **2026-10-15 refresh (batch 3/3)** — ราคา $367.16 (-0.93%), MoS -26.61%, ER 17.19%/yr (ผ่านเชิงตัวเลขจาก EPS growth 21.8% — flag low-quality), WAF 5.57 (LOW), Effective Gate 15% (Normal; locked by batch 1/3: S&P fwd P/E ~18.9x, VIX 16.87 → regime shift 20%→15%), FV $290 carried forward (EV/Sales 9.2× × FY27E $120.7B + net cash $34.2B ÷ 3,950M), Action WATCH. Q3 print 10-21 = re-base.
 
 > 🔄 **2026-10-04 (batch 3/4)** — Price $364.27→$370.59 (+1.74%). Q3 deliveries (10-02) 486,532 vs Street ~462k = beat แต่ไม่อยู่ใน FY27E revenue build → EV/Sales 9.2× × rev $120.7B → FV Base $290 carried. MoS −27.79% (gate 15%), ER 17.01%/yr (low-quality input), WAF 5.57 LOW → WATCH. ไม่มี tier change (⚠️ Speculative). TQR OUT_OF_THEME (ไม่อยู่ใน AI-Revolution playbook). Q3 earnings 10-21 = test ถัดไป.
 
@@ -9522,8 +9562,8 @@ Tesla เปลี่ยนตัวเองจาก hardware-centric EV compa
 | **Bear** | $120,680M | 7.00× (margin ไม่ฟื้น + FCF ลบต่อ) | $844.8B | $34.2B | 3,950M | **$222** | 25% |
 
 **Fair Value Base:** $290
-**ราคาปัจจุบัน:** $364.27 (2026-09-19, prices_cache.json)
-**Margin of Safety:** **-25.61%** = ($290 − $364.27) ÷ $290 → ✗ FAIL vs Effective Gate 15% (2026-09-19; ดูตาราง refresh ด้านบน)
+**ราคาปัจจุบัน:** $367.16 (2026-10-15, prices_cache.json = 10-14 close, CNBC cross-check)
+**Margin of Safety:** **-26.61%** = ($290 − $367.16) ÷ $290 → ✗ FAIL vs Effective Gate 15% (2026-10-15; VIX 16.87 Normal)
 **EV/Sales ปัจจุบันของตลาด:** ~11.3× (คำนวณคร่าวจากราคาใหม่) — สูงกว่า 9.20× ที่ Warren ใช้ แต่ต่ำกว่า median 5 ปีของตัวเอง
 **PEG:** ไม่ใช้ — ⚠️ Speculative tier (thesis อิงอนาคต ไม่ pay up)
 **5-yr Expected Return:** **17.88%/ปี** (convergence −3.92% + consensus EPS growth 21.8%) — ✓ ผ่านเส้น 15% **ทางตัวเลข แต่คุณภาพต่ำที่สุดใน batch** (ดูคำเตือนด้านล่าง)

@@ -427,14 +427,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 3,
-    "waf": 7.13,
+    "waf": 7.15,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 351.66,
+    "price": 347.64,
     "fv": 320,
-    "mos": -9.89,
-    "fpe": 25.74,
-    "peg": 2.145,
+    "mos": -8.64,
+    "fpe": 25.45,
+    "peg": 2.12,
     "scores": {
       "bq": [
         9.5,
@@ -447,9 +447,9 @@
         85
       ],
       "va": [
-        3.6,
+        3.7,
         "orange",
-        36
+        37
       ],
       "ra": [
         5.5,
@@ -457,12 +457,12 @@
         55
       ]
     },
-    "idea": "Price + news check: MoS -9.89% vs Effective Gate 20% (Calm-mode regime shift 15->20), PEG 2.145, ER 10.13%/yr - all price gates fail. WAF 7.13 MEDIUM (quality passes, price does not). Constellation 3.59GW deal / >$500B backlog / Workspace agents = thesis confirmation, unquantified or already in GP. FV $320 carried until Q3 print. WATCH.",
-    "updated": "2026-10-11",
+    "idea": "Price + news check: MoS -8.64% vs Effective Gate 15% (Normal), PEG 2.12, ER 10.36%/yr - all price gates fail even after gate eased 20->15. WAF 7.15 MEDIUM (quality passes, price does not). FV $320 carried until Q3 print (late Oct). WATCH.",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-11",
+      "updated": "2026-10-15",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Alphabet เป็นเจ้าของช่องทางค้นหาข้อมูลของโลก (Search + YouTube + Android) และเป็นบริษัทเดียวในธีม AI ที่ครบทั้ง stack ตั้งแต่ชิปของตัวเอง (TPU) ถึงโมเดล (Gemini) ถึงคลาวด์ที่ขายให้คนอื่น — ชนะเพราะ distribution ที่ผูกไว้แล้วบวก vertical integration ที่คู่แข่งต้องซื้อจากคนอื่นทุกชั้น",
@@ -667,12 +667,12 @@
     "action": "hold",
     "actionLabel": "Hold",
     "conviction": 2,
-    "waf": 6.3,
+    "waf": 6.35,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 262.43,
+    "price": 254.08,
     "fv": 231,
-    "mos": -13.61,
+    "mos": -9.99,
     "fpe": null,
     "peg": null,
     "scores": {
@@ -687,9 +687,9 @@
         85
       ],
       "va": [
-        1.5,
+        1.7,
         "orange",
-        15
+        17
       ],
       "ra": [
         4.5,
@@ -697,12 +697,12 @@
         45
       ]
     },
-    "idea": "Price + news: MoS -13.61% vs Effective Gate 20% (Calm) fails by ~34 pts; ER 17.48%/yr passes but cannot override MoS. $8B Nvidia-chip SPV = sale-leaseback financing (not order cancellation, unconfirmed) - watch for balance-sheet/financing-mix signal at Q3. HOLD existing exposure, no ADD case.",
-    "updated": "2026-10-11",
+    "idea": "Price -3.2% to $254.08: MoS -9.99% vs Effective Gate 15% (Normal) fails by ~25 pts; ER 18.11%/yr passes but cannot override MoS. Decart ~$7B (unconfirmed) = small strategic bolt-on for AWS silicon portability. SOTP FV $231 is independent of price (implied 21.3x vs fwd P/E 24.0x). HOLD existing exposure, no ADD case; Q3 print late Oct = re-base.",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-11",
+      "updated": "2026-10-15",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "Amazon เป็นเจ้าของโครงสร้างพื้นฐาน 2 ชั้นที่คนอื่นสร้างตามไม่ทัน — AWS (cloud #1 ของโลก, op margin 39.4%) และเครือข่าย fulfillment/logistics ที่ทำให้ retail + advertising ($19.8B/ไตรมาส, +26%) ทำกำไรได้ — ชนะด้วย scale ที่ทบต้นมา 30 ปี",
@@ -899,14 +899,14 @@
     "action": "watch",
     "actionLabel": "Watch",
     "conviction": 2,
-    "waf": 6.0,
+    "waf": 5.98,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 336.64,
+    "price": 342.96,
     "fv": 272,
-    "mos": -23.76,
-    "fpe": 35.55,
-    "peg": 4.09,
+    "mos": -26.09,
+    "fpe": 36.22,
+    "peg": 4.16,
     "scores": {
       "bq": [
         9.5,
@@ -919,9 +919,9 @@
         60
       ],
       "va": [
-        1.2,
+        1.1,
         "orange",
-        12
+        11
       ],
       "ra": [
         7.0,
@@ -929,12 +929,12 @@
         70
       ]
     },
-    "idea": "News check (3x MONITOR): smart-home hub launch 10-13 + M&A head reshuffle under Ternus - no numbers. MoS -23.76%, PEG 4.09, ER 4.53% vs gate 20% - all fail. WATCH - price vs 8.7% growth, not quality.",
-    "updated": "2026-10-11",
+    "idea": "News check (🔴 10-12 = re-syndicated M&A-chief item; 10-13 HomeView hub launch, no numbers). Price +1.9% to $342.96: MoS -26.09%, PEG 4.16, ER 4.17% vs gate 15% - all fail. WATCH - price vs 8.7% growth, not quality. Q4 FY26 print late Oct = next re-base.",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-11",
+      "updated": "2026-10-15",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "Apple ขายฮาร์ดแวร์ระดับพรีเมียมที่ผูกผู้ใช้ 2.5B+ เครื่องไว้กับ ecosystem ของตัวเอง แล้วเก็บค่าเช่าจาก ecosystem นั้นผ่าน Services (gross margin 75-77%, 1.5B paid subscriptions) — ชนะเพราะ switching cost ที่สะสมมา 40+ ปี ไม่ใช่เพราะนำหน้าด้านเทคโนโลยีในทุกเรื่อง",
@@ -1054,9 +1054,9 @@
     "waf": 5.83,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 158.96,
+    "price": 152.16,
     "fv": 62,
-    "mos": -156.39,
+    "mos": -145.42,
     "fpe": null,
     "peg": null,
     "scores": {
@@ -1081,12 +1081,12 @@
         23
       ]
     },
-    "idea": "Price-only recompute: price +4.09% to $158.96, MoS -146.31%->-156.39% (deep FAIL, price-driven), ER FAIL. Speculative tier: no STARTER, no pay-up. Lockup tranches continue into Oct/Dec (supply overhang). WATCH.",
-    "updated": "2026-10-04",
+    "idea": "Price-only recompute: price -4.3% to $152.16, MoS -145.42% (deep FAIL), ER FAIL. Speculative tier: no STARTER. Lockup wave 10-24 + ~1.3B shares after Q3 (early Nov) = supply overhang. WATCH.",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-04",
+      "updated": "2026-10-15",
       "tier": "⚠️ Speculative",
       "tier_slug": "speculative",
       "what": "SpaceX รวม 3 ธุรกิจที่ต้นทุนเชื่อมกันไว้ในบริษัทเดียว — Space (Falcon 9 reusability = cost moat ที่คู่แข่ง replicate แทบไม่ได้), Connectivity (Starlink 12.0M subs, Adj EBITDA margin 60.5% = เครื่องผลิตเงินสด), และ AI (xAI/Grok/X + merchant compute 1.4GW) — ชนะเพราะจรวดของตัวเองส่งดาวเทียมของตัวเองในราคาทุน ซึ่งไม่มีใครทำได้",
@@ -1134,9 +1134,9 @@
     "waf": 5.57,
     "wafBadge": "waf-low",
     "wafComposite": "waf-composite-amber",
-    "price": 370.59,
+    "price": 367.16,
     "fv": 290,
-    "mos": -27.79,
+    "mos": -26.61,
     "fpe": null,
     "peg": null,
     "scores": {
@@ -1161,12 +1161,12 @@
         30
       ]
     },
-    "idea": "Price-only recompute: MoS -25.61%->-27.79% (deeper FAIL). Q3 deliveries 486.5k (+beat vs 462k consensus) = demand datapoint, but op margin 1.4% / FCF negative / related-party SpaceX marks unchanged; ER numerically passes (EPS growth 21.8% input) but flagged low-quality. Next real test = Q3 earnings 10-21. WATCH.",
-    "updated": "2026-10-04",
+    "idea": "Time-trigger recompute: MoS -26.61% (deep FAIL). Op margin 1.4% / FCF negative / related-party marks unchanged. Speculative tier: no STARTER. Q3 earnings 10-21 = next real test (margin, FCF, Cybercab). WATCH.",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-04",
+      "updated": "2026-10-15",
       "tier": "⚠️ Speculative",
       "tier_slug": "speculative",
       "what": "Tesla ขายรถ EV + energy storage และกำลังเดิมพันว่าจะแปลงฐานรถ 8M+ คันบนถนนเป็นเครือข่าย autonomy (FSD 1.5M ผู้ใช้จ่ายเงิน, attach rate ~55% ในอเมริกาเหนือ) — ชนะได้ถ้า FSD กลายเป็นซอฟต์แวร์ margin สูงบนฮาร์ดแวร์ที่ขายไปแล้ว",
