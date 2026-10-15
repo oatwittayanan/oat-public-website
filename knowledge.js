@@ -3052,7 +3052,10 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 | FY2024 | $1,900M | n/a | n/a | n/a | $(863)M | Active power 360MW/32 data centers |
 
 ## Story Gate
-**Last Updated:** 2026-10-04  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-10-15 /warren watchlist batch 2/3 (🔴 news 10-15):** สาเหตุราคาลง = **ส่วนใหญ่ sentiment/ตลาดเครดิต** + ต้นทุนเงินทุนจริงที่สูงขึ้น: 10-13/14 หุ้นกู้ CoreWeave 2032 yield ~15% (+~1.5pt ใน 1 สัปดาห์; ออกที่ 9.75% เม.ย.) หลัง Chamath/Musk ('Yikes') โพสต์เรื่อง private-credit/AI debt → CRWV −15%, NBIS −10%, IREN −10~12% วันที่ 10-14 และไหลต่อ overnight; CreditSights ชี้ lease ยาว vs สัญญาลูกค้าสั้นกว่า; ไม่มี guide เปลี่ยน ไม่มีสัญญาถูกยกเลิก ไม่มี filing ใหม่. ราคา $89.62→$65.78 (−26.6%). Thesis ไม่เปลี่ยน — **IF WRONG เดิมระบุไว้แล้วว่า 'credit market จะ re-price debt'** ซึ่งเริ่มเกิดขึ้นจริงที่ตลาดหุ้นกู้ (ยังไม่ใช่ margin/ลูกค้าลด commitment) → RA 3.0→2.5 จากต้นทุนเงินทุนส่วนเพิ่ม (FCF ติดลบ ~$25B ปีนี้ ต้องระดมทุนต่อเนื่อง, หนี้+lease ~$52B, ดอกเบี้ย Q2 $640M 2× YoY). FV $35 carried (ไม่มี filing ใหม่; Q3 11-11). Tier ⚠️ Speculative ไม่เปลี่ยน, AVOID ไม่เปลี่ยน. TQR 5.55 Peripheral reused (ประเด็น RA* funding cost ฝากไว้ให้ /warren theme รอบหน้า).
+
 
 **2026-10-04 /warren watchlist batch 4/4:** Price $87.59->$89.62 (+2.3%) + time trigger. New news 09-24/09-28/10-02 all MONITOR (new AI-platform contract, 3rd consecutive Platinum ClusterMAX, Forge launch + CEO 'no GPU order cuts') - no number changed; no new filing since Q2 10-Q. 09-26 net-debt-aware rebuild carried: FV $35 (4.0x x $12.5B - $28.4B net debt / 610M sh). Debt/dilution check: total debt $35.1B, converts OTM (2033 conv $97.85), 35M-share ATM unissued, capex $31-35B => continuing funding need; top-2 customers ~65% revenue. MoS -156.06% vs gate 15%, ER -17.14%/yr, WAF 5.17. TQR 5.55 Peripheral reused. Action AVOID. ไม่มี tier change.
 
@@ -3074,7 +3077,11 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 **Tier Basis:** Speculative — IPO มี.ค. 2025 (< 2 ปี standalone track record) + upside หลัก (backlog $99.4B แปลงเป็นกำไรจริง) ยังไม่อยู่ในงบ (Net Loss $(740)M ใน Q1 ล่าสุด, Adj Op Margin เพียง 1%) + capital intensity/leverage สูงมากจนยังพิสูจน์ "moat" ไม่ได้ว่าอยู่ตรง software/orchestration layer จริงหรือเป็นแค่ first-mover capacity advantage ที่ hyperscaler ไล่ตามทันได้
 
 ## Valuation Range
-**Last Updated:** 2026-10-04  |  **Price ณ วันนั้น:** $89.62  |  **Method:** EV/Sales จริง (หัก net debt จาก Q2 10-Q) — FV Base rebuilt $77→$35
+**Last Updated:** 2026-10-15  |  **Price ณ วันนั้น:** $65.78  |  **Method:** EV/Sales จริง (หัก net debt จาก Q2 10-Q) — FV Base $35 carried (09-26 rebuild)
+
+> 🔄 **News/price refresh (10-15, batch 2/3)** — หุ้นกู้ 2032 yield ~15% → ราคา $89.62→$65.78 (−26.6%; 52w 60.55–150.40; pre-market 10-15 $62.06). FV Base $35 carried (09-26 net-debt rebuild); MoS −156.06%→**−87.94%** vs gate 15%; ER −11.86%/yr; RA 3.0→2.5 (funding cost); VA 1.5→2.0; WAF 5.17→**5.22**; AVOID. ถ้าต้องระดมทุนใหม่ที่ ~15% equity residual จะบางลงอีก (Bear 2.2× EV < net debt).
+>
+
 
 > 🔄 **Price/time refresh (10-04, batch 4/4)** — ราคา $89.62; FV Base $35 carried (09-26 rebuild); MoS -156.06% vs Effective Gate 15%; ER -17.14%/yr; WAF 5.17; Action AVOID.
 >
@@ -3117,7 +3124,7 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 | **Base** | $12.5B | 4.0× | $50.0B | $28.4B | **$35** |
 | **Bear** | $12.5B | 2.2× | $27.5B | $28.4B | **$0** (equity ≈ 0) |
 
-**ราคา:** $87.59 (09-26) · **MoS: −150.3%** (gate 20%) ✗ · **ER: −16.8%/yr** ✗ · **WAF 5.17** (BQ 6.0 · GP 8.5 · VA 1.5 · RA 3.0) → **AVOID** (ไม่เปลี่ยน). แต่ละ 0.5× ของ multiple ≈ $10/หุ้น — equity เป็นส่วนเหลือบางมาก.
+**ราคา:** $65.78 (10-15) · **MoS: −87.9%** (gate 15%) ✗ · **ER: −11.9%/yr** ✗ · **WAF 5.22** (BQ 6.0 · GP 8.5 · VA 2.0 · RA 2.5) → **AVOID** (ไม่เปลี่ยน). แต่ละ 0.5× ของ multiple ≈ $10/หุ้น — equity เป็นส่วนเหลือบางมาก.
 
 ### Data Sources
 - **Earnings Data (09-26):** Q2 FY26 10-Q + Exhibit 99-1 + Earnings Presentation + 8-K 09-17/09-22 (primary, ingested). ก่อนหน้า: Q1 FY2026 10-Q + Exhibit 99-1 + Earnings Call + Earnings Presentation (06-17) — Q2 FY2026 actuals (rev $2.58B, backlog $104B) sourced via WebSearch this batch, not yet re-ingested as primary doc
@@ -3128,7 +3135,7 @@ CoreWeave คือ "The Essential Cloud for AI" — ผู้ให้บริ
 
 **TQR (จาก AI-Revolution.md v3, 2026-09-06):** **5.55** (⬆ จาก 5.30 v2) → **Out band → 🥉 Peripheral, ceiling 0%→10%** — BQ ธีมขึ้น 5.5→6.0 จากหลักฐาน Platinum-tier/premium-pricing เดียวกับที่การ์ดปรับไปแล้ว 08-29 (band change ระดับธีม ไม่ใช่ business change ใหม่ที่การ์ดนี้). **ไม่เปลี่ยน action วันนี้** — WAF 5.75 < 6.5 ยังบล็อค BUY อยู่ดี (Step 5 WAF gate เป็นอิสระจาก TQR ceiling)
 
-**Action:** ❌ **AVOID** (2026-09-19) — WAF 5.95 LOW + Speculative + financing/dilution ต่อเนื่อง; MoS −5.66% ไม่น่าเชื่อถือ (FV ไม่หัก net debt)
+**Action:** ❌ **AVOID** (2026-10-15) — WAF 5.22 LOW + Speculative + funding cost พุ่ง (หุ้นกู้ ~15%); MoS −87.9% vs gate 15%, ER −11.9%/yr
 
 ## Recent News
 **2026-10-15** — ราคา bond yield พุ่งสูงถึง 15% ท่ามกลางการขายออกตลาดคลาวด์เนโอ; สัญญาณเตือนความเสี่ยงเกี่ยวกับการเงินและความเป็นไปได้ของตลาด | [src](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUTREV2tRTU9idzFHQnRpQUp6dFhMR250NVE4UHNiSk5mbWJiRDF3bkxHT21FMEpnY0V0Wk9uZ2VSbGFObVp6OXUtQWNPUjFwMlVhVVNla2c3QjlvWHZCNkZRSVNlc2V3QmdpQkNtOG96MWtOQmJYUmZwX1p2bV9FZGhQUy1mNXR1b2Q2VEVWMHN1ZWN2Qmw0OHJnTG81WkstT1ZINGlkMGdmYzg4OHVCRFVZcUJsZk1ERWhB?oc=5) | 🔴MATERIAL
@@ -3851,7 +3858,10 @@ IREN (เดิมชื่อ Iris Energy) คือผู้เป็นเจ
 | FY2025 (ปีงบเต็ม) | n/a | $86.9M | n/a | กำไรสุทธิครั้งแรกในประวัติบริษัท (เทียบขาดทุน $(28.9)M FY2024, $(171.8)M FY2023); operating capacity ~810MW, เปิดตัว AI Cloud Services 2024 |
 
 ## Story Gate
-**Last Updated:** 2026-10-04  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-10-15 /warren watchlist batch 2/3:** Time trigger (11d) + ราคา $41.76→$30.56 (−26.8%, ~−37% ตั้งแต่ปลาย ก.ย.). ไม่มีข่าว IREN. สาเหตุราคาลง = **ส่วนใหญ่ sentiment/ตลาดเครดิต** + ต้นทุนเงินทุนจริงที่สูงขึ้น: 10-13/14 หุ้นกู้ CoreWeave 2032 yield ~15% (+~1.5pt ใน 1 สัปดาห์; ออกที่ 9.75% เม.ย.) หลัง Chamath/Musk ('Yikes') โพสต์เรื่อง private-credit/AI debt → CRWV −15%, NBIS −10%, IREN −10~12% วันที่ 10-14 และไหลต่อ overnight; CreditSights ชี้ lease ยาว vs สัญญาลูกค้าสั้นกว่า; ไม่มี guide เปลี่ยน ไม่มีสัญญาถูกยกเลิก ไม่มี filing ใหม่. FV $34 (10-04 FY26 rebuild) carried → MoS พลิกเป็น +10.1% **แต่ไม่ใช่ STARTER**: tier ⚠️ Speculative (STARTER ใช้ได้เฉพาะ 🏛️/🚀) + TQR Out (ceiling 0%) + ER 2.2%/yr. Thesis/tier ไม่เปลี่ยน → AVOID.
+
 
 **2026-10-04 /warren watchlist batch 4/4:** Time-trigger (22d). Price $44.13->$41.76 (-5.4%); no Recent News. **FY26 primary docs ingested** (Ex.99.1 + 10-K, 08-27): revenue $707M (AI cloud $128.8M; Q4 $70.5M), $4bn contracted ARR targeted operational by 12/31/26 but only $1bn operating at 08-26, Horizon 1 delivered to Microsoft, NVIDIA Exemplar status, new frontier-lab contract. **Debt/dilution check:** debt $7.59B (vs ~$1B a year ago; principal $7.7B) incl. $3.6B Microsoft GPU financing (6.0%) + new $2.8B GPU financings (9.0% tranche), shares 258M->394M (+53%) via ~$4.7B equity raises; Microsoft largest counterparty; $639M impairments. Prior FV $47 (net_debt null, 357M sh) rebuilt: **$34** (see Valuation Range 10-04 block). MoS -22.82% vs gate 15%; ER -4.03%/yr; WAF 5.10. TQR 5.08 Out (ceiling 0%) reused - candidate for recalculation at next /warren theme (business evidence 08-27 not yet in playbook). Action AVOID. ไม่มี tier change.
 
@@ -3873,7 +3883,11 @@ IREN (เดิมชื่อ Iris Energy) คือผู้เป็นเจ
 **Tier Basis:** Speculative — แม้มี Microsoft $9.7B + NVIDIA $3.4B contract และ track record กำไรครั้งแรก แต่ business model transition ยังไม่จบ (Net Loss $(247.8)M ล่าสุดจาก impairment), customer concentration รุนแรง (Microsoft กลายเป็น single largest counterparty), convertible debt ซับซ้อน $3.69B หลาย tranche — upside หลักยังอิงการ execute transition ที่ยังพิสูจน์ไม่ครบ ไม่เข้าเกณฑ์ Fast Grower/Pre-Inevitable จนกว่าจะเห็น margin stabilize หลัง transition
 
 ## Valuation Range
-**Last Updated:** 2026-10-04  |  **Price ณ วันนั้น:** $41.76  |  **Method:** Price/ARR (pre-stabilized profitability) — FV Base carried forward unchanged, price + qualitative refresh only
+**Last Updated:** 2026-10-15  |  **Price ณ วันนั้น:** $30.56  |  **Method:** EV/Sales on contracted ARR (pre-stabilized profitability), net-debt adjusted — FV Base $34 carried (10-04 rebuild)
+
+> 🔄 **Price/time refresh (10-15, batch 2/3)** — ราคา $30.56 (52w 28.93–76.87 ใกล้ low; pre-market 10-15 $29.82); FV Base $34 carried (10-04 rebuild: ($4.0B contracted ARR × 4.5× − PF net debt $2,581M) ÷ 453M); MoS −22.82%→**+10.12%** (ตัวเลขอยู่ในช่วง 8–15 แต่ **ไม่ eligible STARTER** — Speculative + TQR Out); ER +2.16%/yr; VA 3.0→4.5; WAF 5.10→**5.48**; AVOID. ⚠️ FV $34 เป็นค่าด้านสูง (GPU tranche Microsoft ที่ยังไม่ draw + capex ที่ยังไม่ fund จะดัน net debt ขึ้น → FV ~$28–30 ⇒ MoS ~0).
+>
+
 
 > 🔄 **10-04 REBUILD (batch 4/4) — supersedes the $47 / MoS numbers below.** FV = (contracted ARR $4.0B x 4.5x - PF net debt $2,581M) / 453M sh = **$34** (Bull 6.0x $47 / Bear 2.5x $16). Net debt (06-30): debt $7,593.0M - 2029/2030 converts $435.9M (conv $13.64/$16.81, treated as converted: +29.7M sh) + finance leases $243.8M - cash+restricted $7,619.5M = -$218.7M; + $2.8B new GPU financings (announced 08-27, funds GPUs) = $2,581M. Shares 394.06M (08-14) + 29.7M + 23.3M RSU + 5.5M options = ~453M. Price $41.76 -> MoS **-22.82%**, ER **-4.03%/yr**, WAF **5.10** (BQ 5.0 / GP 8.0 / VA 3.0 / RA 3.0). Caveats: $4B is a 12/31/26 target (only $1B operating; "recognized revenue may be materially lower"); undrawn Microsoft DDTL/USPP tranches and unfunded GPU capex would raise PF net debt (FV upper-end). Action AVOID.
 >
@@ -3901,14 +3915,14 @@ IREN (เดิมชื่อ Iris Energy) คือผู้เป็นเจ
 
 | Scenario | ARR Target | Multiple | Fair Value | Probability |
 |----------|-----|---------|-----------|------------|
-| **Bull** | $3.7B | 6.0× | $62 | 20% |
-| **Base** | $3.7B | 4.5× | $47 | 50% |
-| **Bear** | $3.7B | 2.5× | $26 | 30% |
+| **Bull** | $4.0B | 6.0× | $47 | 20% |
+| **Base** | $4.0B | 4.5× | $34 | 50% |
+| **Bear** | $4.0B | 2.5× | $16 | 30% |
 
-**Weighted Fair Value:** $47 (carried forward, unchanged)
-**ราคาปัจจุบัน:** $43.83 *(09-12, prices_cache.json; prev $35.45)*
-**Margin of Safety:** **+6.74%** = ($47−$43.83)÷$47 — **พลิกกลับต่ำกว่า gate อีกครั้ง** จาก rebound ของราคา (+23.6%) — ยืนยันว่า MoS ที่เคยเป็นบวกมากใน batch ก่อนเป็น noise ของราคา ไม่ใช่หลักฐานเชิงคุณภาพ
-**5-yr Expected Return:** **~+1.41%/yr** (convergence +1.41% + growth 0%, ไม่มี EPS-based growth ที่สะอาด — ยังขาดทุน/impairment-heavy) → ✗ ยังไม่ผ่าน gate ≥15%
+**Fair Value Base:** $34 (10-04 rebuild, net of PF net debt $2,581M / 453M sh; table updated 10-15)
+**ราคาปัจจุบัน:** $30.56 *(10-15, prices_cache.json = 10-14 close)*
+**Margin of Safety:** **+10.12%** = ($34−$30.56)÷$34 — ต่ำกว่า gate 15%; Speculative + TQR Out → ไม่ใช่ STARTER
+**5-yr Expected Return:** **~+2.16%/yr** (convergence +2.16% + growth 0%) → ✗ FAIL (gate ≥15%)
 
 ### Data Sources
 - **Earnings Data:** Q3 FY2026 10-Q + Exhibit 99-1 + Earnings Call + Earnings Presentation (06-17) — FY2026 annual report (08-27, $639M impairment) sourced via WebSearch this batch, not yet re-ingested as primary doc
@@ -3919,7 +3933,7 @@ IREN (เดิมชื่อ Iris Energy) คือผู้เป็นเจ
 
 **TQR (จาก AI-Revolution.md v3, 2026-09-06):** 5.08 → **Out band, ceiling 0%** (ไม่เปลี่ยนจาก v2) — freehold land/power เป็นข้อได้เปรียบเชิงโครงสร้างจริง แต่ scale AI-cloud ยังเล็ก + Resilience ต่ำ (Bitcoin mining ที่เหลือกำลัง wind-down ไม่ใช่กันชนถาวร) → **BUY Decision Flow หยุดที่ Step 1.5**
 
-**Action:** ❌ AVOID — สองด่านอิสระบล็อค BUY พร้อมกัน: **WAF 5.35 < 6.5** (Step 5) และ **TQR Out ceiling 0%** (Step 1.5) — MoS พลิกกลับเป็น +6.74% (ต่ำกว่า gate) จากราคาที่ rebound +23.6% ยืนยันว่ารอบก่อนเป็น price noise ไม่ใช่คุณภาพดีขึ้น. ติดตาม margin stabilization หลัง Microsoft ramp เต็มก่อน reconsider tier/TQR
+**Action:** ❌ AVOID (2026-10-15) — สองด่านอิสระบล็อค: **TQR Out ceiling 0%** (Step 1.5) + **WAF 5.48 < 6.5** (Step 5); MoS +10.1% มาจากราคาร่วง (credit scare) บน FV ด้านสูง ไม่ใช่คุณภาพดีขึ้น; Speculative ห้าม STARTER; ER 2.2%/yr
 
 ## Recent News
 
@@ -6152,7 +6166,10 @@ Nebius Group N.V. (เดิมชื่อ Yandex N.V. — ดูหัวข�
 | FY2024 | $91.5M | +834% | n/a | ขาดทุน | หลัง divest ธุรกิจ Russia (ก.ค. 2024) เร่ง CapEx ขึ้นมาก ($807.5M จาก $82.9M ปี 2023) |
 
 ## Story Gate
-**Last Updated:** 2026-10-04  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** ⚠️ Speculative
+
+**2026-10-15 /warren watchlist batch 2/3:** Time trigger (11d) + ราคา $242.81→$186.01 (−23.4%). ไม่มีข่าว NBIS ใหม่หลัง 09-21. สาเหตุราคาลง = **ส่วนใหญ่ sentiment/ตลาดเครดิต** + ต้นทุนเงินทุนจริงที่สูงขึ้น: 10-13/14 หุ้นกู้ CoreWeave 2032 yield ~15% (+~1.5pt ใน 1 สัปดาห์; ออกที่ 9.75% เม.ย.) หลัง Chamath/Musk ('Yikes') โพสต์เรื่อง private-credit/AI debt → CRWV −15%, NBIS −10%, IREN −10~12% วันที่ 10-14 และไหลต่อ overnight; CreditSights ชี้ lease ยาว vs สัญญาลูกค้าสั้นกว่า; ไม่มี guide เปลี่ยน ไม่มีสัญญาถูกยกเลิก ไม่มี filing ใหม่ — NBIS ลงตาม sympathy (net cash ~$3.1B + customer prepayment 50-60% ทำให้ exposure ต่อ credit repricing น้อยกว่า CRWV). FV $120 (10-04 rebuild) carried. Thesis/tier ⚠️ Speculative ไม่เปลี่ยน; TQR Out 4.95 → AVOID.
+
 
 **2026-10-04 /warren watchlist batch 4/4:** Price $237.33->$242.81 (+2.3%) + time trigger; no new Recent News since 09-21 (reviewed 09-26). **Q2 primary docs now ingested** (Ex.99.1/6-K/call, 08-12): revenue $582.3M (+454%), Adj. EBITDA $236M, FY26 guide reaffirmed (revenue $3.0-3.4B, exit ARR $7-9B, capex $20-25B, 5GW contracted power), $40B committed backlog, $9B+ customer prepayments. **Debt/dilution check found prior FV flattering:** converts $10.04B accreted principal (carrying $8.5B), 12.7M ATM shares sold in Q2 @ $224, shares 254M->271.9M, + $775M asset-backed facility; FV rebuilt with net debt + if-converted shares: $132 -> **$120** (see Valuation Range 10-04 block). MoS -102.34% vs gate 15%; ER -13.15%/yr; WAF 4.88. Governance/material-weakness/controlled-company red flags unchanged. TQR 4.95 Out (ceiling 0%) reused. Action AVOID. ไม่มี tier change.
 
@@ -6172,7 +6189,11 @@ Nebius Group N.V. (เดิมชื่อ Yandex N.V. — ดูหัวข�
 **Tier Basis:** Speculative — Adjusted Net Loss ยังติดลบ ($(100.3)M Q1 ล่าสุด แม้ Adj EBITDA เป็นบวกแล้ว), net income ส่วนใหญ่มาจาก non-cash one-time gain (ClickHouse revaluation $780.6M ไม่ใช่ recurring), customer concentration สูง (3 รายแรก = 51% รายได้), Controlled Company status (CEO คุม 52% voting power) — upside หลักยังอิงการ execute backlog ที่ยังไม่อยู่ในงบจริง + legacy/governance risk ที่สูงกว่า peer กลุ่มเดียวกัน
 
 ## Valuation Range
-**Last Updated:** 2026-10-04  |  **Price ณ วันนั้น:** $242.81  |  **Method:** Price/ARR (pre-profitability) — FV Base carried forward unchanged, price + qualitative refresh only
+**Last Updated:** 2026-10-15  |  **Price ณ วันนั้น:** $186.01  |  **Method:** EV/Sales on exit-ARR guide (pre-profitability), net-cash adjusted — FV Base $120 carried (10-04 rebuild)
+
+> 🔄 **Price/time refresh (10-15, batch 2/3)** — ราคา $186.01 (52w 73.52–299.86; pre-market 10-15 $180.33); FV Base $120 carried (10-04 rebuild: ($8.0B exit ARR × 4.2× + net cash $3,055M) ÷ 306M); MoS −102.34%→**−55.01%** vs gate 15%; ER −8.39%/yr; VA 1.8→2.3; WAF 4.88→**5.00**; AVOID (TQR Out ceiling 0%).
+>
+
 
 > 🔄 **10-04 REBUILD (batch 4/4) — supersedes the $132 / MoS numbers below.** FV = (exit ARR $8.0B x 4.2x + net cash $3,055M) / 306M sh = **$120** (Bull 6.0x $167 / Bear 2.2x $68). Net debt: converts carrying $8,499M + current debt $47M; March-2026 notes ($4,333M carrying, conv ~$183/$180 < price) treated as converted (+23.8M sh); less cash $8,042M; + $775M July facility (assumed spent) => -$3,055M. Shares 271.9M + 23.8M + ~10M awards = ~306M. Price $242.81 -> MoS **-102.34%**, ER **-13.15%/yr**, WAF **4.88** (BQ 5.0 / GP 8.5 / VA 1.8 / RA 2.5). Caveats: $8B exit ARR vs Q2 ARR $1.92B is execution-dependent; $8.0B cash is earmarked for ~$14B remaining H2 capex - PF YE net debt could be +$5-7B => FV ~$85-90; Jun/Sep-2025 converts ($4.16B) kept as debt (conv prices not in ingested docs); $1.6B non-marketable stakes excluded. Either way fails gate. Action AVOID.
 >
@@ -6199,14 +6220,14 @@ Nebius Group N.V. (เดิมชื่อ Yandex N.V. — ดูหัวข�
 
 | Scenario | ARR Target | Multiple | Fair Value | Probability |
 |----------|-----|---------|-----------|------------|
-| **Bull** | $8B | 6.0× | $189 | 15% |
-| **Base** | $8B | 4.2× | $132 | 50% |
-| **Bear** | $8B | 2.2× | $69 | 35% |
+| **Bull** | $8B | 6.0× | $167 | 15% |
+| **Base** | $8B | 4.2× | $120 | 50% |
+| **Bear** | $8B | 2.2× | $68 | 35% |
 
-**Weighted Fair Value:** $132 (carried forward, unchanged)
-**ราคาปัจจุบัน:** $224.55 *(09-12, prices_cache.json; prev $209.18)*
-**Margin of Safety:** **−70.11%** = ($132−$224.55)÷$132 — แย่ลงจาก −58.47% ตามราคาที่ขึ้น +7.35%
-**5-yr Expected Return:** **~−10.09%/yr** (convergence −10.09% + growth 0%, ไม่มี EPS-based growth เพราะยังขาดทุน GAAP) → ✗ FAIL (gate ≥15%)
+**Fair Value Base:** $120 (10-04 rebuild incl. net cash $3,055M / 306M sh; table updated 10-15)
+**ราคาปัจจุบัน:** $186.01 *(10-15, prices_cache.json = 10-14 close)*
+**Margin of Safety:** **−55.01%** = ($120−$186.01)÷$120
+**5-yr Expected Return:** **~−8.39%/yr** (convergence −8.39% + growth 0%) → ✗ FAIL (gate ≥15%)
 
 ### Data Sources
 - **Earnings Data:** Q1 2026 6-K + Exhibit 99.1/99.2 + Earnings Call + 20-F (FY2025) — Q2 2026 actuals (ARR $1.92B, revenue $582.3M) sourced via WebSearch this batch, not yet re-ingested as primary doc
@@ -6217,7 +6238,7 @@ Nebius Group N.V. (เดิมชื่อ Yandex N.V. — ดูหัวข�
 
 **TQR (จาก AI-Revolution.md v3, 2026-09-06):** 4.95 → **Out band, ceiling 0%** (ไม่เปลี่ยนจาก v2) — Resilience ต่ำเกือบสุดในธีม (2.0, ~98% รายได้ผูก AI cloud) + RA* ต่ำสุด (governance/material-weakness red flags) → **BUY Decision Flow หยุดที่ Step 1.5 ไม่ว่า MoS จะดีขึ้นแค่ไหน**
 
-**Action:** ❌ AVOID — WAF 5.00 (LOW) + TQR Out (ceiling 0%) + MoS แย่ลงเป็น −70.11% (ราคาขึ้น +7.35%) + red flags สะสม (legacy/governance/material weakness ยังไม่ remediate) + Speculative tier (ไม่ pay up) — Palantir partnership (09-11) เป็นสัญญาณ customer-diversification บวกที่ควรจับตา แต่ยังไม่พอเปลี่ยน tier/TQR band
+**Action:** ❌ AVOID (2026-10-15) — TQR Out (ceiling 0%) + WAF 5.00 LOW + MoS −55.0% vs gate 15% + Speculative; ราคาลงจาก neocloud credit scare ไม่ใช่ข่าวบริษัท
 
 ## Recent News
 **2026-09-21** — นีเบียส เพิ่มราคาบริการ AI Cloud ขณะยกระดับคุณภาพ; สะท้อนความต้องการ Compute ที่ไม่หลุดลอยและความเชื่อมั่นในแนวโน้มเก็บเงินของบริษัท | [src](https://news.google.com/rss/articles/CBMilgFBVV95cUxON3JKTmtVOHFfd25CRUpqckh6U3lxanV5Y2N1MzhXeEhlbE4xblJMaFhWV0FhMUhDVFA4NEJJM0V0U0cwM1g1ajhlbVJBMm5aSV9vaUdqMDN0WjNkQjdNODR5dXlEb3BQMEpDTUN5ci1STVVQa3NOd0d4aUhHRWI3SzNGR1drR0tSQ1Q0VXR1RFowaF96YVE?oc=5) | 🔴MATERIAL
@@ -7817,7 +7838,7 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 ## Analyst Research Notes
 
-**Last Updated:** 2026-10-11 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-10-15 (date synced with Story Gate/Valuation Range per Card Consistency rule)
 
 **Update (2026-10-04, /warren watchlist batch 3/4) [WARREN THESIS]** — Price $187.50→$195.13 (+4.07%). 09-28 Solidigm US IPO bake-off (~$150B valuation, raise สูงสุด $15B, listing เร็วสุดปี 2027, ยังไม่มี formal plan) = optionality/capital-structure ไม่มีตัวเลข normalized revenue/margin ใหม่ → FV Base $60 (08-18 rebuild) carried. MU FQ4 (GM 87%, FQ1 guide +13% QoQ) = read-across ราคา memory ยังขึ้น. MoS −225.22%, ER −6.01%/yr, WAF 5.97 LOW → WATCH. ไม่มี tier change. Charlie 08-18 CAUTION (FV gap 18.4%) ยังเปิดอยู่. TQR 6.50 Peripheral reused.
 
@@ -7956,7 +7977,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Story Gate
-**Last Updated:** 2026-10-11  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+> ✅ **Reconfirmed 2026-10-15 (/warren watchlist batch 2/3, price −12.7%)** — WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. ไม่มีข่าว SKHY ใหม่หลัง 09-28. ราคา $169.03→$147.55. สาเหตุราคาลง = **sentiment/sector-driven ไม่ใช่พื้นฐานบริษัท**: 10-12 CXMT ประกาศความคืบหน้า memory-cell ความหนาแน่นสูง + server product ภายในสิ้นปี 2026 (MU −3.9%, SKHY −4.0%) → 10-13 Kospi −6.5% intraday (sell-side curb, ต่างชาติขายสุทธิ ~W2T, SK Hynix ในโซล −9%) → 10-14 กระแส AI-debt/neocloud ลามมา hardware. ไม่มีข้อมูลราคา contract memory ใหม่ ไม่มี guide ลด ไม่มีลูกค้าหาย; MU FQ4/FQ1 guide แข็ง, Samsung prelim Q3 สถิติใหม่. CXMT = KPI ใน playbook (cost gap ~10%, เส้นแตก = gap <5% + scale >400K wpm) — ประกาศ design ยังไม่ใช่ breach → watch item. ไม่ปรับ normalized basis. ไม่มี tier change. TQR 6.50 Peripheral (reused). งบ Q3 ปลาย ต.ค. = บททดสอบจริง.
 
 > ✅ **Reconfirmed 2026-10-11 (/warren watchlist batch 1/3, price −13.4%)** — WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. ไม่มีข่าว SKHY ใหม่หลัง 09-28. ราคา $195.13→$169.03 ตรงกับ Samsung prelim Q3 (10-08): OP ~W107.4T, memory OP ประเมิน ~W110T เทียบประมาณการ SK Hynix Q3 W70–78T = คู่แข่งไล่กำไร memory ทัน (สอดคล้อง KPI playbook HBM share 2027E Samsung 41% vs SKHY 39%) — เป็นตัวเลขประมาณการ ไม่ใช่งบ SK Hynix → ไม่ปรับ normalized basis. ราคาลงยังไม่ใช่ trough ที่พิสูจน์แล้ว. ไม่มี tier change. TQR 6.50 Peripheral (reused). งบ Q3 ปลาย ต.ค. = บททดสอบจริง.
 
@@ -7981,7 +8004,10 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-10-11  |  **Price:** $169.03 (prices_cache.json, 2026-10-11) |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
+**Last Updated:** 2026-10-15  |  **Price:** $147.55 (prices_cache.json, 2026-10-15 = 10-14 close) |  **Tier:** 🔁 Cyclical  |  **Method:** Normalized mid-cycle earnings × normal multiple, FV Base carried forward unchanged from the 08-18 bottom-up Revenue-as-Base rebuild (price-only recompute this batch)
+
+> 🔄 **Price-triggered recompute (10-15, batch 2/3)** — FV $60 (rev 131,000 × 25.6% ÷ 7,288.65M × 13×, 08-18 rebuild) carried. Price $169.03→$147.55 (−12.71%; 52w 124.80–199.87; pre-market 10-15 $138). ราคาลง = sector/sentiment (CXMT + Kospi rout + AI-debt scare) ไม่ใช่พื้นฐาน. MoS −181.72%→**−145.92%** vs gate 15% (VIX 16.87 Normal), ER −1.5%/yr, fwd P/E (normalized) 32.1×. VA 1.6→1.8, WAF 6.03→**6.08** LOW. Charlie 08-18 CAUTION (FV gap 18.4%) ยังเปิด. WATCH.
+
 
 > 🔄 **Price-triggered recompute (10-11, batch 1/3)** — FV $60 (rev 131,000 × 25.6% ÷ 7,288.65M × 13×, 08-18 rebuild) carried. Price $195.13→$169.03 (−13.38%; 52w 124.80–199.87). MoS −225.22%→**−181.72%** vs gate 20% (VIX 14.84 Calm → regime shift 15%→20%), ER −3.7%/yr, fwd P/E (normalized) 36.7×. VA 1.4→1.6, WAF 5.97→**6.03** LOW. Charlie 08-18 CAUTION (FV gap 18.4%) ยังเปิด. WATCH.
 
@@ -8011,11 +8037,11 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $177.00/ADS (prices_cache.json, 2026-09-19) | — |
+| Current Price | $147.55/ADS (prices_cache.json, 2026-10-15) | — |
 | Fair Value Base | **$60** (carried forward from 08-18 rebuild) | — |
-| **Margin of Safety** | **−195.00%** ((FV−Price)÷FV) | ✗ FAIL (gate 20% — Calm VIX mode this batch) — widens further as price rose +9.91% away from FV |
-| **5-yr Expected Return** | **~−4.44%/yr** (convergence −19.44% + growth 15%) | ✗ FAIL (gate ≥15%) |
-| Forward P/E on normalized EPS | 38.48× ($177.00 ÷ $4.60) | ⚠️ well above the 13× normalized anchor — the whole valuation case |
+| **Margin of Safety** | **−145.92%** ((FV−Price)÷FV) | ✗ FAIL (gate 15% — Normal VIX mode) |
+| **5-yr Expected Return** | **~−1.47%/yr** (convergence −16.47% + growth 15%) | ✗ FAIL (gate ≥15%) |
+| Forward P/E on normalized EPS | 32.08× ($147.55 ÷ $4.60) | ⚠️ well above the 13× normalized anchor |
 
 ### Fair Value Scenarios (per ADS)
 
@@ -8031,9 +8057,9 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 |-----------|-------|--------|--------------|-----------|
 | BQ (Business Quality) | 7.75 | 30% | 2.325 | Held — HBM #1 + concrete LTA lock-in + record op margins unchanged this batch (no new print); Indiana/Japan capacity announcements are demand-visibility narrative, no BQ input yet |
 | GP (Growth Potential) | 8.5 | 30% | 2.55 | Held — same demand drivers; CEO's "shortage through 2030" comment is corroborating narrative, not a quantifiable growth data point this batch |
-| VA (Valuation) | 1.5 | 25% | 0.375 | **Down from 1.8** — MoS widens -168.40%→-195.00% and ER worsens -2.92%→-4.44%/yr as price rose +9.91% away from FV; both still deep FAILs |
+| VA (Valuation) | 1.8 | 25% | 0.45 | 10-15: MoS −145.92%, ER −1.47%/yr — price fell −12.7% (sector/sentiment), still deep FAILs |
 | RA (Risk Assessment) | 5.0 | 15% | 0.75 | Held — Samsung/CXMT competition, customer concentration, controlled-company/FPI structure unchanged; Indiana "$720B" figure now corrected to ~$4B (positive clarification, not a new risk) |
-| **WAF Total** | **6.00** | | **LOW** | *(down from 6.05 — VA down from the price rise; still same LOW band, no material conviction change)* |
+| **WAF Total** | **6.08** | | **LOW** | *(10-15; BQ/GP/RA held)* |
 
 **Investment Idea:** HBM #1 franchise, real evidence for de-cycling (concluded LTAs, 2 quarters of record-rising op margin) — price rose +9.91% this batch ($161.04→$177.00), widening the gap further from the independently-rebuilt normalized FV ($60). The 08-28 Indiana-fab "$720B" headline flagged as unverified on 08-29 is now **corrected** via WebSearch to a real ~$4B Indiana packaging plant inside a $45B total-US-by-2030 plan — a positive clarification but still not quantifiable into near-term earnings (HBM4E volume production not until Q3 2029). ไม่ไล่ซื้อ cyclical ที่ยังพิสูจน์ down-cycle ไม่ได้ — narrative catalysts (however fundamentally real long-term) are not a substitute for a lower entry price or a proven cycle trough.
 
@@ -8041,7 +8067,7 @@ SK hynix เป็นหนึ่งในผู้ผลิต memory semicondu
 
 **Thesis Risk:** ถ้า de-cycling เป็นจริงเต็มที่ (margin ยืน >50% ต่อเนื่อง 2+ ปีข้าม down-cycle จริง) → normalized earnings ควรใกล้ peak มากกว่านี้ ทั้ง FV $60 รอบนี้และ $110 รอบก่อนอาจต่ำไป — **นี่คือความเสี่ยงหลักของการ short/avoid ตัวนี้**, ไม่ใช่แค่ downside risk; downside เพิ่มเติมถ้า Samsung/CXMT HBM parity บีบ margin จริงตามคาด
 
-**Action:** 👀 **WATCH** (2026-10-11) — MoS −181.7% vs gate 20% (Calm), ER −3.7%/yr
+**Action:** 👀 **WATCH** (2026-10-15) — MoS −145.9% vs gate 15% (Normal), ER −1.5%/yr, WAF 6.08 LOW
 
 ---
 
@@ -8209,7 +8235,7 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ─────────────────────────────── Warren Zone ──
 
 ## Analyst Research Notes
-**Last Updated:** 2026-10-04 (date synced with Story Gate/Valuation Range per Card Consistency rule)
+**Last Updated:** 2026-10-15 (date synced with Story Gate/Valuation Range per Card Consistency rule)
 
 **Update (2026-10-04, /warren watchlist batch 3/4) [WARREN THESIS]** — Price $1,791.82→$1,719.99 (−4.01%). ไม่มีข่าว SNDK ใหม่ตั้งแต่ 09-02; FV Base $415 (09-19 rebuild) carried. MoS −314.46%, ER −16.75%/yr, WAF 4.65 LOW → WATCH. ไม่มี tier change. MU FQ4 = read-across ราคาแข็ง แต่ mix โต ~2/3 จากราคา ไม่เปลี่ยน. FQ1 FY27 งบ ~ต้น พ.ย. = test ถัดไป. TQR 5.50 Peripheral reused.
 
@@ -8237,7 +8263,9 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Story Gate
-**Last Updated:** 2026-10-04  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+**Last Updated:** 2026-10-15  |  **Status:** PASS  |  **Tier:** 🔁 Cyclical
+
+> ✅ **Reconfirmed 2026-10-15 (/warren watchlist batch 2/3, price −18.4%)** — WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. ข่าว SNDK หลัง gate มีแค่ 10-05 (NAND shortage commentary) + 10-14 (รางวัล GMIF2026) = ไม่มีตัวเลขใหม่. ราคา $1,719.99→$1,403.34. สาเหตุราคาลง = **sentiment/sector-driven ไม่ใช่พื้นฐานบริษัท**: 10-12 CXMT ประกาศความคืบหน้า memory-cell ความหนาแน่นสูง + server product ภายในสิ้นปี 2026 (MU −3.9%, SKHY −4.0%) → 10-13 Kospi −6.5% intraday (sell-side curb, ต่างชาติขายสุทธิ ~W2T, SK Hynix ในโซล −9%) → 10-14 กระแส AI-debt/neocloud ลามมา hardware. ไม่มีข้อมูลราคา contract memory ใหม่ ไม่มี guide ลด ไม่มีลูกค้าหาย; MU FQ4/FQ1 guide แข็ง, Samsung prelim Q3 สถิติใหม่. CXMT = KPI ใน playbook (cost gap ~10%, เส้นแตก = gap <5% + scale >400K wpm) — ประกาศ design ยังไม่ใช่ breach → watch item — SNDK beta สูงกว่า (ต่ำกว่า 52w high ~40%). FV $415 (09-19 normalized) carried. ไม่มี tier change. TQR 5.50 Peripheral (reused). FQ1 FY27 ~ต้น พ.ย. = test ถัดไป.
 
 > ✅ **Reconfirmed 2026-10-04 (/warren watchlist batch 3/4)** — WHAT/WHY NOW/IF WRONG/Tier Basis ไม่เปลี่ยน. Price $1,791.82→$1,719.99 (−4.01%). ไม่มีข่าว SNDK ใหม่ตั้งแต่ 09-02; FV Base $415 (09-19 rebuild) carried. MoS −314.46%, ER −16.75%/yr, WAF 4.65 LOW → WATCH. ไม่มี tier change. MU FQ4 = read-across ราคาแข็ง แต่ mix โต ~2/3 จากราคา ไม่เปลี่ยน. FQ1 FY27 งบ ~ต้น พ.ย. = test ถัดไป. TQR 5.50 Peripheral reused.
 
@@ -8258,7 +8286,10 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 ---
 
 ## Valuation Range
-**Last Updated:** 2026-10-04  |  **Price:** $1,719.99 (prices_cache.json, 2026-10-04) |  **Tier:** 🔁 Cyclical  |  **Method:** WAF Watchlist Refresh — normalized mid-cycle earnings (ห้ามใช้ peak EPS)
+**Last Updated:** 2026-10-15  |  **Price:** $1,403.34 (prices_cache.json, 2026-10-15 = 10-14 close) |  **Tier:** 🔁 Cyclical  |  **Method:** Revenue normalized mid-cycle × 13× (09-19 rebuild, ห้ามใช้ peak EPS) — price-only recompute this batch
+
+> 🔄 **Price-triggered recompute (10-15, batch 2/3)** — FV $415 (rev $18.0B × 28% ÷ 158M × 13×, 09-19 rebuild) carried. Price $1,719.99→$1,403.34 (−18.41%; 52w 130.50–2,354.39; pre-market 10-15 $1,351). ราคาลง = sector/sentiment (CXMT + Kospi rout + AI-debt scare) ไม่ใช่พื้นฐาน SNDK. MoS −314.46%→**−238.15%** vs gate 15%, ER −13.6%/yr, fwd P/E (normalized) 44.0×. VA 1.2→1.3, WAF 4.65→**4.67**. WATCH.
+
 
 > 🔄 **2026-10-04 (batch 3/4)** — Price $1,791.82→$1,719.99 (−4.01%). ไม่มีข่าว SNDK ใหม่ตั้งแต่ 09-02; FV Base $415 (09-19 rebuild) carried. MoS −314.46%, ER −16.75%/yr, WAF 4.65 LOW → WATCH. ไม่มี tier change. MU FQ4 = read-across ราคาแข็ง แต่ mix โต ~2/3 จากราคา ไม่เปลี่ยน. FQ1 FY27 งบ ~ต้น พ.ย. = test ถัดไป. TQR 5.50 Peripheral reused.
 
@@ -8270,31 +8301,31 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 
 | Metric | Value | Gate |
 |--------|-------|------|
-| Current Price | $1,740.00 | — |
-| Fair Value Base | $1,700 | — |
-| **Margin of Safety** | **−2.35%** | ✗ FAIL (พลิกลบจาก +12.65% — ราคาทะลุ FV Base เป็นครั้งแรก; gate 20% — Calm mode VIX 14.32 รอบนี้) |
-| **5-yr Expected Return** | **≈−31.46%/yr** (convergence −0.46% + cyclical mean-reversion growth ≈−31%) | ✗ FAIL badly (gate ≥15%) |
-| Method | Normalized EPS × mid-cycle multiple | Cyclical — ไม่ใช้ PEG |
+| Current Price | $1,403.34 (10-14 close) | — |
+| Fair Value Base | $415 | — |
+| **Margin of Safety** | **−238.15%** | ✗ FAIL (gate 15% — Normal VIX mode) |
+| **5-yr Expected Return** | **≈−13.63%/yr** (convergence −21.63% + growth 8%) | ✗ FAIL (gate ≥15%) |
+| Method | Normalized revenue $18.0B × net margin 28% ÷ 158M = EPS $31.9 × 13× | Cyclical — ไม่ใช้ PEG |
 
-> Growth input unchanged at ~-31%/yr (5-yr analyst out-year mean-reversion trajectory). ราคาขึ้น +17.17% รอบนี้ทำให้ MoS พลิกจาก +12.65% (08-29) เป็น **−2.35%** — ราคาเทรดเหนือ normalized FV Base เป็นครั้งแรกนับตั้งแต่เริ่มติดตาม. ER ยัง fail หนักตามเดิม.
+> ตาราง Snapshot/Scenarios/WAF แทนที่ฐานเก่า ($1,700, ก่อน 09-19 rebuild) ที่ค้างอยู่ในการ์ด — 10-15.
 
 ### Fair Value Scenarios
 
 | Scenario | Fair Value | vs Price | Basis |
 |----------|-----------|----------|-------|
-| **Bull** | $2,200 | +43.4% | NBM ทำให้ earnings durable จริง (margin ไม่ย้อน 40s) + AI datacenter supercycle ยืดยาว (unchanged) |
-| **Base** | $1,700 | +10.8% | Normalized mid-cycle EPS × ~12-14× — margin ปรับลงจาก peak แต่สูงกว่ารอบก่อนจาก mix datacenter (unchanged) |
-| **Bear** | $1,100 | -28.3% | ASP ย้อน 40s% + underutilization charge (50% fixed cost JV) + inventory write-down (unchanged) |
+| **Bull** | $889 | −36.7% | NBM/datacenter LTAs (RPO $41.6B) de-cycle จริง — normalized margin/revenue สูงกว่า base |
+| **Base** | $415 | −70.4% | Normalized rev $18.0B × 28% net margin ÷ 158M = $31.9 × 13× |
+| **Bear** | $136 | −90.3% | NAND down-cycle จริง (ASP ย้อน + underutilization ใน Kioxia JV) |
 
 ### WAF Score Breakdown
 
 | Component | Score | Weight | Contribution | Reasoning |
 |-----------|-------|--------|--------------|-----------|
-| BQ | 6.0 | 30% | 1.80 | Unchanged — BiCS8 tech leadership + net-cash + $41.6B RPO; commodity NAND + Kioxia JV dependence ตรึงเพดาน |
-| GP | 7.0 | 30% | 2.10 | Unchanged — AI datacenter +233% QoQ, QLC Stargate, NBM >⅓ bits FY27; $31B Japan capacity plan (08-31) เป็นสัญญาณบวกระยะยาวแต่ไม่มีตัวเลข volume/timeline ระยะสั้นให้ปรับคะแนน |
-| VA | 4.0 | 25% | 1.00 | **ลงจาก 5.9** — MoS พลิกจาก +12.65% เป็น **−2.35%** (ราคาทะลุ FV Base เป็นครั้งแรก) จากราคาขึ้น +17.17% |
-| RA | 3.0 | 15% | 0.45 | Unchanged — NAND ASP cyclical risk เดิม |
-| **WAF Total** | **5.35** | | | **LOW** (ลงจาก 5.79 — VA ลดแรงตาม MoS ที่พลิกลบ) |
+| BQ | 6.0 | 30% | 1.80 | Held — BiCS8 leadership + net-cash + RPO $41.6B; commodity NAND + Kioxia JV ตรึงเพดาน |
+| GP | 7.0 | 30% | 2.10 | Held — FQ4 growth ~⅔ ราคา ~⅓ volume (peak-price signature) |
+| VA | 1.3 | 25% | 0.325 | 10-15: MoS −238.15%, ER −13.6%/yr |
+| RA | 3.0 | 15% | 0.45 | Held — NAND ASP cyclical risk, Kioxia JV |
+| **WAF Total** | **4.67** | | | conviction ต่ำ (<5) |
 
 **TQR (จาก AI-Revolution.md v2, 2026-08-27):** 5.50 → 🥉 **Peripheral** (ขอบล่างสุดพอดี), ceiling 10% — Resilience สูงสุดในกลุ่ม Memory (Edge+Consumer >75% ของรายได้ ไม่ผูก AI capex โดยตรง) แต่ Centrality ต่ำกว่า MU/SKHY (NAND ไม่ใช่ chokepoint เท่า HBM/DRAM)
 
@@ -8304,7 +8335,7 @@ Datacenter ขับเคลื่อนโดย **TLC-based enterprise SSD** 
 
 **Thesis Risk:** NAND ASP ย้อนกลับสู่ 40s% เร็วกว่าคาด (analyst commentary ใหม่ 07-16 เริ่มยืนยันทิศทางนี้), Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ), spin-off track record <2ปี; **ใหม่:** ราคาตอนนี้ทะลุ FV Base แล้ว (MoS ลบ) — ความเสี่ยงว่าตลาดกำลัง price-in ว่า margin/pricing ระดับสูงปัจจุบันเป็นของถาวร ซึ่งขัดกับกฎ Cyclical Peak-Bias ของระบบนี้โดยตรง
 
-**Action:** 👀 **WATCH** (2026-09-19) — rebuild normalized basis: FV $415, MoS −331.8% vs gate 15%, ER −17.4%/yr, WAF 4.65 LOW; ห้ามไล่ราคา (growth ~⅔ มาจากราคา)
+**Action:** 👀 **WATCH** (2026-10-15) — FV $415 (normalized), MoS −238.2% vs gate 15%, ER −13.6%/yr, WAF 4.67; ราคาลงจาก sentiment ไม่ใช่สัญญาณซื้อ (cyclical ยังไม่พิสูจน์ trough)
 
 ## Recent News
 **2026-10-14** — SanDisk ได้รับรางวัล GMIF2026 สำหรับเทคโนโลยี NAND storage ด้าน AI; แสดงความก้าวหน้าด้าน memory solutions สำหรับโครงสร้าง AI datacenter | [src](https://news.google.com/rss/articles/CBMinAFBVV95cUxNOVFFSzY0dWFWUnQ5cVlzSzMtaU12bVk2Y1p5NGpjZWJFVWFubEZWMWpYdFFLbkVPR1hyeWhBOGNmRDduZFdKT05fZG5Uem1DR2FfODJZdVI0VzJ4eEpzRWZaQ1poc003MGVUNjdjdzhrX2pNQ291NzBNeGlnV0FtelFyOC12cTJFQVM4WXZNUzAxdklMQUZrcy0zNGk) | 🟡MONITOR

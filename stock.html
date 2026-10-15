@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="trends.js"></script>
-  <script src="knowledge.js?v=20261015155904"></script>
+  <script src="knowledge.js?v=20261015160656"></script>
   <script src="app.js" defer></script>
   <style>
     .trend-panel-overlay {
@@ -261,6 +261,19 @@ const STOCKS_INLINE = {
     risk: ['MoS เพียง 9.5% ต่ำกว่า threshold 15% — ราคายังสูงอยู่', 'Regulatory risk ทั้ง EU + US กด Commerce + Marketplace', 'CapEx AI infrastructure push ขนาดใหญ่กด FCF ระยะสั้น', 'Retail segment margin ต่ำ sensitive ต่อ macro slowdown', 'Trainium vs NVIDIA CUDA — ROI ของ custom chip ยังพิสูจน์ไม่ได้ทั้งหมด'],
     updated: '2026-10-11'
   },
+  SKHY: {
+    name: 'SK hynix Inc. ADR', sector: 'Semiconductor', sectorSlug: 'semi',
+    chips: ['Memory', 'HBM Leader'],
+    action: 'watch', actionLabel: 'Watch', conviction: 2,
+    waf: 6.08, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 147.55, fv: 60, mos: -145.92, fpe: 32.08, peg: null,
+    scores: { bq: [7.8,'amber',78], gp: [8.5,'green',85], va: [1.8,'orange',18], ra: [5.0,'orange',50] },
+    story_gate: { passed: true, status: 'PASS', tier: '🔁 Cyclical', tier_slug: 'cyclical', what: 'SK hynix เป็นผู้นำ HBM อันดับ 1 โลก (56.4% share) ผลิต advanced memory (DRAM/HBM/NAND) ซึ่งเป็นหัวใจของ AI compute — ชนะด้วย HBM technology lead (HBM4 industry-first) + qualification switching cost + scale/vertical packaging.', why: 'Consensus treats the Nvidia/SK Group AI-infrastructure partnership + sovereign-wealth-fund buying interest (and now Japan-fab exploration headlines) as confirmation that SK Hynix\'s re-rating is justified — Warren\'s second-level read: **none of these are quantified earnings events, including the 08-24 Japan news, which SK Hynix itself has not confirmed as a decision.** Even after the stock\'s -9.34% pullback since 08-18, price ($155.37) sits far above the independently-rebuilt normalized fair value ($60/ADS) — the actual hard evidence for de-cycling (concluded LTAs with ~10 customers, two quarters of record-and-rising op margin 71%→76%) remains fully priced in and then some. This is the textbook cyclical-peak trap Lynch warned about: geographic-expansion headlines and partnership buzz are not a substitute for a lower entry price or a proven cycle trough.', risk: 'ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin/Fab 2/Japan ถ้าเกิดจริง) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด (ทั้ง $60 รอบนี้และ $110 รอบก่อน), และราคาปัจจุบัน justified. Two consecutive quarters of rising (not falling) operating margin (71%→76%) plus the Nvidia partnership\'s demand visibility are themselves data points in that direction — watch Q3 (next real test).', updated: '2026-10-15' },
+    idea: 'Price -12.7% to $147.55 is a sector/sentiment drop (CXMT density headline + Korea rout + AI-debt scare), not an SKHY fundamental change; normalized FV $60 carried -> MoS -145.9%, ER -1.5%/yr. WATCH. Q3 print late Oct.',
+    bull: ['HBM leadership + AI memory demand จริง structural — LTA lock-in (~10 customers) + Nvidia/SK Group $500B+ AI-infra partnership reinforce the long-term demand case, but normalized mid-cycle earnings (rebuilt 08-18 under Revenue-as-Base) sit far below the current $155.37 price; SK Hynix still has zero down-cycle track record as a standalone public print.'],
+    risk: ['Carried forward - if de-cycling holds (margin >50% sustained through a downturn) normalized basis ($60) may be too low; Samsung/CXMT HBM parity is the offsetting risk; new capacity (Dalian +50% NAND, $39B Korea fabs) raises supply-catchup risk for 2027-28. Solidigm IPO (2027+) unconfirmed. 10-15: CXMT denser-DRAM design (server product by end-2026) adds to China catch-up risk (playbook KPI cost-gap ~10%, not breached).'],
+    updated: '2026-10-15'
+  },
   ARM: {
     name: 'Arm Holdings', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Semiconductor', 'IP Licensing'],
@@ -273,19 +286,6 @@ const STOCKS_INLINE = {
     bull: ['Armv9 royalty rate 2x Armv8 = structural revenue uplift ทุกปี', '22M+ developers ecosystem ฝังแน่นใน mobile, IoT, servers', '350B chips shipped = installed base ขนาดใหญ่ที่สุดในโลก', 'CSS (Compute Subsystem) higher royalty tier กำลัง scale', 'AWS Graviton, Apple M-series = royalty revenue ใหม่ขนาดใหญ่'],
     risk: ['P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง', 'RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue', 'Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips', 'SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure', 'UK regulatory environment ไม่แน่นอน'],
     updated: '2026-10-15'
-  },
-  SKHY: {
-    name: 'SK hynix Inc. ADR', sector: 'Semiconductor', sectorSlug: 'semi',
-    chips: ['Memory', 'HBM Leader'],
-    action: 'watch', actionLabel: 'Watch', conviction: 2,
-    waf: 6.03, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 169.03, fv: 60, mos: -181.72, fpe: 36.75, peg: null,
-    scores: { bq: [7.8,'amber',78], gp: [8.5,'green',85], va: [1.6,'orange',16], ra: [5.0,'orange',50] },
-    story_gate: { passed: true, status: 'PASS', tier: '🔁 Cyclical', tier_slug: 'cyclical', what: 'SK hynix เป็นผู้นำ HBM อันดับ 1 โลก (56.4% share) ผลิต advanced memory (DRAM/HBM/NAND) ซึ่งเป็นหัวใจของ AI compute — ชนะด้วย HBM technology lead (HBM4 industry-first) + qualification switching cost + scale/vertical packaging.', why: 'Consensus treats the Nvidia/SK Group AI-infrastructure partnership + sovereign-wealth-fund buying interest (and now Japan-fab exploration headlines) as confirmation that SK Hynix\'s re-rating is justified — Warren\'s second-level read: **none of these are quantified earnings events, including the 08-24 Japan news, which SK Hynix itself has not confirmed as a decision.** Even after the stock\'s -9.34% pullback since 08-18, price ($155.37) sits far above the independently-rebuilt normalized fair value ($60/ADS) — the actual hard evidence for de-cycling (concluded LTAs with ~10 customers, two quarters of record-and-rising op margin 71%→76%) remains fully priced in and then some. This is the textbook cyclical-peak trap Lynch warned about: geographic-expansion headlines and partnership buzz are not a substitute for a lower entry price or a proven cycle trough.', risk: 'ถ้า de-cycling เป็นจริง — operating margin ยืน >50% ต่อเนื่อง 2+ ปีแม้ capacity ใหม่ (M15X/Yongin/Fab 2/Japan ถ้าเกิดจริง) ramp เต็ม + LTA floors ยืนไม่มี oversupply price crash — แปลว่า normalized earnings อยู่ใกล้ระดับ peak จริง, FV base ผิด (ทั้ง $60 รอบนี้และ $110 รอบก่อน), และราคาปัจจุบัน justified. Two consecutive quarters of rising (not falling) operating margin (71%→76%) plus the Nvidia partnership\'s demand visibility are themselves data points in that direction — watch Q3 (next real test).', updated: '2026-10-11' },
-    idea: 'Price -13.4% narrows but does not close the gap: normalized FV $60 vs $169.03 -> MoS -181.7%, ER -3.7%/yr. Drop coincides with Samsung\'s record prelim Q3 (memory OP est ~W110T > SKHY forecasts) = competitor catching up, already in RA/TQR. Q3 print late Oct. WATCH.',
-    bull: ['HBM leadership + AI memory demand จริง structural — LTA lock-in (~10 customers) + Nvidia/SK Group $500B+ AI-infra partnership reinforce the long-term demand case, but normalized mid-cycle earnings (rebuilt 08-18 under Revenue-as-Base) sit far below the current $155.37 price; SK Hynix still has zero down-cycle track record as a standalone public print.'],
-    risk: ['Carried forward - if de-cycling holds (margin >50% sustained through a downturn) normalized basis ($60) may be too low; Samsung/CXMT HBM parity is the offsetting risk; new capacity (Dalian +50% NAND, $39B Korea fabs) raises supply-catchup risk for 2027-28. Solidigm IPO (2027+) unconfirmed.'],
-    updated: '2026-10-11'
   },
   AAPL: {
     name: 'Apple Inc.', sector: 'Big Tech', sectorSlug: 'bigtech',
@@ -339,57 +339,57 @@ const STOCKS_INLINE = {
     risk: ['P/E 150x+ ราคา assume everything goes right — zero margin for error', 'Elon Musk DOGE distraction = key person risk ต่อ CEO focus', 'BYD competition ใน China และ global EV market เข้มข้นมาก', 'EV margin กดดัน — average price ลดลง ส่วนแบ่งตลาดลดใน China', 'Optimus timeline uncertainty — production scale ยังไม่พิสูจน์'],
     updated: '2026-10-04'
   },
-  CRWV: {
-    name: 'CoreWeave, Inc.', sector: 'AI Cloud', sectorSlug: 'aicloud',
-    chips: ['AI Cloud', 'GPU-as-a-Service'],
-    action: 'avoid', actionLabel: 'Avoid', conviction: 2,
-    waf: 5.17, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 89.62, fv: 35, mos: -156.06, fpe: null, peg: null,
-    scores: { bq: [6.0,'orange',60], gp: [8.5,'green',85], va: [1.5,'orange',15], ra: [3.0,'orange',30] },
-    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'CoreWeave ให้เช่า GPU cloud capacity เฉพาะทาง AI (training/inference) ผ่านสัญญา multi-year take-or-pay — ชนะด้วยความเร็ว deploy GPU generation ใหม่ก่อนใคร (NVIDIA Exemplar Cloud status) และ relationship พิเศษกับ NVIDIA ($2B equity investment)', why: 'Consensus เห็นว่า CoreWeave คือ "neocloud leader ที่มี backlog ใหญ่สุด ($99.4B)" — Warren เห็นต่างว่าตลาดยังไม่ price-in ความเสี่ยงที่ gross margin ลดลงต่อเนื่อง 5 ไตรมาส (78%→68%) ขณะที่ debt โต $21.6B→$25.1B ภายในไตรมาสเดียว และ customer concentration (top 2 = 65% รายได้) หมายความว่า backlog ใหญ่ส่วนหนึ่งผูกกับ counterparty risk ของ AI lab ที่ยังไม่ profitable เอง', risk: 'ถ้า margin ไม่ inflect ตามที่สัญญาไว้ (Q2→Q3 FY2026) หรือลูกค้ารายใหญ่ (OpenAI/Meta) ลด commitment ระหว่างทาง credit market จะ re-price debt ของ CoreWeave ทันที เพราะ business model พึ่งพา debt-financed capacity ที่ยังไม่พิสูจน์ unit economics ที่ scale นี้', updated: '2026-10-04' },
-    idea: 'Price +2.3% to $89.62; no quantified new fundamentals (3 MONITOR items), 09-26 net-debt-aware FV $35 carried. MoS -156% vs gate 15%; ER -17.1%/yr; WAF 5.17 (VA 1.5). AVOID on numbers; TQR Peripheral (5.55, 10% ceiling) unchanged. Equity value is a thin residual of EV - FV swings ~$10/sh per 0.5x EV/Sales turn.',
-    bull: ['Revenue Backlog $99.4B (+284% YoY) จาก multi-year take-or-pay contracts = revenue visibility ยาวหลายปี', 'Q1 FY2026 Revenue $2.08B +112% YoY, Adjusted EBITDA margin 56%', 'First-to-market กับ GPU generation ใหม่ (NVIDIA GB200/GB300, Rubin) — SemiAnalysis ClusterMAX Platinum รายเดียว', 'FY2026 exit annualized run-rate revenue floor $18-19B, 2027 exit >$30B (75%+ contracted แล้ว)', 'Purpose-built AI cloud architecture ต่างจาก general-purpose hyperscaler — ได้เปรียบด้าน density/latency'],
-    risk: ['ขาดทุนสุทธิเพิ่มต่อเนื่อง Q1 FY26 Net Loss $(740)M, Total Debt $25.1B — leverage สูงมาก', 'CapEx FY2026 ปรับขึ้นเป็น $31-35B กด FCF ต่อเนื่องหลายปี', 'Customer concentration risk — พึ่งพา hyperscaler/AI lab รายใหญ่บางราย', 'GPU commoditization — ลูกค้าซื้อตรงจาก NVIDIA ได้ MOAT อยู่ที่ speed-to-deploy มากกว่า hardware', 'Insider selling pattern จาก co-founders + CFO (Rule 10b5-1 plans พ.ย. 2025)'],
-    updated: '2026-10-04'
-  },
   IREN: {
     name: 'IREN Limited', sector: 'AI Cloud', sectorSlug: 'aicloud',
     chips: ['AI Cloud', 'Data Center Infrastructure'],
     action: 'avoid', actionLabel: 'Avoid', conviction: 2,
-    waf: 5.1, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 41.76, fv: 34, mos: -22.82, fpe: null, peg: null,
-    scores: { bq: [5.0,'orange',50], gp: [8.0,'green',80], va: [3.0,'orange',30], ra: [3.0,'orange',30] },
-    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'IREN เปลี่ยนจาก Bitcoin miner เป็น AI Cloud provider โดยใช้ความได้เปรียบจาก vertically-integrated land/power/data-center ที่สั่งสมมา 7 ปี — ชนะด้วย freehold ownership (ไม่เช่า) ที่ให้ cost advantage เหนือ neocloud ที่พึ่ง third-party hosting', why: 'Consensus เห็นว่า IREN คือ "Bitcoin miner ที่กำลัง pivot สู่ AI" — Warren เห็นต่างว่าตลาดยังไม่แยกแยะว่า IREN มี **กำไรสุทธิจริงครั้งแรก** (FY2025 $86.9M) และ secured power 5GW ที่ใหญ่กว่าคู่แข่ง pivot เดียวกันหลายเท่า แต่ราคาตลาดกำลัง price-in การ execute สำเร็จเต็มที่ทั้งที่ Microsoft/NVIDIA contract เพิ่งเริ่ม ramp และ impairment จาก decommission mining hardware ยังกัดกินงบต่อเนื่อง', risk: 'ถ้า margin ของ AI Cloud Services ไม่ inflect ตามคาดหลัง Microsoft contract เริ่ม ramp (Q3 CY26/Q1 FY27) หรือ impairment เพิ่มเติมจากการเปลี่ยนผ่าน Bitcoin→AI เกินกว่าที่ตลาดคาด', updated: '2026-10-04' },
-    idea: 'FY26 results ingested; FV rebuilt with net debt/dilution: $47 -> $34 (4.5x x contracted ARR $4.0B - PF net debt $2.6B / 453M sh). Price $41.76; MoS -22.8% vs gate 15%, ER -4.0%/yr; WAF 5.10; TQR Out (5.08, ceiling 0%) independently blocks BUY. AVOID. Business progress real (Microsoft Horizon 1, Exemplar status, pricing up) but ARR is mostly not yet operating and funded by $7.6B of debt.',
+    waf: 5.48, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 30.56, fv: 34, mos: 10.12, fpe: null, peg: null,
+    scores: { bq: [5.0,'orange',50], gp: [8.0,'green',80], va: [4.5,'orange',45], ra: [3.0,'orange',30] },
+    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'IREN เปลี่ยนจาก Bitcoin miner เป็น AI Cloud provider โดยใช้ความได้เปรียบจาก vertically-integrated land/power/data-center ที่สั่งสมมา 7 ปี — ชนะด้วย freehold ownership (ไม่เช่า) ที่ให้ cost advantage เหนือ neocloud ที่พึ่ง third-party hosting', why: 'Consensus เห็นว่า IREN คือ "Bitcoin miner ที่กำลัง pivot สู่ AI" — Warren เห็นต่างว่าตลาดยังไม่แยกแยะว่า IREN มี **กำไรสุทธิจริงครั้งแรก** (FY2025 $86.9M) และ secured power 5GW ที่ใหญ่กว่าคู่แข่ง pivot เดียวกันหลายเท่า แต่ราคาตลาดกำลัง price-in การ execute สำเร็จเต็มที่ทั้งที่ Microsoft/NVIDIA contract เพิ่งเริ่ม ramp และ impairment จาก decommission mining hardware ยังกัดกินงบต่อเนื่อง', risk: 'ถ้า margin ของ AI Cloud Services ไม่ inflect ตามคาดหลัง Microsoft contract เริ่ม ramp (Q3 CY26/Q1 FY27) หรือ impairment เพิ่มเติมจากการเปลี่ยนผ่าน Bitcoin→AI เกินกว่าที่ตลาดคาด', updated: '2026-10-15' },
+    idea: 'Price -26.8% to $30.56 (neocloud credit scare, no IREN news) flips MoS to +10.1% on an upper-end FV $34 - NOT a STARTER: Speculative tier + TQR Out (ceiling 0%) + ER 2.2%/yr. WAF 5.48. AVOID. Re-examine only if Q1 FY27 (Nov) shows ARR converting to recognised revenue.',
     bull: ['เปลี่ยนโมเดลจาก Bitcoin Mining สู่ AI Cloud — ARR under contract $3.1B รวมสัญญา NVIDIA 5 ปี + Microsoft $9.7B/5ปี', 'Vertically integrated เป็นเจ้าของ data center/ที่ดิน/electrical infra เอง (ไม่เช่า) = cost advantage', 'Secured power 5GW ทั่วโลก, 2026 target 480MW AI Cloud capacity + 150,000 GPUs', 'NVIDIA strategic partnership — right to invest สูงสุด $2.1B ผูกกับ milestone deploy 600,000 GPU', 'FY2025 กำไรครั้งแรก Net Income $86.9M, Cash $2.6B (ณ เม.ย. 2026)'],
     risk: ['Net Loss Q3 FY2026 $(247.8)M จาก impairment ตอน decommission mining hardware', 'Capital intensity สูงมาก CapEx ~$1.5B ต่อไตรมาส ต้องพึ่ง debt/equity ต่อเนื่อง — Convertible Notes $3.7B', 'Revenue ผันผวนตามราคา Bitcoin (mining ยังเป็นสัดส่วนใหญ่กว่า AI Cloud ปัจจุบัน)', 'Co-CEO พี่น้อง Roberts คุม voting power 35.4% ผ่าน Class B = control concentration', 'Mirantis acquisition เพิ่งเสร็จ พ.ค. 2026 ยังต้องพิสูจน์ integration'],
-    updated: '2026-10-04'
+    updated: '2026-10-15'
+  },
+  CRWV: {
+    name: 'CoreWeave, Inc.', sector: 'AI Cloud', sectorSlug: 'aicloud',
+    chips: ['AI Cloud', 'GPU-as-a-Service'],
+    action: 'avoid', actionLabel: 'Avoid', conviction: 2,
+    waf: 5.22, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 65.78, fv: 35, mos: -87.94, fpe: null, peg: null,
+    scores: { bq: [6.0,'orange',60], gp: [8.5,'green',85], va: [2.0,'orange',20], ra: [2.5,'orange',25] },
+    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'CoreWeave ให้เช่า GPU cloud capacity เฉพาะทาง AI (training/inference) ผ่านสัญญา multi-year take-or-pay — ชนะด้วยความเร็ว deploy GPU generation ใหม่ก่อนใคร (NVIDIA Exemplar Cloud status) และ relationship พิเศษกับ NVIDIA ($2B equity investment)', why: 'Consensus เห็นว่า CoreWeave คือ "neocloud leader ที่มี backlog ใหญ่สุด ($99.4B)" — Warren เห็นต่างว่าตลาดยังไม่ price-in ความเสี่ยงที่ gross margin ลดลงต่อเนื่อง 5 ไตรมาส (78%→68%) ขณะที่ debt โต $21.6B→$25.1B ภายในไตรมาสเดียว และ customer concentration (top 2 = 65% รายได้) หมายความว่า backlog ใหญ่ส่วนหนึ่งผูกกับ counterparty risk ของ AI lab ที่ยังไม่ profitable เอง', risk: 'ถ้า margin ไม่ inflect ตามที่สัญญาไว้ (Q2→Q3 FY2026) หรือลูกค้ารายใหญ่ (OpenAI/Meta) ลด commitment ระหว่างทาง credit market จะ re-price debt ของ CoreWeave ทันที เพราะ business model พึ่งพา debt-financed capacity ที่ยังไม่พิสูจน์ unit economics ที่ scale นี้', updated: '2026-10-15' },
+    idea: 'Bond-market scare (2032 yield ~15%) drove -26.6% to $65.78. FV $35 carried (no new filing); RA 3.0->2.5 on higher marginal funding cost. MoS -87.9%, ER -11.9%/yr, WAF 5.23. AVOID. TQR Peripheral 5.55 unchanged (RA* funding-cost point flagged for next /warren theme).',
+    bull: ['Revenue Backlog $99.4B (+284% YoY) จาก multi-year take-or-pay contracts = revenue visibility ยาวหลายปี', 'Q1 FY2026 Revenue $2.08B +112% YoY, Adjusted EBITDA margin 56%', 'First-to-market กับ GPU generation ใหม่ (NVIDIA GB200/GB300, Rubin) — SemiAnalysis ClusterMAX Platinum รายเดียว', 'FY2026 exit annualized run-rate revenue floor $18-19B, 2027 exit >$30B (75%+ contracted แล้ว)', 'Purpose-built AI cloud architecture ต่างจาก general-purpose hyperscaler — ได้เปรียบด้าน density/latency'],
+    risk: ['ขาดทุนสุทธิเพิ่มต่อเนื่อง Q1 FY26 Net Loss $(740)M, Total Debt $25.1B — leverage สูงมาก', 'CapEx FY2026 ปรับขึ้นเป็น $31-35B กด FCF ต่อเนื่องหลายปี', 'Customer concentration risk — พึ่งพา hyperscaler/AI lab รายใหญ่บางราย', 'GPU commoditization — ลูกค้าซื้อตรงจาก NVIDIA ได้ MOAT อยู่ที่ speed-to-deploy มากกว่า hardware', 'Insider selling pattern จาก co-founders + CFO (Rule 10b5-1 plans พ.ย. 2025)'],
+    updated: '2026-10-15'
   },
   NBIS: {
     name: 'Nebius Group N.V.', sector: 'AI Cloud', sectorSlug: 'aicloud',
     chips: ['AI Cloud', 'Full-Stack GPU Cloud'],
     action: 'avoid', actionLabel: 'Avoid', conviction: 2,
-    waf: 4.88, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 242.81, fv: 120, mos: -102.34, fpe: null, peg: null,
-    scores: { bq: [5.0,'orange',50], gp: [8.5,'green',85], va: [1.8,'orange',18], ra: [2.5,'orange',25] },
-    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'Nebius เป็น full-stack AI-native cloud (hardware design เองถึง software) สำหรับ training/inference — ชนะด้วย NVIDIA strategic alignment (Exemplar Cloud status, $2B equity investment) และ owned-infrastructure ratio สูง (>75%)', why: 'Consensus เห็นว่า Nebius คือ "neocloud เล็กที่กำลังโตเร็วที่สุดในกลุ่ม (+684% YoY)" — Warren เห็นต่างว่าตลาดยัง underweight ความเสี่ยงจาก Yandex legacy (KYC/banking onboarding ช้า) และ material weakness 2 จุดที่ยังไม่ remediate เต็มที่จนถึงปลายปี 2026 ขณะที่ valuation ปัจจุบัน (P/ARR ~8.9×) แพงกว่า CRWV/IREN มากแม้มี red flag เยอะกว่า', risk: 'ถ้า Meta $27B deal หรือ Microsoft contract ส่งมอบไม่ตรงเวลา (มีรายงาน delay ที่ Vineland NJ แล้ว) หรือ material weakness ไม่ remediate ตามสัญญา "by end of 2026"', updated: '2026-10-04' },
-    idea: 'Price +2.3% to $242.81; Q2 primary docs ingested and FV rebuilt with net debt/dilution: $132 -> $120 (EV/Sales 4.2x x exit ARR $8B, + net cash $3.1B, / 306M sh). MoS -102.3% vs gate 15%; ER -13.2%/yr; WAF 4.88 (VA 1.8). TQR Out (4.95, ceiling 0%) blocks BUY at Step 1.5 regardless of price. AVOID. Note $8B exit ARR vs $1.92B Q2 ARR is an execution-dependent guide.',
+    waf: 5.0, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 186.01, fv: 120, mos: -55.01, fpe: null, peg: null,
+    scores: { bq: [5.0,'orange',50], gp: [8.5,'green',85], va: [2.3,'orange',23], ra: [2.5,'orange',25] },
+    story_gate: { passed: true, status: 'PASS', tier: '⚠️ Speculative', tier_slug: 'speculative', what: 'Nebius เป็น full-stack AI-native cloud (hardware design เองถึง software) สำหรับ training/inference — ชนะด้วย NVIDIA strategic alignment (Exemplar Cloud status, $2B equity investment) และ owned-infrastructure ratio สูง (>75%)', why: 'Consensus เห็นว่า Nebius คือ "neocloud เล็กที่กำลังโตเร็วที่สุดในกลุ่ม (+684% YoY)" — Warren เห็นต่างว่าตลาดยัง underweight ความเสี่ยงจาก Yandex legacy (KYC/banking onboarding ช้า) และ material weakness 2 จุดที่ยังไม่ remediate เต็มที่จนถึงปลายปี 2026 ขณะที่ valuation ปัจจุบัน (P/ARR ~8.9×) แพงกว่า CRWV/IREN มากแม้มี red flag เยอะกว่า', risk: 'ถ้า Meta $27B deal หรือ Microsoft contract ส่งมอบไม่ตรงเวลา (มีรายงาน delay ที่ Vineland NJ แล้ว) หรือ material weakness ไม่ remediate ตามสัญญา "by end of 2026"', updated: '2026-10-15' },
+    idea: 'Sympathy sell-off with neocloud credit scare (-23.4% to $186.01); no NBIS fundamental news. FV $120 carried -> MoS -55.0%, ER -8.4%/yr, WAF 5.00. TQR Out (4.95, ceiling 0%) blocks BUY regardless of price. AVOID.',
     bull: ['Nebius AI cloud ARR $1.92B (+674% YoY) Q1 2026, guidance exit 2026 $7-9B', 'Group Revenue Q1 2026 $399M +684% YoY, Adjusted EBITDA margin group 32% (AI cloud segment 45%)', 'Contracted Power >3.5GW ยกระดับ guidance เป็น >4GW สิ้นปี 2026 — รวม site ใหม่ Pennsylvania', 'Cash position แข็งแกร่ง $9.3B หลัง convertible notes + equity offering — พร้อม fund CapEx expansion', 'Equity stake ClickHouse revalue มูลค่าสูงขึ้นมาก (Series D ~$15B) = hidden asset value'],
     risk: ['Adjusted Net Loss ยังติดลบต่อเนื่อง $(100.3)M แม้ Group Net Income บวกจาก one-time ClickHouse gain', 'CapEx FY2026 ปรับขึ้นเป็น $20-25B ผูกกับ commitment ลูกค้าปี 2027 (เช่น Meta)', 'Total Debt เพิ่มขึ้นมากจาก convertible notes ใหม่ $8.4B', 'CEO Arkady Volozh คุม voting power ~52% ผ่าน Class B = Controlled Company, governance concentration', 'Legacy Yandex/Russia association — perception risk แม้แยกธุรกิจแล้ว'],
-    updated: '2026-10-04'
+    updated: '2026-10-15'
   },
   SNDK: {
     name: 'Sandisk Corporation', sector: 'Semiconductor', sectorSlug: 'semi',
     chips: ['Memory', 'NAND Flash'],
-    action: 'watch', actionLabel: 'Watch', conviction: 2,
-    waf: 4.65, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
-    price: 1719.99, fv: 415, mos: -314.46, fpe: 53.92, peg: null,
-    scores: { bq: [6.0,'orange',60], gp: [7.0,'amber',70], va: [1.2,'orange',12], ra: [3.0,'orange',30] },
-    story_gate: { passed: true, status: 'PASS', tier: '🔁 Cyclical', tier_slug: 'cyclical', what: 'Sandisk เป็นผู้นำ NAND flash technology (BiCS8 = gold standard) ผ่าน Flash Ventures JV กับ Kioxia — spin-off จาก WDC ก.พ. 2025; วางตัวเป็น NAND partner สำหรับ AI inference (KV cache/RAG) + สร้าง New Business Model (สัญญา multi-year ลด cyclicality).', why: 'Consensus (bull) มองว่า AI datacenter demand + NBM ทำให้ margin 78% เป็น "structurally higher"; Warren ระวังว่า **margin 78.4% คือ peak ของ pricing spike** — ราคาร่วงต่ออีก -12.7% รอบนี้ (คลื่นเดียวกับ SK Hynix ร่วงแรงสุดใน ~20 ปี) ทำให้ MoS ดีขึ้นมากแต่ยังไม่ผ่าน gate; ที่สำคัญกว่านั้น analysts เริ่มปรับมุมมองว่า NAND ASP จะร่วงเร็วกว่าที่เคยประเมิน (supply เริ่มเกิน demand เร็วกว่าคาด) — สัญญาณใหม่ที่ยืนยันทิศทาง mean-reversion เดิมของการ์ดนี้ แต่อาจมาเร็วกว่าที่ FV Base timeline สมมติไว้.', risk: 'NAND ASP ย้อนกลับสู่ 40s% (over-capacity รอบใหม่) เร็วกว่าคาด — ตอนนี้มี analyst signal เริ่มยืนยันทิศทางนี้แล้ว, หรือ Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, หรือ NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ). Lynch peak signal: analyst upgrade รัวๆ + low P/E จาก peak EPS.', updated: '2026-10-04' },
-    idea: 'Price-only recompute - price -4.0%, MoS -331.76%->-314.4% (still deep FAIL). FV $415 carried (no new SNDK financials). MU\'s strong FQ4/FQ1 guide supports pricing but SNDK mix (~2/3 price-driven growth) unchanged. WATCH.',
+    action: 'watch', actionLabel: 'Watch', conviction: 3,
+    waf: 4.67, wafBadge: 'waf-low', wafComposite: 'waf-composite-amber',
+    price: 1403.34, fv: 415, mos: -238.15, fpe: 43.99, peg: null,
+    scores: { bq: [6.0,'orange',60], gp: [7.0,'amber',70], va: [1.3,'orange',13], ra: [3.0,'orange',30] },
+    story_gate: { passed: true, status: 'PASS', tier: '🔁 Cyclical', tier_slug: 'cyclical', what: 'Sandisk เป็นผู้นำ NAND flash technology (BiCS8 = gold standard) ผ่าน Flash Ventures JV กับ Kioxia — spin-off จาก WDC ก.พ. 2025; วางตัวเป็น NAND partner สำหรับ AI inference (KV cache/RAG) + สร้าง New Business Model (สัญญา multi-year ลด cyclicality).', why: 'Consensus (bull) มองว่า AI datacenter demand + NBM ทำให้ margin 78% เป็น "structurally higher"; Warren ระวังว่า **margin 78.4% คือ peak ของ pricing spike** — ราคาร่วงต่ออีก -12.7% รอบนี้ (คลื่นเดียวกับ SK Hynix ร่วงแรงสุดใน ~20 ปี) ทำให้ MoS ดีขึ้นมากแต่ยังไม่ผ่าน gate; ที่สำคัญกว่านั้น analysts เริ่มปรับมุมมองว่า NAND ASP จะร่วงเร็วกว่าที่เคยประเมิน (supply เริ่มเกิน demand เร็วกว่าคาด) — สัญญาณใหม่ที่ยืนยันทิศทาง mean-reversion เดิมของการ์ดนี้ แต่อาจมาเร็วกว่าที่ FV Base timeline สมมติไว้.', risk: 'NAND ASP ย้อนกลับสู่ 40s% (over-capacity รอบใหม่) เร็วกว่าคาด — ตอนนี้มี analyst signal เริ่มยืนยันทิศทางนี้แล้ว, หรือ Kioxia JV ต่ออายุ 2029/2034 มีปัญหา, หรือ NBM enforcement ล้มเมื่อเจอ downturn จริง (ยังไม่ผ่านการทดสอบ). Lynch peak signal: analyst upgrade รัวๆ + low P/E จาก peak EPS.', updated: '2026-10-15' },
+    idea: 'Price -18.4% to $1,403.34 = sector/sentiment drop (CXMT + Korea rout + AI-debt scare; no SNDK fundamental news). Normalized FV $415 carried -> MoS -238.2%, ER -13.6%/yr. WATCH. FQ1 FY27 early Nov.',
     bull: ['Q3 FY2026 Revenue $5.95B +251% YoY, Non-GAAP Gross Margin 78.4% ทะลุ guidance มาก (memory supercycle)', 'Datacenter segment โต +645% YoY จาก enterprise SSD สำหรับ AI workloads', 'Net cash position — จ่ายหนี้หมดแล้ว (Long-term debt = $0) หลัง spin-off จาก WDC', 'Non-GAAP EPS $23.41 ไตรมาสเดียว เกิน guidance มาก = operating leverage สูงมากในช่วง upcycle', 'NAND flash supply chain oligopoly (Flash Ventures JV กับ Kioxia) = barrier to entry สูง'],
     risk: ['Memory เป็น commodity cyclical — margin พุ่งแรงตอน upcycle แต่มีความเสี่ยง downcycle รุนแรง (เหมือน MU)', 'Bit shipments flat YoY, down high-teens QoQ — สะสม inventory รอ product ใหม่ (BiCS8 QLC)', 'พึ่งพา Kioxia JV เกือบทั้งหมดสำหรับ flash supply — ไม่ควบคุม manufacturing เอง', 'Valuation reflect upcycle sentiment มาก — Lynch peak signal risk คล้ายที่เจอใน MU/SKHY', 'Consumer segment หดตัว QoQ ตาม seasonality'],
-    updated: '2026-10-04'
+    updated: '2026-10-15'
   },
 };
 
