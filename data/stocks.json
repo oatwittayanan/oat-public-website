@@ -30,11 +30,11 @@
     "waf": 8.78,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 233.95,
+    "price": 221.3,
     "fv": 384,
-    "mos": 39.08,
-    "fpe": 15.24,
-    "peg": 0.51,
+    "mos": 42.37,
+    "fpe": 14.42,
+    "peg": 0.48,
     "scores": {
       "bq": [
         9.5,
@@ -57,12 +57,12 @@
         51
       ]
     },
-    "idea": "Price+news refresh — price +3.9% ($225.07->$233.95); MoS 41.39%->39.08%, passes effective gate 15% (Normal) by 24 pts. 🔴MATERIAL = record +$150B buyback authorization (09-28; $235B remaining through FY2028): signals confidence in cash generation, but an authorization is not execution and adds no revenue/margin number -> FV Base $384 carried (Revenue-as-Base, shares 23.7B). Next print Q3 FY27 (late Nov). Action BUY holds.",
-    "updated": "2026-10-04",
+    "idea": "Refresh 10-15 — price -5.4% ($233.95->$221.30); MoS 42.37% vs gate 15% (regime shift back to Normal) = passes by 27 pts; PEG 0.48, ER 41.7%/yr, WAF 8.78. FV $384 carried (FY28 guide-midpoint basis). Reflection AI talks = acqui-hire pattern (antitrust watch), not a FV input. BUY holds — position cap 25% (TQR Strong).",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-04",
+      "updated": "2026-10-15",
       "tier": "🚀 Pre-Inevitable",
       "tier_slug": "pre-inevitable",
       "what": "NVIDIA sells full-stack AI factory platforms (Blackwell → Vera Rubin) dominated by CUDA ecosystem lock-in (7.5M devs, 1.5M AI models) + Vera CPU $200B TAM purpose-built for agentic AI + Physical AI ($9B+ 12mo).",
@@ -187,14 +187,14 @@
     "action": "hold",
     "actionLabel": "Hold",
     "conviction": 4,
-    "waf": 7.83,
+    "waf": 7.98,
     "wafBadge": "waf-mid",
     "wafComposite": "waf-composite-blue",
-    "price": 453.31,
-    "fv": 411,
-    "mos": -10.29,
-    "fpe": 22.07,
-    "peg": 1.1,
+    "price": 430.0,
+    "fv": 423.4,
+    "mos": -1.56,
+    "fpe": 20.31,
+    "peg": 1.02,
     "scores": {
       "bq": [
         9.5,
@@ -207,9 +207,9 @@
         95
       ],
       "va": [
-        5.2,
+        5.8,
         "orange",
-        52
+        58
       ],
       "ra": [
         5.5,
@@ -217,12 +217,12 @@
         55
       ]
     },
-    "idea": "Refresh — price -4.1% ($472.78->$453.31); MoS -10.29% vs gate 20% (30 pts short). Q3 revenue NT$1.494T beat guide high-end (Sept +54.6% YoY) = demand thesis confirmed, but FV $411 waits for consensus/guide reset at 10-15 call. PEG 1.10, ER 18.1%/yr. HOLD.",
-    "updated": "2026-10-11",
+    "idea": "Q3 rebase 10-15 — beat (US$46.72B vs guide 44.6-45.8) + Q4 guide US$52.3-54.3B; FY27 consensus NT$7.43T -> FV $411->$423; price $430 (pre-print close) -> MoS -1.56% vs gate 15% (16.6 pts short). PEG 1.02, ER 19.7%, WAF 7.98 HIGH. HOLD (holding; no add). ⚠️ price does not reflect today's print.",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-11",
+      "updated": "2026-10-15",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "TSMC is the sole high-volume producer of advanced semiconductors (N3, N2, A16) — no top-tier AI chip ships without TSMC; NVIDIA-TSMC partnership locks in the relationship long-term.",
@@ -266,15 +266,15 @@
     ],
     "action": "watch",
     "actionLabel": "Watch",
-    "conviction": 3,
-    "waf": 7.48,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 1780.34,
-    "fv": 1709,
-    "mos": -4.17,
-    "fpe": 31.24,
-    "peg": 1.42,
+    "conviction": 4,
+    "waf": 7.84,
+    "wafBadge": "waf-mid",
+    "wafComposite": "waf-composite-blue",
+    "price": 1650.0,
+    "fv": 1789.5,
+    "mos": 7.8,
+    "fpe": 27.66,
+    "peg": 1.26,
     "scores": {
       "bq": [
         9.5,
@@ -282,14 +282,14 @@
         95
       ],
       "gp": [
-        8.5,
+        8.7,
         "green",
-        85
+        87
       ],
       "va": [
-        4.4,
+        5.6,
         "orange",
-        44
+        56
       ],
       "ra": [
         6.5,
@@ -297,12 +297,12 @@
         65
       ]
     },
-    "idea": "Refresh — price -4.7% ($1867.31->$1780.34); MoS -4.17% vs effective gate 20% (Calm-mode regime shift 15->20) = 24 pts short, not STARTER. PEG 1.42, ER 21.2%/yr passes but MoS gate fails. 🔴10-09 news = Q3 preview only. FV Base $1,709 carried until Q3 print (10-14/15). WATCH.",
-    "updated": "2026-10-11",
+    "idea": "Q3 rebase 10-15 — FY27 consensus EUR56.72B -> FV $1,709->$1,790; price $1,650 (post-print close) -> MoS +7.80% vs gate 15% = 7.2 pts short, just outside STARTER band (8-15). PEG 1.26, ER 23.6%, WAF 7.84 HIGH. WATCH — near STARTER; pre-market $1,628 would be MoS 9.0% (in band) -> re-check on next verified close.",
+    "updated": "2026-10-15",
     "story_gate": {
       "passed": true,
       "status": "PASS",
-      "updated": "2026-10-11",
+      "updated": "2026-10-15",
       "tier": "🏛️ Inevitable",
       "tier_slug": "inevitable",
       "what": "ASML is the sole global producer of EUV lithography systems—the only machines capable of patterning leading-edge transistors—beating competitors via a multi-decade ecosystem moat (Zeiss optics, TRUMPF light sources) that cannot be replicated.",
@@ -479,6 +479,86 @@
       "date": "2026-10-11"
     }
   },
+  "AMD": {
+    "symbol": "AMD",
+    "display": "AMD",
+    "category": "ai_semiconductor",
+    "name": "AMD",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "CPU + GPU AI"
+    ],
+    "bull": [
+      "MI455X HBM bandwidth สูงกว่า NVIDIA H200 ใน bandwidth-bound workloads",
+      "EPYC market share ใน x86 server CPU expanding ต่อเนื่อง",
+      "Lisa Su execution track record = among best in semiconductor",
+      "ROCm ecosystem improving — Meta/Microsoft กำลัง adopt",
+      "Ryzen AI กำลัง capture NPU market สำหรับ AI PC"
+    ],
+    "risk": [
+      "ROCm ecosystem ตาม CUDA มากกว่า 5 ปี — switching cost ของ CUDA สูงมาก",
+      "MoS เพียง 3.1% ต่ำเกินไป — ราคาใกล้ Fair Value แล้ว",
+      "AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก",
+      "Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ",
+      "CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 3,
+    "waf": 6.69,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 570.82,
+    "fv": 329,
+    "mos": -73.5,
+    "fpe": 43.38,
+    "peg": 1.24,
+    "scores": {
+      "bq": [
+        8.5,
+        "green",
+        85
+      ],
+      "gp": [
+        9.3,
+        "green",
+        93
+      ],
+      "va": [
+        2.2,
+        "orange",
+        22
+      ],
+      "ra": [
+        5.3,
+        "orange",
+        53
+      ]
+    },
+    "idea": "Refresh 10-15 — consensus revenue rebase FY27 $87.46B->$89.05B -> FV $323->$329; price -10.0% to $570.82; MoS -73.50% vs gate 15% (~88 pts short). Helion agentic CPU rack (ships Nov) supports CPU-Renaissance thesis but no numbers. WAF 6.69 MEDIUM. WATCH.",
+    "updated": "2026-10-15",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-10-15",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "AMD เป็น sole credible #2 ใน AI accelerator (Instinct MI series) + ครอง >40% server CPU share (EPYC) + เป็นบริษัทเดียวที่มี x86 CPU + AI GPU + rack-scale Helios platform ครบในมือ",
+      "why": "Consensus (BofA, Wells Fargo, Mizuho) ตอนนี้เห็นด้วยกับ \"agentic AI CPU\" thesis แล้ว — raise TAM เป็น $170B และเรียก AMD \"top CPU pick\". Warren เห็นว่านี่คือสัญญาณว่า edge เดิม (rerating จาก 'laggard' → 'second source') กำลังกลายเป็น consensus — second-level thinking บอกว่าต้องระวังไม่ chase ราคาที่วิ่งขึ้นจาก sentiment เดียวกันกับที่ตลาดเพิ่งรู้. **2026-08-05 update (post-Q2 earnings):** Q2 FY2026 (Aug 4 after close) beat ทั้งรายได้ ($11.5B +50% YoY, เหนือ guide $11.2B±$300M) และ Non-GAAP EPS ($1.66 vs consensus $1.61) — Data Center revenue $6.7B **+107% YoY** (58% ของรายได้รวม ขึ้นจาก 42% ปีก่อน). Management **raise TAM ครั้งใหญ่**: DC AI accelerator TAM → ~$1.4T by 2030 (>45% CAGR), server CPU TAM → **~$220B by 2030 (ขึ้นจาก $120B ที่ guide แค่ไตรมาสก่อน)**. Anthropic เข้ามาเป็น anchor customer รายที่ 3 (up to 2GW MI450, AMD ลงทุนตรง $5B — ไม่ใช่ warrant structure). Q3 guide $13.0B±$300M (+41% YoY) แข็งแรง. **แต่ตลาดตอบสนองแบบ \"sell the news\"**: หุ้นวิ่งขึ้น +7% ระหว่างวัน 08-04 ปิดที่ $518.58 (ราคาที่ปรากฏใน prices_cache.json รอบนี้ — **แต่เป็นราคาปิดตลาดปกติก่อนงบออกหลังตลาดปิด ไม่ใช่ราคาล่าสุด**), แล้วร่วง after-hours -8.8% เหลือ **~$472.94** และ pre-market ต่อเนื่องแถว **$474-475** เช้า 08-05 (ยืนยันจาก yfinance fast_info previousClose $472.85 + WebSearch หลายแหล่ง — finbold/tradingkey) — expectations ที่ baked-in ไปแล้วสูงกว่าที่ผลจริงจะ satisfy ได้ แม้ผลจะ beat ตัวเลขที่ประกาศไว้ก็ตาม — วัดจากราคาก่อนงบ ($518.58) ที่ยืนเหนือ FV Base ของ Warren เองอยู่มาก (🚫 ตัวเลข analyst price target ตัดออกตามกฎห้าม PT 2026-07-20). Second-level read: TAM raise เป็นของจริง (management เอง ไม่ใช่แค่ analyst) แต่ตลาดกำลัง price-in ว่า \"ดีมากแล้ว ดีกว่านี้ยาก\" ระยะสั้น — MoS ยังคง fail gate ต่อเนื่อง แม้ที่ราคาที่ถูกกว่าที่ cache แสดง",
+      "risk": "MI450 ramp slip หรือ ROCm ตาม CUDA ไม่ทัน ทำให้ hyperscalers ไม่ adopt จริงจัง — หรือ ถ้า \"agentic CPU\" consensus narrative พิสูจน์ว่า overhype (TAM ไม่ materialize ตามที่ BofA/management project) ราคาจะ de-rate เร็ว — เพิ่มเติมรอบนี้: forward commitments ($30.3B unconditional + subsequent $5.0B investment + $9.5B new DC leases) พุ่งเร็วกว่ารายได้ ถ้า AI demand ชะลอกว่าที่ผูกพันไว้ = balance-sheet stress risk ใหม่"
+    },
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "AGREE",
+      "summary": "",
+      "risks": [],
+      "yf_price": null,
+      "warren_fv": 325,
+      "date": "2026-10-04"
+    }
+  },
   "PLTR": {
     "symbol": "PLTR",
     "display": "PLTR",
@@ -557,86 +637,6 @@
       "yf_price": 209.05,
       "warren_fv": 85,
       "date": "2026-10-11"
-    }
-  },
-  "AMD": {
-    "symbol": "AMD",
-    "display": "AMD",
-    "category": "ai_semiconductor",
-    "name": "AMD",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "CPU + GPU AI"
-    ],
-    "bull": [
-      "MI455X HBM bandwidth สูงกว่า NVIDIA H200 ใน bandwidth-bound workloads",
-      "EPYC market share ใน x86 server CPU expanding ต่อเนื่อง",
-      "Lisa Su execution track record = among best in semiconductor",
-      "ROCm ecosystem improving — Meta/Microsoft กำลัง adopt",
-      "Ryzen AI กำลัง capture NPU market สำหรับ AI PC"
-    ],
-    "risk": [
-      "ROCm ecosystem ตาม CUDA มากกว่า 5 ปี — switching cost ของ CUDA สูงมาก",
-      "MoS เพียง 3.1% ต่ำเกินไป — ราคาใกล้ Fair Value แล้ว",
-      "AI GPU revenue $7B+ FY2025 vs NVIDIA $193B — gap ยังใหญ่มาก",
-      "Intel recovery ใน server CPU ถ้า 18A ประสบความสำเร็จ",
-      "CapEx ต่ำกว่า NVIDIA ทำให้ capacity supply ถูกจำกัด"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 3,
-    "waf": 6.59,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 633.91,
-    "fv": 323,
-    "mos": -96.26,
-    "fpe": 49.06,
-    "peg": 1.4,
-    "scores": {
-      "bq": [
-        8.5,
-        "green",
-        85
-      ],
-      "gp": [
-        9.3,
-        "green",
-        93
-      ],
-      "va": [
-        1.8,
-        "orange",
-        18
-      ],
-      "ra": [
-        5.3,
-        "orange",
-        53
-      ]
-    },
-    "idea": "Price+deal refresh — price +0.5% ($630.63->$633.91). 🔴MATERIAL 09-28 World Labs acquisition $8.2B all-stock (2nd-largest AMD deal after Xilinx): pre-revenue spatial-AI model company, talent + foundation-model optionality, not in numbers. Mechanical effect only = +0.77% dilution -> FV Base $325->$323. MoS -96.26%, price 1.46x Bull $434, far from gate 15%; WAF 6.59. WATCH.",
-    "updated": "2026-10-04",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-10-04",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "AMD เป็น sole credible #2 ใน AI accelerator (Instinct MI series) + ครอง >40% server CPU share (EPYC) + เป็นบริษัทเดียวที่มี x86 CPU + AI GPU + rack-scale Helios platform ครบในมือ",
-      "why": "Consensus (BofA, Wells Fargo, Mizuho) ตอนนี้เห็นด้วยกับ \"agentic AI CPU\" thesis แล้ว — raise TAM เป็น $170B และเรียก AMD \"top CPU pick\". Warren เห็นว่านี่คือสัญญาณว่า edge เดิม (rerating จาก 'laggard' → 'second source') กำลังกลายเป็น consensus — second-level thinking บอกว่าต้องระวังไม่ chase ราคาที่วิ่งขึ้นจาก sentiment เดียวกันกับที่ตลาดเพิ่งรู้. **2026-08-05 update (post-Q2 earnings):** Q2 FY2026 (Aug 4 after close) beat ทั้งรายได้ ($11.5B +50% YoY, เหนือ guide $11.2B±$300M) และ Non-GAAP EPS ($1.66 vs consensus $1.61) — Data Center revenue $6.7B **+107% YoY** (58% ของรายได้รวม ขึ้นจาก 42% ปีก่อน). Management **raise TAM ครั้งใหญ่**: DC AI accelerator TAM → ~$1.4T by 2030 (>45% CAGR), server CPU TAM → **~$220B by 2030 (ขึ้นจาก $120B ที่ guide แค่ไตรมาสก่อน)**. Anthropic เข้ามาเป็น anchor customer รายที่ 3 (up to 2GW MI450, AMD ลงทุนตรง $5B — ไม่ใช่ warrant structure). Q3 guide $13.0B±$300M (+41% YoY) แข็งแรง. **แต่ตลาดตอบสนองแบบ \"sell the news\"**: หุ้นวิ่งขึ้น +7% ระหว่างวัน 08-04 ปิดที่ $518.58 (ราคาที่ปรากฏใน prices_cache.json รอบนี้ — **แต่เป็นราคาปิดตลาดปกติก่อนงบออกหลังตลาดปิด ไม่ใช่ราคาล่าสุด**), แล้วร่วง after-hours -8.8% เหลือ **~$472.94** และ pre-market ต่อเนื่องแถว **$474-475** เช้า 08-05 (ยืนยันจาก yfinance fast_info previousClose $472.85 + WebSearch หลายแหล่ง — finbold/tradingkey) — expectations ที่ baked-in ไปแล้วสูงกว่าที่ผลจริงจะ satisfy ได้ แม้ผลจะ beat ตัวเลขที่ประกาศไว้ก็ตาม — วัดจากราคาก่อนงบ ($518.58) ที่ยืนเหนือ FV Base ของ Warren เองอยู่มาก (🚫 ตัวเลข analyst price target ตัดออกตามกฎห้าม PT 2026-07-20). Second-level read: TAM raise เป็นของจริง (management เอง ไม่ใช่แค่ analyst) แต่ตลาดกำลัง price-in ว่า \"ดีมากแล้ว ดีกว่านี้ยาก\" ระยะสั้น — MoS ยังคง fail gate ต่อเนื่อง แม้ที่ราคาที่ถูกกว่าที่ cache แสดง",
-      "risk": "MI450 ramp slip หรือ ROCm ตาม CUDA ไม่ทัน ทำให้ hyperscalers ไม่ adopt จริงจัง — หรือ ถ้า \"agentic CPU\" consensus narrative พิสูจน์ว่า overhype (TAM ไม่ materialize ตามที่ BofA/management project) ราคาจะ de-rate เร็ว — เพิ่มเติมรอบนี้: forward commitments ($30.3B unconditional + subsequent $5.0B investment + $9.5B new DC leases) พุ่งเร็วกว่ารายได้ ถ้า AI demand ชะลอกว่าที่ผูกพันไว้ = balance-sheet stress risk ใหม่"
-    },
-    "tier": "🚀 Pre-Inevitable",
-    "charlie": {
-      "verdict": "AGREE",
-      "summary": "",
-      "risks": [],
-      "yf_price": null,
-      "warren_fv": 325,
-      "date": "2026-10-04"
     }
   },
   "AMZN": {
@@ -719,6 +719,86 @@
       "date": "2026-10-11"
     }
   },
+  "ARM": {
+    "symbol": "ARM",
+    "display": "ARM",
+    "category": "ai_semiconductor",
+    "name": "Arm Holdings",
+    "sector": "Semiconductor",
+    "sectorSlug": "semi",
+    "chips": [
+      "Semiconductor",
+      "IP Licensing"
+    ],
+    "bull": [
+      "Armv9 royalty rate 2x Armv8 = structural revenue uplift ทุกปี",
+      "22M+ developers ecosystem ฝังแน่นใน mobile, IoT, servers",
+      "350B chips shipped = installed base ขนาดใหญ่ที่สุดในโลก",
+      "CSS (Compute Subsystem) higher royalty tier กำลัง scale",
+      "AWS Graviton, Apple M-series = royalty revenue ใหม่ขนาดใหญ่"
+    ],
+    "risk": [
+      "P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง",
+      "RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue",
+      "Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips",
+      "SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure",
+      "UK regulatory environment ไม่แน่นอน"
+    ],
+    "action": "watch",
+    "actionLabel": "Watch",
+    "conviction": 2,
+    "waf": 6.05,
+    "wafBadge": "waf-low",
+    "wafComposite": "waf-composite-amber",
+    "price": 238.01,
+    "fv": 187,
+    "mos": -27.28,
+    "fpe": null,
+    "peg": null,
+    "scores": {
+      "bq": [
+        8.0,
+        "green",
+        80
+      ],
+      "gp": [
+        8.0,
+        "green",
+        80
+      ],
+      "va": [
+        3.2,
+        "orange",
+        32
+      ],
+      "ra": [
+        3.0,
+        "orange",
+        30
+      ]
+    },
+    "idea": "Refresh 10-15 — Qualcomm verdict: Arm found in breach, $2 damages; 5y royalty-holiday clause + Armv10 good-faith still with judge. FV $187 carried (worst case ~$170). Price -10.6% to $238.01; MoS -27.27% vs gate 15% (~42 pts short). RA 3.5->3.0, WAF 6.05 LOW. WATCH.",
+    "updated": "2026-10-15",
+    "story_gate": {
+      "passed": true,
+      "status": "PASS",
+      "updated": "2026-10-15",
+      "tier": "🚀 Pre-Inevitable",
+      "tier_slug": "pre-inevitable",
+      "what": "ARM owns the dominant CPU ISA (>95% mobile share) and monetizes via licensing + per-chip royalties with near-zero marginal cost, now expanding into datacenter/AI via Compute Subsystems (CSS) and AGI CPU production silicon.",
+      "why": "Consensus is digesting a two-sided Q1 FY2027 print (clean beat on revenue/EPS but a royalty-growth guide cut on mobile BOM inflation, plus a crystallized Qualcomm/Nuvia court loss) alongside a genuine TAM reframe (AGI CPU Cloud AI CPU TAM $100B→$220B-equivalent, demand backlog >$2B) — Warren's edge is that even after reconciling the valuation to defensible (not just optimistic) consensus EPS, the stock trades at ~95x forward earnings on the re-derived base, i.e. the AGI CPU optionality is being priced as if it's already Base case when it still belongs in Bull; that gap is real but the market isn't pricing it as a gap.",
+      "risk": "DOJ/FTC antitrust action forces licensing model change, OR RISC-V adoption accelerates at hyperscalers, OR the 3rd Circuit appeal against Qualcomm also fails (removing the ~10%-of-revenue Qualcomm relationship from Arm's control) — any of these collapses royalty growth and triggers multiple compression."
+    },
+    "tier": "🚀 Pre-Inevitable",
+    "charlie": {
+      "verdict": "CAUTION",
+      "summary": "",
+      "risks": [],
+      "yf_price": 266.28,
+      "warren_fv": 137,
+      "date": "2026-10-11"
+    }
+  },
   "SKHY": {
     "symbol": "SKHY",
     "display": "SK Hynix",
@@ -788,86 +868,6 @@
       "risks": [],
       "yf_price": 169.03,
       "warren_fv": 47,
-      "date": "2026-10-11"
-    }
-  },
-  "ARM": {
-    "symbol": "ARM",
-    "display": "ARM",
-    "category": "ai_semiconductor",
-    "name": "Arm Holdings",
-    "sector": "Semiconductor",
-    "sectorSlug": "semi",
-    "chips": [
-      "Semiconductor",
-      "IP Licensing"
-    ],
-    "bull": [
-      "Armv9 royalty rate 2x Armv8 = structural revenue uplift ทุกปี",
-      "22M+ developers ecosystem ฝังแน่นใน mobile, IoT, servers",
-      "350B chips shipped = installed base ขนาดใหญ่ที่สุดในโลก",
-      "CSS (Compute Subsystem) higher royalty tier กำลัง scale",
-      "AWS Graviton, Apple M-series = royalty revenue ใหม่ขนาดใหญ่"
-    ],
-    "risk": [
-      "P/E 55x ราคาสูงมาก — ต้องการ execution perfect และ growth ต่อเนื่อง",
-      "RISC-V open-source ถูกกว่า ถ้า adoption เร็วกระทบ licensing revenue",
-      "Qualcomm dispute ยืดเยื้อ — ถ้าแพ้คดีกระทบรายได้ mobile chips",
-      "SoftBank ถือหุ้นใหญ่ = overhang และ selling pressure",
-      "UK regulatory environment ไม่แน่นอน"
-    ],
-    "action": "watch",
-    "actionLabel": "Watch",
-    "conviction": 2,
-    "waf": 6.0,
-    "wafBadge": "waf-low",
-    "wafComposite": "waf-composite-amber",
-    "price": 266.28,
-    "fv": 187,
-    "mos": -42.4,
-    "fpe": null,
-    "peg": null,
-    "scores": {
-      "bq": [
-        8.0,
-        "green",
-        80
-      ],
-      "gp": [
-        8.0,
-        "green",
-        80
-      ],
-      "va": [
-        2.7,
-        "orange",
-        27
-      ],
-      "ra": [
-        3.5,
-        "orange",
-        35
-      ]
-    },
-    "idea": "News+price refresh: Qualcomm v. Arm trial (opened 10-05, verdict pending) puts up to 5y royalty holiday on ~9% of revenue at stake + Armv10 pricing good-faith claim. FV $187 carried (worst-case sensitivity ~$170). Price -13.4% to $266.28 -> MoS -42.40% vs gate 20% (~62 pts short); WAF 6.0. WATCH. Next catalysts: trial verdict, Q2 FY27 print early Nov.",
-    "updated": "2026-10-11",
-    "story_gate": {
-      "passed": true,
-      "status": "PASS",
-      "updated": "2026-10-11",
-      "tier": "🚀 Pre-Inevitable",
-      "tier_slug": "pre-inevitable",
-      "what": "ARM owns the dominant CPU ISA (>95% mobile share) and monetizes via licensing + per-chip royalties with near-zero marginal cost, now expanding into datacenter/AI via Compute Subsystems (CSS) and AGI CPU production silicon.",
-      "why": "Consensus is digesting a two-sided Q1 FY2027 print (clean beat on revenue/EPS but a royalty-growth guide cut on mobile BOM inflation, plus a crystallized Qualcomm/Nuvia court loss) alongside a genuine TAM reframe (AGI CPU Cloud AI CPU TAM $100B→$220B-equivalent, demand backlog >$2B) — Warren's edge is that even after reconciling the valuation to defensible (not just optimistic) consensus EPS, the stock trades at ~95x forward earnings on the re-derived base, i.e. the AGI CPU optionality is being priced as if it's already Base case when it still belongs in Bull; that gap is real but the market isn't pricing it as a gap.",
-      "risk": "DOJ/FTC antitrust action forces licensing model change, OR RISC-V adoption accelerates at hyperscalers, OR the 3rd Circuit appeal against Qualcomm also fails (removing the ~10%-of-revenue Qualcomm relationship from Arm's control) — any of these collapses royalty growth and triggers multiple compression."
-    },
-    "tier": "🚀 Pre-Inevitable",
-    "charlie": {
-      "verdict": "CAUTION",
-      "summary": "",
-      "risks": [],
-      "yf_price": 266.28,
-      "warren_fv": 137,
       "date": "2026-10-11"
     }
   },
