@@ -8,7 +8,7 @@ var TRENDS_DATA = [
     conviction: "HIGH",
     last_updated: "2026-08-11",
     summary: "ลองนึกภาพการก่อสร้างเมืองใหม่ทั้งเมืองในเวลาห้าปี ไม่ใช่บ้านสองสามหลัง แต่เป็นโครงสร้างพื้นฐานทั้งหมด ตั้งแต่ถนน ระบบไฟฟ้า ท่อน้ำ ไปจนถึงตึกสูง นั่นคือสิ่งที่กำลังเกิดขึ้นในโลกของ AI datacenter ในขณะนี้",
-    tickers: ["NVDA", "AVGO", "TSM", "ASML", "LITE", "COHR", "MU", "SKHY", "SPCX", "MSFT", "GOOGL", "AMZN", "META"],
+    tickers: ["NVDA", "AVGO", "TSM", "ASML", "LITE", "COHR", "MU", "SKHY", "SPCX", "IREN", "MSFT", "GOOGL", "AMZN", "META"],
     content: `# โครงสร้างพื้นฐาน AI: มหาสงครามแห่งการลงทุน
 *เมื่อ Big Tech ทุ่ม $725 พันล้านดอลลาร์ในปีเดียว คำถามไม่ใช่ว่าใครจะชนะ แต่ว่าใครจะส่งของได้ทัน*
 
@@ -54,6 +54,8 @@ ASML ซึ่งเป็นบริษัทเดียวในโลกท
 **[[SKHY]]** (SK hynix) เป็นผู้นำตลาด HBM อันดับ 1 ของโลกด้วยส่วนแบ่ง 56.4% (Q1 2026) และเป็นซัพพลายเออร์ HBM หลักให้ NVIDIA มายาวนาน TSMC ปรับ CoWoS process recipe ให้เข้ากับ SK hynix มาตั้งแต่ยุค HBM2e ซึ่งเป็นความได้เปรียบเชิงโครงสร้างที่ทำให้ SK hynix อยู่ในตำแหน่งศูนย์กลางของ AI Infrastructure supply chain
 
 **[[SPCX]]** (SpaceX) แม้ไม่ใช่ผู้เล่นตรงในฝั่ง chip/datacenter แต่ Starlink/Starshield และแผน space-based compute infrastructure ทำให้ SpaceX กลายเป็นผู้เล่นสำคัญของโครงสร้างพื้นฐานยุคใหม่ที่เชื่อมต่อ AI workloads ผ่านดาวเทียม รองรับ demand สำหรับ connectivity ที่ hyperscalers ต้องการขยายไปทั่วโลก
+
+**[[IREN]]** (IREN Limited) เปลี่ยนจากเหมืองบิตคอยน์มาเป็นผู้ให้เช่า GPU cloud สำหรับ AI โดยเป็นเจ้าของเองครบทุกชั้น ตั้งแต่ที่ดิน สายส่งไฟฟ้าที่จองไว้แล้วราว 5GW อาคาร data center ไปจนถึง GPU (NVIDIA GB300) ลูกค้าหลักคือ Microsoft (สัญญา $9.7B 5 ปี) และ NVIDIA ($3.4B) รายได้ประจำต่อปี (ARR) ที่เดินเครื่องจริงอยู่ราว $1B และตั้งเป้าเกิน $4B ภายในสิ้นปี 2026 — แต่ยังต้องลงทุนอีก $25–30B ในปีงบ 2027 จึงต้องพึ่งเงินกู้และการออกหุ้นเพิ่มต่อเนื่อง ความเสี่ยงสูงกว่าผู้เล่นรายใหญ่ชัดเจน
 
 **Cloud Hyperscalers**
 
@@ -318,7 +320,7 @@ Broadcom Tomahawk 5 CPO อยู่ใน volume production แล้ว NVIDIA
     conviction: "HIGH",
     last_updated: "2026-08-11",
     summary: "มีความเข้าใจผิดที่พบบ่อยในการวิเคราะห์หุ้นเทคโนโลยีว่า \"ถ้าบริษัทเพิ่มงบ CapEx มาก หมายความว่ากำไรจะลดลง\" ความเข้าใจนี้อาจถูกสำหรับบริษัททั่วไป แต่ผิดอย่างมีนัยสำคัญสำหรับ hyperscalers ในปี 2026",
-    tickers: ["GOOGL", "MSFT", "AMZN", "META", "LITE"],
+    tickers: ["GOOGL", "MSFT", "AMZN", "META", "LITE", "IREN"],
     content: `# Cloud CapEx Acceleration: เมื่อยักษ์ใหญ่ทุ่มพร้อมกัน
 *สามยักษ์ Cloud เพิ่มงบลงทุนพร้อมกันในขณะที่รายได้เร่งตัวขึ้น — นี่คือสัญญาณที่ดีที่สุดที่จะเห็นได้*
 
@@ -360,6 +362,8 @@ META และ Amazon ซึ่งครั้งหนึ่งถูกมอ�
 **[[META]]** ได้ประโยชน์จาก AI-enhanced ad monetization และการสร้าง Llama open-source ecosystem ที่ทำให้นักพัฒนาทั่วโลก build บน Meta infrastructure รายได้โฆษณาที่ดีขึ้นจาก AI targeting ทำให้ ROI สำหรับผู้โฆษณาดีขึ้น ซึ่ง reinforce ให้พวกเขาใช้จ่ายมากขึ้น
 
 **[[LITE]]** (Lumentum) ได้ประโยชน์โดยตรงจาก cloud CapEx ที่เร่งตัว เพราะทุก dollar ที่ hyperscaler ทุ่มลงทุนใน AI data center ต้องการ optical transceiver และ laser chip เพื่อเชื่อมต่อ GPU cluster ขนาดใหญ่ให้ทำงานเป็นกลุ่มเดียวกัน Q3 FY2026 revenue โต +90% YoY เป็น record จากดีมานด์ cloud/AI โดยตรง และ NVIDIA ลงทุน $2B เป็น strategic investment ใน Lumentum ซึ่งยืนยันว่า optical connectivity คือ bottleneck ถัดไปของการขยาย cloud infrastructure หลังจาก compute เอง EML และ pump laser ขายหมด (sold out) สะท้อนว่า cloud buildout กำลังวิ่งเร็วกว่า supply chain ของ optical component
+
+**[[IREN]]** (IREN Limited) ได้ประโยชน์จากการที่ hyperscaler ขยาย cloud ไม่ทันจนต้องเช่า capacity จากภายนอก — Microsoft เซ็นสัญญาเช่า GPU cluster กับ IREN มูลค่า $9.7B ระยะ 5 ปี และส่งมอบเฟสแรก (Horizon 1) แล้วเมื่อ ส.ค. 2026 จุดแข็งคือเป็นเจ้าของไฟฟ้าและที่ดินเอง ทำให้สร้าง capacity ใหม่ได้เร็ว แต่รายได้ส่วนใหญ่ยังเป็นเป้าหมายที่ต้องส่งมอบให้ทันปลายปี 2026 และพึ่งลูกค้าไม่กี่ราย
 
 ## หุ้นที่อาจเสียประโยชน์หรือเผชิญความเสี่ยง
 
